@@ -1,0 +1,1 @@
+﻿Toxic Modder	G	uncommon	Creature – Dragon Artificer 	197	G	2G	DeathtouchNEWLINE4G, T, Sacrifice this creature: Create two tapped X/X colorless Construct creature tokens, where X is the number of creature and enchantment cards in your graveyard.	3/2		normal	ERR		!tokens colorless Construct XXEIW;Cache EIWNEWLINEart3NEWLINEPret a Morter

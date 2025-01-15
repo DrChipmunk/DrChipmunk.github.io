@@ -1,0 +1,1 @@
+﻿Fall Forever	B	rare	Instant	101	B	B	As an additional cost to cast this spell, remove a level counter from a creature you control or pay 3.NEWLINEExile target creature or planeswalker. Surveil 2.			normal	ERR		!tokens Memory EIWNEWLINEart4NEWLINEflagged (maybe)

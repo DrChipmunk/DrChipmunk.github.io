@@ -1,0 +1,1 @@
+﻿Mev, Corruption Runner	WU	rare	Legendary Creature – Human Scout 	210	WU	WU	Mev can’t be blocked by creatures with greater power.NEWLINEWhenever Mev attacks, draw a card.NEWLINEWhenever Mev deals damage to a player, that player draws a card.	2/1		normal	ERR		art4NEWLINEflagged (maybe)NEWLINEflagged (favorite)

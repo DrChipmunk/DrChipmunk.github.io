@@ -1,0 +1,1 @@
+﻿Earn Your Wings	W	common	Enchantment – Aura 	15	W	2W	FlashNEWLINEEnchant creatureNEWLINEWhen this Aura enters, enchanted creature gets +2/+2 until end of turn.NEWLINEEnchanted creature has flying.			normal	ERR		art3

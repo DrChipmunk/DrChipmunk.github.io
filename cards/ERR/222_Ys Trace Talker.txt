@@ -1,0 +1,1 @@
+﻿Ys, Trace Talker	UB	rare	Legendary Creature – Elf Warlock 	222	UB	UB	T, Exile target creature card with the same power, toughness, or mana value as this creature from your graveyard: This creature becomes a copy of that card, except it has this ability. 	2/2		normal	ERR		art4NEWLINEflagged (build-around)NEWLINEflagged (favorite)

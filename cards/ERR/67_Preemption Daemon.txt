@@ -1,0 +1,1 @@
+﻿Preemption Daemon	U	rare	Enchantment Creature – Bird 	67	U	2UU	FlashNEWLINEFlyingNEWLINEWhen this creature enters, exile target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying 3 rather than its mana cost.	2/2		normal	ERR		!tokens Memory EIWNEWLINEart5NEWLINEflagged (maybe)NEWLINENEWLINEtop20

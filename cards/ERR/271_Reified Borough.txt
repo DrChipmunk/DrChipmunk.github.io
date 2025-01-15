@@ -1,0 +1,1 @@
+﻿Reified Borough		uncommon	Land	271			When this land enters, sacrifice it. Search your library for a basic Forest or Plains card, put it onto the battlefield tapped, then shuffle.NEWLINE3GW, Discard Reified Borough: Destroy up to two target artifacts or enchantments.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Reified Borough

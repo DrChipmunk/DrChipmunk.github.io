@@ -1,0 +1,1 @@
+﻿Daemonic Binding	W	common	Sorcery	12	W	2W	As an additional cost to cast this spell, tap an untapped creature you control with a level counter on it or pay 3.NEWLINEExile target creature or enchantment.			normal	ERR		art4

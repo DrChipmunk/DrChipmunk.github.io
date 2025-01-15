@@ -1,0 +1,1 @@
+﻿Flowing Form	G	common	Enchantment – Aura 	174	G	1G	Enchant creature you control.NEWLINEEnchanted creature gets +1/+1.NEWLINEWhen this Aura enters, enchanted creature fights up to one target creature.			normal	ERR		art4NEWLINENEWLINESecret Santa

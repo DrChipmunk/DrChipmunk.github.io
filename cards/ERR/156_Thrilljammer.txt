@@ -1,0 +1,1 @@
+﻿Thrilljammer	R	common	Creature – Ferret Warrior 	156	R	2R	When this creature enters, create a red Subroutine enchantment token named BOOST() with “Whenever this Subroutine runs, add R.” (Insert it into one of your programs.)	3/3		normal	ERR		!tokens BOOST() EIW;Program B EIWNEWLINENEWLINEart4NEWLINEconcern (power)

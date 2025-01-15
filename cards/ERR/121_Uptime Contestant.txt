@@ -1,0 +1,1 @@
+﻿Uptime Contestant	B	uncommon	Creature – Cat Rogue 	121	B	2B	2B, T: Target opponent loses 2 life.NEWLINE6BB, T: Target opponent loses 5 life.	3/2		normal	ERR		art4

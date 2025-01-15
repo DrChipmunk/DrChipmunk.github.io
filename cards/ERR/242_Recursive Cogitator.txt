@@ -1,0 +1,1 @@
+﻿Recursive Cogitator		uncommon	Artifact Creature – Construct 	242		2	1, T: Return target permanent you control to its owner’s hand. Activate only as a sorcery.	2/1		normal	ERR		art4NEWLINEflagged (solid)NEWLINEconcern (play)

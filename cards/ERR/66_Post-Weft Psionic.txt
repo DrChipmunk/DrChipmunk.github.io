@@ -1,0 +1,1 @@
+﻿Post-Weft Psionic	U	rare	Creature – Human Wizard 	66	U	2U	At the beginning of each player’s upkeep, that player mills X cards, where X is the number of tapped permanents their opponents control.	3/3		normal	ERR		art5

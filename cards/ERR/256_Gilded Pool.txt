@@ -1,0 +1,1 @@
+﻿Gilded Pool		common	Land	256			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add W or U.			normal	ERR		art5NEWLINENEWLINEIf common: Pristine StackNEWLINEThe Stack is a place for those fulfilled by co-operation and assistance. In the crisis it became a center of command.

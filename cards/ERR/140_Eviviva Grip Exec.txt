@@ -1,0 +1,1 @@
+﻿Eviviva, Grip Exec	R	rare	Legendary Creature – Human Bard 	140	R	1RRRR	First strikeNEWLINEWhenever Eviviva enters or attacks, create an X/X colorless Construct artifact creature token, where X is the greatest mana value among other permanents you control.	5/5		normal	ERR		art5NEWLINEflagged (maybe)NEWLINEflagged (build-around)NEWLINEflagged (favorite)

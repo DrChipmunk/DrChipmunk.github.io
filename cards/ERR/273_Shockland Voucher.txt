@@ -1,0 +1,1 @@
+﻿Shockland Voucher		common	Voucher Land	273			(This card appears only in sealed.)NEWLINEAs you build you deck, exchange this card for a common shockland of your choice.NEWLINE(They are lands that tap for two colors of mana and enter tapped unless you pay 2 life.)			normal	ERR		

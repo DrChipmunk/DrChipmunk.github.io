@@ -1,0 +1,1 @@
+﻿Garbage Collector	G	common	Creature – Human Druid 	176	G	1G	G, T, Sacrifice an artifact or enchantment: Cache the top card of your library face-down. Activate only as a sorcery. (Look at it, then exile it face down. Create a Memory enchantment token with “2, Sacrifice this:You may play the cached card this turn.”)	2/2		normal	ERR		!tokens Memory EIWNEWLINENEWLINEart5

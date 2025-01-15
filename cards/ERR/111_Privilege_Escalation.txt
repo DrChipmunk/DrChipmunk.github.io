@@ -1,0 +1,1 @@
+﻿Privilege_Escalation	B	rare	Creature – Error 	111	B	8BB	LifelinkNEWLINEWhen this creature enters, for each nonland permanent your opponents control, its controller sacrifices it unless they pay life equal to 2 plus its mana value.	11/13		normal	ERR		art3NEWLINElifelink?NEWLINEflagged (maybe)NEWLINENEWLINEtop20

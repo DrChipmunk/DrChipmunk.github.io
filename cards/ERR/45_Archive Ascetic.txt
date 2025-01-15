@@ -1,0 +1,1 @@
+﻿Archive Ascetic	U	common	Creature – Human Monk 	45	U	2U		3/2	Level up 2U (2U: Put a level counter on this. Level up only as a sorcery.) [3/2]NEWLINE[level 2-4] Flying [4/3]NEWLINE[level 5+] Flying, hexproof [5/4]	leveler	ERR		art5NEWLINENEWLINEunhuman?NEWLINENEWLINEUnfulfilled want is a rare, sought-after sensation in the Weft. 

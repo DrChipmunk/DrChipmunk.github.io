@@ -1,0 +1,1 @@
+﻿JUMP()	U	uncommon	Enchantment – Subroutine 	58	U	U	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, exile up to one target other creature or enchantment. Return it to the battlefield under its owner’s control at the beginning of the next end step.			normal	ERR		!tokens Program B EIWNEWLINEtype BNEWLINEart5

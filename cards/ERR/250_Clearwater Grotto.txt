@@ -1,0 +1,1 @@
+﻿Clearwater Grotto		common	Land	250			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add U or G.			normal	ERR		NEWLINEIf common: Idyllic BufferNEWLINEThe Buffer is a cozy town of hundreds of thousands of people surrounded by endless acres of carefully designed wilderness.NEWLINENEWLINEIf KUT: Clearwater Grotto

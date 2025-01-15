@@ -1,0 +1,1 @@
+﻿Undefined_Behavior	U	rare	Creature – Error Sphinx 	79	U	7UU	FlyingNEWLINEWhen this creature enters, for each permanent type, create a token that’s a copy of up to one target non-Error permanent you control of that type.	9/12		normal	ERR		art4NEWLINEflagged (maybe)

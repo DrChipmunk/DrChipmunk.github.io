@@ -1,0 +1,1 @@
+﻿BYPASS()	R	uncommon	Enchantment – Subroutine 	127	R	2R	(As this enters, insert it into one of your programs.)NEWLINECorrupt – When this Subroutine enters, if you control a permanent with mana value 4 or greater, it runs.NEWLINEWhenever this Subroutine runs, create two 1/1 white Citizen creature tokens. They gain haste until end of turn.			normal	ERR		type C

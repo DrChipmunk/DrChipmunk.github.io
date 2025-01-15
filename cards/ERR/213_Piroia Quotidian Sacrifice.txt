@@ -1,0 +1,1 @@
+﻿Piroia, Quotidian Sacrifice	BG	rare	Legendary Creature – Human Shaman 	213	BG	1BG	2, T, Sacrifice Piroia: Destroy target nonland, nontoken permanent. At the beginning of the next upkeep, return it and this creature to the battlefield under their owners’ control. 	3/2		normal	ERR		art3

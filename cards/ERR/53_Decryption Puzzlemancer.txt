@@ -1,0 +1,1 @@
+﻿Decryption Puzzlemancer	U	uncommon	Creature – Merfolk Wizard 	53	U	1U	2U, T: Draw a cardNEWLINE6UU, T: Draw four cards.	2/2		normal	ERR		type CNEWLINEart4NEWLINENEWLINE2U, T: Draw a cardNEWLINE6UU, T: Draw four cards.NEWLINENEWLINEThe Decryption is a branching tree of puzzles all over the Archives. Those that reach an end point must add a new puzzle to the chain.

@@ -1,0 +1,1 @@
+﻿Go For Gold	R	common	Instant	144	R	1R	Target creature gets +3/+1 until end of turn.NEWLINECreate a tapped Treasure token.			normal	ERR		!tokens Treasure EIWNEWLINENEWLINEart4NEWLINEconcern (power)

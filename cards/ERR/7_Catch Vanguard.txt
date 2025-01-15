@@ -1,0 +1,1 @@
+﻿Catch Vanguard	W	uncommon	Creature – Human Soldier 	7	W	2W		2/4	Level up 1W (1W: Put a level counter on this. Level up only as a sorcery.) [2/4]NEWLINE[level 1-2] Creatures you control with level up have vigilance and ward 2. [3/5]NEWLINE[level 3+] Creatures you control with level up have vigilance and ward 4. [4/6]	leveler	ERR		type BNEWLINEart3

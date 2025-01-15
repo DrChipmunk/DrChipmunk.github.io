@@ -1,0 +1,1 @@
+﻿RECV()	B	common	Enchantment – Subroutine 	114	B	B	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, surveil 2.NEWLINE1B, Sacrifice this Subroutine, Pay 2 life: Draw two cards.			normal	ERR		When you read a trace, you don’t just learn about a person. You become them.            – YsNEWLINENEWLINEart5

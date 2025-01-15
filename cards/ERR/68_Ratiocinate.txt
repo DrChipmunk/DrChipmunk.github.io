@@ -1,0 +1,1 @@
+﻿Ratiocinate	U	common	Sorcery	68	U	3U	Draw three cards.NEWLINEDiscard a card unless a Subroutine you control ran this turn.			normal	ERR		art4NEWLINEIf we were made for a purpose, we’d have found it by now.                       – Convol

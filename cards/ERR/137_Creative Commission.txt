@@ -1,0 +1,1 @@
+﻿Creative Commission	R	uncommon	Enchantment	137	R	1R	Whenever a Subroutine you control runs, exile the top card of your library face-down. (You can’t look at it.)NEWLINER, Sacrifice this enchantment, Discard your hand: Put all cards exiled with this enchantment into your hand.			normal	ERR		Type B

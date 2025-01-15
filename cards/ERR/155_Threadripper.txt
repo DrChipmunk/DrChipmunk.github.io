@@ -1,0 +1,1 @@
+﻿Threadripper	R	uncommon	Creature – Jackal Warlock 	155	R	4R	Ward–Pay 3 life.NEWLINEWhenever you attack, target creature gets +2/+0 and gains first strike until end of turn.	4/4		normal	ERR		!tokens red Error 44EIW;Program B EIWNEWLINEart4NEWLINENEWLINE// This line should be unreachable.

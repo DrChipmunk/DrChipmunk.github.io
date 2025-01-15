@@ -1,0 +1,1 @@
+﻿Swamp_Pixel		common	Basic Land – Swamp 	288						normal	ERR		!exportname Swamp_Pixel

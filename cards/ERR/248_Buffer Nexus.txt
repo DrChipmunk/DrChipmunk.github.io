@@ -1,0 +1,1 @@
+﻿Buffer Nexus		rare	Land	248			This land enters tapped.NEWLINET: Add G.NEWLINEGGG, T, Sacrifice this land: Reveal a green card you own from outside the game and put it into your hand.			normal	ERR		art3

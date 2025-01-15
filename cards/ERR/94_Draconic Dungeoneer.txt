@@ -1,0 +1,1 @@
+﻿Draconic Dungeoneer	B	common	Creature – Dragon Artificer Bard 	94	B	4B	This spell costs 2 less to cast if you control a creature with a level counter on it.NEWLINEFlying	3/5		normal	ERR		art5

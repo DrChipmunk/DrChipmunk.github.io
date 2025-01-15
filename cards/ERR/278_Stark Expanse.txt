@@ -1,0 +1,1 @@
+﻿Stark Expanse		common	Land	278			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add W or B.			normal	ERR		NEWLINEIF KUT: Stark ExpanseNEWLINENEWLINEif common: Intricate HeapNEWLINEThe Heap is a mass of dungeons; punishing, tricky environments for those who believe life requires challenge.

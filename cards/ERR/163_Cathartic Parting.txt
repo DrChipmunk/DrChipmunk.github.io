@@ -1,0 +1,1 @@
+﻿Cathartic Parting	G	uncommon	Sorcery	163	G	1G	The owner of target artifact or enchantment an opponent controls shuffles it into their library. You may shuffle up to four target cards from your graveyard into your library.			normal	ERR		Needs NEWLINEart5NEWLINEflagged (sideboard)

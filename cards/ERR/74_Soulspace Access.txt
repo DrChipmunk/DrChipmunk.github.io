@@ -1,0 +1,1 @@
+﻿Soulspace Access	U	uncommon	Enchantment – Aura 	74	U	1UU	Enchant creature with power 2 or less.NEWLINEYou control enchanted creature.			normal	ERR		type ANEWLINEart4NEWLINEflagged (sideboard)

@@ -1,0 +1,1 @@
+﻿blue Bird 22ERR	U	common	Token Enchantment Creature – Bird 	7	U		Flying	2/2		token	ERR		!exportname blue Bird 22ERRNEWLINE!related FLOCK();Daemonmage;NEWLINEart4

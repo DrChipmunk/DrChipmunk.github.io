@@ -1,0 +1,1 @@
+﻿Student of Immortality	W	uncommon	Creature – Human Citizen 	36	W	1W		3/1	Level up 1B (1B: Put a level counter on this. Level up only as a sorcery.) [3/1]NEWLINE[level 2-4] When this creature dies, return it to your hand. [5/3]NEWLINE[level 5+] Whenever a creature you control dies, return it to your hand. [7/5]	leveler	ERR		!tokens Memory EIWNEWLINEtype CNEWLINEart3

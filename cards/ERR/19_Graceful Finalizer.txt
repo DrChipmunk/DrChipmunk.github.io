@@ -1,0 +1,1 @@
+﻿Graceful Finalizer	W	uncommon	Creature – Human Citizen 	19	W	2W	When this creature enters, exile up to one target enchantment.	3/2		normal	ERR		type ANEWLINEart3NEWLINEflagged (sideboard)

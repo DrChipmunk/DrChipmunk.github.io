@@ -1,0 +1,1 @@
+﻿SAVE() ERR	R	common	Token Enchantment – Subroutine 	12	R		Whenever this Subroutine runs, exile the top card of your library. You may play that card this turn.			token	ERR		!exportname SAVE() ERRNEWLINE!related The Weftheart;NEWLINEart5

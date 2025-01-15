@@ -1,0 +1,1 @@
+﻿Stack Nexus		rare	Land	277			This land enters tapped.NEWLINET: Add W.NEWLINEWWW, T, Sacrifice this land: Reveal a white card you own from outside the game and put it into your hand.			normal	ERR		art5

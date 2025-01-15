@@ -1,0 +1,1 @@
+﻿Token_Limit	R	uncommon	Creature – Error 	157	R	5RR	MenaceNEWLINEWhen this creature enters, it deals X damage to any target, where X is the number of tokens you control.	6/6		normal	ERR		art5NEWLINEErrors grow wherever reality is thin.NEWLINEerrft

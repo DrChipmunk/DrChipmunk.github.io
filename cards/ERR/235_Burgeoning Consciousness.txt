@@ -1,0 +1,1 @@
+﻿Burgeoning Consciousness		common	Artifact Creature – Construct 	235		4		4/4	Level up 3 (3: Put a level counter on this. Level up only as a sorcery.) [4/4]NEWLINE[level 2-5] Vigilance [6/6]NEWLINE[level 6+] Vigilance, indestructible [8/8]	leveler	ERR		art4

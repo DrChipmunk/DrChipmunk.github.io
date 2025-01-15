@@ -1,0 +1,1 @@
+﻿Data Staff	U	uncommon	Artifact	52	U	1U	This artifact enters tapped.NEWLINET: Add one mana of any color. Spend this mana only to cast Subroutine spells.NEWLINE4, T: Draw a card. This ability costs 1 less to activate for each Subroutine you control that ran this turn.			normal	ERR		type BNEWLINEart5

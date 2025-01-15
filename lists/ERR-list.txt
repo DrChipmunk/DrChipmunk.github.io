@@ -1,0 +1,355 @@
+31_Priority_Inversion
+48_Composer of Skylines
+98_Entropy_Inversion
+133_Coherence_Inversion
+167_Cyberzoologist
+42_Voice of Utopia
+73_Signal_Inversion
+110_Lifehacker
+135_Competitive Hedonist
+191_Resource_Inversion
+10_Complementarity
+44_Architect of the Intangible
+86_BORROW()
+123_Artful Hologram
+161_Aurore, Buffer Exec
+11_Containment Seraph
+49_Convol, Archive Exec
+99_Exorcist of Errors
+126_Bootstrap Daemon
+164_COMPILE()
+13_Darisha, Stack Exec
+55_Echo Choreographer
+101_Fall Forever
+128_Cache Thrasher
+171_Errorsbane Deadshot
+17_EXIT()
+66_Post-Weft Psionic
+102_Fan Favorite Daredevil
+129_Catastrophe Rider
+183_Menagerie Mechanic
+18_Futurist Ideal
+67_Preemption Daemon
+111_Privilege_Escalation
+138_Electronic Countermeasures
+185_Mystic of Returns
+28_Pixel Pixie
+70_RESET()
+112_Qion, Heap Exec
+140_Eviviva, Grip Exec
+186_Piroia's Ordeal
+29_Placeholder_Asset
+77_SYSCALL()
+117_Seeker of the Pre-Weft
+148_Infinite_Loop
+187_Record_Desync
+34_Root Navigator
+79_Undefined_Behavior
+119_Spiteful Griefer
+151_PANIC()
+189_Rejuvenation Session
+41_Virtualized Onomastic
+81_Unending Possibility
+120_A Tear in the Weft
+152_Profiler of Pain
+199_Untethered Daemon
+6_Assert Mediator
+46_Buoyant Datagrazer
+83_0xdeadbeef
+124_Bitscan Freerunner
+163_Cathartic Parting
+7_Catch Vanguard
+50_COPY()
+85_BEHOLD()
+125_Boorish Celebrant
+166_Concurrent Escapist
+8_Centennial Maestro
+52_Data Staff
+89_Catabolist
+127_BYPASS()
+168_Dream Big
+19_Graceful Finalizer
+53_Decryption Puzzlemancer
+90_Cheat Code
+130_Catch Defector
+170_Elma's Regular
+20_Imperious Admin
+54_Denotation Failure
+91_Death's Believers
+132_CHURN()
+173_Fickle Gourmand
+21_Lost Connection
+58_JUMP()
+92_Do_Not_Respond
+137_Creative Commission
+177_GENERATE()
+23_Mail Daemon
+59_Just-In-Time Interpreter
+96_Duress
+139_Error Tide
+178_Lavis' Hydroponicist
+24_MASK()
+60_Mev's Holographist
+97_Earworm DJ
+142_FORK()
+180_Masksmith
+25_Metatactician
+64_Olis's Axiom
+100_Failed Gateway
+146_Groove Surfer
+181_Megafauna Knight
+26_Mobilization Technician
+65_Parse
+104_Grognard
+147_High Rollers
+188_Recurring_Noise
+32_Reprieve from Mortality
+69_Reclusive Percipient
+105_Hang
+150_Overwhelming Upload
+190_RESONATE()
+36_Student of Immortality
+71_Rogue Daemon
+108_Killscore Vanguard
+153_Rowhammer
+192_Schematic Archer
+39_UNDO()
+74_Soulspace Access
+115_Rooftop Leaper
+155_Threadripper
+194_Showstopping Couture
+40_Use_After_Free
+80_Underflow_Error
+116_Rumormonger
+157_Token_Limit
+196_Speculative_Execution
+43_Weave Dispatcher
+82_WAIT()
+121_Uptime Contestant
+158_Transgressive Trendsetter
+197_Toxic Modder
+5_﻿Ambitious Angel
+45_Archive Ascetic
+84_Backdoor Prowler
+122_Abrasive Punk
+162_Buffer Botanist
+9_Checkpoint Daemon
+47_Codepath Runner
+87_Burnout Champion
+131_Charming Exceptional
+165_Computing Titan
+12_Daemonic Binding
+51_Cybersaurus
+88_Carefree Mortalist
+134_COMMIT()
+169_Ecosystem Revivalists
+14_Download Courier
+56_FLOCK()
+93_Downlink Overload
+136_CR07
+172_Fault_Injection
+15_Earn Your Wings
+57_Glitchlands Sentinel
+94_Draconic Dungeoneer
+141_Finishing Blow
+174_Flowing Form
+16_Element Aesthete
+61_Mnemologist
+95_Dropped_Polygon
+143_Frag
+175_Fond Reminiscence
+22_Lumen Irregular
+62_Negate
+103_Forced Shutdown
+144_Go For Gold
+176_Garbage Collector
+27_Not_A_Teletype
+63_No_Response_Received
+106_Heap Delver
+145_Grip Pinch-Hitter
+179_Magnum Opus
+30_Plasma Strike
+68_Ratiocinate
+107_Hovering Delinquent
+149_Inversion's Herald
+182_Memorivore
+33_RETURN()
+72_Sensory Deprivation
+109_Level Drain
+154_Shock
+184_Mirage Model
+35_Stack Strike Leader
+75_Soulspace Refit
+113_Reboot
+156_Thrilljammer
+193_SEEK()
+37_Tapestry Guard
+76_Swap to Storage
+114_RECV()
+159_Unfettered Spirit
+195_Skywatch Jockey
+38_Telepresence Axiom
+78_Task Triage
+118_Smog Hound
+160_Web Surfer
+198_Trawl the Net
+er
+er
+er
+er
+er
+210_Mev, Corruption Runner
+222_Ys, Trace Talker
+218_Vijkstra, Spine Breaker
+220_The Weftheart
+207_Lavis, Root Exec
+215_Refresh Daemon
+219_Weft Dancer
+204_Glitchdrinker
+221_Xeia, Record Chaser
+201_Burrow Checker
+224_Daemonmage
+230_Phantom_Interrupt
+225_Error's Advocate
+200_Arcade Junkies
+231_Request Handler
+e
+e
+e
+226_Etherkiller
+e
+er
+er
+er
+er
+er
+206_Kaluthax, Dungeon Master
+213_Piroia, Quotidian Sacrifice
+203_Gemi and Nu, Cachemates
+212_Olis Mars, Final Archivist
+217_Toki, Celebrity Soldier
+202_Crypt of Despair Grinder
+211_NotFound_1
+205_Install Wizard
+216_Scripting Sage
+209_Make the Last Night Count
+227_Kaluthax's Challenger
+228_Lonesome Afterimage
+232_Superuser
+229_LOOP()
+223_Catch Constable
+er
+er
+er
+er
+er
+208_Lio, Daemon's Hope
+214_RECURSE()
+e
+e
+e
+er
+er
+er
+er
+er
+237_EXPLODE()
+233_Archival Storage
+234_Autonomous Apiarist
+239_Helen's Failsafe
+242_Recursive Cogitator
+243_Remotist Axiom
+2_Errors in the Weft
+4_Subroutines
+235_Burgeoning Consciousness
+236_Common Laser Sword
+238_Geometry Stabilizer
+240_MAP()
+241_Prototype Warform
+244_Synthetic Connaisseur
+e
+er
+er
+er
+er
+er
+247_Avatar Exchange
+245_Archive Nexus
+248_Buffer Nexus
+258_Grip Nexus
+259_Heap Nexus
+277_Stack Nexus
+246_Ardent Rise
+253_Faulty Server
+255_Forgotten Junkyard
+257_Glittering Club
+261_Isolated Tower
+263_Lost and Found
+265_Meteoric Facade
+270_Regrowing Outlands
+271_Reified Borough
+274_Silent Lakefront
+249_Chimeric Soulspace
+250_Clearwater Grotto
+251_Cryptic Morass
+252_Eidetic Soulspace
+254_Footloose Soulspace
+256_Gilded Pool
+260_Hopeful Soulspace
+262_Lonely Soulspace
+264_Macabre Soulspace
+266_Misty Peak
+267_Nostalgic Soulspace
+268_Pristine Sanctum
+269_Profane Grove
+272_Sanguine Palace
+273_Shockland Voucher
+275_Soaring Soulspace
+276_Soulspace Voucher
+278_Stark Expanse
+279_Urban Jungle
+280_Vindictive Soulspace
+281_Windbeaten Stones
+282_Zealous Soulspace
+e
+e
+er
+er
+er
+er
+er
+283_Plains_ERR
+285_Island_ERR
+287_Swamp_ERR
+289_Mountain_ERR
+291_Forest_ERR
+284_Plains_Pixel
+286_Island_Pixel
+288_Swamp_Pixel
+290_Mountain_Pixel
+292_Forest_Pixel
+er
+er
+er
+er
+er
+1t_Program A ERR
+1t_Copy ERR
+2t_Program B ERR
+3t_Memory ERR
+3t_Program C ERR
+4t_ALARM() ERR
+5t_white Citizen 11ERR
+6t_white Error 89ERR
+7t_blue Bird 22ERR
+8t_READ() ERR
+9t_TICK() ERR
+10t_BOOST() ERR
+11t_red Error 44ERR
+12t_SAVE() ERR
+13t_MOUNT() ERR
+14t_colorless Construct XXERR
+15t_Treasure ERR
+16t_Root Node
+e
+e

@@ -1,0 +1,1 @@
+﻿Prototype Warform		common	Artifact Creature – Construct 	241		6	You may pay 3 rather than this spell’s mana cost. If you do, it enters tapped with three stun counters on it.	6/5		normal	ERR		art4

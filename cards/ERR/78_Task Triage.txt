@@ -1,0 +1,1 @@
+﻿Task Triage	U	common	Instant	78	U	1U	Look at the top two cards of your library. Put one of them into your hand and cache the other face-down.  (Exile it face down and create a Memory enchantment token with “2, Sacrifice this: You may play the cached card this turn.”)			normal	ERR		!tokens Memory EIWNEWLINEart4NEWLINENEWLINESecret SantaNEWLINEflagged (maybe)

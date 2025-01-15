@@ -1,0 +1,1 @@
+﻿FLOCK()	U	common	Enchantment – Subroutine 	56	U	3U	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, create a 2/2 blue Bird enchantment creature token with flying.			normal	ERR		!tokens blue Daemon 22EIW;Program B EIW;NEWLINENEWLINEart5NEWLINEconcern (common)NEWLINENEWLINEsbft

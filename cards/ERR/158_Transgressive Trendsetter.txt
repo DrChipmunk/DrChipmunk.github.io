@@ -1,0 +1,1 @@
+﻿Transgressive Trendsetter	R	uncommon	Creature – Human Bard 	158	R	1R	MenaceNEWLINECorrupt – When this creature enters, if you control a permanent with mana value 3 or greater, add BR.	2/2		normal	ERR		type BNEWLINEart4NEWLINENEWLINECorrupt – When this creature enters, if you control a permanent with greater mana value than it, add BR.NEWLINEflagged (maybe)NEWLINENEWLINEtop20

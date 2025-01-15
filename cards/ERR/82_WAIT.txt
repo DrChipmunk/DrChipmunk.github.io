@@ -1,0 +1,1 @@
+﻿WAIT()	U	uncommon	Enchantment – Subroutine 	82	U	3UU	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, draw two cards. Creatures your opponents control get -2/-0 until your next turn.			normal	ERR		!tokens Program B EIWNEWLINEtype ANEWLINEart3NEWLINEconcern (play)

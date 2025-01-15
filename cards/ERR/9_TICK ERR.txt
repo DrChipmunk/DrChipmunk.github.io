@@ -1,0 +1,1 @@
+﻿TICK() ERR	B	common	Token Enchantment – Subroutine 	9	B		Whenever this Subroutine runs, each opponent loses 1 life and you gain 1 life.			token	ERR		!exportname TICK() ERRNEWLINE!related Hovering Delinquent;Catabolist;NEWLINEart4

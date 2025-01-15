@@ -1,0 +1,1 @@
+﻿Metatactician	W	uncommon	Creature – Human Advisor 	25	W	1W	W, T: Tap target creature. Activate only as a sorcery.NEWLINE6WW, T: Tap all creatures you don’t control. Activate only as a sorcery.	2/2		normal	ERR		type ANEWLINEart4

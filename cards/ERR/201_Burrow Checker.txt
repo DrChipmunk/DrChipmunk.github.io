@@ -1,0 +1,1 @@
+﻿Burrow Checker	WG	uncommon	Enchantment Creature – Ferret 	201	WG	GW	VigilanceNEWLINEFabric – This creature gets +1/+1 for each enchantment you control.	0/0		normal	ERR		A midrange deck that floods the board with enchantments and uses Fabric synergies to make huge creatures.NEWLINEart5NEWLINEflagged (maybe)NEWLINEflagged (build-around)

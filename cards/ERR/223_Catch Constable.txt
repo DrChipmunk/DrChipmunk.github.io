@@ -1,0 +1,1 @@
+﻿Catch Constable	WR	common	Creature – Human Soldier 	223	WR	R/W	2R/W: This creature gets +2/+0 until end of turn.NEWLINEWhen this creature dies, create a 1/1 white Citizen creature token.	1/1		normal	ERR		!tokens white Human 11EIWNEWLINENEWLINEart3NEWLINENEWLINEunhuman?NEWLINEflagged (maybe)

@@ -1,0 +1,1 @@
+﻿Mail Daemon	W	uncommon	Enchantment Creature – Insect 	23	W	1W	Flying, lifelinkNEWLINEWhen this creature leaves the battlefield, draw a card.	1/1		normal	ERR		type ANEWLINEGenerically good card, better in blinkNEWLINEart3

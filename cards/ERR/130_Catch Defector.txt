@@ -1,0 +1,1 @@
+﻿Catch Defector	R	uncommon	Creature – Human Warrior Rebel 	130	R	2R	Whenever this creature attacks, it deals 1 damage to any target. NEWLINE3B: This creature gains indestructible until end of turn.	3/1		normal	ERR		art3NEWLINEconcern (art)

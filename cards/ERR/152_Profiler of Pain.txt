@@ -1,0 +1,1 @@
+﻿Profiler of Pain	R	rare	Creature – Human Warlock 	152	R	1R	MenaceNEWLINEError spells you cast cost X less to cast, where X is the total amount of life your opponents have lost this turn.	1/3		normal	ERR		art2NEWLINEflagged (maybe)NEWLINEflagged (build-around)

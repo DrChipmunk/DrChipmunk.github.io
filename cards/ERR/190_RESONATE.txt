@@ -1,0 +1,1 @@
+﻿RESONATE()	G	uncommon	Enchantment – Subroutine 	190	G	4G	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, creatures you control get +3/+3 and gain trample until end of turn.			normal	ERR		!tokens Program B EIWNEWLINEart4NEWLINENEWLINEsbft

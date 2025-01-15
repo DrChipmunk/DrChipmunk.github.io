@@ -1,0 +1,1 @@
+﻿Lost and Found		uncommon	Land	263			When this land enters, sacrifice it. Search your library for a basic Island or Swamp card, put it onto the battlefield tapped, then shuffle.NEWLINE4UB, Discard Lost and Found: Surveil 3, then draw three cards.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Lost and Found

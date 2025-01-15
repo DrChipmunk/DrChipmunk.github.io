@@ -1,0 +1,1 @@
+﻿CHURN()	R	uncommon	Enchantment – Subroutine 	132	R	1R	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, discard up to three cards, then draw that many cards.			normal	ERR		!tokens Program B EIWNEWLINEtype ANEWLINEart5NEWLINEflagged (maybe)NEWLINENEWLINEsbft

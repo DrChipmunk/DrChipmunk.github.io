@@ -1,0 +1,1 @@
+﻿Element Aesthete	W	common	Creature – Cat Advisor 	16	W	3W	FlyingNEWLINEFabric – When this creature enters, you gain 1 life for each enchantment you control.	3/2		normal	ERR		art4

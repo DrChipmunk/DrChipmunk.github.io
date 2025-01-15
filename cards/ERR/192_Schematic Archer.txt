@@ -1,0 +1,1 @@
+﻿Schematic Archer	G	uncommon	Creature – Cat Archer 	192	G	2GG	ReachNEWLINEWhen this creature enters, if you played a land from exile or cast a spell from exile this turn, it fights up to one target creature.	4/4		normal	ERR		art5NEWLINEflagged (maybe)NEWLINEflagged (build-around)NEWLINEflagged (favorite)

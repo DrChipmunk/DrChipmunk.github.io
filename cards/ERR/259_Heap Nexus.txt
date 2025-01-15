@@ -1,0 +1,1 @@
+﻿Heap Nexus		rare	Land	259			This land enters tapped.NEWLINET: Add B.NEWLINEBBB, T, Sacrifice this land: Reveal a black card you own from outside the game and put it into your hand.			normal	ERR		art3

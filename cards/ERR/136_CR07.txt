@@ -1,0 +1,1 @@
+﻿CR07	R	common	Creature – Error 	136	R	4RR	HasteNEWLINEMountaincycling 2 (2, Discard this card: Search your library for a Mountain card, reveal it, and put it into your hand, then shuffle.)	7/5		normal	ERR		!tokens Memory EIWNEWLINEart5NEWLINENEWLINEerrft

@@ -1,0 +1,1 @@
+﻿Swap to Storage	U	common	Instant	76	U	3U	Target nonland permanent’s owner puts it on the bottom of their library or just beneath the top X cards of their library, where X is the number of Memories you control.			normal	ERR		!tokens Memory EIWNEWLINEart4

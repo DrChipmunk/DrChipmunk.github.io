@@ -1,0 +1,1 @@
+﻿Scripting Sage	UR	uncommon	Creature – Elf Wizard 	216	UR	1UR	Whenever a Subroutine you control enters, you may pay 2. If you do, it runs.NEWLINEWhenever a Subroutine you control runs, this creature gets +1/+1 until end of turn.	2/3		normal	ERR		A value deck that assembles a doom setup of Subroutines, then wins usually with fliers.NEWLINEart3

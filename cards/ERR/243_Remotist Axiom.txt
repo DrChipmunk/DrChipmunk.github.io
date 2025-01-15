@@ -1,0 +1,1 @@
+﻿Remotist Axiom		uncommon	Artifact Creature – Construct 	243		5	Whenever this creature attacks or blocks, it gets +X/+X until end of turn, where X is the greatest mana value among other permanents you control.	3/4		normal	ERR		art3

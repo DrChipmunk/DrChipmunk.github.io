@@ -1,0 +1,1 @@
+﻿Speculative_Execution	G	uncommon	Creature – Error 	196	G	6G	Vigilance, ward 2NEWLINEMemories you control are 4/4 creatures with vigilance and ward 2 in addition to their other types.	8/8		normal	ERR		art3NEWLINENEWLINEflavour text? (ft)NEWLINEerrft

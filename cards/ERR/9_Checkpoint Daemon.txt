@@ -1,0 +1,1 @@
+﻿Checkpoint Daemon	W	common	Enchantment Creature – Orb 	9	W	2W	FlyingNEWLINEWhen this creature enters, you may return another creature or enchantment you control to its owner’s hand.	2/3		normal	ERR		art2NEWLINENEWLINESecret Santa

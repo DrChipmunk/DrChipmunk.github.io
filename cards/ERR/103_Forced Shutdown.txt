@@ -1,0 +1,1 @@
+﻿Forced Shutdown	B	common	Sorcery	103	B	1B	Destroy target creature or enchantment. You lose life equal to its mana value.			normal	ERR		!tokens Memory EIWNEWLINENEWLINEart5NEWLINEflagged (maybe)NEWLINEflagged (sideboard)

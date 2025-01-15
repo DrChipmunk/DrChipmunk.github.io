@@ -1,0 +1,1 @@
+﻿Glittering Club		uncommon	Land	257			When this land enters, sacrifice it. Search your library for a basic Mountain or Plains card, put it onto the battlefield tapped, then shuffle.NEWLINE3RW, Discard Glittering Club: Creatures you control get +2/+1 until end of turn.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Glittering Club
