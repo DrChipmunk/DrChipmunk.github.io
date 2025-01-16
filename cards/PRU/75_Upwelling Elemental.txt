@@ -1,0 +1,1 @@
+﻿Upwelling Elemental	U	uncommon	Creature – Elemental 	75	U	2U	FlyingNEWLINEWhenever this creature attacks, when you next cast a spell with bloom this turn, copy it. You may choose new targets for the copy.	2/2		normal	PRU		Type A – UGNEWLINENEWLINE3/2? 3U to activate?NEWLINENEWLINEChanged since August EssentialNEWLINENEWLINEDecember

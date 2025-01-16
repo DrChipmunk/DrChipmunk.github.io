@@ -1,0 +1,1413 @@
+﻿Advance		special	Instant — Tactic 	1		2	Create a 1/1 white Human creature token.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Advance would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		Design Goals
+
+Perennial Ultimatum: A set designed for draft
+
+Perennial Ultimatum is structured like a modern standard-legal draft set, and the levels of power, speed, synergy, and complexity are comparable or slightly higher.
+<Besiege>
+
+The range of card power is narrower; rares have higher ceilings than commons or uncommons, but require specific situations or deliberate deck building to reach that peak.
+<Erode Fate>
+
+Mana fixing is plentiful, but two-colour decks, often with a splash, are the norm.
+<Salted Barrens>
+
+This set is based on a tabletop RPG campaign that I ran about the magical land of Faerie, the humans that found and conquered it, and how its residents pushed them back.
+<November, Firestarter>
+
+A set designed excusively for limited players
+
+- follow the normal rules of a design skeleton
+- keep aggro in check by limiting early aggression, while keeping the early turns relevant
+- no massive power outliers, positive or negative
+- emphasize pools of synergy rather than rigid archetypes
+- no shuffling or planeswalkers
+- reduce wordiness whenever possible
+
+Tokens:
+1/1 white Human
+1/1 red Cat
+2/2 green Fungus Elemental
+2/2 blue Illusion with flying
+X/X colorless Construct artifact creature
+Copy
+Basic Land
+Treasure
+
+This card = Sprout (time spiral)
+
+4 person draft
+180 draftable cards
+20 tactic cards
+100 basic lands
+18 tokens
+total:
+280 sleeves of colour A
+38 sleeves of colour B
+double this for an 8-player draft
+Fully decked cube for 8-person play = 3(4?) of each common, 2 of each uncommon, 1 of each rare/mythic = 303+160+53+15=521, plus 200 basics, 36 tokens, 40 tactics
+Collation process for 8 players: separate the commons by colour. From each colour, deal one card to each of the 24 packs, then 15 to the mess. From the lands and artifacts, deal one to each of the packs and 44 to the mess. Add one random card of any colour to the mess. Take the 120 cards of the mess and deal 5 of them to each pack.
+
+Revised since JuneREPLACEMERetreat		special	Instant — Tactic 	4		2	Return target permanent you control to its owner’s hand.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Retreat would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		changed
+
+= Rescue (Urza’s Destiny)
+
+Revised since JuneREPLACEMEBesiege		special	Instant — Tactic 	2		2	Tap target creature.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Besiege would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		changed.
+
+Revised since JuneREPLACEMEScout		special	Instant — Tactic 	5		2	Scry 2.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Scout would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		Revised since JuneREPLACEMEProvision		special	Instant — Tactic 	3		2	Put a +1/+1 counter on target creature.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Provision would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		= Battlegrowth (mirrodin)
+
+Revised since June
+
+Could be:
+bounce
+give indestructible
+raise dead
+base p/t 1/1 until end of turn
+tap or untap
+blink
+make a 2/2REPLACEMEAirdrop Medic	W	common	Creature — Human Cleric 	7	W	W	Flying, lifelink	1/1		normal	PRU		W
+
+Mechanics: Strategize, Harmony, Prowess
+
+Themes: Tokens, Tactics, Counters, Humans
+
+Core Identity: Cheap Creatures
+
+Current common explicit synergy:
+Tactic: 1 (but it’s a combat trick)
+Humans: 2
+Tokens: 1 
++1/+1: 1
+Harmony: 1
+
+Power level eval: possibly a bit too much power in the 2-drops, willing to put more in Glider Ace or SIbling of ExplorationREPLACEMEGifted Unicorn	W	common	Creature — Unicorn 	23	W	1W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, target opponent may draw a card. If they do, draw a card.	2/2		normal	PRU		Would you like to draw a card?REPLACEMEBloom Company Defector	W	common	Creature — Human Soldier 	10	W	2W	At the beginning of combat on your turn, if you control a Faerie, this creature gains first strike and vigilance until end of turn. 	3/2		normal	PRU		Doubles
+
+Might become 3-mana 3/2 that gains first strike and untaps.REPLACEMEPontifica's Scout	W	common	Creature — Human Scout 	33	W	1W	When this creature enters, strategize. (Put the top card of your tactic deck into your hand.)	2/1		normal	PRU		A
+
+4+REPLACEMEMulberry Hall Clothier	W	common	Creature — Faerie 	29	W	1W	When this creature enters, put a +1/+1 counter on target creature.	1/2		normal	PRU		REPLACEMEShock and Sexton Patrol	W	common	Sorcery	36	W	2W	Create two 1/1 white Human creature tokens. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Existing cards have a mix of formatting for effects like this:
+
+Do blah. Strategize. (default)
+
+Do blah, then strategize. (only if effects are directly related)
+
+Do blah.
+Strategize. (seldom seen)
+
+4+REPLACEMEExclusive Entourage	W	common	Creature — Human Citizen 	20	W	3W	When this creature enters, put two +1/+1 counters on another target Human you control.	3/3		normal	PRU		4+
+
+P1P1
+
+NERF: 2WW or 2/3
+BUFF: 3/3REPLACEMESibling of Exploration	W	common	Creature — Human Cleric 	37	W	4W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Tactic spells you cast cost 1 less to cast.	4/5		normal	PRU		Watchlist
+
+Changed since June
+Changed since August EssentialREPLACEMEGlider Ace	W	common	Creature — Human Pilot 	24	W	2W	Flying
+When this creature enters, if you control a creature with a +1/+1 counter on it, strategize. (Put the top card of your tactic deck into your hand.)	2/2		normal	PRU		If GW is too good, this changes to Tactic support
+
+Maybe a 1/1 flier with enters the battlefield: strategize that gets a +1/+1 counter whenever you cast a Tactic
+
+Could be REPLACEMELay Siege	W	common	Instant	26	W	2W	This spell deals damage to target creature equal to the number of creatures you control. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Changed since JuneREPLACEMEPacifism	W	common	Enchantment — Aura 	31	W	1W	Enchant creature
+Enchanted creature can’t attack or block			normal	PRU		
+
+Changed since june
+
+DoublesREPLACEMEAir Support	W	common	Instant	6	W	1W	Strategize. (Put the top card of your tactic deck into your hand.)
+Until end of turn, target creature gets +1/+1 for each Tactic card in your hand and gains flying.			normal	PRU		Combat TrickREPLACEMERequiter's Locomotive	W	common	Artifact — Vehicle 	34	W	2W	Crew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)	4/4		normal	PRU		DoublesREPLACEMEPave Over	W	common	Sorcery	32	W	W	Destroy target enchantment or tapped creature.			normal	PRU		4+
+
+DoublesREPLACEMEStandard-Issue Musket	W	common	Artifact — Equipment 	39	W	3WW	When this Equipment enters, attach it to target creature you control.
+Equip 3
+Equipped creature gets +2/+2.
+1, Discard this card, return a land you control to its owner’s hand: Create a tapped Plains token.			normal	PRU		Revised since June (wording only)
+Revised since August Suggested
+
+2WW?REPLACEMEExuberant Skywright	U	common	Creature — Human Artificer 	57	U	2U	Flying
+Whenever you strategize, scry 1.	2/3		normal	PRU		U
+
+Mechanics: Prowess, Strategize, Bloom
+
+Themes: Surge, Tactics, Ramp, Prowess
+
+Core Identity: Spells
+
+4+
+
+Power level: Lots of power in the Bloom spells, which is good. 2-drops might be excessively dorky
+
+NERF: 2/2REPLACEMEEager Field Marshal	U	common	Creature — Human Soldier 	53	U	1U	Flash
+When this creature enters, if you’ve cast two or more spells this turn, strategize. (Put the top card of your tactic deck into your hand.)	2/1		normal	PRU		REPLACEMEWry Glamermage	U	common	Creature — Dragon Faerie Rogue 	77	U	1U	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever this creature deals combat damage to a player, you may sacrifice it. If you do, create a 2/2 blue Illusion creature token with flying.	1/2		normal	PRU		BUFF: Maybe return to hand instead of sacrificing?REPLACEMEFoxtown Forger	U	common	Creature — Dragon Faerie Artificer 	60	U	2U	Vigilance
+This creature can’t be blocked if you’ve cast two or more spells this turn.	2/3		normal	PRU		BUFF: vigllanceREPLACEMEDistillery Engineers	U	common	Creature — Human Artificer 	50	U	3U	Whenever this creature attacks, strategize. (Put the top card of your tactic deck into your hand.)	3/4		normal	PRU		Might become 2/1 or 1/2 flyer (if I can find art)
+
+Might become when this attacks, strategize
+
+Changed since August OptionalREPLACEMEEluthiel Reliquary	U	common	Creature — Faerie Cleric 	55	U	3U	Flying, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)	3/3		normal	PRU		4+REPLACEMEFallowpeak Crab	U	common	Creature — Crab 	58	U	6U	This spell costs 2 less to cast for each card you own with bloom in exile or in your graveyard.
+Ward 2 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 2.)	4/5		normal	PRU		Revised since June
+Revised since August Suggested
+
+Maybe 3/4?
+
+P1P1REPLACEMEDrownedmen Sailor	U	common	Creature — Human Citizen 	52	U	1U	Defender
+T: Add C. You can’t spend this mana to cast creature spells.	3/2		normal	PRU		Could use a buff. 3/3? Any colour? non-Human instead of noncreature
+
+DoublesREPLACEMEMarlene's Deception	U	common	Instant	64	U	1U	Counter target spell unless its controller pays 2. If they pay, draw a card, then discard a card.			normal	PRU		R
+
+Maybe swap to uncommon
+
+December
+
+DoublesREPLACEMEMiasmic Immersion	U	common	Enchantment — Aura 	65	U	2U	Enchant creature
+When this enchantment enters, strategize. (Put the top card of your tactic deck into your hand.)
+Enchanted creature loses all abilities and has base power and toughness 1/1.			normal	PRU		REPLACEMEReflect	U	common	Sorcery	69	U	1U	Draw a card.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+
+
+Would love you get a shorter (maybe one-word) name on this
+
+Changed since August OptionalREPLACEMEContentious Supporter	U	common	Creature — Faerie Citizen 	47	U	4UU	When this creature enters, draw three cards, then discard two cards.
+1, Discard this card, return a land you control to its owner’s hand: Create a tapped Island token.	4/4		normal	PRU		Strictly worse Thirst for {Discovery, Meaning, Knowledge}. I’m fine with that.
+
+Probably buff (if blue needs it). Could be as big as 3/4 (Is that too good? Compare Mulldrifter)
+
+Changed since June
+Changed since August SuggestedREPLACEMECall the Tempest	U	common	Sorcery	44	U	2U	Tap up to two target creatures. Put a stun counter on each of them.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Changed sicne August Optional
+
+DoublesREPLACEMEImprobable Current	U	common	Instant	61	U	U	Target creature gets -2/-0 until end of turn. If this spell was cast from exile, return that creature to its owner’s hand. 
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		A
+
+4+REPLACEMECounter-Intelligence	U	common	Instant	48	U	1UU	Choose one — 
+• Counter target spell.
+• Draw a card, then strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		4+REPLACEMEFoxes' Underground Diehard	B	common	Creature — Human Rogue 	91	B	B	When this creature enters, each opponent loses 1 life, then strategize. (Put the top card of your tactic deck into your hand.)	1/2		normal	PRU		B
+
+Mechanics: Harmony, Empathy, Strategize
+
+Themes: Harmony, Humans, Bloodthirst, Surge
+
+Core Identity: Aggro
+
+Watchlist
+Changed since August Suggested
+
+Power level: Removal and 2-drops. Trying to support a somewhat awkward mix of aggro and control.REPLACEMEOne Eye's Sharpshooter	B	common	Creature — Faerie Rogue 	99	B	2B	When this creature enters, put a zeal counter on target Faerie.
+2B, Remove a zeal counter from this creature: Destroy target creature that was dealt damage this turn. Activate only as a sorcery.	4/2		normal	PRU		Maybe also +1/+0?
+
+Changed since June
+
+could be a 2/3
+
+DoublesREPLACEMEApothecary Flunkie	B	common	Creature — Human Mutant 	79	B	1B	When this creature dies, strategize. (Put the top card of your tactic deck into your hand.)	3/1		normal	PRU		A
+
+Maybe can’t block or enters the battlefield tapped
+
+Changed since JuneREPLACEMECantankerous General	B	common	Creature — Human Soldier 	82	B	1B	Whenever another Human you control enters, this creature gets +1/+1 and gains menace until end of turn.	2/1		normal	PRU		4+
+
+Changed since June
+
+If I want Human aggro to exist, this card has to be here. Playing with fire here. This is the kind of card that can overshadow an entire format.
+
+Changed since August SuggestedREPLACEMERotting Revolutionary	B	common	Creature — Faerie Soldier 	106	B	3B	When this creature enters, put a zeal counter on target Faerie.
+1B, Remove a zeal counter from this creature: It gains indestructible until end of turn.	4/4		normal	PRU		4+
+
+Watchlist
+Changed since August EssentialREPLACEMEMine Lurker	B	common	Creature — Nightmare 	97	B	2B	As long as you control a Human, this creature has deathtouch.
+As long as you control a Faerie, this creature has lifelink.	2/3		normal	PRU		2/3?
+
++1/+0 and deathtouch / +1/+0 and lifelink?REPLACEMERooftop Runner	B	common	Creature — Cat Faerie Rogue 	105	B	1B	When this creature enters, put a zeal counter on target Faerie.
+B, Remove a zeal counter from this creature: It gets +1/+0 and gains flying until end of turn. Activate only as a sorcery.	2/2		normal	PRU		Maybe buff. Maybe black’s second flyer
+
+Changed since June
+
+P1P1REPLACEMEAlynerada's Spawn	B	common	Creature — Faerie Horror 	78	B	3BB	Flying
+This creature enters with a +1/+1 counter on it if an opponent lost life this turn.
+1, Discard this card, return a land you control to its owner’s hand: Create a tapped Swamp token.	3/3		normal	PRU		3/4?
+
+Changed since August Suggested
+
+Maybe make a Human (Would need new art and concept)
+
+DoublesREPLACEMEWeaponself Assassination	B	common	Sorcery	110	B	4BB	This spell costs 2 less to cast if you control a Human.
+This spell costs 2 less to cast if you control a Faerie.
+Exile target creature.			normal	PRU		4+REPLACEMEExecutioner's Spores	B	common	Sorcery	89	B	1B	Choose one — 
+• Destroy target creature with mana value 3 or less.
+• Create a tapped 2/2 green Fungus creature token.			normal	PRU		Power 3 or less? Power 2 or less? Choose one — or make a tapped 2/2 Fungus Elemental token? Scry?
+
+December
+
+They found the last industrialist who tried to get Foxtown a reliable water supply in his home with mushrooms sprouting from every hole in his face.REPLACEMEIchor Blockade	B	common	Instant	93	B	2B	Target opponent sacrifices a creature. If you’ve cast another spell this turn, instead that player sacrifices a creature with the greatest power among creatures they control			normal	PRU		A
+
+4+REPLACEMEClivinius' Takedown	B	common	Instant	84	B	4B	Target creature gets -8/-8 until end of turn.			normal	PRU		Maybe four mana?REPLACEMERescue Mission	B	common	Instant	104	B	3B	Return up to two target creature cards from your graveyard to your hand. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Was 1B
+Choose 1 — 
+• Return target creature card from your graveyard to your hand.
+• Return target Faerie card and target Human card from your graveyard to your hand.
+
+Changed since August Optional
+
+Doubles
+
+P1P1REPLACEMEPreacher of St. Frances	B	common	Creature — Human Cleric 	101	B	2B	When this creature enters, you may pay B and 1 life. If you do, draw a card.	3/3		normal	PRU		RIP old gunboat diplomacy (opp. reveals cards equal to 1 + number of humans you control, discards one.)
+
+Might swap with D’d’wid’s contract.
+
+Could also be: Target player reveals their hand. You may choose a nonland card from it. That player discards that card. If you don’t choose a card this way, strategize.
+
+4+
+Changed since August OptionalREPLACEMEDesperate Stand	B	common	Instant	87	B	B	Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to its owner’s hand. If this creature is a Human, instead return it to the battlefield under its owner’s control.”			normal	PRU		And lifelink?
+
+Changed since June
+
+Despite the Bloom Company’s casualties, there was never a shortage of willing recruits.
+
+
+Target creature gets +2/+0 until end of turn. 
+When that creature dies this turn, return it to its owner’s hand. If it was a Human, instead return it to the battlefield under its owner’s control.REPLACEMEVermix Hawker	R	common	Creature — Raccoon Faerie Rogue 	148	R	R	Prowess  (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, put a zeal counter on target Faerie.
+1R, Remove a zeal counter from this creature, Discard a card: Draw a card.       	1/1		normal	PRU		R
+
+Mechanics: Bloom, Prowess, Empathy
+
+Themes: Empathy, Bloodthirst, Prowess, Tokens
+
+Core Identity: Prowess
+
+0/1? 0/2? 1/1?
+
+4+
+
+Changed sicne August Optional
+
+Power Level: Quite high overallREPLACEMERuby's Loyalist	R	common	Creature — Fox Faerie 	143	R	1R	When this creature dies, create a 1/1 white Human creature token.	2/1		normal	PRU		Changed since August SuggestedREPLACEMECollier Saboteur	R	common	Creature — Human Citizen 	119	R	3R	Trample
+1R, Discard this card: Destroy target artifact.	4/3		normal	PRU		Trample?
+enters discard a card to destroy artifact?
+3/4?
+August Optional
+
+DoublesREPLACEMEHearth Spirit	R	common	Creature — Elemental Spirit 	128	R	1R	Whenever you attack, target attacking creature gets +1/+0 until end of turn.	1/2		normal	PRU		Changed since JuneREPLACEMECatrest Elder	R	common	Creature — Cat Faerie Druid 	118	R	2RR	When this creature enters, put a zeal counter on target Faerie.
+2R, Remove a zeal counter from this creature: Create a tapped 1/1 red Cat creature token with prowess. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn)        	3/4		normal	PRU		Faerie wrights born after the arrival of humans were more willing to use ichorous materials in their designs.  REPLACEMEAvant Guardsman	R	common	Creature — Human Bard 	116	R	2R	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever this creature attacks, the next noncreature spell you cast this turn costs 1 less to cast.	2/3		normal	PRU		RREPLACEMEMyriad's Firebrand	R	common	Creature — Dragon Faerie Warrior 	136	R	4R	When this creature enters, put a zeal counter on target Faerie.
+R, Remove a zeal counter from this creature: Target creature gains haste until end of turn.	5/5		normal	PRU		A
+
+4+
+
+DoublesREPLACEMEProgeny Festival	R	common	Sorcery	139	R	4RR	Create three 1/1 red Cat creature tokens with prowess.
+1, Discard this card, return a land you control to its owner’s hand: Create a tapped Mountain token. 			normal	PRU		Changed since August Suggested
+
+P1P1REPLACEMEJollity Dancer	R	common	Creature — Bear Faerie Bard 	132	R	2R	Menace
+When this creature enters, put a zeal counter on target Faerie.
+2R, Remove a zeal counter from this creature: Target creature can’t block this turn. 	3/2		normal	PRU		
+Changed since August Suggested
+
+The House of Jollity refused to dilute their shows for a human audience.REPLACEMENovember's Fury	R	common	Instant	137	R	3R	This spell deals 4 damage to target creature. Put a zeal counter on up to one target Faerie.			normal	PRU		R
+
+4+
+
+Changed since August Suggested
+
+2 damage to controller?REPLACEMERighteous Tide	R	common	Sorcery	141	R	1R	This spell deals 3 damage to target creature. If an opponent lost life this turn, this spell deals 6 damage to that creature instead.			normal	PRU		A
+
+P1P1REPLACEMELightning Claws	R	common	Sorcery	134	R	2R	Creatures you control get +2/+0 until end of turn.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		REPLACEMEScalding Geyser	R	common	Sorcery	144	R	R	This spell deals 1 damage to any target.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+
+
+DoublesREPLACEMEThrill of Possibility	R	common	Instant	147	R	1R	As an additional cost to cast this spell, discard a card.
+Draw two cards.			normal	PRU		Haste.REPLACEMEEdgeshine's Daring	R	common	Instant	121	R	1R	Target creature gets +2/+0 and gains first strike until end of turn. Create a Treasure token.			normal	PRU		R (change to distinguish from coordinated assault?)REPLACEMEVisiting Gadabout	G	common	Creature — Human Noble 	183	G	2G	When this creature enters, put a +1/+1 counter on target creature.
+Creatures you control with +1/+1 counters on them have ward 2.	2/1		normal	PRU		G
+
+Mechanics: Empathy, Bloom, Harmony
+
+Themes: Empathy, Harmony, Ramp, Counters
+
+Core Identity: Focus
+2/1? 1/2?
+
+Power Level: in the empathy creatures.REPLACEMEMargrave Honour Guard	G	common	Creature — Faerie Advisor 	165	G	1G	T: Add one mana of any color among Humans you control.	3/1		normal	PRU		+1/+1?
+
+Maybe a bit weak as it stands. Could be 3/1 w/ +2/+4 or 2/2 w/ +4/+4 or 3 to activate
+
+Changed since June
+
+An odd card. By stats alone, this might be the best common 2-srop in the set (or maybe it’s the Unicorn). Want this to occupy the Basking Rootwalla / Wary Thespian spot of a 2-drop that’s better later.
+
+Maybe 2/2 with a Rootwalla ability +1/+1 for each Human / cheaper for each Human / activate only if you have a Human?
+
+Consider 2/2 w/ 3G: CARDNAME gets +3/+3 until end of turn. Activate only once each turn and only if you control a Human.
+
+Wouldn’t sneeze at 2G to activate
+
+new design. 3/1?REPLACEMEScholar of Forms	G	common	Creature — Faerie Angel Wizard 	173	G	1G	When this creature enters, put a zeal counter on target Faerie.
+3GG, Remove a zeal counter from this creature: Put three +1/+1 counters on it.	2/2		normal	PRU		target creature?
+
+4+
+
+P1P1REPLACEMEMushroom Vintner	G	common	Creature — Fungus Faerie Shaman 	169	G	4G	When this creature enters, put a zeal counter on target Faerie.
+3G, Remove a zeal counter from this creature: Target creature gets +2/+2 and gains trample until end of turn. Activate only as a sorcery.	5/4		normal	PRU		3/2? Gain 3 life?
+
+December
+
+The policies of the whole rebellion could be swayed by whoever last gave Rigamaroll a cookie.  
+
+DoublesREPLACEMEWayward Romantic	G	common	Creature — Faerie Monk 	185	G	2G	When this creature enters, create a 1/1 white Human creature token.	2/2		normal	PRU		Romance is onlineREPLACEMERooftop Gardener	G	common	Creature — Bird Faerie Druid 	172	G	3G	Reach
+When this creature enters, put a zeal counter on target Faerie.
+1G, Remove a zeal counter from this creature: Create a tapped Forest token.	4/3		normal	PRU		X
+
+4+
+
+Changed since June
+DecemberREPLACEMETourist-Snapper	G	common	Creature — Crocodile 	180	G	2GG	Deathtouch
+When this creature dies, draw a card.	3/3		normal	PRU		Non-essential. Could change. Bloom payoff? (enters mill 3 and return a land card or card with bloom milled this way to your hand)
+
+DoublesREPLACEMETairis Seer	G	common	Creature — Faerie Wizard 	179	G	5G	Vigilance
+When this creature enters, put a zeal counter on target Faerie.
+2G, Remove a zeal counter from this creature: Scry 2. You gain 2 life.	5/6		normal	PRU		X
+
+Regrowth? A somewhat awkward card
+
+December
+
+As Tairis was abandoned, its relics were destroyed keep them out of human hands.      REPLACEMEFoxes' Underground Heel	G	common	Creature — Faerie Soldier 	161	G	2G	When this creature enters, put a zeal counter on target Faerie.
+G, Remove a zeal counter from this creature: Target creature blocks this creature this turn if able.	4/2		normal	PRU		4+
+
+Changed since June
+
+Maybe 4/2? Maybe 3/2?
+
+DoublesREPLACEMETrue-Form Amalgam	G	common	Creature — Horror 	181	G	5GG	This creature can’t be blocked by creatures with power 2 or less.
+1, Discard this card, return a land you control to its owner’s hand: Create a tapped Forest token. 	7/5		normal	PRU		A place to trim words at common — replace with ward (already on the crab), conditional hexproof, trample (already on green’s 6-drop), flash, reach
+
+Revised since June 
+Revised since August Suggested
+ward? REPLACEMEVivian's Finisher	G	common	Instant	184	G	3G	Put a +1/+1 counter on target creature you control if you control a Human and a Faerie. 
+That creature deals damage equal to its power to target creature you don’t control.			normal	PRU		2G?
+
+Changed since August Optional
+
+Vivian’s moves were crowd-pleasers for human and faerie audiences alike.REPLACEMECut Loose	G	common	Instant	155	G	G	You gain 1 life. Put a zeal counter on up to one target Faerie.
+Bloom. (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Might become some other Empathize effect?
+
+Put +1/+1 counter? Draw (Cut Loose)? Equipment with equip 3 that gives +3/+1 and ward 2 and you can equip it to a creature whenever that creature activates its empathy ability (Rioter’s (Gas) Mask)?
+
+changed since june (Replaced Grace of St. Marcelle)
+December
+
+P1P1REPLACEMEFlowing Strike	G	common	Instant	160	G	1G	Target creature gets +2/+2 until end of turn.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+
+
++3/+3 and no trample?REPLACEMESimpler Times	G	common	Instant	175	G	2G	Choose one — 
+• Destroy target artifact.
+• Destroy target enchantment.
+• Return target permanent card from your graveyard to your hand.			normal	PRU		December
+
+DoublesREPLACEMESwell's Pilgrimage	G	common	Sorcery	178	G	2G	Mill three cards, then put all land cards and cards with bloom milled this way into your hand.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		DecemberREPLACEMEIchor Grenade		common	Artifact	214		3	You may discard a Tactic card rather than pay this spell’s mana cost.
+3, T, Sacrifice this artifact: This artifact deals 6 damage to target creature.			normal	PRU		Changed Since June
+
+Changed Since August EssentialREPLACEMEAmnesiac Test Subject		common	Artifact Creature — Faerie 	211		2	When this creature dies, put a zeal counter on target Faerie.	2/1		normal	PRU		REPLACEMELiving Truce		common	Artifact Creature — Spirit Construct 	216		5	Whenever this creature attacks, if you control a Human and a Faerie, this creature gains indestructible until end of turn.	5/3		normal	PRU		4+REPLACEMEArtisinal Armonica		common	Artifact	212		3	T: Add one mana of any color.
+2, T: Scry 1.			normal	PRU		Changed
+
+DoublesREPLACEMEIchorblade		common	Artifact — Equipment 	215		4	When this Equipment enters, create a 1/1 white Human creature token, then attach this Equipment to it.
+Equip 5
+Equipped creature gets +3/+1.			normal	PRU		4+
++1/+2?
+
+P1P1REPLACEMEPortentous Vista		common	Land	239			When this land enters, sacrifice it. Choose a basic land type. Create a tapped basic land token with that type.			normal	PRU		REPLACEMETemple of Enlightenment		common	Land	246			This land enters tapped.
+When this land enters, scry 1.
+T: Add W or U.			normal	PRU		The X-plan: 
+Add the full cycle of Nimbus Maze duals
+WU: Nimbus Maze
+UB: Brackish Wetland
+BR: Sanguine Mineshaft
+RG: Flowering Fissure
+GW: Picturesque Homestead
+WB: Walled Sweatshop
+UR: Cracked Lakebed
+BG: Miasmic Tangle
+RW: Steep Railway
+GU: Echoing Verdure
+
+DoublesREPLACEMETemple of Deceit		common	Land	245			This land enters tapped.
+When this land enters, scry 1.
+T: Add U or B.			normal	PRU		REPLACEMETemple of Malice		common	Land	249			This land enters tapped.
+When this land enters, scry 1.
+T: Add B or R.			normal	PRU		DoublesREPLACEMETemple of Abandon		common	Land	244			This land enters tapped.
+When this land enters, scry 1.
+T: Add R or G.			normal	PRU		4+REPLACEMETemple of Plenty		common	Land	251			This land enters tapped.
+When this land enters, scry 1.
+T: Add G or W.			normal	PRU		REPLACEMETemple of Silence		common	Land	252			This land enters tapped.
+When this land enters, scry 1.
+T: Add W or B.			normal	PRU		4+REPLACEMETemple of Epiphany		common	Land	247			This land enters tapped.
+When this land enters, scry 1.
+T: Add U or R.			normal	PRU		P1P1REPLACEMETemple of Malady		common	Land	248			This land enters tapped.
+When this land enters, scry 1.
+T: Add B or G.			normal	PRU		REPLACEMETemple of Triumph		common	Land	253			This land enters tapped.
+When this land enters, scry 1.
+T: Add R or W.			normal	PRU		REPLACEMETemple of Mystery		common	Land	250			This land enters tapped.
+When this land enters, scry 1.
+T: Add G or U.			normal	PRU		REPLACEMENimbus Maze		common	Land	236			T: Add C.
+T: Add W. Activate only if you control an Island.
+T: Add U. Activate only if you control a Plains.			normal	PRU		Land Swap: Move the nimbus lands to uncommon, move the sphere lands and five simple coloured cards to common — if land balance feels off
+
+ChecklandsREPLACEMEForbidding Glacier		common	Land	230			T: Add C.
+T: Add U. Activate only if you control a Swamp.
+T: Add B. Activate only if you control an Island.			normal	PRU		4+
+
+Frozen Wetland?REPLACEMECrooked Canyon		common	Land	227			T: Add C.
+T: Add B. Activate only if you control a Mountain.
+T: Add R. Activate only if you control a Swamp.			normal	PRU		REPLACEMEAutumnal Grove		common	Land	222			T: Add C.
+T: Add R. Activate only if you control a Forest.
+T: Add G. Activate only if you control a Mountain.			normal	PRU		REPLACEMEPicturesque Outcropping		common	Land	238			T: Add C.
+T: Add G. Activate only if you control a Plains.
+T: Add W. Activate only if you control a Forest.			normal	PRU		REPLACEMESalted Lakebed		common	Land	240			T: Add C.
+T: Add W. Activate only if you control a Swamp.
+T: Add B. Activate only if you control a Plains.			normal	PRU		P1P1REPLACEMEOchre Basin		common	Land	237			T: Add C.
+T: Add U. Activate only if you control a Mountain.
+T: Add R. Activate only if you control an Island.			normal	PRU		REPLACEMEMiasmic Expanse		common	Land	234			T: Add C.
+T: Add B. Activate only if you control a Forest.
+T: Add G. Activate only if you control a Swamp.			normal	PRU		DoublesREPLACEMESteep Snowfield		common	Land	241			T: Add C.
+T: Add R. Activate only if you control a Plains.
+T: Add W. Activate only if you control a Mountain.			normal	PRU		4+
+
+DoublesREPLACEMEHumid Verdure		common	Land	233			T: Add C.
+T: Add G. Activate only if you control an Island.
+T: Add U. Activate only if you control a Forest.			normal	PRU		4+
+
+DoublesREPLACEMESt. Ysolde	WU	uncommon	Legendary Creature — Human Cleric 	206	WU	2WU	Vigilance
+Whenever this creature attacks, strategize. (Put the top card of your tactic deck into your hand.)
+Whenever you cast a Tactic spell, you may pay 1. If you do, copy it. You may choose new targets for the copy.	2/4		normal	PRU		WU
+
+Common Mechanics: Strategize, Prowess
+
+Theme: Tactics
+
+A medium-slow deck that builds up many Tactic cards and then finds ways to get extra value out of them
+
+4+
+
+QQREPLACEMED'd'wid, Oathbound	UB	uncommon	Legendary Creature — Plant Faerie Warlock 	188	UB	1UB	When this creature enters, scry 1. You lose 1 life.
+Whenever you cast your second spell each turn, you may return this card from your graveyard to your hand.	3/1		normal	PRU		Not fully happy with this one. Maybe ward with mana? Or put on bottom of library to steal permanently
+
+UB
+
+Common Mechanics: Strategize
+
+Theme: Double-Spell
+
+A medium-fast deck that gains tempo with bounce spells, removal spells, and counterspells
+
+ZZZ
+
+5/3? Ward — Discard a Card?
+Changed since August Optional
+
+New design needed. Needs to be something a tempo deck wants and trigger off surge and feel like an oathmage. Reanimate? Steal things from graveyards? exchange control? return this from graveyard to hand?REPLACEMEEdgeshine of a Knife	BR	uncommon	Legendary Creature — Faerie Rogue 	189	BR	2BR	Menace
+Whenever an opponent loses life, create a Treasure token, then exile the top card of that player’s library. If it’s a nonland card, you may cast it this turn. This ability triggers only once each turn.	4/2		normal	PRU		BR
+
+Common Mechanics: Empathy
+
+Theme: Aggro / Bloodthirst
+
+A fast deck that gets in with straightforward aggression and has extra reach of incidental face damage
+
+4+
+
+Might add treasure instead of mana washing. 
+
+QQ
+
+Changed since August EssentialREPLACEMENovember, Firestarter	RG	uncommon	Legendary Artifact Creature — Bird Faerie 	200	RG	1RG	Trample
+When this creature enters, put a zeal counter on target Faerie.
+1R/G, Remove a zeal counter from this creature: This creature gets +2/+2 until end of turn. Put a zeal counter on up to one other target Faerie you control.           	3/3		normal	PRU		RG
+
+Common Mechanics: Empathy, Bloom
+
+Theme: Empathy
+
+A slow deck that builds up an engine of repeated empathy triggers
+
+QQ
+
+Changed since December
+
+Maybe change the activated ability to REPLACEMEVivian, Hopeful Pugilist	WG	uncommon	Legendary Creature — Human Fox Faerie 	210	WG	1GW	Flash
+When this creature enters, put a +1/+1 counter on target creature.
+Whenever one or more +1/+1 counters are put on another creature you control, put that many +1/+1 counters on this creature.	1/1		normal	PRU		GW
+
+Common Mechanics: Harmony
+
+Theme: +1/+1 Counters
+
+A medium fast deck that uses harmony and +1/+1 counter synergies to win combats and build dangerous threats
+
+4+
+
+QQ
+
+
+Vivian’s ripped leather and chrome made her an icon of Wilhelm’s Folly. 
+
+Vivian, Hopeful Pugilist
+
+Manuel GonzalezREPLACEMECaptain Victoria	WB	uncommon	Legendary Creature — Human Soldier 	187	WB	WB	Lifelink
+Whenever you attack, up to one target attacking Human gets +1/+0 until end of turn for each Human you control. Sacrifice it at the beginning of the next end step.	2/2		normal	PRU		WB
+
+Common Mechanics: Strategize, Harmony
+
+Theme: Human Tribal
+
+A fast deck that gets Humans on to the board quickly and backs them up with premium removal and combat tricks
+
+QQREPLACEMELace, Hired Glamermage	UR	uncommon	Legendary Creature — Fox Faerie Rogue 	197	UR	1UR	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever a you control with prowess deals combat damage to a player, draw a card.	2/3		normal	PRU		UR
+
+Common Mechanics: Bloom, Prowess
+
+Theme: Prowess / Spells
+
+A medium slow deck that accumulates a few prowess creatures before going all out with a flurry of spells
+
+4+
+
+Might cut the treasure
+
+Changed since August Optional
+
+QQREPLACEMEProfessor Shock	BG	uncommon	Legendary Creature — Human Artificer 	202	BG	1BG	Deathtouch
+1BG, Sacrifice a Human and a Faerie: Draw two cards, then create a X/X colorless Construct artifact creature token, where X is the combined power of the sacrificed creatures. Activate only as a sorcery.     	3/2		normal	PRU		BG
+
+Common Mechanics: Harmony, Empathy
+
+Theme: Harmony
+
+A medium slow deck that plays above-rate creatures and removal spells and takes full advantage of harmony payoffs for both
+
+4+
+
+QQ
+
+1/2? 1/4? Sorcery speed?
+Changed since August Suggested
+
+P1P1REPLACEMESergeant Coxley	WR	uncommon	Legendary Creature — Human Soldier 	205	WR	RW	First strike
+Whenever you attack with two or more creatures, create a 1/1 white Human creature token that’s tapped and attacking.	2/1		normal	PRU		RW
+
+Common Mechanics: Prowess
+
+Theme: Assertive Tokens
+
+A medium fast deck that builds out a board of tokens, then buffs them with mass pump spells
+
+ZZZ
+
+maybe attack with two or more creatures?
+Changed since August OptionalREPLACEMEKlein, First of the Blessed	UG	uncommon	Legendary Creature — Shaman Horror 	196	UG	3GU	Flying
+When this creature enters, return target card with bloom from your graveyard to your hand.
+1GU: Exile this creature, then return it to the battlefield tapped under its owner’s control.	3/3		normal	PRU		GU
+
+Common Mechanics: Bloom 
+
+Theme: Ramp
+
+A slow deck that grows its mana quickly, then takes over with card draw and mana sinks
+
+ZZZ
+
+I kind of want UG, Discard CARDNAME: shuffle graveyard into deck, then draw a card, but that would involve shuffling
+
+Or maybe UG, Discard CARDNAME: Draw a card, then you may put a land card from your hand onto the battlefield, then put CARDNAME into your library four fromt he top.
+
+UG, reveal CARDNAME from your hand: you may play an additional land this turn?
+
+Some sort of channel ability makes sense
+
+Needs to be a big flier that sends the message that ramping is good
+
+Changed since August Optional
+December
+
+DoublesREPLACEMEAssail	W	uncommon	Instant	8	W	1W	Destroy target creature if it’s attacking or has power 4 or greater.			normal	PRU		Type C
+
+Big creature kill (sideboard card?)
+
+ZZZ
+
+Changed since August EssentialREPLACEMEBloomstained Recruiter	W	uncommon	Creature — Human Scout 	11	W	2W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you cast a noncreature spell, create a tapped 1/1 white Human creature token.	2/2		normal	PRU		Type C
+
+R
+
+4+
+
+QQREPLACEMEIchorbronze Assistant	W	uncommon	Artifact Creature — Construct 	25	W	W	First strike, vigilance
+1, T: Put a +1/+1 counter on target creature with a +1/+1 counter on it. Activate only as a sorcery.	1/2		normal	PRU		Type A — GW
+
+QQ
+
+Changed since August OptionalREPLACEMEAugmented Aerialist	W	uncommon	Creature — Human Mutant Soldier 	9	W	3WW	Flying
+When this creature enters, strategize twice. (To strategize, put the top card of your tactic deck into your hand.)	4/4		normal	PRU		Type C
+
+ZZZ (not printed)
+
+This could become the 3WW 3/3 flier enters the battlefield strategize twice (with new art)
+
+Changed since August SuggestedREPLACEMEEleonora's Procession	W	uncommon	Creature — Human Noble Soldier 	18	W	2W	Vigilance
+Other Humans you control get +1/+0.	3/1		normal	PRU		Type A — BW
+
+4/3?
+
+ZZZ
+
+Changed Since August Essential
+
+DoublesREPLACEMEDaring Acrobat	W	uncommon	Creature — Faerie Bard 	16	W	3W	Flying
+When this creature dies, if its power was 4 or greater, return it to its owner’s hand.	3/2		normal	PRU		Type B — counter and equipment
+
+If land switch, can move to common
+
+QQREPLACEMEMirrorsand Duelist	W	uncommon	Creature — Fox Faerie Wizard 	28	W	1W	Flash
+When this creature enters, you may pay 1W. If you do, other creatures you control get +2/+1 until end of turn.	1/3		normal	PRU		Type A  — WR
+
+QQ
+
+Maybe a 1/3?
+
+Changed since August OptionalREPLACEMESupply Lines	W	uncommon	Enchantment	41	W	2W	When this enchantment enters, strategize. (Put the top card of your tactic deck into your hand.)
+Whenever you strategize, put a +1/+1 counter on target creature you control.			normal	PRU		Type A — WU
+
+4+
+
+QQREPLACEMECommitted Company	W	uncommon	Instant	13	W	5W	Reveal the top nine cards of your library. Put up to three creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.			normal	PRU		Type B — 3-drops
+
+QQ
+
+Changed sicne August SuggestedREPLACEMEOrphans' Resilience	W	uncommon	Instant	30	W	2W	This spell costs 1 less to cast if it targets a Human and 1 less to cast if it targets a Faerie.
+Put a +1/+1 counter on each of up to three target creatures.			normal	PRU		Type B — harmonyREPLACEMEFallowpeaks Banishment	W	uncommon	Enchantment	21	W	2W	When this enchantment enters, exile up to one target creature until this enchantment leaves the battlefield.
+1W: Return this enchantment to its owner’s hand. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Type C
+
+QQREPLACEMEFleet's Symphony	W	uncommon	Enchantment	22	W	1W	At the beginning of your upkeep, target creature you control gets +1/+0 and gains prowess until end of turn. (Whenever you cast a noncreature spell, it gets +1/+1 until end of turn. Prowess stacks.)			normal	PRU		Type B — tokens/prowess
+
+4+
+
+QQ
+
+Watchlist
+Changed since August Essential
+
+DoublesREPLACEMERigamaroll's Form	U	uncommon	Instant	71	U	1U	Until end of turn, target creature gets +1/+0, gains hexproof, and cannot be blocked.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type B — bloom / tempo
+
+Rigamaroll had many forms, but the resilience of the crab was always present.
+
+QQREPLACEMEFenley's Flagship	U	uncommon	Artifact — Vehicle 	59	U	5UU	This spell costs 1 less to cast for each Tactic card in your hand.
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)
+Flying
+Whenever you cast a Tactic spell, draw a card.	4/5		normal	PRU		Type A — UW
+
+QQ
+
+Might go crew 2
+
+Changed since August EssentialREPLACEMEEccentric Balloonist	U	uncommon	Creature — Human Artificer 	54	U	1U	Flying
+Whenever you cast a noncreature spell with mana value greater than this creature’s power, put a +1/+1 counter on this creature.	1/2		normal	PRU		Type B — big noncreature spells
+
+4+
+
+QQx2REPLACEMEJollity Impressionist	U	uncommon	Creature — Faerie Rogue 	62	U	2U	Prowess
+You may have this creature enter the battlefield as a copy of a creature you control, except it has prowess. (Prowess stacks.)	3/1		normal	PRU		Type C
+
+ZZZ (not printed)
+
+Not fully happy with this one — it’s just not doing anything essential. Maybe a prowess payoff? Ophidian with conditional unblockable? Looter?REPLACEMEUpwelling Elemental	U	uncommon	Creature — Elemental 	75	U	2U	Flying
+Whenever this creature attacks, when you next cast a spell with bloom this turn, copy it. You may choose new targets for the copy.	2/2		normal	PRU		Type A — UG
+
+3/2? 3U to activate?
+
+Changed since August Essential
+
+DecemberREPLACEMESquawking Omen	U	uncommon	Sorcery	72	U	2UU	Create a 2/2 blue Illusion creature token with flying. Scry 2.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type C
+
+scry 2?
+
+Revised since June
+
+QQ
+
+DoublesREPLACEMEBlue Palace Interlocutor	U	uncommon	Creature — Human Advisor 	43	U	1U	Whenever you cast a noncreature spell, each opponent mills two cards.	1/4		normal	PRU		Type B — MIll. Needs to be more interactive.
+
+Could remove the "only once clause"?
+
+Blue Palace Debate
+
+P1P1REPLACEMETime to Consider	U	uncommon	Sorcery	74	U	2U	Mill two cards, then return a card milled this way to your hand. Put a stun counter on up to one target tapped creature.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Generically good 3-mana bloom card?
+
+QQ
+
+new template: put
+
+Maybe: return target spell or nonland permanent to its owner’s hand. Make temporary copies? Put on top or bottom of library? Return instant or sorcery from graveyard to hand?(instant)REPLACEMEWeapons Program	U	uncommon	Instant	76	U	4U	Draw three cards, then strategize. (Put the top card of your tactic deck into your hand.)
+You may cast a Tactic spell from your hand without paying its mana cost.			normal	PRU		Type B — control / strategize.
+
+4+
+
+Maybe swap with Marlene’s Deception?
+
+If land switch, can move to common
+
+ZZZREPLACEMEPanicked Evacuation	U	uncommon	Instant	67	U	3U	This spell costs 2 less to cast if you’ve cast another spell this turn.
+Target nonland permanent’s owner puts it on the top or bottom of their library			normal	PRU		Type A - UB
+
+Already a card with this name
+
+QQREPLACEMEDistillery Field Tester	U	uncommon	Creature — Human Artificer 	51	U	3U	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature dies, draw cards equal to its power.	2/2		normal	PRU		Type A — UR
+
+ZZZREPLACEMECondescend	U	uncommon	Instant	46	U	XU	Counter target spell unless its controller pays X. Scry 2.			normal	PRU		Type C
+
+QQREPLACEMEOathbound Labourers	B	uncommon	Creature — Human 	98	B	1B	This creature can’t block.
+Whenever one or more Humans you control attack while this card is in your graveyard, you may pay 2B. If you do, return this card to the battlefield tapped and attacking.	3/2		normal	PRU		
+Type A — WB
+
+ZZZ
+Changed since JuneREPLACEMEMassacre Vulture	B	uncommon	Creature — Bird 	96	B	2B	Flying, deathtouch
+B, Exile a Human card and a Faerie card from your graveyard: Put two +1/+1 counters on this creature. Activate only as a sorcery.	2/3		normal	PRU		Type A — BG
+
+QQ
+
+Missing — one Bs, one Cs,  removal, strategize x 2REPLACEMERearguard Action	B	uncommon	Sorcery	103	B	6B	As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs 2 less to cast for each creature sacrificed this way.
+Destroy up to two target creatures.			normal	PRU		Type B — tokens
+
+4+
+
+QQ
+
+Menace?
+
+This could become our chupacabra
+
+Changed since August SuggestedREPLACEMEMasked Agent	B	uncommon	Creature — Faerie Rogue 	95	B	2B	Menace
+At the beginning of your end step, if an opponent lost life this turn, put a zeal counter on target Faerie.
+1B, Remove a zeal counter from this creature: You draw a card and you lose 1 life.	3/3		normal	PRU		Type A — BR
+
+Version that is perhaps better design but not great for first-time players of the set:
+Empathy — Choose a nonland card name. Target opponent reveals their hand and discards all cards with that name.
+
+Could also be
+Empathy — Look at target opponent’s hand. You may choose a nonland card from it. If you do, that player discards that card and draws a card.
+
+QQREPLACEMEHungry Bloomchild	B	uncommon	Creature — Horror 	92	B	1B	Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.	2/2		normal	PRU		Type A — UB
+
+ and indestructible?
+
+ZZZ
+
+Changed since August Suggested
+
+DoublesREPLACEMED'd'wid's Contract	B	uncommon	Instant	86	B	2B	You lose life equal to the number of cards in your hand.
+Scry 2, then draw two cards.			normal	PRU		Type B — aggro card draw
+
+4+
+
+QQ
+
+Changed since August SuggestedREPLACEMEEruption Blightmonger	B	uncommon	Creature — Faerie Assassin 	88	B	3B	When this creature enters, put a zeal counter on target Faerie.
+1B, Remove a zeal counter from this creature: Target opponent may discard a card. If they don’t, you may return a creature card from your graveyard to your hand. Activate only as a sorcery.      	4/4		normal	PRU		Type C
+
+QQ
+
+One Eye’s SharpshooterREPLACEMEZugzwang	B	uncommon	Enchantment	113	B	3B	At the beginning of your end step, strategize if an opponent lost life this turn. Otherwise, each opponent loses 1 life and you gain 1 life. (To strategize, put the top card of your Tactic deck into your hand.)			normal	PRU		Type B — ? 
+
+ZZZ
+
+Schadenfreude
+
+Changed sicne June (Art only)
+
+DoublesREPLACEMEFailed Sibling	B	uncommon	Creature — Human Horror 	90	B	1B	When this creature enters, target player reveals their hand. You may choose a nonland card from it. If you do, exile that card and this creature. (An exiled Tactic card is shuffled into its owner’s tactic deck.)	2/1		normal	PRU		Type C 
+
+4+
+
+ZZZ
+
+Could be — Target player reveals a card from their hand. Choose one
+. That player discards that card
+. Look at that player’s hand. You choose a card from their hand other than the revealed card; they discard it
+
+Might need a buff — could cut noncreature or make straight-up deathtouch
+Changed since August OptionalREPLACEMEIchor Extraction	B	uncommon	Instant	94	B	1B	Destroy target creature. Its controller creates a Treasure token.			normal	PRU		Type C
+
+QQ
+
+Could have a shorter name, but this name is fineREPLACEMEOrchestrated Riot	B	uncommon	Instant	100	B	2B	Strategize twice, then this spell deals X damage to target creature and you gain X life, where X is the number of Tactic cards in your hand. (To strategize, put the top card of your tactic deck into your hand.)			normal	PRU		Type C — strategizeREPLACEMEApothecary Physician	B	uncommon	Creature — Human Cleric 	80	B	3BB	Lifelink
+When this creature enters, return target creature card from your graveyard to the battlefield tapped.	2/2		normal	PRU		Type B — Reanimator
+
+If land switch, can move to common
+
+QQ
+
+Implant Memory
+
+RIP Gunboat Diplomacy
+Violence may be expensive, but the threat of violence is cheap.
+
+Changed since August OptionalREPLACEMECamp Clef Innovator	R	uncommon	Creature — Faerie Artificer 	117	R	2R	Prowess
+When this creature or another nontoken creature you control with prowess enters, put a zeal counter on target Faerie.
+Remove a zeal counter from this creature: Add one mana of any color.	2/3		normal	PRU		Type A — UR
+
+QQ
+
+The Progeny followed the cats into the bloom in search of sunshine, and still protect them within Catrest’s fog-soaked towers.
+
+DoublesREPLACEMEGleeful Arsonist	R	uncommon	Creature — Human Artificer 	127	R	4RR	This spell costs X less to cast, where X is the total amount of life your opponents have lost this turn.
+Menace	5/4		normal	PRU		Type A — RB
+
+Activated ability, aggressive, cares about unusual theme
+
+4+
+
+QQ
+
+DecemberREPLACEMECrucible Breaker	R	uncommon	Creature — Faerie Rogue 	120	R	1R	When this creature enters, put a zeal counter on target Faerie.
+3R, Remove a zeal counter from this creature: Create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.       	3/1		normal	PRU		Type C with zeal
+
+ZZZ
+
+Could also be: browbeat, create temporary copyREPLACEMELacrymose Blessed	R	uncommon	Creature — Horror 	133	R	4RR	Flying
+When this creature enters, creatures you control get +1/+0 and gain menace until end of turn.	4/2		normal	PRU		Type A — RW
+
+Not fully happy with this one
+
+ZZZ
+
+December
+
+
+
+The Apothecary offered to forgive all debts of any faerie willing to become Blessed. Few of their minds survived.    REPLACEMEEruption Strike Leader	R	uncommon	Creature — Faerie Warrior 	124	R	2R	Whenever this creature attacks, put a zeal counter on target Faerie.
+R, Remove a zeal counter from this creature: It gains first strike until end of turn.	3/3		normal	PRU		Type A- RG
+
+X
+
+4+
+
+QQREPLACEMEWere Hunt Enforcer	R	uncommon	Creature — Dragon Faerie Warrior 	149	R	3R	Trample, prowess. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)	5/3		normal	PRU		Type C with prowess
+
+Changed since August SuggestedREPLACEMERioter's Mask	R	uncommon	Artifact — Equipment 	142	R	1R	Equip R
+Equipped creature gets +1/+0 and has haste.
+Whenever equipped creature deals combat damage to a player, put a zeal counter on target Faerie you control.			normal	PRU		Type B — aggro zeal
+
+changed since June
+
+Maybe just Empathize once
+
+Changed since August Optional
+
+Changed since November (wording)
+
+Formerly incendiary broadsheet
+Ruby Arrested! p.1 — FRPD Curfew! p.2 — Marlene’s Fish Curry! p.4REPLACEMEAnnihilation Performance	R	uncommon	Sorcery	115	R	1R	Discard any number of cards, then draw that many cards.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type B — just kinda weird
+
+RR?
+
+If land switch, can move to common
+
+QQ
+
+P1P1REPLACEMEIchor Exposure	R	uncommon	Enchantment — Aura 	129	R	R	Enchant creature
+Enchanted creature gets +2/-2 and has trample and “Whenever this creature attacks, exile the top card of your library. You may play it this turn.”			normal	PRU		Type B?REPLACEMESpread the Infection	R	uncommon	Instant	145	R	2R	This spell deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type C
+
+Should this be a sorcery?
+
+4+
+
+QQREPLACEMEFirebomb	R	uncommon	Instant	125	R	2R	This spell deals 2 damage to each creature.			normal	PRU		Type B?
+
+
+Afterward, the FRPD installed constant officers around Foxtown to “protect the vulnerable residents.”
+
+4+
+
+QQ
+
+Changed since JuneREPLACEMEImmolate	R	uncommon	Sorcery	130	R	XR	This spell deals X plus 1 damage to target creature.			normal	PRU		Type C
+
+Should this be an instant?
+
+Changed since August Optional
+
+Room for minor upside. scry 1? Don’t want another empathy payoff. Could also sorcery with significant upsideREPLACEMEKudzu Elemental	G	uncommon	Creature — Elemental 	164	G	XG	Reach
+This creature enters with X +1/+1 counters on it.	1/1		normal	PRU		Type C
+
+QQ
+
+Maybe needs a buff
+
+DecemberREPLACEMEStudberg Regulars	G	uncommon	Creature — Dragon Faerie Soldier 	177	G	1G	When this creature enters, put a zeal counter on target Faerie.
+2G, Remove a zeal counter from this creature: This creature fights target creature you don’t control. Activate only as a sorcery. 	3/2		normal	PRU		Type C
+
+ZZZ
+Considering:
+Fox’s Underground Announcer:
+4G
+4/3
+enters: another target creature you control fights target creature you don’t controlREPLACEMEFallow Lands Nomad	G	uncommon	Creature — Cat Faerie Scout 	158	G	1G	T: Add G.
+1G, T, Remove a zeal counter from this creature: Mill three cards, then return a card milled this way from your graveyard to your hand.
+2GG, T: Put a zeal counter on target Faerie.	1/2		normal	PRU		Type C
+
+Empathy
+
+Non-essential. Mana dork?
+
+4+
+
+QQ
+
+Changed since August OptionalREPLACEMEInvasive Plowbeetle	G	uncommon	Creature — Insect 	163	G	2G	When this creature enters, return a permanent you control to its owner’s hand.	4/5		normal	PRU		Type C
+
+4+
+
+If land switch, can move to common
+
+QQREPLACEMEPicket Line Paladin	G	uncommon	Creature — Faerie Warrior 	171	G	3G	Vigilance, trample
+This creature gets +1/+0 for each Human you control.	3/4		normal	PRU		Type B — Humans
+
+these 3 — +1/+1 counter payoff, bloom payoff, harmony payoffREPLACEMEBloomtouched Toymaker	G	uncommon	Creature — Human Artificer 	153	G	2G	Ward 1 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 1.)
+Whenever you cast a spell with bloom from your hand, put a +1/+1 counter on target creature you control and create a Treasure token.	2/4		normal	PRU		Type A — UG
+
+4+
+
+QQREPLACEMEMask Maker	G	uncommon	Creature — Faerie Shaman 	167	G	3G	When this creature enters, double the number of each type of counter on target creature.
+Creatures you control with counters on them have vigilance.	4/4		normal	PRU		Type A — WG
+
+DoublesREPLACEMEFungimancer	G	uncommon	Creature — Fungus Faerie Druid 	162	G	3GG	At the beginning of your upkeep, you may exile three cards from your graveyard. When you do, put a zeal counter on target Faerie.
+2G, Remove a zeal counter from this creature: Create a 2/2 green Fungus creature token. Activate only as a sorcery.	3/6		normal	PRU		Type B — graveyard
+
+Changed since JuneREPLACEMEBarkspace Conspiracy	G	uncommon	Enchantment	151	G	1G	Landfall — Whenever a land you control enters, put a zeal counter on target Faerie you control.
+Whenever you remove a zeal counter from a creature you control, put a +1/+1 counter on that creature.			normal	PRU		Type A — RG
+
+4+
+
+QQREPLACEMEAsk The Earth	G	uncommon	Sorcery	150	G	3G	Put X +1/+1 counters on target creature, where X is its power.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type B — Huge creatures
+
+QQREPLACEMEFlood of Moss	G	uncommon	Sorcery	159	G	2G	Choose a basic land type. Create a tapped basic land token with that type. You gain 2 life.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type B — ramp/multicolourREPLACEMEMiasmic Reclamation	G	uncommon	Instant	168	G	2G	Destroy up to one target artifact, enchantment, or creature with flying. 
+If you control a Human and a Faerie, create a 2/2 green Fungus creature token.			normal	PRU		Type A — BGREPLACEMEPrinting Press		uncommon	Artifact	220		3	2, T: Put a zeal counter on target Faerie you control.			normal	PRU		Empathy
+
+ZZZ
+
+DoublesREPLACEMEFRPD Truncheon		uncommon	Artifact — Equipment 	213		1	Equip 3
+Equip Human 1
+Equipped creature gets +2/+0.			normal	PRU		4+
+
+QQx2
+
+Possibly unnecesary
+
+Changed since November.REPLACEMEMobile Drillrig		uncommon	Artifact — Vehicle 	218		2	Whenever you cast your second spell each turn, this Vehicle becomes an artifact creature until end of turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)	4/3		normal	PRU		ZZZREPLACEMESt Gufilda's Memorial		uncommon	Artifact	221		4	When this artifact enters, create two 1/1 white Human creature tokens.
+Whenever an attacking creature you control dies, create a 1/1 white Human creature token. This ability triggers only once each turn.			normal	PRU		4+
+
+QQx2REPLACEMEBloomwild Haze		uncommon	Land	223			When this land enters, exile the top two cards of your library.
+This land has all basic land types of the exiled cards.
+T: Add C or one mana of any of the exiled cards’ colors.			normal	PRU		Surge
+
+ZZZ (not printed)REPLACEMEStudberg Estates		uncommon	Land	242			T: Add C
+T, Pay 1 life: Add W
+3W, T: Scry 2.			normal	PRU		4+
+
+QQx2REPLACEMEFallowpeaks Prison		uncommon	Land	228			T: Add C
+T, Pay 1 life: Add B
+3B, T: Scry 2.			normal	PRU		ZZZREPLACEMEFoxtown Teahouse		uncommon	Land	231			T: Add C
+T, Pay 1 life: Add G
+3G, T: Scry 2.			normal	PRU		4+
+
+QQREPLACEMEBlue Palace Fountain		uncommon	Land	224			T: Add C
+T, Pay 1 life: Add U
+3U, T: Scry 2.			normal	PRU		ZZZREPLACEMEUndertree Foundry		uncommon	Land	254			T: Add C
+T, Pay 1 life: Add R
+3R, T: Scry 2.			normal	PRU		4+
+
+QQREPLACEMEMarlene, Tail for Business	WU	rare	Legendary Creature — Fox Faerie 	198	WU	1WU	Players play with the top card of their library revealed.
+During each player’s turn, that player may cast spells from the tops of their opponents’ libraries. Mana of any type may be spent to cast those spells. Spells you cast this way cost 1 less to cast.	3/4		normal	PRU		27
+
+Changed since June
+
+The rarities and their purposes
+Commons: A Common should be something a deck might want multiples of
+Uncommons: An Uncommon should give a draft direction
+Rares: A Rare should be cool when it works
+Mythics: A Mythic should set affect an entire draft
+
+Criteria for good rares:
+1: You should want to put it in your deck sometimes
+2: It should have a dream to live
+3: It should require some work
+4: The opponent should have easy ways of interacting with it
+5: When it works, the impact on the game should be large but not game-endingREPLACEMEHippocrat Melix	UB	rare	Legendary Creature — Human Artificer 	194	UB	1UB	Whenever this creature deals combat damage to a player, draw a card.
+When this creature dies, you may exile target creature an opponent controls. If you do, return this creature to the battlefield under that player’s control.	3/1		normal	PRU		6+
+
+27
+
+Changed since JuneREPLACEMEMyriad V	BR	rare	Legendary Creature — Faerie Assassin 	199	BR	2BR	First strike
+Whenever a creature an opponent controls dies, put a zeal counter on target Faerie.
+B/R, Remove a zeal counter from this creature: Target player loses 3 life unless they exile a card from their hand or a nonland permanent they control. Activate only as a sorcery.	4/3		normal	PRU		Resume!REPLACEMERuby, Rebellion's Heart	RG	rare	Legendary Creature — Shark Faerie 	204	RG	1RG	Creatures you control enter the battlefield with an additional zeal counter on them.
+Creatures you control have all activated abilities of Faerie cards in your graveyard.	2/3		normal	PRU		changed
+
+6+
+
+Resume!
+
+Maybe: Whenever another nontoken creature enters the battlefield under your control, put a focus counter on it, then you may mill two cards.
+Other creatures you control have all activated abilities of all Faeries cards in your graveyard.
+
+RefocusREPLACEMEAurora, Loving Healer	WG	rare	Legendary Creature — Human Cleric 	186	WG	1GW	Flash, Defender
+When this creature enters, return all creature cards from your graveyard to the battlefield that were put there from the battlefield this turn. Put two +1/+1 counters on each of them.	0/4		normal	PRU		Resume!
+
+Vivian’s ripped leather and chrome made her an icon of Wilhelm’s Folly. 
+
+Vivian, Hopeful Pugilist
+
+Manuel GonzalezREPLACEMEPrince Wilhelm	WB	rare	Legendary Creature — Human Noble 	201	WB	3WB	When this creature enters, create two 1/1 white Human creature tokens.
+Whenever you cast a Tactic spell, you may pay 2 life. If you do, strategize. (Put the top card of your tactic deck into your hand.)	3/3		normal	PRU		27
+
+RefocusREPLACEMEFleet, Musical Skywright	UR	rare	Legendary Creature — Faerie Artificer 	192	UR	2UR	Prowess
+Whenever this creature attacks, you may sacrifice an artifact. If you do, reveal the top ten cards of your library. Put an artifact card from among them onto the battlefield and the rest on the bottom of your library in a random order.	4/4		normal	PRU		Resume!
+
+RefocusREPLACEMEFenley, Oasis Gardener	BG	rare	Legendary Creature — Human 	191	BG	1BG	Landfall — Whenever a land you control enters, put an extraction counter on another target creature. Its controller creates a Treasure token.
+Each creature gets -1/-1 for each extraction counter on it.	2/4		normal	PRU		Reload!REPLACEMESwell, Bloomtouched Scion	WR	rare	Legendary Creature — Faerie Noble 	207	WR	1RW	Lifelink
+When this creature enters, each player may choose a creature other than Swell, Bloomtouched Scion. This creature deals 3 damage to each creature chosen this way.	3/2		normal	PRU		changed
+
+Maybe to 4/4 or 4/5?REPLACEMERigamaroll, Masked Crab	UG	rare	Legendary Creature — Crab Faerie 	203	UG	GU	Whenever a creature you control enters under, this creature becomes a copy of that creature until the end of your next turn, except it’s a 3/3 Crab named Rigamaroll, Masked Crab.	3/3		normal	PRU		Resume!REPLACEMESong of the Void	W	rare	Enchantment — Aura 	38	W	W	Enchant creature you control
+Enchanted creature has ward 1.
+When this enchantment enters, exile target creature until this enchantment leaves the battlefield.			normal	PRU		S
+
+6+
+
+27
+
+Flash?
+
+Watchlist
+Might need to swap to uncommon
+Changed since August SuggestedREPLACEMEMaviella Margave	W	rare	Legendary Creature — Faerie Noble 	27	W	2W	When this creature enters, look at the top five cards of your library. You may reveal a Human card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+Human spells you cast cost WUBRG less to cast. This effect reduces only the amount of colored mana you pay.	2/2		normal	PRU		s
+
+Dig for Humans?
+Human Platinum Angel?
+
+Resume!
+
+unprinted
+
+RefocusREPLACEMECrack Pilot	W	rare	Creature — Human Pilot 	15	W	1W	Vehicle creatures and equipped creatures you control get +1/+1 and have “When this creature dies, return it to the battlefield under your control with a finality counter on it” (If a creature with a finality counter on it would die, exile it instead.)	3/1		normal	PRU		Resume!
+
+unprinted
+
+DecemberREPLACEMECaesura Technique	W	rare	Enchantment	12	W	1W	You can’t untap more than one land during your untap step.
+At the beginning of your upkeep, draw a card.
+Whenever an opponent casts a spell, untap up to one target land.			normal	PRU		Caesura Technique
+
+cost 2W 
+
+Refocus
+
+P1P1REPLACEMEDecorated Tactician	W	rare	Creature — Human Noble Soldier 	17	W	2WW	Prowess, first strike
+When this creature enters, strategize.
+XW, Tap X untapped creatures you control, discard a Tactic card: Copy the discarded card X times. You may cast the copies without paying their mana cost. Activate only as a sorcery.	2/3		normal	PRU		Humans payoff 
+
+X
+
+4+
+
+27
+
+Could be
+
+Double strike
+When Decorated Tactician enters the battlefield, strategize. (Put the top card of your tactic deck into your hand.)
+At the beginning of your upkeep, you may strategize. If you do, discard a Tactic card.
+
+XW, Instant
+As an additional cost to cast CARDNAME, discard any number of Tactic cards.
+Copy each of those cards X times. You may cast the copies without paying their mana costs.
+
+RefocusREPLACEMEEmaciate	W	rare	Sorcery	19	W	4WW	All creatures have base power and toughness 0/0 until end of turn.			normal	PRU		S
+
+4+
+
+27REPLACEMEThe Sceptre	W	rare	Legendary Artifact — Vehicle 	35	W	2W	Crew 1
+Whenever this Vehicle attacks, put a +1/+1 counter on each creature you control.
+Whenever a creature crews this Vehicle alone, sacrifice it.	4/4		normal	PRU		27
+
+RefocusREPLACEMEThe Crown of Glass	U	rare	Legendary Artifact — Equipment Clue 	49	U	U	Equip U
+Equipped creature has prowess. (Prowess stacks.)
+Whenever equipped creature attacks, exile the top card of your library face down. (You can’t look at it)
+2, Sacrifice this Equipment: Put all cards exiled with it into their owners’ hands.			normal	PRU		s, R
+
+unprinted
+
+RefocusREPLACEMEChisel, Heterodox Luthier	U	rare	Legendary Creature — Faerie Artificer 	45	U	XUU	Flash, prowess.
+When this creature enters, gain control of target spell with mana value X or less. You may choose new targets for it.	1/2		normal	PRU		S
+
+
+
+unprinted
+
+RefocusREPLACEMEErode Fate	U	rare	Sorcery	56	U	3UU	Target player mills eleven cards.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+
+
+27REPLACEMELenora's Glamer	U	rare	Enchantment	63	U	2U	Whenever you cast a Tactic spell, you may pay 1. If you do, create a 2/2 blue Illusion creature token with flying.			normal	PRU		Other options:
+
+Get counter on cast Tactic, remove counters to take extra turn / make tokens?
+
+Copy spells for each Tactic spell cast before them?
+
+Enchant creature, gain control of it by casting Tactics?
+
+Reload!
+Maybe 1UREPLACEMEResurface	U	rare	Instant	70	U	U	Exile target creature you control, then return it to the battlefield under your control.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		S
+
+27REPLACEMENurse-Current Augur	U	rare	Creature — Elemental 	66	U	2U	Flying
+Noncreature spells you cast cost 1 less to cast for each face-up exiled card you own in exile with bloom.	3/1		normal	PRU		Something to do with Bloom?
+
+6+
+
+unprinted
+
+December
+
+RefocusREPLACEMEProduction Line	U	rare	Artifact	68	U	2UU	T: Exile all Construct tokens you control, then create an X/X colorless Construct artifact creature token, where X is the number of spells you have cast this turn.			normal	PRU		Industrialist — Instants?, s, 
+
+Reload!
+Maybe 2UREPLACEMEClivinius the Scourge	B	rare	Legendary Creature — Octopus Faerie 	85	B	1BB	Menace
+When this creature enters, destroy eight other target creatures.	4/4		normal	PRU		27REPLACEMEPro Bono Oathmage	B	rare	Creature — Faerie Warlock 	102	B	B	When this creature enters, put a zeal counter on target Faerie.
+5BBB, Remove a zeal counter from this creature: Gain control of target creature. Activate only as a sorcery.	2/1		normal	PRU		S
+
+4+
+Resume!
+
+unprintedREPLACEMEUnderworld Seer	B	rare	Creature — Faerie Wizard 	108	B	3BB	Lifelink
+Whenever you scry, exile the bottom card of your library. You lose life equal to its mana value. If it’s a nonland card, put it in your hand.	4/3		normal	PRU		27
+
+DecemberREPLACEMEBroken Tower Nihilist	B	rare	Creature — Faerie Cleric 	81	B	2B	Deathtouch
+At the beginning of your upkeep, you may sacrifice a Faerie. If you do, draw a card and put a +1/+1 counter on each Human you control.	1/3		normal	PRU		Broken Tower — harmony card (they believe humans are a divine judgment)
+
+S
+
+Maybe an enchantment?
+
+4+
+
+27
+
+RefocusREPLACEMEChessmaster	B	rare	Creature — Human Advisor 	83	B	3B	Whenever a player casts their second spell each turn, strategize. (Put the top card of your tactic deck into your hand.)	3/4		normal	PRU		
+
+unprinted
+
+RefocusREPLACEMEVictory Drive	B	rare	Instant	109	B	1B	Create X 1/1 white Human creature tokens, where X is the total amount of life your opponents have lost this turn.			normal	PRU		6+
+
+27REPLACEMEYsolde's Gauntlet	B	rare	Legendary Artifact — Equipment 	112	B	1B	Whenever you cast a spell, each player loses 1 life.
+Equip 2B
+Equipped creature gets +X/+X, where X is the total amount of life players have lost this turn. 			normal	PRU		Reload!
+
+Watchlist
+
+RefocusREPLACEMEMobius, Progeny Mender	R	rare	Legendary Creature — Faerie Cleric 	135	R	3RR	Discard a card: Put a zeal counter on target Faerie.
+1R, Remove a zeal counter from this creature: Copy target instant or sorcery spell you control. You may choose new targets for the copy.	4/5		normal	PRU		27
+
+Maybe nerf? It does require combos but is very powerful when it works?
+
+Changed Since August Essential
+
+copy spells? copy creatures (temporary?)REPLACEMEEphemeral Deluge	R	rare	Sorcery	122	R	3R	Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		s
+
+Resume!
+
+unprinted
+
+Only cameo in this set. I get one.
+
+RefocusREPLACEMEFlame-Touched Faerie	R	rare	Creature — Elemental Faerie Shaman 	126	R	2R	Haste
+1RR, Exile this card from your graveyard: This card deals 3 damage to each creature. Activate only as a sorcery and only if an opponent lost life this turn.	3/3		normal	PRU		Reload!
+
+Watchlist
+Changed since August Optional
+
+December
+
+maybe some kind of exile-from-graveyard ability
+
+RefocusREPLACEMERevolutionary Spirit	R	rare	Enchantment	140	R	1R	Whenever you remove one or more zeal counters from a creature to pay the cost of an ability, copy that ability. You may choose new targets for the copy.			normal	PRU		4+
+
+27
+
+Changed since August EssentialREPLACEMEAnnihilation Junkie	R	rare	Creature — Human Bard 	114	R	R	Prowess
+At the beginning of combat on your turn, if this creature’s power is 4 or greater, create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step.	1/2		normal	PRU		4+
+
+27
+
+DecemberREPLACEMEInfection Vessel	R	rare	Creature — Plant Faerie 	131	R	1R	Whenever this creature enters or attacks, put a +1/+1 counter on target creature with no +1/+1 counters on it.
+Creatures with +1/+1 counters on them can’t block.	2/1		normal	PRU		Changed Since June (Art only)
+
+Resume!
+
+RefocusREPLACEMEPhantasia IV	R	rare	Legendary Artifact — Vehicle 	138	R	2R	Flying, Crew 1. Crew only once each turn.
+Whenever this Vehicle deals combat damage to a player, create a Treasure token, then you may sacrifice this Vehicle. If you do, exile the top X cards of your library, where X is the total power of creatures that crewed this Vehicle this turn. You may play those cards this turn.      	2/3		normal	PRU		4/3?
+
+6+
+
+Reload!
+
+Watchlist
+Changed since August  Optional
+
+RefocusREPLACEMEDemerara, Silken Host	G	rare	Legendary Creature — Spider Faerie 	156	G	2GG	Reach, Ward 1 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 1.)
+Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to this creature’s toughness.	3/1		normal	PRU		S
+
+Reload!
+
+unprinted
+
+RefocusREPLACEMESeed of the Mega Tree	G	rare	Legendary Artifact	174	G	2G	When this artifact enters and whenever you cast a spell with bloom from your hand, create a Forest token.
+8GG: This artifact becomes a creature with vigilance, reach, and “This creature’s power and toughness are each equal to the number of lands you control.”			normal	PRU		Could use a splashier effect
+
+4+
+
+27
+
+RefocusREPLACEMEMargrave's Desolation	G	rare	Sorcery	166	G	4GG	Destroy target noncreature permanent. Create two 2/2 green Fungus creature tokens, then put a +1/+1 counter on each Fungus you control.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Reload!REPLACEMECrab Caucus Patissier	G	rare	Creature — Ferret Faerie Druid 	154	G	1G	Whenever you gain life, put a +1/+1 counter on this creature. Then draw a card if this creature’s power is 4 or greater.	1/4		normal	PRU		December
+
+unprinted
+
+Refocus
+
+“If you’ve only had Shock’s Fungus Elixir, the real thing isn’t even comparable.”REPLACEMEBeast-Age Chronicler	G	rare	Creature — Faerie Bard 	152	G	2G	This creature can’t be blocked by more than one creature.
+Whenever this creature deals combat damage to a player, put a zeal counter on target Faerie.
+2G, Remove a zeal counter from this creature: You may put a permanent card from your hand onto the battlefield.	3/3		normal	PRU		4+
+
+Needs to feel more elegant as an empathize package: graveyard recursion? Copies? Symettrical ramp?
+
+27REPLACEMEPeople in Arms	G	rare	Creature — Faerie Citizen 	170	G	1G	This creature enters tapped with five stun counters on it.
+Whenever another nontoken creature you control dies, put a zeal counter on target Faerie.
+G, Remove a zeal counter from this creature: Untap target creature.        	7/7		normal	PRU		27
+
+Resume!
+
+Changed since August Essential
+
+Artem Chebokha
+
+Could change to
+
+Revolutionary Spirit
+1G
+Creature — Avatar Spirit
+CARDNAME enters the battlefield tapped with five stun counters on it.
+Trample
+Whenever another nontoken creature you control dies, empathize.
+Empathy — Untap target creature.
+7/7
+
+RefocusREPLACEMEEmerald Dam Invocation	G	rare	Sorcery	157	G	2G	Mill fifteen cards. Return a permanent card milled this way to your hand. Put this spell and up to four cards from its owner’s graveyard on the bottom of their owner’s library in a random order.			normal	PRU		Emerald Dam, S
+
+6+
+
+27REPLACEMEPanharmonicon		rare	Artifact	219		4	If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.			normal	PRU		S
+
+Reload!
+
+RefocusREPLACEMEGray Hand Beachhead		rare	Land	232			T: Add C.
+1, T: Strategize. Activate only if you attacked with a Human this turn. (Put the top card of your tactic deck into your hand.)			normal	PRU		
+Gas mask? Chain of Command? Tea? Pazzeralli’s Tours? Artificer’s Guild? Studded Heel? The Gray Hand?
+
+Needs to be: colourless land or artifact. Good in aggressive decks. Costs 3 or less.
+
+Resume!
+
+unprintedREPLACEMEThe Lotus of Margrave		rare	Legendary Artifact	217		5	When this artifact enters, draw two cards.
+T: Add three mana of any one color.
+At the beginning of each player’s upkeep, that player gains control of this artifact. Untap it.			normal	PRU		6+
+
+27REPLACEMEThe Summer Palace		rare	Legendary Land	243			T: Add G.
+1GG, Discard this card: Creatures you control gain hexproof and indestructible until end of turn.			normal	PRU		Resume!
+
+unprintedREPLACEMECatrest		rare	Legendary Land	226			T: Add R.
+2RR, Discard this card: Create two tapped 1/1 red Cat creature tokens with prowess.			normal	PRU		S
+
+Resume!
+
+unprintedREPLACEMEMulberry Hall		rare	Legendary Land	235			T: Add W.
+2WW, Discard this card: Put two +1/+1 counters on target creature.			normal	PRU		Reload!REPLACEMEFenley's Garden		rare	Legendary Land	229			T: Add B.
+1BB, Sacrifice a creature, discard this card: Create a Treasure token, then draw two cards.			normal	PRU		Reload!
+
+RefocusREPLACEMECamp Clef		rare	Legendary Land	225			T: Add U.
+2UU, Discard this card: Reveal the top six cards of your library. Put all noncreature, nonland cards revealed this way into your hand and the rest on the bottom of your library in a random order.			normal	PRU		s
+
+4+
+
+27
+
+RefocusREPLACEMEIndustrial Revolution	WUR	mythic	Enchantment	195	WUR	2URW	When this enchantment enters, create two Treasure tokens.
+Whenever you cast a noncreature spell, if mana from a Treasure was spent to cast it, copy it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)			normal	PRU		selected
+
+27REPLACEMEUnbounded Feeder	BRG	mythic	Legendary Artifact	208	BRG	1BRG	At the beginning of your end step, you may pay 2 life. If you do, put an infection counter on this artifact. If you don’t, destroy all nonland permanents, then create a 2/2 green Fungus creature token for each infection counter on this artifact.			normal	PRU		Reload!REPLACEMEEndless Struggle	WBG	mythic	Enchantment	190	WBG	2WBG	Whenever a nontoken Human or Faerie you control dies, return it to the battlefield under your control with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead)			normal	PRU		REPLACEMEVerity System	WUB	mythic	Artifact Enchantment — Aura Curse 	209	WUB	1WUB	Enchant player
+Whenever a player casts their second spell each turn, put all cards exiled with this Aura into their owner’s graveyard, then exile the top three cards of enchanted player’s library.
+Enchanted player can’t cast spells with the same mana value as a card exiled with this Aura.			normal	PRU		Resume!
+
+RefocusREPLACEMEHeart of the Bloom	URG	mythic	Legendary Enchantment	193	URG	3GUR	When this enchantment enters, exile a white card, a blue card, a black card, a red card, and a green card you own from outside the game.
+Landfall — Whenever a land you control enters, choose one of the exiled cards at random. You may cast it without paying its mana cost.			normal	PRU		
+
+Maybe: enters the battlefield exile five or more cards you own from outside the game. Upkeep: reveal and cast one at random
+
+Maybe instead a white card, a blue card, a black card, a red card, and a green card?REPLACEMECompany Exemplar	W	mythic	Creature — Human Soldier 	14	W	1WWWW	Vigilance
+At the beginning of your upkeep, strategize. (Put the top card of your tactic deck into your hand.)
+Discard five Tactic cards: Create twenty 1/1 white Human creature tokens.	4/6		normal	PRU		Reload!REPLACEMEState of Peace	W	mythic	Enchantment	40	W	1W	When this enchantment enters, create a 1/1 red Cat creature token with prowess. You gain 3 life.
+2W, Sacrifice this enchantment: Reveal a white card you own from outside the game and put it in your hand.			normal	PRU		Changed since August Suggested
+
+DecemberREPLACEMEApothecary Exemplar	U	mythic	Creature — Wizard Horror 	42	U	1UUUU	Flying
+Other Horror creatures you control have flying.
+Whenever this creature deals combat damage to an opponent, that player mills that many cards. You may return a creature card milled this way to the battlefield under your control. It’s a Horror in addition to its other types.	3/7		normal	PRU		REPLACEMEState of Sadness	U	mythic	Enchantment	73	U	1U	When this enchantment enters, scry 2, then draw a card.
+2U, Sacrifice this enchantment: Reveal a blue card you own from outside the game and put it in your hand.			normal	PRU		Reload!
+Changed since August Suggested
+
+DecemberREPLACEMEWere Hunt Exemplar	B	mythic	Creature — Bear Faerie Mercenary 	111	B	1BBBB	Menace
+BB, Sacrifice another creature with mana value X: Draw X cards.
+BB, Discard X cards: Return target creature with mana value X from your graveyard to the battlefield.	6/4		normal	PRU		B to activate?REPLACEMEState of Fear	B	mythic	Enchantment	107	B	1B	When this enchantment enters, look at target opponent’s hand. Choose a noncreature, nonland card from it. That player discards that card.
+2B, Sacrifice this enchantment: Reveal a black card you own from outside the game and put it in your hand.			normal	PRU		S
+
+27
+Changed since August SuggestedREPLACEMEEruption Exemplar	R	mythic	Creature — Faerie Shaman 	123	R	1RRRR	As long is it’s your turn, this creature has first strike.
+Whenever you attack, exile target creature, then return it to the battlefield tapped and attacking under your control. Its owner gains control of it at the beginning of the next end step. 	7/3		normal	PRU		Resume!
+
+Haste instead?
+
+Don’t love how feast and famine this is
+Changed since August Suggested
+
+RefocusREPLACEMEState of Anger	R	mythic	Enchantment	146	R	1R	When this enchantment enters, it deals 3 damage to target creature.
+2R, Sacrifice this enchantment: Reveal a red card you own from outside the game and put it in your hand.			normal	PRU		Changed since August Suggested
+
+DecemberREPLACEMEUltimatum Exemplar	G	mythic	Creature — Faerie Soldier 	182	G	1GGGG	Trample
+At the beginning of your end step, put a zeal counter on target Faerie.
+XG, Remove a zeal counter from this creature: Reveal the top X cards of your library. You may put a creature card with mana value X or less from among them onto the battlefield. Put the  rest on the bottom of your library in a random order. Activate only as a sorcery.	5/5		normal	PRU		selected
+
+27REPLACEMEState of Joy	G	mythic	Enchantment	176	G	1G	When this enchantment enters, you may return a land you control to its owner’s hand. If you do, choose a basic land type. Create a basic land token with that type.
+2G, Sacrifice this enchantment: Reveal a green card you own from outside the game and put it in your hand.			normal	PRU		Changed since August Suggested
+
+Prey Upon on enters? might have to change to Powerful in that case
+
+Resume!
+
+December
+
+RefocusREPLACEMEHuman	W	common	Token Creature — Human 	3	W			1/1		token	PRU		5 per sheetREPLACEMECat	R	common	Token Creature — Cat 	5	R		Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)	1/1		token	PRU		3 per sheetREPLACEMEFungus	G	common	Token Creature — Fungus 	7	G			2/2		token	PRU		2 per sheetREPLACEMEIllusion	U	common	Token Creature — Illusion 	4	U		Flying	2/2		token	PRU		2 per sheetREPLACEMETreasure		common	Token Artifact — Treasure 	9			T, Sacrifice Treasure: Add a mana of any color.			token	PRU		2 per sheetREPLACEMEElemental	R	common	Token Creature — Elemental 	6	R		Haste, Prowess	4/4		token	PRU		2 per sheetREPLACEMECopy		common	Token 	1						token	PRU		1 per sheetREPLACEMEConstruct		common	Token Artifact Creature — Construct 	8				X/X		token	PRU		1 per sheetREPLACEMEPlains Token		common	Token Basic Land — Plains 	13						token	PRU		2 per sheetREPLACEMEIsland Token		common	Token Basic Land — Island 	11						token	PRU		2 per sheetREPLACEMESwamp Token		common	Token Basic Land — Swamp 	14						token	PRU		2 per sheetREPLACEMEMountain Token		common	Token Basic Land — Mountain 	12						token	PRU		2 per sheetREPLACEMEForest Token		common	Token Basic Land — Forest 	10						token	PRU		2 per sheetREPLACEMEIn The Bloom		common		2			After a Bloom spell you cast from your hand resolves, you can place the exiled card here.
+Whenever you cast a spell with greater mana value than the exiled card, you may cast the exiled card without paying its mana cost			token	PRU		REPLACEMEPlains		common	Basic Land — Plains 	255						normal	PRU		REPLACEMEIsland		common	Basic Land — Island 	256						normal	PRU		REPLACEMESwamp		common	Basic Land — Swamp 	257						normal	PRU		REPLACEMEMountain		common	Basic Land — Mountain 	258						normal	PRU		REPLACEMEForest		common	Basic Land — Forest 	259						normal	PRU		REPLACEME

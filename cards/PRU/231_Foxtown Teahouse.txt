@@ -1,0 +1,1 @@
+﻿Foxtown Teahouse		uncommon	Land	231			T: Add CNEWLINET, Pay 1 life: Add GNEWLINE3G, T: Scry 2.			normal	PRU		4+NEWLINENEWLINEQQ

@@ -1,0 +1,1 @@
+﻿Temple of Abandon		common	Land	244			This land enters tapped.NEWLINEWhen this land enters, scry 1.NEWLINET: Add R or G.			normal	PRU		4+

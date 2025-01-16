@@ -1,0 +1,1 @@
+﻿November's Fury	R	common	Instant	137	R	3R	This spell deals 4 damage to target creature. Put a zeal counter on up to one target Faerie.			normal	PRU		RNEWLINENEWLINE4+NEWLINENEWLINEChanged since August SuggestedNEWLINENEWLINE2 damage to controller?

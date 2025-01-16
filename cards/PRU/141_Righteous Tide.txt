@@ -1,0 +1,1 @@
+﻿Righteous Tide	R	common	Sorcery	141	R	1R	This spell deals 3 damage to target creature. If an opponent lost life this turn, this spell deals 6 damage to that creature instead.			normal	PRU		ANEWLINENEWLINEP1P1

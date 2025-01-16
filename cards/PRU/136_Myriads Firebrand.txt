@@ -1,0 +1,1 @@
+﻿Myriad's Firebrand	R	common	Creature – Dragon Faerie Warrior 	136	R	4R	When this creature enters, put a zeal counter on target Faerie.NEWLINER, Remove a zeal counter from this creature: Target creature gains haste until end of turn.	5/5		normal	PRU		ANEWLINENEWLINE4+NEWLINENEWLINEDoubles

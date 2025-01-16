@@ -1,0 +1,1 @@
+﻿Weaponself Assassination	B	common	Sorcery	110	B	4BB	This spell costs 2 less to cast if you control a Human.NEWLINEThis spell costs 2 less to cast if you control a Faerie.NEWLINEExile target creature.			normal	PRU		4+

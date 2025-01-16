@@ -1,0 +1,1 @@
+﻿Rotting Revolutionary	B	common	Creature – Faerie Soldier 	106	B	3B	When this creature enters, put a zeal counter on target Faerie.NEWLINE1B, Remove a zeal counter from this creature: It gains indestructible until end of turn.	4/4		normal	PRU		4+NEWLINENEWLINEWatchlistNEWLINEChanged since August Essential

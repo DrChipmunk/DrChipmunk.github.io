@@ -1,0 +1,1 @@
+﻿Crab Caucus Patissier	G	rare	Creature – Ferret Faerie Druid 	154	G	1G	Whenever you gain life, put a +1/+1 counter on this creature. Then draw a card if this creature’s power is 4 or greater.	1/4		normal	PRU		DecemberNEWLINENEWLINEunprintedNEWLINENEWLINERefocusNEWLINENEWLINE“If you’ve only had Shock’s Fungus Elixir, the real thing isn’t even comparable.”

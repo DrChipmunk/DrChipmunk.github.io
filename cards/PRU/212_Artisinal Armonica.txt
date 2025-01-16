@@ -1,0 +1,1 @@
+﻿Artisinal Armonica		common	Artifact	212		3	T: Add one mana of any color.NEWLINE2, T: Scry 1.			normal	PRU		ChangedNEWLINENEWLINEDoubles

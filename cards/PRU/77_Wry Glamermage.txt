@@ -1,0 +1,1 @@
+﻿Wry Glamermage	U	common	Creature – Dragon Faerie Rogue 	77	U	1U	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhenever this creature deals combat damage to a player, you may sacrifice it. If you do, create a 2/2 blue Illusion creature token with flying.	1/2		normal	PRU		BUFF: Maybe return to hand instead of sacrificing?

@@ -1,0 +1,1 @@
+﻿Jollity Dancer	R	common	Creature – Bear Faerie Bard 	132	R	2R	MenaceNEWLINEWhen this creature enters, put a zeal counter on target Faerie.NEWLINE2R, Remove a zeal counter from this creature: Target creature can’t block this turn. 	3/2		normal	PRU		NEWLINEChanged since August SuggestedNEWLINENEWLINEThe House of Jollity refused to dilute their shows for a human audience.

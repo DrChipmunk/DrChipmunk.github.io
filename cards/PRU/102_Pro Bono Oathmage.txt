@@ -1,0 +1,1 @@
+﻿Pro Bono Oathmage	B	rare	Creature – Faerie Warlock 	102	B	B	When this creature enters, put a zeal counter on target Faerie.NEWLINE5BBB, Remove a zeal counter from this creature: Gain control of target creature. Activate only as a sorcery.	2/1		normal	PRU		SNEWLINENEWLINE4+NEWLINEResume!NEWLINENEWLINEunprinted

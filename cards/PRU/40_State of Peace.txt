@@ -1,0 +1,1 @@
+﻿State of Peace	W	mythic	Enchantment	40	W	1W	When this enchantment enters, create a 1/1 red Cat creature token with prowess. You gain 3 life.NEWLINE2W, Sacrifice this enchantment: Reveal a white card you own from outside the game and put it in your hand.			normal	PRU		Changed since August SuggestedNEWLINENEWLINEDecember

@@ -1,0 +1,1 @@
+﻿Temple of Malady		common	Land	248			This land enters tapped.NEWLINEWhen this land enters, scry 1.NEWLINET: Add B or G.			normal	PRU		

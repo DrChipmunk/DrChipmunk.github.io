@@ -1,0 +1,1 @@
+﻿Ichor Grenade		common	Artifact	214		3	You may discard a Tactic card rather than pay this spell’s mana cost.NEWLINE3, T, Sacrifice this artifact: This artifact deals 6 damage to target creature.			normal	PRU		Changed Since JuneNEWLINENEWLINEChanged Since August Essential

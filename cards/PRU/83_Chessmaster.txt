@@ -1,0 +1,1 @@
+﻿Chessmaster	B	rare	Creature – Human Advisor 	83	B	3B	Whenever a player casts their second spell each turn, strategize. (Put the top card of your tactic deck into your hand.)	3/4		normal	PRU		NEWLINENEWLINEunprintedNEWLINENEWLINERefocus

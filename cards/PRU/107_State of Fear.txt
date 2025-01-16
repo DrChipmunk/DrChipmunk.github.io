@@ -1,0 +1,1 @@
+﻿State of Fear	B	mythic	Enchantment	107	B	1B	When this enchantment enters, look at target opponent’s hand. Choose a noncreature, nonland card from it. That player discards that card.NEWLINE2B, Sacrifice this enchantment: Reveal a black card you own from outside the game and put it in your hand.			normal	PRU		SNEWLINENEWLINE27NEWLINEChanged since August Suggested

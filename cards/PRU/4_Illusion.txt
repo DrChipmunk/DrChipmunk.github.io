@@ -1,0 +1,1 @@
+﻿Illusion	U	common	Token Creature – Illusion 	4	U		Flying	2/2		token	PRU		2 per sheet

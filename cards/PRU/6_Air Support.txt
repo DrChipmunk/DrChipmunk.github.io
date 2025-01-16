@@ -1,0 +1,1 @@
+﻿Air Support	W	common	Instant	6	W	1W	Strategize. (Put the top card of your tactic deck into your hand.)NEWLINEUntil end of turn, target creature gets +1/+1 for each Tactic card in your hand and gains flying.			normal	PRU		Combat Trick

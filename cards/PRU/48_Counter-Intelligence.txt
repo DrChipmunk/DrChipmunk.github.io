@@ -1,0 +1,1 @@
+﻿Counter-Intelligence	U	common	Instant	48	U	1UU	Choose one – NEWLINE• Counter target spell.NEWLINE• Draw a card, then strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		4+

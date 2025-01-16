@@ -1,0 +1,1 @@
+﻿Scalding Geyser	R	common	Sorcery	144	R	R	This spell deals 1 damage to any target.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+NEWLINENEWLINEDoubles

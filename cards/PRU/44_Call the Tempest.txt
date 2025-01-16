@@ -1,0 +1,1 @@
+﻿Call the Tempest	U	common	Sorcery	44	U	2U	Tap up to two target creatures. Put a stun counter on each of them.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Changed sicne August OptionalNEWLINENEWLINEDoubles

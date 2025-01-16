@@ -1,0 +1,1 @@
+﻿Living Truce		common	Artifact Creature – Spirit Construct 	216		5	Whenever this creature attacks, if you control a Human and a Faerie, this creature gains indestructible until end of turn.	5/3		normal	PRU		4+

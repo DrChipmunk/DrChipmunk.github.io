@@ -1,0 +1,1 @@
+﻿Orphans' Resilience	W	uncommon	Instant	30	W	2W	This spell costs 1 less to cast if it targets a Human and 1 less to cast if it targets a Faerie.NEWLINEPut a +1/+1 counter on each of up to three target creatures.			normal	PRU		Type B – harmony

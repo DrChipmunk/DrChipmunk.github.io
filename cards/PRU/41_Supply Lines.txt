@@ -1,0 +1,1 @@
+﻿Supply Lines	W	uncommon	Enchantment	41	W	2W	When this enchantment enters, strategize. (Put the top card of your tactic deck into your hand.)NEWLINEWhenever you strategize, put a +1/+1 counter on target creature you control.			normal	PRU		Type A – WUNEWLINENEWLINE4+NEWLINENEWLINEQQ

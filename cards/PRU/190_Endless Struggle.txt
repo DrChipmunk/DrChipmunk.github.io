@@ -1,0 +1,1 @@
+﻿Endless Struggle	WBG	mythic	Enchantment	190	WBG	2WBG	Whenever a nontoken Human or Faerie you control dies, return it to the battlefield under your control with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead)			normal	PRU		

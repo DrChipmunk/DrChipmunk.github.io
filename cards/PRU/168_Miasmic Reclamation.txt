@@ -1,0 +1,1 @@
+﻿Miasmic Reclamation	G	uncommon	Instant	168	G	2G	Destroy up to one target artifact, enchantment, or creature with flying. NEWLINEIf you control a Human and a Faerie, create a 2/2 green Fungus creature token.			normal	PRU		Type A – BG

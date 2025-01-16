@@ -1,0 +1,1 @@
+﻿Gifted Unicorn	W	common	Creature – Unicorn 	23	W	1W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhen this creature enters, target opponent may draw a card. If they do, draw a card.	2/2		normal	PRU		Would you like to draw a card?

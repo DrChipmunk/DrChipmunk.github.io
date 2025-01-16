@@ -1,0 +1,1 @@
+﻿Fenley, Oasis Gardener	BG	rare	Legendary Creature – Human 	191	BG	1BG	Landfall – Whenever a land you control enters, put an extraction counter on another target creature. Its controller creates a Treasure token.NEWLINEEach creature gets -1/-1 for each extraction counter on it.	2/4		normal	PRU		Reload!

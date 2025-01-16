@@ -1,0 +1,1 @@
+﻿Industrial Revolution	WUR	mythic	Enchantment	195	WUR	2URW	When this enchantment enters, create two Treasure tokens.NEWLINEWhenever you cast a noncreature spell, if mana from a Treasure was spent to cast it, copy it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)			normal	PRU		selectedNEWLINENEWLINE27

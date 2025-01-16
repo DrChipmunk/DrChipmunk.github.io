@@ -1,0 +1,1 @@
+﻿Picturesque Outcropping		common	Land	238			T: Add C.NEWLINET: Add G. Activate only if you control a Plains.NEWLINET: Add W. Activate only if you control a Forest.			normal	PRU		

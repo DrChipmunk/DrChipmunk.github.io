@@ -1,0 +1,1 @@
+﻿Panharmonicon		rare	Artifact	219		4	If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.			normal	PRU		SNEWLINENEWLINEReload!NEWLINENEWLINERefocus

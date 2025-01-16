@@ -1,0 +1,1 @@
+﻿Ichorblade		common	Artifact – Equipment 	215		4	When this Equipment enters, create a 1/1 white Human creature token, then attach this Equipment to it.NEWLINEEquip 5NEWLINEEquipped creature gets +3/+1.			normal	PRU		4+NEWLINE+1/+2?NEWLINENEWLINEP1P1

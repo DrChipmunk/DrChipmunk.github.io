@@ -1,0 +1,1 @@
+﻿Unbounded Feeder	BRG	mythic	Legendary Artifact	208	BRG	1BRG	At the beginning of your end step, you may pay 2 life. If you do, put an infection counter on this artifact. If you don’t, destroy all nonland permanents, then create a 2/2 green Fungus creature token for each infection counter on this artifact.			normal	PRU		Reload!

@@ -1,0 +1,1 @@
+﻿Thrill of Possibility	R	common	Instant	147	R	1R	As an additional cost to cast this spell, discard a card.NEWLINEDraw two cards.			normal	PRU		Haste.

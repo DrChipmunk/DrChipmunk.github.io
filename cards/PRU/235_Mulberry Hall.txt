@@ -1,0 +1,1 @@
+﻿Mulberry Hall		rare	Legendary Land	235			T: Add W.NEWLINE2WW, Discard this card: Put two +1/+1 counters on target creature.			normal	PRU		Reload!

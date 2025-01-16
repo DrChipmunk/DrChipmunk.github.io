@@ -1,0 +1,1 @@
+﻿Temple of Plenty		common	Land	251			This land enters tapped.NEWLINEWhen this land enters, scry 1.NEWLINET: Add G or W.			normal	PRU		

@@ -1,0 +1,1 @@
+﻿Pave Over	W	common	Sorcery	32	W	W	Destroy target enchantment or tapped creature.			normal	PRU		4+NEWLINENEWLINEDoubles

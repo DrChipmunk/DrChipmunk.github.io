@@ -1,0 +1,1 @@
+﻿Steep Snowfield		common	Land	241			T: Add C.NEWLINET: Add R. Activate only if you control a Plains.NEWLINET: Add W. Activate only if you control a Mountain.			normal	PRU		4+NEWLINENEWLINEDoubles

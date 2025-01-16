@@ -1,0 +1,1 @@
+﻿Eccentric Balloonist	U	uncommon	Creature – Human Artificer 	54	U	1U	FlyingNEWLINEWhenever you cast a noncreature spell with mana value greater than this creature’s power, put a +1/+1 counter on this creature.	1/2		normal	PRU		Type B – big noncreature spellsNEWLINENEWLINE4+NEWLINENEWLINEQQx2

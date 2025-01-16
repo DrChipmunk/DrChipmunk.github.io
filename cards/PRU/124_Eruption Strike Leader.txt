@@ -1,0 +1,1 @@
+﻿Eruption Strike Leader	R	uncommon	Creature – Faerie Warrior 	124	R	2R	Whenever this creature attacks, put a zeal counter on target Faerie.NEWLINER, Remove a zeal counter from this creature: It gains first strike until end of turn.	3/3		normal	PRU		Type A- RGNEWLINENEWLINEXNEWLINENEWLINE4+NEWLINENEWLINEQQ

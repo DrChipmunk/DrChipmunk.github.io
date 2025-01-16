@@ -1,0 +1,1 @@
+﻿Mulberry Hall Clothier	W	common	Creature – Faerie 	29	W	1W	When this creature enters, put a +1/+1 counter on target creature.	1/2		normal	PRU		

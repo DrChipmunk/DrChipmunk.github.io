@@ -1,0 +1,1 @@
+﻿Emerald Dam Invocation	G	rare	Sorcery	157	G	2G	Mill fifteen cards. Return a permanent card milled this way to your hand. Put this spell and up to four cards from its owner’s graveyard on the bottom of their owner’s library in a random order.			normal	PRU		Emerald Dam, SNEWLINENEWLINE6+NEWLINENEWLINE27

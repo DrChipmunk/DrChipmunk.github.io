@@ -1,0 +1,1 @@
+﻿Drownedmen Sailor	U	common	Creature – Human Citizen 	52	U	1U	DefenderNEWLINET: Add C. You can’t spend this mana to cast creature spells.	3/2		normal	PRU		Could use a buff. 3/3? Any colour? non-Human instead of noncreatureNEWLINENEWLINEDoubles

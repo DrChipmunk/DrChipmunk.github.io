@@ -1,0 +1,1 @@
+﻿Tourist-Snapper	G	common	Creature – Crocodile 	180	G	2GG	DeathtouchNEWLINEWhen this creature dies, draw a card.	3/3		normal	PRU		Non-essential. Could change. Bloom payoff? (enters mill 3 and return a land card or card with bloom milled this way to your hand)NEWLINENEWLINEDoubles

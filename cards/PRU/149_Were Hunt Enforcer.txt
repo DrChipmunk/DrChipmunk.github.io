@@ -1,0 +1,1 @@
+﻿Were Hunt Enforcer	R	uncommon	Creature – Dragon Faerie Warrior 	149	R	3R	Trample, prowess. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)	5/3		normal	PRU		Type C with prowessNEWLINENEWLINEChanged since August Suggested

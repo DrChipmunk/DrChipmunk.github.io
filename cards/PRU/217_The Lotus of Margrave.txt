@@ -1,0 +1,1 @@
+﻿The Lotus of Margrave		rare	Legendary Artifact	217		5	When this artifact enters, draw two cards.NEWLINET: Add three mana of any one color.NEWLINEAt the beginning of each player’s upkeep, that player gains control of this artifact. Untap it.			normal	PRU		6+NEWLINENEWLINE27

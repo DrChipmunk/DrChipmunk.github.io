@@ -1,0 +1,1 @@
+﻿Temple of Epiphany		common	Land	247			This land enters tapped.NEWLINEWhen this land enters, scry 1.NEWLINET: Add U or R.			normal	PRU		P1P1

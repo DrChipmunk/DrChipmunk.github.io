@@ -1,0 +1,1 @@
+﻿Myriad V	BR	rare	Legendary Creature – Faerie Assassin 	199	BR	2BR	First strikeNEWLINEWhenever a creature an opponent controls dies, put a zeal counter on target Faerie.NEWLINEB/R, Remove a zeal counter from this creature: Target player loses 3 life unless they exile a card from their hand or a nonland permanent they control. Activate only as a sorcery.	4/3		normal	PRU		Resume!

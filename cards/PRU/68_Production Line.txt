@@ -1,0 +1,1 @@
+﻿Production Line	U	rare	Artifact	68	U	2UU	T: Exile all Construct tokens you control, then create an X/X colorless Construct artifact creature token, where X is the number of spells you have cast this turn.			normal	PRU		Industrialist – Instants?, s, NEWLINENEWLINEReload!NEWLINEMaybe 2U

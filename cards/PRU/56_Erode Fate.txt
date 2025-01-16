@@ -1,0 +1,1 @@
+﻿Erode Fate	U	rare	Sorcery	56	U	3UU	Target player mills eleven cards.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+NEWLINENEWLINE27

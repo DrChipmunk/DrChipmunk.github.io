@@ -1,0 +1,1 @@
+﻿Annihilation Junkie	R	rare	Creature – Human Bard 	114	R	R	ProwessNEWLINEAt the beginning of combat on your turn, if this creature’s power is 4 or greater, create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step.	1/2		normal	PRU		4+NEWLINENEWLINE27NEWLINENEWLINEDecember

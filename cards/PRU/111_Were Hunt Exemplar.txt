@@ -1,0 +1,1 @@
+﻿Were Hunt Exemplar	B	mythic	Creature – Bear Faerie Mercenary 	111	B	1BBBB	MenaceNEWLINEBB, Sacrifice another creature with mana value X: Draw X cards.NEWLINEBB, Discard X cards: Return target creature with mana value X from your graveyard to the battlefield.	6/4		normal	PRU		B to activate?

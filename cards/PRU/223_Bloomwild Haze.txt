@@ -1,0 +1,1 @@
+﻿Bloomwild Haze		uncommon	Land	223			When this land enters, exile the top two cards of your library.NEWLINEThis land has all basic land types of the exiled cards.NEWLINET: Add C or one mana of any of the exiled cards’ colors.			normal	PRU		SurgeNEWLINENEWLINEZZZ (not printed)
