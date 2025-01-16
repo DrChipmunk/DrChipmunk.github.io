@@ -259,7 +259,9 @@ er
 239_Helen's Failsafe
 242_Recursive Cogitator
 243_Remotist Axiom
-2_Errors in the Weft
+1_Program A ERR
+2_Program B ERR
+3_Program C ERR
 4_Subroutines
 235_Burgeoning Consciousness
 236_Common Laser Sword
@@ -267,6 +269,9 @@ er
 240_MAP()
 241_Prototype Warform
 244_Synthetic Connaisseur
+e
+e
+e
 e
 er
 er
@@ -333,11 +338,9 @@ er
 er
 er
 er
-1t_Program A ERR
 1t_Copy ERR
-2t_Program B ERR
+2t_Errors in the Weft
 3t_Memory ERR
-3t_Program C ERR
 4t_ALARM() ERR
 5t_white Citizen 11ERR
 6t_white Error 89ERR
@@ -351,5 +354,7 @@ er
 14t_colorless Construct XXERR
 15t_Treasure ERR
 16t_Root Node
+e
+e
 e
 e
