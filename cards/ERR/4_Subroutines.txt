@@ -1,1 +1,1 @@
-﻿Subroutines		common		4						normal	ERR		
+﻿Subroutines		common		4			As a Subroutine you control enters, insert it into one of your programs. It does not run.NEWLINEAt the beginning of your first main phase, move your pointer to the next program (A follows C) or put it at A if you have no pointer. All Subroutines in that program run.			normal	ERR		

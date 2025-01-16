@@ -139,8 +139,11 @@ script:
 		)
 	}
 
+	#	write_card := {
+	#		card_name() + "\t" + card_color() + "\t" + (if options.cube == "yes" then "cube" else card_rarity()) + "\t" + card.type + "\t" + card_number() + "\t" + color_identity_statistic() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + "\t" + card.loyalty + "\t" + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + color_identity_statistic() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + card.loyalty_2 + "\t" else "") + card.notes + "REPLACEME"
+	#	}
 	write_card := {
-		card_name() + "\t" + card_color() + "\t" + (if options.cube == "yes" then "cube" else card_rarity()) + "\t" + card.type + "\t" + card_number() + "\t" + color_identity_statistic() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + "\t" + card.loyalty + "\t" + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + color_identity_statistic() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + card.loyalty_2 + "\t" else "") + card.notes + "REPLACEME"
+		card_name() + "\t" + card_color() + "\t" + (if options.cube == "yes" then "cube" else card_rarity()) + "\t" + card.type + "\t" + card_number() + "\t" + card_color() + "\t" + card.casting_cost + "\t" + card.rule_text + "\t" + card.pt + "\t" + card.special_text + "\t" + card.shape + "\t" + set.set_code + "\t" + card.loyalty + "\t" + (if contains(card.shape, match:"double") or contains(card.shape, match:"adventure") or contains(card.shape, match:"spli") then card_name_2() + "\t" + card_color_2() + "\t" + card.type_2 + "\t" + card_color() + "\t" + card.casting_cost_2 + "\t" + card.rule_text_2  + "\t" + card.pt_2 + "\t" + card.special_text_2 + "\t" + card.loyalty_2 + "\t" else "") + card.notes + "REPLACEME"
 	}
 
 	write_cards := for each card in cards do write_card()
@@ -203,9 +206,9 @@ script:
 	write_all_images := {
 		for each card in cards do
 			if contains(card.shape, match:"double") then
-			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".png")
-			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: "img/" + card_number() + "_" + card_name() + "_back" + ".png")
-			else write_image_file(card, file: "img/" + card_number() + (if contains(card.shape, match:"token") then "t_" else "_") + card_name() + ".png")
+			if contains(card.type, match:"Battle") then write_image_file(crop(input: to_card_image(card), width: 523, height: 375, offset_x: 0, offset_y: 0), file: card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 525, offset_y: 0), file: card_number() + "_" + card_name() + "_back" + ".png")
+			else write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 0, offset_y: 0), file: card_number() + "_" + card_name() + "_front" + ".png") + write_image_file(crop(input: to_card_image(card), width: 375, height: 523, offset_x: 377, offset_y: 0), file: card_number() + "_" + card_name() + "_back" + ".png")
+			else write_image_file(card, file: card_number() + (if contains(card.shape, match:"token") then "t_" else "_") + card_name() + ".png")
 	}
 
 	write_booster_contents := {

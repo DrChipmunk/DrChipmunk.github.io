@@ -1,1 +1,1 @@
-﻿Record_Desync	G	rare	Creature – Error 	187	G	7GG	TrampleNEWLINEWhen this creature enters, separate your graveyard into two piles. An opponent chooses one of those piles. Put that pile into your hand shuffle the other into your library.	12/9		normal	ERR		art4
+﻿Record_Desync	G	rare	Creature – Error 	187	G	7GG	TrampleNEWLINEWhen this creature enters, separate your graveyard into two piles. An opponent chooses one of those piles. Put that pile into your hand and shuffle the other into your library.	12/9		normal	ERR		art4
