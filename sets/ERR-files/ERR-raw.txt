@@ -11,16 +11,16 @@ Region: The Stack. Brutalist
 
 1-5 2/2 flier or 2-5 4/4 flier?
 
-art4REPLACEMEDownload Courier	W	common	Creature — Human Citizen 	14	W	1W	When this creature enters, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” (Insert it into one of your programs.)	1/2		normal	ERR		!tokens ALARM() EIW;Program B EIW;
+art4REPLACEMEDownload Courier	W	common	Creature — Human Citizen 	14	W	2W	When this creature enters, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” (Insert it into one of your programs.)	2/2		normal	ERR		!tokens ALARM() EIW;Program B EIW;
 
 art4
 
 flagged (maybe)
 concern (common)REPLACEMETelepresence Axiom	W	common	Artifact Creature — Construct 	38	W	1W	When this creature enters, cache the top card of your library face-down. (Look at it, then exile it face down. Create a Memory enchantment token with “2, Sacrifice this Memory: You may play the cached card this turn.”)	2/1		normal	ERR		!tokens Memory EIW;
 
-art3REPLACEMEStack Strike Leader	W	common	Creature — Human Soldier 	35	W	2W		3/3	Level up 1W (1W: Put a level counter on this. Level up only as a sorcery.) [3/3]
-[level 1-2] This creature has first strike on your turn. [3/3]
-[level 3+] This creature has double strike on your turn. [3/3]	leveler	ERR		art3REPLACEMECheckpoint Daemon	W	common	Enchantment Creature — Orb 	9	W	2W	Flying
+art3REPLACEMEStack Strike Leader	W	common	Creature — Human Soldier 	35	W	1W		2/2	Level up 1W (1W: Put a level counter on this. Level up only as a sorcery.) [2/2]
+[level 2-3] This creature has first strike on your turn. [4/4]
+[level 4+] This creature has first strike on your turn. [6/6]	leveler	ERR		art3REPLACEMECheckpoint Daemon	W	common	Enchantment Creature — Orb 	9	W	2W	Flying
 When this creature enters, you may return another creature or enchantment you control to its owner’s hand.	2/3		normal	ERR		art2
 
 Secret SantaREPLACEMEElement Aesthete	W	common	Creature — Cat Advisor 	16	W	3W	Flying
@@ -64,21 +64,22 @@ blink 1.5/1.5 2.5/2.5
 Reanimator 2/2
 Region: The Archive. Abstract / Geometric. Escape room puzzles
 
-art4REPLACEMEMnemologist	U	common	Creature — Human Wizard 	61	U	1U	When this creature enters, create a blue Subroutine enchantment token named READ() with “Whenever this Subroutine runs, draw a card.” (Insert it into one of your programs.)	1/1		normal	ERR		art4
+art4REPLACEMEMnemologist	U	common	Creature — Human Wizard 	61	U	2U	When this creature enters, create a blue Subroutine enchantment token named READ() with “Whenever this Subroutine runs, draw a card.” (Insert it into one of your programs.)	3/1		normal	ERR		art4
 terminal1
 flagged (maybe)
-concern (common)REPLACEMEFLOCK()	U	common	Enchantment — Subroutine 	56	U	3U	(As this enters, insert it into one of your programs.)
+concern (common)
+top20REPLACEMEFLOCK()	U	common	Enchantment — Subroutine 	56	U	3U	(As this enters, insert it into one of your programs.)
 Whenever this Subroutine runs, create a 2/2 blue Bird enchantment creature token with flying.			normal	ERR		!tokens blue Daemon 22EIW;Program B EIW;
 
 art5
 concern (common)
 
-sbftREPLACEMECodepath Runner	U	common	Creature — Human Rogue 	47	U	2U	Vigilance
-Whenever a Subroutine you control runs, this creature gets +1/+0 until end of turn and can’t be blocked this turn.	1/4		normal	ERR		!tokens READ() EIW;Program B EIW
+sbftREPLACEMECodepath Runner	U	common	Creature — Human Rogue 	47	U	1U	Vigilance
+Whenever a Subroutine you control runs, this creature gets +1/+0 until end of turn and can’t be blocked this turn.	1/3		normal	ERR		!tokens READ() EIW;Program B EIW
 
-art4REPLACEMEArchive Ascetic	U	common	Creature — Human Monk 	45	U	2U		3/2	Level up 2U (2U: Put a level counter on this. Level up only as a sorcery.) [3/2]
-[level 2-4] Flying [4/3]
-[level 5+] Flying, hexproof [5/4]	leveler	ERR		art5
+art4REPLACEMEArchive Ascetic	U	common	Creature — Human Monk 	45	U	2U		2/3	Level up 2U (2U: Put a level counter on this. Level up only as a sorcery.) [2/3]
+[level 1-2]  [3/5]
+[level 3+] Flying [4/7]	leveler	ERR		art5
 
 unhuman?
 
@@ -182,7 +183,7 @@ concern (common)REPLACEMERECV()	B	common	Enchantment — Subroutine 	114	B	B	(As
 Whenever this Subroutine runs, surveil 2.
 1B, Sacrifice this Subroutine, Pay 2 life: Draw two cards.			normal	ERR		When you read a trace, you don’t just learn about a person. You become them.            — Ys
 
-art5REPLACEMEUnfettered Spirit	R	common	Creature — Spirit Citizen 	159	R	1R		2/2	Level up 4R (4R: Put a level counter on this. Level up only as a sorcery.) [2/2]
+art5REPLACEMEUnfettered Spirit	R	common	Creature — Spirit Citizen 	159	R	1R		2/2	Level up 3R (3R: Put a level counter on this. Level up only as a sorcery.) [2/2]
 [level 1-2] Sacrifice an artifact or enchantment: This creature gets +1/+1 until end of turn. [4/4]
 [level 3+] Sacrifice an artifact or enchantment: This creature gets +2/+2 until end of turn. [6/6]	leveler	ERR		Cache 2/1
 Error 2.5/2 3/3
@@ -227,9 +228,7 @@ Secret SantaREPLACEMEFrag	R	common	Sorcery	143	R	1R	Frag deals 4 damage to targe
 The hottest new trend.
 This slot to literal shock?REPLACEMEShock	R	common	Instant	154	R	R	Shock deals 2 damage to any target.			normal	ERR		 She fell through the chaos, bracing for a ground she could not see. 
 art4
-flagged (maybe)
-
-top20REPLACEMEGo For Gold	R	common	Instant	144	R	1R	Target creature gets +3/+1 until end of turn.
+flagged (maybe)REPLACEMEGo For Gold	R	common	Instant	144	R	1R	Target creature gets +3/+1 until end of turn.
 Create a tapped Treasure token.			normal	ERR		!tokens Treasure EIW
 
 art4
@@ -516,7 +515,7 @@ unhuman?REPLACEMEMetatactician	W	uncommon	Creature — Human Advisor 	25	W	1W	W,
 art4REPLACEMEMail Daemon	W	uncommon	Enchantment Creature — Insect 	23	W	1W	Flying, lifelink
 When this creature leaves the battlefield, draw a card.	1/1		normal	ERR		type A
 Generically good card, better in blink
-art3REPLACEMEWeave Dispatcher	W	uncommon	Creature — Human Advisor 	43	W	2W	Whenever another nontoken creature you control dies, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” (Insert it into one of your programs.)	2/3		normal	ERR		!tokens ALARM() EIW;Program B EIW
+art3REPLACEMEWeave Dispatcher	W	uncommon	Creature — Human Advisor 	43	W	1W	Whenever another nontoken creature you control enters, you may pay 1. If you do, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” (Insert it into one of your programs.)	2/1		normal	ERR		!tokens ALARM() EIW;Program B EIW
 type A
 art4
 
@@ -533,9 +532,9 @@ art3
 
 Secret Santa
 
-unhuman?REPLACEMEStudent of Immortality	W	uncommon	Creature — Human Citizen 	36	W	1W		3/1	Level up 1B (1B: Put a level counter on this. Level up only as a sorcery.) [3/1]
-[level 2-4] When this creature dies, return it to your hand. [5/3]
-[level 5+] Whenever a creature you control dies, return it to your hand. [7/5]	leveler	ERR		!tokens Memory EIW
+unhuman?REPLACEMEStudent of Immortality	W	uncommon	Creature — Human Citizen 	36	W	2W		4/2	Level up 1B (1B: Put a level counter on this. Level up only as a sorcery.) [4/2]
+[level 1-3] When this creature dies, return it to its owner’s hand. [5/3]
+[level 4+] Whenever a creature you control dies, return it its owner’s hand. [6/4]	leveler	ERR		!tokens Memory EIW
 type C
 art3REPLACEMEImperious Admin	W	uncommon	Creature — Human Noble 	20	W	2WW	Flying, vigilance
 Fabric — 5: Exile another target creature or enchantment you control, then return it to the battlefield under its owner’s control. This ability costs 1 less to activate for each enchantment you control. Activate only as a sorcery and only once each turn.	3/3		normal	ERR		type B
@@ -976,13 +975,11 @@ Whenever Mev deals damage to a player, that player draws a card.	2/1		normal	ERR
 flagged (maybe)
 flagged (favorite)REPLACEMEYs, Trace Talker	UB	rare	Legendary Creature — Elf Warlock 	222	UB	UB	T, Exile target creature card with the same power, toughness, or mana value as this creature from your graveyard: This creature becomes a copy of that card, except it has this ability. 	2/2		normal	ERR		art4
 flagged (build-around)
-flagged (favorite)REPLACEMEVijkstra, Spine Breaker	BR	rare	Legendary Creature — Human Error 	218	BR	3BR	Menace
+flagged (favorite)REPLACEMEVijkstra, Spine Breaker	BR	rare	Legendary Creature — Human Error 	218	BR	3BR	Double strike, menace
 Ward—Sacrifice a creature.
-Whenever Vijkstra attacks, it deals 4 damage to target creature you control. Defending player loses 8 life unless they discard a card and sacrifice a permanent or their choice with total mana value 4 or greater.	5/4		normal	ERR		art3
+Whenever Vijkstra attacks, sacrifice a creature.	6/4		normal	ERR		art3
 
-Was Whenever this creature attacks, surveil 1, then exile the top card of your library. When you exile a card with even mana value this way, put it into your hand. You lose life equal to its mana value. When you exile a card with odd mana value this way, this creature deals damage equal to that card’s mana value to target creature.
-
-top20REPLACEMEXeia, Record Chaser	RG	rare	Legendary Creature — Human Warrior 	221	RG	1RG	Vigilance, haste
+Was Whenever this creature attacks, surveil 1, then exile the top card of your library. When you exile a card with even mana value this way, put it into your hand. You lose life equal to its mana value. When you exile a card with odd mana value this way, this creature deals damage equal to that card’s mana value to target creature.REPLACEMEXeia, Record Chaser	RG	rare	Legendary Creature — Human Warrior 	221	RG	1RG	Vigilance, haste
 Whenever you cast a spell, if its mana value is greater than Xeia’s power, put a number of +1/+1 counters on this creature equal to the difference and create a Treasure token.	3/3		normal	ERR		!tokens Treasure EIW
 art5
 promo
@@ -1065,7 +1062,7 @@ flagged (favorite)
 sbftREPLACEMEConvol, Archive Exec	U	rare	Legendary Creature — Spirit Wizard 	49	U	1UUUU	Flash
 Whenever Convol enters or attacks, draw a card for each different mana value among other nonland permanents you control.	5/5		normal	ERR		art4
 flagged (maybe)REPLACEMESYSCALL()	U	rare	Enchantment — Subroutine 	77	U	U	(As this enters, insert it into one of your programs.)
-XU: Draw X cards, then discard a card. Activate only if this Subroutine ran this turn.			normal	ERR		!tokens Program B EIW
+XU: Draw X cards. Activate only if this Subroutine ran this turn.			normal	ERR		!tokens Program B EIW
 art5
 
 // kernel access; su permissions required.
@@ -1166,7 +1163,8 @@ flagged (build-around)REPLACEMEPANIC()	R	rare	Enchantment — Subroutine 	151	R	
 When this Subroutine enters, you may discard a card. When you do, it deals damage equal to that card’s mana value to target creature or planeswalker.
 Whenever this Subroutine runs, create a 4/4 red Error creature token with menace.			normal	ERR		!tokens Program B EIW
 Sneak attack instead?
-art4REPLACEMECatastrophe Rider	R	rare	Creature — Hyena Warrior 	129	R	3R	Corrupt — When this creature enters, if you control a permanent with mana value 5 or greater, this creature gains haste until end of turn.
+art4
+top20REPLACEMECatastrophe Rider	R	rare	Creature — Hyena Warrior 	129	R	3R	Corrupt — When this creature enters, if you control a permanent with mana value 5 or greater, this creature gains haste until end of turn.
 Whenever this creature attacks, exile the top card of each player’s library. You may play one of those cards this turn without paying its mana cost.	4/3		normal	ERR		!tokens white Human 11EIW;red Error 44EIW
 art3
 terminal1

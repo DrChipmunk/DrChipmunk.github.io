@@ -262,7 +262,7 @@
 	},
 	{
 		"name": "Download Courier",
-		"mana_cost": "{1}{W}",
+		"mana_cost": "{2}{W}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/14_Download%20Courier.png",
 		"colors": ["W",],
@@ -271,7 +271,7 @@
 		"rarity": "common",
 		"subtypes": ["Human","Citizen"],
 		"oracle_text": "When this creature enters, create a white Subroutine enchantment token named ALARM with �Whenever this Subroutine runs, create a 1/1 white Citizen creature token.�",
-		"power": 1,
+		"power": 2,
 		"toughness": 2,
 	},
 	{
@@ -540,7 +540,7 @@
 	},
 	{
 		"name": "Stack Strike Leader",
-		"mana_cost": "{2}{W}",
+		"mana_cost": "{1}{W}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/35_Stack%20Strike%20Leader.png",
 		"colors": ["W",],
@@ -549,12 +549,12 @@
 		"rarity": "common",
 		"subtypes": ["Human","Soldier"],
 		"oracle_text": "",
-		"power": 3,
-		"toughness": 3,
+		"power": 2,
+		"toughness": 2,
 	},
 	{
 		"name": "Student of Immortality",
-		"mana_cost": "{1}{W}",
+		"mana_cost": "{2}{W}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/36_Student%20of%20Immortality.png",
 		"colors": ["W",],
@@ -563,8 +563,8 @@
 		"rarity": "uncommon",
 		"subtypes": ["Human","Citizen"],
 		"oracle_text": "",
-		"power": 3,
-		"toughness": 1,
+		"power": 4,
+		"toughness": 2,
 	},
 	{
 		"name": "Tapestry Guard",
@@ -650,7 +650,7 @@
 	},
 	{
 		"name": "Weave Dispatcher",
-		"mana_cost": "{2}{W}",
+		"mana_cost": "{1}{W}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/43_Weave%20Dispatcher.png",
 		"colors": ["W",],
@@ -658,9 +658,9 @@
 		"collector_number": "43/292",
 		"rarity": "uncommon",
 		"subtypes": ["Human","Advisor"],
-		"oracle_text": "Whenever another nontoken creature you control dies, create a white Subroutine enchantment token named ALARM with �Whenever this Subroutine runs, create a 1/1 white Citizen creature token.�",
+		"oracle_text": "Whenever another nontoken creature you control enters, you may pay 1. If you do, create a white Subroutine enchantment token named ALARM with �Whenever this Subroutine runs, create a 1/1 white Citizen creature token.�",
 		"power": 2,
-		"toughness": 3,
+		"toughness": 1,
 	},
 	{
 		"name": "Architect of the Intangible",
@@ -687,8 +687,8 @@
 		"rarity": "common",
 		"subtypes": ["Human","Monk"],
 		"oracle_text": "",
-		"power": 3,
-		"toughness": 2,
+		"power": 2,
+		"toughness": 3,
 	},
 	{
 		"name": "Buoyant Datagrazer",
@@ -706,7 +706,7 @@
 	},
 	{
 		"name": "Codepath Runner",
-		"mana_cost": "{2}{U}",
+		"mana_cost": "{1}{U}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/47_Codepath%20Runner.png",
 		"colors": ["U",],
@@ -716,7 +716,7 @@
 		"subtypes": ["Human","Rogue"],
 		"oracle_text": "Vigilance\nWhenever a Subroutine you control runs, this creature gets +1/+0 until end of turn and can't be blocked this turn.",
 		"power": 1,
-		"toughness": 4,
+		"toughness": 3,
 	},
 	{
 		"name": "Composer of Skylines",
@@ -892,7 +892,7 @@
 	},
 	{
 		"name": "Mnemologist",
-		"mana_cost": "{1}{U}",
+		"mana_cost": "{2}{U}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/61_Mnemologist.png",
 		"colors": ["U",],
@@ -901,7 +901,7 @@
 		"rarity": "common",
 		"subtypes": ["Human","Wizard"],
 		"oracle_text": "When this creature enters, create a blue Subroutine enchantment token named READ with �Whenever this Subroutine runs, draw a card.�",
-		"power": 1,
+		"power": 3,
 		"toughness": 1,
 	},
 	{
@@ -1109,7 +1109,7 @@
 		"collector_number": "77/292",
 		"rarity": "rare",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "Whenever this Subroutine runs, you may pay XU. If you do, draw X cards.",
+		"oracle_text": "XU: Draw X cards. Activate only if this Subroutine ran this turn.",
 	},
 	{
 		"name": "Task Triage",
@@ -1399,7 +1399,7 @@
 		"collector_number": "99/292",
 		"rarity": "rare",
 		"subtypes": ["Human","Warlock"],
-		"oracle_text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile than card until this creature leaves the battlefield.",
+		"oracle_text": "When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.",
 		"power": 2,
 		"toughness": 2,
 	},
@@ -1886,10 +1886,10 @@
 		"toughness": 3,
 	},
 	{
-		"name": "CR07",
+		"name": "CR07 Mountaincycler",
 		"mana_cost": "{4}{R}{R}",
 		"type": "Creature",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/136_CR07.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/136_CR07%20Mountaincycler.png",
 		"colors": ["R",],
 		"set": "ERR",
 		"collector_number": "136/292",
@@ -2574,7 +2574,7 @@
 		"collector_number": "187/292",
 		"rarity": "rare",
 		"subtypes": ["Error"],
-		"oracle_text": "Trample\nWhen this creature enters, separate your graveyard into two piles. An opponent chooses one of those piles. Put that pile into your hand shuffle the other into your library.",
+		"oracle_text": "Trample\nWhen this creature enters, separate your graveyard into two piles. An opponent chooses one of those piles. Put that pile into your hand and shuffle the other into your library.",
 		"power": 12,
 		"toughness": 9,
 	},
@@ -2994,8 +2994,8 @@
 		"collector_number": "218/292",
 		"rarity": "rare",
 		"subtypes": ["Human","Error"],
-		"oracle_text": "Menace\nWard�Sacrifice a creature.\nWhenever Vijkstra attacks, it deals 4 damage to target creature you control. Draw two cards.",
-		"power": 5,
+		"oracle_text": "Double strike, menace\nWard�Sacrifice a creature.\nWhenever Vijkstra attacks, sacrifice a creature.",
+		"power": 6,
 		"toughness": 4,
 	},
 	{
@@ -3836,7 +3836,7 @@ Smog Hound
 Abrasive Punk
 Charming Exceptional
 COMMIT()
-CR07
+CR07 Mountaincycler
 Finishing Blow
 Frag
 Go For Gold
@@ -4076,4 +4076,4 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 280ms]
+[Finished in 293ms]
