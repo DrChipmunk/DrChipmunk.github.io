@@ -154,6 +154,8 @@
 	<img class="preload-hidden" src="/sets/ERR-files/logo.png" />
 	<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
 		<img class="preload-hidden" src="/sets/PRU-files/icon.png" />
+		<img class="preload-hidden" id="bg" src="/sets/ERR-files/bg.png" />
+		
 		<div class="header">
 		<div class="search-grid">
 			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
@@ -584,7 +586,7 @@
 		}
 		while (images_loaded.includes(false));
 
-		
+		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
 		loadImages();
 	});
 

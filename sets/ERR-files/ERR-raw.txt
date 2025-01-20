@@ -203,9 +203,9 @@ concern (power)REPLACEMECharming Exceptional	R	common	Creature — Human Bard Wa
 
 art3
 
-Secret SantaREPLACEMEGrip Pinch-Hitter	R	common	Creature — Wolf Warrior 	145	R	1R		2/1	Level up 3R (3R: Put a level counter on this. Level up only as a sorcery.) [2/1]
-[level 1-2] Reach [5/4]
-[level 3+] Reach, trample [7/6]	leveler	ERR		art3REPLACEMEInversion's Herald	R	common	Creature — Human Warrior 	149	R	3R	Menace
+Secret SantaREPLACEMEGrip Pinch-Hitter	R	common	Creature — Wolf Warrior 	145	R	1R		2/1	Level up 1R (1R: Put a level counter on this. Level up only as a sorcery.) [2/1]
+[level 2-5] Reach [5/4]
+[level 6+] Reach, trample [7/6]	leveler	ERR		art3REPLACEMEInversion's Herald	R	common	Creature — Human Warrior 	149	R	3R	Menace
 Corrupt — When this creature enters, if you control a permanent with mana value 5 or greater, it gets +2/+2 and gains haste until end of turn.	4/4		normal	ERR		art3REPLACEMEWeb Surfer	R	common	Creature — Human Warrior 	160	R	4R	This spell costs 2 less to cast if a Subroutine you control ran this turn.
 When this creature dies, cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with “2, Sacrifice this: You may play the cached card this turn.”)	5/3		normal	ERR		!tokens Memory EIW
 
@@ -1014,7 +1014,7 @@ flagged (build-around)REPLACEMEOlis Mars, Final Archivist	UR	rare	Legendary Crea
 was
 Whenever an instant or sorcery spell you control resolves, exile it from your graveyard.
 At the beginning of your upkeep, you may have this creature lose all abilities and become a Subroutine enchantment with “Whenever this Subroutine runs, copy each card exiled with it. You may cast the copies without paying their mana costs.” (Insert it into one of your programs.)
-flagged (build-around)REPLACEMEToki, Celebrity Soldier	WR	rare	Legendary Creature — Human Soldier 	217	WR	RW	Tap another untapped creature you control: Toki gets +1/+1 until end of turn. If that creature had flying, Toki gains flying until end of turn. The same is true of first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.	3/1		normal	ERR		art2
+flagged (build-around)REPLACEMEToki, Celebrity Soldier	WR	rare	Legendary Creature — Human Soldier 	217	WR	RW	Tap another untapped creature you control: Toki gets +1/+1 until end of turn. If that creature had flying, Toki gains flying until end of turn. The same is true of first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.	3/2		normal	ERR		art2
 “Fighting can be fun!”
 flagged (solid)
 concern (power)REPLACEMEVirtualized Onomastic	W	rare	Creature — Spirit Advisor 	41	W	1W	As this creature enters, choose a nonland card name.
@@ -1123,7 +1123,7 @@ Secret Santa
 flagged (favorite)
 concern (play)
 
-top20REPLACEMEBORROW()	B	rare	Enchantment — Subroutine 	86	B	3B	(As this enters, insert it into one of your programs.)
+top20REPLACEMEBORROW()	B	rare	Enchantment — Subroutine 	86	B	2BB	(As this enters, insert it into one of your programs.)
 When this Subroutine enters, you draw three cards and gain 3 life.
 Whenever this Subroutine runs, you discard six cards and lose 6 life.			normal	ERR		!tokens Program B EIW
 art3
@@ -1195,7 +1195,7 @@ flagged (favorite)REPLACEMEAurore, Buffer Exec	G	rare	Legendary Creature — Hum
 Whenever Aurore enters or attacks, mill four cards, then return all land cards milled this way to the battlefield tapped.	5/5		normal	ERR		!tokens colorless Construct XXEIW
 art3
 
-flagged (maybe)REPLACEMECOMPILE()	G	rare	Enchantment — Subroutine 	164	G	3G	(As this enters, insert it into one of your programs.)
+flagged (maybe)REPLACEMECOMPILE()	G	rare	Enchantment — Subroutine 	164	G	2GG	(As this enters, insert it into one of your programs.)
 Whenever this Subroutine runs, exile the top four cards of your library. You may put a creature card with mana value 4 or less from among them onto the battlefield.			normal	ERR		!tokens Program B EIW
 art2
 terminal
@@ -1268,9 +1268,9 @@ At the beginning of your upkeep, if you have 0 or less life, you win the game.	5
 art3
 flagged (build-around)
 flagged (favorite)
-concern (play)REPLACEMEVoice of Utopia	W	mythic	Creature — Human Bard 	42	W	W		1/1	Vigilance; Level up—W, Tap an untapped creature you control. [1/1]
+concern (play)REPLACEMEVoice of Utopia	W	mythic	Creature — Human Bard 	42	W	W		1/1	Vigilance; Level up—1, Tap an untapped creature you control. [1/1]
 [level 1-5] Vigilance; This creature gets +1/+1 for each level counter on it. [1/1]
-[level 6+] Vigilance; Creatures you control get +1/+1 for each level counter on this creature. [1/1]	leveler	ERR		Only second main phase?
+[level 6+] Vigilance; Creatures you control get +1/+1 for each level counter on this creature. [1/1]	leveler	ERR		[1] instead of [W]
 0/1?
 art4
 promo

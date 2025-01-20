@@ -1217,7 +1217,7 @@
 	},
 	{
 		"name": "BORROW()",
-		"mana_cost": "{3}{B}",
+		"mana_cost": "{2}{B}{B}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/86_BORROW().png",
 		"colors": ["B",],
@@ -2258,7 +2258,7 @@
 	},
 	{
 		"name": "COMPILE()",
-		"mana_cost": "{3}{G}",
+		"mana_cost": "{2}{G}{G}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/164_COMPILE().png",
 		"colors": ["G",],
@@ -2982,7 +2982,7 @@
 		"subtypes": ["Human","Soldier"],
 		"oracle_text": "Tap another untapped creature you control: Toki gets +1/+1 until end of turn. If that creature had flying, Toki gains flying until end of turn. The same is true of first strike, double strike, deathtouch, hexproof, indestructible, lifelink, menace, reach, trample, and vigilance.",
 		"power": 3,
-		"toughness": 1,
+		"toughness": 2,
 	},
 	{
 		"name": "Vijkstra, Spine Breaker",
@@ -4076,4 +4076,4 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 293ms]
+[Finished in 675ms]
