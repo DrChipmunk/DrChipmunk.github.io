@@ -1,1 +1,0 @@
-﻿Convol, Archive Exec	U	rare	Legendary Creature – Spirit Wizard 	49	U	1UUUU	FlashNEWLINEWhenever Convol enters or attacks, draw a card for each different mana value among other nonland permanents you control.	5/5		normal	ERR		art4NEWLINEflagged (maybe)

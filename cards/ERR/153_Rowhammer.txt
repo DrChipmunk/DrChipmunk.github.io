@@ -1,1 +1,0 @@
-﻿Rowhammer	R	uncommon	Creature – Error 	153	R	7R	This spell costs X less to cast, where X is the greatest mana value among permanents you control.NEWLINETrample, haste	5/5		normal	ERR		art5NEWLINENEWLINENeeds flavour text (ft)NEWLINEflagged (build-around)NEWLINEerrft

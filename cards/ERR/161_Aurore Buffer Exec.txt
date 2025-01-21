@@ -1,1 +1,0 @@
-﻿Aurore, Buffer Exec	G	rare	Legendary Creature – Human Druid 	161	G	1GGGG	VigilanceNEWLINEWhenever Aurore enters or attacks, mill four cards, then return all land cards milled this way to the battlefield tapped.	5/5		normal	ERR		!tokens colorless Construct XXEIWNEWLINEart3NEWLINENEWLINEflagged (maybe)

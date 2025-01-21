@@ -1,1 +1,0 @@
-﻿Edgeshine's Daring	R	common	Instant	121	R	1R	Target creature gets +2/+0 and gains first strike until end of turn. Create a Treasure token.			normal	PRU		R (change to distinguish from coordinated assault?)

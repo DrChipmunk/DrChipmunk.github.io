@@ -1,1 +1,0 @@
-﻿Fault_Injection	G	common	Creature – Error 	172	G	4GG	TrampleNEWLINEForestcycling 2 (2, Discard this card: Search your library for a Forest card, reveal it, and put it into your hand, then shuffle.)	7/6		normal	ERR		!tokens Memory EIWNEWLINENEWLINEart2NEWLINENEWLINEerrft

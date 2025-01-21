@@ -1,1 +1,0 @@
-﻿Cryptic Morass		common	Land	251			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add U or B.			normal	ERR		if common: Mysterious ArchiveNEWLINENEWLINEThe Archive is a school of all subjects, and a nest of puzzles. Every surface is part of some clue or game.

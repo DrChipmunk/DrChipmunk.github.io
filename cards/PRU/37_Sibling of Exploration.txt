@@ -1,1 +1,0 @@
-﻿Sibling of Exploration	W	common	Creature – Human Cleric 	37	W	4W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINETactic spells you cast cost 1 less to cast.	4/5		normal	PRU		WatchlistNEWLINENEWLINEChanged since JuneNEWLINEChanged since August Essential

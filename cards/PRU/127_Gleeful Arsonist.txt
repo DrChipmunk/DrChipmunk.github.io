@@ -1,1 +1,0 @@
-﻿Gleeful Arsonist	R	uncommon	Creature – Human Artificer 	127	R	4RR	This spell costs X less to cast, where X is the total amount of life your opponents have lost this turn.NEWLINEMenace	5/4		normal	PRU		Type A – RBNEWLINENEWLINEActivated ability, aggressive, cares about unusual themeNEWLINENEWLINE4+NEWLINENEWLINEQQNEWLINENEWLINEDecember

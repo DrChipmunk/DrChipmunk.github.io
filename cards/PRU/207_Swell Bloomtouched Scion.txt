@@ -1,1 +1,0 @@
-﻿Swell, Bloomtouched Scion	WR	rare	Legendary Creature – Faerie Noble 	207	WR	1RW	LifelinkNEWLINEWhen this creature enters, each player may choose a creature other than Swell, Bloomtouched Scion. This creature deals 3 damage to each creature chosen this way.	3/2		normal	PRU		changedNEWLINENEWLINEMaybe to 4/4 or 4/5?

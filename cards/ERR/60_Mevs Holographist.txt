@@ -1,1 +1,0 @@
-﻿Mev's Holographist	U	uncommon	Creature – Elf Artificer 	60	U	2U	When this creature enters, mill four cards. You may return a noncreature, nonland card milled this way to your hand.NEWLINE1W: This creature gets +1/+0 and gains first strike until end of turn.	2/1		normal	ERR		type CNEWLINEart3

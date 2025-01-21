@@ -1,1 +1,0 @@
-﻿Lightning Claws	R	common	Sorcery	134	R	2R	Creatures you control get +2/+0 until end of turn.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		

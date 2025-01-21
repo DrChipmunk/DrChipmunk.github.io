@@ -1,1 +1,0 @@
-﻿Fallowpeaks Banishment	W	uncommon	Enchantment	21	W	2W	When this enchantment enters, exile up to one target creature until this enchantment leaves the battlefield.NEWLINE1W: Return this enchantment to its owner’s hand. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Type CNEWLINENEWLINEQQ

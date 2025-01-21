@@ -1,1 +1,0 @@
-﻿Treasure ERR		common	Token Artifact – Treasure 	15			T, Sacrifice this artifact: Add a mana of any color.			token	ERR		!exportname Treasure ERRNEWLINE!related Go For Gold;Trawl the Net;Arcade Junkies;Boorish Celebrant;GENERATE();Xeia, Record Chaser;Coherence_Inversion;NEWLINEart4

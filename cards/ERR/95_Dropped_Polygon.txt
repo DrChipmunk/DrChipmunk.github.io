@@ -1,1 +1,0 @@
-﻿Dropped_Polygon	B	common	Creature – Error 	95	B	4BB	MenaceNEWLINESwampcycling 2 (2, Discard this card: Search your library for a Swamp card, reveal it, and put it into your hand, then shuffle.)	6/7		normal	ERR		!tokens Memory EIWNEWLINENEWLINEart5NEWLINENEWLINEerrft

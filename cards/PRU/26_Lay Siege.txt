@@ -1,1 +1,0 @@
-﻿Lay Siege	W	common	Instant	26	W	2W	This spell deals damage to target creature equal to the number of creatures you control. Strategize. (Put the top card of your tactic deck into your hand.)			normal	PRU		Changed since June

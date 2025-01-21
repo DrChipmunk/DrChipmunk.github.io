@@ -1,1 +1,0 @@
-﻿Finishing Blow	R	common	Instant	141	R	2R	Finishing Blow deals damage to target creature equal to the greatest mana value among permanents you controlled as you cast this spell.			normal	ERR		art4NEWLINENEWLINESecret Santa

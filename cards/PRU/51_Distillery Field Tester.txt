@@ -1,1 +1,0 @@
-﻿Distillery Field Tester	U	uncommon	Creature – Human Artificer 	51	U	3U	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhen this creature dies, draw cards equal to its power.	2/2		normal	PRU		Type A – URNEWLINENEWLINEZZZ

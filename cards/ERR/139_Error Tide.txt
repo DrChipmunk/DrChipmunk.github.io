@@ -1,1 +1,0 @@
-﻿Error Tide	R	uncommon	Sorcery	139	R	XR	Error Tide deals X damage to target creature or planeswalker.NEWLINECorrupt – If you control a permanent with mana value X plus 2 or greater, create an X/X colorless Construct artifact creature token. 			normal	ERR		art3NEWLINENEWLINEflagged (maybe)NEWLINEflagged (favorite)

@@ -1,1 +1,0 @@
-﻿Buffer Botanist	G	common	Creature – Human Druid 	162	G	2G		3/3	Level up 4GG (4GG: Put a level counter on this. Level up only as a sorcery.) [3/3]NEWLINE[level 1-2] Trample [6/6]NEWLINE[level 3+] Trample [9/9]	leveler	ERR		art3

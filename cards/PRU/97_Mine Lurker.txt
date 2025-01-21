@@ -1,1 +1,0 @@
-﻿Mine Lurker	B	common	Creature – Nightmare 	97	B	2B	As long as you control a Human, this creature has deathtouch.NEWLINEAs long as you control a Faerie, this creature has lifelink.	2/3		normal	PRU		2/3?NEWLINENEWLINE+1/+0 and deathtouch / +1/+0 and lifelink?

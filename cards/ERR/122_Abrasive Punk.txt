@@ -1,1 +1,0 @@
-﻿Abrasive Punk	R	common	Creature – Human Rogue 	122	R	5RR	This spell costs 1 less to cast for each creature you control.NEWLINETrampleNEWLINEWhen this creature enters, you may discard a card. If you do, draw two cards.	4/3		normal	ERR		art4NEWLINENEWLINEthis slot to discard one draw 2 on enters the battlefield?

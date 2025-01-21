@@ -1,1 +1,0 @@
-﻿white Citizen 11ERR	W	common	Token Creature – Citizen 	5	W			1/1		token	ERR		!exportname white Citizen 11ERRNEWLINE!related ALARM() EIW;Charming Exceptional;Catch Constable;Common Laser Sword;Make the Last Night Count;Centennial Maestro;UNDO();Do_Not_Respond;GENERATE();BYPASS();Complementarity;Fan Favorite Daredevil;NEWLINEart5

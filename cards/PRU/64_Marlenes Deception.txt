@@ -1,1 +1,0 @@
-﻿Marlene's Deception	U	common	Instant	64	U	1U	Counter target spell unless its controller pays 2. If they pay, draw a card, then discard a card.			normal	PRU		RNEWLINENEWLINEMaybe swap to uncommonNEWLINENEWLINEDecemberNEWLINENEWLINEDoubles

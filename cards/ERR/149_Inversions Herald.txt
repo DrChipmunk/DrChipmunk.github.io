@@ -1,1 +1,0 @@
-﻿Inversion's Herald	R	common	Creature – Human Warrior 	149	R	3R	MenaceNEWLINECorrupt – When this creature enters, if you control a permanent with mana value 5 or greater, it gets +2/+2 and gains haste until end of turn.	4/4		normal	ERR		art3

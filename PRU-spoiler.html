@@ -100,17 +100,15 @@
 			cursor: pointer;
 			border: none;
 			position: absolute;
-			top: 6.5%;
-			left: 8.5%;
+			left: 50%;
+			top: 48%;
 			transform: translate(-50%, -50%);
+			opacity: 0.5;
 		}
 		.flip-btn:hover {
 			background: url('img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
-		}
-		.sidebar .flip-btn {
-			transform: translate(-50%, -85%);
 		}
 		.icon-bar {
 			display: grid;
@@ -160,6 +158,7 @@
 			<img class="sg-icon" src="/img/search.png">
 			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
 			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
 			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
 		</div>
 	</div>
@@ -355,11 +354,11 @@
 			<div class="container"><img alt="sets\PRU-files\img\110_Weaponself Assassination.png" id="110" data-flag="@X" onclick="openSidebar('110')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\148_Vermix Hawker.png" id="148" data-flag="@X" onclick="openSidebar('148')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\185_Wayward Romantic.png" id="185" data-flag="@X" onclick="openSidebar('185')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\198_Marlene, Tail for Business.png" id="198" data-flag="@X" onclick="openSidebar('198')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\194_Hippocrat Melix.png" id="194" data-flag="@X" onclick="openSidebar('194')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\199_Myriad V.png" id="199" data-flag="@X" onclick="openSidebar('199')"></div>
@@ -370,11 +369,11 @@
 			<div class="container"><img alt="sets\PRU-files\img\189_Edgeshine of a Knife.png" id="189" data-flag="@X" onclick="openSidebar('189')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\200_November, Firestarter.png" id="200" data-flag="@X" onclick="openSidebar('200')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\210_Vivian, Hopeful Pugilist.png" id="210" data-flag="@X" onclick="openSidebar('210')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\201_Prince Wilhelm.png" id="201" data-flag="@X" onclick="openSidebar('201')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\191_Fenley, Oasis Gardener.png" id="191" data-flag="@X" onclick="openSidebar('191')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\203_Rigamaroll, Masked Crab.png" id="203" data-flag="@X" onclick="openSidebar('203')"></div>
@@ -385,21 +384,21 @@
 			<div class="container"><img alt="sets\PRU-files\img\196_Klein, First of the Blessed.png" id="196" data-flag="@X" onclick="openSidebar('196')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\197_Lace, Hired Glamermage.png" id="197" data-flag="@X" onclick="openSidebar('197')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\205_Sergeant Coxley.png" id="205" data-flag="@X" onclick="openSidebar('205')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="sets\PRU-files\img\190_Endless Struggle.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
-			<div class="container"><img alt="sets\PRU-files\img\193_Heart of the Bloom.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
-			<div class="container"><img alt="sets\PRU-files\img\195_Industrial Revolution.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
-			<div class="container"><img alt="sets\PRU-files\img\208_Unbounded Feeder.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\209_Verity System.png" id="209" data-flag="@X" onclick="openSidebar('209')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="sets\PRU-files\img\208_Unbounded Feeder.png" id="208" data-flag="@X" onclick="openSidebar('208')"></div>
+			<div class="container"><img alt="sets\PRU-files\img\193_Heart of the Bloom.png" id="193" data-flag="@X" onclick="openSidebar('193')"></div>
+			<div class="container"><img alt="sets\PRU-files\img\190_Endless Struggle.png" id="190" data-flag="@X" onclick="openSidebar('190')"></div>
+			<div class="container"><img alt="sets\PRU-files\img\195_Industrial Revolution.png" id="195" data-flag="@X" onclick="openSidebar('195')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\217_The Lotus of Margrave.png" id="217" data-flag="@X" onclick="openSidebar('217')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\219_Panharmonicon.png" id="219" data-flag="@X" onclick="openSidebar('219')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\213_FRPD Truncheon.png" id="213" data-flag="@X" onclick="openSidebar('213')"></div>
@@ -416,15 +415,15 @@
 			<div class="container"><img alt="sets\PRU-files\img\3_Provision.png" id="3" data-flag="@X" onclick="openSidebar('3')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\4_Retreat.png" id="4" data-flag="@X" onclick="openSidebar('4')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\5_Scout.png" id="5" data-flag="@X" onclick="openSidebar('5')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\225_Camp Clef.png" id="225" data-flag="@X" onclick="openSidebar('225')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\226_Catrest.png" id="226" data-flag="@X" onclick="openSidebar('226')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\229_Fenley's Garden.png" id="229" data-flag="@X" onclick="openSidebar('229')"></div>
@@ -458,23 +457,23 @@
 			<div class="container"><img alt="sets\PRU-files\img\251_Temple of Plenty.png" id="251" data-flag="@X" onclick="openSidebar('251')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\252_Temple of Silence.png" id="252" data-flag="@X" onclick="openSidebar('252')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\253_Temple of Triumph.png" id="253" data-flag="@X" onclick="openSidebar('253')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\255_Plains.png" id="255" data-flag="@X" onclick="openSidebar('255')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\256_Island.png" id="256" data-flag="@X" onclick="openSidebar('256')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\257_Swamp.png" id="257" data-flag="@X" onclick="openSidebar('257')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\258_Mountain.png" id="258" data-flag="@X" onclick="openSidebar('258')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\259_Forest.png" id="259" data-flag="@X" onclick="openSidebar('259')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
-			<div class="container"><img alt="img\er.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
+			<div class="container"><img alt="img\er.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\1t_Copy.png" id="1t" data-flag="@X" onclick="openSidebar('1t')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\2t_In The Bloom.png" id="2t" data-flag="@N" onclick="openSidebar('2t')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\3t_Human.png" id="3t" data-flag="@X" onclick="openSidebar('3t')"></div>
@@ -489,7 +488,7 @@
 			<div class="container"><img alt="sets\PRU-files\img\12t_Mountain Token.png" id="12t" data-flag="@X" onclick="openSidebar('12t')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\13t_Plains Token.png" id="13t" data-flag="@X" onclick="openSidebar('13t')"></div>
 			<div class="container"><img alt="sets\PRU-files\img\14t_Swamp Token.png" id="14t" data-flag="@X" onclick="openSidebar('14t')"></div>
-			<div class="container"><img alt="img\e.png" id="-1" data-flag="@E" onclick="openSidebar('-1')"></div>
+			<div class="container"><img alt="img\e.png" id="" data-flag="@E" onclick="openSidebar('')"></div>
 	</div>
 </div>
 	<div class="sidebar" id="sidebar">
@@ -506,10 +505,10 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.txt')
-					.then(response => response.text())
-					.then(text => {
-						card_list_stringified = text;
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
 				await fetch('/resources/replacechars.txt')
@@ -518,12 +517,7 @@
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
-				card_list_arrayified = card_list_stringified.split('\\n');
-
-				for (let i = 0; i < card_list_arrayified.length; i++)
-				{
-					card_list_arrayified[i] = card_list_arrayified[i].split('\t');
-				}
+				card_list_arrayified = card_list.cards;
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 		
@@ -639,13 +633,13 @@
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-				let card_name = card_list_arrayified[i][0];
+				let card_name = card_list_arrayified[i].card_name;
 				for (const char of specialchars)
 				{
 					card_name = card_name.replaceAll(char, "");
 				}
 
-				window.location = ('/cards/' + card_list_arrayified[i][11] + '/' + card_list_arrayified[i][4] + '_' + card_name);
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
 			}
 	</script>
 </body>

@@ -1,1 +1,0 @@
-﻿Ochre Basin		common	Land	237			T: Add C.NEWLINET: Add U. Activate only if you control a Mountain.NEWLINET: Add R. Activate only if you control an Island.			normal	PRU		

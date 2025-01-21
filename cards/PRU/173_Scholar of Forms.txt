@@ -1,1 +1,0 @@
-﻿Scholar of Forms	G	common	Creature – Faerie Angel Wizard 	173	G	1G	When this creature enters, put a zeal counter on target Faerie.NEWLINE3GG, Remove a zeal counter from this creature: Put three +1/+1 counters on it.	2/2		normal	PRU		target creature?NEWLINENEWLINE4+NEWLINENEWLINEP1P1

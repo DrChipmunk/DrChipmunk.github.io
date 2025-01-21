@@ -1,1 +1,0 @@
-﻿Grip Pinch-Hitter	R	common	Creature – Wolf Warrior 	145	R	1R		2/1	Level up 1R (1R: Put a level counter on this. Level up only as a sorcery.) [2/1]NEWLINE[level 2-5] Reach [5/4]NEWLINE[level 6+] Reach, trample [7/6]	leveler	ERR		art3

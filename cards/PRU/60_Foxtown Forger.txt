@@ -1,1 +1,0 @@
-﻿Foxtown Forger	U	common	Creature – Dragon Faerie Artificer 	60	U	2U	VigilanceNEWLINEThis creature can’t be blocked if you’ve cast two or more spells this turn.	2/3		normal	PRU		BUFF: vigllance

@@ -1,1 +1,0 @@
-﻿Immolate	R	uncommon	Sorcery	130	R	XR	This spell deals X plus 1 damage to target creature.			normal	PRU		Type CNEWLINENEWLINEShould this be an instant?NEWLINENEWLINEChanged since August OptionalNEWLINENEWLINERoom for minor upside. scry 1? Don’t want another empathy payoff. Could also sorcery with significant upside

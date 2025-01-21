@@ -1,1 +1,0 @@
-﻿Phantom_Interrupt	UB	common	Creature – Error 	230	UB	5U/BU/B	FlashNEWLINE1U/B, Discard Phantom_Interrupt: Surveil 1, then draw a card.	7/7		normal	ERR		art5NEWLINENEWLINEIt enters and leaves in the gaps between cycles.NEWLINENEWLINEerrft

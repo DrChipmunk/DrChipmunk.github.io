@@ -1,1 +1,0 @@
-﻿Groove Surfer	R	uncommon	Creature – Human Warrior 	146	R	1R	Whenever you cast a noncreature spell, create a red Subroutine enchantment token named BOOST() with “Whenever this Subroutine runs, add R.” (Insert it into one of your programs.)	2/1		normal	ERR		!tokens BOOST() EIW;Program B EIWNEWLINEart3NEWLINENEWLINEunhuman?

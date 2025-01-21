@@ -1,1 +1,0 @@
-﻿Etherkiller	RG	common	Creature – Error 	226	RG	6R/GR/G	You may pay 3R/GR/G and sacrifice an artifact or enchantment rather than pay this spell’s mana cost.NEWLINETrample	6/6		normal	ERR		art3NEWLINETODO: better FTNEWLINEStack Advisory: All malfunctioning assets must be deleted at once.NEWLINENEWLINEerrft

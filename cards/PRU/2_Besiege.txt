@@ -1,1 +1,0 @@
-﻿Besiege		special	Instant – Tactic 	2		2	Tap target creature.NEWLINE(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Besiege would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		changed.NEWLINENEWLINERevised since June

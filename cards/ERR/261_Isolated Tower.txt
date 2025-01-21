@@ -1,1 +1,0 @@
-﻿Isolated Tower		uncommon	Land	261			When this land enters, sacrifice it. Search your library for a basic Plains or Swamp card, put it onto the battlefield tapped, then shuffle.NEWLINE4WB, Discard Isolated Tower: Exile target permanent.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Isolated Tower

@@ -1,1 +1,0 @@
-﻿Ichor Blockade	B	common	Instant	93	B	2B	Target opponent sacrifices a creature. If you’ve cast another spell this turn, instead that player sacrifices a creature with the greatest power among creatures they control			normal	PRU		ANEWLINENEWLINE4+

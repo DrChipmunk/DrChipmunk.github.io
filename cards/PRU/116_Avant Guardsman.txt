@@ -1,1 +1,0 @@
-﻿Avant Guardsman	R	common	Creature – Human Bard 	116	R	2R	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhenever this creature attacks, the next noncreature spell you cast this turn costs 1 less to cast.	2/3		normal	PRU		R

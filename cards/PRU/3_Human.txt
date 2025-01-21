@@ -1,1 +1,0 @@
-﻿Human	W	common	Token Creature – Human 	3	W			1/1		token	PRU		5 per sheet

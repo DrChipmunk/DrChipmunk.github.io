@@ -1,1 +1,0 @@
-﻿Duress	B	uncommon	Sorcery	96	B	B	Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.			normal	ERR		Type CNEWLINEart3NEWLINEflagged (sideboard)

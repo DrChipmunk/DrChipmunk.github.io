@@ -1,1 +1,0 @@
-﻿Flood of Moss	G	uncommon	Sorcery	159	G	2G	Choose a basic land type. Create a tapped basic land token with that type. You gain 2 life.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		Type B – ramp/multicolour

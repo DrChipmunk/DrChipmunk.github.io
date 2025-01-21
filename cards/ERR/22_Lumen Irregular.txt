@@ -1,1 +1,0 @@
-﻿Lumen Irregular	W	common	Creature – Human Soldier 	22	W	2W	FlashNEWLINEWhen this creature enters, it deals damage to target creature equal to the number of creatures you control.	0/2		normal	ERR		Make it an enchantment?NEWLINEGive it 7: Creatures you control get +2/+1 until end of turn?NEWLINENEWLINEart4

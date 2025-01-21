@@ -1,1 +1,0 @@
-﻿LOOP()	UR	common	Enchantment – Subroutine 	229	UR	U/RU/R	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, exile the top two cards of your library. You may play those cards this turn.			normal	ERR		!tokens Program B EIWNEWLINENEWLINEart4NEWLINEflagged (solid)NEWLINEflagged (favorite)NEWLINENEWLINEsbft

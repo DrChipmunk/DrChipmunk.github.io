@@ -1,1 +1,0 @@
-﻿Victory Drive	B	rare	Instant	109	B	1B	Create X 1/1 white Human creature tokens, where X is the total amount of life your opponents have lost this turn.			normal	PRU		6+NEWLINENEWLINE27

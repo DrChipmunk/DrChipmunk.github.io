@@ -1,1 +1,0 @@
-﻿Burnout Champion	B	common	Creature – Cat Warrior 	87	B	5BB	This spell costs 1 less to cast for each creature and enchantment card in your graveyard.NEWLINEWard–Discard a card.	5/4		normal	ERR		!tokens Program B EIWNEWLINENEWLINEto ward – discard a card?NEWLINENEWLINEart4NEWLINEflagged (maybe)NEWLINEflagged (build-around)NEWLINEconcern (power)

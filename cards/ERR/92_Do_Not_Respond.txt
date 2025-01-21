@@ -1,1 +1,0 @@
-﻿Do_Not_Respond	B	uncommon	Creature – Error 	92	B	4B	You may pay 1B rather than this spell’s mana cost. When you do, target opponent creates two 1/1 white Citizen creature tokens.	5/5		normal	ERR		art3NEWLINE-EINTBND: Value “Killscore” expected to be in range [1,9999]NEWLINEerrft

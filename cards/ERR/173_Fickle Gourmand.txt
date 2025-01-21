@@ -1,1 +1,0 @@
-﻿Fickle Gourmand	G	uncommon	Creature – Dragon Citizen 	173	G	3GG	Fabric – When this creature enters, add X mana in any combination of colors, where X is the number of enchantments you control.NEWLINE1R, Discard a card: Draw a card.	5/5		normal	ERR		art4

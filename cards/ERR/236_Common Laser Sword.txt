@@ -1,1 +1,0 @@
-﻿Common Laser Sword		common	Artifact – Equipment 	236		3	When this Equipment enters, create a 1/1 white Citizen creature token, then attach this Equipment to it.NEWLINEEquipped creature gets +2/+1 and has trample.NEWLINEEquip 4			normal	ERR		!tokens white Human 11EIWNEWLINENEWLINEart3

@@ -1,1 +1,0 @@
-﻿Superuser	UG	common	Creature – Human Wizard 	232	UG	G/U	When this creature enters, cache the top card of your library face-down. (Look at it, then exile it face down. Create a Memory enchantment token with “2, Sacrifice this Memory: You may play the cached card this turn.”)	1/2		normal	ERR		!tokens Memory EIWNEWLINENEWLINEart4NEWLINENEWLINESecret SantaNEWLINENEWLINEtop20

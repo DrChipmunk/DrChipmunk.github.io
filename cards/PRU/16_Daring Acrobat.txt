@@ -1,1 +1,0 @@
-﻿Daring Acrobat	W	uncommon	Creature – Faerie Bard 	16	W	3W	FlyingNEWLINEWhen this creature dies, if its power was 4 or greater, return it to its owner’s hand.	3/2		normal	PRU		Type B – counter and equipmentNEWLINENEWLINEIf land switch, can move to commonNEWLINENEWLINEQQ

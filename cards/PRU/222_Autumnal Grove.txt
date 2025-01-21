@@ -1,1 +1,0 @@
-﻿Autumnal Grove		common	Land	222			T: Add C.NEWLINET: Add R. Activate only if you control a Forest.NEWLINET: Add G. Activate only if you control a Mountain.			normal	PRU		

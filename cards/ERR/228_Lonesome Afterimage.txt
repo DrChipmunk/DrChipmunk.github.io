@@ -1,1 +1,0 @@
-﻿Lonesome Afterimage	BG	common	Creature – Elf Shaman 	228	BG	2B/G	When this creature enters, mill two cards.NEWLINE2B/GB/G, Exile Lonesome Afterimage from your graveyard: Return target creature or enchantment card from your graveyard to your hand.	3/3		normal	ERR		art5NEWLINENEWLINEunhuman?

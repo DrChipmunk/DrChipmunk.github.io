@@ -1,1 +1,0 @@
-﻿No_Response_Received	U	common	Creature – Error Angel 	63	U	3UU	FlyingNEWLINEIslandcycling 2 (2, Discard this card: Search your library for an Island card, reveal it, and put it into your hand, then shuffle.)	3/4		normal	ERR		!tokens Memory EIWNEWLINENEWLINEart5NEWLINENEWLINEerrft

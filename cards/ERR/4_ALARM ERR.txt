@@ -1,1 +1,0 @@
-﻿ALARM() ERR	W	common	Token Enchantment – Subroutine 	4	W		Whenever this Subroutine runs, create a 1/1 white Citizen creature token.			token	ERR		!exportname ALARM() ERRNEWLINE!related Download Courier;Weave Dispatcher;NEWLINEart3

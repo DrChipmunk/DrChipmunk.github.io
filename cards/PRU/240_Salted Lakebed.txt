@@ -1,1 +1,0 @@
-﻿Salted Lakebed		common	Land	240			T: Add C.NEWLINET: Add W. Activate only if you control a Swamp.NEWLINET: Add B. Activate only if you control a Plains.			normal	PRU		P1P1

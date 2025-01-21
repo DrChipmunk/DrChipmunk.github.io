@@ -1,1 +1,0 @@
-﻿Hovering Delinquent	B	common	Creature – Human Rogue 	107	B	2B	FlyingNEWLINEWhen this creature enters, create a black Subroutine enchantment token named TICK() with “Whenever this Subroutine runs, each opponent loses 1 life and you gain 1 life.” (Insert it into one of your programs.)	2/2		normal	ERR		art3NEWLINENEWLINEunhuman?

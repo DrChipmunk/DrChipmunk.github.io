@@ -1,1 +1,0 @@
-﻿Error's Advocate	BR	common	Creature – Human Citizen 	225	BR	1B/RB/R	Corrupt – When this creature enters, if you control a permanent with mana value 4 or greater, this creature deals 1 damage to any target.	4/2		normal	ERR		art4

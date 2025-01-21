@@ -1,1 +1,0 @@
-﻿Hippocrat Melix	UB	rare	Legendary Creature – Human Artificer 	194	UB	1UB	Whenever this creature deals combat damage to a player, draw a card.NEWLINEWhen this creature dies, you may exile target creature an opponent controls. If you do, return this creature to the battlefield under that player’s control.	3/1		normal	PRU		6+NEWLINENEWLINE27NEWLINENEWLINEChanged since June

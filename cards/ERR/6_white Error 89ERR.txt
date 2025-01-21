@@ -1,1 +1,0 @@
-﻿white Error 89ERR	W	common	Token Creature – Error 	6	W		When this token leaves the battlefield, return the exiled card to the battlefield under your control.	8/9		token	ERR		!exportname white Error 89ERRNEWLINE!related Placeholder_Asset;

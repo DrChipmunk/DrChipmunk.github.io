@@ -1,1 +1,0 @@
-﻿Not_A_Teletype	W	common	Creature – Error 	27	W	3WW	VigilanceNEWLINEPlainscycling 2 (2, Discard this card: Search your library for a Plains card, reveal it, and put it into your hand, then shuffle.)	5/5		normal	ERR		!tokens Memory EIW;NEWLINENEWLINEart4NEWLINENEWLINEerrft

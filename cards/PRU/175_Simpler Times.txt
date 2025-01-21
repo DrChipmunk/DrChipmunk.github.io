@@ -1,1 +1,0 @@
-﻿Simpler Times	G	common	Instant	175	G	2G	Choose one – NEWLINE• Destroy target artifact.NEWLINE• Destroy target enchantment.NEWLINE• Return target permanent card from your graveyard to your hand.			normal	PRU		DecemberNEWLINENEWLINEDoubles

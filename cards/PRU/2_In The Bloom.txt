@@ -1,1 +1,0 @@
-﻿In The Bloom		common		2			After a Bloom spell you cast from your hand resolves, you can place the exiled card here.NEWLINEWhenever you cast a spell with greater mana value than the exiled card, you may cast the exiled card without paying its mana cost			token	PRU		

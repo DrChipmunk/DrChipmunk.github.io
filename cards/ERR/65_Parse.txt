@@ -1,1 +1,0 @@
-﻿Parse	U	uncommon	Sorcery	65	U	U	Draw a card.NEWLINECorrupt – If you control a permanent with mana value 2 or greater, surveil 2.			normal	ERR		type CNEWLINEart5NEWLINEflagged (maybe)NEWLINEflagged (favorite)

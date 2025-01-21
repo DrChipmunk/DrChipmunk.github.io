@@ -1,1 +1,0 @@
-﻿Foxes' Underground Heel	G	common	Creature – Faerie Soldier 	161	G	2G	When this creature enters, put a zeal counter on target Faerie.NEWLINEG, Remove a zeal counter from this creature: Target creature blocks this creature this turn if able.	4/2		normal	PRU		4+NEWLINENEWLINEChanged since JuneNEWLINENEWLINEMaybe 4/2? Maybe 3/2?NEWLINENEWLINEDoubles

@@ -1,1 +1,0 @@
-﻿Elma's Regular	G	uncommon	Creature – Human Citizen 	170	G	2G	VigilanceNEWLINET, Sacrifice an artifact or enchantment: Add RG.	2/4		normal	ERR		art4NEWLINENEWLINEflagged (maybe)NEWLINEconcern (pie)

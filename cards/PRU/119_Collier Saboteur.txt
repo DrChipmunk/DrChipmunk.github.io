@@ -1,1 +1,0 @@
-﻿Collier Saboteur	R	common	Creature – Human Citizen 	119	R	3R	TrampleNEWLINE1R, Discard this card: Destroy target artifact.	4/3		normal	PRU		Trample?NEWLINEenters discard a card to destroy artifact?NEWLINE3/4?NEWLINEAugust OptionalNEWLINENEWLINEDoubles

@@ -1,1 +1,0 @@
-﻿Swell's Pilgrimage	G	common	Sorcery	178	G	2G	Mill three cards, then put all land cards and cards with bloom milled this way into your hand.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		December

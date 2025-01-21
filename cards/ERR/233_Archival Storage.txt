@@ -1,1 +1,0 @@
-﻿Archival Storage		uncommon	Artifact	233		1	1: Put target card from a graveyard on the bottom of its owner’s library. Activate only as a sorcery.NEWLINE1, T: Put this artifact on the bottom of its owner’s library. Draw a card. 			normal	ERR		art4NEWLINEflagged (sideboard)

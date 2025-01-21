@@ -1,1 +1,0 @@
-﻿Prince Wilhelm	WB	rare	Legendary Creature – Human Noble 	201	WB	3WB	When this creature enters, create two 1/1 white Human creature tokens.NEWLINEWhenever you cast a Tactic spell, you may pay 2 life. If you do, strategize. (Put the top card of your tactic deck into your hand.)	3/3		normal	PRU		27NEWLINENEWLINERefocus

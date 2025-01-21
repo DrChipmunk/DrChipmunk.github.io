@@ -1,1 +1,0 @@
-﻿Synthetic Connaisseur		common	Artifact Creature – Construct 	244		5	When this creature enters, return target enchantment card from your graveyard to your hand.	5/4		normal	ERR		art5

@@ -1,1 +1,0 @@
-﻿Fungus	G	common	Token Creature – Fungus 	7	G			2/2		token	PRU		2 per sheet

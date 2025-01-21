@@ -1,1 +1,0 @@
-﻿Root Navigator	W	rare	Creature – Human Scout 	34	W	1W	FlashNEWLINEAs a player searches a library, they reveal each card they find.NEWLINEPlayers can’t search libraries for nonbasic cards.	3/1		normal	ERR		art5NEWLINEWith the Weft gone, its former users had to relearn their own world.NEWLINENEWLINEunhuman?NEWLINEflagged (sideboard)NEWLINEflagged (favorite)

@@ -1,1 +1,0 @@
-﻿Exclusive Entourage	W	common	Creature – Human Citizen 	20	W	3W	When this creature enters, put two +1/+1 counters on another target Human you control.	3/3		normal	PRU		4+NEWLINENEWLINEP1P1NEWLINENEWLINENERF: 2WW or 2/3NEWLINEBUFF: 3/3

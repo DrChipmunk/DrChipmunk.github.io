@@ -1,1 +1,0 @@
-﻿Artful Hologram	R	rare	Creature – Spirit Bard 	123	R	R		2/1	Level up G/U (G/U: Put a level counter on this. Level up only as a sorcery.) [2/1]NEWLINE[level 3-5] Whenever this creature deals damage to a player, draw a card. [4/3]NEWLINE[level 6+] Whenever a creature you control deals damage to a player, draw a card. [6/5]	leveler	ERR		art3NEWLINEflagged (maybe)

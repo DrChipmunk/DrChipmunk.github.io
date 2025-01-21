@@ -1,1 +1,0 @@
-﻿Plasma Strike	W	common	Instant	30	W	W	Plasma Strike deals 3 damage to target attacking, blocking, or tapped creature.			normal	ERR		tapped?NEWLINENEWLINEart3NEWLINEflagged (maybe)NEWLINENEWLINEtop20

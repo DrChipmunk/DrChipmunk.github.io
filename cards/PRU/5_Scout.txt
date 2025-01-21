@@ -1,1 +1,0 @@
-﻿Scout		special	Instant – Tactic 	5		2	Scry 2.NEWLINE(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Scout would be put into your graveyard, shuffle it into your tactic deck instead.)			normal	PRU		Revised since June

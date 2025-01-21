@@ -1,1 +1,0 @@
-﻿Centennial Maestro	W	uncommon	Creature – Human Advisor 	8	W	4W	Fabric – When this creature enters, create a 1/1 white Citizen creature token for each enchantment you control.	3/3		normal	ERR		!tokens white Human 11EIWNEWLINEtype BNEWLINEart3NEWLINENEWLINESecret SantaNEWLINENEWLINEunhuman?

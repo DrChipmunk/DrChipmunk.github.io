@@ -1,1 +1,0 @@
-﻿Bloom Company Defector	W	common	Creature – Human Soldier 	10	W	2W	At the beginning of combat on your turn, if you control a Faerie, this creature gains first strike and vigilance until end of turn. 	3/2		normal	PRU		DoublesNEWLINENEWLINEMight become 3-mana 3/2 that gains first strike and untaps.

@@ -1,1 +1,0 @@
-﻿colorless Construct XXERR		common	Token Artifact Creature – Construct 	14				X/X		token	ERR		!exportname colorless Construct XXERRNEWLINE!related Error Tide;Toxic Modder;Virtualized Onomastic;Eviviva, Grip Exec;Menagerie Mechanic;RECURSE();NEWLINEart5

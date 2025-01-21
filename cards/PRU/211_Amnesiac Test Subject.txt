@@ -1,1 +1,0 @@
-﻿Amnesiac Test Subject		common	Artifact Creature – Faerie 	211		2	When this creature dies, put a zeal counter on target Faerie.	2/1		normal	PRU		

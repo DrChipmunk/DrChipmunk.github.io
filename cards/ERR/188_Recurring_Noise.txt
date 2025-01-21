@@ -1,1 +1,0 @@
-﻿Recurring_Noise	G	uncommon	Creature – Error 	188	G	5G	TrampleNEWLINE3G: Return Recurring_Noise from your graveyard to the battlefield tapped with a finality counter on it.	6/5		normal	ERR		art4NEWLINE-EDCBL: Unable to locate signal.NEWLINEerrft

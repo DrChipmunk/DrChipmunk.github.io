@@ -1,1 +1,0 @@
-﻿Memorivore	G	common	Enchantment Creature – Beast 	182	G	4G	DeathtouchNEWLINEWhenever you cache a card, this creature gets +2/+2 and gains indestructible until end of turn.	4/4		normal	ERR		art3

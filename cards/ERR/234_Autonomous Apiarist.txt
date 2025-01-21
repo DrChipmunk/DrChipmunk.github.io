@@ -1,1 +1,0 @@
-﻿Autonomous Apiarist		uncommon	Artifact Creature – Construct 	234		3	When this creature enters, reveal cards from the top of your library until you reveal a land card. Put that card into your hand and the rest into your graveyard.	2/2		normal	ERR		art3

@@ -1,1 +1,0 @@
-﻿Vivian's Finisher	G	common	Instant	184	G	3G	Put a +1/+1 counter on target creature you control if you control a Human and a Faerie. NEWLINEThat creature deals damage equal to its power to target creature you don’t control.			normal	PRU		2G?NEWLINENEWLINEChanged since August OptionalNEWLINENEWLINEVivian’s moves were crowd-pleasers for human and faerie audiences alike.

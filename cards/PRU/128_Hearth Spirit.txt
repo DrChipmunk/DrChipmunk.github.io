@@ -1,1 +1,0 @@
-﻿Hearth Spirit	R	common	Creature – Elemental Spirit 	128	R	1R	Whenever you attack, target attacking creature gets +1/+0 until end of turn.	1/2		normal	PRU		Changed since June

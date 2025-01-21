@@ -1,1 +1,0 @@
-﻿Blue Palace Interlocutor	U	uncommon	Creature – Human Advisor 	43	U	1U	Whenever you cast a noncreature spell, each opponent mills two cards.	1/4		normal	PRU		Type B – MIll. Needs to be more interactive.NEWLINENEWLINECould remove the "only once clause"?NEWLINENEWLINEBlue Palace DebateNEWLINENEWLINEP1P1

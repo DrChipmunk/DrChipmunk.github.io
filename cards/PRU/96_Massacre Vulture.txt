@@ -1,1 +1,0 @@
-﻿Massacre Vulture	B	uncommon	Creature – Bird 	96	B	2B	Flying, deathtouchNEWLINEB, Exile a Human card and a Faerie card from your graveyard: Put two +1/+1 counters on this creature. Activate only as a sorcery.	2/3		normal	PRU		Type A – BGNEWLINENEWLINEQQNEWLINENEWLINEMissing – one Bs, one Cs,  removal, strategize x 2

@@ -1,1 +1,0 @@
-﻿Crypt of Despair Grinder	WB	uncommon	Creature – Human Rogue 	202	WB	WB	Whenever you level up a creature, put an additional level counter on it.	3/2		normal	ERR		A grindy deck that plays good removal, then takes over by leveling up its level up creatures quickly.NEWLINEart4

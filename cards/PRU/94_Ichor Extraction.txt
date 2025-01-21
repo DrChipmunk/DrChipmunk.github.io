@@ -1,1 +1,0 @@
-﻿Ichor Extraction	B	uncommon	Instant	94	B	1B	Destroy target creature. Its controller creates a Treasure token.			normal	PRU		Type CNEWLINENEWLINEQQNEWLINENEWLINECould have a shorter name, but this name is fine

@@ -1,1 +1,0 @@
-﻿Mobile Drillrig		uncommon	Artifact – Vehicle 	218		2	Whenever you cast your second spell each turn, this Vehicle becomes an artifact creature until end of turn.NEWLINECrew 2 (Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)	4/3		normal	PRU		ZZZ

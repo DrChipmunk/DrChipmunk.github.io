@@ -1,1 +1,0 @@
-﻿Bloomstained Recruiter	W	uncommon	Creature – Human Scout 	11	W	2W	Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)NEWLINEWhenever you cast a noncreature spell, create a tapped 1/1 white Human creature token.	2/2		normal	PRU		Type CNEWLINENEWLINERNEWLINENEWLINE4+NEWLINENEWLINEQQ

@@ -1,1 +1,0 @@
-﻿Cybersaurus	U	common	Enchantment Creature – Dinosaur 	51	U	5UU	Ward 3 (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays 3.)NEWLINE2U, Discard Cybersaurus: Counter target spell with mana value 4 or less.	7/9		normal	ERR		art3NEWLINEflagged (maybe)NEWLINEflagged (favorite)

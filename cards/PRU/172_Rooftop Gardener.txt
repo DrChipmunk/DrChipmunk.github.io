@@ -1,1 +1,0 @@
-﻿Rooftop Gardener	G	common	Creature – Bird Faerie Druid 	172	G	3G	ReachNEWLINEWhen this creature enters, put a zeal counter on target Faerie.NEWLINE1G, Remove a zeal counter from this creature: Create a tapped Forest token.	4/3		normal	PRU		XNEWLINENEWLINE4+NEWLINENEWLINEChanged since JuneNEWLINEDecember

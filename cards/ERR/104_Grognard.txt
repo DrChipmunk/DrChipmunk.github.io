@@ -1,1 +1,0 @@
-﻿Grognard	B	uncommon	Creature – Human Cleric 	104	B	1B		2/2	Level up 2B (2B: Put a level counter on this. Level up only as a sorcery.) [2/2]NEWLINE[level 1-2] This creature gets +1/+1 for each creature and enchantment card in your graveyard. [2/2]NEWLINE[level 3+] This creature gets +1/+1 for each creature and enchantment card in all graveyards. [2/2]	leveler	ERR		art4

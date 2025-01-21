@@ -1,1 +1,0 @@
-﻿Faulty Server		uncommon	Land	253			When this land enters, sacrifice it. Search your library for a basic Swamp or Mountain card, put it onto the battlefield tapped, then shuffle.NEWLINE4BR, Discard Faulty Server: Create a 4/4 red Error creature token with menace.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Faulty Fissure

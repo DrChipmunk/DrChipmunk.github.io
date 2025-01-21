@@ -1,1 +1,0 @@
-﻿Pixel Pixie	W	rare	Creature – Faerie Wizard 	28	W	1W		2/2	Flying; Level up U/R (U/R: Put a level counter on this. Level up only as a sorcery.) [2/2]NEWLINE[level 2-4] Flying, prowess [3/3]NEWLINE[level 5+] Flying, prowess, prowess, prowess [4/4]	leveler	ERR		art4

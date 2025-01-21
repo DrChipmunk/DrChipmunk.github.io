@@ -1,1 +1,0 @@
-﻿Request Handler	WG	common	Enchantment Creature – Whale 	231	WG	2G/W	Fabric – When this creature enters, target creature gets +X/+X until end of turn, where X is the number of enchantments you control.	2/2		normal	ERR		art5

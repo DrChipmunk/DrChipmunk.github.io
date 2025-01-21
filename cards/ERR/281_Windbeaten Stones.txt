@@ -1,1 +1,0 @@
-﻿Windbeaten Stones		common	Land	281			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add R or W.			normal	ERR		NEWLINEIf KUT: Windbeaten StonesNEWLINENEWLINEif common: Untextured LaneNEWLINELate in the crisis, all that remained of the Weft were tenuous routes through a sea of unstable glitchlands.

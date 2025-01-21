@@ -1,1 +1,0 @@
-﻿Forgotten Junkyard		uncommon	Land	255			When this land enters, sacrifice it. Search your library for a basic Swamp or Forest card, put it onto the battlefield tapped, then shuffle.NEWLINE4BG, Discard Forgotten Junkyard: Return two target creature or enchantment cards from your graveyard to your hand.			normal	ERR		!tappedNEWLINENEWLINEif uncommon: Forgotten Junkyard

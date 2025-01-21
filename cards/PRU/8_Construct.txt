@@ -1,1 +1,0 @@
-﻿Construct		common	Token Artifact Creature – Construct 	8				X/X		token	PRU		1 per sheet

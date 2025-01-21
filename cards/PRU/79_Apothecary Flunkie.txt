@@ -1,1 +1,0 @@
-﻿Apothecary Flunkie	B	common	Creature – Human Mutant 	79	B	1B	When this creature dies, strategize. (Put the top card of your tactic deck into your hand.)	3/1		normal	PRU		ANEWLINENEWLINEMaybe can’t block or enters the battlefield tappedNEWLINENEWLINEChanged since June

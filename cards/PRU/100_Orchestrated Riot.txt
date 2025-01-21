@@ -1,1 +1,0 @@
-﻿Orchestrated Riot	B	uncommon	Instant	100	B	2B	Strategize twice, then this spell deals X damage to target creature and you gain X life, where X is the number of Tactic cards in your hand. (To strategize, put the top card of your tactic deck into your hand.)			normal	PRU		Type C – strategize

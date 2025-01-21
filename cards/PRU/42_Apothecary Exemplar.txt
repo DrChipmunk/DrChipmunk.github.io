@@ -1,1 +1,0 @@
-﻿Apothecary Exemplar	U	mythic	Creature – Wizard Horror 	42	U	1UUUU	FlyingNEWLINEOther Horror creatures you control have flying.NEWLINEWhenever this creature deals combat damage to an opponent, that player mills that many cards. You may return a creature card milled this way to the battlefield under your control. It’s a Horror in addition to its other types.	3/7		normal	PRU		

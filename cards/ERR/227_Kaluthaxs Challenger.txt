@@ -1,1 +1,0 @@
-﻿Kaluthax's Challenger	WB	common	Creature – Bat Scout 	227	WB	1W/B		2/2	Level up 1W/B (1W/B: Put a level counter on this. Level up only as a sorcery.) [2/2]NEWLINE[level 2-5] Lifelink [3/3]NEWLINE[level 6+] Flying, lifelink [4/4]	leveler	ERR		art5NEWLINENEWLINESecret Santa

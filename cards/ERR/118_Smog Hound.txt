@@ -1,1 +1,0 @@
-﻿Smog Hound	B	common	Creature – Wolf Pilot 	118	B	3B		3/4	Level up 2B  (2B: Put a level counter on this. Level up only as a sorcery.) [3/4]NEWLINE[level 1-2] Deathtouch [5/6]NEWLINE[level 3+] Deathtouch [7/8]	leveler	ERR		!tokens TICK() EIW;Program B EIWNEWLINENEWLINEAdd an invoker text?NEWLINENEWLINEart3NEWLINEconcern (art)

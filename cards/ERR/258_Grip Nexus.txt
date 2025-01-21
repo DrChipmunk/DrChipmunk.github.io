@@ -1,1 +1,0 @@
-﻿Grip Nexus		rare	Land	258			This land enters tapped.NEWLINET: Add R.NEWLINERRR, T, Sacrifice this land: Reveal a red card you own from outside the game and put it into your hand.			normal	ERR		art4

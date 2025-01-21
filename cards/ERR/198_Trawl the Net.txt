@@ -1,1 +1,0 @@
-﻿Trawl the Net	G	common	Sorcery	198	G	1G	Mill three cards, then return a creature, enchantment, or land card from your graveyard to your hand.			normal	ERR		!tokens Treasure EIWNEWLINENEWLINEcorrupt card?NEWLINENEWLINEart4NEWLINEterminal1NEWLINENEWLINESecret SantaNEWLINEflagged (solid)NEWLINEconcern (power)

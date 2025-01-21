@@ -1,1 +1,0 @@
-﻿Forest_Pixel		common	Basic Land – Forest 	292						normal	ERR		!exportname Forest_Pixel

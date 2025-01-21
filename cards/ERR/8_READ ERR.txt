@@ -1,1 +1,0 @@
-﻿READ() ERR	U	common	Token Enchantment – Subroutine 	8	U		Whenever this Subroutine runs, draw a card.			token	ERR		!exportname READ() ERRNEWLINE!related Mnemologist;Altered Percipient;NEWLINEart2

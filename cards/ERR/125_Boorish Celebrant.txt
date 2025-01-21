@@ -1,1 +1,0 @@
-﻿Boorish Celebrant	R	uncommon	Creature – Human Rogue 	125	R	2RR	At the beginning of your upkeep, create a Treasure token.NEWLINEWhenever you sacrifice an artifact or enchantment, this creature deals 1 damage to each opponent.	4/2		normal	ERR		art5

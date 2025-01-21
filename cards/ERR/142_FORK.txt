@@ -1,1 +1,0 @@
-﻿FORK()	R	uncommon	Enchantment – Subroutine 	142	R	2R	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, when you next cast an instant, sorcery, or Subroutine spell this turn, copy it. You may choose new targets for the copy (A copy of a permanent spell becomes a token.)			normal	ERR		!tokens Program B EIWNEWLINEType A

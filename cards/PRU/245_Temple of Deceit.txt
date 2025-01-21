@@ -1,1 +1,0 @@
-﻿Temple of Deceit		common	Land	245			This land enters tapped.NEWLINEWhen this land enters, scry 1.NEWLINET: Add U or B.			normal	PRU		

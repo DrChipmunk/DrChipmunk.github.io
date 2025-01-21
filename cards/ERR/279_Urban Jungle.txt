@@ -1,1 +1,0 @@
-﻿Urban Jungle		common	Land	279			As this land enters, you may pay 2 life. If you don’t, it enters tapped.NEWLINET: Add R or G.			normal	ERR		!tokens Treasure EIWNEWLINENEWLINEif common: Gilded GripNEWLINEThe Grip is an urban jungle where most every wall, floor, and air space is devoted to some kind of extreme sport.NEWLINENEWLINESecret Santa

@@ -1,1 +1,0 @@
-﻿Hang	B	uncommon	Instant	105	B	1B	Corrupt – Destroy target creature if it has power 3 or less or you control a permanent with mana value 3 or greater.			normal	ERR		Type ANEWLINEart5NEWLINEterminalNEWLINEflagged (solid)NEWLINENEWLINEtop20

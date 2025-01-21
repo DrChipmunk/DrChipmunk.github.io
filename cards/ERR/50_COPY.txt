@@ -1,1 +1,0 @@
-﻿COPY()	U	uncommon	Enchantment – Subroutine 	50	U	2U	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, create a token that’s a copy of target creature you control.			normal	ERR		!tokens Program B EIWNEWLINEtype CNEWLINEart5NEWLINEflagged (maybe)NEWLINEflagged (favorite)NEWLINENEWLINEsbft

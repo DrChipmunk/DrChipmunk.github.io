@@ -1,1 +1,0 @@
-﻿St Gufilda's Memorial		uncommon	Artifact	221		4	When this artifact enters, create two 1/1 white Human creature tokens.NEWLINEWhenever an attacking creature you control dies, create a 1/1 white Human creature token. This ability triggers only once each turn.			normal	PRU		4+NEWLINENEWLINEQQx2

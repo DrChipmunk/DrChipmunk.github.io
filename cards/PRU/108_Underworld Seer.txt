@@ -1,1 +1,0 @@
-﻿Underworld Seer	B	rare	Creature – Faerie Wizard 	108	B	3BB	LifelinkNEWLINEWhenever you scry, exile the bottom card of your library. You lose life equal to its mana value. If it’s a nonland card, put it in your hand.	4/3		normal	PRU		27NEWLINENEWLINEDecember

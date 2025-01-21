@@ -1,1 +1,0 @@
-﻿Invasive Plowbeetle	G	uncommon	Creature – Insect 	163	G	2G	When this creature enters, return a permanent you control to its owner’s hand.	4/5		normal	PRU		Type CNEWLINENEWLINE4+NEWLINENEWLINEIf land switch, can move to commonNEWLINENEWLINEQQ

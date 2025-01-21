@@ -1,1 +1,0 @@
-﻿MAP()		common	Artifact Enchantment – Subroutine 	240		1	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, you may pay X and sacrifice it. If you do, draw a card, then add X mana in any combination of colors.			normal	ERR		!tokens Program B EIWNEWLINENEWLINEart5

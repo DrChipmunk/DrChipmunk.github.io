@@ -1,1 +1,0 @@
-﻿Telepresence Axiom	W	common	Artifact Creature – Construct 	38	W	1W	When this creature enters, cache the top card of your library face-down. (Look at it, then exile it face down. Create a Memory enchantment token with “2, Sacrifice this Memory: You may play the cached card this turn.”)	2/1		normal	ERR		!tokens Memory EIW;NEWLINENEWLINEart3

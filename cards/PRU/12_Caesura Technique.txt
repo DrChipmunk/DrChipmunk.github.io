@@ -1,1 +1,0 @@
-﻿Caesura Technique	W	rare	Enchantment	12	W	1W	You can’t untap more than one land during your untap step.NEWLINEAt the beginning of your upkeep, draw a card.NEWLINEWhenever an opponent casts a spell, untap up to one target land.			normal	PRU		Caesura TechniqueNEWLINENEWLINEcost 2W NEWLINENEWLINERefocusNEWLINENEWLINEP1P1

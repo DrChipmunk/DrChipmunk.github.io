@@ -1,1 +1,0 @@
-﻿Copy ERR		common	Token	1						token	ERR		!exportname Copy ERRNEWLINE!related COPY();FORK();Concurrent Escapist;Unending Possibility;Undefined Behavior;

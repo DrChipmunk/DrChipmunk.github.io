@@ -1,1 +1,0 @@
-﻿Flowing Strike	G	common	Instant	160	G	1G	Target creature gets +2/+2 until end of turn.NEWLINEBloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)			normal	PRU		4+NEWLINENEWLINE+3/+3 and no trample?

@@ -1,1 +1,0 @@
-﻿Portentous Vista		common	Land	239			When this land enters, sacrifice it. Choose a basic land type. Create a tapped basic land token with that type.			normal	PRU		

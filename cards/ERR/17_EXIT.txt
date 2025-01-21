@@ -1,1 +1,0 @@
-﻿EXIT()	W	rare	Enchantment – Subroutine 	17	W	2WW	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, destroy all creatures, planeswalkers, and enchantments.			normal	ERR		!tokens Program B EIWNEWLINEart5NEWLINEflagged (solid)NEWLINEflagged (favorite)NEWLINENEWLINEsbft

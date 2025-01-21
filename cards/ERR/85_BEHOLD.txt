@@ -1,1 +1,0 @@
-﻿BEHOLD()	B	uncommon	Enchantment – Subroutine 	85	B	3B	(As this enters, insert it into one of your programs.)NEWLINEWhenever this Subroutine runs, you draw three cards and you lose 3 life.			normal	ERR		!tokens Program B EIWNEWLINEType BNEWLINEart3NEWLINEShuffle: make the BG subroutine card something elseNEWLINENEWLINEsbft

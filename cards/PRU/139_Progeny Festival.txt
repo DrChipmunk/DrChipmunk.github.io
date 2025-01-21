@@ -1,1 +1,0 @@
-﻿Progeny Festival	R	common	Sorcery	139	R	4RR	Create three 1/1 red Cat creature tokens with prowess.NEWLINE1, Discard this card, return a land you control to its owner’s hand: Create a tapped Mountain token. 			normal	PRU		Changed since August SuggestedNEWLINENEWLINEP1P1

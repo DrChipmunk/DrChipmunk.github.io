@@ -1,1 +1,0 @@
-﻿Daemonmage	WU	common	Creature – Elf Wizard 	224	WU	2W/UW/U	When this creature enters, create a 2/2 blue Bird enchantment creature token with flying.	1/3		normal	ERR		!tokens blue Daemon 22EIWNEWLINENEWLINEart4

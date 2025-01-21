@@ -1,1 +1,0 @@
-﻿Level Drain	B	common	Sorcery	109	B	2B	Level Drain deals 3 damage to target creature or planeswalker. You gain 3 life.NEWLINEAdd BB. Spend this mana only to level up creatures.			normal	ERR		art3NEWLINEflagged (maybe)NEWLINEconcern (common)

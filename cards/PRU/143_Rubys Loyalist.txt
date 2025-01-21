@@ -1,1 +1,0 @@
-﻿Ruby's Loyalist	R	common	Creature – Fox Faerie 	143	R	1R	When this creature dies, create a 1/1 white Human creature token.	2/1		normal	PRU		Changed since August Suggested

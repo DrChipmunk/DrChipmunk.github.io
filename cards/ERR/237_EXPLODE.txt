@@ -1,1 +1,0 @@
-﻿EXPLODE()		mythic	Artifact Enchantment – Subroutine 	237		2	At the beginning of your upkeep, you may put a charge counter on this Subroutine.NEWLINEWhenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonland permanents with mana value equal to the number of charge counters on it.			normal	ERR		!tokens Program B EIWNEWLINEart5NEWLINEflagged (sideboard)

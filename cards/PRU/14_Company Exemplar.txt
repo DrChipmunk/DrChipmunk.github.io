@@ -1,1 +1,0 @@
-﻿Company Exemplar	W	mythic	Creature – Human Soldier 	14	W	1WWWW	VigilanceNEWLINEAt the beginning of your upkeep, strategize. (Put the top card of your tactic deck into your hand.)NEWLINEDiscard five Tactic cards: Create twenty 1/1 white Human creature tokens.	4/6		normal	PRU		Reload!

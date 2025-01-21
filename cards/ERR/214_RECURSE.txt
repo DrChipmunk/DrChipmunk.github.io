@@ -1,1 +1,0 @@
-﻿RECURSE()	URG	mythic	Legendary Enchantment – Subroutine 	214	URG	GUR	Whenever another Subroutine you control enters, it runs. NEWLINEWhenever this Subroutine runs, create an X/X colorless Construct artifact creature token, where X is the number of Subroutines you control.			normal	ERR		!tokens Program B EIWNEWLINEart4NEWLINEpromoNEWLINEterminalNEWLINEflagged (build-around)

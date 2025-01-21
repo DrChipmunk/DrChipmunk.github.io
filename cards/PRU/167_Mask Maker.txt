@@ -1,1 +1,0 @@
-﻿Mask Maker	G	uncommon	Creature – Faerie Shaman 	167	G	3G	When this creature enters, double the number of each type of counter on target creature.NEWLINECreatures you control with counters on them have vigilance.	4/4		normal	PRU		Type A – WGNEWLINENEWLINEDoubles

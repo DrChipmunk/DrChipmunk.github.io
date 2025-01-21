@@ -1,1 +1,0 @@
-﻿Pontifica's Scout	W	common	Creature – Human Scout 	33	W	1W	When this creature enters, strategize. (Put the top card of your tactic deck into your hand.)	2/1		normal	PRU		ANEWLINENEWLINE4+

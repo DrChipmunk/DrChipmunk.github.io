@@ -1,1 +1,0 @@
-﻿Elemental	R	common	Token Creature – Elemental 	6	R		Haste, Prowess	4/4		token	PRU		2 per sheet

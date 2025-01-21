@@ -1,1 +1,0 @@
-﻿Picket Line Paladin	G	uncommon	Creature – Faerie Warrior 	171	G	3G	Vigilance, trampleNEWLINEThis creature gets +1/+0 for each Human you control.	3/4		normal	PRU		Type B – HumansNEWLINENEWLINEthese 3 – +1/+1 counter payoff, bloom payoff, harmony payoff
