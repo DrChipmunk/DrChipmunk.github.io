@@ -256,7 +256,7 @@
 		"collector_number": "13/292",
 		"rarity": "rare",
 		"subtypes": ["Human","Soldier"],
-		"oracle_text": "Vigilance\nWhenever Darisha enters or attacks, reveal the top six cards of your library. Put up to two creature cards each with mana value 2 or less from among them onto the battlefield and the rest on the bottom in a random order.",
+		"oracle_text": "Vigilance\nWhenever Darisha enters or attacks, create a white enchantment token named Stratagem with �Creature you control get +1/+1.�",
 		"power": 5,
 		"toughness": 5,
 	},
@@ -604,7 +604,7 @@
 		"collector_number": "39/292",
 		"rarity": "uncommon",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "Whenever this Subroutine runs, you gain 4 life if an opponent has more life than you. Create two 1/1 white Citizen creature tokens if an opponent controls more creatures than you. Draw a card if an opponent has more cards in hand than you.",
+		"oracle_text": "Whenever this Subroutine runs, you gain 3 life if an opponent has more life than you. Create two 1/1 white Citizen creature tokens if an opponent controls more creatures than you.",
 	},
 	{
 		"name": "Use_After_Free",
@@ -794,7 +794,7 @@
 		"collector_number": "53/292",
 		"rarity": "uncommon",
 		"subtypes": ["Merfolk","Wizard"],
-		"oracle_text": "2U, T: Draw a card\n6UU, T: Draw four cards.",
+		"oracle_text": "2U, T: Draw a card.\n6UU, T: Draw four cards.",
 		"power": 2,
 		"toughness": 2,
 	},
@@ -1059,7 +1059,7 @@
 		"collector_number": "73/292",
 		"rarity": "mythic",
 		"subtypes": ["Error"],
-		"oracle_text": "Creatures your opponents control get -1/-0.\nWhenever this creature attacks defending player mills a number of cards equal to 0 minus its power.\nAt the beginning of your end step, gain control of target creature with power 0 or less.",
+		"oracle_text": "Creatures your opponents control get -1/-0.\nWhenever this creature attacks, defending player mills a number of cards equal to 0 minus its power.\nAt the beginning of your end step, gain control of target creature with power 0 or less.",
 		"power": -8,
 		"toughness": 6,
 	},
@@ -1073,7 +1073,7 @@
 		"collector_number": "74/292",
 		"rarity": "uncommon",
 		"subtypes": ["Aura"],
-		"oracle_text": "Enchant creature with power 2 or less.\nYou control enchanted creature.",
+		"oracle_text": "Enchant creature with power 2 or less\nYou control enchanted creature.",
 	},
 	{
 		"name": "Soulspace Refit",
@@ -1217,7 +1217,7 @@
 	},
 	{
 		"name": "BORROW()",
-		"mana_cost": "{2}{B}{B}",
+		"mana_cost": "{2}{B}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/86_BORROW().png",
 		"colors": ["B",],
@@ -1225,7 +1225,7 @@
 		"collector_number": "86/292",
 		"rarity": "rare",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "When this Subroutine enters, you draw three cards and gain 3 life.\nWhenever this Subroutine runs, you discard six cards and lose 6 life.",
+		"oracle_text": "When this Subroutine enters, create a 2/2 blue Bird enchantment creature token with flying, draw two cards, and gain 4 life.\nWhenever this Subroutine runs, sacrifice a creature, discard two cards, and lose 4 life.",
 	},
 	{
 		"name": "Burnout Champion",
@@ -2258,7 +2258,7 @@
 	},
 	{
 		"name": "COMPILE()",
-		"mana_cost": "{2}{G}{G}",
+		"mana_cost": "{2}{G}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/164_COMPILE().png",
 		"colors": ["G",],
@@ -2266,7 +2266,7 @@
 		"collector_number": "164/292",
 		"rarity": "rare",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "Whenever this Subroutine runs, exile the top four cards of your library. You may put a creature card with mana value 4 or less from among them onto the battlefield.",
+		"oracle_text": "You may look at the top card of your library any time.\nYou may play lands from the top of your library.\nYou may cast creature and enchantment spells from the top of your library if this Subroutine ran this turn.",
 	},
 	{
 		"name": "Computing Titan",
@@ -2402,7 +2402,7 @@
 		"collector_number": "174/292",
 		"rarity": "common",
 		"subtypes": ["Aura"],
-		"oracle_text": "Enchant creature you control.\nEnchanted creature gets +1/+1.\nWhen this Aura enters, enchanted creature fights up to one target creature.",
+		"oracle_text": "Enchant creature you control\nEnchanted creature gets +1/+1.\nWhen this Aura enters, enchanted creature fights up to one target creature.",
 	},
 	{
 		"name": "Fond Reminiscence",
@@ -2595,7 +2595,7 @@
 	{
 		"name": "Rejuvenation Session",
 		"mana_cost": "{2}{G}",
-		"type": "Sorcery",
+		"type": "Instant",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/189_Rejuvenation%20Session.png",
 		"colors": ["G",],
 		"set": "ERR",
@@ -2872,13 +2872,13 @@
 		"collector_number": "209/292",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "When this enchantment enters, create two 1/1 white Citizen creature tokens.\nWhenever you attack, target attacking creature gets +X/+0 until end of turn, where X is the number of untapped creatures you control.",
+		"oracle_text": "When this enchantment enters, create two 1/1 white Citizen creature tokens.\nWhenever you attack, target attacking creature gets +X/+0 until end of turn, where X is the number of creatures you control that aren't attacking.",
 	},
 	{
-		"name": "Mev, Corruption Runner",
+		"name": "Mev, Glitchlands Messenger",
 		"mana_cost": "{W}{U}",
 		"type": "Legendary Creature",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/210_Mev,%20Corruption%20Runner.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/210_Mev,%20Glitchlands%20Messenger.png",
 		"colors": ["W","U",],
 		"set": "ERR",
 		"collector_number": "210/292",
@@ -3147,7 +3147,7 @@
 		"collector_number": "229/292",
 		"rarity": "common",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "Whenever this Subroutine runs, exile the top two cards of your library. You may play those cards this turn.",
+		"oracle_text": "Whenever this Subroutine runs, exile the top two cards of your library. You may play one of them this turn.",
 	},
 	{
 		"name": "Phantom_Interrupt",
@@ -3579,7 +3579,7 @@
 		"collector_number": "263/292",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Island or Swamp card, put it onto the battlefield tapped, then shuffle.\n4UB, Discard Lost and Found: Surveil 3, then draw three cards.",
+		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Island or Swamp card, put it onto the battlefield tapped, then shuffle.\n4UB, Discard Lost and Found: Surveil 2, then draw two cards.",
 	},
 	{
 		"name": "Macabre Soulspace",
@@ -3603,7 +3603,7 @@
 		"collector_number": "265/292",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Island or Mountain card, put it onto the battlefield tapped, then shuffle.\n4UR, Discard Meteoric Facade: It deals 4 damage divided as you choose among up to four target creatures. Tap those creatures.",
+		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Island or Mountain card, put it onto the battlefield tapped, then shuffle.\n4UR, Discard Meteoric Facade: It deals 3 damage divided as you choose among up to three target creatures. Tap those creatures.",
 	},
 	{
 		"name": "Misty Peak",
@@ -3675,7 +3675,7 @@
 		"collector_number": "271/292",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Forest or Plains card, put it onto the battlefield tapped, then shuffle.\n3GW, Discard Reified Borough: Destroy up to two target artifacts or enchantments.",
+		"oracle_text": "When this land enters, sacrifice it. Search your library for a basic Forest or Plains card, put it onto the battlefield tapped, then shuffle.\n3GW, Discard Reified Borough: Create three 1/1 white Citizen creature tokens.",
 	},
 	{
 		"name": "Sanguine Palace",
@@ -4025,7 +4025,7 @@ Untethered Daemon
 Gemi and Nu, Cachemates
 Kaluthax, Dungeon Master
 Lavis, Root Exec
-Mev, Corruption Runner
+Mev, Glitchlands Messenger
 Olis Mars, Final Archivist
 Piroia, Quotidian Sacrifice
 Toki, Celebrity Soldier
@@ -4076,4 +4076,4 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 675ms]
+[Finished in 995ms]
