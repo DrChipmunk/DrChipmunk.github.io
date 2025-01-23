@@ -514,7 +514,7 @@
 	},
 	{
 		"name": "RETURN()",
-		"mana_cost": "{1}{W}",
+		"mana_cost": "{2}{W}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/33_RETURN().png",
 		"colors": ["W",],
@@ -1217,7 +1217,7 @@
 	},
 	{
 		"name": "BORROW()",
-		"mana_cost": "{2}{B}",
+		"mana_cost": "{1}{B}{B}",
 		"type": "Enchantment",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/86_BORROW().png",
 		"colors": ["B",],
@@ -1225,7 +1225,7 @@
 		"collector_number": "86/292",
 		"rarity": "rare",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "When this Subroutine enters, create a 2/2 blue Bird enchantment creature token with flying, draw two cards, and gain 4 life.\nWhenever this Subroutine runs, sacrifice a creature, discard two cards, and lose 4 life.",
+		"oracle_text": "When this Subroutine enters, you create two 2/2 blue Bird enchantment creature tokens with flying, draw two cards, and gain 2 life.\nWhenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life.",
 	},
 	{
 		"name": "Burnout Champion",
@@ -1761,9 +1761,9 @@
 		"collector_number": "126/292",
 		"rarity": "rare",
 		"subtypes": ["Phoenix"],
-		"oracle_text": "Flying, haste\nWhenever you attack, you may sacrifice two artifacts and/or enchantments. If you do, return Bootstrap Daemon from your graveyard to the battlefield tapped and attacking.",
+		"oracle_text": "Flying, haste\nWhenever you attack, if Bootstrap Daemon is in your graveyard, you may pay R and sacrifice two artifacts and/or enchantments. If you do, return it to the battlefield tapped and attacking.",
 		"power": 3,
-		"toughness": 2,
+		"toughness": 3,
 	},
 	{
 		"name": "BYPASS()",
@@ -2594,8 +2594,8 @@
 	},
 	{
 		"name": "Rejuvenation Session",
-		"mana_cost": "{2}{G}",
-		"type": "Instant",
+		"mana_cost": "{1}{G}",
+		"type": "Sorcery",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/189_Rejuvenation%20Session.png",
 		"colors": ["G",],
 		"set": "ERR",
@@ -4076,4 +4076,4 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 995ms]
+[Finished in 863ms]
