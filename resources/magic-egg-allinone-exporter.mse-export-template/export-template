@@ -317,17 +317,17 @@ script:
 	get_land_type_CI := {
 		# and !contains(color_identity_statistic(), match:"W")
 		# Egg: fixing this on the code side for now
-		(if contains(card.type, match:"Plains") then "W" else "")
-		+ (if contains(card.type, match:"Island") then "U" else "")
-		+ (if contains(card.type, match:"Swamp") then "B" else "")
-		+ (if contains(card.type, match:"Mountain") then "R" else "")
-		+ (if contains(card.type, match:"Forest") then "G" else "")
+		(if (contains(card.type, match:"Plains") or contains(proc_text(card.rule_text), match:"\{W\}")) then "W" else "")
+		+ (if (contains(card.type, match:"Island") or contains(proc_text(card.rule_text), match:"\{U\}")) then "U" else "")
+		+ (if (contains(card.type, match:"Swamp") or contains(proc_text(card.rule_text), match:"\{B\}")) then "B" else "")
+		+ (if (contains(card.type, match:"Mountain") or contains(proc_text(card.rule_text), match:"\{R\}")) then "R" else "")
+		+ (if (contains(card.type, match:"Forest") or contains(proc_text(card.rule_text), match:"\{G\}")) then "G" else "")
 	}
 
 	get_color_identity := {
-		if color_identity_statistic() == "C" and contains(card.type, match:"Land") and get_land_type_CI() != "" then get_land_type_CI()
-		else if contains(card.type, match:"Land") and get_land_type_CI() != "" then color_identity_statistic() + get_land_type_CI()
-		else color_identity_statistic()
+		if card_color() == "" and contains(card.type, match:"Land") and get_land_type_CI() != "" then get_land_type_CI()
+		else if contains(card.type, match:"Land") and get_land_type_CI() != "" then card_color() + get_land_type_CI()
+		else card_color()
 	}
 
 	##Shape function to deal with all the non-standard shapes
