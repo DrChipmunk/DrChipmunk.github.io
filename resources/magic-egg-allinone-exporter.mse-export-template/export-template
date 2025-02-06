@@ -138,6 +138,23 @@ script:
 	exporter_backname_filter := filter_text@(match:"!backf?a?c?e?name [^\n\<]+")
 	exporter_backname_grabber := replace@(match:"!backf?a?c?e?name ", replace:"")
 
+	join2 := {
+		string := ""
+		if length(input) == 2 then spacer := " "
+		if length(input) == 1 then closing := ""
+		for x from 0 to length(input)-1 do
+			string := string + input[x] + (if x == length(input)-1 then "" else spacer)
+		string
+	}@(spacer:", ")
+	ar_position := {
+		pos := -1
+		dummy := for x from 0 to length(in)-1 do (
+			if in[x] == of then pos := x
+			"filler"
+		)
+		pos
+	}
+
 	card_name := { 
 		given := exporter_name_grabber(exporter_name_filter(card.notes))
 		if given == "" then given := card.name
@@ -318,12 +335,12 @@ script:
 		strings := strings + [
 			"{q}notes{q}: {q}{sanitize(card.notes)}{q}"
 		]
-		"\{" + join(strings) + "}"
+		"\{" + join2(strings) + "}"
 	}
 	
 	write_cards := {
 		strings := for each card in cards do [write_card()]
-		join(strings)
+		join2(strings)
 	}
 
 	write_draft_header := {
@@ -420,11 +437,11 @@ script:
 		"{q}image_type{q}: {q}{options.image_type}{q}"
 		"{q}cards{q}: [{write_cards()}]"
 	]
-	write_text_file(file: adj_setcode() + ".json", "\{" + join(main_keys) + "}")
+	write_text_file(file: adj_setcode() + ".json", "\{" + join2(main_keys) + "}")
 
 	write_draft_cards := {
 		ar := for each card in cards do [write_draft_card()]
-		join(ar)
+		join2(ar)
 	}
 	write_booster := {write_draft_header() + write_draft_cards() + write_draft_footer() + write_booster_contents()}
 	write_draft_file := if options.export_draft_file == "yes" then write_text_file(file: adj_setcode() + "-draft.txt", to_text(write_booster())) else ""

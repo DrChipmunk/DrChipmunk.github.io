@@ -402,7 +402,7 @@
 		"collector_number": "24/292",
 		"rarity": "uncommon",
 		"subtypes": ["Subroutine"],
-		"oracle_text": "This spell has flash if you control an attacking creature.\nWhen this Subroutine enters, it runs.\nWhenever this Subroutine runs, target creature you control gets +1/+1 and gains indestructible until end of turn.",
+		"oracle_text": "This spell has flash if you control an attacking creature.\nWhenever this Subroutine enters or runs, target creature you control gets +1/+1 and gains indestructible until end of turn.",
 	},
 	{
 		"name": "Metatactician",
@@ -496,9 +496,9 @@
 		"collector_number": "31/292",
 		"rarity": "mythic",
 		"subtypes": ["Error"],
-		"oracle_text": "You can't lose the game and your opponents can't win the game.\nWhenever this creature deals damage, you may gain or lose that much life.\nAt the beginning of your upkeep, if you have 0 or less life, you win the game.",
-		"power": 5,
-		"toughness": 5,
+		"oracle_text": "Whenever this creature enters or attacks, you can't lose the game and your opponents can't win the game until the end of your next turn.\nWhenever this creature deals damage, you may gain or lose that much life.\nAt the beginning of your upkeep, if you have 0 or less life, you win the game.",
+		"power": 6,
+		"toughness": 7,
 	},
 	{
 		"name": "Reprieve from Mortality",
@@ -2706,7 +2706,7 @@
 		"collector_number": "197/292",
 		"rarity": "uncommon",
 		"subtypes": ["Dragon","Artificer"],
-		"oracle_text": "Deathtouch\n4G, T, Sacrifice this creature: Create two tapped X/X colorless Construct creature tokens, where X is the number of creature and enchantment cards in your graveyard.",
+		"oracle_text": "Deathtouch\n4G, T, Sacrifice this creature: Create two tapped X/X colorless Construct artifact creature tokens, where X is the number of creature and enchantment cards in your graveyard.",
 		"power": 3,
 		"toughness": 2,
 	},
@@ -4076,4 +4076,3 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 288ms]
