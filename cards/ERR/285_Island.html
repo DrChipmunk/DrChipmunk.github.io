@@ -1,6 +1,6 @@
 ﻿<html>
 <head>
-  <title>Program C ERR</title>
+  <title>Island</title>
   <link rel="icon" type="image/x-icon" href="/sets/ERR-files/icon.png">
   <link rel="stylesheet" href="/resources/mana.css">
   <link rel="stylesheet" href="/resources/header.css">
@@ -185,7 +185,8 @@
 
 	<div class="grid-container" id="grid">
 	</div>
-	
+	<div class="printings" id="other-printings">Other Printings: <a href="/cards/PRU/256_Island">PRU</a></div>
+		
 	<script>
 		let card_list_arrayified = [];
 		let specialchars = "";
@@ -205,7 +206,7 @@
 
 				card_list_arrayified = card_list.cards;
 
-			await fetch('/cards/ERR/3_Program C ERR.json')
+			await fetch('/cards/ERR/285_Island.json')
 				.then(response => response.json())
 				.then(json => {
 					card = json;
