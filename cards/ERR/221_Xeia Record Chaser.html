@@ -214,9 +214,19 @@
 			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
 
 			const story = document.createElement("div");
-			story.className = "story-text";
+			story.className = "card-text";
 			story.id = "story-text";
 			document.getElementById("grid").appendChild(story);
+
+			const story_title = document.createElement("div");
+			story_title.className = "name-cost";
+			story_title.innerHTML = "Weft Trace 01: The Record Chaser";
+			story.appendChild(story_title);
+
+			const story_content = document.createElement("div");
+			story_content.className = "effect";
+			story_content.innerHTML = "Lorem Ipsum";
+			story.appendChild(story_content);
 
 			if (document.getElementById("other-printings"))
 			{
