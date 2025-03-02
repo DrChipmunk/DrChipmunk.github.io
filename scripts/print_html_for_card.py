@@ -276,9 +276,8 @@ def generateHTML(card):
 				document.getElementById("card-text").appendChild(document.getElementById("other-printings"));
 				document.getElementById("other-printings").style.display = "block";
 			}
-		});
-
 		'''
+
 
 	try:
 		with open(os.path.join('custom', code + '-files', card_name_cleaned.replace(' ','_') + '.txt'), encoding='utf-8-sig') as f:
@@ -287,9 +286,9 @@ def generateHTML(card):
 			story = ""
 			for line in story_lines[1:]:
 				if len(line.strip()) > 0 and not "<hr>" in line:
-					story += "\\t" + line.strip() + "\\n"
+					story += "<p>\\t" + line.strip() + "<br>"
 				else:
-					story += line.strip() + "\\n"
+					story += line.strip()
 
 			html_content += f'''
 			const story = document.createElement("div");
@@ -309,6 +308,11 @@ def generateHTML(card):
 			'''
 	except OSError:
 	    pass
+
+	html_content += '''
+		});
+
+		'''
 
 	with open(os.path.join('resources', 'snippets', 'tokenize-symbolize.txt'), encoding='utf-8-sig') as f:
 		snippet = f.read()
