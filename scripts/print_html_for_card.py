@@ -105,7 +105,7 @@ def generateHTML(card):
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
-		margin-top: 3%;
+		margin-top: 20px;
 		display: flex;
 		flex-direction: column;
 		margin: auto;
@@ -300,6 +300,8 @@ def generateHTML(card):
 			for line in story_lines[1:]:
 				if len(line.strip()) > 0 and not "<hr>" in line:
 					story += "<p>&emsp;&emsp;&emsp;&emsp;&emsp;" + line.strip() + "<br>"
+				elif "<hr>" in line:
+					story += "<br>" + line.strip() + "<br>"
 				else:
 					story += line.strip()
 
