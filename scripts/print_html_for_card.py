@@ -105,10 +105,12 @@ def generateHTML(card):
 		border-radius: 6px;
 		height: fit-content;
 		min-height: 75%;
-		margin-top: 20px;
 		display: flex;
 		flex-direction: column;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 	.story-text div {
 		white-space: normal;
