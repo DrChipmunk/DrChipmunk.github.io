@@ -95,6 +95,8 @@ def generateHTML(card):
 	.story-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
 		background: #fcfcfc;
 		width: 70%;
 		border: 1px solid #d5d9d9;
@@ -106,7 +108,6 @@ def generateHTML(card):
 		margin-top: 3%;
 		display: flex;
 		flex-direction: column;
-		justify-items: center;
 	}
 	.story-text div {
 		white-space: normal;
@@ -239,7 +240,7 @@ def generateHTML(card):
 		</a>
 	</div>
 
-	<div class="grid-container" id="grid">
+	<div class="grid-container" id="grid" justify-items="center">
 	</div>
 	'''
 
