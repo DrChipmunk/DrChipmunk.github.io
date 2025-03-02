@@ -89,6 +89,9 @@ def generateHTML(card):
 		height: auto;
 		display: block;
 	}
+	.grid {
+		justify-items: center;
+	}
 	.story-text {
 		padding-top: 20px;
 		padding-bottom: 20px;
@@ -104,6 +107,14 @@ def generateHTML(card):
 		display: flex;
 		flex-direction: column;
 		justify-items: center;
+	}
+	.story-text div {
+		white-space: normal;
+		font-size: 15px;
+		padding-bottom: 10px;
+		padding-left: 12px;
+		padding-right: 12px;
+		line-height: 155%;
 	}
 	.story-text .story-title{
 		font-weight: bold;
@@ -286,7 +297,7 @@ def generateHTML(card):
 			story = ""
 			for line in story_lines[1:]:
 				if len(line.strip()) > 0 and not "<hr>" in line:
-					story += "<p>\\t" + line.strip() + "<br>"
+					story += "<p>&emsp;&emsp;&emsp;&emsp;&emsp;" + line.strip() + "<br>"
 				else:
 					story += line.strip()
 
