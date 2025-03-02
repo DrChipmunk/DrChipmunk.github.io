@@ -68,6 +68,9 @@ def generateHTML(card):
 	.set-banner img {
 		width: 100px;
 	}
+	.grid-container {
+		justify-items: center;
+	}
 	.image-grid {
 		padding-top: 40px;
 		width: 70%;
@@ -98,7 +101,7 @@ def generateHTML(card):
 		padding-left: 50px;
 		padding-right: 50px;
 		background: #fcfcfc;
-		width: 70%;
+		width: 50%;
 		border: 1px solid #d5d9d9;
 		border-top: 3px solid #171717;
 		border-bottom: 3px solid #171717;
@@ -240,7 +243,7 @@ def generateHTML(card):
 		</a>
 	</div>
 
-	<div class="grid-container" id="grid" justify-items="center">
+	<div class="grid-container" id="grid">
 	</div>
 	'''
 
