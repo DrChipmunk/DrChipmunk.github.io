@@ -211,7 +211,7 @@
 					card = json;
 			}).catch(error => console.error('Error:', error));
 
-			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
+			document.getElementById("grid").appendChild(gridifyCard(card, false, true)).appendChild(gridifyCard(card, false, true));
 			if (document.getElementById("other-printings"))
 			{
 				document.getElementById("card-text").appendChild(document.getElementById("other-printings"));
