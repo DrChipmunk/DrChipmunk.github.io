@@ -261,6 +261,18 @@
 		"toughness": 5,
 	},
 	{
+		"name": "Red Hot",
+		"mana_cost": "",
+		"type": "Reminder",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/13_Red%20Hot.png",
+		"colors": [],
+		"set": "ERR",
+		"collector_number": "0013",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "You can play these cards on any turn a creature you control dealt damage to an opponent.",
+	},
+	{
 		"name": "Download Courier",
 		"mana_cost": "{2}{W}",
 		"type": "Creature",
@@ -334,7 +346,7 @@
 		"collector_number": "0019",
 		"rarity": "uncommon",
 		"subtypes": ["Human","Citizen"],
-		"oracle_text": "When this creature enters, exile up to one target enchantment.",
+		"oracle_text": "When this creature enters, choose one � \n�  Exile target enchantment.\n�  Exile target player's graveyard.",
 		"power": 3,
 		"toughness": 2,
 	},
@@ -1264,7 +1276,7 @@
 		"collector_number": "0089",
 		"rarity": "uncommon",
 		"subtypes": ["Vampire","Warlock"],
-		"oracle_text": "When this creature dies, create a black Subroutine enchantment token named TICK with �Whenever this Subroutine runs, each opponent loses 1 life and you gain 1 life.� \n1B: Return Catabolist from your graveyard to the battlefield tapped. Activate only if a card left your graveyard this turn.",
+		"oracle_text": "When this creature dies, create a black Subroutine enchantment token named TICK with �Whenever this Subroutine runs, each opponent loses 1 life and you gain 1 life.� \n1B: Return this card from your graveyard to the battlefield tapped. Activate only if a card left your graveyard this turn.",
 		"power": 3,
 		"toughness": 1,
 	},
@@ -1318,7 +1330,7 @@
 		"collector_number": "0093",
 		"rarity": "common",
 		"subtypes": [],
-		"oracle_text": "Target creature gets -2/-2 until end of turn.\nEach player mills two cards.",
+		"oracle_text": "Target creature gets -2/-2 until end of turn. Its controller mills two cards.",
 	},
 	{
 		"name": "Draconic Dungeoneer",
@@ -1530,7 +1542,7 @@
 		"collector_number": "0109",
 		"rarity": "common",
 		"subtypes": [],
-		"oracle_text": "Level Drain deals 3 damage to target creature or planeswalker. You gain 3 life.\nAdd BB. Spend this mana only to level up creatures.",
+		"oracle_text": "Destroy target creature with power 4 or less.\nAdd BB. Spend this mana only to level up creatures.",
 	},
 	{
 		"name": "Lifehacker",
@@ -1760,8 +1772,8 @@
 		"collector_number": "0126",
 		"rarity": "rare",
 		"subtypes": ["Phoenix"],
-		"oracle_text": "Flying\nWhen this creature dies, create a red Subroutine token named IGNITE with �Whenever this Subroutine runs, you may sacrifice it. When you do, return target Phoenix card from your graveyard to the battlefield.�",
-		"power": 4,
+		"oracle_text": "Flying, haste\nWhenever you attack, if this card is in your graveyard, you may pay R and sacrifice two artifacts and/or enchantments. If you do, return it to the battlefield tapped and attacking.",
+		"power": 3,
 		"toughness": 3,
 	},
 	{
@@ -1906,7 +1918,7 @@
 		"collector_number": "0137",
 		"rarity": "common",
 		"subtypes": [],
-		"oracle_text": "Crucible Takedown deals damage to target creature equal to the greatest mana value among permanents you controlled as you cast this spell.",
+		"oracle_text": "Crucible Takedown deals damage to target creature equal to the greatest mana value among permanents you control. Surveil 2.",
 	},
 	{
 		"name": "Electronic Countermeasures",
@@ -1921,27 +1933,13 @@
 		"oracle_text": "Corrupt � Electronic Countermeasures deals 5 damage to target creature. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play those cards until your next end step.",
 	},
 	{
-		"name": "Enthralling Rider",
-		"mana_cost": "{3}{R}",
-		"type": "Creature",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/139_Enthralling%20Rider.png",
-		"colors": ["R",],
-		"set": "ERR",
-		"collector_number": "0139",
-		"rarity": "rare",
-		"subtypes": ["Hyena","Bat","Warrior"],
-		"oracle_text": "Corrupt � When this creature enters, choose target creature you don't control. If it has power 2 or less or you control a permanent with mana value greater than this creature, gain control of it until end of turn, untap it, and it gains haste until end of turn.",
-		"power": 3,
-		"toughness": 4,
-	},
-	{
 		"name": "Error Tide",
 		"mana_cost": "{X}{R}",
 		"type": "Sorcery",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/140_Error%20Tide.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/139_Error%20Tide.png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0140",
+		"collector_number": "0139",
 		"rarity": "uncommon",
 		"subtypes": [],
 		"oracle_text": "Error Tide deals X damage to target creature or planeswalker.\nCorrupt � If you control a permanent with greater mana value than this spell, create an X/X colorless Construct artifact creature token.",
@@ -1950,13 +1948,13 @@
 		"name": "Eviviva, Grip Exec",
 		"mana_cost": "{1}{R}{R}{R}{R}",
 		"type": "Legendary Creature",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/141_Eviviva,%20Grip%20Exec.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/140_Eviviva,%20Grip%20Exec.png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0141",
+		"collector_number": "0140",
 		"rarity": "rare",
 		"subtypes": ["Human","Bard"],
-		"oracle_text": "First strike\nWhenever Eviviva enters or attacks, exile the top card of each player's library. You may play one of those cards this turn without paying its mana cost.",
+		"oracle_text": "First strike\nWhenever Eviviva enters or attacks, destroy up to two artifacts, creatures, or planeswalkers controlled by different players. For each permanent destroyed this way, its controller exiles cards from the top of their library until they exile a nonland card. They may cast that card without paying its mana cost.",
 		"power": 5,
 		"toughness": 5,
 	},
@@ -1964,13 +1962,25 @@
 		"name": "FORK()",
 		"mana_cost": "{2}{R}",
 		"type": "Enchantment",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/142_FORK().png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/141_FORK().png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0142",
+		"collector_number": "0141",
 		"rarity": "uncommon",
 		"subtypes": ["Subroutine"],
 		"oracle_text": "Whenever this Subroutine runs, when you next cast an instant, sorcery, or Subroutine spell this turn, copy it. You may choose new targets for the copy",
+	},
+	{
+		"name": "Frag",
+		"mana_cost": "{1}{R}",
+		"type": "Sorcery",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/142_Frag.png",
+		"colors": ["R",],
+		"set": "ERR",
+		"collector_number": "0142",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "Choose one � \n� Frag deals 4 damage to target creature.\n� Destroy target artifact.",
 	},
 	{
 		"name": "Go For Gold",
@@ -2056,37 +2066,25 @@
 		"rating": 1,
 	},
 	{
-		"name": "Obliterating Bolt",
-		"mana_cost": "{1}{R}",
-		"type": "Sorcery",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/149_Obliterating%20Bolt.png",
-		"colors": ["R",],
-		"set": "ERR",
-		"collector_number": "0149",
-		"rarity": "common",
-		"subtypes": [],
-		"oracle_text": "Obliterating Bolt deals 4 damage to target creature or planeswalker. If that creature or planeswalker would die this turn, exile it instead.",
-	},
-	{
 		"name": "Overwhelming Upload",
 		"mana_cost": "{1}{R}",
 		"type": "Sorcery",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/150_Overwhelming%20Upload.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/149_Overwhelming%20Upload.png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0150",
+		"collector_number": "0149",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or enchantment or pay 2.\nExile the top three cards of your library. Until the end of your next turn, you may play those cards.",
+		"oracle_text": "As an additional cost to cast this spell, sacrifice an artifact or enchantment or pay 2.\nExile the top three cards of your library. You may play them until the end of your next turn.",
 	},
 	{
 		"name": "PANIC()",
 		"mana_cost": "{2}{R}{R}",
 		"type": "Enchantment",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/151_PANIC().png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/150_PANIC().png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0151",
+		"collector_number": "0150",
 		"rarity": "rare",
 		"subtypes": ["Subroutine"],
 		"oracle_text": "When this Subroutine enters, you may discard a card. When you do, it deals damage equal to that card's mana value to target creature or planeswalker.\nWhenever this Subroutine runs, create a 4/4 red Error creature token with menace.",
@@ -2095,15 +2093,29 @@
 		"name": "Profiler of Pain",
 		"mana_cost": "{1}{R}",
 		"type": "Creature",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/152_Profiler%20of%20Pain.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/151_Profiler%20of%20Pain.png",
 		"colors": ["R",],
 		"set": "ERR",
-		"collector_number": "0152",
+		"collector_number": "0151",
 		"rarity": "rare",
 		"subtypes": ["Human","Warlock"],
 		"oracle_text": "Menace\nError spells you cast cost X less to cast, where X is the total amount of life your opponents have lost this turn.",
 		"power": 1,
 		"toughness": 3,
+	},
+	{
+		"name": "Red-Hot Rider",
+		"mana_cost": "{R}",
+		"type": "Creature",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/152_Red-Hot%20Rider.png",
+		"colors": ["R",],
+		"set": "ERR",
+		"collector_number": "0152",
+		"rarity": "rare",
+		"subtypes": ["Hyena","Bat","Warrior"],
+		"oracle_text": "Menace\nCorrupt � When this creature enters, if you control a permanent with greater mana value than it, exile the top card of your library. You may play it on any turn a creature you control dealt damage to a player.",
+		"power": 1,
+		"toughness": 1,
 	},
 	{
 		"name": "Rowhammer",
@@ -2121,7 +2133,7 @@
 	},
 	{
 		"name": "Shock",
-		"mana_cost": "{R}",
+		"mana_cost": "{1}{R}",
 		"type": "Instant",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/154_Shock.png",
 		"colors": ["R",],
@@ -2133,7 +2145,7 @@
 	},
 	{
 		"name": "Threadripper",
-		"mana_cost": "{4}{R}",
+		"mana_cost": "{3}{R}{R}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/155_Threadripper.png",
 		"colors": ["R",],
@@ -2141,9 +2153,9 @@
 		"collector_number": "0155",
 		"rarity": "uncommon",
 		"subtypes": ["Jackal","Warlock"],
-		"oracle_text": "Ward�Pay 3 life.\nWhenever you attack, target creature gets +2/+0 and gains first strike until end of turn.",
+		"oracle_text": "During your turn, this creature has first strike.\n1R, Discard Threadripper: It deals 3 damage to target creature.",
 		"power": 4,
-		"toughness": 4,
+		"toughness": 5,
 	},
 	{
 		"name": "Thrilljammer",
@@ -2493,7 +2505,7 @@
 		"subtypes": ["Elf","Shaman"],
 		"oracle_text": "G, Sacrifice this creature: Exile target artifact, enchantment, or card in a graveyard. If you own that permanent or card, cache it instead.",
 		"power": 3,
-		"toughness": 1,
+		"toughness": 2,
 	},
 	{
 		"name": "Megafauna Knight",
@@ -2601,7 +2613,7 @@
 		"collector_number": "0189",
 		"rarity": "uncommon",
 		"subtypes": ["Error"],
-		"oracle_text": "Trample\n3G: Return Recurring_Noise from your graveyard to the battlefield tapped with a finality counter on it.",
+		"oracle_text": "Trample\n3G: Return this card from your graveyard to the battlefield tapped with a finality counter on it.",
 		"power": 6,
 		"toughness": 5,
 	},
@@ -3095,7 +3107,7 @@
 	},
 	{
 		"name": "Etherkiller",
-		"mana_cost": "{6}{R/G}{R/G}",
+		"mana_cost": "{5}{R/G}{R/G}",
 		"type": "Creature",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/226_Etherkiller.png",
 		"colors": ["R","G",],
@@ -3132,7 +3144,7 @@
 		"collector_number": "0228",
 		"rarity": "common",
 		"subtypes": ["Elf","Shaman"],
-		"oracle_text": "When this creature enters, mill two cards.\n2B/GB/G, Exile Lonesome Afterimage from your graveyard: Return target creature or enchantment card from your graveyard to your hand.",
+		"oracle_text": "When this creature enters, mill two cards.\n2B/GB/G, Exile this card from your graveyard: Return target creature or enchantment card from your graveyard to your hand.",
 		"power": 3,
 		"toughness": 3,
 	},
@@ -3192,7 +3204,7 @@
 	},
 	{
 		"name": "Archival Storage",
-		"mana_cost": "{1}",
+		"mana_cost": "{2}",
 		"type": "Artifact",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/233_Archival%20Storage.png",
 		"colors": [],
@@ -3200,7 +3212,7 @@
 		"collector_number": "0233",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "1: Put target card from a graveyard on the bottom of its owner's library. Activate only as a sorcery.\n1, T: Put this artifact on the bottom of its owner's library. Draw a card.",
+		"oracle_text": "Cards in graveyards lose all abilities.\n1: Put target card from a graveyard on the bottom of its owner's library. Activate only as a sorcery.\n1, T: Put this artifact on the bottom of its owner's library. Draw a card.",
 	},
 	{
 		"name": "Autonomous Apiarist",
@@ -3542,7 +3554,7 @@
 		"collector_number": "0260",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Swamp card, put it onto the battlefield tapped, then shuffle.\n2WWBB, Discard Isolated Tower: Exile target permanent.",
+		"oracle_text": "When this land enters, sacrifice it. If you do, search your library for a basic Plains or Swamp card, put it onto the battlefield tapped, then shuffle.\n2WWBB, Discard Isolated Tower: Exile target nonland permanent.",
 	},
 	{
 		"name": "Lonely Soulspace",
@@ -3796,6 +3808,7 @@
 Ambitious Angel
 Checkpoint Daemon
 Daemonic Binding
+Red Hot
 Download Courier
 Earn Your Wings
 Element Aesthete
@@ -3837,10 +3850,10 @@ Charming Exceptional
 COMMIT()
 CR07 Mountaincycler
 Crucible Takedown
+Frag
 Go For Gold
 Grip Pinch-Hitter
 Inversion's Herald
-Obliterating Bolt
 Shock
 Thrilljammer
 Unfettered Spirit
@@ -4007,11 +4020,11 @@ Artful Hologram
 Bootstrap Daemon
 Cache Thrasher
 Electronic Countermeasures
-Enthralling Rider
 Eviviva, Grip Exec
 Infinite_Loop
 PANIC()
 Profiler of Pain
+Red-Hot Rider
 Aurore, Buffer Exec
 Errorsbane Deadshot
 ITERATE()
