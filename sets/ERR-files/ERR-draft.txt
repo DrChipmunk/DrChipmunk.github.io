@@ -299,6 +299,18 @@
 		"oracle_text": "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gets +2/+2 until end of turn.\nEnchanted creature has flying.",
 	},
 	{
+		"name": "Stolen",
+		"mana_cost": "",
+		"type": "Reminder",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/15_Stolen.png",
+		"colors": [],
+		"set": "ERR",
+		"collector_number": "0015",
+		"rarity": "common",
+		"subtypes": [],
+		"oracle_text": "",
+	},
+	{
 		"name": "Element Aesthete",
 		"mana_cost": "{3}{W}",
 		"type": "Creature",
@@ -979,8 +991,8 @@
 		"rarity": "rare",
 		"subtypes": ["Human","Wizard"],
 		"oracle_text": "At the beginning of each player's upkeep, that player mills X cards, where X is the number of tapped permanents their opponents control.",
-		"power": 3,
-		"toughness": 3,
+		"power": 2,
+		"toughness": 4,
 	},
 	{
 		"name": "Preemption Daemon",
@@ -2133,7 +2145,7 @@
 	},
 	{
 		"name": "Shock",
-		"mana_cost": "{1}{R}",
+		"mana_cost": "{R}",
 		"type": "Instant",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/154_Shock.png",
 		"colors": ["R",],
@@ -2153,7 +2165,7 @@
 		"collector_number": "0155",
 		"rarity": "uncommon",
 		"subtypes": ["Jackal","Warlock"],
-		"oracle_text": "During your turn, this creature has first strike.\n1R, Discard Threadripper: It deals 3 damage to target creature.",
+		"oracle_text": "During your turn, this creature has first strike.\n1R, Discard Threadripper: It deals 3 damage to target creature. If that creature would die this turn, exile it instead.",
 		"power": 4,
 		"toughness": 5,
 	},
@@ -2855,7 +2867,7 @@
 		"collector_number": "0207",
 		"rarity": "mythic",
 		"subtypes": ["Cat"],
-		"oracle_text": "Vigilance, Ward 1\nWhenever Lio or another enchantment creature you control enters, put a +1/+1 counter on that creature. You gain 1 life and draw a card.",
+		"oracle_text": "Vigilance, ward 1\nWhenever Lio or another enchantment creature you control enters, put a +1/+1 counter on that creature. You gain 1 life and draw a card.",
 		"power": 1,
 		"toughness": 1,
 	},
@@ -3204,7 +3216,7 @@
 	},
 	{
 		"name": "Archival Storage",
-		"mana_cost": "{2}",
+		"mana_cost": "{1}",
 		"type": "Artifact",
 		"image": "https://drchipmunk.github.io/sets/ERR-files/img/233_Archival%20Storage.png",
 		"colors": [],
@@ -3212,7 +3224,7 @@
 		"collector_number": "0233",
 		"rarity": "uncommon",
 		"subtypes": [],
-		"oracle_text": "Cards in graveyards lose all abilities.\n1: Put target card from a graveyard on the bottom of its owner's library. Activate only as a sorcery.\n1, T: Put this artifact on the bottom of its owner's library. Draw a card.",
+		"oracle_text": "Cards in graveyards lose all abilities.\n1: Put target card from a graveyard on the bottom of its owner's library. Activate only as a sorcery.\nCycling 2",
 	},
 	{
 		"name": "Autonomous Apiarist",
@@ -3811,6 +3823,7 @@ Daemonic Binding
 Red Hot
 Download Courier
 Earn Your Wings
+Stolen
 Element Aesthete
 Lumen Irregular
 Not_A_Teletype
