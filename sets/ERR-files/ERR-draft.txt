@@ -1554,7 +1554,7 @@
 		"collector_number": "0109",
 		"rarity": "common",
 		"subtypes": [],
-		"oracle_text": "Destroy target creature with power 4 or less.\nAdd BB. Spend this mana only to level up creatures.",
+		"oracle_text": "Level Drain deals 3 damage to target creature or planeswalker. You gain 3 life.\nAdd BB. Spend this mana only to level up creatures.",
 	},
 	{
 		"name": "Lifehacker",
@@ -4101,4 +4101,4 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 562ms]
+[Finished in 434ms]
