@@ -261,18 +261,6 @@
 		"toughness": 5,
 	},
 	{
-		"name": "Red Hot",
-		"mana_cost": "",
-		"type": "Reminder",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/13_Red%20Hot.png",
-		"colors": [],
-		"set": "ERR",
-		"collector_number": "0013",
-		"rarity": "common",
-		"subtypes": [],
-		"oracle_text": "You can play these cards on any turn a creature you control dealt damage to an opponent.",
-	},
-	{
 		"name": "Download Courier",
 		"mana_cost": "{2}{W}",
 		"type": "Creature",
@@ -297,18 +285,6 @@
 		"rarity": "common",
 		"subtypes": ["Aura"],
 		"oracle_text": "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gets +2/+2 until end of turn.\nEnchanted creature has flying.",
-	},
-	{
-		"name": "Stolen",
-		"mana_cost": "",
-		"type": "Reminder",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/15_Stolen.png",
-		"colors": [],
-		"set": "ERR",
-		"collector_number": "0015",
-		"rarity": "common",
-		"subtypes": [],
-		"oracle_text": "",
 	},
 	{
 		"name": "Element Aesthete",
@@ -3820,10 +3796,8 @@
 Ambitious Angel
 Checkpoint Daemon
 Daemonic Binding
-Red Hot
 Download Courier
 Earn Your Wings
-Stolen
 Element Aesthete
 Lumen Irregular
 Not_A_Teletype
@@ -4101,4 +4075,3 @@ Windbeaten Stones
 Zealous Soulspace
 [Reminder]
 Subroutines
-[Finished in 434ms]
