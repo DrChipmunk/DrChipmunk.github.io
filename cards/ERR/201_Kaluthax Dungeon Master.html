@@ -1,0 +1,559 @@
+﻿<html>
+<head>
+  <title>Kaluthax, Dungeon Master</title>
+  <link rel="icon" type="image/x-icon" href="/sets/ERR-files/icon.png">
+  <link rel="stylesheet" href="/resources/mana.css">
+  <link rel="stylesheet" href="/resources/header.css">
+</head>
+<style>
+	@font-face {
+	  font-family: Beleren;
+	  src: url('/resources/beleren.ttf');
+	}
+	body {
+		font-family: 'Helvetica', 'Arial', sans-serif;
+		overscroll-behavior: none;
+		margin: 0px;
+		background-color: #f3f3f3;
+	}
+	a {
+		text-decoration: none;
+	}
+	.banner-container {
+		width: 100%;
+		background-color: #bbbbbb;
+		display: flex;
+		justify-items: center;
+		align-items: center;
+	}
+	.set-banner {
+		font-family: Beleren;
+		display: flex;
+		gap: 30px;
+		align-items: center;
+		justify-items: center;
+		font-size: 40px;
+		color: #171717;
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.set-banner img {
+		width: 100px;
+	}
+	.grid-container {
+		justify-items: center;
+	}
+	.image-grid {
+		padding-top: 40px;
+		width: 70%;
+		max-width: 1000px;
+		margin: auto;
+		display: grid;
+		grid-template-columns: minmax(200px, 2fr) minmax(200px, 2.5fr);
+		gap: 30px;
+		padding-bottom: 10px;
+		justify-items: center;
+	}
+	.image-grid img {
+		position: relative;
+	}
+	.card-image {
+		float: left;
+		width: 100%;
+		max-width: 375px;
+		height: auto;
+		display: block;
+	}
+	.story-text {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+		background: #fcfcfc;
+		width: 50%;
+		border: 1px solid #d5d9d9;
+		border-top: 3px solid #171717;
+		border-bottom: 3px solid #171717;
+		border-radius: 6px;
+		height: fit-content;
+		min-height: 75%;
+		display: flex;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.story-text div {
+		white-space: normal;
+		font-size: 15px;
+		padding-bottom: 10px;
+		padding-left: 12px;
+		padding-right: 12px;
+		line-height: 155%;
+	}
+	.story-text .story-title{
+		font-weight: bold;
+		font-size: 20px;
+		white-space: pre-wrap;
+	}
+	.card-text {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background: #fcfcfc;
+		width: 100%;
+		border: 1px solid #d5d9d9;
+		border-top: 3px solid #171717;
+		border-bottom: 3px solid #171717;
+		border-radius: 6px;
+		height: fit-content;
+		min-height: 75%;
+		margin-top: 3%;
+		display: flex;
+		flex-direction: column;
+	}
+	.card-text div {
+		white-space: normal;
+		font-size: 15px;
+		padding-bottom: 10px;
+		padding-left: 12px;
+		padding-right: 12px;
+		line-height: 155%;
+	}
+	.card-text .name-cost {
+		font-weight: bold;
+		font-size: 20px;
+		white-space: pre-wrap;
+	}
+	.card-text .type {
+		font-size: 16px;
+	}
+	.card-text .pt {
+		font-weight: bold;
+	}
+	.card-text br {
+		content: "";
+		display: block;
+		margin-bottom: 5px;
+	}
+	.card-text .printings {
+		margin-top: auto;
+		font-size: 12px;
+		font-weight: bold;
+		padding-bottom: 0px;
+	}
+	.printings {
+		display: none;
+	}
+	.printings a {
+		color: #1338be;
+		text-decoration: none;
+	}
+	.printings a:hover {
+		color: #0492c2;
+	}
+	.img-container {
+	  position: relative;
+	  align-self: center;
+	}
+	.img-container img {
+	  width: 100%;
+	  height: auto;
+	}
+	.img-container .btn {
+		background: url('/img/flip.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: 15%;
+		height: 11%;
+		cursor: pointer;
+		border: none;
+		position: absolute;
+		left: 50%;
+		top: 48%;
+		transform: translate(-50%, -50%);
+		opacity: 0.5;
+	}
+	.img-container .btn:hover {
+		background: url('/img/flip-hover.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+	}
+	.img-container .h-img {
+		transform: rotate(90deg);
+		width: 80%;
+	}
+	.img-container a {
+		height: 100%;
+		display: grid;
+		justify-self: center;
+		align-items: center;
+		justify-items: center;
+	}
+	.img-container a > * {
+		grid-row: 1;
+		grid-column: 1;
+	}
+	.hidden {
+		display: none;
+	}
+</style>
+<body>
+	<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<input type="text" id="display" class="hidden" value="cards-and-text"> <!-- here to make img-container-defs snippet work properly -->
+	<div class="banner-container">
+		<a class="set-banner" id="set-banner" href="/sets/ERR">
+			<img class="set-logo" src="/sets/ERR-files/icon.png">
+			<div class="set-title">Errors in the Weft</div>
+		</a>
+	</div>
+
+	<div class="grid-container" id="grid">
+	</div>
+	
+	<script>
+		let card_list_arrayified = [];
+		let specialchars = "";
+
+		document.addEventListener("DOMContentLoaded", async function () {
+			await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+			await fetch('/cards/ERR/201_Kaluthax Dungeon Master.json')
+				.then(response => response.json())
+				.then(json => {
+					card = json;
+			}).catch(error => console.error('Error:', error));
+
+			document.getElementById("grid").appendChild(gridifyCard(card, false, true));
+			if (document.getElementById("other-printings"))
+			{
+				document.getElementById("card-text").appendChild(document.getElementById("other-printings"));
+				document.getElementById("other-printings").style.display = "block";
+			}
+		
+			const story = document.createElement("div");
+			story.className = "story-text";
+			story.id = "story-text";
+			document.getElementById("grid").appendChild(story);
+
+			const story_title = document.createElement("div");
+			story_title.className = "story-title";
+			story_title.innerHTML = "Weft Trace 02: The Dungeon Master";
+			story.appendChild(story_title);
+
+			const story_content = document.createElement("div");
+			story_content.className = "story-body";
+			story_content.innerHTML = "<p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax, lord of the doomed city of Dabrak, surveyed the shadows of their crypt. There was something wrong with them. The shadows were a custom shader they had written themself. They were meant to gather around the corners of the room, drenching the once-lively town square in darkness and drawing the eye to the great stone monument at its centre. Instead, the monument’s surface was an angular mess of jet-black and flat grey that jittered with the slightest movement of Kaluthax’s head.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;A glimmering message daemon in the form of a tiny butterfly hovered next to their skull. “Is it meant to look like that?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax restarted the lighting in the area. For a moment, they hovered in a black void. When the light returned, it lurked and gloomed as it was supposed to. The inscription on the monument’s surface was clearly visible as dark scars in the stone. “Below here lies the Palace of the Fool King, whose greed doomed us all. Do not venture there.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The voice on the line breathed in, showing an appropriate level of respect for Kaluthax’s handiwork.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“So”, it said, “Has anything else been glitching out on you? Any strange resource allocations, corruption of assets, anything like that?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;A traveling shopkeeper in the Last Redoubt had been stuck walking in place for no apparent reason. One of the walls in the Maze of Darkness kept going missing. Just a few days ago they’d lost contact with the entire Butcher’s Quarter and had to restore it from a backup.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“No”, said Kaluthax.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Well, just in case, we should get someone in here, make sure there’s no memory leaks. From what I can tell, the Weave hasn’t given this place a once-over in 65 years. Hey, is there anything under there?” The butterfly cast a tiny mote of light at the plinth’s bottom edge.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;There, an area of skipping, fuzzy color was returning to the surface.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax tapped the stones on the monument’s side in a practiced pattern. The stone platform grumbled back, revealing a hidden staircase. They descended into the murky darkness.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The catacombs were barely recognizeable. Polygons on every surface had become ribbons of colour that stretched out to infinity. Whole segments of the wall blinked out of existence at the edges of Kaluthax’s vision.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Do not touch it. I will fix it myself”, they said, letting some of the final-boss bass creep into their voice. They stepped out into the room and fell clean through the floor. They spawned in an untextured platform to catch themself, their head just barely peeking through the floor.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The butterfly zipped down to meet Kaluthax at eye level. “Look, I get it, you’ve got everything set up the way you want it, but I really think you should get someone in here. It could be an error.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax rose gradually out of the floor.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“And if you don’t want anyone from Weave or Element to do it, we could get someone from the Heap to take a look, maybe another dungeon master or someone who’s run through this place before.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax deleted the catacombs. The back sides of tunnels and treasures were visible, criss-crossing beneath them in the void.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I have one more party in the dungeon. Once they’re finished, I will be spending a few years in Archives and you can trash the place all you want.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The daemon took in the expanse of the dungeon below them. “Will they be done soon?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax pulled up an interface. “They will be done very soon, I think.”<br><br><hr><br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius, daemonpriest, and Sylzar, stoneshaper, had made camp on a shadowy ledge overlooking the Palace of the Fool King. Sylzar was lying back on his bedroll as Astrius bound his bleeding leg. He was grinding a stone down into sand with his hands. His cowl and cloak hung by the fire, dripping a viscous green goo that sizzled as it hit the ground. A glowing holographic cat was draped over Astrius’ shoulder, illuminating his work. Two more daemons stood watch, shedding their soft golden light down into the gloom.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I guess there’s nothing for it but to abandon the quest?” said Astrius. He lowered Sylzar’s leg onto the bedroll and stood back. “Without Castille, we’ll have no one to stand guard for us against the Fool King and his pets. He was carrying most of our potions. The mantises have surely smashed or eaten them by now.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Sylzar balled his handful of sand back into a stone and threw it off the ledge. “It’s been weeks in this dungeon and you’re ready to bail now? This is the most exciting thing that’s happened to us yet!” He hauled himself onto his feet and started pacing. “Yeah, we don’t have a tank anymore, and yeah, Zimis had all our stuff, …”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Castille”, corrected Astrius.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Right, character names, whatever.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Sylzar sculpted the stone of the balcony into a miniature model of the palace. “Anyways, that’s what makes this so cool. Despite all of that–”. He gestured to the hastily erected wall of stone that blocked the path behind them “-- we still might be able to pull this one out. And if we die, it’s no big deal. Your daemons back in the stack will survive without you for a few more hours.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius turned away from him, holding one of his daemons tight to his chest. Sylzar’s shouting echoed back from the cavern as a low rumble. A log in the campfire collapsed in, spreading a small shower of sparks.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Sylzar walked over and sat down beside him. “Sorry about that last one.” He opened his arms. Astrius said nothing but allowed his daemon to jump into Sylzar’s embrace.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I just - I really think you should try to go through with this. Follow it through to the end. That’s what’s fun about heap dungeons: trying and failing and sometimes dying.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius still didn’t turn to face him, but nodded. “Okay.” He packed the camp into his inventory with a meticulous spell. Sylzar stood and faced the palace’s door. He spread his palms in a dramatic stance.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Let’s do this!”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The door of the Palace of the Fool King ground open.<br><br><hr><br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The Palace smelled of old blood. The light of the daemon striding ahead of the pair failed to illuminate the halls’ dark corners. The echoes of their footsteps returned deeper and muffled. The entrance framed a massive statue of the king, its once-golden paint looted by doomed adventurers past.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;They walked in silence. In the palace’s dungeons, a deep, black mist swirled around their feet, and the daemon’s normally steady light flickered and dimmed. Few monsters stood in their way as they descended, but Astrius did have to send daemons ahead to check for traps left by the paranoid king.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;In the very depths of the castle the finery and grand windows gave way to wrought stone and iron bars. Sylzar had to meld the stone to open a path through a collapsed passageway. From ever further below, a deep grinding sound was becoming audible.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The passageway, now little more than a rough tunnel, opened up into a wide cavern. A massive shape loomed in the shadows. Astrius and Sylzar turned silently to each other and cast their buffs.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;They walked into the room together. The shape stomped forward to meet them. It was a skeletal dragon; the king’s finest creation. It spread its bony wings and emitted a guttural roar.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Distract it!” yelled Sylzar. He ran his hands into the room’s edge. Tiny footholds sprung out from the stone. He climbed the wall, leaving Astrius to stare up at the dragon alone.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius swallowed deeply. With a wave of his hand, three dragonfly-like daemons sprang forth and flew towards the dragon’s skull. Astrius stood very still, motioning with his finger to project further beams of light around the room.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The dragon disintegrated a daemon with a flick of a claw and leveled its head towards Astrius. As the dragon reared back for a bite, Sylzar fell from the chamber’s room onto its head, a spear of rough-hewn stone taller than himself in his hands. It went clear through the dragon’s head, sending splinters of bone showering down.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The dragon reared back, throwing Sylzar off. Astrius dashed forwards, spawning a cloud of daemons to break Sylzar’s fall. The dragon slashed Astrius as he ran with a massive claw. Astrius went flying.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;He landed in a pool of spasming shadows. Jet-black triangles cut across his vision. All sound cut out from his left ear. He felt a deep, sickening, pain in his chest. He staggered to his feet, unable to see even his own hands. He scrambled out of the morass and looked back. The shadows were a human silhouette, moving in a stuttering gait across the room.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;A skeletal figure in ornate, gilded robes walked through the wall. This was the Fool King of legend, reduced to a lich by his cruel experiments.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“You need to get the hell out of here!” he yelled. With a snap of his figures, the dragon blinked out of existence. With another, the misty ambiance was replaced by flat, white, sourceless lighting. The shadow remained, growing in stature in shuddering jolts.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“This is out of character! The dungeon is closed! Go!” He pointed to a wall, which immediately became a simple staircase leading down. “Move!”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius and Sylzar ran towards the exit bewildered. Kaluthax was recording the shadow on a holographic link screen as he stood in the stairway.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;In a moment, the shadow was on top of Sylzar. His foot failed to meet solid ground beneath him and he fell forward. Astrius, standing in the newly spawned stairway, turned back.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Sylzar’s face became a tangle of sharp black shapes. His screams were pausing and unpausing like a corrupted recording. Polygons on his arms and shoulders were jittering, revealing the void beneath. His eyes were black and pleading.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius reached out to him, unthinking.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax grabbed Astrius’ arm. “There’s no time!” he said. The wall he had removed reappeared in front of them. The two of them descended the stairs in a mad dash.<br><br><hr><br><p>&emsp;&emsp;&emsp;&emsp;&emsp;More stairs spawned in front of them as they ran until Kaluthax made it level out into a square room and despawned the path behind them. The floor of the space was the familiar rough stone of the dungeon, but the walls were untextured grey. Kaluthax summoned an armchair and collapsed into it. They reached out into the Downlink and got back a wave of heaving nausea, concentrated on his left hip.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“How’s Sylzar doing?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius stood, leaning on his staff, to the side of the unfurnished space. His daemons cowered by his feet.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax ran a search of the Downlink, using a limited interface this time to avoid whatever that sensation was. A search for Sylzar’s ID came back blank. He wasn’t waiting to respawn, he wasn’t at the dungeon’s post-game stats room. He wasn’t anywhere.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I cannot find him.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“What do you mean you can’t find him? He has to be somewhere.” Astrius began to pace. His footsteps did not echo.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax opened his mouth, then closed it again. “Maybe it is because he is inside the error.” he said cautiously.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius made a gesture near his temple, which Kaluthax interrupted with an ethereal hand. “Don’t connect to the Downlink!”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I think we’re past dungeon immersion.” Astrius batted the spectre out of the way.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“It is not that, the whole network is-” Kaluthax put some weight on his left hip to see if the pain was still there. It was. “-bugged. Allow me.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax spawned a camera in the dungeon’s entrance and projected the image at a wall. The dungeon’s ominous archway was stuttering and sliding. A response team fresh from the Stack was clutching their sides and shouting. The two of them stared at the spectacle.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“We have two options,” said Kaluthax. “We can hide out down here - I don’t think it will find us - and hope the Stack can deal with it before it spreads. Or, we can go up and try to finish it off ourselves.” They turned towards Astrius “And rescue Sylzar, of course.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius looked at the Stack squad. They were trying to create a clean concrete hallway into the noise, but it turned into distortion as fast as they could spawn it. The jet-black shadows were spreading into the spine, entering other dungeons.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“It looks like we have to fight”<br><br><hr><br><p>&emsp;&emsp;&emsp;&emsp;&emsp;It had been a long time since Kaluthax had seen their dungeon from this angle. From inside the palace, the walls loomed and the halls lurked. They had designed it to be unsettling, but found themself unsettled nonetheless. They nearly walked into a spike trap’s blind spot without checking before catching themself. This wasn’t just their dungeon anymore.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“You were fighting it for a bit without me. What did you see?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius jumped at Kaluthax breaking the silence. “It came out of the entrance, the way we came in. It was big. It jumped around the sides of the room.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;In the grim entryway leading to the king’s chamber, the stone glitched and spun around a nearby epicentre. Kaluthax summoned a skeletal minion. It stumbled forward into the noise and dissolved into glitchy darkness.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Light”, they said.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Yes?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“It must be the light - or rather, the shadow shader. Something about it went haywire and turned into this somehow.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius cast a light spell at the distortion. It dispelled the darkness for a moment before refracting out into spinning grey patterns. “Can you turn the shader off?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax tried. “Nope. Figures.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Plan A, then?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Plan A”<br><br><hr><br><p>&emsp;&emsp;&emsp;&emsp;&emsp;As they entered the king’s chamber, the automated final boss music cycle faded in. The error was a pillar of black, jagged shapes with a humanoid form barely visible within. The room’s walls were long gone, leaving shards of floor floating in an expanse of stranded assets. It didn’t turn toward them as they assumed their battle formation.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;It didn’t move. It was just upon them. Kaluthax threw Astrius aside in a burst of force as the error engulfed their torso. Pain, real pain like they hadn’t felt in millennia, flowed through them. They selected a column hovering in midair a few meters away. It flew towards them, slamming into the error and sending it and Kaluthax sprawling. Kaluthax felt his bones crunch. He didn’t bother trying to stand.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Go for it!”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius had landed wedged in a bit of floor that had lost its hitbox. He planted one forearm on solid ground and waved his staff with the other. His daemons materialized and charged the error. The daemons became an array of shimmering lights, locking around it. The error struggled.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Got it!”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax entered a simple command. Every polygon in the whole dungeon blinked out of existence. They fell. Astrius fell. Far above them, a monument to the Fool King fell. The error began to slip its bonds.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;The monument collided with the error with a shuddering crunch. With no surfaces for shadows to be cast on, it spasmed out in every direction like a firework. Its scream was an ascending screech of static. The sound faded into silence as they continued to fall. After what felt like a safe duration, Kaluthax slowed both of their descent and summoned a transparent surface beneath them.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;They cut the music.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Well?” said Astrius.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Well what? We did it!” Kaluthax laughed. “We did it!” His bony jaw clattered.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“So where’s Sylzar?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax stopped laughing.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;They searched the screaming Downlink. The Weft was down a user.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I am sorry”, they said. “I think he is dead. Really, actually, dead.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;No one had died in the Weft for the last sixty-one hundred years.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius waved away his daemonmancer robes for a comfortable white jumpsuit. He sat down and began to cry. “I guess I suspected as much.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax searched their extensive repository of headstones, sarcophagi, coffins, and monuments. None of them felt appropriate for the circumstances. They summoned a blank block of stone and began to carve.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“What was Sylzar-”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“HamsterMan.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“Right, uh, what was… HamsterMan like?”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Astrius laid down on his back. “He could be a real pain sometimes. He used to work with me in Element. Then he realized he hated it. Went to the Heap to be a dungeon delver. This was actually the first time I’d met him in years.”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax didn’t know how to carve that. They found HamsterMan’s most recent avatar, converted it to a stone texture, and put it on a simple plinth. It was a dashing space pirate, scimitar raised.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;If there was a way a monument was supposed to feel, this didn’t feel like it.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“He was a great delver”, said Kaluthax.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;“I know”<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax lay down next to Astrius. The only sound was his soft sobbing. Far above, they could see the stack team slowly laying a passage down to them.<br><p>&emsp;&emsp;&emsp;&emsp;&emsp;Kaluthax opened themself up to the downlink and let the pain wash over them.<br>";
+			story.appendChild(story_content);
+			
+		});
+
+		function isDecimal(char) {
+			return char >= '0' && char <= '9';
+		}
+
+		function tokenize(text) {
+			let tokens = [];
+
+			for (let i = 0; i < text.length; i++)
+			{
+				if (i < text.length - 1)
+				{
+					if (text[i + 1] == '/')
+					{
+						tokens.push(text.substring(i, i + 3));
+						i = i + 2;
+					}
+					else if (isDecimal(text[i]) && isDecimal(text[i + 1]))
+					{
+						tokens.push(text.substring(i, i + 2));
+						i = i + 1;
+					}
+					else
+					{
+						tokens.push(text[i]);
+					}
+				}
+				else
+				{
+					tokens.push(text[i]);
+				}
+			}
+
+			return tokens;
+		}
+
+		function symbolize(text) {
+			//This isn't needed now that the { & } are put into the cost & text by the exporter
+			//let tokens = tokenize(text);
+			//let symText = "";
+			//for (const token of tokens)
+			//{
+			//	symText = symText + "{" + token + "}";
+			//}
+
+			return formatTextHTML(text);
+		}
+
+		function formatTextHTML(str) {
+			if(!str)
+				return "";
+			str = str.replace(/[{]([^}]+)[}]/g, function(matched, _1) {
+				let letters = _1.toLowerCase()
+				return '<span class="mana mana-cost mana-' + letters + '"></span>';
+			})
+			return str;
+		}
+
+		function gridifyCard(card_stats, card_text = false, rotate_card = false) {
+			card_stats = card;
+			const card_name = card_stats.card_name;
+
+			const grid = document.createElement("div");
+			grid.className = "image-grid";
+
+			grid.appendChild(buildImgContainer(card_stats, false, rotate_card));
+			
+			const text = document.createElement("div");
+			text.className = "card-text";
+			text.id = "card-text";
+
+			const name_cost = document.createElement("div");
+			name_cost.className = "name-cost";
+			name_cost.innerHTML = card_stats.card_name + (card_stats.cost != "" ? '     ' + symbolize(card_stats.cost) : "");
+			text.appendChild(name_cost);
+
+			const type = document.createElement("div");
+			type.className = "type";
+			type.textContent = card_stats.type;
+			text.appendChild(type);
+
+			const effect = document.createElement("div");
+			effect.className = "effect";
+			let card_effects = "";
+			if (card_stats.rules_text != "")
+			{
+				card_effects = card_stats.rules_text.split("\n");
+			}
+			else
+			{
+				card_effects = card_stats.special_text.split("\n");
+			}
+			effect.innerHTML += prettifyEffects(card_effects);
+			text.appendChild(effect);
+
+			if(card_stats.pt != "")
+			{
+				const pt = document.createElement("div");
+				pt.className = "pt";
+				pt.textContent = card_stats.pt;
+				text.appendChild(pt);
+			}
+			else if (card_stats.loyalty != "")
+			{
+				const loyalty = document.createElement("div");
+				loyalty.className = "pt";
+				loyalty.textContent = "[" + card_stats.loyalty + "]";
+				text.appendChild(loyalty);
+			}
+
+			// 13-name	14-color	15-type	16-ci	17-cost	18-ability	19-pt	20-special-text	21-loyalty
+			if(card_stats.shape.includes("adventure") || card_stats.shape.includes("double") || card_stats.shape.includes("spli"))
+			{
+				const name_cost_2 = document.createElement("div");
+				name_cost_2.className = "name-cost";
+				name_cost_2.innerHTML = card_stats.card_name2 + (card_stats.cost2 != "" ? '     ' + symbolize(card_stats.cost2) : "");
+				text.appendChild(name_cost_2);
+
+				const type_2 = document.createElement("div");
+				type_2.className = "type";
+				type_2.textContent = card_stats.type2;
+				text.appendChild(type_2);
+
+				const effect_2 = document.createElement("div");
+				effect_2.className = "effect";
+				let card_effects_2 = "";
+				if (card_stats.rules_text2 != "")
+				{
+					card_effects_2 = card_stats.rules_text2.split("\n");
+				}
+				else
+				{
+					card_effects_2 = card_stats.special_text2.split("\n");
+				}
+				effect_2.innerHTML += prettifyEffects(card_effects_2);
+				text.appendChild(effect_2);
+
+				if(card_stats.pt2 != "")
+				{
+					const pt_2 = document.createElement("div");
+					pt_2.className = "pt";
+					pt_2.textContent = card_stats.pt2;
+					text.appendChild(pt_2);
+				}
+				else if (card_stats.loyalty2 != "")
+				{
+					const loyalty = document.createElement("div");
+					loyalty.className = "pt";
+					loyalty.textContent = "[" + card_stats.loyalty2 + "]";
+					text.appendChild(loyalty);
+				}
+			}
+			
+			grid.appendChild(text);
+
+			return grid;
+		}
+
+		function buildImgContainer(card_stats, hidden_title = false, rotate_card = false) {
+			const imgContainer = document.createElement("div");
+			imgContainer.className = "img-container";
+			const id = card_stats.set + "-" + card_stats.number + "-" + document.getElementById("display").value;
+
+			const img = document.createElement("img");
+			img.className = "card-image";
+			img.id = id;
+			// (card_stats[13].includes("_") ? card_stats[13] : card_stats[0]) for posterity
+			img.src = "/sets/" + card_stats.set + "-files/img/" + card_stats.number + (card_stats.shape.includes("token") ? "t_" : "_") + card_stats.card_name + ((card_stats.shape.includes("double")) ? "_front" : "") + "." + card_stats.image_type;
+			
+			const link = document.createElement("a");
+			let card_name = card_stats.card_name;
+			for (const char of specialchars)
+			{
+				card_name = card_name.replaceAll(char, "");
+			}
+			link.href = "/cards/" + card_stats.set + "/" + card_stats.number + "_" + card_name;
+			link.appendChild(img);
+
+			if ((card_stats.shape.includes("spli") || card_stats.type.includes("Battle")) && rotate_card)
+			{
+				const rotated_img = document.createElement("img");
+				rotated_img.className = "h-img";
+				rotated_img.id = "h-img";
+				rotated_img.src = img.src;
+				rotated_img.style.display = "block";
+				img.style.filter = "blur(2px) brightness(0.7)";
+
+				link.appendChild(rotated_img);
+			}
+
+			imgContainer.appendChild(link);
+
+			if (card_stats.shape.includes("double"))
+			{
+				const imgFlipBtn = document.createElement("button");
+				imgFlipBtn.className = "btn";
+				imgFlipBtn.onclick = function() { imgFlip(id, rotate_card); };
+				imgContainer.appendChild(imgFlipBtn);
+			}
+
+			if (hidden_title)
+			{
+				const title = document.createElement("div");
+				title.innerText = card_stats.card_name;
+				title.className = "hidden-text";
+				imgContainer.appendChild(title);
+			}
+
+			return imgContainer;
+		}
+
+		function imgFlip(id, rotate_card = false) {
+			img = document.getElementById(id);
+			rotated_img = document.getElementById("h-img");
+
+			cardName = img.src;
+			
+			if (cardName.includes("_front"))
+			{
+				img.src = cardName.replace("_front", "_back");
+
+				if (rotate_card)
+				{
+					rotated_img.style.display = "none";
+					img.style.filter = "";
+				}
+			}
+			else
+			{
+				img.src = cardName.replace("_back", "_front");
+
+				if (rotate_card)
+				{
+					rotated_img.style.display = "block";
+					img.style.filter = "blur(2px) brightness(0.7)";
+				}
+			}
+		}
+
+		function prettifyEffects(card_effects) {
+			let HTML = "";
+
+			for (let i = 0; i < card_effects.length; i++)
+			{
+				let styled_effect = card_effects[i].replace(/\[i\]([^\]]+)\[\/i\]/g, function(matched, _1) {
+					return '<i>' + _1 + '</i>'
+				}).replace(/\[b\]([^\]]+)\[\/b\]/g, function(matched, _1) {
+					return '<b>' + _1 + '</b>'
+				})
+				
+				HTML += styled_effect;
+
+				if (i != card_effects.length - 1)
+				{
+					HTML += "<br>"
+				}
+			}
+			
+			let regexHTML = symbolize(HTML);
+
+			return regexHTML;
+		}
+
+		document.getElementById("search").addEventListener("keypress", function(event) {
+		  if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+		  }
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
