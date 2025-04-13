@@ -3786,11 +3786,10 @@
 	},
 {
 		"name": "Subroutines",
-		"image": "https://drchipmunk.github.io/sets/ERR-files/img/6_Subroutines.png",
+		"image": "https://drchipmunk.github.io/sets/ERR-files/img/6t_Subroutines.png",
 		"rarity": "special",
 		"mana_cost": "0",
 		"type": "Reminder",
-		"oracle_text": "This land enters tapped.\n2RW, T: Cache the top card of your library face down.",
 }
 ]
 [Common]
