@@ -1,0 +1,245 @@
+<html>
+	<head>
+	  <title>MSE Hub Hub</title>
+	  <link rel="icon" type="image/x-icon" href="/img/sets.png">
+	  <link rel="stylesheet" href="/resources/mana.css">
+	  <link rel="stylesheet" href="/resources/header.css">
+	</head>
+	<style>
+		@font-face {
+			font-family: 'Beleren Small Caps';
+			src: url('/resources/beleren-caps.ttf');
+		}
+		@font-face {
+			font-family: Beleren;
+			src: url('/resources/beleren.ttf');
+		}
+		body {
+			font-family: 'Helvetica', 'Arial', sans-serif;
+			overscroll-behavior: none;
+			margin: 0px;
+			background-color: #f3f3f3;
+			font-size: 20px;
+			padding-bottom: 30px;
+		}
+		a {
+			text-decoration: none;
+			color: #171717;
+		}
+		.set-table {
+			width: 60%;
+			max-width: 1000px;
+			display: grid;
+			grid-template-columns: 1fr;
+			padding-top: 20px;
+			margin: auto;
+		}
+		.set-header-row {
+			width: 100%;
+			display: grid;
+			grid-template-columns: 0.5fr 2.5fr 0.5fr 0.5fr;
+			gap: 5px;
+			font-weight: bold;
+			padding-bottom: 10px;
+		}
+		.set-row {
+			height: 6em;
+			width: 100%;
+			display: grid;
+			grid-template-columns: 0.5fr 2.5fr 0.5fr 0.5fr;
+			gap: 5px;
+			align-items: center;
+			border-top: 1px solid #171717;
+		}
+		.set-row:hover {
+			background-color: #fafafa;
+		}
+		.set-row:nth-child(2n) {
+		  background-color: #dedede;
+		}
+		.set-row:nth-child(2n):hover {
+			background-color: #e6e6e6;
+		}
+		.set-row img {
+			width: 70%;
+			justify-self: center;
+		}
+		.set-title {
+			font-family: Beleren;
+			letter-spacing: .02em;
+			font-size: 22px;
+		}
+		.set-group {
+			font-family: Beleren Small Caps;
+			text-align: center;
+			font-size: 40px;
+			padding-top: 20px;
+		}
+	</style>
+	<body>
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>			<div class="set-group"></div>
+		
+			<div class="set-table">
+			<div class="set-header-row">
+				<div></div> <!-- empty div for spacing -->
+				<div>NAME</div>
+				<div>CODE</div>
+				<div>CARDS</div>
+			</div>
+		
+<a href = "https://rachel-brighton.github.io/sets/2HU" class="set-row"> <img src="https://rachel-brighton.github.io/sets/2HU-files/icon.png"> <div class="set-title">Universes Beyond: The Touhou Project by rachel-brighton</div> <div>2HU</div> <div>317</div> </a>
+<a href = "https://grapplex.github.io/sets/666" class="set-row"> <img src="https://grapplex.github.io/sets/666-files/icon.png"> <div class="set-title">Circles of Bocacius by grapplex</div> <div>666</div> <div>261</div> </a>
+<a href = "https://grapplex.github.io/sets/90S" class="set-row"> <img src="https://grapplex.github.io/sets/90S-files/icon.png"> <div class="set-title">Rath and Storm by grapplex</div> <div>90S</div> <div>261</div> </a>
+<a href = "https://herziquerzi.github.io/sets/ACA" class="set-row"> <img src="https://herziquerzi.github.io/sets/ACA-files/icon.png"> <div class="set-title">Arcanum Academia by herziquerzi</div> <div>ACA</div> <div>136</div> </a>
+<a href = "https://herziquerzi.github.io/sets/ACR" class="set-row"> <img src="https://herziquerzi.github.io/sets/ACR-files/icon.png"> <div class="set-title">Arcanum: Reforged by herziquerzi</div> <div>ACR</div> <div>160</div> </a>
+<a href = "https://dnazangy.github.io/sets/ACT" class="set-row"> <img src="https://dnazangy.github.io/sets/ACT-files/icon.png"> <div class="set-title">The Stage Presents: The Neverending Act by dnazangy</div> <div>ACT</div> <div>281</div> </a>
+<a href = "https://grapplex.github.io/sets/AKI" class="set-row"> <img src="https://grapplex.github.io/sets/AKI-files/icon.png"> <div class="set-title">Akkadi: Empire's End by grapplex</div> <div>AKI</div> <div>261</div> </a>
+<a href = "https://dnazangy.github.io/sets/ALK" class="set-row"> <img src="https://dnazangy.github.io/sets/ALK-files/icon.png"> <div class="set-title">Alkabah by dnazangy</div> <div>ALK</div> <div>297</div> </a>
+<a href = "https://grapplex.github.io/sets/ARK" class="set-row"> <img src="https://grapplex.github.io/sets/ARK-files/icon.png"> <div class="set-title">Cults of Arkoph by grapplex</div> <div>ARK</div> <div>261</div> </a>
+<a href = "https://mattelonian.github.io/sets/AUR" class="set-row"> <img src="https://mattelonian.github.io/sets/AUR-files/icon.png"> <div class="set-title">Beyond the Aurora by mattelonian</div> <div>AUR</div> <div>268</div> </a>
+<a href = "https://cool-beens.github.io/sets/BEE" class="set-row"> <img src="https://cool-beens.github.io/sets/BEE-files/icon.png"> <div class="set-title">Bee Cube by cool-beens</div> <div>BEE</div> <div>360</div> </a>
+<a href = "https://herziquerzi.github.io/sets/BTJ" class="set-row"> <img src="https://herziquerzi.github.io/sets/BTJ-files/icon.png"> <div class="set-title">Barten's Journal by herziquerzi</div> <div>BTJ</div> <div>150</div> </a>
+<a href = "https://herziquerzi.github.io/sets/BYK" class="set-row"> <img src="https://herziquerzi.github.io/sets/BYK-files/icon.png"> <div class="set-title">Beyond Our Ken by herziquerzi</div> <div>BYK</div> <div>211</div> </a>
+<a href = "https://herziquerzi.github.io/sets/CAC" class="set-row"> <img src="https://herziquerzi.github.io/sets/CAC-files/icon.png"> <div class="set-title">Carpe Arcanum by herziquerzi</div> <div>CAC</div> <div>84</div> </a>
+<a href = "https://timespiraled.github.io/sets/CHAMP" class="set-row"> <img src="https://timespiraled.github.io/sets/CHAMP-files/icon.png"> <div class="set-title">MSEMCube League Champions by timespiraled</div> <div>CHAMP</div> <div>12</div> </a>
+<a href = "https://grapplex.github.io/sets/CLG" class="set-row"> <img src="https://grapplex.github.io/sets/CLG-files/icon.png"> <div class="set-title">Children of Lesser Gods by grapplex</div> <div>CLG</div> <div>262</div> </a>
+<a href = "https://provocativemtg.github.io/sets/CNF" class="set-row"> <img src="https://provocativemtg.github.io/sets/CNF-files/icon.png"> <div class="set-title">Confluence by provocativemtg</div> <div>CNF</div> <div>306</div> </a>
+<a href = "https://stasisbotwastaken.github.io/sets/CNY" class="set-row"> <img src="https://stasisbotwastaken.github.io/sets/CNY-files/icon.png"> <div class="set-title">CNY by stasisbotwastaken</div> <div>CNY</div> <div>260</div> </a>
+<a href = "https://hkrat.github.io/sets/COT" class="set-row"> <img src="https://hkrat.github.io/sets/COT-files/icon.png"> <div class="set-title">Commanders of the Tides by hkrat</div> <div>COT</div> <div>307</div> </a>
+<a href = "https://herziquerzi.github.io/sets/CRC" class="set-row"> <img src="https://herziquerzi.github.io/sets/CRC-files/icon.png"> <div class="set-title">Cretio Created by herziquerzi</div> <div>CRC</div> <div>173</div> </a>
+<a href = "https://hkrat.github.io/sets/CSD" class="set-row"> <img src="https://hkrat.github.io/sets/CSD-files/icon.png"> <div class="set-title">Clash of Sordell by hkrat</div> <div>CSD</div> <div>274</div> </a>
+<a href = "https://sp1itmoon.github.io/sets/CYB" class="set-row"> <img src="https://sp1itmoon.github.io/sets/CYB-files/icon.png"> <div class="set-title">Cybaros by sp1itmoon</div> <div>CYB</div> <div>290</div> </a>
+<a href = "https://grapplex.github.io/sets/CYO" class="set-row"> <img src="https://grapplex.github.io/sets/CYO-files/icon.png"> <div class="set-title">Chronicles of Yor-Om by grapplex</div> <div>CYO</div> <div>267</div> </a>
+<a href = "https://grapplex.github.io/sets/ELO" class="set-row"> <img src="https://grapplex.github.io/sets/ELO-files/icon.png"> <div class="set-title">Eldraine: Sacred Oath by grapplex</div> <div>ELO</div> <div>252</div> </a>
+<a href = "https://magpyfeather.github.io/sets/EP01" class="set-row"> <img src="https://magpyfeather.github.io/sets/EP01-files/icon.png"> <div class="set-title">Extended Play 01 \xe2\x80\x94 Universes Beyond by magpyfeather</div> <div>EP01</div> <div>50</div> </a>
+<a href = "https://drchipmunk.github.io/sets/ERR" class="set-row"> <img src="https://drchipmunk.github.io/sets/ERR-files/icon.png"> <div class="set-title">Errors in the Weft by drchipmunk</div> <div>ERR</div> <div>280</div> </a>
+<a href = "https://grapplex.github.io/sets/FBI" class="set-row"> <img src="https://grapplex.github.io/sets/FBI-files/icon.png"> <div class="set-title">Project Starlight by grapplex</div> <div>FBI</div> <div>261</div> </a>
+<a href = "https://grapplex.github.io/sets/GRU" class="set-row"> <img src="https://grapplex.github.io/sets/GRU-files/icon.png"> <div class="set-title">Great Raid of Ulaith by grapplex</div> <div>GRU</div> <div>249</div> </a>
+<a href = "https://schwa77.github.io/sets/GS2" class="set-row"> <img src="https://schwa77.github.io/sets/GS2-files/icon.png"> <div class="set-title">Global Series 2 by schwa77</div> <div>GS2</div> <div>31</div> </a>
+<a href = "https://grapplex.github.io/sets/HMW" class="set-row"> <img src="https://grapplex.github.io/sets/HMW-files/icon.png"> <div class="set-title">Skand: Heavy Metal War by grapplex</div> <div>HMW</div> <div>263</div> </a>
+<a href = "https://dnazangy.github.io/sets/HOD" class="set-row"> <img src="https://dnazangy.github.io/sets/HOD-files/icon.png"> <div class="set-title">Houses of Dewold by dnazangy</div> <div>HOD</div> <div>324</div> </a>
+<a href = "https://herziquerzi.github.io/sets/HQZ" class="set-row"> <img src="https://herziquerzi.github.io/sets/HQZ-files/icon.png"> <div class="set-title">Hunting Quiet Horizons by herziquerzi</div> <div>HQZ</div> <div>140</div> </a>
+<a href = "https://dnazangy.github.io/sets/HTS" class="set-row"> <img src="https://dnazangy.github.io/sets/HTS-files/icon.png"> <div class="set-title">Hatsuniji: We Stare Through the Window, Together, Holding Hands by dnazangy</div> <div>HTS</div> <div>289</div> </a>
+<a href = "https://herziquerzi.github.io/sets/HVF" class="set-row"> <img src="https://herziquerzi.github.io/sets/HVF-files/icon.png"> <div class="set-title">Harvest Festival by herziquerzi</div> <div>HVF</div> <div>166</div> </a>
+<a href = "https://grapplex.github.io/sets/HVY" class="set-row"> <img src="https://grapplex.github.io/sets/HVY-files/icon.png"> <div class="set-title">Heavy Thunder by grapplex</div> <div>HVY</div> <div>267</div> </a>
+<a href = "https://herziquerzi.github.io/sets/IAH" class="set-row"> <img src="https://herziquerzi.github.io/sets/IAH-files/icon.png"> <div class="set-title">Intrigue by herziquerzi</div> <div>IAH</div> <div>269</div> </a>
+<a href = "https://herziquerzi.github.io/sets/INK" class="set-row"> <img src="https://herziquerzi.github.io/sets/INK-files/icon.png"> <div class="set-title">Across the Ink Sea by herziquerzi</div> <div>INK</div> <div>136</div> </a>
+<a href = "https://schwa77.github.io/sets/JPK" class="set-row"> <img src="https://schwa77.github.io/sets/JPK-files/icon.png"> <div class="set-title">Pok\xc3\xa9mon Trainer Jumpstart by schwa77</div> <div>JPK</div> <div>14</div> </a>
+<a href = "https://crashington.github.io/sets/JUMP\xe2\x98\x85" class="set-row"> <img src="https://crashington.github.io/sets/JUMP\xe2\x98\x85-files/icon.png"> <div class="set-title">JUMPSTAR by crashington</div> <div>JUMP\xe2\x98\x85</div> <div>1108</div> </a>
+<a href = "https://provocativemtg.github.io/sets/KDT" class="set-row"> <img src="https://provocativemtg.github.io/sets/KDT-files/icon.png"> <div class="set-title">Kitsuo: Dusk of Time by provocativemtg</div> <div>KDT</div> <div>296</div> </a>
+<a href = "https://provocativemtg.github.io/sets/KLA" class="set-row"> <img src="https://provocativemtg.github.io/sets/KLA-files/icon.png"> <div class="set-title">Kallatree Ascension by provocativemtg</div> <div>KLA</div> <div>286</div> </a>
+<a href = "https://schwa77.github.io/sets/KRK" class="set-row"> <img src="https://schwa77.github.io/sets/KRK-files/icon.png"> <div class="set-title">Seas of Krakonos by schwa77</div> <div>KRK</div> <div>267</div> </a>
+<a href = "https://grapplex.github.io/sets/KSH" class="set-row"> <img src="https://grapplex.github.io/sets/KSH-files/icon.png"> <div class="set-title">Kushab: Gods' Blood by grapplex</div> <div>KSH</div> <div>261</div> </a>
+<a href = "https://hkrat.github.io/sets/Kube" class="set-row"> <img src="https://hkrat.github.io/sets/Kube-files/icon.png"> <div class="set-title">Krowkube by hkrat</div> <div>Kube</div> <div>456</div> </a>
+<a href = "https://herziquerzi.github.io/sets/LRH" class="set-row"> <img src="https://herziquerzi.github.io/sets/LRH-files/icon.png"> <div class="set-title">The Long Road Home by herziquerzi</div> <div>LRH</div> <div>135</div> </a>
+<a href = "https://herziquerzi.github.io/sets/MAC" class="set-row"> <img src="https://herziquerzi.github.io/sets/MAC-files/icon.png"> <div class="set-title">Memorium Arcanum by herziquerzi</div> <div>MAC</div> <div>80</div> </a>
+<a href = "https://timespiraled.github.io/sets/MC25" class="set-row"> <img src="https://timespiraled.github.io/sets/MC25-files/icon.png"> <div class="set-title">MC25 by timespiraled</div> <div>MC25</div> <div>363</div> </a>
+<a href = "https://grapplex.github.io/sets/MHQ" class="set-row"> <img src="https://grapplex.github.io/sets/MHQ-files/icon.png"> <div class="set-title">Modern Horizons: Triumph of Qirauz by grapplex</div> <div>MHQ</div> <div>261</div> </a>
+<a href = "https://lecodex.github.io/sets/MIN" class="set-row"> <img src="https://lecodex.github.io/sets/MIN-files/icon.png"> <div class="set-title">Minecraft by lecodex</div> <div>MIN</div> <div>360</div> </a>
+<a href = "https://herziquerzi.github.io/sets/MMC" class="set-row"> <img src="https://herziquerzi.github.io/sets/MMC-files/icon.png"> <div class="set-title">Memory's Collapse by herziquerzi</div> <div>MMC</div> <div>181</div> </a>
+<a href = "https://herziquerzi.github.io/sets/MMT" class="set-row"> <img src="https://herziquerzi.github.io/sets/MMT-files/icon.png"> <div class="set-title">Memory's Tyranny by herziquerzi</div> <div>MMT</div> <div>249</div> </a>
+<a href = "https://schwa77.github.io/sets/MOX" class="set-row"> <img src="https://schwa77.github.io/sets/MOX-files/icon.png"> <div class="set-title">Midnight Omens of Xogoa by schwa77</div> <div>MOX</div> <div>202</div> </a>
+<a href = "https://schwa77.github.io/sets/MRV" class="set-row"> <img src="https://schwa77.github.io/sets/MRV-files/icon.png"> <div class="set-title">Marvel Comics: The Cosmic Cube by schwa77</div> <div>MRV</div> <div>360</div> </a>
+<a href = "https://dnazangy.github.io/sets/MSK" class="set-row"> <img src="https://dnazangy.github.io/sets/MSK-files/icon.png"> <div class="set-title">Myths, Masks, and Minutes Spent Apart by dnazangy</div> <div>MSK</div> <div>281</div> </a>
+<a href = "https://mattelonian.github.io/sets/MVX" class="set-row"> <img src="https://mattelonian.github.io/sets/MVX-files/icon.png"> <div class="set-title">Merveaux by mattelonian</div> <div>MVX</div> <div>290</div> </a>
+<a href = "https://crashington.github.io/sets/OPC" class="set-row"> <img src="https://crashington.github.io/sets/OPC-files/icon.png"> <div class="set-title">The Poneglyph by crashington</div> <div>OPC</div> <div>270</div> </a>
+<a href = "https://grapplex.github.io/sets/OPH" class="set-row"> <img src="https://grapplex.github.io/sets/OPH-files/icon.png"> <div class="set-title">Arkoph: Crisis of Faith by grapplex</div> <div>OPH</div> <div>261</div> </a>
+<a href = "https://ignitedxsoul.github.io/sets/OPZ" class="set-row"> <img src="https://ignitedxsoul.github.io/sets/OPZ-files/icon.png"> <div class="set-title">Outpost Zero by ignitedxsoul</div> <div>OPZ</div> <div>223</div> </a>
+<a href = "https://grapplex.github.io/sets/OVR" class="set-row"> <img src="https://grapplex.github.io/sets/OVR-files/icon.png"> <div class="set-title">Overlay by grapplex</div> <div>OVR</div> <div>272</div> </a>
+<a href = "https://supergb-denny.github.io/sets/PBA" class="set-row"> <img src="https://supergb-denny.github.io/sets/PBA-files/icon.png"> <div class="set-title">Phirback Academy by supergb-denny</div> <div>PBA</div> <div>262</div> </a>
+<a href = "https://hkrat.github.io/sets/PCA" class="set-row"> <img src="https://hkrat.github.io/sets/PCA-files/icon.png"> <div class="set-title">Pirates of Caitisan by hkrat</div> <div>PCA</div> <div>251</div> </a>
+<a href = "https://herziquerzi.github.io/sets/PFP" class="set-row"> <img src="https://herziquerzi.github.io/sets/PFP-files/icon.png"> <div class="set-title">Plagues of Fretport by herziquerzi</div> <div>PFP</div> <div>220</div> </a>
+<a href = "https://platypeople.github.io/sets/POP2" class="set-row"> <img src="https://platypeople.github.io/sets/POP2-files/icon.png"> <div class="set-title">Prismavision by platypeople</div> <div>POP2</div> <div>266</div> </a>
+<a href = "https://plaster-man.github.io/sets/PRK" class="set-row"> <img src="https://plaster-man.github.io/sets/PRK-files/icon.png"> <div class="set-title">Prakhma: Path to Transcendence by plaster-man</div> <div>PRK</div> <div>275</div> </a>
+<a href = "https://drchipmunk.github.io/sets/PRU" class="set-row"> <img src="https://drchipmunk.github.io/sets/PRU-files/icon.png"> <div class="set-title">Perennial Ultimatum by drchipmunk</div> <div>PRU</div> <div>254</div> </a>
+<a href = "https://hkrat.github.io/sets/PRW" class="set-row"> <img src="https://hkrat.github.io/sets/PRW-files/icon.png"> <div class="set-title">Primal Wilds by hkrat</div> <div>PRW</div> <div>164</div> </a>
+<a href = "https://grapplex.github.io/sets/QYR" class="set-row"> <img src="https://grapplex.github.io/sets/QYR-files/icon.png"> <div class="set-title">Dreams of Quyrash by grapplex</div> <div>QYR</div> <div>247</div> </a>
+<a href = "https://rachel-brighton.github.io/sets/R&S" class="set-row"> <img src="https://rachel-brighton.github.io/sets/R&S-files/icon.png"> <div class="set-title">Steel Yourself! A Rabbit & Steel Miniset by rachel-brighton</div> <div>R&S</div> <div>41</div> </a>
+<a href = "https://dnazangy.github.io/sets/RAR" class="set-row"> <img src="https://dnazangy.github.io/sets/RAR-files/icon.png"> <div class="set-title">Ravnica: Resurgence by dnazangy</div> <div>RAR</div> <div>278</div> </a>
+<a href = "https://dnazangy.github.io/sets/ROS" class="set-row"> <img src="https://dnazangy.github.io/sets/ROS-files/icon.png"> <div class="set-title">Alkabah: Rise of Soli by dnazangy</div> <div>ROS</div> <div>290</div> </a>
+<a href = "https://grapplex.github.io/sets/SPQ" class="set-row"> <img src="https://grapplex.github.io/sets/SPQ-files/icon.png"> <div class="set-title">Avicta: Ave Imperator by grapplex</div> <div>SPQ</div> <div>261</div> </a>
+<a href = "https://gayverygrove.github.io/sets/SRB" class="set-row"> <img src="https://gayverygrove.github.io/sets/SRB-files/icon.png"> <div class="set-title">Surviving Suburbia by gayverygrove</div> <div>SRB</div> <div>179</div> </a>
+<a href = "https://dnazangy.github.io/sets/SRC" class="set-row"> <img src="https://dnazangy.github.io/sets/SRC-files/icon.png"> <div class="set-title">Secrets of the River Cities by dnazangy</div> <div>SRC</div> <div>254</div> </a>
+<a href = "https://hkrat.github.io/sets/SRN" class="set-row"> <img src="https://hkrat.github.io/sets/SRN-files/icon.png"> <div class="set-title">Skyrim Nine Divines Edition by hkrat</div> <div>SRN</div> <div>254</div> </a>
+<a href = "https://grapplex.github.io/sets/SSF" class="set-row"> <img src="https://grapplex.github.io/sets/SSF-files/icon.png"> <div class="set-title">Shamtar: Search for Fire by grapplex</div> <div>SSF</div> <div>259</div> </a>
+<a href = "https://schwa77.github.io/sets/STW" class="set-row"> <img src="https://schwa77.github.io/sets/STW-files/icon.png"> <div class="set-title">Star Wars Microset by schwa77</div> <div>STW</div> <div>45</div> </a>
+<a href = "https://grapplex.github.io/sets/TAL" class="set-row"> <img src="https://grapplex.github.io/sets/TAL-files/icon.png"> <div class="set-title">Ulaith: Cos Teilo's Feast by grapplex</div> <div>TAL</div> <div>27</div> </a>
+<a href = "https://grapplex.github.io/sets/TGS" class="set-row"> <img src="https://grapplex.github.io/sets/TGS-files/icon.png"> <div class="set-title">Tales from the Grave in Space by grapplex</div> <div>TGS</div> <div>273</div> </a>
+<a href = "https://hkrat.github.io/sets/TOB" class="set-row"> <img src="https://hkrat.github.io/sets/TOB-files/icon.png"> <div class="set-title">Threat of Oblivion by hkrat</div> <div>TOB</div> <div>234</div> </a>
+<a href = "https://hkrat.github.io/sets/TOC" class="set-row"> <img src="https://hkrat.github.io/sets/TOC-files/icon.png"> <div class="set-title">Tides of Caitisan by hkrat</div> <div>TOC</div> <div>333</div> </a>
+<a href = "https://dnazangy.github.io/sets/TRO" class="set-row"> <img src="https://dnazangy.github.io/sets/TRO-files/icon.png"> <div class="set-title">Trovsko by dnazangy</div> <div>TRO</div> <div>283</div> </a>
+<a href = "https://dnazangy.github.io/sets/TRX" class="set-row"> <img src="https://dnazangy.github.io/sets/TRX-files/icon.png"> <div class="set-title">Theros: Age of Trax by dnazangy</div> <div>TRX</div> <div>300</div> </a>
+<a href = "https://herziquerzi.github.io/sets/TWR" class="set-row"> <img src="https://herziquerzi.github.io/sets/TWR-files/icon.png"> <div class="set-title">A Tourney at Whiterun by herziquerzi</div> <div>TWR</div> <div>253</div> </a>
+<a href = "https://grapplex.github.io/sets/TYT" class="set-row"> <img src="https://grapplex.github.io/sets/TYT-files/icon.png"> <div class="set-title">Depths of Tytheus by grapplex</div> <div>TYT</div> <div>261</div> </a>
+<a href = "https://supergb-denny.github.io/sets/TZR" class="set-row"> <img src="https://supergb-denny.github.io/sets/TZR-files/icon.png"> <div class="set-title">Tuanzhi Restored by supergb-denny</div> <div>TZR</div> <div>253</div> </a>
+<a href = "https://gayverygrove.github.io/sets/VHS" class="set-row"> <img src="https://gayverygrove.github.io/sets/VHS-files/icon.png"> <div class="set-title">Video Horror System by gayverygrove</div> <div>VHS</div> <div>81</div> </a>
+<a href = "https://timespiraled.github.io/sets/VOA" class="set-row"> <img src="https://timespiraled.github.io/sets/VOA-files/icon.png"> <div class="set-title">VOA by timespiraled</div> <div>VOA</div> <div>475</div> </a>
+<a href = "https://bancrabs.github.io/sets/WAS" class="set-row"> <img src="https://bancrabs.github.io/sets/WAS-files/icon.png"> <div class="set-title">Work of the Argent Sun by bancrabs</div> <div>WAS</div> <div>271</div> </a>
+<a href = "https://bancrabs.github.io/sets/WAW" class="set-row"> <img src="https://bancrabs.github.io/sets/WAW-files/icon.png"> <div class="set-title">The Wonderlands' Wishes by bancrabs</div> <div>WAW</div> <div>226</div> </a>
+<a href = "https://hkrat.github.io/sets/WAW" class="set-row"> <img src="https://hkrat.github.io/sets/WAW-files/icon.png"> <div class="set-title">World at War by hkrat</div> <div>WAW</div> <div>186</div> </a>
+<a href = "https://bancrabs.github.io/sets/WTS" class="set-row"> <img src="https://bancrabs.github.io/sets/WTS-files/icon.png"> <div class="set-title">War in the Streets by bancrabs</div> <div>WTS</div> <div>282</div> </a>
+<a href = "https://grapplex.github.io/sets/XCO" class="set-row"> <img src="https://grapplex.github.io/sets/XCO-files/icon.png"> <div class="set-title">Skies Over San Xalco by grapplex</div> <div>XCO</div> <div>256</div> </a>
+<a href = "https://grapplex.github.io/sets/XSK" class="set-row"> <img src="https://grapplex.github.io/sets/XSK-files/icon.png"> <div class="set-title">Experiments of Skand by grapplex</div> <div>XSK</div> <div>252</div> </a>
+<a href = "https://dnazangy.github.io/sets/ZANG" class="set-row"> <img src="https://dnazangy.github.io/sets/ZANG-files/icon.png"> <div class="set-title">Zangy Cube by dnazangy</div> <div>ZANG</div> <div>453</div> </a>
+<a href = "https://dnazangy.github.io/sets/ZNU" class="set-row"> <img src="https://dnazangy.github.io/sets/ZNU-files/icon.png"> <div class="set-title">Zendikar Unleashed by dnazangy</div> <div>ZNU</div> <div>311</div> </a>
+			</div>
+		
+	<script>
+		let card_list_arrayified = [];
+		let specialchars = "";
+		let displayStyle = "";
+
+		document.addEventListener("DOMContentLoaded", async function () {
+			await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		});
+
+		function isDecimal(char) {
+			return char >= '0' && char <= '9';
+		}
+
+		document.getElementById("search").addEventListener("keypress", function(event) {
+		  if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+		  }
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
