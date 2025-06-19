@@ -336,40 +336,25 @@ def generateHTML():
 				document.getElementById("card-text").appendChild(printings);
 				document.getElementById("other-printings").style.display = "block";
 			}
+
+			if (card.story) 
+			{
+				const story = document.createElement("div");
+				story.className = "story-text";
+				story.id = "story-text";
+				document.getElementById("grid").appendChild(story);
+
+				const story_title = document.createElement("div");
+				story_title.className = "story-title";
+				story_title.innerHTML = card.story_title;
+				story.appendChild(story_title);
+
+				const story_content = document.createElement("div");
+				story_content.className = "story-body";
+				story_content.innerHTML = card.story;
+				story.appendChild(story_content);
+			}
 		'''
-
-
-	try:
-		with open(os.path.join('custom', code + '-files', card_name_cleaned.replace(' ','_') + '.txt'), encoding='utf-8-sig') as f:
-			story_lines = f.readlines()
-			story_title = story_lines[0].strip()
-			story = ""
-			for line in story_lines[1:]:
-				if len(line.strip()) > 0 and not "<hr>" in line:
-					story += "<p>&emsp;&emsp;&emsp;&emsp;&emsp;" + line.strip() + "<br>"
-				elif "<hr>" in line:
-					story += "<br>" + line.strip() + "<br>"
-				else:
-					story += line.strip()
-
-			html_content += f'''
-			const story = document.createElement("div");
-			story.className = "story-text";
-			story.id = "story-text";
-			document.getElementById("grid").appendChild(story);
-
-			const story_title = document.createElement("div");
-			story_title.className = "story-title";
-			story_title.innerHTML = "{story_title}";
-			story.appendChild(story_title);
-
-			const story_content = document.createElement("div");
-			story_content.className = "story-body";
-			story_content.innerHTML = "{story}";
-			story.appendChild(story_content);
-			'''
-	except OSError:
-	    pass
 
 	html_content += '''
 		});
