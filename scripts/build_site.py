@@ -46,7 +46,7 @@ def genAllCards(codes):
 				if os.path.exists(d_notes_path):
 					with open(d_notes_path, encoding='utf-8-sig') as md:
 						card['designer_notes'] = markdown.markdown(md.read())
-				story_path = os.path.join('custom', code + '-files',  card['card_name'].replace(' ','_') + '.txt')
+				story_path = os.path.join('custom', code + '-files',  card['card_name'].replace(',', '').replace(' ','_') + '.txt')
 				if os.path.exists(story_path):
 					with open(story_path, encoding='utf-8-sig') as storyfile:
 						story_lines = storyfile.readlines()
