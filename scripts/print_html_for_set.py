@@ -1,6 +1,8 @@
 import os
 import sys
 import json
+import markdown
+import re
 
 #F = Fungustober's notes
 
@@ -25,6 +27,10 @@ def generateHTML(code):
 </head>
 <style>
 	@font-face {
+		font-family: 'Beleren Small Caps';
+		src: url('/resources/beleren-caps.ttf');
+	}
+	@font-face {
 		font-family: Beleren;
 		src: url('/resources/beleren.ttf');
 	}
@@ -43,13 +49,13 @@ def generateHTML(code):
 		max-width: 1100px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
+		gap: 20px;
 		align-items: center;
 		margin: auto;
 	}
 	.set-banner {
 		font-family: Beleren;
 		display: flex;
-		gap: 30px;
 		align-items: center;
 		justify-items: center;
 		font-size: 26px;
@@ -59,9 +65,11 @@ def generateHTML(code):
 		padding-bottom: 10px;
 		justify-self: left;
 		width: 100%;
+		white-space: nowrap;
 	}
 	.set-banner img {
 		width: 50px;
+		padding-right: 8px;
 	}
 	.set-banner a {
 		font-size: 18px;
@@ -91,6 +99,31 @@ def generateHTML(code):
 		font-size: 13px;
 		height: 30px;
 	}
+	.button-container {
+		width: 50%;
+		max-width: 900px;
+		margin: auto;
+		padding: 15px 0 5px 0;
+		border-bottom: 2px solid #171717;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.button-container button {
+		font-family: Beleren;
+		font-size: 30px;
+		width: 100%;
+		justify-self: center;
+		border: none;
+		background: none;
+		cursor: pointer;
+	}
+	.button-container button:hover {
+		color: #797979;
+	}
+	.button-container button:disabled {
+		color: #797979;
+		cursor: auto;
+	}
 	.grid-container {
 		display: grid;
 		grid-template-columns: auto;
@@ -98,6 +131,12 @@ def generateHTML(code):
 		padding-bottom: 30px;
 		max-width: 1200px;
 		margin: auto;
+	}
+	.splash-container {
+		width: 70%;
+		max-width: 1200px;
+		margin: auto;
+		justify-items: center;
 	}
 	.image-grid-container {
 		display: grid;
@@ -206,6 +245,83 @@ def generateHTML(code):
 		font-size: .97vw;
 		color: rgba(0, 0, 0, 0);
 	}
+	h1 {
+		font-family: 'Beleren Small Caps';
+		font-size: 48px;
+		margin: 24px 0;
+	}
+	h2 {
+		font-family: 'Beleren';
+		font-size: 30px;
+		margin: 15px 0;
+	}
+	.overlay {
+		position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    margin-right: -50%;
+	    transform: translate(-50%, -50%);
+	    height: 90%;
+	    width: 90%;
+		max-width: 1000px;
+		background-color: #e3e3e3;
+		border: 2px solid #171717;
+		border-radius: 20px;
+		display: none;
+	}
+	.overlay-title {
+		font-family: 'Beleren';
+		font-size: 34px;
+	}
+	.close-btn {
+		background: url('/img/close.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: 50px;
+		height: 50px;
+		border: none;
+		cursor: pointer;
+	}
+	.copy-btn {
+		background: url('/img/copy.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		width: 50px;
+		height: 50px;
+		border: none;
+		cursor: pointer;
+	}
+	.canvas {
+		max-width: 95%;
+		max-height: 95%;
+		width: auto;
+		height: auto;
+		display: flex;
+		justify-self: center;
+	}
+	.overlay-header {
+		display: grid;
+		height: 7%;
+		grid-template-columns: 2fr 18fr 1fr 1fr;
+		gap: 10px;
+		padding: 1%;
+		justify-self: center;
+		justify-items: center;
+		align-items: center;
+	}
+	.canvas-container {
+		height: 89%;
+		align-content: center;
+		padding-bottom: 1%;
+	}
+	.dot {
+		font-family: 'Helvetica', 'Arial';
+		white-space: pre;
+		padding-top: 6px;
+	}
+	a {
+		cursor: pointer;
+	}
 </style>
 <body>
 	'''
@@ -224,7 +340,10 @@ def generateHTML(code):
 
 	#F: sets/SET-files/SET-draft.txt
 	if os.path.exists(os.path.join('sets', code + '-files', code + '-draft.txt')):
-		html_content += '''<a href="/sets/''' + code + '''-files/''' + code + '''-draft.txt" download>Draft me!</a>
+		html_content += '''<div class="dot"> • </div><a href="/sets/''' + code + '''-files/''' + code + '''-draft.txt" download>Draft</a>
+		'''
+	if os.path.exists(os.path.join('sets', code + '-files', code + '-p1p1.json')):
+		html_content += '''<div class="dot"> • </div><a onclick="packOnePickOne()">P1P1</a>
 		'''
 
 	html_content += '''
@@ -233,10 +352,55 @@ def generateHTML(code):
 		</div>
 	</div>
 
+	<div class="button-container" id="buttons">
+		<button style="border-right: 1px solid #171717;" onclick="switchView('splash')" id="splash-button">Splash</button><button onclick="switchView('cards')"id="cards-button">Cards</button>
+	</div>
+
+	<div class="splash-container" id="splash">
+	'''
+
+	splashpath = os.path.join('sets', code + '-files', 'splash.md')
+	if os.path.isfile(splashpath):
+		with open(splashpath, 'r', encoding='utf-8') as md_file:
+			md_content = md_file.read()
+
+		md_html = markdown.markdown(md_content)
+
+		img_re = r'%([^%]*)%'
+		for img_name in re.findall(img_re, md_html):
+			img_name_re = r'%' + img_name + '%'
+			if img_name == 'logo' or img_name == 'icon' or img_name == 'bg':
+				img_path = '/'.join([ '/sets', code + '-files', img_name + '.png' ])
+			else:
+				with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
+					set_json = json.load(f)
+				for card in set_json['cards']:
+					if card['card_name'] == img_name:
+						img_path = '/'.join([ '/sets', code + '-files', 'img', str(card['number']) + ('t' if 'token' in card['shape'] else '') + '_' + img_name + '.png' ])
+						break
+					img_path = 'missing'
+			md_html = re.sub(img_name_re, img_path, md_html)
+		html_content += md_html
+
+	html_content +=	'''
+	</div>
+
 	<div class="grid-container" id="grid">
 	</div>
 
 	<div class="image-grid-container" id="imagesOnlyGrid">
+	</div>
+
+	<div class="overlay" id="p1p1">
+		<div class="overlay-header">
+			<div></div> <!-- empty div for spacing -->
+			<div class="overlay-title">Pack 1, Pick 1</div>
+			<button class="copy-btn" onclick="copyP1P1()"></button>
+			<button class="close-btn" onclick="closeP1P1()"></button>
+		</div>
+		<div class="canvas-container">
+			<canvas id="canvas" class="canvas"></canvas>
+		</div>
 	</div>
 
 	<script>
@@ -244,6 +408,7 @@ def generateHTML(code):
 		let set_list_arrayified = [];
 		let specialchars = "";
 		let displayStyle = "";
+		let p1p1cards = [];
 
 		document.addEventListener("DOMContentLoaded", async function () {
 			'''
@@ -254,6 +419,12 @@ def generateHTML(code):
 
 	html_content += '''
 
+			await fetch('/sets/''' + code + '''-files/''' + code + '''-p1p1.json')
+				.then(response => response.json())
+				.then(json => {
+					p1p1_cards = json;
+			}).catch(error => console.error('Error:', error));
+
 			for (let i = 0; i < card_list_arrayified.length; i++)
 			{
 				if (card_list_arrayified[i].set == "''' + code + '''")
@@ -261,8 +432,15 @@ def generateHTML(code):
 					set_list_arrayified.push(card_list_arrayified[i]);
 				}
 			}
+			'''
 
-			setCardView();
+	if os.path.isfile(splashpath):
+		html_content += '''		switchView('splash');'''
+	else:
+		html_content += '''		buttons.style.display = 'none';
+		setCardView();'''
+
+	html_content += '''
 		});
 
 		document.getElementById("sort-by").onchange = displayChangeListener;
@@ -273,9 +451,26 @@ def generateHTML(code):
 			setCardView();
 		}
 
+		function switchView(view) {
+			if (view == "splash")
+			{
+				splash.style.display = '';
+				imagesOnlyGrid.style.display = 'none';
+				grid.style.display = 'none';
+			}
+			else if (view == "cards")
+			{
+				setCardView();
+			}
+
+			document.getElementById("splash-button").disabled = (view == "splash");
+			document.getElementById("cards-button").disabled = (view == "cards");
+		}
+
 		function setCardView() {
 			displayStyle = document.getElementById("display").value;
 
+			splash.style.display = 'none';
 			imagesOnlyGrid.style.display = displayStyle == "cards-only" ? '' : 'none';
 			grid.style.display = displayStyle == "cards-only" ? 'none' : '';
 
@@ -293,13 +488,23 @@ def generateHTML(code):
 			}
 
 			let set_cards = [];
-			let set_tokens_basics = [];
+			let set_basics = [];
+			let set_tokens = [];
+			let set_mp = [];
 
 			for (const card of set_list_arrayified)
 			{
-				if (card.shape.includes("token") || card.type.includes("Basic"))
+				if (card.rarity.includes("masterpiece"))
 				{
-					set_tokens_basics.push(card);
+					set_mp.push(card);
+				}
+				else if (card.shape.includes("token"))
+				{
+					set_tokens.push(card);
+				}
+				else if (card.type.includes("Basic"))
+				{
+					set_basics.push(card);
 				}
 				else
 				{
@@ -308,19 +513,82 @@ def generateHTML(code):
 			}
 
 			set_cards.sort(compareFunction);
-			set_tokens_basics.sort(compareFunction);
+			set_basics.sort(compareFunction);
+			set_tokens.sort(compareFunction);
+			set_mp.sort(compareFunction);
 			if (document.getElementById("sort-order").value == "descending")
 			{
 				set_cards.reverse();
-				set_tokens_basics.reverse();
+				set_basics.reverse();
+				set_tokens.reverse();
+				set_mp.reverse();
 			}
-			set_list_sorted = set_cards.concat(set_tokens_basics);
+			set_list_sorted = set_cards.concat(set_basics).concat(set_tokens).concat(set_mp);
 			cardGrid.innerHTML = "";
 
 			for (const card of set_list_sorted)
 			{
 				cardGrid.append(gridifyCard(card));
 			}
+		}
+
+		function packOnePickOne() {
+			img_list = [];
+			used_cards = [];
+			for (const slot of p1p1_cards)
+			{
+				do {
+					rand_i = Math.floor(Math.random() * (slot.length));
+					card = slot[rand_i];
+				} while (used_cards.includes(card));
+
+				const img_url = '/sets/' + card.set + '-files/img/' + card.number + '_' + card.card_name + (card.shape.includes('double') ? '_front' : '') + '.' + card.image_type;
+
+				const image = new Image();
+				image.src = img_url;
+
+				img_list.push(image);
+				used_cards.push(card);
+			}
+
+			const canvas = document.getElementById("canvas");
+			const ctx = canvas.getContext('2d');
+
+			canvas.width = 1883;
+			canvas.height = 1573;
+
+			for (let i = 0; i < img_list.length; i++)
+			{
+				img_list[i].onload = function() {
+					x_offset = 377 * (i % 5);
+					y_offset = 525 * Math.floor(i / 5);
+				    ctx.drawImage(img_list[i], x_offset, y_offset, 375, 523);
+				};
+			}
+
+			document.getElementById("p1p1").style.display = "block";
+		}
+
+		async function copyP1P1() {
+			const canvas = document.getElementById("canvas");
+
+			canvas.toBlob(async (blob) => {
+				if (!blob) {
+					console.error('Failed to create Blob from canvas.');
+					return;
+				}
+
+				try {
+					const item = new ClipboardItem({ [blob.type]: blob });
+					await navigator.clipboard.write([item]);
+				} catch (err) {
+					console.error('Failed to copy canvas image:', err);
+				}
+			}, 'image/png');
+		}
+
+		function closeP1P1() {
+			document.getElementById("p1p1").style.display = "none";
 		}
 
 		'''
@@ -343,7 +611,7 @@ def generateHTML(code):
 	
 	html_content += '''
 
-		function gridifyCard(card_stats, card_text = false, rotate_card = false) {
+		function gridifyCard(card_stats, card_text = false, rotate_card = false, designer_notes = false) {
 			const card_name = card_stats.card_name;
 
 			if (displayStyle == "cards-only")
@@ -368,7 +636,9 @@ def generateHTML(code):
 		});
 
 		function search() {
-			window.location = ("/search?search=" + document.getElementById("search").value);
+			const url = new URL('search', window.location.origin);
+			url.searchParams.append('search', document.getElementById("search").value);
+			window.location.href = url;
 		}
 
 		'''
