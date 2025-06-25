@@ -683,7 +683,7 @@
 		{
 			"name": "Smoke Dancer",
 			"rarity": "common",
-			"mana_cost": "{1{R}/G}{R/G}",
+			"mana_cost": "{1}{R/G}{R/G}",
 			"type": "Creature — Human Soldier ",
 			"collector_number": "212",
 			"image_uris": {
@@ -703,7 +703,7 @@
 		{
 			"name": "Priest of Debt",
 			"rarity": "common",
-			"mana_cost": "{1{W}/B}",
+			"mana_cost": "{1}{W/B}",
 			"type": "Creature — Human Cleric ",
 			"collector_number": "211",
 			"image_uris": {
@@ -713,7 +713,7 @@
 		{
 			"name": "Lanternlight Ghoul",
 			"rarity": "common",
-			"mana_cost": "{1{B}/G}{B/G}",
+			"mana_cost": "{1}{B/G}{B/G}",
 			"type": "Creature — Zombie Cleric ",
 			"collector_number": "210",
 			"image_uris": {
@@ -743,7 +743,7 @@
 		{
 			"name": "Zealous Shieldmate",
 			"rarity": "common",
-			"mana_cost": "{1{R}/W}{R/W}",
+			"mana_cost": "{1}{R/W}{R/W}",
 			"type": "Creature — Human Soldier ",
 			"collector_number": "215",
 			"image_uris": {
