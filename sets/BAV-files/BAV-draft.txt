@@ -1054,7 +1054,7 @@
 			"name": "Hermit of Curatives",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
-			"type": "Creature",
+			"type": "Creature — Elf Druid ",
 			"collector_number": "200",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/200_Hermit of Curatives.png"
@@ -2094,7 +2094,7 @@
 			"name": "Mr. Hours, Pseudarchivist",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Human Advisor ",
+			"type": "Legendary Creature — Human Advisor ",
 			"collector_number": "60",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/60_Mr. Hours, Pseudarchivist.png"
@@ -2608,6 +2608,56 @@
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/1_Seen In Visions.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains ",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/253_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island ",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/254_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp ",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/255_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain ",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/256_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest ",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/257_Forest.png"
 			}
 		}
 	]
