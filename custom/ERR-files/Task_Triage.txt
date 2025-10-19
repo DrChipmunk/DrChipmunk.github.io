@@ -1,0 +1,64 @@
+My Order Of Operations For Making A Set
+
+This article outlines my process for making custom magic sets.
+
+I will be using Errors in the Weft (ERR) as an example since it's the set I spent the most time on. 
+
+Some notes:
+- I assuming you are designing a set for both draft and a constructed format. If you only care about limited, you might want to make a cube instead. If you only care about constructed, you might want to make a rarityless set or precon.
+- There are many ways to make a set; I am by no means the most experienced designer in the community. This is but one solution.
+
+Step 1: Raison D'Etre
+
+- Very short description of the set's identity
+- Must include both a flavour and mechanical component
+- Will be a guiding principle for future design decisions
+- For flavour and tone, reference works can be useful
+
+Step 2: Art Hunting
+
+- Art hunting takes a while and I'm not great at it
+- I recommend Artstation
+- Good to start early so you know what veins are deep and what are sparse
+- And because art tuns over over time
+- Need about 400 total, so start early
+
+Step 3: Mechanics
+
+- Refer to that one excellent article
+- Also makes sure to have different types of mechanics on the taxonomy to spread out design space
+- Mechanics are the most constrained part of design, so important to do this first 
+
+Step 4: Archetypes and Themes
+
+- Why do sets have 2-color archetypes
+- 1: Give drafters direction
+- 2: Give set identity to inspire and justify designs
+- 3: Make things easier to remember
+
+A good archetype
+- Is a functional deck
+- It is clear what cards go in it
+- It has cards that it wants more than other decks
+
+- The most common mistake I see is archetypes without mechanics or mechanics without raison d'etre
+
+Step 5: Commons
+
+- Common extended skeleton
+- 4 to 1 ratio
+- Start with the most constrained slots first
+
+Step 6: Uncommons
+
+- Similar extended skeleton
+- As, Bs, and Cs
+
+Step 7: Rares
+
+- These will happen naturally
+- Constructed requirements
+
+Step 8: Iteration
+
+-  The longest part

@@ -1,0 +1,3102 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Street Eulogist",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Elf Cleric ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/30_Street Eulogist.png"
+			}
+		},
+		{
+			"name": "Ephebic Phantom",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Spirit ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/4_Ephebic Phantom.png"
+			}
+		},
+		{
+			"name": "Proper Presentation",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/22_Proper Presentation.png"
+			}
+		},
+		{
+			"name": "Uptight Dancer",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Scion ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/34_Uptight Dancer.png"
+			}
+		},
+		{
+			"name": "Pinion-Clad Exile",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Horror ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/18_Pinion-Clad Exile.png"
+			}
+		},
+		{
+			"name": "Spry Matron",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Elder ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/29_Spry Matron.png"
+			}
+		},
+		{
+			"name": "Syringe of Convenience",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/32_Syringe of Convenience.png"
+			}
+		},
+		{
+			"name": "Porcelain Outcasts",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/20_Porcelain Outcasts.png"
+			}
+		},
+		{
+			"name": "Postmaster Specific",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/21_Postmaster Specific.png"
+			}
+		},
+		{
+			"name": "Fogtide Redeemer",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Spirit ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/6_Fogtide Redeemer.png"
+			}
+		},
+		{
+			"name": "Winslip Vanguard",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Human Mercenary ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/37_Winslip Vanguard.png"
+			}
+		},
+		{
+			"name": "League Intervention",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/14_League Intervention.png"
+			}
+		},
+		{
+			"name": "Icy Reception",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/11_Icy Reception.png"
+			}
+		},
+		{
+			"name": "Play With Dolls",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/19_Play With Dolls.png"
+			}
+		},
+		{
+			"name": "Sudden Melancholy",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/31_Sudden Melancholy.png"
+			}
+		},
+		{
+			"name": "Impossible Visitor",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/54_Impossible Visitor.png"
+			}
+		},
+		{
+			"name": "Loose Balloonist",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/59_Loose Balloonist.png"
+			}
+		},
+		{
+			"name": "Affordable Astrologer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/38_Affordable Astrologer.png"
+			}
+		},
+		{
+			"name": "Reclusive Visionary",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Goblin Wizard ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/65_Reclusive Visionary.png"
+			}
+		},
+		{
+			"name": "Occult Investigator",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Detective ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/61_Occult Investigator.png"
+			}
+		},
+		{
+			"name": "Uncouth Element",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/72_Uncouth Element.png"
+			}
+		},
+		{
+			"name": "Dusky Procession",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/50_Dusky Procession.png"
+			}
+		},
+		{
+			"name": "Serpentine Deacon",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Human Snake Cleric ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/67_Serpentine Deacon.png"
+			}
+		},
+		{
+			"name": "Well-Bred Vampire",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Vampire ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/74_Well-Bred Vampire.png"
+			}
+		},
+		{
+			"name": "Concentrate",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/43_Concentrate.png"
+			}
+		},
+		{
+			"name": "Sunken Study",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/70_Sunken Study.png"
+			}
+		},
+		{
+			"name": "The Past Beckons",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/62_The Past Beckons.png"
+			}
+		},
+		{
+			"name": "Unlikely Fling",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/73_Unlikely Fling.png"
+			}
+		},
+		{
+			"name": "Twas Not To Be",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/71_Twas Not To Be.png"
+			}
+		},
+		{
+			"name": "Inexplicable Illness",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/56_Inexplicable Illness.png"
+			}
+		},
+		{
+			"name": "Rite of the Rose",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/98_Rite of the Rose.png"
+			}
+		},
+		{
+			"name": "Undying Beggar",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/107_Undying Beggar.png"
+			}
+		},
+		{
+			"name": "Uncanny Chef",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/105_Uncanny Chef.png"
+			}
+		},
+		{
+			"name": "Unloved Mannequin",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/109_Unloved Mannequin.png"
+			}
+		},
+		{
+			"name": "Beckoning Bard",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror Bard ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/76_Beckoning Bard.png"
+			}
+		},
+		{
+			"name": "Scroll-Draped Seer",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Zombie Wizard ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/100_Scroll-Draped Seer.png"
+			}
+		},
+		{
+			"name": "Fly By Midnight",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/85_Fly By Midnight.png"
+			}
+		},
+		{
+			"name": "Misty Revenant",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Horror ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/91_Misty Revenant.png"
+			}
+		},
+		{
+			"name": "Dreadchant's Victim",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Noble Horror ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/81_Dreadchant's Victim.png"
+			}
+		},
+		{
+			"name": "Duress",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/82_Duress.png"
+			}
+		},
+		{
+			"name": "Excoriate",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/84_Excoriate.png"
+			}
+		},
+		{
+			"name": "Superior's Siphon",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/103_Superior's Siphon.png"
+			}
+		},
+		{
+			"name": "Dance with Death",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/79_Dance with Death.png"
+			}
+		},
+		{
+			"name": "Unexpected Fangs",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/108_Unexpected Fangs.png"
+			}
+		},
+		{
+			"name": "Read the Bones",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/96_Read the Bones.png"
+			}
+		},
+		{
+			"name": "Dashing Ringmaster",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/119_Dashing Ringmaster.png"
+			}
+		},
+		{
+			"name": "Novice Bloodsucker",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Vampire Scion ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/132_Novice Bloodsucker.png"
+			}
+		},
+		{
+			"name": "Manic Scrivener",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/128_Manic Scrivener.png"
+			}
+		},
+		{
+			"name": "Clockwork Concertists",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/115_Clockwork Concertists.png"
+			}
+		},
+		{
+			"name": "Webtaken Virtuoso",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Spider Human Bard ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/148_Webtaken Virtuoso.png"
+			}
+		},
+		{
+			"name": "Impudent Scion",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Scion ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/125_Impudent Scion.png"
+			}
+		},
+		{
+			"name": "Crystal Spires Cardsharp",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elf Citizen ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/117_Crystal Spires Cardsharp.png"
+			}
+		},
+		{
+			"name": "Crazed Arsonist",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/116_Crazed Arsonist.png"
+			}
+		},
+		{
+			"name": "Rambaldi's Ripper",
+			"rarity": "common",
+			"mana_cost": "{6}{R}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/134_Rambaldi's Ripper.png"
+			}
+		},
+		{
+			"name": "Scarlet Reminiscence",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/140_Scarlet Reminiscence.png"
+			}
+		},
+		{
+			"name": "Public Disfavor",
+			"rarity": "common",
+			"mana_cost": "{X}{R}",
+			"type": "Instant",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/133_Public Disfavor.png"
+			}
+		},
+		{
+			"name": "Strangle",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/143_Strangle.png"
+			}
+		},
+		{
+			"name": "Messy Altercation",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/130_Messy Altercation.png"
+			}
+		},
+		{
+			"name": "Dream of Immolation",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/120_Dream of Immolation.png"
+			}
+		},
+		{
+			"name": "Masquerade Ready",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/129_Masquerade Ready.png"
+			}
+		},
+		{
+			"name": "Cryptobotanist",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/152_Cryptobotanist.png"
+			}
+		},
+		{
+			"name": "Elvish Mystic",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/156_Elvish Mystic.png"
+			}
+		},
+		{
+			"name": "Fidgety Physician",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Goblin Cleric ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/157_Fidgety Physician.png"
+			}
+		},
+		{
+			"name": "Generous Host",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/159_Generous Host.png"
+			}
+		},
+		{
+			"name": "Undercity Baron",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Spider Noble ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/181_Undercity Baron.png"
+			}
+		},
+		{
+			"name": "Brotherhood Fiddler",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/149_Brotherhood Fiddler.png"
+			}
+		},
+		{
+			"name": "Dress to the Nines",
+			"rarity": "common",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/155_Dress to the Nines.png"
+			}
+		},
+		{
+			"name": "Sonorous Terror",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Horror ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/176_Sonorous Terror.png"
+			}
+		},
+		{
+			"name": "Foretimes Herald",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Elf Avatar Druid ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/158_Foretimes Herald.png"
+			}
+		},
+		{
+			"name": "Unearthed Captain",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Horror ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/182_Unearthed Captain.png"
+			}
+		},
+		{
+			"name": "Take the Shot",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/178_Take the Shot.png"
+			}
+		},
+		{
+			"name": "Torchlit Confrontation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/180_Torchlit Confrontation.png"
+			}
+		},
+		{
+			"name": "Snakeskin Veil",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/174_Snakeskin Veil.png"
+			}
+		},
+		{
+			"name": "Rooted Rapture",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/169_Rooted Rapture.png"
+			}
+		},
+		{
+			"name": "Memorialize",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/165_Memorialize.png"
+			}
+		},
+		{
+			"name": "Garden Doll",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/219_Garden Doll.png"
+			}
+		},
+		{
+			"name": "Dressup Helper",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/218_Dressup Helper.png"
+			}
+		},
+		{
+			"name": "Concealed Dagger",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/217_Concealed Dagger.png"
+			}
+		},
+		{
+			"name": "Scion's Substitute",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/225_Scion's Substitute.png"
+			}
+		},
+		{
+			"name": "Sanguine Font",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/224_Sanguine Font.png"
+			}
+		},
+		{
+			"name": "Esoteric Institute",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/233_Esoteric Institute.png"
+			}
+		},
+		{
+			"name": "Riverside View",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/250_Riverside View.png"
+			}
+		},
+		{
+			"name": "Dubious Path",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/247_Dubious Path.png"
+			}
+		},
+		{
+			"name": "Decadent Hall",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/244_Decadent Hall.png"
+			}
+		},
+		{
+			"name": "Secluded Farmland",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/251_Secluded Farmland.png"
+			}
+		},
+		{
+			"name": "Thriving Tower",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/252_Thriving Tower.png"
+			}
+		},
+		{
+			"name": "Downtown Theater",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/246_Downtown Theater.png"
+			}
+		},
+		{
+			"name": "Reliable Market",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/249_Reliable Market.png"
+			}
+		},
+		{
+			"name": "Disturbing Locale",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/245_Disturbing Locale.png"
+			}
+		},
+		{
+			"name": "Impressive Skyline",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/248_Impressive Skyline.png"
+			}
+		},
+		{
+			"name": "Beloved Chapel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/243_Beloved Chapel.png"
+			}
+		},
+		{
+			"name": "Enraptured Medium",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/197_Enraptured Medium.png"
+			}
+		},
+		{
+			"name": "Rewrite",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/208_Rewrite.png"
+			}
+		},
+		{
+			"name": "Elegy Procession",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/196_Elegy Procession.png"
+			}
+		},
+		{
+			"name": "Preserved Gentleman",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Zombie Citizen ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/207_Preserved Gentleman.png"
+			}
+		},
+		{
+			"name": "Thoughtstab Wretch",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/214_Thoughtstab Wretch.png"
+			}
+		},
+		{
+			"name": "Lost Sun's Reach",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/204_Lost Sun's Reach.png"
+			}
+		},
+		{
+			"name": "Sunset Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}{G}",
+			"type": "Creature",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/213_Sunset Dancer.png"
+			}
+		},
+		{
+			"name": "Staff of Beast's Blood",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Artifact",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/212_Staff of Beast's Blood.png"
+			}
+		},
+		{
+			"name": "Kindly Moonchosen",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/202_Kindly Moonchosen.png"
+			}
+		},
+		{
+			"name": "Song of Sealing",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/211_Song of Sealing.png"
+			}
+		},
+		{
+			"name": "A Dance Not To Be Missed",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Instant",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/191_A Dance Not To Be Missed.png"
+			}
+		},
+		{
+			"name": "Corrupt Deacon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/190_Corrupt Deacon.png"
+			}
+		},
+		{
+			"name": "Duke of Crowns",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Horror Mercenary ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/193_Duke of Crowns.png"
+			}
+		},
+		{
+			"name": "Skeletal Effigy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Artifact",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/210_Skeletal Effigy.png"
+			}
+		},
+		{
+			"name": "Hermit of Curatives",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/200_Hermit of Curatives.png"
+			}
+		},
+		{
+			"name": "Dreams of Eternity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Instant",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/192_Dreams of Eternity.png"
+			}
+		},
+		{
+			"name": "Precocious Playmate",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Human Horror Scion ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/206_Precocious Playmate.png"
+			}
+		},
+		{
+			"name": "Lovely Nightmares",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/205_Lovely Nightmares.png"
+			}
+		},
+		{
+			"name": "Haunting in the Cellar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/199_Haunting in the Cellar.png"
+			}
+		},
+		{
+			"name": "Blood Dancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/188_Blood Dancer.png"
+			}
+		},
+		{
+			"name": "Darling Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/2_Darling Dealer.png"
+			}
+		},
+		{
+			"name": "Hallahan Gatecrasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Scion ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/9_Hallahan Gatecrasher.png"
+			}
+		},
+		{
+			"name": "Temperance Deaconess",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/33_Temperance Deaconess.png"
+			}
+		},
+		{
+			"name": "Waxen Widow",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/36_Waxen Widow.png"
+			}
+		},
+		{
+			"name": "Exorcise",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/5_Exorcise.png"
+			}
+		},
+		{
+			"name": "Soaring Pirouette",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/27_Soaring Pirouette.png"
+			}
+		},
+		{
+			"name": "Illuminated Gramophone",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/12_Illuminated Gramophone.png"
+			}
+		},
+		{
+			"name": "Gaunt Landscapist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Scion ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/8_Gaunt Landscapist.png"
+			}
+		},
+		{
+			"name": "Silent Speaker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Horror Druid ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/25_Silent Speaker.png"
+			}
+		},
+		{
+			"name": "Orphan Beckoners",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Rebel ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/17_Orphan Beckoners.png"
+			}
+		},
+		{
+			"name": "Imperturbable Matron",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/13_Imperturbable Matron.png"
+			}
+		},
+		{
+			"name": "Make Presentable",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/15_Make Presentable.png"
+			}
+		},
+		{
+			"name": "Full Service",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/7_Full Service.png"
+			}
+		},
+		{
+			"name": "Hear the Chimes",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/10_Hear the Chimes.png"
+			}
+		},
+		{
+			"name": "Persitent Haunting",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/64_Persitent Haunting.png"
+			}
+		},
+		{
+			"name": "Hillsbury Inn Watcher",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/52_Hillsbury Inn Watcher.png"
+			}
+		},
+		{
+			"name": "Disappearing Actor",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/45_Disappearing Actor.png"
+			}
+		},
+		{
+			"name": "Cellar Prophet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Spirit Warlock Advisor ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/41_Cellar Prophet.png"
+			}
+		},
+		{
+			"name": "Duplicitous Conversation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/49_Duplicitous Conversation.png"
+			}
+		},
+		{
+			"name": "Stay Smiling",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/69_Stay Smiling.png"
+			}
+		},
+		{
+			"name": "Dream in Triples",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/47_Dream in Triples.png"
+			}
+		},
+		{
+			"name": "Impossible Aparattus",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/53_Impossible Aparattus.png"
+			}
+		},
+		{
+			"name": "Let Them Down Easy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/58_Let Them Down Easy.png"
+			}
+		},
+		{
+			"name": "Brimtouched Burglar",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Azra Rogue ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/40_Brimtouched Burglar.png"
+			}
+		},
+		{
+			"name": "Smogton Abductors",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Faerie ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/68_Smogton Abductors.png"
+			}
+		},
+		{
+			"name": "In-Demand Madman",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/55_In-Demand Madman.png"
+			}
+		},
+		{
+			"name": "College of Symmetries Tutor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard Noble ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/42_College of Symmetries Tutor.png"
+			}
+		},
+		{
+			"name": "Bribe the Right Someone",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Instant",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/39_Bribe the Right Someone.png"
+			}
+		},
+		{
+			"name": "Black Iris Visitation",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/78_Black Iris Visitation.png"
+			}
+		},
+		{
+			"name": "Overwhelm with Insight",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/94_Overwhelm with Insight.png"
+			}
+		},
+		{
+			"name": "Undertaker's Cudgel",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/106_Undertaker's Cudgel.png"
+			}
+		},
+		{
+			"name": "Heed Love's Call",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/87_Heed Love's Call.png"
+			}
+		},
+		{
+			"name": "Scholar of Parasites",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/99_Scholar of Parasites.png"
+			}
+		},
+		{
+			"name": "One Terrible Night",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/93_One Terrible Night.png"
+			}
+		},
+		{
+			"name": "Mire Maiden's Request",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/90_Mire Maiden's Request.png"
+			}
+		},
+		{
+			"name": "Spirit's Advocate",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/102_Spirit's Advocate.png"
+			}
+		},
+		{
+			"name": "Young Necronihilist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Vampire Warlock ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/111_Young Necronihilist.png"
+			}
+		},
+		{
+			"name": "Generous Gadabout",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/86_Generous Gadabout.png"
+			}
+		},
+		{
+			"name": "Bad Influence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Warlock ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/75_Bad Influence.png"
+			}
+		},
+		{
+			"name": "What Grandpa Became",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Horror Noble ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/110_What Grandpa Became.png"
+			}
+		},
+		{
+			"name": "End",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/83_End.png"
+			}
+		},
+		{
+			"name": "Initiation Into Fear",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/88_Initiation Into Fear.png"
+			}
+		},
+		{
+			"name": "Joyful Conflagration",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/126_Joyful Conflagration.png"
+			}
+		},
+		{
+			"name": "Gifted Proprietress",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/122_Gifted Proprietress.png"
+			}
+		},
+		{
+			"name": "Bleeding Saviour",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Angel Horror ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/113_Bleeding Saviour.png"
+			}
+		},
+		{
+			"name": "Burning Memories",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/114_Burning Memories.png"
+			}
+		},
+		{
+			"name": "Moment of Connection",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/131_Moment of Connection.png"
+			}
+		},
+		{
+			"name": "Acclaimed Daredevil",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/112_Acclaimed Daredevil.png"
+			}
+		},
+		{
+			"name": "Wall of Ravings",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Wall ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/147_Wall of Ravings.png"
+			}
+		},
+		{
+			"name": "Recurring Velveteen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Horror Warrior ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/135_Recurring Velveteen.png"
+			}
+		},
+		{
+			"name": "Lacquer School Memento",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/127_Lacquer School Memento.png"
+			}
+		},
+		{
+			"name": "Renegade Clotweaver",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/136_Renegade Clotweaver.png"
+			}
+		},
+		{
+			"name": "Sanguine Effusion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/138_Sanguine Effusion.png"
+			}
+		},
+		{
+			"name": "Untimely Locomotive",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Vehicle ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/144_Untimely Locomotive.png"
+			}
+		},
+		{
+			"name": "Star-Crossed Pair",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Merfolk ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/142_Star-Crossed Pair.png"
+			}
+		},
+		{
+			"name": "Flaming Immersion",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/121_Flaming Immersion.png"
+			}
+		},
+		{
+			"name": "Disgraced Apothecary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/154_Disgraced Apothecary.png"
+			}
+		},
+		{
+			"name": "Crystal Spires Huntress",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Ranger ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/153_Crystal Spires Huntress.png"
+			}
+		},
+		{
+			"name": "Ghoul of Whit Street",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Zombie Horror ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/160_Ghoul of Whit Street.png"
+			}
+		},
+		{
+			"name": "Second Chair Drowned",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Skeleton Bard ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/170_Second Chair Drowned.png"
+			}
+		},
+		{
+			"name": "Slayer's Calling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/173_Slayer's Calling.png"
+			}
+		},
+		{
+			"name": "Unkillable Profusion",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/183_Unkillable Profusion.png"
+			}
+		},
+		{
+			"name": "Green Skies Channeler",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/161_Green Skies Channeler.png"
+			}
+		},
+		{
+			"name": "Masksmith",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/164_Masksmith.png"
+			}
+		},
+		{
+			"name": "Social Climber",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Spider Noble ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/175_Social Climber.png"
+			}
+		},
+		{
+			"name": "Canal Conglomeration",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/150_Canal Conglomeration.png"
+			}
+		},
+		{
+			"name": "Hunting Season",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/162_Hunting Season.png"
+			}
+		},
+		{
+			"name": "Open Invitation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/166_Open Invitation.png"
+			}
+		},
+		{
+			"name": "Could We Ever Be Together",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/151_Could We Ever Be Together.png"
+			}
+		},
+		{
+			"name": "Paradise Talisman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/167_Paradise Talisman.png"
+			}
+		},
+		{
+			"name": "Pocket Armillary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/221_Pocket Armillary.png"
+			}
+		},
+		{
+			"name": "Candid Camera",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/216_Candid Camera.png"
+			}
+		},
+		{
+			"name": "Porcelain Prototype",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/222_Porcelain Prototype.png"
+			}
+		},
+		{
+			"name": "Sackcloth Companion",
+			"rarity": "uncommon",
+			"mana_cost": "{0}",
+			"type": "Artifact Creature — Toy ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/223_Sackcloth Companion.png"
+			}
+		},
+		{
+			"name": "Gilded Flintlock",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/220_Gilded Flintlock.png"
+			}
+		},
+		{
+			"name": "Cordial Hall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/229_Cordial Hall.png"
+			}
+		},
+		{
+			"name": "Discreet Hall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/231_Discreet Hall.png"
+			}
+		},
+		{
+			"name": "Ambitious Hall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/226_Ambitious Hall.png"
+			}
+		},
+		{
+			"name": "Breathtaking Hall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/228_Breathtaking Hall.png"
+			}
+		},
+		{
+			"name": "Echoing Hall",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/232_Echoing Hall.png"
+			}
+		},
+		{
+			"name": "The Ivory Dollmaker",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Artifact Creature — Toy ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/201_The Ivory Dollmaker.png"
+			}
+		},
+		{
+			"name": "The Second Madness",
+			"rarity": "rare",
+			"mana_cost": "{5}{U}{B}",
+			"type": "Legendary Creature — Horror ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/209_The Second Madness.png"
+			}
+		},
+		{
+			"name": "Xolier of the Stylish Entrance",
+			"rarity": "rare",
+			"mana_cost": "{B}{R}",
+			"type": "Legendary Creature — Human Scion ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/215_Xolier of the Stylish Entrance.png"
+			}
+		},
+		{
+			"name": "The Attended Serpent",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{G}",
+			"type": "Legendary Creature — Snake Mercenary ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/187_The Attended Serpent.png"
+			}
+		},
+		{
+			"name": "Faith Winslip, Riflehearted",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/198_Faith Winslip, Riflehearted.png"
+			}
+		},
+		{
+			"name": "Carize, Death's Editor",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/189_Carize, Death's Editor.png"
+			}
+		},
+		{
+			"name": "Limor, Etiquette Enforcer",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Human Druid ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/203_Limor, Etiquette Enforcer.png"
+			}
+		},
+		{
+			"name": "Eath of the Forgotten Moon",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/194_Eath of the Forgotten Moon.png"
+			}
+		},
+		{
+			"name": "Edward, Thief of Futures",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Rogue ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/195_Edward, Thief of Futures.png"
+			}
+		},
+		{
+			"name": "The Ambergris Chorus",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Elf Monk ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/186_The Ambergris Chorus.png"
+			}
+		},
+		{
+			"name": "Sovereign of Silence",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Spirit Cleric ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/28_Sovereign of Silence.png"
+			}
+		},
+		{
+			"name": "Dollmaker's Refrain",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/3_Dollmaker's Refrain.png"
+			}
+		},
+		{
+			"name": "Vault of Forgeries",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/35_Vault of Forgeries.png"
+			}
+		},
+		{
+			"name": "Slate Mask",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/26_Slate Mask.png"
+			}
+		},
+		{
+			"name": "Selthriel, Chained Seraph",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Legendary Creature — Angel Rebel ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/23_Selthriel, Chained Seraph.png"
+			}
+		},
+		{
+			"name": "Shutter and Bury",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/24_Shutter and Bury.png"
+			}
+		},
+		{
+			"name": "Only Eyes For Each Other",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/16_Only Eyes For Each Other.png"
+			}
+		},
+		{
+			"name": "Brimtouched Chaplain",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Azra Cleric ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/1_Brimtouched Chaplain.png"
+			}
+		},
+		{
+			"name": "Mr. Hours, Pseudarchivist",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/60_Mr. Hours, Pseudarchivist.png"
+			}
+		},
+		{
+			"name": "Disgorger of Suns",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Horror ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/46_Disgorger of Suns.png"
+			}
+		},
+		{
+			"name": "Half-Breed Scion",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Faerie Scion ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/51_Half-Breed Scion.png"
+			}
+		},
+		{
+			"name": "Jester's Refrain",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/57_Jester's Refrain.png"
+			}
+		},
+		{
+			"name": "Drownborough's Grasp",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/48_Drownborough's Grasp.png"
+			}
+		},
+		{
+			"name": "Perfected Soloist",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/63_Perfected Soloist.png"
+			}
+		},
+		{
+			"name": "Defy the Cosmos",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/44_Defy the Cosmos.png"
+			}
+		},
+		{
+			"name": "Secret Eater",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Horror Warlock ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/66_Secret Eater.png"
+			}
+		},
+		{
+			"name": "Shade of Impending Doom",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Shade ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/101_Shade of Impending Doom.png"
+			}
+		},
+		{
+			"name": "Lucid Judge",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/89_Lucid Judge.png"
+			}
+		},
+		{
+			"name": "Tome of Toxins",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Artifact",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/104_Tome of Toxins.png"
+			}
+		},
+		{
+			"name": "Mortician's Refrain",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/92_Mortician's Refrain.png"
+			}
+		},
+		{
+			"name": "Penitent Poacher",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Mercenary ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/95_Penitent Poacher.png"
+			}
+		},
+		{
+			"name": "Bianco, Midnight's Host",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Human Noble ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/77_Bianco, Midnight's Host.png"
+			}
+		},
+		{
+			"name": "Debt Long Buried",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/80_Debt Long Buried.png"
+			}
+		},
+		{
+			"name": "Revoke Name",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/97_Revoke Name.png"
+			}
+		},
+		{
+			"name": "Highborn Dragoness",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon Noble ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/124_Highborn Dragoness.png"
+			}
+		},
+		{
+			"name": "Upending of Order",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/145_Upending of Order.png"
+			}
+		},
+		{
+			"name": "Culvert Babbler",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Horror Zombie ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/118_Culvert Babbler.png"
+			}
+		},
+		{
+			"name": "The Scarlet Lady",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Azra Noble ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/139_The Scarlet Lady.png"
+			}
+		},
+		{
+			"name": "Silver Shackle Initiation",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Enchantment",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/141_Silver Shackle Initiation.png"
+			}
+		},
+		{
+			"name": "Velvet Glove Exile",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Horror Rebel ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/146_Velvet Glove Exile.png"
+			}
+		},
+		{
+			"name": "Ringmaster's Refrain",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/137_Ringmaster's Refrain.png"
+			}
+		},
+		{
+			"name": "Girl in the Phoenix Dress",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Phoenix Bard ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/123_Girl in the Phoenix Dress.png"
+			}
+		},
+		{
+			"name": "Silkless Marionette",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Spider Toy ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/172_Silkless Marionette.png"
+			}
+		},
+		{
+			"name": "Vesperine Abductor",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/185_Vesperine Abductor.png"
+			}
+		},
+		{
+			"name": "Sensible Summoning",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/171_Sensible Summoning.png"
+			}
+		},
+		{
+			"name": "Unnatural Encounter",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/184_Unnatural Encounter.png"
+			}
+		},
+		{
+			"name": "Stoic Centerpiece",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Artifact Creature — Statue ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/177_Stoic Centerpiece.png"
+			}
+		},
+		{
+			"name": "Taxidermist's Refrain",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/179_Taxidermist's Refrain.png"
+			}
+		},
+		{
+			"name": "Kaxyl, the Last Faun",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}{G}",
+			"type": "Legendary Creature — Satyr Bard ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/163_Kaxyl, the Last Faun.png"
+			}
+		},
+		{
+			"name": "Picky Horticulturalist",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/168_Picky Horticulturalist.png"
+			}
+		},
+		{
+			"name": "Spectral Address",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/238_Spectral Address.png"
+			}
+		},
+		{
+			"name": "Sunken Laboratory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/240_Sunken Laboratory.png"
+			}
+		},
+		{
+			"name": "Cosmic Observatory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/230_Cosmic Observatory.png"
+			}
+		},
+		{
+			"name": "Opulent Chamber",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/234_Opulent Chamber.png"
+			}
+		},
+		{
+			"name": "Secluded Vista",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/236_Secluded Vista.png"
+			}
+		},
+		{
+			"name": "Unsettling Abbey",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/242_Unsettling Abbey.png"
+			}
+		},
+		{
+			"name": "Rotting Dreamscape",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/235_Rotting Dreamscape.png"
+			}
+		},
+		{
+			"name": "Backstreet Apothecary",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/227_Backstreet Apothecary.png"
+			}
+		},
+		{
+			"name": "Twisted Sewer",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/241_Twisted Sewer.png"
+			}
+		},
+		{
+			"name": "Smoky Parlour",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/237_Smoky Parlour.png"
+			}
+		},
+		{
+			"name": "Stage of Endless Possibilities",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/239_Stage of Endless Possibilities.png"
+			}
+		},
+		{
+			"name": "Toy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Toy ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/7_Toy.png"
+			}
+		},
+		{
+			"name": "Spirit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Spirit ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/3_Spirit.png"
+			}
+		},
+		{
+			"name": "Horror",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Horror ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/4_Horror.png"
+			}
+		},
+		{
+			"name": "Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Beast ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/5_Beast.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/8_Treasure.png"
+			}
+		},
+		{
+			"name": "The Winslip Special",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Legendary Artifact — Equipment ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/9_The Winslip Special.png"
+			}
+		},
+		{
+			"name": "Verse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/6_Verse.png"
+			}
+		},
+		{
+			"name": "Veiled Creature",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/2_Veiled Creature.png"
+			}
+		},
+		{
+			"name": "Seen In Visions",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BAV-files/img/1_Seen In Visions.png"
+			}
+		}
+	]
+[RareSlot(1)]
+2 The Ivory Dollmaker
+2 The Second Madness
+2 Xolier of the Stylish Entrance
+2 The Attended Serpent
+2 Faith Winslip, Riflehearted
+2 Carize, Death's Editor
+2 Limor, Etiquette Enforcer
+2 Eath of the Forgotten Moon
+2 Edward, Thief of Futures
+2 The Ambergris Chorus
+2 Sovereign of Silence
+2 Dollmaker's Refrain
+2 Vault of Forgeries
+2 Slate Mask
+2 Selthriel, Chained Seraph
+2 Shutter and Bury
+2 Only Eyes For Each Other
+2 Brimtouched Chaplain
+2 Mr. Hours, Pseudarchivist
+2 Disgorger of Suns
+2 Half-Breed Scion
+2 Jester's Refrain
+2 Drownborough's Grasp
+2 Perfected Soloist
+2 Defy the Cosmos
+2 Secret Eater
+2 Shade of Impending Doom
+2 Lucid Judge
+2 Tome of Toxins
+2 Mortician's Refrain
+2 Penitent Poacher
+2 Bianco, Midnight's Host
+2 Debt Long Buried
+2 Revoke Name
+2 Highborn Dragoness
+2 Upending of Order
+2 Culvert Babbler
+2 The Scarlet Lady
+2 Silver Shackle Initiation
+2 Velvet Glove Exile
+2 Ringmaster's Refrain
+2 Girl in the Phoenix Dress
+2 Silkless Marionette
+2 Vesperine Abductor
+2 Sensible Summoning
+2 Unnatural Encounter
+2 Stoic Centerpiece
+2 Taxidermist's Refrain
+2 Kaxyl, the Last Faun
+2 Picky Horticulturalist
+2 Spectral Address
+2 Sunken Laboratory
+2 Cosmic Observatory
+2 Opulent Chamber
+2 Secluded Vista
+2 Unsettling Abbey
+2 Rotting Dreamscape
+2 Backstreet Apothecary
+2 Twisted Sewer
+2 Smoky Parlour
+2 Stage of Endless Possibilities
+[UncommonSlot(3)]
+9 Enraptured Medium
+9 Rewrite
+9 Elegy Procession
+9 Preserved Gentleman
+9 Thoughtstab Wretch
+9 Lost Sun's Reach
+9 Sunset Dancer
+9 Staff of Beast's Blood
+9 Kindly Moonchosen
+9 Song of Sealing
+9 A Dance Not To Be Missed
+9 Corrupt Deacon
+9 Duke of Crowns
+9 Skeletal Effigy
+9 Hermit of Curatives
+9 Dreams of Eternity
+9 Precocious Playmate
+9 Lovely Nightmares
+9 Haunting in the Cellar
+9 Blood Dancer
+9 Darling Dealer
+9 Hallahan Gatecrasher
+9 Temperance Deaconess
+9 Waxen Widow
+9 Exorcise
+9 Soaring Pirouette
+9 Illuminated Gramophone
+9 Gaunt Landscapist
+9 Silent Speaker
+9 Orphan Beckoners
+9 Imperturbable Matron
+9 Make Presentable
+9 Full Service
+9 Hear the Chimes
+9 Persitent Haunting
+9 Hillsbury Inn Watcher
+9 Disappearing Actor
+9 Cellar Prophet
+9 Duplicitous Conversation
+9 Stay Smiling
+9 Dream in Triples
+9 Impossible Aparattus
+9 Let Them Down Easy
+9 Brimtouched Burglar
+9 Smogton Abductors
+9 In-Demand Madman
+9 College of Symmetries Tutor
+9 Bribe the Right Someone
+9 Black Iris Visitation
+9 Overwhelm with Insight
+9 Undertaker's Cudgel
+9 Heed Love's Call
+9 Scholar of Parasites
+9 One Terrible Night
+9 Mire Maiden's Request
+9 Spirit's Advocate
+9 Young Necronihilist
+9 Generous Gadabout
+9 Bad Influence
+9 What Grandpa Became
+9 End
+9 Initiation Into Fear
+9 Joyful Conflagration
+9 Gifted Proprietress
+9 Bleeding Saviour
+9 Burning Memories
+9 Moment of Connection
+9 Acclaimed Daredevil
+9 Wall of Ravings
+9 Recurring Velveteen
+9 Lacquer School Memento
+9 Renegade Clotweaver
+9 Sanguine Effusion
+9 Untimely Locomotive
+9 Star-Crossed Pair
+9 Flaming Immersion
+9 Disgraced Apothecary
+9 Crystal Spires Huntress
+9 Ghoul of Whit Street
+9 Second Chair Drowned
+9 Slayer's Calling
+9 Unkillable Profusion
+9 Green Skies Channeler
+9 Masksmith
+9 Social Climber
+9 Canal Conglomeration
+9 Hunting Season
+9 Open Invitation
+9 Could We Ever Be Together
+9 Paradise Talisman
+9 Pocket Armillary
+9 Candid Camera
+9 Porcelain Prototype
+9 Sackcloth Companion
+9 Gilded Flintlock
+9 Cordial Hall
+9 Discreet Hall
+9 Ambitious Hall
+9 Breathtaking Hall
+9 Echoing Hall
+[CommonSlot(9)]
+30 Street Eulogist
+30 Ephebic Phantom
+30 Proper Presentation
+30 Uptight Dancer
+30 Pinion-Clad Exile
+30 Spry Matron
+30 Syringe of Convenience
+30 Porcelain Outcasts
+30 Postmaster Specific
+30 Fogtide Redeemer
+30 Winslip Vanguard
+30 League Intervention
+30 Icy Reception
+30 Play With Dolls
+30 Sudden Melancholy
+30 Impossible Visitor
+30 Loose Balloonist
+30 Affordable Astrologer
+30 Reclusive Visionary
+30 Occult Investigator
+30 Uncouth Element
+30 Dusky Procession
+30 Serpentine Deacon
+30 Well-Bred Vampire
+30 Concentrate
+30 Sunken Study
+30 The Past Beckons
+30 Unlikely Fling
+30 Twas Not To Be
+30 Inexplicable Illness
+30 Rite of the Rose
+30 Undying Beggar
+30 Uncanny Chef
+30 Unloved Mannequin
+30 Beckoning Bard
+30 Scroll-Draped Seer
+30 Fly By Midnight
+30 Misty Revenant
+30 Dreadchant's Victim
+30 Duress
+30 Excoriate
+30 Superior's Siphon
+30 Dance with Death
+30 Unexpected Fangs
+30 Read the Bones
+30 Dashing Ringmaster
+30 Novice Bloodsucker
+30 Manic Scrivener
+30 Clockwork Concertists
+30 Webtaken Virtuoso
+30 Impudent Scion
+30 Crystal Spires Cardsharp
+30 Crazed Arsonist
+30 Rambaldi's Ripper
+30 Scarlet Reminiscence
+30 Public Disfavor
+30 Strangle
+30 Messy Altercation
+30 Dream of Immolation
+30 Masquerade Ready
+30 Cryptobotanist
+30 Elvish Mystic
+30 Fidgety Physician
+30 Generous Host
+30 Undercity Baron
+30 Brotherhood Fiddler
+30 Dress to the Nines
+30 Sonorous Terror
+30 Foretimes Herald
+30 Unearthed Captain
+30 Take the Shot
+30 Torchlit Confrontation
+30 Snakeskin Veil
+30 Rooted Rapture
+30 Memorialize
+30 Garden Doll
+30 Dressup Helper
+30 Concealed Dagger
+30 Scion's Substitute
+30 Sanguine Font
+30 Esoteric Institute
+[WildcardSlot(2)]
+10 Street Eulogist
+10 Ephebic Phantom
+10 Proper Presentation
+10 Uptight Dancer
+10 Pinion-Clad Exile
+10 Spry Matron
+10 Syringe of Convenience
+10 Porcelain Outcasts
+10 Postmaster Specific
+10 Fogtide Redeemer
+10 Winslip Vanguard
+10 League Intervention
+10 Icy Reception
+10 Play With Dolls
+10 Sudden Melancholy
+10 Impossible Visitor
+10 Loose Balloonist
+10 Affordable Astrologer
+10 Reclusive Visionary
+10 Occult Investigator
+10 Uncouth Element
+10 Dusky Procession
+10 Serpentine Deacon
+10 Well-Bred Vampire
+10 Concentrate
+10 Sunken Study
+10 The Past Beckons
+10 Unlikely Fling
+10 Twas Not To Be
+10 Inexplicable Illness
+10 Rite of the Rose
+10 Undying Beggar
+10 Uncanny Chef
+10 Unloved Mannequin
+10 Beckoning Bard
+10 Scroll-Draped Seer
+10 Fly By Midnight
+10 Misty Revenant
+10 Dreadchant's Victim
+10 Duress
+10 Excoriate
+10 Superior's Siphon
+10 Dance with Death
+10 Unexpected Fangs
+10 Read the Bones
+10 Dashing Ringmaster
+10 Novice Bloodsucker
+10 Manic Scrivener
+10 Clockwork Concertists
+10 Webtaken Virtuoso
+10 Impudent Scion
+10 Crystal Spires Cardsharp
+10 Crazed Arsonist
+10 Rambaldi's Ripper
+10 Scarlet Reminiscence
+10 Public Disfavor
+10 Strangle
+10 Messy Altercation
+10 Dream of Immolation
+10 Masquerade Ready
+10 Cryptobotanist
+10 Elvish Mystic
+10 Fidgety Physician
+10 Generous Host
+10 Undercity Baron
+10 Brotherhood Fiddler
+10 Dress to the Nines
+10 Sonorous Terror
+10 Foretimes Herald
+10 Unearthed Captain
+10 Take the Shot
+10 Torchlit Confrontation
+10 Snakeskin Veil
+10 Rooted Rapture
+10 Memorialize
+10 Garden Doll
+10 Dressup Helper
+10 Concealed Dagger
+10 Scion's Substitute
+10 Sanguine Font
+10 Esoteric Institute
+10 Enraptured Medium
+10 Rewrite
+10 Elegy Procession
+10 Preserved Gentleman
+10 Thoughtstab Wretch
+10 Lost Sun's Reach
+10 Sunset Dancer
+10 Staff of Beast's Blood
+10 Kindly Moonchosen
+10 Song of Sealing
+10 A Dance Not To Be Missed
+10 Corrupt Deacon
+10 Duke of Crowns
+10 Skeletal Effigy
+10 Hermit of Curatives
+10 Dreams of Eternity
+10 Precocious Playmate
+10 Lovely Nightmares
+10 Haunting in the Cellar
+10 Blood Dancer
+10 Darling Dealer
+10 Hallahan Gatecrasher
+10 Temperance Deaconess
+10 Waxen Widow
+10 Exorcise
+10 Soaring Pirouette
+10 Illuminated Gramophone
+10 Gaunt Landscapist
+10 Silent Speaker
+10 Orphan Beckoners
+10 Imperturbable Matron
+10 Make Presentable
+10 Full Service
+10 Hear the Chimes
+10 Persitent Haunting
+10 Hillsbury Inn Watcher
+10 Disappearing Actor
+10 Cellar Prophet
+10 Duplicitous Conversation
+10 Stay Smiling
+10 Dream in Triples
+10 Impossible Aparattus
+10 Let Them Down Easy
+10 Brimtouched Burglar
+10 Smogton Abductors
+10 In-Demand Madman
+10 College of Symmetries Tutor
+10 Bribe the Right Someone
+10 Black Iris Visitation
+10 Overwhelm with Insight
+10 Undertaker's Cudgel
+10 Heed Love's Call
+10 Scholar of Parasites
+10 One Terrible Night
+10 Mire Maiden's Request
+10 Spirit's Advocate
+10 Young Necronihilist
+10 Generous Gadabout
+10 Bad Influence
+10 What Grandpa Became
+10 End
+10 Initiation Into Fear
+10 Joyful Conflagration
+10 Gifted Proprietress
+10 Bleeding Saviour
+10 Burning Memories
+10 Moment of Connection
+10 Acclaimed Daredevil
+10 Wall of Ravings
+10 Recurring Velveteen
+10 Lacquer School Memento
+10 Renegade Clotweaver
+10 Sanguine Effusion
+10 Untimely Locomotive
+10 Star-Crossed Pair
+10 Flaming Immersion
+10 Disgraced Apothecary
+10 Crystal Spires Huntress
+10 Ghoul of Whit Street
+10 Second Chair Drowned
+10 Slayer's Calling
+10 Unkillable Profusion
+10 Green Skies Channeler
+10 Masksmith
+10 Social Climber
+10 Canal Conglomeration
+10 Hunting Season
+10 Open Invitation
+10 Could We Ever Be Together
+10 Paradise Talisman
+10 Pocket Armillary
+10 Candid Camera
+10 Porcelain Prototype
+10 Sackcloth Companion
+10 Gilded Flintlock
+10 Cordial Hall
+10 Discreet Hall
+10 Ambitious Hall
+10 Breathtaking Hall
+10 Echoing Hall
+10 The Ivory Dollmaker
+10 The Second Madness
+10 Xolier of the Stylish Entrance
+10 The Attended Serpent
+10 Faith Winslip, Riflehearted
+10 Carize, Death's Editor
+10 Limor, Etiquette Enforcer
+10 Eath of the Forgotten Moon
+10 Edward, Thief of Futures
+10 The Ambergris Chorus
+10 Sovereign of Silence
+10 Dollmaker's Refrain
+10 Vault of Forgeries
+10 Slate Mask
+10 Selthriel, Chained Seraph
+10 Shutter and Bury
+10 Only Eyes For Each Other
+10 Brimtouched Chaplain
+10 Mr. Hours, Pseudarchivist
+10 Disgorger of Suns
+10 Half-Breed Scion
+10 Jester's Refrain
+10 Drownborough's Grasp
+10 Perfected Soloist
+10 Defy the Cosmos
+10 Secret Eater
+10 Shade of Impending Doom
+10 Lucid Judge
+10 Tome of Toxins
+10 Mortician's Refrain
+10 Penitent Poacher
+10 Bianco, Midnight's Host
+10 Debt Long Buried
+10 Revoke Name
+10 Highborn Dragoness
+10 Upending of Order
+10 Culvert Babbler
+10 The Scarlet Lady
+10 Silver Shackle Initiation
+10 Velvet Glove Exile
+10 Ringmaster's Refrain
+10 Girl in the Phoenix Dress
+10 Silkless Marionette
+10 Vesperine Abductor
+10 Sensible Summoning
+10 Unnatural Encounter
+10 Stoic Centerpiece
+10 Taxidermist's Refrain
+10 Kaxyl, the Last Faun
+10 Picky Horticulturalist
+10 Spectral Address
+10 Sunken Laboratory
+10 Cosmic Observatory
+10 Opulent Chamber
+10 Secluded Vista
+10 Unsettling Abbey
+10 Rotting Dreamscape
+10 Backstreet Apothecary
+10 Twisted Sewer
+10 Smoky Parlour
+10 Stage of Endless Possibilities
+[LandSlot(1)]
