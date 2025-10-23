@@ -4,61 +4,66 @@ This article outlines my process for making custom magic sets.
 
 I will be using Errors in the Weft (ERR) as an example since it's the set I spent the most time on. 
 
-Some notes:
-- I assuming you are designing a set for both draft and a constructed format. If you only care about limited, you might want to make a cube instead. If you only care about constructed, you might want to make a rarityless set or precon.
-- There are many ways to make a set; I am by no means the most experienced designer in the community. This is but one solution.
+I assuming you are designing a set for both draft and a constructed format. If you only care about limited, you might want to make a cube instead. If you only care about constructed, you might want to make a rarityless set or precon. There are many ways to make a set; I am by no means the most experienced designer in the community. This is but one solution.
 
-Step 1: Raison D'Etre
+<b>Step 1: Raison D'Etre</b>
 
-- Very short description of the set's identity
-- Must include both a flavour and mechanical component
-- Will be a guiding principle for future design decisions
-- For flavour and tone, reference works can be useful
+Before any cards get made, it's important to ask: Why are you making this set? Are you making it for a specific format or play group? WIll it be played online, or printed out, or just a display piece? Errors in the Weft was designed explicitly for Revolution Custom Standard, which narrowed certain decisions.
 
-Step 2: Art Hunting
+Beyond that, what makes this set different from other sets? A flavour description and sense of tone is useful here, but getting deep into worldbuilding at this stage is ill-advised since mechanical and art-hunting considerations will dictate a lot of what is possible. Unless you're hitting a really deep vein of flavour space, you should also have a mechanical identity. For example, this might be a mechanic you want to explore, a style of gameplay you like, or an unusual set structure you want to experiment with. ERR started with the flavourful pitch of "A failing digital utopia" and a mechanical pitch of "big creatures matter".
 
-- Art hunting takes a while and I'm not great at it
-- I recommend Artstation
-- Good to start early so you know what veins are deep and what are sparse
-- And because art tuns over over time
-- Need about 400 total, so start early
+It's worth taking some time here to get these right since they'll be a guiding principle for future design decisions. For describing flavour and tone, I've found listing three existing works of fiction that mark the boundaries of your thematic space to be useful: for ERR these were 17776, Twilight Mirage, and Transistor.
 
-Step 3: Mechanics
+<b>Step 2: Art Hunting</b>
 
-- Refer to that one excellent article
-- Also makes sure to have different types of mechanics on the taxonomy to spread out design space
-- Mechanics are the most constrained part of design, so important to do this first 
+Art hunting is hte longest and tome, the hardest part of design. You'll need ot do a lot of it, so start early. As in, before you design any cards early. There are some designers that are very good at art hunting; I'm not one of them. I usually go to Artstation and start searching keywords that mgiht connect to what I want. For ERR I started searching "extreme" and "cyber" and "solarpunk"; you'll need ot think creatively as the low-hanging fruit is exhausted. When you see something you like, save it, and go through the rest of that artist's portfolio and save all the other good-looking stuff as well. 
 
-Step 4: Archetypes and Themes
+You should start art hunting at this stage not just because it will take a long time but because what you can and can't art-hunt will inform your worldbuilding and design. ERR got a lot of bikers in part because they kept showing up in my searches; meanwhile some other ideas I just couldn't art and so were abandoned. Art also turns over in time, so spreading out your art hunt over months makes it easier. You'll need about 400 pieces minimum, so get started. 
 
-- Why do sets have 2-color archetypes
-- 1: Give drafters direction
-- 2: Give set identity to inspire and justify designs
-- 3: Make things easier to remember
+<b>Step 3: Mechanics</b>
 
-A good archetype
-- Is a functional deck
-- It is clear what cards go in it
-- It has cards that it wants more than other decks
+Designing mechanics is the most contrained part of design. There are a lot of great mechanics still out there but they're a lot sparser on the ground than good card designs. A typical set has 3-5 major mechanics. 
 
-- The most common mistake I see is archetypes without mechanics or mechanics without raison d'etre
+You want mechanics focused in a variety of colors (ideally, each color should have at least one mechanic that is heavily focused in that color). You want mechanics that can go on creatures and on noncreatures. You want mechanics that can play different roles in your set structure (https://docs.google.com/document/d/1BlG7fajvnBgdbypDq1bqM0iCqDeE-Jo9XTfkdr8CqjA/edit?tab=t.0 is an execllent article on this). You want mechanics of a variety of implementations (for example, if you have three mechanics that are all "whenever <thing happens>, <variable effect>", you'll quickly run out of repeatable triggers that make sense at common. https://docs.google.com/document/d/1zBMvmzgxIKdDxtRntJQrr8-GYAIJICIU7SHsspWp3sI/edit?usp=sharing is a guide to the different mechanic varieties). You want your mechanics to support your mechanical identity and to play well - or at least not poorly - together.
 
-Step 5: Commons
+ERR ended up with Subroutines (subtype, splash), Cache (keyword action, grease), Level Up (activated ability, combat / grease), Fabric (variable, demand), and Corrupt (threshold, demand).
 
-- Common extended skeleton
-- 4 to 1 ratio
-- Start with the most constrained slots first
+<b>Step 4: Archetypes and Themes</b>
 
-Step 6: Uncommons
+The way that wizards presents the structure of their sets is through 2-color archetypes. It's a good system, but shouldn't be followed blindly. 2-color archetypes are by no means the only way to organize a set, but they do a few nice things. They give drafters - especially drafters unfamiliar with your set - direction by giving them a clear synergy axis to build around. This makes them more likely to end up with a functional, interesting deck. Archetypes also give your set identity to inspire and justify designs. For example, the BG theme in ERR is "creatures and enchantments in graveyard". By having cards that count the number of creatures and enchantments in your yard instead of just creatures, otherwise normal effects can be made to feel like they belong. Archetypes are mainly relevant for limited but they can often inform constructed design as well.
 
-- Similar extended skeleton
-- As, Bs, and Cs
+A good 2-color archetype is not just a shared line of text; it's a functional deck with a gameplan. It should be clear which cards are meant for which archetype; these are signposts meant to guide players through your set - don't be subtle. Importantly, each archetype should have cards that it is interested in that other decks aren't. For example, "RW Aggro" is a bad archetype because the cards an aggro deck wants - cheap creatures, combat tricks - are also valuable to other limited decks.
 
-Step 7: Rares
+<b>Step 5: Commons</b>
 
-- These will happen naturally
-- Constructed requirements
+Some people do the gold uncommons (arcuns) first but I do them after commons; that's personal preference. Commons have a lot of roles to fill. You can't really design them one at a time. To start on designing commons, I start by laying out the skeleton (Maro's nuts and bolts articles have a good starting skeleton). So for white, that might look like
 
-Step 8: Iteration
+1x 1-mana creature. 2x 2-mana creature. 2x 3-mana creature. 2x 4-mana creature. 1x 5-mana creature. 3x removal spell. 1x combat trick. 1x other. (ERR has a higher curve and higher removal density for battlecruiser reasons. It also has only 13 commons per color because there are hybrid commons). 
 
--  The longest part
+There are certain requirements expected of every set. For white, those are about
+
+flying x3, vigilance x1, artifact / enchantment interaction x1, lifegain x1
+
+And then there are requirements from your themes and mechanics. 
+
+Subroutine x2, landcycling x1, cache x2, level up x2, fabric x1, enchantments x4, level up matters x1, blink / self-bounce spell x1, go-wide payoff x1. (If you want a mechanic to be an all-color mechanic, you need at least one common in each color. A good rule of thumb for mechanics / archetypes that have enablers and payoffs is that you need four common enabler for each common payoff. Look at similar mechanics / archetypes in canon sets to see how many commons you need)
+
+You may notice that these requirements add up to a lot more than 13. So most commons are going to have to fulfill multiple roles. That's good - it restructs and inspires your design. Start with the mechanics and archetypes thath are going to be the hardest to design for. For ERR, that's the Subroutines. Whenever possible, try to check off as many requirements as possible with the simplest card possible - meeting all requirements with the lowest total complexity is the goal.
+
+<b>Step 6: Uncommons</b>
+
+Canon sets these days have 10 or 20 gold uncommons (arcuns) that strongly signal their archetype. Usually, do those before the other uncommons. At this point it's a good idea to start thinking about archetype curves. For example, if your GW enchantment deck has a common 4-drop payoff, 3-drop payoff, and 7-drop payoff, the gold uncommons should include a 2-drop and maybe a 5-drop. Arcuns should above all else not be subtle. A player should take one look at them and have an idea of exactly what cards would work with it.
+
+After you have the commons done, or when you have a few uncommons, it's a good time to start playtesting. Common and uncommon drafts, pre-built draft-ish decks, jumpstart: these are all good ways to get rough and fast playtesting impressions. Playtest early and often, against yourself if necessary.
+
+You can do the same extended skeleton used for commons for uncommons, but the requiements are less strict. I like to break down uncommons into three categories of roughly equal size. Type A uncommons are straightforwardly powerful, desired by many decks, and serve as constructed plants and signals of open colors. Pushed 1-for-1 interaction is a classic here, as is cheap threats and generic two-for-ones. Type B uncommons are strong signals to a specific deck; "secret gold cards". There should be at least one for each of the four archetypes that touch each color. Type C uncommons are the rest; sideboard cards, weird constructed plants; sideways build-arounds; cool but not super powerful designs.
+
+<b>Step 7: Rares (and Mythics)</b>
+
+Rares are my weakest type of design so I can offer only limited advice. In the course of designing commons and uncommons you'll surely have ideas too complex, game-warping, or powerful for those rarities. Those can start your rare files. Otherwise, rares should explore the more unusual implementations of your mechanics, be high-ceiling low-floor payoffs for all-in decks, target specific constructed niches, contain effects that warp entire games around them, etc.
+
+<b>Step 8: Iteration</b>
+
+Congratulations! You have a completed set file. You have now begun making a set. Most of design is re-design, and turning your first draft into something finished will take a lot of iteration. For context, steps 1-7 for ERR took about 1 month, and iteration took 8 month of continual work after that. Playtesting is always useful; soliciting other experienced designers is a must.
+
+Best of luck.
