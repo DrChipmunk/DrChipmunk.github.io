@@ -9,10 +9,10 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Elf Cleric",
-            "number": 32,
+            "number": 33,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this creature gets +1/+1 and gains lifelink until end of turn.",
+            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. It gains lifelink until end of turn.",
             "flavor_text": "[i]Some dead get funerals. Others settle for a few words from a street eulogist.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -20,14 +20,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anthony Catillaz",
-            "notes": "Flying 2.5/3\nVigilance 2/2\nLifelink 0.5/1\nFlash / Instant / Vision 4/4\nFlash payoff 1/1\nUnearth 1/1\nReally good unearth target 1/1\nAttack with two creatures payoff 1/1\n2-power creature / Veil 4/4\n2-power payoff 1/1\nParadox 1/1"
+            "notes": "Flying 2.5/3\nVigilance 2/2\nLifelink 0.5/1\nFlash / Instant / Vision 4/4\nFlash payoff 1/1\nUnearth 1/1\nReally good unearth target 1/1\nAttack with two creatures payoff 1/1\n2-power creature / Veil 4/4\n2-power payoff 1/1\nParadox 1/1\nart3"
         },
         {
             "card_name": "Ephebic Phantom",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Spirit",
-            "number": 4,
+            "number": 5,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Vision {2}{W} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nFlying\nWhen this creature enters, target creature gains indestructible until end of turn. Scry 1.",
@@ -38,7 +38,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Nen Chang",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Proper Presentation",
@@ -56,14 +56,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart4"
         },
         {
             "card_name": "Uptight Dancer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Scion",
-            "number": 36,
+            "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Vigilance\nWhenever you attack with exactly two creatures, they each get +0/+2 until end of turn.",
@@ -74,14 +74,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "St Luthien",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Pinion-Clad Exile",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Horror",
-            "number": 19,
+            "number": 20,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature enters, if it wasn't cast from your hand, put a flying counter on it.",
@@ -92,7 +92,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Petar Milivojevic",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Spry Matron",
@@ -110,14 +110,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jashuo Cairos",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Temperance Maskbearer",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Horror Cleric",
-            "number": 34,
+            "number": 35,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -131,11 +131,11 @@
             "notes": "art2"
         },
         {
-            "card_name": "Porcelain Outcasts",
+            "card_name": "Full-Service Staff",
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 20,
+            "number": 8,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Vision {1}{W} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, create a 1/1 colorless Toy artifact creature token.",
@@ -145,8 +145,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Miqdam Ul Ghani",
-            "notes": "Preview\nDay4"
+            "artist": "Ina Wong",
+            "notes": "Preview\nDay4\nart4"
         },
         {
             "card_name": "Postmaster Specific",
@@ -164,7 +164,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Aleksander Karcz",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Fogtide Redeemer",
@@ -182,7 +182,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mahea Rodriguez",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Winslip Vanguard",
@@ -200,7 +200,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "India Lee Crews",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Slapdash Banishing",
@@ -218,14 +218,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Antonio Mainez",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Icy Reception",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 13,
+            "number": 14,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nWhen this enchantment enters, put a +1/+1 counter on target creature you control.",
@@ -236,17 +236,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ina Wong",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Tuppence Ball",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 35,
+            "number": 36,
             "color_identity": "W",
             "cost": "{4}{W}",
-            "rules_text": "This spell costs {1} less to cast for each creature you control with base power 2.\nCreatures you control gets +2/+1 until end of turn.",
+            "rules_text": "This spell costs {1} less to cast for each creature you control with base power 2.\nCreatures you control get +2/+1 until end of turn.",
             "flavor_text": "[i]\u201cTo the doomed and meek \u2014 dance!\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -254,7 +254,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Rochaku",
-            "notes": "\u201cDolls for funerals. Dolls for duels. Dolls for all occasions\u201d\n\u2014The Ivory Dollmaker."
+            "notes": "\u201cDolls for funerals. Dolls for duels. Dolls for all occasions\u201d\n\u2014The Ivory Dollmaker.\nart2"
         },
         {
             "card_name": "Gentle Ending",
@@ -275,29 +275,29 @@
             "notes": "\n\nThe luxurious Hotel Duchamp offers its rooms free of charge to those stricken by sorrow who cannot bear to face the world again.\nart2"
         },
         {
-            "card_name": "Impossible Visitor",
+            "card_name": "Liminal Visitor",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Nightmare",
-            "number": 56,
+            "number": 57,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flying\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, draw a card, then discard a card.",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": "Flying 3/3\nVigilance 1/1.5\nBounceable 1/2\nSelf-bounce 1/1\nInstant / Sorcery 4/4\nI/S payoff 1/1\nParadox enabler 5/5\nParadox payoff 2/2\nFlash / Instant / Vision 4/4\nFlash payoff 1/1\nFlavourtext"
+            "notes": "Flying 3/3\nVigilance 1/1.5\nBounceable 1/2\nSelf-bounce 1/1\nInstant / Sorcery 4/4\nI/S payoff 1/1\nParadox enabler 5/5\nParadox payoff 2/2\nFlash / Instant / Vision 4/4\nFlash payoff 1/1\nFlavourtext\nart4"
         },
         {
             "card_name": "Loose Balloonist",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Artificer",
-            "number": 60,
+            "number": 58,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Vision {U} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nFlying\nWhen this creature enters, target creature gets -3/-0 until end of turn.",
@@ -308,7 +308,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Patrick Jensen",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Affordable Astrologer",
@@ -326,7 +326,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Billy Christian",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Reclusive Visionary",
@@ -344,7 +344,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Occult Investigator",
@@ -362,25 +362,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Rayven Studios",
-            "notes": "Flavourtext"
+            "notes": "Flavourtext\nart4"
         },
         {
-            "card_name": "Uncouth Ghostspeaker",
+            "card_name": "Mirror-Marcher",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue",
-            "number": 75,
+            "number": 60,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flash\nThis creature enters tapped.\nWhen this creature enters, create a 1/1 white Spirit creature token with flying.",
-            "flavor_text": "[i]Her hair was stained by exposure to her spectral accomplices. Or maybe it's just dye.[/i]",
-            "pt": "2/1",
+            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other that your hand, if this creature has no counters on it, put a +1/+1 counter on it and draw a card.",
+            "flavor_text": "[i]A rebel against laws social and natural.[/i]",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Billy Christian",
-            "notes": "art2\n\nThere will always be youth that balk at convention and defy propriety. In Yesterday, such behavior includes almost everything."
+            "artist": "Oleg Kasputin",
+            "notes": "art3\n\n\nHer hair was stained by exposure to her spectral accomplices. Or maybe it's just dye."
         },
         {
             "card_name": "Dusky Procession",
@@ -398,7 +398,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joshua Cairos",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart2\nart-overlap"
         },
         {
             "card_name": "Serpentine Deacon",
@@ -416,7 +416,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Xiao Xuan Di",
-            "notes": "\u201cBehold the Attended One!\u201d"
+            "notes": "\u201cBehold the Attended One!\u201d\nart3"
         },
         {
             "card_name": "Well-Bred Vampire",
@@ -434,7 +434,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Rain of Revelation",
@@ -452,7 +452,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Romana Kendelic",
-            "notes": "Rain of Revelation?"
+            "notes": "Rain of Revelation?\nart3"
         },
         {
             "card_name": "Sunken Study",
@@ -470,7 +470,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Romana Kendelic",
-            "notes": ""
+            "notes": "art2\nart-overlap"
         },
         {
             "card_name": "The Past Beckons",
@@ -488,7 +488,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Borja Pindado",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Unlikely Fling",
@@ -506,7 +506,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yami No Kuni",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Fickle Fortune",
@@ -524,32 +524,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joshua Coiros",
-            "notes": "Preview\nDay4\n\u201cI've been to five fortune tellers this week and gotten the same thing. Think it might be a sign?\u201d"
+            "notes": "Preview\nDay4\n\u201cI've been to five fortune tellers this week and gotten the same thing. Think it might be a sign?\u201d\nart4"
         },
         {
-            "card_name": "Inexplicable Illness",
+            "card_name": "Disgraceful Failure",
             "color": "U",
-            "rarity": "common",
-            "type": "Enchantment \u2014 Aura",
-            "number": 57,
+            "rarity": "uncommon",
+            "type": "Instant",
+            "number": 49,
             "color_identity": "U",
-            "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nEnchanted creature loses all abilities and doesn't untap during its controller's untap step.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, tap enchanted creature.",
+            "cost": "{U}",
+            "rules_text": "Counter target artifact, enchantment, or sorcery spell. Its controller veils the top card of their library. [i](They put it onto the battlefield face-down as a 2/2 creature. They may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Yami No Kuni",
-            "notes": ""
+            "artist": "Gilles Ketting",
+            "notes": "art4"
         },
         {
             "card_name": "Rite of the Rose",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 102,
+            "number": 101,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Create a 3/2 black Horror creature token with menace.\nFlashback\u2014{2}{B}, Discard a Swamp. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -560,14 +560,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dmitry Polynkov",
-            "notes": "Flying 2/2\nMenace 1/1.5\nDeathtouch 1/1\nLifelink 1/1\nParadox Payoff 2/2\nParadox Enabler 4/5\nCounter payoff 1/1\nCounter enabler 4/4\nInstant / Sorcery 6/4\nInstant / Sorcery payoff 1/1\nUnearth 1/1\nUnearthable 1/1"
+            "notes": "Flying 2/2\nMenace 1/1.5\nDeathtouch 1/1\nLifelink 1/1\nParadox Payoff 2/2\nParadox Enabler 4/5\nCounter payoff 1/1\nCounter enabler 4/4\nInstant / Sorcery 6/4\nInstant / Sorcery payoff 1/1\nUnearth 1/1\nUnearthable 1/1\nart4"
         },
         {
             "card_name": "Undying Beggar",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue",
-            "number": 112,
+            "number": 113,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "You may cast this card from your graveyard by paying {3}{B}{B} rather than its mana cost.",
@@ -578,7 +578,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Uncanny Chef",
@@ -588,7 +588,7 @@
             "number": 110,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "During your turn, this creature has deathtouch.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.",
+            "rules_text": "Deathtouch\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -596,14 +596,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Henning Ludvigson",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart2"
         },
         {
             "card_name": "Unloved Mannequin",
             "color": "B",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 114,
+            "number": 115,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, each opponent loses 1 life and you gain 1 life.",
@@ -614,7 +614,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos Villas",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Beckoning Bard",
@@ -632,14 +632,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ian Llanas",
-            "notes": ""
+            "notes": "art4"
         },
         {
-            "card_name": "Eye-Draped Seer",
+            "card_name": "Morbid Literati",
             "color": "B",
             "rarity": "common",
-            "type": "Creature \u2014 Zombie Wizard",
-            "number": 87,
+            "type": "Creature \u2014 Human Warlock",
+            "number": 94,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Vision {1}{B} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard.",
@@ -649,15 +649,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Kirinkarwai",
-            "notes": ""
+            "artist": "Yuumei",
+            "notes": "art3"
         },
         {
             "card_name": "Fly By Midnight",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 89,
+            "number": 87,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Scry 2.\nVeil the top card of your library, then put a flying counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -671,11 +671,11 @@
             "notes": "art2"
         },
         {
-            "card_name": "Misty Revenant",
+            "card_name": "Velvet Glove Assassin",
             "color": "B",
             "rarity": "common",
-            "type": "Creature \u2014 Vampire Horror",
-            "number": 97,
+            "type": "Creature \u2014 Vampire Assassin",
+            "number": 116,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Vision {B} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nFlying\nWhen this creature enters, put a menace counter on target creature you control.",
@@ -685,15 +685,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Giorgio Baroni",
-            "notes": ""
+            "artist": "Vyacheslav Safronov",
+            "notes": "art4"
         },
         {
-            "card_name": "Dreadchant's Victim",
+            "card_name": "Undertaker's Collector",
             "color": "B",
             "rarity": "common",
-            "type": "Creature \u2014 Noble Horror",
-            "number": 84,
+            "type": "Creature \u2014 Human Horror",
+            "number": 111,
             "color_identity": "B",
             "cost": "{5}{B}",
             "rules_text": "Menace\nWhen this creature enters, if there are two or more instant or sorcery cards in your graveyard, up to one target creature gets -2/-2 until end of turn.",
@@ -703,15 +703,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Pedro Sena",
-            "notes": "art2"
+            "artist": "Jules Darriluat",
+            "notes": "art3"
         },
         {
             "card_name": "Duress",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 85,
+            "number": 84,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
@@ -722,14 +722,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "BW Usagi",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart4"
         },
         {
             "card_name": "Excoriate",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 86,
+            "number": 85,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Exile target creature.",
@@ -740,7 +740,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Serge Tvelykh",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Superior's Siphon",
@@ -776,14 +776,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andy Aslamov",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Unexpected Fangs",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 113,
+            "number": 114,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Put a +1/+1 counter and a lifelink counter on target creature.",
@@ -801,7 +801,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 95,
+            "number": 91,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life.",
@@ -812,14 +812,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pauline Voss",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Dashing Ringmaster",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Bard",
-            "number": 126,
+            "number": 127,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "{T}: Add {R}.\n{3}{R}, {T}: Exile the top card of your library. You may play it during your next turn.",
@@ -830,14 +830,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": "Trample 1.5/1.5\nMenace 1/1.5\nHaste 1/1.5\nReach 1/1\nParadox Enabler 6/6\nParadox Payoff 3/3\nSpend 5 mana payoff 1/1\nEasy way to spend 5 mana 2/2\nAttack with two creatures 1/1"
+            "notes": "Trample 1.5/1.5\nMenace 1/1.5\nHaste 1/1.5\nReach 1/1\nParadox Enabler 6/6\nParadox Payoff 3/3\nSpend 5 mana payoff 1/1\nEasy way to spend 5 mana 2/2\nAttack with two creatures 1/1\nart3"
         },
         {
             "card_name": "Novice Bloodsucker",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Vampire Scion",
-            "number": 138,
+            "number": 139,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Menace\n{1}{R}, Sacrifice this creature: Veil the top card of your library. It can't block this turn. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -848,14 +848,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Naranbaatar Ganbold",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Manic Scrivener",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Shaman",
-            "number": 134,
+            "number": 135,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this creature gets +3/+0 until end of turn.",
@@ -866,14 +866,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos Cabrera",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Clockwork Concertists",
             "color": "R",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 122,
+            "number": 123,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "When this creature enters, create a Treasure token.\nAt the beginning of your end step, if you spent five or more mana to cast spells this turn, create a 1/1 colorless Toy artifact creature token.",
@@ -884,25 +884,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Oskar Manuel",
-            "notes": ""
+            "notes": "art2"
         },
         {
-            "card_name": "Webtaken Virtuoso",
+            "card_name": "Unwoven Seamstress",
             "color": "R",
             "rarity": "common",
-            "type": "Creature \u2014 Spider Human Bard",
-            "number": 156,
+            "type": "Creature \u2014 Human Citizen",
+            "number": 153,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Reach\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, you may discard a card. If you do, draw a card.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "4/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Cyril Rolando",
-            "notes": "Flavourtext\nart2"
+            "artist": "Travis Anderson",
+            "notes": "Flavourtext\nart3"
         },
         {
             "card_name": "Impudent Scion",
@@ -912,7 +912,7 @@
             "number": 131,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Haste\nWhenever you attack with exactly two creatures, they each get +1/+0 and gain trample until end of turn.",
+            "rules_text": "Whenever you attack with exactly two creatures, they each get +1/+0 and gain trample until end of turn.",
             "flavor_text": "[i]\u201cI permit you to dance with me. But I'll lead.\u201d[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -920,17 +920,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pauline Voss",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Crystal Spires Cardsharp",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elf Citizen",
-            "number": 124,
+            "number": 125,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "{1}{R}, Discard a land card: This creature gets +2/+0 and gains first strike until end of turn. Exile the top card of your library. You may play that card this turn.",
+            "rules_text": "{1}{R}, Discard a land card: This creature gets +2/+0 and gains first strike until end of turn. Draw a card.",
             "flavor_text": "[i]\u201cLove is much like a game of cards. You have to know when to bluff and when to fold.\u201d[/i]",
             "pt": "3/4",
             "special_text": "",
@@ -938,14 +938,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tatyana Kupriyanova",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart3"
         },
         {
             "card_name": "Crazed Arsonist",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Elf Shaman",
-            "number": 123,
+            "number": 124,
             "color_identity": "R",
             "cost": "{4}{R}",
             "rules_text": "Vision {R} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nTrample\nWhen this creature enters, target creature can't block this turn.",
@@ -956,32 +956,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Sebastian Horoszko",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Rambaldi's Ripper",
+            "card_name": "Star-Touched Ripper",
             "color": "R",
             "rarity": "common",
-            "type": "Artifact Creature \u2014 Scarecrow",
-            "number": 142,
+            "type": "Creature \u2014 Horror",
+            "number": 150,
             "color_identity": "R",
             "cost": "{6}{R}",
-            "rules_text": "Vision {1}{R} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nMenace\nWhen this creature enters, target creature gets +2/+0 and gains haste until end of turn.",
+            "rules_text": "Vision {1}{R} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, target creature gets +2/+0 and gains haste until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "4/5",
+            "pt": "4/6",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Kudos Productions",
-            "notes": ""
+            "artist": "Leon Jaume",
+            "notes": "art3"
         },
         {
             "card_name": "Scarlet Reminiscence",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 148,
+            "number": 147,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Exile the top two cards of your library. You may play them until the end of your next turn.\nFlashback\u2014{2}{R}, Discard a Mountain. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -992,14 +992,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gwen Bassett",
-            "notes": ""
+            "notes": "art4"
         },
         {
-            "card_name": "Public Disfavor",
+            "card_name": "Scandalize",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 139,
+            "number": 145,
             "color_identity": "R",
             "cost": "{X}{R}",
             "rules_text": "This spell deals X plus one damage to target creature.",
@@ -1010,7 +1010,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart2"
         },
         {
             "card_name": "Strangle",
@@ -1028,17 +1028,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dmitry Polynkov",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Messy Altercation",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 136,
+            "number": 137,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Choose one \u2014 \n\u2022 Target creature gets +2/+0 and gains first strike until end of turn.\n\u2022 Destroy target artifact.",
+            "rules_text": "Choose one \u2014 \n\u2022 Target creature gets +3/+2 until end of turn.\n\u2022 Destroy target artifact.",
             "flavor_text": "[i]\u201cMy husband? Oh, I'm afraid he can't be here tonight. Iron business.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -1046,14 +1046,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": ""
+            "notes": "art2"
         },
         {
-            "card_name": "Dream of Immolation",
+            "card_name": "Flaming Reverie",
             "color": "R",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 127,
+            "number": 128,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "When this enchantment enters, it deals 5 damage to target creature.\n[i]Paradox[/i] \u2014 {R}, Sacrifice this enchantment: Scry 2. Activate only if you cast a spell from anywhere other than your hand this turn.",
@@ -1071,7 +1071,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Human Scion",
-            "number": 135,
+            "number": 136,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Kicker {3}{R} [i](You may pay an additional {3}{R} as you cast this spell.)[/i]\nWhen this creature enters, if it was kicked, it deals 2 damage to any target.",
@@ -1082,7 +1082,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andrew Theophilopoulos",
-            "notes": "flavourtext"
+            "notes": "flavourtext\nart3"
         },
         {
             "card_name": "Cryptobotanist",
@@ -1100,7 +1100,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Aleksander Karcz",
-            "notes": "Trample 1/2\nVigilance 2/2\nReach 1/1\nDeathtouch 1/1\n+1/+1 counters 4/4\n+1/+1 counter payoff 1/1 (creature)\n2-power creature / Veil 5/4\n2-power payoff 1/1 (creature)\nBounceable 2/2\nBounce 1/1\nway to expend 2/2\nExpend 5 payoff 1/1\nParadox Enabler 3/4\nParadox Payoff 1/1"
+            "notes": "Trample 1/2\nVigilance 2/2\nReach 1/1\nDeathtouch 1/1\n+1/+1 counters 4/4\n+1/+1 counter payoff 1/1 (creature)\n2-power creature / Veil 5/4\n2-power payoff 1/1 (creature)\nBounceable 2/2\nBounce 1/1\nway to expend 2/2\nExpend 5 payoff 1/1\nParadox Enabler 3/4\nParadox Payoff 1/1\nart3"
         },
         {
             "card_name": "Elvish Mystic",
@@ -1118,7 +1118,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ina Wong",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart4"
         },
         {
             "card_name": "Fidgety Physician",
@@ -1136,14 +1136,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Cole Eastburn",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Generous Host",
+            "card_name": "Lavish Host",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 -Human Noble",
-            "number": 169,
+            "number": 172,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Vision {1}{G} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, put a +1/+1 counter on target creature.",
@@ -1154,25 +1154,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Lucas Parollin",
-            "notes": ""
+            "notes": "art4"
         },
         {
-            "card_name": "Undercity Baron",
+            "card_name": "Message Falconer",
             "color": "G",
             "rarity": "common",
-            "type": "Creature \u2014 Human Spider Noble",
-            "number": 193,
+            "type": "Creature \u2014 Human Ranger",
+            "number": 175,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Reach\nWhen this creature enters, you may return a creature you control to its owner's hand.",
-            "flavor_text": "[i]He charges no rent and asks no favors, except that you look away.[/i]",
+            "flavor_text": "[i]For discretion and speed, no courier can compete with a falcon.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Jakub Jagoda",
-            "notes": ""
+            "artist": "Ahmed Aldoori",
+            "notes": "art3\nHe charges no rent and asks no favors, except that you look away."
         },
         {
             "card_name": "Brotherhood Fiddler",
@@ -1190,7 +1190,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andy Aslamov",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Dress to the Nines",
@@ -1207,15 +1207,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Yami No Kuni",
-            "notes": ""
+            "artist": "Othon Nikolaidis",
+            "notes": "art3"
         },
         {
             "card_name": "Sonorous Terror",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Horror",
-            "number": 188,
+            "number": 189,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "When this creature enters, veil the top card of your library, then put a +1/+1 counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -1226,14 +1226,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazylik",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Foretimes Herald",
+            "card_name": "Retired Hallowblade",
             "color": "G",
             "rarity": "common",
-            "type": "Creature \u2014 Elf Avatar Druid",
-            "number": 168,
+            "type": "Creature \u2014 Human Druid Warrior",
+            "number": 181,
             "color_identity": "G",
             "cost": "{5}{G}",
             "rules_text": "Vision {1}{G} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nTrample\nWhen this creature enters, you gain 3 life.",
@@ -1243,8 +1243,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Matteo Spirito",
-            "notes": ""
+            "artist": "Valeria Dryzhak",
+            "notes": "art3"
         },
         {
             "card_name": "Ceramic Mother",
@@ -1269,7 +1269,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 190,
+            "number": 191,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Kicker {4} [i](You may pay an additional {4} as you cast this spell.)[/i]\nPut two +1/+1 counters on target creature you control if this spell was kicked. That creature deals damage equal to its power to up to one other target creature.",
@@ -1280,14 +1280,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Monstre",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart4"
         },
         {
             "card_name": "Torchlit Confrontation",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 192,
+            "number": 193,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Choose one \u2014 \n\u2022 Target creature you control fights target creature you don't control.\n\u2022 Destroy target artifact or enchantment.",
@@ -1305,25 +1305,25 @@
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 187,
+            "number": 188,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.",
-            "flavor_text": "[i]If you think you might be jumped, good to inscribe the sigil of the Attended One of the cobbles. Some monsters respect it.[/i]",
+            "flavor_text": "[i]If you think you might be jumped, good to inscribe the sigil of the Attended One on the cobbles. Some monsters respect it.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Rayven Studios",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Rooted Rapture",
             "color": "G",
             "rarity": "common",
-            "type": "Instant",
-            "number": 180,
+            "type": "Sorcery",
+            "number": 182,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Draw a card. You may put a basic land card from your hand onto the battlefield.\nFlashback\u2014{2}{G}, Discard a Forest. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -1334,14 +1334,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kate Miterko",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Quiet Memorium",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 178,
+            "number": 180,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Mill two cards. You may play a permanent card from your graveyard this turn.",
@@ -1352,14 +1352,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yami No Kuni",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Garden Doll",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 239,
+            "number": 238,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this creature enters, search your library for a basic land card, reveal it, then put it into your hand, then shuffle. Put a card from your hand on the top or bottom of your library.",
@@ -1370,14 +1370,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Xinoria",
-            "notes": "Crescendo 1/2"
+            "notes": "Crescendo 1/2\nart3"
         },
         {
             "card_name": "Dressup Helper",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 238,
+            "number": 237,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "When this creature enters, veil the top card of your library, then put a +1/+1 counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -1388,14 +1388,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Concealed Dagger",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 236,
+            "number": 235,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Flash\nWhen this Equipment enters, attach it to target creature you control.\nEquipped creature gets +2/+1.\nEquip {4}",
@@ -1406,7 +1406,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Antonis Papantoniou",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Scion's Substitute",
@@ -1424,25 +1424,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Sanguine Font",
+            "card_name": "Grisly Font",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 243,
+            "number": 239,
             "color_identity": "C",
             "cost": "{1}",
-            "rules_text": "When this artifact enters, scry 1.\n{3}, {T}, Sacrifice this artifact, Discard a creature card: Exile target nonland permanent. Activate only as a sorcery.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "When this artifact enters, scry 2.\n{3}, {T}, Sacrifice this artifact, Discard a creature card: Exile target nonland permanent. Activate only as a sorcery.",
+            "flavor_text": "[i]A cult without macabre pomp is a mere social club.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": "flavourtext\n\nA cult without macabre pomp is a mere social club."
+            "notes": "flavourtext\n\n\nart2"
         },
         {
             "card_name": "Esoteric Institute",
@@ -1460,7 +1460,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pixoloid Studios",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Riverside View",
@@ -1478,7 +1478,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart4"
         },
         {
             "card_name": "Dubious Path",
@@ -1496,7 +1496,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andy Walsh",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart3"
         },
         {
             "card_name": "Decadent Hall",
@@ -1514,7 +1514,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Cliff Schonewill",
-            "notes": "\nlandslot"
+            "notes": "art3\nlandslot"
         },
         {
             "card_name": "Secluded Farmland",
@@ -1532,7 +1532,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Grady Frederick",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart3"
         },
         {
             "card_name": "Thriving Tower",
@@ -1550,7 +1550,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Vertigo Studios",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart3"
         },
         {
             "card_name": "Downtown Theater",
@@ -1568,7 +1568,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tim Raxumovsky",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart2"
         },
         {
             "card_name": "Reliable Market",
@@ -1604,7 +1604,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pete Amachree",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart4"
         },
         {
             "card_name": "Impressive Skyline",
@@ -1622,7 +1622,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mel Mo",
-            "notes": "\nlandslot"
+            "notes": "\nlandslot\nart2"
         },
         {
             "card_name": "Beloved Chapel",
@@ -1647,7 +1647,7 @@
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Wizard",
-            "number": 205,
+            "number": 204,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "When this creature enters and whenever you cast a spell during an opponent's turn, create a 1/1 white Spirit creature token with flying. You gain 1 life.",
@@ -1658,32 +1658,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulien Voss",
-            "notes": "WU Flash (Medium Slow)\nFlavourtext"
+            "notes": "WU Flash (Medium Slow)\nFlavourtext\nart4"
         },
         {
             "card_name": "Rewrite",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 223,
+            "number": 222,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Exile target spell that was cast from its owner's hand. For as long as it remains exiled, its owner may cast it.\nScry 1, then draw a card.",
+            "rules_text": "Exile target spell that was cast from its owner's hand. For as long as it remains exiled, its owner may cast it.\nDraw a card.",
             "flavor_text": "[i]Yesterday is a city of stasis. Is it a story endless \u2014 or endlessly repeating?[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Alexandr Elichev",
-            "notes": ""
+            "artist": "Miguel Arguelles",
+            "notes": "art3"
         },
         {
-            "card_name": "Elegy Procession",
+            "card_name": "Anonymous Assistance",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 204,
+            "number": 197,
             "color_identity": "UB",
             "cost": "{6}{U}{B}",
             "rules_text": "This spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nVeil the top three cards of your library. [i](Put them onto the battlefield face-down as 2/2 creatures. You may cast them while they're attacking. Creatures cast this way enter tapped and attacking and keep counters and blockers.)[/i]",
@@ -1693,15 +1693,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Michael Macrae",
-            "notes": "UB Instants and Sorceries (Slow)"
+            "artist": "Denis Kornev",
+            "notes": "UB Instants and Sorceries (Slow)\nart3"
         },
         {
             "card_name": "Preserved Gentleman",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Citizen",
-            "number": 222,
+            "number": 220,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "As long as there are two or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has deathtouch.\n{T}: Draw a card, then discard a card.",
@@ -1712,32 +1712,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Matt COwdery",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Thoughtstab Wretch",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Horror",
-            "number": 230,
+            "number": 228,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this creature deals 1 damage to any target. If a creature is dealt damage this way, it can't block this turn.",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "BR Paradox (Fast)"
+            "notes": "BR Paradox (Fast)\nart3"
         },
         {
             "card_name": "Lost Sun's Reach",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 214,
+            "number": 213,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
             "rules_text": "Destroy target artifact or creature.\n{B}{R}, Exile this card from your hand: During your next turn, you may cast this card without paying its mana cost. Activate only as a sorcery.",
@@ -1748,14 +1748,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yuta Shimpo",
-            "notes": "Flavourtext"
+            "notes": "Flavourtext\nart3"
         },
         {
             "card_name": "Sunset Dancer",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Bard",
-            "number": 229,
+            "number": 227,
             "color_identity": "RG",
             "cost": "{X}{R}{G}",
             "rules_text": "When this creature enters, it deals X damage to up to one target creature.\n{T}: Add {R} or {G}.",
@@ -1766,14 +1766,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kay John Yim",
-            "notes": "RG Expend (Medium slow)"
+            "notes": "RG Expend (Medium slow)\nart3"
         },
         {
             "card_name": "Staff of Beast's Blood",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 227,
+            "number": 226,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
             "rules_text": "{T}: Create a 3/3 green Beast creature token with trample. Activate only if this artifact entered this turn or you spent five or more mana to cast spells this turn.",
@@ -1784,14 +1784,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sema",
-            "notes": "Flavourtext"
+            "notes": "Flavourtext\nart3"
         },
         {
-            "card_name": "Kindly Moonchosen",
+            "card_name": "Gracious Moonchosen",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Elf Soldier",
-            "number": 212,
+            "number": 208,
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "Vigilance\nWhenever another creature you control with base power 2 enters, put a +1/+1 counter on it and scry 1.",
@@ -1802,25 +1802,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Marie Magny",
-            "notes": "GW Power exactly 2 (Fast)"
+            "notes": "GW Power exactly 2 (Fast)\nart3"
         },
         {
-            "card_name": "Song of Sealing",
+            "card_name": "Shackled Song",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 226,
+            "number": 224,
             "color_identity": "WG",
-            "cost": "{2}{G}{W}",
-            "rules_text": "When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield.\nWhen this enchantment enters, creatures you control get +1/+2 until end of turn.",
+            "cost": "{3}{G}{W}",
+            "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nCreatures you control get +1/+0.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Anwar Gant",
-            "notes": ""
+            "artist": "Taras Susak",
+            "notes": "art3"
         },
         {
             "card_name": "A Dance Not To Be Missed",
@@ -1838,14 +1838,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Max Mena",
-            "notes": "WB Unearths (Medium Fast)"
+            "notes": "WB Unearths (Medium Fast)\nart3"
         },
         {
-            "card_name": "Corrupt Deacon",
+            "card_name": "Transformed Deacon",
             "color": "WB",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Cleric",
-            "number": 200,
+            "type": "Creature \u2014 Horror Cleric",
+            "number": 229,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "When this creature enters, you may sacrifice a creature. When you do, up to one target creature gets -X/-X until end of turn and you gain X life, where X is the sacrificed creature's power.",
@@ -1855,8 +1855,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Natalia Romero",
-            "notes": ""
+            "artist": "Martin De Diego",
+            "notes": "art4"
         },
         {
             "card_name": "Duke of Crowns",
@@ -1874,7 +1874,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "BG counters (medium-fast)"
+            "notes": "BG counters (medium-fast)\nart3"
         },
         {
             "card_name": "Skeletal Effigy",
@@ -1892,7 +1892,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Hermit of Curatives",
@@ -1910,7 +1910,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dao Trong Le",
-            "notes": "GU Self-Bounce (Slow)"
+            "notes": "GU Self-Bounce (Slow)\nart2"
         },
         {
             "card_name": "Dreams of Eternity",
@@ -1928,43 +1928,43 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dan Watson",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Precocious Playmate",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Horror Scion",
-            "number": 221,
+            "number": 219,
             "color_identity": "UR",
             "cost": "{U}{R}",
-            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a 1/1 colorless Toy artifact creature token.",
+            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create two 1/1 colorless Toy artifact creature tokens.",
             "flavor_text": "[i]\u201cPapa says that he can't play with me anymore. You'll play with me, right?\u201d[/i]",
-            "pt": "1/3",
+            "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Grim gaze Galleries",
-            "notes": "UR Paradox (Medium Slow)"
+            "notes": "UR Paradox (Medium Slow)\nart4"
         },
         {
             "card_name": "Lovely Nightmares",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 215,
+            "number": 214,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
-            "rules_text": "At the beginning of your upkeep, exile the top card of your library. You may play that card this turn.",
-            "flavor_text": "[i]\u201cMy family died in their sleep. I'm sure one day I shall too. But I intend to enjoy my dreams regardless.\u201d\n\u2014The Scarlet Lady.[/i]",
+            "rules_text": "When this enchantment enters, exile the top two cards of your library. Choose one of them. You may play that card until the end of your next turn.\nSpells you cast from anywhere other than your hand cost {1} less to cast.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": ""
+            "notes": "Move ot 4 and give blue upside?\n\n\u201cMy family died in their sleep. I'm sure one day I shall too. But I intend to enjoy my dreams regardless.\u201d\n\u2014The Scarlet Lady.\nart4"
         },
         {
             "card_name": "Haunting in the Cellar",
@@ -1985,22 +1985,22 @@
             "notes": "RW Attack with exactly two creatures (Medium Fast)\nart2"
         },
         {
-            "card_name": "Stuffed Governess",
+            "card_name": "Twitchy Housekeeper",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 228,
+            "number": 230,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Haste\nWhenever you attack with exactly two creatures, you may discard a card. If you do, draw two cards.",
-            "flavor_text": "[i]One can learn a lot of etiquette from a teacher who can't speak.[/i]",
+            "flavor_text": "[i]Master and mistress are long gone but the cleaning continues.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Fajareka Setiawan",
-            "notes": "art1"
+            "artist": "Laura Sava",
+            "notes": "art4\n\nOne can learn a lot of etiquette from a teacher who can't speak."
         },
         {
             "card_name": "Darling Dealer",
@@ -2018,7 +2018,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Victoria Gavrilenko Kjellson",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2"
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3"
         },
         {
             "card_name": "Hallahan Voyeur",
@@ -2030,20 +2030,20 @@
             "cost": "{2}{W}",
             "rules_text": "Double strike\nWhen this creature enters, look at target opponent's hand. You may exile a black or red card from it. For as long as that card remains exiled, its owner may play it. A spell cast this way costs {2} more to cast.",
             "flavor_text": "[i][/i]",
-            "pt": "2/3",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Wlop",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Temperance Deaconess",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Cleric",
-            "number": 33,
+            "number": 34,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Whenever another creature you control with base power 2 enters, you may pay {X}. If you do, put X +1/+1 counters on it. If X is four or more, also put a flying counter on it.",
@@ -2053,33 +2053,33 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Mert Gencinnar",
-            "notes": "\nPreview\nDay8"
+            "artist": "Victor Garcia",
+            "notes": "\nPreview\nDay8\nart3"
         },
         {
-            "card_name": "Waxen Widow",
+            "card_name": "Duchess of the Dead",
             "color": "W",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Angel",
-            "number": 38,
+            "type": "Creature \u2014 Spirit",
+            "number": 4,
             "color_identity": "W",
-            "cost": "{1}{W}",
-            "rules_text": "Flying\n{X}{W}{W}: Return target creature card with mana value X from your graveyard to the battlefield. Put a +1/+1 counter on this creature. Activate only as a sorcery and only once.",
+            "cost": "{3}{W}",
+            "rules_text": "Flying, vigilance\n{X}{W}{W}: Return target creature card with mana value X from your graveyard to the battlefield. Put a +1/+1 counter on this creature. Activate only as a sorcery and only once.",
             "flavor_text": "[i][/i]",
-            "pt": "1/2",
+            "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Wlop",
-            "notes": ""
+            "artist": "Artur Treffner",
+            "notes": "art3"
         },
         {
             "card_name": "Exorcise",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 5,
+            "number": 6,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Exile target artifact, enchantment, or creature with power 4 or greater.",
@@ -2108,14 +2108,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Illuminated Gramophone",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 14,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever you attack with exactly two creatures, put a +1/+1 counter on one of them.\n{4}{W}, {T}: Veil the top card of your library. Activate only as a sorcery. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2129,22 +2129,22 @@
             "notes": "art2"
         },
         {
-            "card_name": "Figure of Pity",
+            "card_name": "Paranoid Heiress",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Scion",
-            "number": 6,
+            "number": 19,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Vision {2}{W} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, prevent all damage that would be dealt this turn by sources your opponents control.",
             "flavor_text": "[i][/i]",
-            "pt": "2/2",
+            "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Artur Mosca",
-            "notes": "art2"
+            "artist": "Valeria Dryzhak",
+            "notes": "art4"
         },
         {
             "card_name": "Silent Speaker",
@@ -2162,32 +2162,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart4"
         },
         {
-            "card_name": "Orphan Beckoners",
-            "color": "W",
+            "card_name": "Kindly Rewinder",
+            "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Rebel",
-            "number": 18,
-            "color_identity": "W",
-            "cost": "{3}{W}",
-            "rules_text": "Vision {1}{W} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nVigilance\nWhen this creature enters, return target creature card with mana value 3 or less from your graveyard to your hand.",
+            "type": "Creature \u2014 Horror Cleric",
+            "number": 90,
+            "color_identity": "B",
+            "cost": "{3}{B}",
+            "rules_text": "Vision {1}{B} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, return target creature card with mana value 3 or less from your graveyard to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Manuel Schweitzer",
-            "notes": ""
+            "artist": "Diana Franco",
+            "notes": "art3"
         },
         {
             "card_name": "Imperturbable Matron",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Noble",
-            "number": 15,
+            "number": 16,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Ward {2}\nAt the beginning of you end step, if you didn't cast any spells from your hand this turn, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2198,14 +2198,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Make Presentable",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 16,
+            "number": 17,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Destroy target creature or planeswalker. Its controller veils the top card of their library. [i](They put it onto the battlefield face-down as a 2/2 creature. They may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2216,14 +2216,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Borja Pindado",
-            "notes": "Preview\nDay3"
+            "notes": "Preview\nDay3\nart4"
         },
         {
-            "card_name": "Full Service",
+            "card_name": "Stained Reminiscence",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 8,
+            "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, put a +1/+1 counter on each creature you control. Scry 1.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, return this enchantment to your hand.",
@@ -2233,8 +2233,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Ina Wong",
-            "notes": ""
+            "artist": "Benjamin Goutte",
+            "notes": "art3"
         },
         {
             "card_name": "Hear the Chimes",
@@ -2244,7 +2244,7 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Choose one \u2014 \n\u2022 Put a double strike counter on target creature.\n\u2022 Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
+            "rules_text": "Choose one \u2014 \n\u2022 Target creature gets +2/+4 until end of turn.\n\u2022 Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2252,7 +2252,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Vertigo Studios",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Persitent Haunting",
@@ -2270,14 +2270,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4"
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nart2"
         },
         {
             "card_name": "Automated Confessor",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 43,
+            "number": 44,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Vision {1}{U} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, exile up to one other target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.",
@@ -2306,7 +2306,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alex Heath Zander",
-            "notes": "Preview\nDay6"
+            "notes": "Preview\nDay6\nart4"
         },
         {
             "card_name": "Agency Field Investigators",
@@ -2324,7 +2324,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Eryk Szczyfiel",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Duplicitous Conversation",
@@ -2342,32 +2342,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dan Watson",
-            "notes": "Preview\nDay2"
+            "notes": "Preview\nDay2\nart3"
         },
         {
             "card_name": "Stay Smiling",
             "color": "U",
-            "rarity": "uncommon",
-            "type": "Enchantment",
+            "rarity": "common",
+            "type": "Enchantment \u2014 Aura",
             "number": 73,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Enchant creature\nEnchanted creature loses all abilities and is a Toy artifact creature with base power and toughness 1/1 in addition to its other types.",
-            "flavor_text": "[i]He asked if there was anything that could be done for the poor girl.\nThere was.[/i]",
+            "rules_text": "Enchant creature\nEnchanted creature loses all abilities and is a Toy artifact creature with base power and toughness 1/1 in addition to its other types. If it's face-down, it can't be cast.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Edward Agwi",
-            "notes": "\nPreview\nDay4"
+            "notes": "\nPreview\nDay4\n\nHe asked if there was anything that could be done for the poor girl.\nThere was.\nart4"
         },
         {
-            "card_name": "Dream in Triples",
+            "card_name": "Triplicate Trance",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 49,
+            "number": 75,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Create a token that's a copy of target creature you control.\nFlashback\u2014{2}{U}{U}, Discard a blue card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -2378,7 +2378,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Impossible Apparatus",
@@ -2396,14 +2396,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Emilio Grasso",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Let Them Down Easy",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 59,
+            "number": 56,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)[/i]\nCounter target spell unless its controller pays {2}. If the gift was promised, draw a card.",
@@ -2432,7 +2432,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Wisnu Tan",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Smogton Falselight",
@@ -2441,16 +2441,16 @@
             "type": "Creature \u2014 Faerie",
             "number": 72,
             "color_identity": "U",
-            "cost": "{1}{U}",
+            "cost": "{2}{U}",
             "rules_text": "Flash\nFlying\nWhen this creature enters, counter target red or green spell unless its controller pays {2}.",
             "flavor_text": "[i][/i]",
-            "pt": "1/1",
+            "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Moska",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Entrancing Madman",
@@ -2459,16 +2459,16 @@
             "type": "Creature \u2014 Human Wizard",
             "number": 52,
             "color_identity": "U",
-            "cost": "{2}{U}",
+            "cost": "{1}{U}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, tap up to one target creature and put a stun counter on it.",
             "flavor_text": "[i]\u201cYou simply must invite him \u2014 he's the most entertaining madman I've had. And very affordable.\u201d[/i]",
-            "pt": "2/3",
+            "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Rashed Alakokra",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "College of Symmetries Tutor",
@@ -2478,7 +2478,7 @@
             "number": 46,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, exile up to one other target creature you control, then return it to the battlefield under its owner's control.",
+            "rules_text": "Vision {2}{U} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature leaves the battlefield, return up to one target creature to its owner's hand.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -2486,14 +2486,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "Preview\nDay2"
+            "notes": "Preview\nDay2\nart3"
         },
         {
-            "card_name": "Bribe the Right Someone",
+            "card_name": "Reflection's Replacement",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 44,
+            "number": 70,
             "color_identity": "U",
             "cost": "{5}{U}{U}",
             "rules_text": "Choose one \u2014 \n\u2022 Gain control of target nonland permanent. Tap it.\n\u2022 Gain control of target spell. You may choose new targets for it.",
@@ -2503,8 +2503,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Carlos C Diaz",
-            "notes": "Flavourtext"
+            "artist": "Varsam Kurnia",
+            "notes": "Flavourtext\nart3"
         },
         {
             "card_name": "Black Iris Visitation",
@@ -2522,14 +2522,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Wisnu Tan",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2"
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3"
         },
         {
             "card_name": "Overwhelm with Insight",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 99,
+            "number": 97,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Target creature gets -X/-X until end of turn, where X is the number of instant and sorcery cards in your graveyard.\nCycling {2} [i]({2}, Discard this card: Draw a card.)[/i]",
@@ -2540,14 +2540,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Antonis Papantoniou",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Undertaker's Cudgel",
             "color": "B",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
-            "number": 111,
+            "number": 112,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Equipped creature gets +3/+2 and has menace.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, attach this Equipment to target creature you control.\nEquip {4}",
@@ -2558,16 +2558,16 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pixolooid Studios",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Heed Love's Call",
-            "color": "B",
+            "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 91,
-            "color_identity": "B",
-            "cost": "{B}",
+            "number": 12,
+            "color_identity": "W",
+            "cost": "{W}",
             "rules_text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield.",
             "flavor_text": "[i]If Yesterday is alive, it has distinguished tastes. It will bend for wine, curl for song, and open up its heart for a tale of love.[/i]",
             "pt": "",
@@ -2576,14 +2576,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "SOE",
-            "notes": "Preview\nDay9"
+            "notes": "Preview\nDay9\nart4"
         },
         {
             "card_name": "Scholar of Parasites",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
-            "number": 103,
+            "number": 102,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "When this creature enters, put two +1/+1 counters and a lifelink counter on target creature.\nWhenever another creature you control dies, put its counters on this creature.",
@@ -2594,14 +2594,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Henning Ludvigsen",
-            "notes": ""
+            "notes": "art2\nart-overlap"
         },
         {
             "card_name": "One Terrible Night",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 98,
+            "number": 96,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "If you control a creature, scry 2.\nEach creature gets -2/-2 until end of turn.",
@@ -2612,14 +2612,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tomasz Jedruszeck",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Mire Maiden's Request",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 96,
+            "number": 93,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target opponent may discard a nonland card. If they don't, you draw two cards.\nFlashback\u2014{1}{B}, Discard a black card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -2630,61 +2630,61 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Connor Sheehan",
-            "notes": "Preview\nDay2"
+            "notes": "Preview\nDay2\nart4"
         },
         {
             "card_name": "Spirit's Advocate",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Advisor",
+            "type": "Creature \u2014 Human Cleric",
             "number": 106,
             "color_identity": "B",
-            "cost": "{1}{B}",
+            "cost": "{2}{B}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a 1/1 white Spirit creature token with flying.",
             "flavor_text": "[i]Foul things can befall a soul in Yesterday without some body to look after them.[/i]",
-            "pt": "1/2",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Martin De Diego",
-            "notes": ""
+            "artist": "Maxim Costin",
+            "notes": "art3"
         },
         {
-            "card_name": "Young Necronihilist",
+            "card_name": "Maverick Medicalist",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Vampire Warlock",
-            "number": 117,
+            "type": "Creature \u2014 Human Artificer",
+            "number": 92,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Vision {B}, Pay 2 life. [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, you mill two cards.\nYou may cast this card from your graveyard for its vision cost.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "When this creature enters, target opponent reveals their hand. You may exile a nonland card from it. If you do, exile this creature.",
+            "flavor_text": "[i]\u201cMoral degradation is the result of certain malformities of the spleen. If you'll just pass me my scalpel, I'll show you.\u201d[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "BTG",
-            "notes": ""
+            "artist": "Hassan H",
+            "notes": "art1"
         },
         {
-            "card_name": "Generous Gadabout",
+            "card_name": "Servant of Ravens",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Vampire Scion",
-            "number": 90,
+            "type": "Creature \u2014 Human Bird Scion",
+            "number": 103,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]\nWhen this creature enters, if the gift was promised, target opponent sacrifices a creature.",
+            "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]\nFlying\nWhen this creature enters, if the gift was promised, target opponent sacrifices a creature.",
             "flavor_text": "[i][/i]",
-            "pt": "4/4",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Martina Fackova",
-            "notes": ""
+            "artist": "Yu Jin",
+            "notes": "art3"
         },
         {
             "card_name": "Bad Influence",
@@ -2709,7 +2709,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Horror Noble",
-            "number": 88,
+            "number": 86,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
             "rules_text": "When this creature enters, choose target permanent an opponent controls. They may sacrifice it. If they don't, create a 3/2 black Horror creature token with menace.",
@@ -2720,7 +2720,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mykyta Vasylchuk",
-            "notes": "flavourtext"
+            "notes": "flavourtext\nart3"
         },
         {
             "card_name": "Sweet Sorrow",
@@ -2738,14 +2738,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jakoda",
-            "notes": "Preview\nDay5"
+            "notes": "Preview\nDay5\nart4"
         },
         {
             "card_name": "Initiation Into Fear",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 92,
+            "number": 88,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "When this enchantment enters, put a +1/+1 counter and a menace counter on up to one target creature.\nWhenever a creature you control deals combat damage to a player, you may remove a counter from it. If you do, draw a card.",
@@ -2756,7 +2756,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniela Ivanova",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Joyful Conflagration",
@@ -2774,17 +2774,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay6\n\nCould easily become shock that upgrades to Lightning Bolt"
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay6\n\nCould easily become shock that upgrades to Lightning Bolt\n\nart3"
         },
         {
-            "card_name": "Scandalous In-Law",
+            "card_name": "Unfortunate In-Law",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
-            "number": 146,
+            "number": 152,
             "color_identity": "R",
             "cost": "{R}",
-            "rules_text": "Trample, haste\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this creature gets +2/+0 until end of turn.",
+            "rules_text": "Trample, haste\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this creature gets +2/+2 until end of turn.",
             "flavor_text": "[i]A collector of impossible accusations.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -2792,10 +2792,10 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Lentescura",
-            "notes": "Preview\nDay2"
+            "notes": "Preview\nDay2\nart3"
         },
         {
-            "card_name": "Bleeding Saviour",
+            "card_name": "Bleeding Savior",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Angel Horror",
@@ -2810,14 +2810,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mert Genccinar",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Burning Memories",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 121,
+            "number": 122,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "This spell deals 2 damage to any target.\nFlashback\u2014{2}{R}, Discard a red card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -2828,14 +2828,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jorge Gonzalez",
-            "notes": "preview\nDay9"
+            "notes": "preview\nDay9\nart3"
         },
         {
             "card_name": "Moment of Connection",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 137,
+            "number": 138,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Put a +1/+1 counter and a trample counter on each of up to two target creatures you control.",
@@ -2846,7 +2846,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Marco Bucci",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Acclaimed Daredevil",
@@ -2856,7 +2856,7 @@
             "number": 118,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Reach\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a Treasure token.\n{6}{R}: This creature deals 3 damage to each opponent.",
+            "rules_text": "Reach\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a tapped Treasure token.\n{6}{R}: This creature deals 3 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -2864,14 +2864,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pandora Young",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Wall of Ravings",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wall",
-            "number": 155,
+            "number": 156,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Defender\nWhen this creature enters, exile the top card of your library. You may play it until the end of your next turn.",
@@ -2882,7 +2882,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alexander Karcz",
-            "notes": "\npreview\nDay10"
+            "notes": "\npreview\nDay10\nart4"
         },
         {
             "card_name": "Blood Moon Killer",
@@ -2894,13 +2894,13 @@
             "cost": "{1}{R}",
             "rules_text": "Trample, haste\nAt the beginning of your end step, exile this creature. You may cast it during your next turn.",
             "flavor_text": "[i]After the Scarlet Ball, the blood moon rose on eight consecutive nights.[/i]",
-            "pt": "4/3",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Robin Julian",
-            "notes": "art2"
+            "artist": "Sebijy",
+            "notes": "art4"
         },
         {
             "card_name": "Lacquer School Memento",
@@ -2918,14 +2918,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pauline Voss",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Renegade Clotweaver",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Rogue",
-            "number": 143,
+            "number": 142,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever a player casts a white or blue spell, this creature deals 2 damage to them.",
@@ -2936,14 +2936,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniela Ivanova",
-            "notes": "\nwhite or blue hate?"
+            "notes": "\nwhite or blue hate?\nart3"
         },
         {
             "card_name": "Sanguine Effusion",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 145,
+            "number": 144,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Target creature can't block this turn. Create a token that's a copy of it, except it has haste. Sacrifice it at the beginning of the next end step.",
@@ -2954,19 +2954,19 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Preview\nDay5"
+            "notes": "Preview\nDay5\nart4"
         },
         {
-            "card_name": "Train to Nowhere",
+            "card_name": "Malicious Locomotive",
             "color": "R",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
-            "number": 152,
+            "number": 134,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "When this Vehicle enters, exile the top two cards of your library. You may play those cards until the end of your next turn.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this Vehicle becomes an artifact creature until end of turn.",
+            "rules_text": "When this Vehicle enters, it deals 4 damage to up to one target creature.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, this Vehicle becomes an artifact creature until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "6/6",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
@@ -2979,7 +2979,7 @@
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Merfolk",
-            "number": 150,
+            "number": 149,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Double strike\nWhenever you attack with exactly two creatures, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2990,14 +2990,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "SOE",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Flaming Immersion",
+            "card_name": "Break the Mirror",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 128,
+            "number": 121,
             "color_identity": "R",
             "cost": "{X}{R}",
             "rules_text": "Choose one \u2014 \n\u2022 Destroy any number of target artifacts with total mana value X or less.\n\u2022 Exile the top X cards of your library. Choose two of them. You may play those cards until the end of your next turn.",
@@ -3007,8 +3007,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Max Schiller",
-            "notes": "Changes"
+            "artist": "Luna Clarion",
+            "notes": "Changes\nart3"
         },
         {
             "card_name": "Disgraced Apothecary",
@@ -3026,14 +3026,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Marco Bucci",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4"
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nart3"
         },
         {
             "card_name": "Normality's Guardian",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Druid",
-            "number": 175,
+            "type": "Creature \u2014 Human Noble",
+            "number": 177,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Flash\nThis spell can't be countered.\nWhen this creature enters, creatures you control gain hexproof from blue and black until end of turn and spells you control can't be countered this turn.",
@@ -3043,33 +3043,33 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Ola Karambola",
-            "notes": ""
+            "artist": "Victor Ferraz",
+            "notes": "art3"
         },
         {
             "card_name": "Ghoul of Whit Street",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie Horror",
-            "number": 170,
+            "number": 168,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "As an additional cost to cast this spell, return a creature you control to its owner's hand.",
+            "rules_text": "As an additional cost to cast this spell, return a creature you control to its owner's hand or pay {3}.",
             "flavor_text": "[i]Those who wander unawares into Whit Street may leave before they arrive, in a world that has forgotten them.[/i]",
-            "pt": "4/5",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Second Chair Drowned",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Skeleton Bard",
-            "number": 183,
+            "number": 184,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Creatures you control with base power 2 get +1/+1.",
@@ -3080,14 +3080,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Matt Hubel",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Slayer's Calling",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 186,
+            "number": 187,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control.\nFlashback\u2014{1}{G}, Discard a green card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -3098,7 +3098,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tulio Brito",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Unkillable Profusion",
@@ -3116,7 +3116,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Guillaume Ducos",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Crystal Spires Huntress",
@@ -3152,14 +3152,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Preview\nDay7"
+            "notes": "Preview\nDay7\nart4"
         },
         {
-            "card_name": "Salacious Spinster",
+            "card_name": "Mistress of the Menagerie",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Spider Noble",
-            "number": 182,
+            "type": "Creature \u2014 Human Noble",
+            "number": 176,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]\nReach, trample\nWhen this creature enters, if the gift was promised, create a 3/3 green Beast creature token with trample.",
@@ -3170,7 +3170,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yuri Chuchmay",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Canal Conglomeration",
@@ -3188,14 +3188,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniele Aferni",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Hunting Season",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 171,
+            "number": 169,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a 3/3 green Beast creature token with trample.",
@@ -3206,14 +3206,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tatyana Kupriyanova",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Open Invitation",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 176,
+            "number": 178,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "At the beginning of your end step, you may return a creature you control to its owner's hand. If you do, veil a card from your hand. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -3224,14 +3224,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jason Scheier",
-            "notes": "Preview\nDay3"
+            "notes": "Preview\nDay3\nart3"
         },
         {
             "card_name": "Taxidermical Effort",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 191,
+            "number": 192,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Choose one or both \u2014 \n\u2022 Return target permanent card from your graveyard to your hand.\n\u2022 Put two +1/+1 counters on target creature.",
@@ -3242,17 +3242,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alvaro Le\u00f3n",
-            "notes": "Changes"
+            "notes": "Changes\nart3"
         },
         {
             "card_name": "Memento of Paradise",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Artifact \u2014 Equipment",
+            "type": "Artifact",
             "number": 174,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "When this Equipment enters, veil the top card of your library, then attach this Equipment to it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nEquipped creature has \u201c{T}: Add one mana of any color.\u201d\nEquip {1}",
+            "rules_text": "When this Equipment enters, veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\n{T}, Tap an untapped creature you control: Add one mana of any color.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3260,7 +3260,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andrea Suli",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Pocket Armillary",
@@ -3278,14 +3278,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Nickson",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart3"
         },
         {
             "card_name": "Candid Camera",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 235,
+            "number": 234,
             "color_identity": "WUBRG",
             "cost": "{3}",
             "rules_text": "{T}: Add one mana of any color.\n{W}{U}{B}{R}{G}, Sacrifice this artifact: You draw two cards and gain 2 life.",
@@ -3296,14 +3296,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pixoloid Studios",
-            "notes": ""
+            "notes": "art4"
         },
         {
-            "card_name": "Black Iris Prototype",
+            "card_name": "Porcelain Outcast",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 234,
+            "number": 242,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Vision {7} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, if it was cast for its vision cost, destroy target nonland permanent.",
@@ -3313,15 +3313,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Matteus Ozminsky",
-            "notes": ""
+            "artist": "Miqdam Ul Ghani",
+            "notes": "art4"
         },
         {
             "card_name": "Sackcloth Companion",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Toy",
-            "number": 242,
+            "number": 243,
             "color_identity": "C",
             "cost": "{0}",
             "rules_text": "",
@@ -3332,7 +3332,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Klaudia Bezak",
-            "notes": "Preview\nDay4"
+            "notes": "Preview\nDay4\nart2"
         },
         {
             "card_name": "Ornate Flintlock",
@@ -3350,7 +3350,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Eithne Ni Anluain",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Cordial Hall",
@@ -3368,7 +3368,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Discreet Hall",
@@ -3386,7 +3386,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Maria Yue",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Ambitious Hall",
@@ -3404,7 +3404,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulo Loveranes",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Breathtaking Hall",
@@ -3422,7 +3422,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulo Loveranes",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "Echoing Hall",
@@ -3440,7 +3440,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andreas Rocha",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "The Ivory Dollmaker",
@@ -3458,14 +3458,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Aditya M",
-            "notes": "Rares: \ntop-down designs for Blossoms and Gifts characters\nreplacements for KDT staples\nart-first for all the high-priority art remaining\nCycles \u2014 Flashback, probably one more\nDay4"
+            "notes": "Rares: \ntop-down designs for Blossoms and Gifts characters\nreplacements for KDT staples\nart-first for all the high-priority art remaining\nCycles \u2014 Flashback, probably one more\nDay4\nart3"
         },
         {
             "card_name": "The Second Madness",
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Horror",
-            "number": 224,
+            "number": 223,
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
             "rules_text": "Lifelink\nIf a player casting a spell causes an ability of a creature you control to trigger, it triggers an additional time.",
@@ -3476,7 +3476,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": "Day5"
+            "notes": "Day5\nart3"
         },
         {
             "card_name": "Xolier of the Stylish Entrance",
@@ -3494,14 +3494,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jordan Kerbow",
-            "notes": "Day1"
+            "notes": "Day1\nart4"
         },
         {
             "card_name": "The Attended One",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Snake Mercenary",
-            "number": 198,
+            "number": 199,
             "color_identity": "RG",
             "cost": "{4}{R}{G}",
             "rules_text": "Vigilance, trample\nWhenever The Attended One enters or attacks, veil the top two cards of your library. [i](Put them onto the battlefield face-down as 2/2 creatures. You may cast them while they're attacking. Creatures cast this way enter tapped and attacking and keep counters and blockers.)[/i]",
@@ -3512,17 +3512,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kyle Pearson",
-            "notes": "Day7"
+            "notes": "Day7\nart3"
         },
         {
             "card_name": "Faith Winslip, Riflehearted",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Noble",
-            "number": 206,
+            "number": 205,
             "color_identity": "WG",
             "cost": "{2}{G}{W}",
-            "rules_text": "Haste\nWhen Faith enters, create The Winslip Special, a legendary Equipment artifact token with \u201cEquipped creature has double strike\u201d, equip creature with base power 2 {1}, and equip {4}. Attach it to Faith.",
+            "rules_text": "Haste\nWhen Faith enters, create The Winslip Special, a legendary Equipment artifact token with \u201cEquipped creature has double strike,\u201d equip creature with base power 2 {1}, and equip {4}. Attach it to Faith.",
             "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
@@ -3530,43 +3530,43 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lip",
-            "notes": "Day3"
+            "notes": "Day3\nart4"
         },
         {
             "card_name": "Carize, Death's Editor",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Warlock",
-            "number": 199,
+            "number": 200,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Whenever Carize enters or attacks, exile up to one target card from a graveyard.\nWhen Carize dies, for each creature card with mana value 3 or less exiled with it, create a token that's a copy of that card.",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Mosca",
-            "notes": "Day8"
+            "notes": "Day8\nart4\n!tag wishlist"
         },
         {
             "card_name": "Limor, Etiquette Enforcer",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Druid",
-            "number": 213,
+            "number": 212,
             "color_identity": "BG",
             "cost": "{B}{G}",
             "rules_text": "When Limor enters, put a deathtouch counter on target creature.\nWhenever another face-up creature you control with one or more counters on it dies, veil the top card of your library, then put those counters on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "1/1",
+            "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Mosca",
-            "notes": "Day3"
+            "notes": "Day3\nart4"
         },
         {
             "card_name": "Your Enthusiastic Employer",
@@ -3584,14 +3584,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Michele Esposito",
-            "notes": "Day7"
+            "notes": "Day7\nart2"
         },
         {
             "card_name": "Arden, Thief of Futures",
             "color": "UR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 197,
+            "number": 198,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Whenever a creature you control deals combat damage to a player, draw a card.\nIf you would draw a card, exile the top card of an opponent's library face down instead. You may look at and play that card for as long as it remains exiled, and may spend mana as though it were mana of any color to cast it.",
@@ -3602,7 +3602,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Morgan Ketelaar Jarass",
-            "notes": "Day7"
+            "notes": "Day7\nart4"
         },
         {
             "card_name": "The Ambergris Chorus",
@@ -3620,7 +3620,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mert Genccinar",
-            "notes": "Day9"
+            "notes": "Day9\nart3"
         },
         {
             "card_name": "Sovereign of Submission",
@@ -3638,7 +3638,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ian Llanas",
-            "notes": "Day8"
+            "notes": "Day8\nart4"
         },
         {
             "card_name": "Dollmaker's Refrain",
@@ -3656,14 +3656,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Pavleeva",
-            "notes": "Day4"
+            "notes": "Day4\nart2"
         },
         {
             "card_name": "Vault of Forgeries",
             "color": "W",
             "rarity": "mythic",
             "type": "Artifact",
-            "number": 37,
+            "number": 38,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "{1}, {T}: Exile target nonland permanent card with mana value 3 or less from your graveyard. Create a token that's a copy of it. Activate only as a sorcery.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, untap this artifact.",
@@ -3674,7 +3674,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gilles Beloeil",
-            "notes": "Day2"
+            "notes": "Day2\nart3"
         },
         {
             "card_name": "Slate Mask",
@@ -3692,7 +3692,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Leo S",
-            "notes": "Day3"
+            "notes": "Day3\nart3"
         },
         {
             "card_name": "Selthriel, Chained Seraph",
@@ -3710,7 +3710,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "Day8\n\nOne chain for each truth told."
+            "notes": "Day8\n\nOne chain for each truth told.\nart4"
         },
         {
             "card_name": "Shutter and Bury",
@@ -3728,14 +3728,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Only Eyes For Each Other",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 17,
+            "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "As long as you control exactly two creatures, they each get +2/+2 and have ward {2}.",
@@ -3745,8 +3745,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Ina Wong",
-            "notes": "Day9\nart2"
+            "artist": "SOE",
+            "notes": "Day9\nart3"
         },
         {
             "card_name": "Brimtouched Chaplain",
@@ -3764,7 +3764,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "Day8"
+            "notes": "Day8\nart3"
         },
         {
             "card_name": "Mr. Hours, Pseudarchivist",
@@ -3782,7 +3782,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Day1\n!tag wishlist"
+            "notes": "Day1\n\nart2\nart-overlap"
         },
         {
             "card_name": "Disgorger of Suns",
@@ -3800,7 +3800,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": "Day10"
+            "notes": "Day10\nart3"
         },
         {
             "card_name": "Half-Breed Scion",
@@ -3818,25 +3818,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Wlop",
-            "notes": "Day9"
+            "notes": "Day9\nart4"
         },
         {
-            "card_name": "Jester's Refrain",
+            "card_name": "Archivist's Refrain",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 58,
+            "number": 43,
             "color_identity": "UB",
-            "cost": "{1}{U}",
-            "rules_text": "Mill three cards, then return a card milled this way to your hand. If this spell was cast from a graveyard, you may cast a nonland card from your graveyard this turn.\nFlashback\u2014{2}{U}{B}, Discard a black card.",
+            "cost": "{U}",
+            "rules_text": "Draw a card. If this spell was cast from a graveyard, instead you draw X cards and lose X life.\nFlashback\u2014{X}{U}{B}, Discard a black card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Layla Vladi",
-            "notes": "Day6"
+            "artist": "Kurilyiuk",
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Uninvited Guests",
@@ -3854,7 +3854,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tony Skeor",
-            "notes": "Day8"
+            "notes": "Day8\nart2\nCan become swan song but they veil maybe"
         },
         {
             "card_name": "Perfected Soloist",
@@ -3866,13 +3866,13 @@
             "cost": "{2}{U}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, draw a card.",
             "flavor_text": "[i]A player truly in tune with Yesterday's soul can play songs long buried or yet to be composed.[/i]",
-            "pt": "1/3",
+            "pt": "1/5",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Grace Zhu",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Oraculous Expatriate",
@@ -3890,25 +3890,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Y Mir",
-            "notes": "Day8\nart2\n\nThe Temperance League pursues in dream all magics unknown and provocative."
+            "notes": "Day8\nart3\n\nThe Temperance League pursues in dream all magics unknown and provocative."
         },
         {
-            "card_name": "Secret Eater",
+            "card_name": "Lucid Drifter",
             "color": "U",
             "rarity": "mythic",
-            "type": "Creature \u2014 Horror Warlock",
-            "number": 70,
+            "type": "Creature \u2014 Human Wizard",
+            "number": 59,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flying\nDuring your turn, each instant or sorcery card in your graveyard has flashback {U}, Discard a card with the same mana value as this card.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Flying\nDuring your turn, each instant or sorcery card in your graveyard has \u201cFlashback\u2014{U}, Discard a card with the same mana value as this card.\u201d",
+            "flavor_text": "[i]Submerged in seas of possibility.[/i]",
             "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Envar Studio",
-            "notes": "Day10\nflavourtext"
+            "artist": "Ilya Vatutin",
+            "notes": "Day10\nflavourtext\nart3"
         },
         {
             "card_name": "Shade of Impending Doom",
@@ -3926,25 +3926,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ian Llanas",
-            "notes": "Day5"
+            "notes": "Day5\nart4"
         },
         {
-            "card_name": "Lucid Judge",
+            "card_name": "Nightmarish Judge",
             "color": "B",
             "rarity": "rare",
-            "type": "Creature \u2014 Nightmare",
-            "number": 94,
+            "type": "Creature \u2014 Nightmare Demon",
+            "number": 95,
             "color_identity": "B",
-            "cost": "{3}{B}{B}",
+            "cost": "{4}{B}{B}",
             "rules_text": "Vision {B} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nFlying\nSacrifice another creature: Scry 1. Put a +1/+1 counter on this creature.",
             "flavor_text": "[i][/i]",
-            "pt": "4/5",
+            "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": "Day10"
+            "notes": "Day10\nart4"
         },
         {
             "card_name": "Tutor of Epitaphs",
@@ -3962,14 +3962,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "Day5"
+            "notes": "Day5\nart4"
         },
         {
-            "card_name": "Witch's Refrain",
+            "card_name": "Phrenologist's Refrain",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 115,
+            "number": 100,
             "color_identity": "BR",
             "cost": "{1}{B}",
             "rules_text": "Exile the top two cards of target opponent's library. If this spell was cast from a graveyard, also exile the top two cards of your library. You may play them until the end of your next turn, and mana of any color may be spent to cast them.\nFlashback\u2014{2}{B}{R}, Discard a red card.",
@@ -3979,15 +3979,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Anna Gotskaya",
-            "notes": "Day5"
+            "artist": "Miguel Arguelles",
+            "notes": "Day5\nart3"
         },
         {
             "card_name": "Penitent Poacher",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Human Mercenary",
-            "number": 101,
+            "number": 99,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When you cast this spell, target opponent creates a 3/3 green Beast creature token with trample.\nWhenever this creature enters or attacks, target opponent loses 3 life unless they sacrifice a nonland permanent or discard a card.",
@@ -3998,7 +3998,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Antonis Papantoniouo",
-            "notes": "Day2"
+            "notes": "Day2\nart4"
         },
         {
             "card_name": "Bianco, Midnight's Host",
@@ -4016,14 +4016,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Day9"
+            "notes": "Day9\nart2\nart-overlap\n!tag wishlist"
         },
         {
             "card_name": "Intruding Thought",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Horror",
-            "number": 93,
+            "number": 89,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Menace\n[i]Paradox[/i] \u2014 At the beginning of your end step, if you didn't cast a spell from anywhere other than your hand this turn, discard a card.",
@@ -4034,14 +4034,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Lei Min",
-            "notes": "Day10"
+            "notes": "Day10\nart3"
         },
         {
             "card_name": "Payment Comes Due",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 100,
+            "number": 98,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Destroy all creatures with power X or less, where X is the number of instant and sorcery cards in your graveyard. If X is 4 or greater, create a 3/2 black Horror creature token with menace.",
@@ -4052,7 +4052,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paukline Voss",
-            "notes": "Day3"
+            "notes": "Day3\nart4"
         },
         {
             "card_name": "Highborn Dragoness",
@@ -4064,20 +4064,20 @@
             "cost": "{3}{R}{R}",
             "rules_text": "Vision {R} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nFlying\n{1}{R}: This creature deals 2 damage to target creature. Activate only if this creature entered or attacked this turn.",
             "flavor_text": "[i][/i]",
-            "pt": "5/4",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Billy Christian",
-            "notes": "Day2"
+            "notes": "Day2\nart4"
         },
         {
             "card_name": "Upending of Order",
             "color": "R",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 153,
+            "number": 154,
             "color_identity": "R",
             "cost": "{5}{R}{R}",
             "rules_text": "When this enchantment enters, exile all nonenchantment, nonland permanents.\nOnce during each player's turn, they may cast a spell from among cards exiled with this enchantment without paying its mana cost.",
@@ -4088,14 +4088,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Oliver Wetter",
-            "notes": "Day10"
+            "notes": "Day10\nart3"
         },
         {
             "card_name": "Culvert Babbler",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Horror Zombie",
-            "number": 125,
+            "number": 126,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "At the beginning of each player's upkeep, that player may exile the top card of their library. They may play that card this turn.\nWhenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them.",
@@ -4106,17 +4106,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Day9\n!tag wishlist"
+            "notes": "Day9\nart4\n!tag wishlist"
         },
         {
             "card_name": "The Scarlet Lady",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Azra Noble",
-            "number": 147,
+            "number": 146,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When The Scarlet Lady enters, create a tapped Treasure token.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, exile the top card of your library face down. [i](You can't look at it.)[/i]\n{T}, Discard your hand, sacrifice The Scarlet Lady: Reveal the exiled cards. You may play them this turn.",
+            "rules_text": "When The Scarlet Lady enters, create a tapped Treasure token.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, exile the top card of your library face down. [i](You can't look at it.)[/i]\n{T}, Discard your hand, Sacrifice The Scarlet Lady: Reveal the exiled cards. You may play them this turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -4124,14 +4124,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gwen Bassett",
-            "notes": "Day7"
+            "notes": "Day7\nart4"
         },
         {
             "card_name": "Silver Shackle Initiation",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 149,
+            "number": 148,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, copy it. You may choose new targets for the copy.",
@@ -4142,14 +4142,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Envar Studio",
-            "notes": "Day10"
+            "notes": "Day10\nart3"
         },
         {
             "card_name": "Velvet Glove Exile",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Human Horror Rebel",
-            "number": 154,
+            "number": 155,
             "color_identity": "WR",
             "cost": "{2}{R}",
             "rules_text": "Vision {3}{W} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, creatures you control gain \u201cWhenever this creature is dealt damage, it deals that much damage to target player.\u201d until end of turn.",
@@ -4160,14 +4160,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "Day7\n\nBarred from the house of assassins for the crime of mercy."
+            "notes": "Day7\n\nBarred from the house of assassins for the crime of mercy.\nart3"
         },
         {
             "card_name": "Ringmaster's Refrain",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 144,
+            "number": 143,
             "color_identity": "RG",
             "cost": "{2}{R}",
             "rules_text": "Create a 3/3 green Beast creature token with trample and a Treasure token. If this spell was cast from your graveyard, create two of each of those tokens instead.\nFlashback\u2014{4}{R}{G}, Discard a green card.",
@@ -4178,7 +4178,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Girl in the Phoenix Dress",
@@ -4196,25 +4196,25 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniela Ivanova",
-            "notes": "Day3"
+            "notes": "Day3\nart4"
         },
         {
             "card_name": "Silk-String Marionette",
             "color": "G",
             "rarity": "rare",
             "type": "Artifact Creature \u2014 Spider Toy",
-            "number": 185,
+            "number": 186,
             "color_identity": "G",
-            "cost": "{1}{G}{G}",
+            "cost": "{2}{G}{G}",
             "rules_text": "Vision {1}{G} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nReach, trample\nDiscard a card: Another target creature gains hexproof and indestructible until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "4/2",
+            "pt": "5/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Devin Platts",
-            "notes": "Day4"
+            "notes": "Day4\nart4"
         },
         {
             "card_name": "Vesperine Abductor",
@@ -4223,23 +4223,23 @@
             "type": "Creature \u2014 Beast",
             "number": 195,
             "color_identity": "G",
-            "cost": "{3}{G}",
-            "rules_text": "Trample\nWhen this creature enters, return a creature you control to its owner's hand.\nWhen this creature dies, you may put a creature card from your hand onto the battlefield.",
+            "cost": "{1}{G}",
+            "rules_text": "When this creature enters, return a creature you control to its owner's hand.\nWhen this creature dies, if it wasn't blocking or sacrificed, you may put a creature card with mana value 3 or less from your hand onto the battlefield.",
             "flavor_text": "[i][/i]",
-            "pt": "5/5",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos Contreras",
-            "notes": "Day5"
+            "notes": "Day5\nart3"
         },
         {
             "card_name": "Sensible Summoning",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 184,
+            "number": 185,
             "color_identity": "G",
             "cost": "{X}{G}",
             "rules_text": "Target opponent chooses a creature type. Search your library for a creature card with mana value X or less that isn't the chosen type, put it onto the battlefield, then shuffle.",
@@ -4250,32 +4250,32 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mike Szabados",
-            "notes": "Day2\n!tag wishlist"
+            "notes": "Day2\nart4"
         },
         {
             "card_name": "Rubbery Recluse",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Ooze",
-            "number": 181,
+            "number": 183,
             "color_identity": "UG",
-            "cost": "{2}{G}",
-            "rules_text": "Vision {2}{U} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, target creature has base power and toughness 4/4 and gains \u201cwhenever this creature deals combat damage to a player, draw a card.\u201d until end of turn.",
+            "cost": "{3}{G}",
+            "rules_text": "Vision {2}{U} [i](You may cast this spell from your hand as though it had flash for its vision cost. Exile it when it enters. You may cast it from exile on a later turn.)[/i]\nWhen this creature enters, target creature has base power and toughness 5/5 and gains \u201cWhenever this creature deals combat damage to a player, draw a card.\u201d until end of turn.",
             "flavor_text": "[i][/i]",
-            "pt": "4/4",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniele DAF Afferni",
-            "notes": "This enchantment enters with a slime counter on it.\nAt the beginning of your upkeep, put a slime counter on this enchantment.\nCreatures you control have base power and toughness equal to the number of slime counters on this enchantment."
+            "notes": "This enchantment enters with a slime counter on it.\nAt the beginning of your upkeep, put a slime counter on this enchantment.\nCreatures you control have base power and toughness equal to the number of slime counters on this enchantment.\nart3"
         },
         {
             "card_name": "Stoic Centerpiece",
             "color": "G",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Statue",
-            "number": 189,
+            "number": 190,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "This creature can't attack unless there are three or more counters on it.\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.",
@@ -4286,35 +4286,35 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Sylvain Sarrailh",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
-            "card_name": "Romantic's Refrain",
+            "card_name": "Importer's Refrain",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 179,
+            "number": 170,
             "color_identity": "WG",
             "cost": "{2}{G}",
-            "rules_text": "Reveal the top 5 cards of your library. Put a creature or land card with mana value 3 or less from among them onto the battlefield and the rest on the bottom in a random order. If this spell was cast from your graveyard, put a +1/+1 counter on each creature you control.\nFlashback\u2014{3}{G}{W}, Discard a white card.",
+            "rules_text": "Reveal the top five cards of your library. Put a creature or land card with mana value 3 or less from among them onto the battlefield and the rest on the bottom in a random order. If this spell was cast from your graveyard, put a +1/+1 counter on each creature you control.\nFlashback\u2014{3}{G}{W}, Discard a white card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "SOE",
-            "notes": "Day2"
+            "artist": "Michal Sztuka",
+            "notes": "Day2\nart3"
         },
         {
             "card_name": "Kaxyl, the Last Faun",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Satyr Bard",
-            "number": 172,
+            "number": 171,
             "color_identity": "G",
             "cost": "{3}{G}{G}{G}",
-            "rules_text": "This spell can't be countered.\nWhen this creature leaves the battlefield, up to one target Forest you control becomes a copy of it.",
+            "rules_text": "This spell can't be countered.\nWhen Kaxyl leaves the battlefield, up to one target Forest you control becomes a copy of it.",
             "flavor_text": "[i]Yesterday was built atop woods of which only a trace remains.[/i]",
             "pt": "6/6",
             "special_text": "",
@@ -4322,17 +4322,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andrej Z T",
-            "notes": "Day7"
+            "notes": "Day7\nart2"
         },
         {
             "card_name": "Picky Horticulturalist",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Human Noble",
-            "number": 177,
+            "number": 179,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "{T}: Add {G}.\n{X}{X}{G}, {T}, Exile this creature: Return X target permanent cards from your graveyard to your hand, then veil X cards from your hand. [i](Put them onto the battlefield face-down as 2/2 creatures. You may cast them while they're attacking. Creatures cast this way enter tapped and attacking and keep counters and blockers.)[/i]",
+            "rules_text": "{T}: Add one mana of any color.\n{X}{X}{G}, {T}, Exile this creature: Return X target permanent cards from your graveyard to your hand, then veil X cards from your hand. [i](Put them onto the battlefield face-down as 2/2 creatures. You may cast them while they're attacking. Creatures cast this way enter tapped and attacking and keep counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4340,7 +4340,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "Day2"
+            "notes": "Day2\nart3"
         },
         {
             "card_name": "Spectral Address",
@@ -4350,7 +4350,7 @@
             "number": 257,
             "color_identity": "WU",
             "cost": "",
-            "rules_text": "Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]\nThis land enters tapped.\n{T}: Add {W} or {U}.\n{WU}, {T}: You may play the exiled card this turn. Activate only if you cast a spell during an opponent's turn since your last end step.",
+            "rules_text": "Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]\nThis land enters tapped.\n{T}: Add {W} or {U}.\n{WU}, {T}: You may play the exiled card this turn. Activate only during an opponent's turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4358,10 +4358,10 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "David Tilton",
-            "notes": "Day6"
+            "notes": "Day6\nart4"
         },
         {
-            "card_name": "Sunken Laboratory",
+            "card_name": "Submerged Laboratory",
             "color": "",
             "rarity": "rare",
             "type": "Land",
@@ -4394,7 +4394,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jose Mifuel",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Opulent Chamber",
@@ -4412,7 +4412,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "JOhanna Ruprecht",
-            "notes": "Day6"
+            "notes": "Day6\nart4"
         },
         {
             "card_name": "Liberating Vista",
@@ -4430,7 +4430,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Patrick Jensen",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Unsettling Abbey",
@@ -4448,7 +4448,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Adam Burn",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Rotting Dreamscape",
@@ -4466,7 +4466,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": "Day6"
+            "notes": "Day6\nart2"
         },
         {
             "card_name": "Backstreet Apothecary",
@@ -4484,7 +4484,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tarmo Juhola",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Twisted Sewer",
@@ -4502,7 +4502,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Vykoukal",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Smoky Parlor",
@@ -4520,7 +4520,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "Day6"
+            "notes": "Day6\nart3"
         },
         {
             "card_name": "Stage of Endless Possibilities",
@@ -4538,7 +4538,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "\nDay6\nChanges"
+            "notes": "\nDay6\nChanges\nart2"
         },
         {
             "card_name": "colorless Toy 11BLV",
@@ -4591,8 +4591,8 @@
             "shape": "token",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Bastien Lecouffe Deharme",
-            "notes": "!exportname black Horror 32BLV\nart2"
+            "artist": "Mike Szabados",
+            "notes": "!exportname black Horror 32BLV\nart3"
         },
         {
             "card_name": "green Beast 33BLV",
@@ -4703,29 +4703,11 @@
             "notes": "art4"
         },
         {
-            "card_name": "Plains",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Plains",
-            "number": 272,
-            "color_identity": "W",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "BLV",
-            "loyalty": "",
-            "artist": "Kay John Yim",
-            "notes": "landslot"
-        },
-        {
             "card_name": "Island",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Island",
-            "number": 274,
+            "number": 273,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -4736,32 +4718,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mohamed El Bouhy",
-            "notes": "landslot"
-        },
-        {
-            "card_name": "Swamp",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Swamp",
-            "number": 276,
-            "color_identity": "B",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "BLV",
-            "loyalty": "",
-            "artist": "Guillem H Pongiluppi",
-            "notes": "landslot"
+            "notes": "landslot\nart3"
         },
         {
             "card_name": "Mountain",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Mountain",
-            "number": 278,
+            "number": 275,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -4771,33 +4735,15 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Mike Relleva",
-            "notes": "landslot"
-        },
-        {
-            "card_name": "Forest",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Forest",
-            "number": 280,
-            "color_identity": "G",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "BLV",
-            "loyalty": "",
-            "artist": "Yongxuan Li",
-            "notes": "landslot"
+            "artist": "Maxime Desmettre",
+            "notes": "landslot\nart4"
         },
         {
             "card_name": "Girl with Carnations",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Amira",
-            "number": 208,
+            "number": 207,
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "Whenever you activate a loyalty ability of Girl with Carnations or whenever she takes damage, target opponent gains control of her.",
@@ -4808,14 +4754,14 @@
             "set": "BLV",
             "loyalty": "5",
             "artist": "St Luthien",
-            "notes": "Day1\n!tag wishlist"
+            "notes": "Day1\n\nart3\n!tag wishlist"
         },
         {
             "card_name": "Hyev, the Resplendent Word",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Enchantment",
-            "number": 12,
+            "number": 13,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "When Hyev enters, veil the top card of your library with a hope counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with hope counters on them get +4/+4 and have flying and \u201cOther creatures have base power and toughness 1/1.\u201d",
@@ -4826,7 +4772,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\n\nMake these all into keyword-matters cards\nart2"
+            "notes": "Day8\n\nMake these all into keyword-matters cards\nart4"
         },
         {
             "card_name": "Nue, the Artful Word",
@@ -4835,8 +4781,8 @@
             "type": "Legendary Enchantment",
             "number": 62,
             "color_identity": "U",
-            "cost": "{3}{U}{U}",
-            "rules_text": "When Nue enters, veil the top card of your library with an insight counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with insight counters on them get +3/+3 and have ward {2} and \u201cIf you would draw a card, draw two cards instead.\u201d",
+            "cost": "{4}{U}{U}",
+            "rules_text": "When Nue enters, veil the top card of your library with an insight counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with insight counters on them get +4/+4 and have ward {2} and \u201cIf you would draw a card, draw two cards instead.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4844,17 +4790,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart2\nvigilance?"
+            "notes": "Day8\nart4\nvigilance?"
         },
         {
             "card_name": "Xaw, the Covetous Word",
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Enchantment",
-            "number": 116,
+            "number": 117,
             "color_identity": "B",
-            "cost": "{2}{B}{B}",
-            "rules_text": "When Xaw enters, veil the top card of your library with a thirst counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with thirst counters on them get +2/+2 and have lifelink and \u201c{B}, Pay 2 life: Draw a card.\u201d",
+            "cost": "{3}{B}{B}",
+            "rules_text": "When Xaw enters, veil the top card of your library with a thirst counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with thirst counters on them get +3/+3 and have lifelink and \u201c{B}, Pay 2 life: Draw a card.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4862,7 +4808,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart2\n!tag wishlist"
+            "notes": "Day8\nart4"
         },
         {
             "card_name": "Ralk, the Avid Word",
@@ -4880,7 +4826,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart2"
+            "notes": "Day8\nart4"
         },
         {
             "card_name": "Ejo, the Ripening Word",
@@ -4898,14 +4844,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jannis Mayr",
-            "notes": "Day8\nart1"
+            "notes": "Day8\nart4"
         },
         {
             "card_name": "Lucent Playwright",
             "color": "BG",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Bard",
-            "number": 216,
+            "number": 215,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "When Lucent Playwright enters, if your starting library contained at least thirty more cards than the minimum deck size. search your library for a card and veil it, then shuffle. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -4916,7 +4862,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Patrick Balou",
-            "notes": "Day6\nChanges\n\nGraveyard recursion?\n\nAdditional mythics: veil matters (WG?), horror typal (BR?), something else (GU?)"
+            "notes": "Day6\nChanges\n\nGraveyard recursion?\n\nAdditional mythics: veil matters (WG?), horror typal (BR?), something else (GU?)\nart4"
         },
         {
             "card_name": "All-Consuming Project",
@@ -4934,7 +4880,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Connor Sheehan",
-            "notes": "art2"
+            "notes": "art2\n!tag wishlist"
         },
         {
             "card_name": "Prima Donna",
@@ -4952,7 +4898,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Othon Nikolaidis",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Radical Experiment",
@@ -4988,35 +4934,35 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jackson Tjota",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Nia, Yesterday's Beloved",
             "color": "UBR",
             "rarity": "mythic",
-            "type": "Legendary Creature \u2014 Human Wizard",
-            "number": 218,
+            "type": "Legendary Creature \u2014 Human Noble",
+            "number": 216,
             "color_identity": "UBR",
-            "cost": "{U}{B}{R}",
-            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a Treasure token, then exile the top card of each player's library. Choose one of them. You may play that card this turn.",
+            "cost": "{2}{U}{B}{R}",
+            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create a Treasure token, then exile the top card of each player's library.\nOnce during each of your turns, you may play a card exiled with Nia.",
             "flavor_text": "[i][/i]",
-            "pt": "3/4",
+            "pt": "5/6",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Natalia Romero",
-            "notes": ""
+            "notes": "art3"
         },
         {
             "card_name": "Cursed Portrait",
             "color": "",
             "rarity": "mythic",
-            "type": "Artifact \u2014 Equipment",
-            "number": 237,
+            "type": "Artifact",
+            "number": 236,
             "color_identity": "C",
             "cost": "{1}",
-            "rules_text": "Whenever another nonland, nontoken permanent you control dies, you may exile it. If you do, put all other cards exiled with this Equipment into their owners' graveyards.\nEquipped creature gets +1/+1 and has all triggered and activated abilities of the exiled card.\nEquip {1}",
+            "rules_text": "Whenever a creature or planeswalker you control dies, you may exile it. If you do, put all other cards exiled with this artifact into their owners' graveyards.\n{T}: Target creature gets +1/+1 and gains all triggered and activated abilities of the exiled card until end of turn. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5024,7 +4970,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Melis Gulai",
-            "notes": "Day1"
+            "notes": "Day1\nart3"
         },
         {
             "card_name": "The Sound of Chimes",
@@ -5042,7 +4988,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": ""
+            "notes": "art2"
         },
         {
             "card_name": "The Second Fiddle BLV",
@@ -5063,11 +5009,11 @@
             "notes": "!exportname The Second Fiddle BLV\nart3"
         },
         {
-            "card_name": "Plains_2",
+            "card_name": "Plains",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
-            "number": 273,
+            "number": 272,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -5078,32 +5024,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Roman Kovryzhe",
-            "notes": "!exportname Plains_2\nlandslot"
+            "notes": "\nlandslot\nart3"
         },
         {
-            "card_name": "Island_2",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Island",
-            "number": 275,
-            "color_identity": "U",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "BLV",
-            "loyalty": "",
-            "artist": "Joseph Feely",
-            "notes": "!exportname Island_2\nlandslot"
-        },
-        {
-            "card_name": "Swamp_2",
+            "card_name": "Swamp",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Swamp",
-            "number": 277,
+            "number": 274,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -5114,32 +5042,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Owl Studio",
-            "notes": "!exportname Swamp_2\nlandslot"
+            "notes": "=\nlandslot\nart3"
         },
         {
-            "card_name": "Mountain_2",
-            "color": "",
-            "rarity": "common",
-            "type": "Basic Land \u2014 Mountain",
-            "number": 279,
-            "color_identity": "R",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "BLV",
-            "loyalty": "",
-            "artist": "Kay John Yim",
-            "notes": "!exportname Mountain_2\nlandslot"
-        },
-        {
-            "card_name": "Forest_2",
+            "card_name": "Forest",
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
-            "number": 281,
+            "number": 276,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -5150,17 +5060,17 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Asher Sobek Israel",
-            "notes": "!exportname Forest_2\nlandslot"
+            "notes": "\nlandslot\nart3"
         },
         {
             "card_name": "Generous Reveler",
             "color": "UR",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Rogue",
-            "number": 207,
+            "number": 206,
             "color_identity": "UR",
             "cost": "{U}{R}",
-            "rules_text": "Trample\nWhen this creature enters, you may have target opponent gain control of target permanent you control. If you do, draw a card and put X +1/+1 counter on this creature, where X is that permanent's mana value.",
+            "rules_text": "Trample\nWhen this creature enters, you may have target opponent gain control of target permanent you control. If you do, draw a card and put X +1/+1 counters on this creature, where X is that permanent's mana value.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -5168,14 +5078,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Julia Zhuravleva",
-            "notes": ""
+            "notes": "art4"
         },
         {
             "card_name": "Physician of Abominations",
             "color": "BR",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Warlock",
-            "number": 220,
+            "number": 218,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Whenever a Horror you control dies, create a token that's a copy of it, except it's not a Horror.\n{T}, Sacrifice a creature: Draw a card.",
@@ -5186,14 +5096,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yves Searle",
-            "notes": ""
+            "notes": "art4"
         },
         {
-            "card_name": "The Patron of the Nameless",
+            "card_name": "Patron of the Nameless",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Creature",
-            "number": 219,
+            "number": 217,
             "color_identity": "WRG",
             "cost": "{1}{R}{G}{W}",
             "rules_text": "This creature has no name. [i](The legend rule doesn't apply to this creature.)[/i]\nWhenever this creature or another creature you control with no name enters, draw a card, then put a +1/+1 counter on each creature you control with no name.",
@@ -5204,14 +5114,14 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yeve Drovossekova",
-            "notes": ""
+            "notes": "art3"
         },
         {
-            "card_name": "Maverick of the Archives",
+            "card_name": "Revisionist Historian",
             "color": "UG",
             "rarity": "mythic",
             "type": "Creature \u2014 Human Wizard",
-            "number": 217,
+            "number": 221,
             "color_identity": "WUBRG",
             "cost": "{1}{G}{U}",
             "rules_text": "Creature cards in your hand have vision {W}{U}{B}{R}{G}. [i](You may cast them as though they had flash for {W}{U}{B}{R}{G}. Exile them when they enter. You may cast them from exile on a later turn.)[/i]",
@@ -5221,8 +5131,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Billy Christian",
-            "notes": ""
+            "artist": "Denis Kornev",
+            "notes": "art3"
         },
         {
             "card_name": "Unspoken Rule",
@@ -5232,7 +5142,7 @@
             "number": 231,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "When this enchantment enters, search target opponent's library for a card and exile it face down, then that player shuffles.\n{1}, Sacrifice this enchantment, reveal the exiled card: Counter target spell with the same name as the exiled card. Draw a card.",
+            "rules_text": "When this enchantment enters, draw a card, then look at the top seven cards of target opponent's library. Exile one of them face-down. Put the rest on the bottom in a random order.\n{1}, Sacrifice this enchantment, Reveal the exiled card: Counter target spell with the same name as the exiled card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5240,7 +5150,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Mosca",
-            "notes": ""
+            "notes": "art3"
         }
     ],
     "version": 1
