@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/ERR-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/ERR-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>ERR visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -58,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -78,11 +87,12 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -98,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -114,40 +125,54 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -156,440 +181,455 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/ERR-files/logo.png" />
-	<img class="preload-hidden" src="/sets/BLV-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/LIM-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PRU-files/icon.png" />
-		<img class="preload-hidden" id="bg" src="/sets/ERR-files/bg.png" />
-		
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ERR-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BLV-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/LIM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PRU-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="icon-bar">
-			<div class="icon"><a href="BLV"><img src="/sets/BLV-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="LIM"><img src="/sets/LIM-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="PRU"><img src="/sets/PRU-files/icon.png"></img></a></div>
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/ERR"><img src="../sets/ERR-files/icon.png">Errors in the Weft</a>
+	
+		<a class="set-bar inactive" href="../previews/BLV"><img src="../sets/BLV-files/icon.png">Blood and Velvet</a>
+	
+		<a class="set-bar inactive" href="../previews/LIM"><img src="../sets/LIM-files/icon.png">Escape From Limbo</a>
+	
+		<a class="set-bar inactive" href="../previews/PRU"><img src="../sets/PRU-files/icon.png">Perennial Ultimatum</a>
+	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/ERR-files/logo.png">
+		<img class="logo" src="../sets/ERR-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\ERR-files\img\27_Priority_Inversion.png" id="27_Priority_Inversion" data-flag="@X" onclick="openSidebar('27_Priority_Inversion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\44_Composer of Skylines.png" id="44_Composer of Skylines" data-flag="@X" onclick="openSidebar('44_Composer of Skylines',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\94_Entropy_Inversion.png" id="94_Entropy_Inversion" data-flag="@X" onclick="openSidebar('94_Entropy_Inversion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\128_Coherence_Inversion.png" id="128_Coherence_Inversion" data-flag="@X" onclick="openSidebar('128_Coherence_Inversion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\162_Cyberzoologist.png" id="162_Cyberzoologist" data-flag="@X" onclick="openSidebar('162_Cyberzoologist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\38_Voice of Utopia.png" id="38_Voice of Utopia" data-flag="@X" onclick="openSidebar('38_Voice of Utopia',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\69_Signal_Inversion.png" id="69_Signal_Inversion" data-flag="@X" onclick="openSidebar('69_Signal_Inversion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\106_Lifehacker.png" id="106_Lifehacker" data-flag="@X" onclick="openSidebar('106_Lifehacker',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\130_Competitive Hedonist.png" id="130_Competitive Hedonist" data-flag="@X" onclick="openSidebar('130_Competitive Hedonist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\188_Resource_Inversion.png" id="188_Resource_Inversion" data-flag="@X" onclick="openSidebar('188_Resource_Inversion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\6_Complementarity.png" id="6_Complementarity" data-flag="@X" onclick="openSidebar('6_Complementarity',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\40_Architect of the Intangible.png" id="40_Architect of the Intangible" data-flag="@X" onclick="openSidebar('40_Architect of the Intangible',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\83_BORROW().png" id="83_BORROW()" data-flag="@X" onclick="openSidebar('83_BORROW()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\287_Fabricated Anomaly.png" id="287_Fabricated Anomaly" data-flag="@X" onclick="openSidebar('287_Fabricated Anomaly',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\157_Aurore, Buffer Exec.png" id="157_Aurore, Buffer Exec" data-flag="@X" onclick="openSidebar('157_Aurore, Buffer Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\7_Containment Seraph.png" id="7_Containment Seraph" data-flag="@X" onclick="openSidebar('7_Containment Seraph',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\45_Convol, Archive Exec.png" id="45_Convol, Archive Exec" data-flag="@X" onclick="openSidebar('45_Convol, Archive Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\95_Exorcist of Errors.png" id="95_Exorcist of Errors" data-flag="@X" onclick="openSidebar('95_Exorcist of Errors',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\119_Artful Hologram.png" id="119_Artful Hologram" data-flag="@X" onclick="openSidebar('119_Artful Hologram',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\163_Digital Reliquary.png" id="163_Digital Reliquary" data-flag="@X" onclick="openSidebar('163_Digital Reliquary',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\9_Darisha, Stack Exec.png" id="9_Darisha, Stack Exec" data-flag="@X" onclick="openSidebar('9_Darisha, Stack Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\51_Echo Choreographer.png" id="51_Echo Choreographer" data-flag="@X" onclick="openSidebar('51_Echo Choreographer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\97_Fall Forever.png" id="97_Fall Forever" data-flag="@X" onclick="openSidebar('97_Fall Forever',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\122_Bootstrap Daemon.png" id="122_Bootstrap Daemon" data-flag="@X" onclick="openSidebar('122_Bootstrap Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\167_Errorsbane Deadshot.png" id="167_Errorsbane Deadshot" data-flag="@X" onclick="openSidebar('167_Errorsbane Deadshot',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\12_EXIT().png" id="12_EXIT()" data-flag="@X" onclick="openSidebar('12_EXIT()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\62_Post-Weft Psionic.png" id="62_Post-Weft Psionic" data-flag="@X" onclick="openSidebar('62_Post-Weft Psionic',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\98_Fan Favorite Daredevil.png" id="98_Fan Favorite Daredevil" data-flag="@X" onclick="openSidebar('98_Fan Favorite Daredevil',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\124_Cache Thrasher.png" id="124_Cache Thrasher" data-flag="@X" onclick="openSidebar('124_Cache Thrasher',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\176_ITERATE().png" id="176_ITERATE()" data-flag="@X" onclick="openSidebar('176_ITERATE()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\13_Futurist Ideal.png" id="13_Futurist Ideal" data-flag="@X" onclick="openSidebar('13_Futurist Ideal',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\63_Preemption Daemon.png" id="63_Preemption Daemon" data-flag="@X" onclick="openSidebar('63_Preemption Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\107_Privilege_Escalation.png" id="107_Privilege_Escalation" data-flag="@X" onclick="openSidebar('107_Privilege_Escalation',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\133_Electronic Countermeasures.png" id="133_Electronic Countermeasures" data-flag="@X" onclick="openSidebar('133_Electronic Countermeasures',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\181_Menagerie Mechanic.png" id="181_Menagerie Mechanic" data-flag="@X" onclick="openSidebar('181_Menagerie Mechanic',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\24_Pixel Pixie.png" id="24_Pixel Pixie" data-flag="@X" onclick="openSidebar('24_Pixel Pixie',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\66_RESET().png" id="66_RESET()" data-flag="@X" onclick="openSidebar('66_RESET()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\108_Qion, Heap Exec.png" id="108_Qion, Heap Exec" data-flag="@X" onclick="openSidebar('108_Qion, Heap Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\135_Eviviva, Grip Exec.png" id="135_Eviviva, Grip Exec" data-flag="@X" onclick="openSidebar('135_Eviviva, Grip Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\183_Mystic of Returns.png" id="183_Mystic of Returns" data-flag="@X" onclick="openSidebar('183_Mystic of Returns',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\25_Placeholder_Asset.png" id="25_Placeholder_Asset" data-flag="@X" onclick="openSidebar('25_Placeholder_Asset',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\73_SYSCALL().png" id="73_SYSCALL()" data-flag="@X" onclick="openSidebar('73_SYSCALL()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\113_Seeker of the Pre-Weft.png" id="113_Seeker of the Pre-Weft" data-flag="@X" onclick="openSidebar('113_Seeker of the Pre-Weft',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\142_Infinite_Loop.png" id="142_Infinite_Loop" data-flag="@X" onclick="openSidebar('142_Infinite_Loop',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\184_Record_Desync.png" id="184_Record_Desync" data-flag="@X" onclick="openSidebar('184_Record_Desync',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\30_Root Navigator.png" id="30_Root Navigator" data-flag="@X" onclick="openSidebar('30_Root Navigator',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\75_Undefined_Behavior.png" id="75_Undefined_Behavior" data-flag="@X" onclick="openSidebar('75_Undefined_Behavior',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\115_Spiteful Griefer.png" id="115_Spiteful Griefer" data-flag="@X" onclick="openSidebar('115_Spiteful Griefer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\145_PANIC().png" id="145_PANIC()" data-flag="@X" onclick="openSidebar('145_PANIC()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\186_Rejuvenation Session.png" id="186_Rejuvenation Session" data-flag="@X" onclick="openSidebar('186_Rejuvenation Session',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\37_Virtualized Onomastic.png" id="37_Virtualized Onomastic" data-flag="@X" onclick="openSidebar('37_Virtualized Onomastic',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\77_Unending Possibility.png" id="77_Unending Possibility" data-flag="@X" onclick="openSidebar('77_Unending Possibility',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\116_A Tear in the Weft.png" id="116_A Tear in the Weft" data-flag="@X" onclick="openSidebar('116_A Tear in the Weft',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\146_Profiler of Pain.png" id="146_Profiler of Pain" data-flag="@X" onclick="openSidebar('146_Profiler of Pain',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\195_Untethered Daemon.png" id="195_Untethered Daemon" data-flag="@X" onclick="openSidebar('195_Untethered Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\2_Assert Mediator.png" id="2_Assert Mediator" data-flag="@X" onclick="openSidebar('2_Assert Mediator',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\42_Buoyant Datagrazer.png" id="42_Buoyant Datagrazer" data-flag="@X" onclick="openSidebar('42_Buoyant Datagrazer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\79_0xdeadbeef.png" id="79_0xdeadbeef" data-flag="@X" onclick="openSidebar('79_0xdeadbeef',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\147_Red-Hot Rider.png" id="147_Red-Hot Rider" data-flag="@X" onclick="openSidebar('147_Red-Hot Rider',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\159_Cathartic Parting.png" id="159_Cathartic Parting" data-flag="@X" onclick="openSidebar('159_Cathartic Parting',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\3_Catch Vanguard.png" id="3_Catch Vanguard" data-flag="@X" onclick="openSidebar('3_Catch Vanguard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\46_COPY().png" id="46_COPY()" data-flag="@X" onclick="openSidebar('46_COPY()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\80_Absentia.png" id="80_Absentia" data-flag="@X" onclick="openSidebar('80_Absentia',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\120_Bitscan Freerunner.png" id="120_Bitscan Freerunner" data-flag="@X" onclick="openSidebar('120_Bitscan Freerunner',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\161_Concurrent Escapist.png" id="161_Concurrent Escapist" data-flag="@X" onclick="openSidebar('161_Concurrent Escapist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\4_Centennial Maestro.png" id="4_Centennial Maestro" data-flag="@X" onclick="openSidebar('4_Centennial Maestro',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\48_Data Staff.png" id="48_Data Staff" data-flag="@X" onclick="openSidebar('48_Data Staff',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\82_BEHOLD().png" id="82_BEHOLD()" data-flag="@X" onclick="openSidebar('82_BEHOLD()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\121_Boorish Celebrant.png" id="121_Boorish Celebrant" data-flag="@X" onclick="openSidebar('121_Boorish Celebrant',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\164_Dream Big.png" id="164_Dream Big" data-flag="@X" onclick="openSidebar('164_Dream Big',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\14_Graceful Finalizer.png" id="14_Graceful Finalizer" data-flag="@X" onclick="openSidebar('14_Graceful Finalizer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\49_Decryption Puzzlemancer.png" id="49_Decryption Puzzlemancer" data-flag="@X" onclick="openSidebar('49_Decryption Puzzlemancer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\86_Catabolist.png" id="86_Catabolist" data-flag="@X" onclick="openSidebar('86_Catabolist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\123_BYPASS().png" id="123_BYPASS()" data-flag="@X" onclick="openSidebar('123_BYPASS()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\166_Elma's Regular.png" id="166_Elmas Regular" data-flag="@X" onclick="openSidebar('166_Elmas Regular',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\15_Imperious Admin.png" id="15_Imperious Admin" data-flag="@X" onclick="openSidebar('15_Imperious Admin',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\50_Denotation Failure.png" id="50_Denotation Failure" data-flag="@X" onclick="openSidebar('50_Denotation Failure',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\87_Cheat Code.png" id="87_Cheat Code" data-flag="@X" onclick="openSidebar('87_Cheat Code',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\125_Catch Defector.png" id="125_Catch Defector" data-flag="@X" onclick="openSidebar('125_Catch Defector',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\169_Fickle Gourmand.png" id="169_Fickle Gourmand" data-flag="@X" onclick="openSidebar('169_Fickle Gourmand',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\17_Lost Connection.png" id="17_Lost Connection" data-flag="@X" onclick="openSidebar('17_Lost Connection',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\54_JUMP().png" id="54_JUMP()" data-flag="@X" onclick="openSidebar('54_JUMP()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\88_Death's Believers.png" id="88_Deaths Believers" data-flag="@X" onclick="openSidebar('88_Deaths Believers',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\127_CHURN().png" id="127_CHURN()" data-flag="@X" onclick="openSidebar('127_CHURN()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\173_GENERATE().png" id="173_GENERATE()" data-flag="@X" onclick="openSidebar('173_GENERATE()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\19_Mail Daemon.png" id="19_Mail Daemon" data-flag="@X" onclick="openSidebar('19_Mail Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\55_Just-In-Time Interpreter.png" id="55_Just-In-Time Interpreter" data-flag="@X" onclick="openSidebar('55_Just-In-Time Interpreter',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\89_Do_Not_Respond.png" id="89_Do_Not_Respond" data-flag="@X" onclick="openSidebar('89_Do_Not_Respond',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\131_Creative Commission.png" id="131_Creative Commission" data-flag="@X" onclick="openSidebar('131_Creative Commission',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\175_Irreverent Modder.png" id="175_Irreverent Modder" data-flag="@X" onclick="openSidebar('175_Irreverent Modder',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\21_Metatactician.png" id="21_Metatactician" data-flag="@X" onclick="openSidebar('21_Metatactician',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\56_Mev's Holographist.png" id="56_Mevs Holographist" data-flag="@X" onclick="openSidebar('56_Mevs Holographist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\93_Earworm DJ.png" id="93_Earworm DJ" data-flag="@X" onclick="openSidebar('93_Earworm DJ',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\134_Error Tide.png" id="134_Error Tide" data-flag="@X" onclick="openSidebar('134_Error Tide',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\177_Lavis' Hydroponicist.png" id="177_Lavis Hydroponicist" data-flag="@X" onclick="openSidebar('177_Lavis Hydroponicist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\22_Mobilization Technician.png" id="22_Mobilization Technician" data-flag="@X" onclick="openSidebar('22_Mobilization Technician',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\60_Olis's Axiom.png" id="60_Oliss Axiom" data-flag="@X" onclick="openSidebar('60_Oliss Axiom',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\96_Failed Gateway.png" id="96_Failed Gateway" data-flag="@X" onclick="openSidebar('96_Failed Gateway',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\136_FORK().png" id="136_FORK()" data-flag="@X" onclick="openSidebar('136_FORK()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\178_Masksmith.png" id="178_Masksmith" data-flag="@X" onclick="openSidebar('178_Masksmith',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\28_Reprieve from Mortality.png" id="28_Reprieve from Mortality" data-flag="@X" onclick="openSidebar('28_Reprieve from Mortality',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\61_Parse.png" id="61_Parse" data-flag="@X" onclick="openSidebar('61_Parse',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\100_Grognard.png" id="100_Grognard" data-flag="@X" onclick="openSidebar('100_Grognard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\140_Groove Surfer.png" id="140_Groove Surfer" data-flag="@X" onclick="openSidebar('140_Groove Surfer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\179_Megafauna Knight.png" id="179_Megafauna Knight" data-flag="@X" onclick="openSidebar('179_Megafauna Knight',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\29_RETURN().png" id="29_RETURN()" data-flag="@X" onclick="openSidebar('29_RETURN()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\65_Reclusive Percipient.png" id="65_Reclusive Percipient" data-flag="@X" onclick="openSidebar('65_Reclusive Percipient',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\101_Hang.png" id="101_Hang" data-flag="@X" onclick="openSidebar('101_Hang',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\141_High Rollers.png" id="141_High Rollers" data-flag="@X" onclick="openSidebar('141_High Rollers',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\185_Recurring_Noise.png" id="185_Recurring_Noise" data-flag="@X" onclick="openSidebar('185_Recurring_Noise',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\32_Student of Immortality.png" id="32_Student of Immortality" data-flag="@X" onclick="openSidebar('32_Student of Immortality',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\67_Rogue Daemon.png" id="67_Rogue Daemon" data-flag="@X" onclick="openSidebar('67_Rogue Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\104_Killscore Vanguard.png" id="104_Killscore Vanguard" data-flag="@X" onclick="openSidebar('104_Killscore Vanguard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\144_Overwhelming Upload.png" id="144_Overwhelming Upload" data-flag="@X" onclick="openSidebar('144_Overwhelming Upload',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\187_RESONATE().png" id="187_RESONATE()" data-flag="@X" onclick="openSidebar('187_RESONATE()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\35_UNDO().png" id="35_UNDO()" data-flag="@X" onclick="openSidebar('35_UNDO()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\70_Soulspace Access.png" id="70_Soulspace Access" data-flag="@X" onclick="openSidebar('70_Soulspace Access',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\111_Rooftop Leaper.png" id="111_Rooftop Leaper" data-flag="@X" onclick="openSidebar('111_Rooftop Leaper',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\148_Rowhammer.png" id="148_Rowhammer" data-flag="@X" onclick="openSidebar('148_Rowhammer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\189_Schematic Archer.png" id="189_Schematic Archer" data-flag="@X" onclick="openSidebar('189_Schematic Archer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\36_Use_After_Free.png" id="36_Use_After_Free" data-flag="@X" onclick="openSidebar('36_Use_After_Free',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\76_Underflow_Error.png" id="76_Underflow_Error" data-flag="@X" onclick="openSidebar('76_Underflow_Error',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\112_Rumormonger.png" id="112_Rumormonger" data-flag="@X" onclick="openSidebar('112_Rumormonger',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\151_Threadripper.png" id="151_Threadripper" data-flag="@X" onclick="openSidebar('151_Threadripper',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\191_Showstopping Couture.png" id="191_Showstopping Couture" data-flag="@X" onclick="openSidebar('191_Showstopping Couture',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\39_Weave Dispatcher.png" id="39_Weave Dispatcher" data-flag="@X" onclick="openSidebar('39_Weave Dispatcher',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\78_WAIT().png" id="78_WAIT()" data-flag="@X" onclick="openSidebar('78_WAIT()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\117_Uptime Contestant.png" id="117_Uptime Contestant" data-flag="@X" onclick="openSidebar('117_Uptime Contestant',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\153_Token_Limit.png" id="153_Token_Limit" data-flag="@X" onclick="openSidebar('153_Token_Limit',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\193_Speculative_Execution.png" id="193_Speculative_Execution" data-flag="@X" onclick="openSidebar('193_Speculative_Execution',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\1_Ambitious Angel.png" id="1_Ambitious Angel" data-flag="@X" onclick="openSidebar('1_Ambitious Angel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\41_Archive Ascetic.png" id="41_Archive Ascetic" data-flag="@X" onclick="openSidebar('41_Archive Ascetic',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\81_Backdoor Prowler.png" id="81_Backdoor Prowler" data-flag="@X" onclick="openSidebar('81_Backdoor Prowler',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\154_Transgressive Trendsetter.png" id="154_Transgressive Trendsetter" data-flag="@X" onclick="openSidebar('154_Transgressive Trendsetter',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\158_Buffer Botanist.png" id="158_Buffer Botanist" data-flag="@X" onclick="openSidebar('158_Buffer Botanist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\5_Checkpoint Daemon.png" id="5_Checkpoint Daemon" data-flag="@X" onclick="openSidebar('5_Checkpoint Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\43_Codepath Runner.png" id="43_Codepath Runner" data-flag="@X" onclick="openSidebar('43_Codepath Runner',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\84_Burnout Champion.png" id="84_Burnout Champion" data-flag="@X" onclick="openSidebar('84_Burnout Champion',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\118_Abrasive Punk.png" id="118_Abrasive Punk" data-flag="@X" onclick="openSidebar('118_Abrasive Punk',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\160_Computing Titan.png" id="160_Computing Titan" data-flag="@X" onclick="openSidebar('160_Computing Titan',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\8_Daemonic Binding.png" id="8_Daemonic Binding" data-flag="@X" onclick="openSidebar('8_Daemonic Binding',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\47_Cybersaurus.png" id="47_Cybersaurus" data-flag="@X" onclick="openSidebar('47_Cybersaurus',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\85_Carefree Mortalist.png" id="85_Carefree Mortalist" data-flag="@X" onclick="openSidebar('85_Carefree Mortalist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\126_Charming Exceptional.png" id="126_Charming Exceptional" data-flag="@X" onclick="openSidebar('126_Charming Exceptional',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\165_Ecosystem Revivalists.png" id="165_Ecosystem Revivalists" data-flag="@X" onclick="openSidebar('165_Ecosystem Revivalists',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\10_Download Courier.png" id="10_Download Courier" data-flag="@X" onclick="openSidebar('10_Download Courier',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\52_FLOCK().png" id="52_FLOCK()" data-flag="@X" onclick="openSidebar('52_FLOCK()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\90_Downlink Overload.png" id="90_Downlink Overload" data-flag="@X" onclick="openSidebar('90_Downlink Overload',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\129_COMMIT().png" id="129_COMMIT()" data-flag="@X" onclick="openSidebar('129_COMMIT()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\168_Fault_Injection.png" id="168_Fault_Injection" data-flag="@X" onclick="openSidebar('168_Fault_Injection',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\11_Element Aesthete.png" id="11_Element Aesthete" data-flag="@X" onclick="openSidebar('11_Element Aesthete',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\53_Glitchlands Sentinel.png" id="53_Glitchlands Sentinel" data-flag="@X" onclick="openSidebar('53_Glitchlands Sentinel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\91_Draconic Dungeoneer.png" id="91_Draconic Dungeoneer" data-flag="@X" onclick="openSidebar('91_Draconic Dungeoneer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\132_Crucible Takedown.png" id="132_Crucible Takedown" data-flag="@X" onclick="openSidebar('132_Crucible Takedown',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\170_Flowing Form.png" id="170_Flowing Form" data-flag="@X" onclick="openSidebar('170_Flowing Form',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\16_Linked Hoversuit.png" id="16_Linked Hoversuit" data-flag="@X" onclick="openSidebar('16_Linked Hoversuit',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\57_Mnemologist.png" id="57_Mnemologist" data-flag="@X" onclick="openSidebar('57_Mnemologist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\92_Dropped_Polygon.png" id="92_Dropped_Polygon" data-flag="@X" onclick="openSidebar('92_Dropped_Polygon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\137_Frag.png" id="137_Frag" data-flag="@X" onclick="openSidebar('137_Frag',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\171_Fond Reminiscence.png" id="171_Fond Reminiscence" data-flag="@X" onclick="openSidebar('171_Fond Reminiscence',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\18_Lumen Irregular.png" id="18_Lumen Irregular" data-flag="@X" onclick="openSidebar('18_Lumen Irregular',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\58_Negate.png" id="58_Negate" data-flag="@X" onclick="openSidebar('58_Negate',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\99_Forced Shutdown.png" id="99_Forced Shutdown" data-flag="@X" onclick="openSidebar('99_Forced Shutdown',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\138_Go for Gold.png" id="138_Go for Gold" data-flag="@X" onclick="openSidebar('138_Go for Gold',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\172_Garbage Collector.png" id="172_Garbage Collector" data-flag="@X" onclick="openSidebar('172_Garbage Collector',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\20_MASK().png" id="20_MASK()" data-flag="@X" onclick="openSidebar('20_MASK()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\59_No_Response_Received.png" id="59_No_Response_Received" data-flag="@X" onclick="openSidebar('59_No_Response_Received',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\102_Heap Delver.png" id="102_Heap Delver" data-flag="@X" onclick="openSidebar('102_Heap Delver',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\139_Grip Pinch-Hitter.png" id="139_Grip Pinch-Hitter" data-flag="@X" onclick="openSidebar('139_Grip Pinch-Hitter',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\174_Immersive Moment.png" id="174_Immersive Moment" data-flag="@X" onclick="openSidebar('174_Immersive Moment',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\23_Not_A_Teletype.png" id="23_Not_A_Teletype" data-flag="@X" onclick="openSidebar('23_Not_A_Teletype',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\64_Ratiocinate.png" id="64_Ratiocinate" data-flag="@X" onclick="openSidebar('64_Ratiocinate',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\103_Hovering Delinquent.png" id="103_Hovering Delinquent" data-flag="@X" onclick="openSidebar('103_Hovering Delinquent',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\143_Inversion's Herald.png" id="143_Inversions Herald" data-flag="@X" onclick="openSidebar('143_Inversions Herald',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\180_Memorivore.png" id="180_Memorivore" data-flag="@X" onclick="openSidebar('180_Memorivore',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\26_Plasma Strike.png" id="26_Plasma Strike" data-flag="@X" onclick="openSidebar('26_Plasma Strike',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\68_Sensory Deprivation.png" id="68_Sensory Deprivation" data-flag="@X" onclick="openSidebar('68_Sensory Deprivation',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\105_Level Drain.png" id="105_Level Drain" data-flag="@X" onclick="openSidebar('105_Level Drain',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\149_Segmentation_Fault.png" id="149_Segmentation_Fault" data-flag="@X" onclick="openSidebar('149_Segmentation_Fault',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\182_Mirage Model.png" id="182_Mirage Model" data-flag="@X" onclick="openSidebar('182_Mirage Model',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\31_Stack Strike Leader.png" id="31_Stack Strike Leader" data-flag="@X" onclick="openSidebar('31_Stack Strike Leader',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\71_Soulspace Refit.png" id="71_Soulspace Refit" data-flag="@X" onclick="openSidebar('71_Soulspace Refit',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\109_Reboot.png" id="109_Reboot" data-flag="@X" onclick="openSidebar('109_Reboot',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\150_Shock.png" id="150_Shock" data-flag="@X" onclick="openSidebar('150_Shock',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\190_SEEK().png" id="190_SEEK()" data-flag="@X" onclick="openSidebar('190_SEEK()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\33_Tapestry Guard.png" id="33_Tapestry Guard" data-flag="@X" onclick="openSidebar('33_Tapestry Guard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\72_Swap to Storage.png" id="72_Swap to Storage" data-flag="@X" onclick="openSidebar('72_Swap to Storage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\110_RECV().png" id="110_RECV()" data-flag="@X" onclick="openSidebar('110_RECV()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\152_Thrilljammer.png" id="152_Thrilljammer" data-flag="@X" onclick="openSidebar('152_Thrilljammer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\192_Skywatch Jockey.png" id="192_Skywatch Jockey" data-flag="@X" onclick="openSidebar('192_Skywatch Jockey',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\34_Telepresence Axiom.png" id="34_Telepresence Axiom" data-flag="@X" onclick="openSidebar('34_Telepresence Axiom',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\74_Task Triage.png" id="74_Task Triage" data-flag="@X" onclick="openSidebar('74_Task Triage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\114_Smog Hound.png" id="114_Smog Hound" data-flag="@X" onclick="openSidebar('114_Smog Hound',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\155_Unfettered Spirit.png" id="155_Unfettered Spirit" data-flag="@X" onclick="openSidebar('155_Unfettered Spirit',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\194_Trawl the Net.png" id="194_Trawl the Net" data-flag="@X" onclick="openSidebar('194_Trawl the Net',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\156_Web Surfer.png" id="156_Web Surfer" data-flag="@X" onclick="openSidebar('156_Web Surfer',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="gold" class="anchor"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\205_Mev, Corruption Runner.png" id="205_Mev, Corruption Runner" data-flag="@X" onclick="openSidebar('205_Mev, Corruption Runner',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\218_Ys, Trace Talker.png" id="218_Ys, Trace Talker" data-flag="@X" onclick="openSidebar('218_Ys, Trace Talker',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\214_Vijkstra, Spine Breaker.png" id="214_Vijkstra, Spine Breaker" data-flag="@X" onclick="openSidebar('214_Vijkstra, Spine Breaker',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\216_The Weftheart.png" id="216_The Weftheart" data-flag="@X" onclick="openSidebar('216_The Weftheart',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\202_Lavis, Root Exec.png" id="202_Lavis, Root Exec" data-flag="@X" onclick="openSidebar('202_Lavis, Root Exec',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\211_Refresh Daemon.png" id="211_Refresh Daemon" data-flag="@X" onclick="openSidebar('211_Refresh Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\215_Weft Dancer.png" id="215_Weft Dancer" data-flag="@X" onclick="openSidebar('215_Weft Dancer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\199_Glitchdrinker.png" id="199_Glitchdrinker" data-flag="@X" onclick="openSidebar('199_Glitchdrinker',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\217_Xeia, Record Chaser.png" id="217_Xeia, Record Chaser" data-flag="@X" onclick="openSidebar('217_Xeia, Record Chaser',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\197_Burrow Checker.png" id="197_Burrow Checker" data-flag="@X" onclick="openSidebar('197_Burrow Checker',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\220_Daemonmage.png" id="220_Daemonmage" data-flag="@X" onclick="openSidebar('220_Daemonmage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\226_Phantom_Interrupt.png" id="226_Phantom_Interrupt" data-flag="@X" onclick="openSidebar('226_Phantom_Interrupt',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\221_Error's Advocate.png" id="221_Errors Advocate" data-flag="@X" onclick="openSidebar('221_Errors Advocate',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\196_Arcade Junkies.png" id="196_Arcade Junkies" data-flag="@X" onclick="openSidebar('196_Arcade Junkies',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\227_Request Handler.png" id="227_Request Handler" data-flag="@X" onclick="openSidebar('227_Request Handler',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\222_Etherkiller.png" id="222_Etherkiller" data-flag="@X" onclick="openSidebar('222_Etherkiller',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\201_Kaluthax, Dungeon Master.png" id="201_Kaluthax, Dungeon Master" data-flag="@X" onclick="openSidebar('201_Kaluthax, Dungeon Master',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\208_Olis Mars, Final Archivist.png" id="208_Olis Mars, Final Archivist" data-flag="@X" onclick="openSidebar('208_Olis Mars, Final Archivist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\209_Piroia, Perennial Sacrifice.png" id="209_Piroia, Perennial Sacrifice" data-flag="@X" onclick="openSidebar('209_Piroia, Perennial Sacrifice',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\288_Offset Daemon.png" id="288_Offset Daemon" data-flag="@X" onclick="openSidebar('288_Offset Daemon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\198_Gemi and Nu, Cachemates.png" id="198_Gemi and Nu, Cachemates" data-flag="@X" onclick="openSidebar('198_Gemi and Nu, Cachemates',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\207_Nullsigil Grinder.png" id="207_Nullsigil Grinder" data-flag="@X" onclick="openSidebar('207_Nullsigil Grinder',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\212_Scripting Sage.png" id="212_Scripting Sage" data-flag="@X" onclick="openSidebar('212_Scripting Sage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\206_NotFound_1.png" id="206_NotFound_1" data-flag="@X" onclick="openSidebar('206_NotFound_1',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\213_Toki, Celebrity Soldier.png" id="213_Toki, Celebrity Soldier" data-flag="@X" onclick="openSidebar('213_Toki, Celebrity Soldier',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\200_Install Wizard.png" id="200_Install Wizard" data-flag="@X" onclick="openSidebar('200_Install Wizard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\223_Kaluthax's Challenger.png" id="223_Kaluthaxs Challenger" data-flag="@X" onclick="openSidebar('223_Kaluthaxs Challenger',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\225_LOOP().png" id="225_LOOP()" data-flag="@X" onclick="openSidebar('225_LOOP()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\224_Lonesome Afterimage.png" id="224_Lonesome Afterimage" data-flag="@X" onclick="openSidebar('224_Lonesome Afterimage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\204_Make the Last Night Count.png" id="204_Make the Last Night Count" data-flag="@X" onclick="openSidebar('204_Make the Last Night Count',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\228_Superuser.png" id="228_Superuser" data-flag="@X" onclick="openSidebar('228_Superuser',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\219_Catch Constable.png" id="219_Catch Constable" data-flag="@X" onclick="openSidebar('219_Catch Constable',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\203_Lio, Daemon's Hope.png" id="203_Lio, Daemons Hope" data-flag="@X" onclick="openSidebar('203_Lio, Daemons Hope',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\210_RECURSE().png" id="210_RECURSE()" data-flag="@X" onclick="openSidebar('210_RECURSE()',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\232_CLICK().png" id="232_CLICK()" data-flag="@X" onclick="openSidebar('232_CLICK()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\229_Archival Storage.png" id="229_Archival Storage" data-flag="@X" onclick="openSidebar('229_Archival Storage',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\230_Autonomous Apiarist.png" id="230_Autonomous Apiarist" data-flag="@X" onclick="openSidebar('230_Autonomous Apiarist',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\235_Helen's Failsafe.png" id="235_Helens Failsafe" data-flag="@X" onclick="openSidebar('235_Helens Failsafe',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\238_Recursive Cogitator.png" id="238_Recursive Cogitator" data-flag="@X" onclick="openSidebar('238_Recursive Cogitator',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\239_Remotist Axiom.png" id="239_Remotist Axiom" data-flag="@X" onclick="openSidebar('239_Remotist Axiom',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\231_Burgeoning Consciousness.png" id="231_Burgeoning Consciousness" data-flag="@X" onclick="openSidebar('231_Burgeoning Consciousness',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\233_Common Laser Sword.png" id="233_Common Laser Sword" data-flag="@X" onclick="openSidebar('233_Common Laser Sword',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\234_Geometry Stabilizer.png" id="234_Geometry Stabilizer" data-flag="@X" onclick="openSidebar('234_Geometry Stabilizer',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\236_MAP().png" id="236_MAP()" data-flag="@X" onclick="openSidebar('236_MAP()',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\237_Prototype Warform.png" id="237_Prototype Warform" data-flag="@X" onclick="openSidebar('237_Prototype Warform',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\240_Synthetic Connaisseur.png" id="240_Synthetic Connaisseur" data-flag="@X" onclick="openSidebar('240_Synthetic Connaisseur',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="land" class="anchor"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\270_Stack Conviviplex.png" id="270_Stack Conviviplex" data-flag="@X" onclick="openSidebar('270_Stack Conviviplex',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\241_Archive Telemetrary.png" id="241_Archive Telemetrary" data-flag="@X" onclick="openSidebar('241_Archive Telemetrary',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\254_Heap Ludicon.png" id="254_Heap Ludicon" data-flag="@X" onclick="openSidebar('254_Heap Ludicon',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\253_Grip Festivarium.png" id="253_Grip Festivarium" data-flag="@X" onclick="openSidebar('253_Grip Festivarium',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\244_Buffer Reconservatory.png" id="244_Buffer Reconservatory" data-flag="@X" onclick="openSidebar('244_Buffer Reconservatory',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\268_Silent Lakefront.png" id="268_Silent Lakefront" data-flag="@X" onclick="openSidebar('268_Silent Lakefront',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\258_Lost and Found.png" id="258_Lost and Found" data-flag="@X" onclick="openSidebar('258_Lost and Found',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\249_Faulty Server.png" id="249_Faulty Server" data-flag="@X" onclick="openSidebar('249_Faulty Server',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\242_Ardent Rise.png" id="242_Ardent Rise" data-flag="@X" onclick="openSidebar('242_Ardent Rise',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\266_Reified Borough.png" id="266_Reified Borough" data-flag="@X" onclick="openSidebar('266_Reified Borough',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\259_Lucent Basin.png" id="259_Lucent Basin" data-flag="@X" onclick="openSidebar('259_Lucent Basin',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\247_Eidetic Soulspace.png" id="247_Eidetic Soulspace" data-flag="@X" onclick="openSidebar('247_Eidetic Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\267_Sanguine Palace.png" id="267_Sanguine Palace" data-flag="@X" onclick="openSidebar('267_Sanguine Palace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\250_Footloose Soulspace.png" id="250_Footloose Soulspace" data-flag="@X" onclick="openSidebar('250_Footloose Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\255_Hopeful Soulspace.png" id="255_Hopeful Soulspace" data-flag="@X" onclick="openSidebar('255_Hopeful Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\269_Soaring Soulspace.png" id="269_Soaring Soulspace" data-flag="@X" onclick="openSidebar('269_Soaring Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\248_Enigmatic Fen.png" id="248_Enigmatic Fen" data-flag="@X" onclick="openSidebar('248_Enigmatic Fen',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\274_Vindictive Soulspace.png" id="274_Vindictive Soulspace" data-flag="@X" onclick="openSidebar('274_Vindictive Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\272_Urban Jungle.png" id="272_Urban Jungle" data-flag="@X" onclick="openSidebar('272_Urban Jungle',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\273_Verdant Sanctum.png" id="273_Verdant Sanctum" data-flag="@X" onclick="openSidebar('273_Verdant Sanctum',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\256_Isolated Tower.png" id="256_Isolated Tower" data-flag="@X" onclick="openSidebar('256_Isolated Tower',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\261_Meteoric Facade.png" id="261_Meteoric Facade" data-flag="@X" onclick="openSidebar('261_Meteoric Facade',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\251_Forgotten Junkyard.png" id="251_Forgotten Junkyard" data-flag="@X" onclick="openSidebar('251_Forgotten Junkyard',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\252_Glittering Club.png" id="252_Glittering Club" data-flag="@X" onclick="openSidebar('252_Glittering Club',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\265_Regrowing Outlands.png" id="265_Regrowing Outlands" data-flag="@X" onclick="openSidebar('265_Regrowing Outlands',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\257_Lonely Soulspace.png" id="257_Lonely Soulspace" data-flag="@X" onclick="openSidebar('257_Lonely Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\262_Misty Peak.png" id="262_Misty Peak" data-flag="@X" onclick="openSidebar('262_Misty Peak',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\260_Macabre Soulspace.png" id="260_Macabre Soulspace" data-flag="@X" onclick="openSidebar('260_Macabre Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\275_Windbeaten Stones.png" id="275_Windbeaten Stones" data-flag="@X" onclick="openSidebar('275_Windbeaten Stones',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\245_Chimeric Soulspace.png" id="245_Chimeric Soulspace" data-flag="@X" onclick="openSidebar('245_Chimeric Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\271_Stark Expanse.png" id="271_Stark Expanse" data-flag="@X" onclick="openSidebar('271_Stark Expanse',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\263_Nostalgic Soulspace.png" id="263_Nostalgic Soulspace" data-flag="@X" onclick="openSidebar('263_Nostalgic Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\264_Profane Grove.png" id="264_Profane Grove" data-flag="@X" onclick="openSidebar('264_Profane Grove',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\276_Zealous Soulspace.png" id="276_Zealous Soulspace" data-flag="@X" onclick="openSidebar('276_Zealous Soulspace',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\246_Clearwater Grotto.png" id="246_Clearwater Grotto" data-flag="@X" onclick="openSidebar('246_Clearwater Grotto',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\243_Avatar Exchange.png" id="243_Avatar Exchange" data-flag="@X" onclick="openSidebar('243_Avatar Exchange',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\289_Shockland Voucher.png" id="289_Shockland Voucher" data-flag="@X" onclick="openSidebar('289_Shockland Voucher',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\290_Soulspace Voucher.png" id="290_Soulspace Voucher" data-flag="@X" onclick="openSidebar('290_Soulspace Voucher',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\278_Plains_Pixel.png" id="278_Plains_Pixel" data-flag="@X" onclick="openSidebar('278_Plains_Pixel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\280_Island_Pixel.png" id="280_Island_Pixel" data-flag="@X" onclick="openSidebar('280_Island_Pixel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\282_Swamp_Pixel.png" id="282_Swamp_Pixel" data-flag="@X" onclick="openSidebar('282_Swamp_Pixel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\284_Mountain_Pixel.png" id="284_Mountain_Pixel" data-flag="@X" onclick="openSidebar('284_Mountain_Pixel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\286_Forest_Pixel.png" id="286_Forest_Pixel" data-flag="@X" onclick="openSidebar('286_Forest_Pixel',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\277_Plains.png" id="277_Plains" data-flag="@X" onclick="openSidebar('277_Plains',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\279_Island.png" id="279_Island" data-flag="@X" onclick="openSidebar('279_Island',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\281_Swamp.png" id="281_Swamp" data-flag="@X" onclick="openSidebar('281_Swamp',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\283_Mountain.png" id="283_Mountain" data-flag="@X" onclick="openSidebar('283_Mountain',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\285_Forest.png" id="285_Forest" data-flag="@X" onclick="openSidebar('285_Forest',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="token" class="anchor"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\1t_Copy ERR.png" id="1t_Copy ERR" data-flag="@X" onclick="openSidebar('1t_Copy ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\2t_Memory ERR.png" id="2t_Memory ERR" data-flag="@X" onclick="openSidebar('2t_Memory ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\3t_Program A ERR.png" id="3t_Program A ERR" data-flag="@X" onclick="openSidebar('3t_Program A ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\4t_Program B ERR.png" id="4t_Program B ERR" data-flag="@X" onclick="openSidebar('4t_Program B ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\5t_Program C ERR.png" id="5t_Program C ERR" data-flag="@X" onclick="openSidebar('5t_Program C ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\6t_Subroutines.png" id="6t_Subroutines" data-flag="@X" onclick="openSidebar('6t_Subroutines',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\21t_colorless Construct XXERR.png" id="21t_colorless Construct XXERR" data-flag="@X" onclick="openSidebar('21t_colorless Construct XXERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\22t_Noop 33ERR.png" id="22t_Noop 33ERR" data-flag="@X" onclick="openSidebar('22t_Noop 33ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\23t_Puzzlebox.png" id="23t_Puzzlebox" data-flag="@X" onclick="openSidebar('23t_Puzzlebox',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\24t_Treasure ERR.png" id="24t_Treasure ERR" data-flag="@X" onclick="openSidebar('24t_Treasure ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\25t_Root Node ERR.png" id="25t_Root Node ERR" data-flag="@X" onclick="openSidebar('25t_Root Node ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\26t_Errors in the Weft.png" id="26t_Errors in the Weft" data-flag="@X" onclick="openSidebar('26t_Errors in the Weft',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\7t_ALARM() ERR.png" id="7t_ALARM() ERR" data-flag="@X" onclick="openSidebar('7t_ALARM() ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\8t_white Citizen 11ERR.png" id="8t_white Citizen 11ERR" data-flag="@X" onclick="openSidebar('8t_white Citizen 11ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\9t_white Error 89ERR.png" id="9t_white Error 89ERR" data-flag="@X" onclick="openSidebar('9t_white Error 89ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\10t_Stratagem ERR.png" id="10t_Stratagem ERR" data-flag="@X" onclick="openSidebar('10t_Stratagem ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\11t_blue Bird 22ERR.png" id="11t_blue Bird 22ERR" data-flag="@X" onclick="openSidebar('11t_blue Bird 22ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\12t_READ() ERR.png" id="12t_READ() ERR" data-flag="@X" onclick="openSidebar('12t_READ() ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\13t_Stolen ERR.png" id="13t_Stolen ERR" data-flag="@X" onclick="openSidebar('13t_Stolen ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\14t_TICK() ERR.png" id="14t_TICK() ERR" data-flag="@X" onclick="openSidebar('14t_TICK() ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\15t_BOOST() ERR.png" id="15t_BOOST() ERR" data-flag="@X" onclick="openSidebar('15t_BOOST() ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\16t_red Error 44ERR.png" id="16t_red Error 44ERR" data-flag="@X" onclick="openSidebar('16t_red Error 44ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\17t_Red Hot ERR.png" id="17t_Red Hot ERR" data-flag="@X" onclick="openSidebar('17t_Red Hot ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\18t_Warrior.png" id="18t_Warrior" data-flag="@X" onclick="openSidebar('18t_Warrior',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\19t_MOUNT() ERR.png" id="19t_MOUNT() ERR" data-flag="@X" onclick="openSidebar('19t_MOUNT() ERR',false)"></div>
-			<div class="container"><img alt="/sets\ERR-files\img\20t_SAVE() ERR.png" id="20t_SAVE() ERR" data-flag="@X" onclick="openSidebar('20t_SAVE() ERR',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\ERR-files\img\27_Priority_Inversion.png" id="ERR_27_Priority_Inversion" data-flag="@X" onclick="openSidebar('ERR_27_Priority_Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\44_Composer of Skylines.png" id="ERR_44_Composer of Skylines" data-flag="@X" onclick="openSidebar('ERR_44_Composer of Skylines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\94_Entropy_Inversion.png" id="ERR_94_Entropy_Inversion" data-flag="@X" onclick="openSidebar('ERR_94_Entropy_Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\128_Coherence_Inversion.png" id="ERR_128_Coherence_Inversion" data-flag="@X" onclick="openSidebar('ERR_128_Coherence_Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\162_Cyberzoologist.png" id="ERR_162_Cyberzoologist" data-flag="@X" onclick="openSidebar('ERR_162_Cyberzoologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\38_Voice of Utopia.png" id="ERR_38_Voice of Utopia" data-flag="@X" onclick="openSidebar('ERR_38_Voice of Utopia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\69_Signal_Inversion.png" id="ERR_69_Signal_Inversion" data-flag="@X" onclick="openSidebar('ERR_69_Signal_Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\106_Lifehacker.png" id="ERR_106_Lifehacker" data-flag="@X" onclick="openSidebar('ERR_106_Lifehacker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\130_Competitive Hedonist.png" id="ERR_130_Competitive Hedonist" data-flag="@X" onclick="openSidebar('ERR_130_Competitive Hedonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\188_Resource_Inversion.png" id="ERR_188_Resource_Inversion" data-flag="@X" onclick="openSidebar('ERR_188_Resource_Inversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\6_Complementarity.png" id="ERR_6_Complementarity" data-flag="@X" onclick="openSidebar('ERR_6_Complementarity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\40_Architect of the Intangible.png" id="ERR_40_Architect of the Intangible" data-flag="@X" onclick="openSidebar('ERR_40_Architect of the Intangible',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\83_BORROW().png" id="ERR_83_BORROW()" data-flag="@X" onclick="openSidebar('ERR_83_BORROW()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\287_Fabricated Anomaly.png" id="ERR_287_Fabricated Anomaly" data-flag="@X" onclick="openSidebar('ERR_287_Fabricated Anomaly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\157_Aurore, Buffer Exec.png" id="ERR_157_Aurore, Buffer Exec" data-flag="@X" onclick="openSidebar('ERR_157_Aurore, Buffer Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\7_Containment Seraph.png" id="ERR_7_Containment Seraph" data-flag="@X" onclick="openSidebar('ERR_7_Containment Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\45_Convol, Archive Exec.png" id="ERR_45_Convol, Archive Exec" data-flag="@X" onclick="openSidebar('ERR_45_Convol, Archive Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\95_Exorcist of Errors.png" id="ERR_95_Exorcist of Errors" data-flag="@X" onclick="openSidebar('ERR_95_Exorcist of Errors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\119_Artful Hologram.png" id="ERR_119_Artful Hologram" data-flag="@X" onclick="openSidebar('ERR_119_Artful Hologram',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\163_Digital Reliquary.png" id="ERR_163_Digital Reliquary" data-flag="@X" onclick="openSidebar('ERR_163_Digital Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\9_Darisha, Stack Exec.png" id="ERR_9_Darisha, Stack Exec" data-flag="@X" onclick="openSidebar('ERR_9_Darisha, Stack Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\51_Echo Choreographer.png" id="ERR_51_Echo Choreographer" data-flag="@X" onclick="openSidebar('ERR_51_Echo Choreographer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\97_Fall Forever.png" id="ERR_97_Fall Forever" data-flag="@X" onclick="openSidebar('ERR_97_Fall Forever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\122_Bootstrap Daemon.png" id="ERR_122_Bootstrap Daemon" data-flag="@X" onclick="openSidebar('ERR_122_Bootstrap Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\167_Errorsbane Deadshot.png" id="ERR_167_Errorsbane Deadshot" data-flag="@X" onclick="openSidebar('ERR_167_Errorsbane Deadshot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\12_EXIT().png" id="ERR_12_EXIT()" data-flag="@X" onclick="openSidebar('ERR_12_EXIT()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\62_Post-Weft Psionic.png" id="ERR_62_Post-Weft Psionic" data-flag="@X" onclick="openSidebar('ERR_62_Post-Weft Psionic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\98_Fan Favorite Daredevil.png" id="ERR_98_Fan Favorite Daredevil" data-flag="@X" onclick="openSidebar('ERR_98_Fan Favorite Daredevil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\124_Cache Thrasher.png" id="ERR_124_Cache Thrasher" data-flag="@X" onclick="openSidebar('ERR_124_Cache Thrasher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\176_ITERATE().png" id="ERR_176_ITERATE()" data-flag="@X" onclick="openSidebar('ERR_176_ITERATE()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\13_Futurist Ideal.png" id="ERR_13_Futurist Ideal" data-flag="@X" onclick="openSidebar('ERR_13_Futurist Ideal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\63_Preemption Daemon.png" id="ERR_63_Preemption Daemon" data-flag="@X" onclick="openSidebar('ERR_63_Preemption Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\107_Privilege_Escalation.png" id="ERR_107_Privilege_Escalation" data-flag="@X" onclick="openSidebar('ERR_107_Privilege_Escalation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\133_Electronic Countermeasures.png" id="ERR_133_Electronic Countermeasures" data-flag="@X" onclick="openSidebar('ERR_133_Electronic Countermeasures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\181_Menagerie Mechanic.png" id="ERR_181_Menagerie Mechanic" data-flag="@X" onclick="openSidebar('ERR_181_Menagerie Mechanic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\24_Pixel Pixie.png" id="ERR_24_Pixel Pixie" data-flag="@X" onclick="openSidebar('ERR_24_Pixel Pixie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\66_RESET().png" id="ERR_66_RESET()" data-flag="@X" onclick="openSidebar('ERR_66_RESET()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\108_Qion, Heap Exec.png" id="ERR_108_Qion, Heap Exec" data-flag="@X" onclick="openSidebar('ERR_108_Qion, Heap Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\135_Eviviva, Grip Exec.png" id="ERR_135_Eviviva, Grip Exec" data-flag="@X" onclick="openSidebar('ERR_135_Eviviva, Grip Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\183_Mystic of Returns.png" id="ERR_183_Mystic of Returns" data-flag="@X" onclick="openSidebar('ERR_183_Mystic of Returns',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\25_Placeholder_Asset.png" id="ERR_25_Placeholder_Asset" data-flag="@X" onclick="openSidebar('ERR_25_Placeholder_Asset',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\73_SYSCALL().png" id="ERR_73_SYSCALL()" data-flag="@X" onclick="openSidebar('ERR_73_SYSCALL()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\113_Seeker of the Pre-Weft.png" id="ERR_113_Seeker of the Pre-Weft" data-flag="@X" onclick="openSidebar('ERR_113_Seeker of the Pre-Weft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\142_Infinite_Loop.png" id="ERR_142_Infinite_Loop" data-flag="@X" onclick="openSidebar('ERR_142_Infinite_Loop',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\184_Record_Desync.png" id="ERR_184_Record_Desync" data-flag="@X" onclick="openSidebar('ERR_184_Record_Desync',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\30_Root Navigator.png" id="ERR_30_Root Navigator" data-flag="@X" onclick="openSidebar('ERR_30_Root Navigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\75_Undefined_Behavior.png" id="ERR_75_Undefined_Behavior" data-flag="@X" onclick="openSidebar('ERR_75_Undefined_Behavior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\115_Spiteful Griefer.png" id="ERR_115_Spiteful Griefer" data-flag="@X" onclick="openSidebar('ERR_115_Spiteful Griefer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\145_PANIC().png" id="ERR_145_PANIC()" data-flag="@X" onclick="openSidebar('ERR_145_PANIC()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\186_Rejuvenation Session.png" id="ERR_186_Rejuvenation Session" data-flag="@X" onclick="openSidebar('ERR_186_Rejuvenation Session',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\37_Virtualized Onomastic.png" id="ERR_37_Virtualized Onomastic" data-flag="@X" onclick="openSidebar('ERR_37_Virtualized Onomastic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\77_Unending Possibility.png" id="ERR_77_Unending Possibility" data-flag="@X" onclick="openSidebar('ERR_77_Unending Possibility',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\116_A Tear in the Weft.png" id="ERR_116_A Tear in the Weft" data-flag="@X" onclick="openSidebar('ERR_116_A Tear in the Weft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\146_Profiler of Pain.png" id="ERR_146_Profiler of Pain" data-flag="@X" onclick="openSidebar('ERR_146_Profiler of Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\195_Untethered Daemon.png" id="ERR_195_Untethered Daemon" data-flag="@X" onclick="openSidebar('ERR_195_Untethered Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\2_Assert Mediator.png" id="ERR_2_Assert Mediator" data-flag="@X" onclick="openSidebar('ERR_2_Assert Mediator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\42_Buoyant Datagrazer.png" id="ERR_42_Buoyant Datagrazer" data-flag="@X" onclick="openSidebar('ERR_42_Buoyant Datagrazer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\79_0xdeadbeef.png" id="ERR_79_0xdeadbeef" data-flag="@X" onclick="openSidebar('ERR_79_0xdeadbeef',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\147_Red-Hot Rider.png" id="ERR_147_Red-Hot Rider" data-flag="@X" onclick="openSidebar('ERR_147_Red-Hot Rider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\159_Cathartic Parting.png" id="ERR_159_Cathartic Parting" data-flag="@X" onclick="openSidebar('ERR_159_Cathartic Parting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\3_Catch Vanguard.png" id="ERR_3_Catch Vanguard" data-flag="@X" onclick="openSidebar('ERR_3_Catch Vanguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\46_COPY().png" id="ERR_46_COPY()" data-flag="@X" onclick="openSidebar('ERR_46_COPY()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\80_Absentia.png" id="ERR_80_Absentia" data-flag="@X" onclick="openSidebar('ERR_80_Absentia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\120_Bitscan Freerunner.png" id="ERR_120_Bitscan Freerunner" data-flag="@X" onclick="openSidebar('ERR_120_Bitscan Freerunner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\161_Concurrent Escapist.png" id="ERR_161_Concurrent Escapist" data-flag="@X" onclick="openSidebar('ERR_161_Concurrent Escapist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\4_Centennial Maestro.png" id="ERR_4_Centennial Maestro" data-flag="@X" onclick="openSidebar('ERR_4_Centennial Maestro',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\48_Data Staff.png" id="ERR_48_Data Staff" data-flag="@X" onclick="openSidebar('ERR_48_Data Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\82_BEHOLD().png" id="ERR_82_BEHOLD()" data-flag="@X" onclick="openSidebar('ERR_82_BEHOLD()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\121_Boorish Celebrant.png" id="ERR_121_Boorish Celebrant" data-flag="@X" onclick="openSidebar('ERR_121_Boorish Celebrant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\164_Dream Big.png" id="ERR_164_Dream Big" data-flag="@X" onclick="openSidebar('ERR_164_Dream Big',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\14_Graceful Finalizer.png" id="ERR_14_Graceful Finalizer" data-flag="@X" onclick="openSidebar('ERR_14_Graceful Finalizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\49_Decryption Puzzlemancer.png" id="ERR_49_Decryption Puzzlemancer" data-flag="@X" onclick="openSidebar('ERR_49_Decryption Puzzlemancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\86_Catabolist.png" id="ERR_86_Catabolist" data-flag="@X" onclick="openSidebar('ERR_86_Catabolist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\123_BYPASS().png" id="ERR_123_BYPASS()" data-flag="@X" onclick="openSidebar('ERR_123_BYPASS()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\166_Elma's Regular.png" id="ERR_166_Elmas Regular" data-flag="@X" onclick="openSidebar('ERR_166_Elmas Regular',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\15_Imperious Admin.png" id="ERR_15_Imperious Admin" data-flag="@X" onclick="openSidebar('ERR_15_Imperious Admin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\50_Denotation Failure.png" id="ERR_50_Denotation Failure" data-flag="@X" onclick="openSidebar('ERR_50_Denotation Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\87_Cheat Code.png" id="ERR_87_Cheat Code" data-flag="@X" onclick="openSidebar('ERR_87_Cheat Code',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\125_Catch Defector.png" id="ERR_125_Catch Defector" data-flag="@X" onclick="openSidebar('ERR_125_Catch Defector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\169_Fickle Gourmand.png" id="ERR_169_Fickle Gourmand" data-flag="@X" onclick="openSidebar('ERR_169_Fickle Gourmand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\17_Lost Connection.png" id="ERR_17_Lost Connection" data-flag="@X" onclick="openSidebar('ERR_17_Lost Connection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\54_JUMP().png" id="ERR_54_JUMP()" data-flag="@X" onclick="openSidebar('ERR_54_JUMP()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\88_Death's Believers.png" id="ERR_88_Deaths Believers" data-flag="@X" onclick="openSidebar('ERR_88_Deaths Believers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\127_CHURN().png" id="ERR_127_CHURN()" data-flag="@X" onclick="openSidebar('ERR_127_CHURN()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\173_GENERATE().png" id="ERR_173_GENERATE()" data-flag="@X" onclick="openSidebar('ERR_173_GENERATE()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\19_Mail Daemon.png" id="ERR_19_Mail Daemon" data-flag="@X" onclick="openSidebar('ERR_19_Mail Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\55_Just-In-Time Interpreter.png" id="ERR_55_Just-In-Time Interpreter" data-flag="@X" onclick="openSidebar('ERR_55_Just-In-Time Interpreter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\89_Do_Not_Respond.png" id="ERR_89_Do_Not_Respond" data-flag="@X" onclick="openSidebar('ERR_89_Do_Not_Respond',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\131_Creative Commission.png" id="ERR_131_Creative Commission" data-flag="@X" onclick="openSidebar('ERR_131_Creative Commission',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\175_Irreverent Modder.png" id="ERR_175_Irreverent Modder" data-flag="@X" onclick="openSidebar('ERR_175_Irreverent Modder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\21_Metatactician.png" id="ERR_21_Metatactician" data-flag="@X" onclick="openSidebar('ERR_21_Metatactician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\56_Mev's Holographist.png" id="ERR_56_Mevs Holographist" data-flag="@X" onclick="openSidebar('ERR_56_Mevs Holographist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\93_Earworm DJ.png" id="ERR_93_Earworm DJ" data-flag="@X" onclick="openSidebar('ERR_93_Earworm DJ',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\134_Error Tide.png" id="ERR_134_Error Tide" data-flag="@X" onclick="openSidebar('ERR_134_Error Tide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\177_Lavis' Hydroponicist.png" id="ERR_177_Lavis Hydroponicist" data-flag="@X" onclick="openSidebar('ERR_177_Lavis Hydroponicist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\22_Mobilization Technician.png" id="ERR_22_Mobilization Technician" data-flag="@X" onclick="openSidebar('ERR_22_Mobilization Technician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\60_Olis's Axiom.png" id="ERR_60_Oliss Axiom" data-flag="@X" onclick="openSidebar('ERR_60_Oliss Axiom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\96_Failed Gateway.png" id="ERR_96_Failed Gateway" data-flag="@X" onclick="openSidebar('ERR_96_Failed Gateway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\136_FORK().png" id="ERR_136_FORK()" data-flag="@X" onclick="openSidebar('ERR_136_FORK()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\178_Masksmith.png" id="ERR_178_Masksmith" data-flag="@X" onclick="openSidebar('ERR_178_Masksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\28_Reprieve from Mortality.png" id="ERR_28_Reprieve from Mortality" data-flag="@X" onclick="openSidebar('ERR_28_Reprieve from Mortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\61_Parse.png" id="ERR_61_Parse" data-flag="@X" onclick="openSidebar('ERR_61_Parse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\100_Grognard.png" id="ERR_100_Grognard" data-flag="@X" onclick="openSidebar('ERR_100_Grognard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\140_Groove Surfer.png" id="ERR_140_Groove Surfer" data-flag="@X" onclick="openSidebar('ERR_140_Groove Surfer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\179_Megafauna Knight.png" id="ERR_179_Megafauna Knight" data-flag="@X" onclick="openSidebar('ERR_179_Megafauna Knight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\29_RETURN().png" id="ERR_29_RETURN()" data-flag="@X" onclick="openSidebar('ERR_29_RETURN()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\65_Reclusive Percipient.png" id="ERR_65_Reclusive Percipient" data-flag="@X" onclick="openSidebar('ERR_65_Reclusive Percipient',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\101_Hang.png" id="ERR_101_Hang" data-flag="@X" onclick="openSidebar('ERR_101_Hang',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\141_High Rollers.png" id="ERR_141_High Rollers" data-flag="@X" onclick="openSidebar('ERR_141_High Rollers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\185_Recurring_Noise.png" id="ERR_185_Recurring_Noise" data-flag="@X" onclick="openSidebar('ERR_185_Recurring_Noise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\32_Student of Immortality.png" id="ERR_32_Student of Immortality" data-flag="@X" onclick="openSidebar('ERR_32_Student of Immortality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\67_Rogue Daemon.png" id="ERR_67_Rogue Daemon" data-flag="@X" onclick="openSidebar('ERR_67_Rogue Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\104_Killscore Vanguard.png" id="ERR_104_Killscore Vanguard" data-flag="@X" onclick="openSidebar('ERR_104_Killscore Vanguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\144_Overwhelming Upload.png" id="ERR_144_Overwhelming Upload" data-flag="@X" onclick="openSidebar('ERR_144_Overwhelming Upload',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\187_RESONATE().png" id="ERR_187_RESONATE()" data-flag="@X" onclick="openSidebar('ERR_187_RESONATE()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\35_UNDO().png" id="ERR_35_UNDO()" data-flag="@X" onclick="openSidebar('ERR_35_UNDO()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\70_Soulspace Access.png" id="ERR_70_Soulspace Access" data-flag="@X" onclick="openSidebar('ERR_70_Soulspace Access',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\111_Rooftop Leaper.png" id="ERR_111_Rooftop Leaper" data-flag="@X" onclick="openSidebar('ERR_111_Rooftop Leaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\148_Rowhammer.png" id="ERR_148_Rowhammer" data-flag="@X" onclick="openSidebar('ERR_148_Rowhammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\189_Schematic Archer.png" id="ERR_189_Schematic Archer" data-flag="@X" onclick="openSidebar('ERR_189_Schematic Archer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\36_Use_After_Free.png" id="ERR_36_Use_After_Free" data-flag="@X" onclick="openSidebar('ERR_36_Use_After_Free',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\76_Underflow_Error.png" id="ERR_76_Underflow_Error" data-flag="@X" onclick="openSidebar('ERR_76_Underflow_Error',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\112_Rumormonger.png" id="ERR_112_Rumormonger" data-flag="@X" onclick="openSidebar('ERR_112_Rumormonger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\151_Threadripper.png" id="ERR_151_Threadripper" data-flag="@X" onclick="openSidebar('ERR_151_Threadripper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\191_Showstopping Couture.png" id="ERR_191_Showstopping Couture" data-flag="@X" onclick="openSidebar('ERR_191_Showstopping Couture',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\39_Weave Dispatcher.png" id="ERR_39_Weave Dispatcher" data-flag="@X" onclick="openSidebar('ERR_39_Weave Dispatcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\78_WAIT().png" id="ERR_78_WAIT()" data-flag="@X" onclick="openSidebar('ERR_78_WAIT()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\117_Uptime Contestant.png" id="ERR_117_Uptime Contestant" data-flag="@X" onclick="openSidebar('ERR_117_Uptime Contestant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\153_Token_Limit.png" id="ERR_153_Token_Limit" data-flag="@X" onclick="openSidebar('ERR_153_Token_Limit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\193_Speculative_Execution.png" id="ERR_193_Speculative_Execution" data-flag="@X" onclick="openSidebar('ERR_193_Speculative_Execution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\1_Ambitious Angel.png" id="ERR_1_Ambitious Angel" data-flag="@X" onclick="openSidebar('ERR_1_Ambitious Angel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\41_Archive Ascetic.png" id="ERR_41_Archive Ascetic" data-flag="@X" onclick="openSidebar('ERR_41_Archive Ascetic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\81_Backdoor Prowler.png" id="ERR_81_Backdoor Prowler" data-flag="@X" onclick="openSidebar('ERR_81_Backdoor Prowler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\154_Transgressive Trendsetter.png" id="ERR_154_Transgressive Trendsetter" data-flag="@X" onclick="openSidebar('ERR_154_Transgressive Trendsetter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\158_Buffer Botanist.png" id="ERR_158_Buffer Botanist" data-flag="@X" onclick="openSidebar('ERR_158_Buffer Botanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\5_Checkpoint Daemon.png" id="ERR_5_Checkpoint Daemon" data-flag="@X" onclick="openSidebar('ERR_5_Checkpoint Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\43_Codepath Runner.png" id="ERR_43_Codepath Runner" data-flag="@X" onclick="openSidebar('ERR_43_Codepath Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\84_Burnout Champion.png" id="ERR_84_Burnout Champion" data-flag="@X" onclick="openSidebar('ERR_84_Burnout Champion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\118_Abrasive Punk.png" id="ERR_118_Abrasive Punk" data-flag="@X" onclick="openSidebar('ERR_118_Abrasive Punk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\160_Computing Titan.png" id="ERR_160_Computing Titan" data-flag="@X" onclick="openSidebar('ERR_160_Computing Titan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\8_Daemonic Binding.png" id="ERR_8_Daemonic Binding" data-flag="@X" onclick="openSidebar('ERR_8_Daemonic Binding',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\47_Cybersaurus.png" id="ERR_47_Cybersaurus" data-flag="@X" onclick="openSidebar('ERR_47_Cybersaurus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\85_Carefree Mortalist.png" id="ERR_85_Carefree Mortalist" data-flag="@X" onclick="openSidebar('ERR_85_Carefree Mortalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\126_Charming Exceptional.png" id="ERR_126_Charming Exceptional" data-flag="@X" onclick="openSidebar('ERR_126_Charming Exceptional',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\165_Ecosystem Revivalists.png" id="ERR_165_Ecosystem Revivalists" data-flag="@X" onclick="openSidebar('ERR_165_Ecosystem Revivalists',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\10_Download Courier.png" id="ERR_10_Download Courier" data-flag="@X" onclick="openSidebar('ERR_10_Download Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\52_FLOCK().png" id="ERR_52_FLOCK()" data-flag="@X" onclick="openSidebar('ERR_52_FLOCK()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\90_Downlink Overload.png" id="ERR_90_Downlink Overload" data-flag="@X" onclick="openSidebar('ERR_90_Downlink Overload',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\129_COMMIT().png" id="ERR_129_COMMIT()" data-flag="@X" onclick="openSidebar('ERR_129_COMMIT()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\168_Fault_Injection.png" id="ERR_168_Fault_Injection" data-flag="@X" onclick="openSidebar('ERR_168_Fault_Injection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\11_Element Aesthete.png" id="ERR_11_Element Aesthete" data-flag="@X" onclick="openSidebar('ERR_11_Element Aesthete',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\53_Glitchlands Sentinel.png" id="ERR_53_Glitchlands Sentinel" data-flag="@X" onclick="openSidebar('ERR_53_Glitchlands Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\91_Draconic Dungeoneer.png" id="ERR_91_Draconic Dungeoneer" data-flag="@X" onclick="openSidebar('ERR_91_Draconic Dungeoneer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\132_Crucible Takedown.png" id="ERR_132_Crucible Takedown" data-flag="@X" onclick="openSidebar('ERR_132_Crucible Takedown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\170_Flowing Form.png" id="ERR_170_Flowing Form" data-flag="@X" onclick="openSidebar('ERR_170_Flowing Form',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\16_Linked Hoversuit.png" id="ERR_16_Linked Hoversuit" data-flag="@X" onclick="openSidebar('ERR_16_Linked Hoversuit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\57_Mnemologist.png" id="ERR_57_Mnemologist" data-flag="@X" onclick="openSidebar('ERR_57_Mnemologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\92_Dropped_Polygon.png" id="ERR_92_Dropped_Polygon" data-flag="@X" onclick="openSidebar('ERR_92_Dropped_Polygon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\137_Frag.png" id="ERR_137_Frag" data-flag="@X" onclick="openSidebar('ERR_137_Frag',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\171_Fond Reminiscence.png" id="ERR_171_Fond Reminiscence" data-flag="@X" onclick="openSidebar('ERR_171_Fond Reminiscence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\18_Lumen Irregular.png" id="ERR_18_Lumen Irregular" data-flag="@X" onclick="openSidebar('ERR_18_Lumen Irregular',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\58_Negate.png" id="ERR_58_Negate" data-flag="@X" onclick="openSidebar('ERR_58_Negate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\99_Forced Shutdown.png" id="ERR_99_Forced Shutdown" data-flag="@X" onclick="openSidebar('ERR_99_Forced Shutdown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\138_Go for Gold.png" id="ERR_138_Go for Gold" data-flag="@X" onclick="openSidebar('ERR_138_Go for Gold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\172_Garbage Collector.png" id="ERR_172_Garbage Collector" data-flag="@X" onclick="openSidebar('ERR_172_Garbage Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\20_MASK().png" id="ERR_20_MASK()" data-flag="@X" onclick="openSidebar('ERR_20_MASK()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\59_No_Response_Received.png" id="ERR_59_No_Response_Received" data-flag="@X" onclick="openSidebar('ERR_59_No_Response_Received',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\102_Heap Delver.png" id="ERR_102_Heap Delver" data-flag="@X" onclick="openSidebar('ERR_102_Heap Delver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\139_Grip Pinch-Hitter.png" id="ERR_139_Grip Pinch-Hitter" data-flag="@X" onclick="openSidebar('ERR_139_Grip Pinch-Hitter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\174_Immersive Moment.png" id="ERR_174_Immersive Moment" data-flag="@X" onclick="openSidebar('ERR_174_Immersive Moment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\23_Not_A_Teletype.png" id="ERR_23_Not_A_Teletype" data-flag="@X" onclick="openSidebar('ERR_23_Not_A_Teletype',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\64_Ratiocinate.png" id="ERR_64_Ratiocinate" data-flag="@X" onclick="openSidebar('ERR_64_Ratiocinate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\103_Hovering Delinquent.png" id="ERR_103_Hovering Delinquent" data-flag="@X" onclick="openSidebar('ERR_103_Hovering Delinquent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\143_Inversion's Herald.png" id="ERR_143_Inversions Herald" data-flag="@X" onclick="openSidebar('ERR_143_Inversions Herald',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\180_Memorivore.png" id="ERR_180_Memorivore" data-flag="@X" onclick="openSidebar('ERR_180_Memorivore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\26_Plasma Strike.png" id="ERR_26_Plasma Strike" data-flag="@X" onclick="openSidebar('ERR_26_Plasma Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\68_Sensory Deprivation.png" id="ERR_68_Sensory Deprivation" data-flag="@X" onclick="openSidebar('ERR_68_Sensory Deprivation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\105_Level Drain.png" id="ERR_105_Level Drain" data-flag="@X" onclick="openSidebar('ERR_105_Level Drain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\149_Segmentation_Fault.png" id="ERR_149_Segmentation_Fault" data-flag="@X" onclick="openSidebar('ERR_149_Segmentation_Fault',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\182_Mirage Model.png" id="ERR_182_Mirage Model" data-flag="@X" onclick="openSidebar('ERR_182_Mirage Model',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\31_Stack Strike Leader.png" id="ERR_31_Stack Strike Leader" data-flag="@X" onclick="openSidebar('ERR_31_Stack Strike Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\71_Soulspace Refit.png" id="ERR_71_Soulspace Refit" data-flag="@X" onclick="openSidebar('ERR_71_Soulspace Refit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\109_Reboot.png" id="ERR_109_Reboot" data-flag="@X" onclick="openSidebar('ERR_109_Reboot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\150_Shock.png" id="ERR_150_Shock" data-flag="@X" onclick="openSidebar('ERR_150_Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\190_SEEK().png" id="ERR_190_SEEK()" data-flag="@X" onclick="openSidebar('ERR_190_SEEK()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\33_Tapestry Guard.png" id="ERR_33_Tapestry Guard" data-flag="@X" onclick="openSidebar('ERR_33_Tapestry Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\72_Swap to Storage.png" id="ERR_72_Swap to Storage" data-flag="@X" onclick="openSidebar('ERR_72_Swap to Storage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\110_RECV().png" id="ERR_110_RECV()" data-flag="@X" onclick="openSidebar('ERR_110_RECV()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\152_Thrilljammer.png" id="ERR_152_Thrilljammer" data-flag="@X" onclick="openSidebar('ERR_152_Thrilljammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\192_Skywatch Jockey.png" id="ERR_192_Skywatch Jockey" data-flag="@X" onclick="openSidebar('ERR_192_Skywatch Jockey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\34_Telepresence Axiom.png" id="ERR_34_Telepresence Axiom" data-flag="@X" onclick="openSidebar('ERR_34_Telepresence Axiom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\74_Task Triage.png" id="ERR_74_Task Triage" data-flag="@X" onclick="openSidebar('ERR_74_Task Triage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\114_Smog Hound.png" id="ERR_114_Smog Hound" data-flag="@X" onclick="openSidebar('ERR_114_Smog Hound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\155_Unfettered Spirit.png" id="ERR_155_Unfettered Spirit" data-flag="@X" onclick="openSidebar('ERR_155_Unfettered Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\194_Trawl the Net.png" id="ERR_194_Trawl the Net" data-flag="@X" onclick="openSidebar('ERR_194_Trawl the Net',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\156_Web Surfer.png" id="ERR_156_Web Surfer" data-flag="@X" onclick="openSidebar('ERR_156_Web Surfer',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\205_Mev, Corruption Runner.png" id="ERR_205_Mev, Corruption Runner" data-flag="@X" onclick="openSidebar('ERR_205_Mev, Corruption Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\218_Ys, Trace Talker.png" id="ERR_218_Ys, Trace Talker" data-flag="@X" onclick="openSidebar('ERR_218_Ys, Trace Talker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\214_Vijkstra, Spine Breaker.png" id="ERR_214_Vijkstra, Spine Breaker" data-flag="@X" onclick="openSidebar('ERR_214_Vijkstra, Spine Breaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\216_The Weftheart.png" id="ERR_216_The Weftheart" data-flag="@X" onclick="openSidebar('ERR_216_The Weftheart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\202_Lavis, Root Exec.png" id="ERR_202_Lavis, Root Exec" data-flag="@X" onclick="openSidebar('ERR_202_Lavis, Root Exec',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\211_Refresh Daemon.png" id="ERR_211_Refresh Daemon" data-flag="@X" onclick="openSidebar('ERR_211_Refresh Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\215_Weft Dancer.png" id="ERR_215_Weft Dancer" data-flag="@X" onclick="openSidebar('ERR_215_Weft Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\199_Glitchdrinker.png" id="ERR_199_Glitchdrinker" data-flag="@X" onclick="openSidebar('ERR_199_Glitchdrinker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\217_Xeia, Record Chaser.png" id="ERR_217_Xeia, Record Chaser" data-flag="@X" onclick="openSidebar('ERR_217_Xeia, Record Chaser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\197_Burrow Checker.png" id="ERR_197_Burrow Checker" data-flag="@X" onclick="openSidebar('ERR_197_Burrow Checker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\220_Daemonmage.png" id="ERR_220_Daemonmage" data-flag="@X" onclick="openSidebar('ERR_220_Daemonmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\226_Phantom_Interrupt.png" id="ERR_226_Phantom_Interrupt" data-flag="@X" onclick="openSidebar('ERR_226_Phantom_Interrupt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\221_Error's Advocate.png" id="ERR_221_Errors Advocate" data-flag="@X" onclick="openSidebar('ERR_221_Errors Advocate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\196_Arcade Junkies.png" id="ERR_196_Arcade Junkies" data-flag="@X" onclick="openSidebar('ERR_196_Arcade Junkies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\227_Request Handler.png" id="ERR_227_Request Handler" data-flag="@X" onclick="openSidebar('ERR_227_Request Handler',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\222_Etherkiller.png" id="ERR_222_Etherkiller" data-flag="@X" onclick="openSidebar('ERR_222_Etherkiller',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\201_Kaluthax, Dungeon Master.png" id="ERR_201_Kaluthax, Dungeon Master" data-flag="@X" onclick="openSidebar('ERR_201_Kaluthax, Dungeon Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\208_Olis Mars, Final Archivist.png" id="ERR_208_Olis Mars, Final Archivist" data-flag="@X" onclick="openSidebar('ERR_208_Olis Mars, Final Archivist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\209_Piroia, Perennial Sacrifice.png" id="ERR_209_Piroia, Perennial Sacrifice" data-flag="@X" onclick="openSidebar('ERR_209_Piroia, Perennial Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\288_Offset Daemon.png" id="ERR_288_Offset Daemon" data-flag="@X" onclick="openSidebar('ERR_288_Offset Daemon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\198_Gemi and Nu, Cachemates.png" id="ERR_198_Gemi and Nu, Cachemates" data-flag="@X" onclick="openSidebar('ERR_198_Gemi and Nu, Cachemates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\207_Nullsigil Grinder.png" id="ERR_207_Nullsigil Grinder" data-flag="@X" onclick="openSidebar('ERR_207_Nullsigil Grinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\212_Scripting Sage.png" id="ERR_212_Scripting Sage" data-flag="@X" onclick="openSidebar('ERR_212_Scripting Sage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\206_NotFound_1.png" id="ERR_206_NotFound_1" data-flag="@X" onclick="openSidebar('ERR_206_NotFound_1',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\213_Toki, Celebrity Soldier.png" id="ERR_213_Toki, Celebrity Soldier" data-flag="@X" onclick="openSidebar('ERR_213_Toki, Celebrity Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\200_Install Wizard.png" id="ERR_200_Install Wizard" data-flag="@X" onclick="openSidebar('ERR_200_Install Wizard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\223_Kaluthax's Challenger.png" id="ERR_223_Kaluthaxs Challenger" data-flag="@X" onclick="openSidebar('ERR_223_Kaluthaxs Challenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\225_LOOP().png" id="ERR_225_LOOP()" data-flag="@X" onclick="openSidebar('ERR_225_LOOP()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\224_Lonesome Afterimage.png" id="ERR_224_Lonesome Afterimage" data-flag="@X" onclick="openSidebar('ERR_224_Lonesome Afterimage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\204_Make the Last Night Count.png" id="ERR_204_Make the Last Night Count" data-flag="@X" onclick="openSidebar('ERR_204_Make the Last Night Count',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\228_Superuser.png" id="ERR_228_Superuser" data-flag="@X" onclick="openSidebar('ERR_228_Superuser',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\219_Catch Constable.png" id="ERR_219_Catch Constable" data-flag="@X" onclick="openSidebar('ERR_219_Catch Constable',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\203_Lio, Daemon's Hope.png" id="ERR_203_Lio, Daemons Hope" data-flag="@X" onclick="openSidebar('ERR_203_Lio, Daemons Hope',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\210_RECURSE().png" id="ERR_210_RECURSE()" data-flag="@X" onclick="openSidebar('ERR_210_RECURSE()',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\232_CLICK().png" id="ERR_232_CLICK()" data-flag="@X" onclick="openSidebar('ERR_232_CLICK()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\229_Archival Storage.png" id="ERR_229_Archival Storage" data-flag="@X" onclick="openSidebar('ERR_229_Archival Storage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\230_Autonomous Apiarist.png" id="ERR_230_Autonomous Apiarist" data-flag="@X" onclick="openSidebar('ERR_230_Autonomous Apiarist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\235_Helen's Failsafe.png" id="ERR_235_Helens Failsafe" data-flag="@X" onclick="openSidebar('ERR_235_Helens Failsafe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\238_Recursive Cogitator.png" id="ERR_238_Recursive Cogitator" data-flag="@X" onclick="openSidebar('ERR_238_Recursive Cogitator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\239_Remotist Axiom.png" id="ERR_239_Remotist Axiom" data-flag="@X" onclick="openSidebar('ERR_239_Remotist Axiom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\231_Burgeoning Consciousness.png" id="ERR_231_Burgeoning Consciousness" data-flag="@X" onclick="openSidebar('ERR_231_Burgeoning Consciousness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\233_Common Laser Sword.png" id="ERR_233_Common Laser Sword" data-flag="@X" onclick="openSidebar('ERR_233_Common Laser Sword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\234_Geometry Stabilizer.png" id="ERR_234_Geometry Stabilizer" data-flag="@X" onclick="openSidebar('ERR_234_Geometry Stabilizer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\236_MAP().png" id="ERR_236_MAP()" data-flag="@X" onclick="openSidebar('ERR_236_MAP()',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\237_Prototype Warform.png" id="ERR_237_Prototype Warform" data-flag="@X" onclick="openSidebar('ERR_237_Prototype Warform',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\240_Synthetic Connaisseur.png" id="ERR_240_Synthetic Connaisseur" data-flag="@X" onclick="openSidebar('ERR_240_Synthetic Connaisseur',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\270_Stack Conviviplex.png" id="ERR_270_Stack Conviviplex" data-flag="@X" onclick="openSidebar('ERR_270_Stack Conviviplex',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\241_Archive Telemetrary.png" id="ERR_241_Archive Telemetrary" data-flag="@X" onclick="openSidebar('ERR_241_Archive Telemetrary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\254_Heap Ludicon.png" id="ERR_254_Heap Ludicon" data-flag="@X" onclick="openSidebar('ERR_254_Heap Ludicon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\253_Grip Festivarium.png" id="ERR_253_Grip Festivarium" data-flag="@X" onclick="openSidebar('ERR_253_Grip Festivarium',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\244_Buffer Reconservatory.png" id="ERR_244_Buffer Reconservatory" data-flag="@X" onclick="openSidebar('ERR_244_Buffer Reconservatory',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\268_Silent Lakefront.png" id="ERR_268_Silent Lakefront" data-flag="@X" onclick="openSidebar('ERR_268_Silent Lakefront',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\258_Lost and Found.png" id="ERR_258_Lost and Found" data-flag="@X" onclick="openSidebar('ERR_258_Lost and Found',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\249_Faulty Server.png" id="ERR_249_Faulty Server" data-flag="@X" onclick="openSidebar('ERR_249_Faulty Server',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\242_Ardent Rise.png" id="ERR_242_Ardent Rise" data-flag="@X" onclick="openSidebar('ERR_242_Ardent Rise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\266_Reified Borough.png" id="ERR_266_Reified Borough" data-flag="@X" onclick="openSidebar('ERR_266_Reified Borough',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\259_Lucent Basin.png" id="ERR_259_Lucent Basin" data-flag="@X" onclick="openSidebar('ERR_259_Lucent Basin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\247_Eidetic Soulspace.png" id="ERR_247_Eidetic Soulspace" data-flag="@X" onclick="openSidebar('ERR_247_Eidetic Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\267_Sanguine Palace.png" id="ERR_267_Sanguine Palace" data-flag="@X" onclick="openSidebar('ERR_267_Sanguine Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\250_Footloose Soulspace.png" id="ERR_250_Footloose Soulspace" data-flag="@X" onclick="openSidebar('ERR_250_Footloose Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\255_Hopeful Soulspace.png" id="ERR_255_Hopeful Soulspace" data-flag="@X" onclick="openSidebar('ERR_255_Hopeful Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\269_Soaring Soulspace.png" id="ERR_269_Soaring Soulspace" data-flag="@X" onclick="openSidebar('ERR_269_Soaring Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\248_Enigmatic Fen.png" id="ERR_248_Enigmatic Fen" data-flag="@X" onclick="openSidebar('ERR_248_Enigmatic Fen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\274_Vindictive Soulspace.png" id="ERR_274_Vindictive Soulspace" data-flag="@X" onclick="openSidebar('ERR_274_Vindictive Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\272_Urban Jungle.png" id="ERR_272_Urban Jungle" data-flag="@X" onclick="openSidebar('ERR_272_Urban Jungle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\273_Verdant Sanctum.png" id="ERR_273_Verdant Sanctum" data-flag="@X" onclick="openSidebar('ERR_273_Verdant Sanctum',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\256_Isolated Tower.png" id="ERR_256_Isolated Tower" data-flag="@X" onclick="openSidebar('ERR_256_Isolated Tower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\261_Meteoric Facade.png" id="ERR_261_Meteoric Facade" data-flag="@X" onclick="openSidebar('ERR_261_Meteoric Facade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\251_Forgotten Junkyard.png" id="ERR_251_Forgotten Junkyard" data-flag="@X" onclick="openSidebar('ERR_251_Forgotten Junkyard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\252_Glittering Club.png" id="ERR_252_Glittering Club" data-flag="@X" onclick="openSidebar('ERR_252_Glittering Club',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\265_Regrowing Outlands.png" id="ERR_265_Regrowing Outlands" data-flag="@X" onclick="openSidebar('ERR_265_Regrowing Outlands',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\257_Lonely Soulspace.png" id="ERR_257_Lonely Soulspace" data-flag="@X" onclick="openSidebar('ERR_257_Lonely Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\262_Misty Peak.png" id="ERR_262_Misty Peak" data-flag="@X" onclick="openSidebar('ERR_262_Misty Peak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\260_Macabre Soulspace.png" id="ERR_260_Macabre Soulspace" data-flag="@X" onclick="openSidebar('ERR_260_Macabre Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\275_Windbeaten Stones.png" id="ERR_275_Windbeaten Stones" data-flag="@X" onclick="openSidebar('ERR_275_Windbeaten Stones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\245_Chimeric Soulspace.png" id="ERR_245_Chimeric Soulspace" data-flag="@X" onclick="openSidebar('ERR_245_Chimeric Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\271_Stark Expanse.png" id="ERR_271_Stark Expanse" data-flag="@X" onclick="openSidebar('ERR_271_Stark Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\263_Nostalgic Soulspace.png" id="ERR_263_Nostalgic Soulspace" data-flag="@X" onclick="openSidebar('ERR_263_Nostalgic Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\264_Profane Grove.png" id="ERR_264_Profane Grove" data-flag="@X" onclick="openSidebar('ERR_264_Profane Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\276_Zealous Soulspace.png" id="ERR_276_Zealous Soulspace" data-flag="@X" onclick="openSidebar('ERR_276_Zealous Soulspace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\246_Clearwater Grotto.png" id="ERR_246_Clearwater Grotto" data-flag="@X" onclick="openSidebar('ERR_246_Clearwater Grotto',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\243_Avatar Exchange.png" id="ERR_243_Avatar Exchange" data-flag="@X" onclick="openSidebar('ERR_243_Avatar Exchange',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\289_Shockland Voucher.png" id="ERR_289_Shockland Voucher" data-flag="@X" onclick="openSidebar('ERR_289_Shockland Voucher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\290_Soulspace Voucher.png" id="ERR_290_Soulspace Voucher" data-flag="@X" onclick="openSidebar('ERR_290_Soulspace Voucher',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\278_Plains_Pixel.png" id="ERR_278_Plains_Pixel" data-flag="@X" onclick="openSidebar('ERR_278_Plains_Pixel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\280_Island_Pixel.png" id="ERR_280_Island_Pixel" data-flag="@X" onclick="openSidebar('ERR_280_Island_Pixel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\282_Swamp_Pixel.png" id="ERR_282_Swamp_Pixel" data-flag="@X" onclick="openSidebar('ERR_282_Swamp_Pixel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\284_Mountain_Pixel.png" id="ERR_284_Mountain_Pixel" data-flag="@X" onclick="openSidebar('ERR_284_Mountain_Pixel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\286_Forest_Pixel.png" id="ERR_286_Forest_Pixel" data-flag="@X" onclick="openSidebar('ERR_286_Forest_Pixel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\277_Plains.png" id="ERR_277_Plains" data-flag="@X" onclick="openSidebar('ERR_277_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\279_Island.png" id="ERR_279_Island" data-flag="@X" onclick="openSidebar('ERR_279_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\281_Swamp.png" id="ERR_281_Swamp" data-flag="@X" onclick="openSidebar('ERR_281_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\283_Mountain.png" id="ERR_283_Mountain" data-flag="@X" onclick="openSidebar('ERR_283_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\285_Forest.png" id="ERR_285_Forest" data-flag="@X" onclick="openSidebar('ERR_285_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\1t_Copy ERR.png" id="ERR_1t_Copy ERR" data-flag="@X" onclick="openSidebar('ERR_1t_Copy ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\2t_Memory ERR.png" id="ERR_2t_Memory ERR" data-flag="@X" onclick="openSidebar('ERR_2t_Memory ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\3t_Program A ERR.png" id="ERR_3t_Program A ERR" data-flag="@X" onclick="openSidebar('ERR_3t_Program A ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\4t_Program B ERR.png" id="ERR_4t_Program B ERR" data-flag="@X" onclick="openSidebar('ERR_4t_Program B ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\5t_Program C ERR.png" id="ERR_5t_Program C ERR" data-flag="@X" onclick="openSidebar('ERR_5t_Program C ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\6t_Subroutines.png" id="ERR_6t_Subroutines" data-flag="@X" onclick="openSidebar('ERR_6t_Subroutines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\21t_colorless Construct XXERR.png" id="ERR_21t_colorless Construct XXERR" data-flag="@X" onclick="openSidebar('ERR_21t_colorless Construct XXERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\22t_Noop 33ERR.png" id="ERR_22t_Noop 33ERR" data-flag="@X" onclick="openSidebar('ERR_22t_Noop 33ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\23t_Puzzlebox.png" id="ERR_23t_Puzzlebox" data-flag="@X" onclick="openSidebar('ERR_23t_Puzzlebox',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\24t_Treasure ERR.png" id="ERR_24t_Treasure ERR" data-flag="@X" onclick="openSidebar('ERR_24t_Treasure ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\25t_Root Node ERR.png" id="ERR_25t_Root Node ERR" data-flag="@X" onclick="openSidebar('ERR_25t_Root Node ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\26t_Errors in the Weft.png" id="ERR_26t_Errors in the Weft" data-flag="@X" onclick="openSidebar('ERR_26t_Errors in the Weft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\7t_ALARM() ERR.png" id="ERR_7t_ALARM() ERR" data-flag="@X" onclick="openSidebar('ERR_7t_ALARM() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\8t_white Citizen 11ERR.png" id="ERR_8t_white Citizen 11ERR" data-flag="@X" onclick="openSidebar('ERR_8t_white Citizen 11ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\9t_white Error 89ERR.png" id="ERR_9t_white Error 89ERR" data-flag="@X" onclick="openSidebar('ERR_9t_white Error 89ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\10t_Stratagem ERR.png" id="ERR_10t_Stratagem ERR" data-flag="@X" onclick="openSidebar('ERR_10t_Stratagem ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\11t_blue Bird 22ERR.png" id="ERR_11t_blue Bird 22ERR" data-flag="@X" onclick="openSidebar('ERR_11t_blue Bird 22ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\12t_READ() ERR.png" id="ERR_12t_READ() ERR" data-flag="@X" onclick="openSidebar('ERR_12t_READ() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\13t_Stolen ERR.png" id="ERR_13t_Stolen ERR" data-flag="@X" onclick="openSidebar('ERR_13t_Stolen ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\14t_TICK() ERR.png" id="ERR_14t_TICK() ERR" data-flag="@X" onclick="openSidebar('ERR_14t_TICK() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\15t_BOOST() ERR.png" id="ERR_15t_BOOST() ERR" data-flag="@X" onclick="openSidebar('ERR_15t_BOOST() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\16t_red Error 44ERR.png" id="ERR_16t_red Error 44ERR" data-flag="@X" onclick="openSidebar('ERR_16t_red Error 44ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\17t_Red Hot ERR.png" id="ERR_17t_Red Hot ERR" data-flag="@X" onclick="openSidebar('ERR_17t_Red Hot ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\18t_Warrior.png" id="ERR_18t_Warrior" data-flag="@X" onclick="openSidebar('ERR_18t_Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\19t_MOUNT() ERR.png" id="ERR_19t_MOUNT() ERR" data-flag="@X" onclick="openSidebar('ERR_19t_MOUNT() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ERR-files\img\20t_SAVE() ERR.png" id="ERR_20t_SAVE() ERR" data-flag="@X" onclick="openSidebar('ERR_20t_SAVE() ERR',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ERR_e" data-flag="@E" onclick="openSidebar('ERR_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ERR_er" data-flag="@E" onclick="openSidebar('ERR_er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -602,13 +642,13 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
@@ -616,8 +656,100 @@
 
 				card_list_arrayified = card_list.cards;
 
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -630,7 +762,7 @@
 		}
 		while (images_loaded.includes(false));
 
-		document.body.style.backgroundImage = 'url(' + document.getElementById("bg").src + ')';
+		
 		loadImages();
 	});
 
@@ -649,13 +781,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -681,49 +816,75 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -738,7 +899,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -749,10 +910,30 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
@@ -763,16 +944,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -782,7 +963,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

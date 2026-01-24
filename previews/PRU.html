@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/PRU-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/PRU-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>PRU visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -58,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -78,11 +87,12 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -98,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -114,40 +125,54 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -156,363 +181,380 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/PRU-files/logo.png" />
-	<img class="preload-hidden" src="/sets/BLV-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/LIM-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PRU-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/PRU-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BLV-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/LIM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PRU-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="icon-bar">
-			<div class="icon"><a href="BLV"><img src="/sets/BLV-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="LIM"><img src="/sets/LIM-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="PRU"><img src="/sets/PRU-files/icon.png"></img></a></div>
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/PRU"><img src="../sets/PRU-files/icon.png">Perennial Ultimatum</a>
+	
+		<a class="set-bar inactive" href="../previews/BLV"><img src="../sets/BLV-files/icon.png">Blood and Velvet</a>
+	
+		<a class="set-bar inactive" href="../previews/ERR"><img src="../sets/ERR-files/icon.png">Errors in the Weft</a>
+	
+		<a class="set-bar inactive" href="../previews/LIM"><img src="../sets/LIM-files/icon.png">Escape From Limbo</a>
+	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/PRU-files/logo.png">
+		<img class="logo" src="../sets/PRU-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\PRU-files\img\14_Company Exemplar.png" id="14_Company Exemplar" data-flag="@X" onclick="openSidebar('14_Company Exemplar',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\42_Apothecary Exemplar.png" id="42_Apothecary Exemplar" data-flag="@X" onclick="openSidebar('42_Apothecary Exemplar',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\107_State of Fear.png" id="107_State of Fear" data-flag="@X" onclick="openSidebar('107_State of Fear',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\123_Eruption Exemplar.png" id="123_Eruption Exemplar" data-flag="@X" onclick="openSidebar('123_Eruption Exemplar',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\176_State of Joy.png" id="176_State of Joy" data-flag="@X" onclick="openSidebar('176_State of Joy',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\40_State of Peace.png" id="40_State of Peace" data-flag="@X" onclick="openSidebar('40_State of Peace',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\73_State of Sadness.png" id="73_State of Sadness" data-flag="@X" onclick="openSidebar('73_State of Sadness',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\111_Were Hunt Exemplar.png" id="111_Were Hunt Exemplar" data-flag="@X" onclick="openSidebar('111_Were Hunt Exemplar',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\146_State of Anger.png" id="146_State of Anger" data-flag="@X" onclick="openSidebar('146_State of Anger',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\182_Ultimatum Exemplar.png" id="182_Ultimatum Exemplar" data-flag="@X" onclick="openSidebar('182_Ultimatum Exemplar',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\12_Caesura Technique.png" id="12_Caesura Technique" data-flag="@X" onclick="openSidebar('12_Caesura Technique',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\45_Chisel, Heterodox Luthier.png" id="45_Chisel, Heterodox Luthier" data-flag="@X" onclick="openSidebar('45_Chisel, Heterodox Luthier',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\81_Broken Tower Nihilist.png" id="81_Broken Tower Nihilist" data-flag="@X" onclick="openSidebar('81_Broken Tower Nihilist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\114_Annihilation Junkie.png" id="114_Annihilation Junkie" data-flag="@X" onclick="openSidebar('114_Annihilation Junkie',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\152_Beast-Age Chronicler.png" id="152_Beast-Age Chronicler" data-flag="@X" onclick="openSidebar('152_Beast-Age Chronicler',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\15_Crack Pilot.png" id="15_Crack Pilot" data-flag="@X" onclick="openSidebar('15_Crack Pilot',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\49_The Crown of Glass.png" id="49_The Crown of Glass" data-flag="@X" onclick="openSidebar('49_The Crown of Glass',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\83_Chessmaster.png" id="83_Chessmaster" data-flag="@X" onclick="openSidebar('83_Chessmaster',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\122_Ephemeral Deluge.png" id="122_Ephemeral Deluge" data-flag="@X" onclick="openSidebar('122_Ephemeral Deluge',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\154_Crab Caucus Patissier.png" id="154_Crab Caucus Patissier" data-flag="@X" onclick="openSidebar('154_Crab Caucus Patissier',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\17_Decorated Tactician.png" id="17_Decorated Tactician" data-flag="@X" onclick="openSidebar('17_Decorated Tactician',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\56_Erode Fate.png" id="56_Erode Fate" data-flag="@X" onclick="openSidebar('56_Erode Fate',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\85_Clivinius the Scourge.png" id="85_Clivinius the Scourge" data-flag="@X" onclick="openSidebar('85_Clivinius the Scourge',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\126_Flame-Touched Faerie.png" id="126_Flame-Touched Faerie" data-flag="@X" onclick="openSidebar('126_Flame-Touched Faerie',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\156_Demerara, Silken Host.png" id="156_Demerara, Silken Host" data-flag="@X" onclick="openSidebar('156_Demerara, Silken Host',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\19_Emaciate.png" id="19_Emaciate" data-flag="@X" onclick="openSidebar('19_Emaciate',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\63_Lenora's Glamer.png" id="63_Lenoras Glamer" data-flag="@X" onclick="openSidebar('63_Lenoras Glamer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\102_Pro Bono Oathmage.png" id="102_Pro Bono Oathmage" data-flag="@X" onclick="openSidebar('102_Pro Bono Oathmage',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\131_Infection Vessel.png" id="131_Infection Vessel" data-flag="@X" onclick="openSidebar('131_Infection Vessel',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\157_Emerald Dam Invocation.png" id="157_Emerald Dam Invocation" data-flag="@X" onclick="openSidebar('157_Emerald Dam Invocation',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\27_Maviella Margave.png" id="27_Maviella Margave" data-flag="@X" onclick="openSidebar('27_Maviella Margave',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\66_Nurse-Current Augur.png" id="66_Nurse-Current Augur" data-flag="@X" onclick="openSidebar('66_Nurse-Current Augur',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\108_Underworld Seer.png" id="108_Underworld Seer" data-flag="@X" onclick="openSidebar('108_Underworld Seer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\135_Mobius, Progeny Mender.png" id="135_Mobius, Progeny Mender" data-flag="@X" onclick="openSidebar('135_Mobius, Progeny Mender',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\166_Margrave's Desolation.png" id="166_Margraves Desolation" data-flag="@X" onclick="openSidebar('166_Margraves Desolation',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\35_The Sceptre.png" id="35_The Sceptre" data-flag="@X" onclick="openSidebar('35_The Sceptre',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\68_Production Line.png" id="68_Production Line" data-flag="@X" onclick="openSidebar('68_Production Line',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\109_Victory Drive.png" id="109_Victory Drive" data-flag="@X" onclick="openSidebar('109_Victory Drive',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\138_Phantasia IV.png" id="138_Phantasia IV" data-flag="@X" onclick="openSidebar('138_Phantasia IV',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\170_People in Arms.png" id="170_People in Arms" data-flag="@X" onclick="openSidebar('170_People in Arms',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\38_Song of the Void.png" id="38_Song of the Void" data-flag="@X" onclick="openSidebar('38_Song of the Void',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\70_Resurface.png" id="70_Resurface" data-flag="@X" onclick="openSidebar('70_Resurface',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\112_Ysolde's Gauntlet.png" id="112_Ysoldes Gauntlet" data-flag="@X" onclick="openSidebar('112_Ysoldes Gauntlet',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\140_Revolutionary Spirit.png" id="140_Revolutionary Spirit" data-flag="@X" onclick="openSidebar('140_Revolutionary Spirit',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\174_Seed of the Mega Tree.png" id="174_Seed of the Mega Tree" data-flag="@X" onclick="openSidebar('174_Seed of the Mega Tree',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\8_Assail.png" id="8_Assail" data-flag="@X" onclick="openSidebar('8_Assail',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\43_Blue Palace Interlocutor.png" id="43_Blue Palace Interlocutor" data-flag="@X" onclick="openSidebar('43_Blue Palace Interlocutor',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\80_Apothecary Physician.png" id="80_Apothecary Physician" data-flag="@X" onclick="openSidebar('80_Apothecary Physician',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\115_Annihilation Performance.png" id="115_Annihilation Performance" data-flag="@X" onclick="openSidebar('115_Annihilation Performance',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\150_Ask The Earth.png" id="150_Ask The Earth" data-flag="@X" onclick="openSidebar('150_Ask The Earth',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\9_Augmented Aerialist.png" id="9_Augmented Aerialist" data-flag="@X" onclick="openSidebar('9_Augmented Aerialist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\46_Condescend.png" id="46_Condescend" data-flag="@X" onclick="openSidebar('46_Condescend',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\86_D'd'wid's Contract.png" id="86_Ddwids Contract" data-flag="@X" onclick="openSidebar('86_Ddwids Contract',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\117_Camp Clef Innovator.png" id="117_Camp Clef Innovator" data-flag="@X" onclick="openSidebar('117_Camp Clef Innovator',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\151_Barkspace Conspiracy.png" id="151_Barkspace Conspiracy" data-flag="@X" onclick="openSidebar('151_Barkspace Conspiracy',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\11_Bloomstained Recruiter.png" id="11_Bloomstained Recruiter" data-flag="@X" onclick="openSidebar('11_Bloomstained Recruiter',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\51_Distillery Field Tester.png" id="51_Distillery Field Tester" data-flag="@X" onclick="openSidebar('51_Distillery Field Tester',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\88_Eruption Blightmonger.png" id="88_Eruption Blightmonger" data-flag="@X" onclick="openSidebar('88_Eruption Blightmonger',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\120_Crucible Breaker.png" id="120_Crucible Breaker" data-flag="@X" onclick="openSidebar('120_Crucible Breaker',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\153_Bloomtouched Toymaker.png" id="153_Bloomtouched Toymaker" data-flag="@X" onclick="openSidebar('153_Bloomtouched Toymaker',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\13_Committed Company.png" id="13_Committed Company" data-flag="@X" onclick="openSidebar('13_Committed Company',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\54_Eccentric Balloonist.png" id="54_Eccentric Balloonist" data-flag="@X" onclick="openSidebar('54_Eccentric Balloonist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\90_Failed Sibling.png" id="90_Failed Sibling" data-flag="@X" onclick="openSidebar('90_Failed Sibling',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\124_Eruption Strike Leader.png" id="124_Eruption Strike Leader" data-flag="@X" onclick="openSidebar('124_Eruption Strike Leader',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\158_Fallow Lands Nomad.png" id="158_Fallow Lands Nomad" data-flag="@X" onclick="openSidebar('158_Fallow Lands Nomad',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\16_Daring Acrobat.png" id="16_Daring Acrobat" data-flag="@X" onclick="openSidebar('16_Daring Acrobat',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\59_Fenley's Flagship.png" id="59_Fenleys Flagship" data-flag="@X" onclick="openSidebar('59_Fenleys Flagship',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\92_Hungry Bloomchild.png" id="92_Hungry Bloomchild" data-flag="@X" onclick="openSidebar('92_Hungry Bloomchild',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\125_Firebomb.png" id="125_Firebomb" data-flag="@X" onclick="openSidebar('125_Firebomb',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\159_Flood of Moss.png" id="159_Flood of Moss" data-flag="@X" onclick="openSidebar('159_Flood of Moss',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\18_Eleonora's Procession.png" id="18_Eleonoras Procession" data-flag="@X" onclick="openSidebar('18_Eleonoras Procession',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\62_Jollity Impressionist.png" id="62_Jollity Impressionist" data-flag="@X" onclick="openSidebar('62_Jollity Impressionist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\94_Ichor Extraction.png" id="94_Ichor Extraction" data-flag="@X" onclick="openSidebar('94_Ichor Extraction',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\127_Gleeful Arsonist.png" id="127_Gleeful Arsonist" data-flag="@X" onclick="openSidebar('127_Gleeful Arsonist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\162_Fungimancer.png" id="162_Fungimancer" data-flag="@X" onclick="openSidebar('162_Fungimancer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\21_Fallowpeaks Banishment.png" id="21_Fallowpeaks Banishment" data-flag="@X" onclick="openSidebar('21_Fallowpeaks Banishment',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\67_Panicked Evacuation.png" id="67_Panicked Evacuation" data-flag="@X" onclick="openSidebar('67_Panicked Evacuation',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\95_Masked Agent.png" id="95_Masked Agent" data-flag="@X" onclick="openSidebar('95_Masked Agent',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\129_Ichor Exposure.png" id="129_Ichor Exposure" data-flag="@X" onclick="openSidebar('129_Ichor Exposure',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\163_Invasive Plowbeetle.png" id="163_Invasive Plowbeetle" data-flag="@X" onclick="openSidebar('163_Invasive Plowbeetle',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\22_Fleet's Symphony.png" id="22_Fleets Symphony" data-flag="@X" onclick="openSidebar('22_Fleets Symphony',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\71_Rigamaroll's Form.png" id="71_Rigamarolls Form" data-flag="@X" onclick="openSidebar('71_Rigamarolls Form',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\96_Massacre Vulture.png" id="96_Massacre Vulture" data-flag="@X" onclick="openSidebar('96_Massacre Vulture',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\130_Immolate.png" id="130_Immolate" data-flag="@X" onclick="openSidebar('130_Immolate',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\164_Kudzu Elemental.png" id="164_Kudzu Elemental" data-flag="@X" onclick="openSidebar('164_Kudzu Elemental',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\25_Ichorbronze Assistant.png" id="25_Ichorbronze Assistant" data-flag="@X" onclick="openSidebar('25_Ichorbronze Assistant',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\72_Squawking Omen.png" id="72_Squawking Omen" data-flag="@X" onclick="openSidebar('72_Squawking Omen',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\98_Oathbound Labourers.png" id="98_Oathbound Labourers" data-flag="@X" onclick="openSidebar('98_Oathbound Labourers',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\133_Lacrymose Blessed.png" id="133_Lacrymose Blessed" data-flag="@X" onclick="openSidebar('133_Lacrymose Blessed',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\167_Mask Maker.png" id="167_Mask Maker" data-flag="@X" onclick="openSidebar('167_Mask Maker',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\28_Mirrorsand Duelist.png" id="28_Mirrorsand Duelist" data-flag="@X" onclick="openSidebar('28_Mirrorsand Duelist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\74_Time to Consider.png" id="74_Time to Consider" data-flag="@X" onclick="openSidebar('74_Time to Consider',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\100_Orchestrated Riot.png" id="100_Orchestrated Riot" data-flag="@X" onclick="openSidebar('100_Orchestrated Riot',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\142_Rioter's Mask.png" id="142_Rioters Mask" data-flag="@X" onclick="openSidebar('142_Rioters Mask',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\168_Miasmic Reclamation.png" id="168_Miasmic Reclamation" data-flag="@X" onclick="openSidebar('168_Miasmic Reclamation',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\30_Orphans' Resilience.png" id="30_Orphans Resilience" data-flag="@X" onclick="openSidebar('30_Orphans Resilience',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\75_Upwelling Elemental.png" id="75_Upwelling Elemental" data-flag="@X" onclick="openSidebar('75_Upwelling Elemental',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\103_Rearguard Action.png" id="103_Rearguard Action" data-flag="@X" onclick="openSidebar('103_Rearguard Action',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\145_Spread the Infection.png" id="145_Spread the Infection" data-flag="@X" onclick="openSidebar('145_Spread the Infection',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\171_Picket Line Paladin.png" id="171_Picket Line Paladin" data-flag="@X" onclick="openSidebar('171_Picket Line Paladin',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\41_Supply Lines.png" id="41_Supply Lines" data-flag="@X" onclick="openSidebar('41_Supply Lines',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\76_Weapons Program.png" id="76_Weapons Program" data-flag="@X" onclick="openSidebar('76_Weapons Program',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\113_Zugzwang.png" id="113_Zugzwang" data-flag="@X" onclick="openSidebar('113_Zugzwang',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\149_Were Hunt Enforcer.png" id="149_Were Hunt Enforcer" data-flag="@X" onclick="openSidebar('149_Were Hunt Enforcer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\177_Studberg Regulars.png" id="177_Studberg Regulars" data-flag="@X" onclick="openSidebar('177_Studberg Regulars',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\6_Air Support.png" id="6_Air Support" data-flag="@X" onclick="openSidebar('6_Air Support',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\44_Call the Tempest.png" id="44_Call the Tempest" data-flag="@X" onclick="openSidebar('44_Call the Tempest',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\78_Alynerada's Spawn.png" id="78_Alyneradas Spawn" data-flag="@X" onclick="openSidebar('78_Alyneradas Spawn',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\116_Avant Guardsman.png" id="116_Avant Guardsman" data-flag="@X" onclick="openSidebar('116_Avant Guardsman',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\155_Cut Loose.png" id="155_Cut Loose" data-flag="@X" onclick="openSidebar('155_Cut Loose',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\7_Airdrop Medic.png" id="7_Airdrop Medic" data-flag="@X" onclick="openSidebar('7_Airdrop Medic',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\47_Contentious Supporter.png" id="47_Contentious Supporter" data-flag="@X" onclick="openSidebar('47_Contentious Supporter',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\79_Apothecary Flunkie.png" id="79_Apothecary Flunkie" data-flag="@X" onclick="openSidebar('79_Apothecary Flunkie',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\118_Catrest Elder.png" id="118_Catrest Elder" data-flag="@X" onclick="openSidebar('118_Catrest Elder',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\160_Flowing Strike.png" id="160_Flowing Strike" data-flag="@X" onclick="openSidebar('160_Flowing Strike',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\10_Bloom Company Defector.png" id="10_Bloom Company Defector" data-flag="@X" onclick="openSidebar('10_Bloom Company Defector',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\48_Counter-Intelligence.png" id="48_Counter-Intelligence" data-flag="@X" onclick="openSidebar('48_Counter-Intelligence',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\82_Cantankerous General.png" id="82_Cantankerous General" data-flag="@X" onclick="openSidebar('82_Cantankerous General',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\119_Collier Saboteur.png" id="119_Collier Saboteur" data-flag="@X" onclick="openSidebar('119_Collier Saboteur',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\161_Foxes' Underground Heel.png" id="161_Foxes Underground Heel" data-flag="@X" onclick="openSidebar('161_Foxes Underground Heel',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\20_Exclusive Entourage.png" id="20_Exclusive Entourage" data-flag="@X" onclick="openSidebar('20_Exclusive Entourage',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\50_Distillery Engineers.png" id="50_Distillery Engineers" data-flag="@X" onclick="openSidebar('50_Distillery Engineers',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\84_Clivinius' Takedown.png" id="84_Clivinius Takedown" data-flag="@X" onclick="openSidebar('84_Clivinius Takedown',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\121_Edgeshine's Daring.png" id="121_Edgeshines Daring" data-flag="@X" onclick="openSidebar('121_Edgeshines Daring',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\165_Margrave Honour Guard.png" id="165_Margrave Honour Guard" data-flag="@X" onclick="openSidebar('165_Margrave Honour Guard',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\23_Gifted Unicorn.png" id="23_Gifted Unicorn" data-flag="@X" onclick="openSidebar('23_Gifted Unicorn',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\52_Drownedmen Sailor.png" id="52_Drownedmen Sailor" data-flag="@X" onclick="openSidebar('52_Drownedmen Sailor',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\87_Desperate Stand.png" id="87_Desperate Stand" data-flag="@X" onclick="openSidebar('87_Desperate Stand',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\128_Hearth Spirit.png" id="128_Hearth Spirit" data-flag="@X" onclick="openSidebar('128_Hearth Spirit',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\169_Mushroom Vintner.png" id="169_Mushroom Vintner" data-flag="@X" onclick="openSidebar('169_Mushroom Vintner',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\24_Glider Ace.png" id="24_Glider Ace" data-flag="@X" onclick="openSidebar('24_Glider Ace',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\53_Eager Field Marshal.png" id="53_Eager Field Marshal" data-flag="@X" onclick="openSidebar('53_Eager Field Marshal',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\89_Executioner's Spores.png" id="89_Executioners Spores" data-flag="@X" onclick="openSidebar('89_Executioners Spores',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\132_Jollity Dancer.png" id="132_Jollity Dancer" data-flag="@X" onclick="openSidebar('132_Jollity Dancer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\172_Rooftop Gardener.png" id="172_Rooftop Gardener" data-flag="@X" onclick="openSidebar('172_Rooftop Gardener',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\26_Lay Siege.png" id="26_Lay Siege" data-flag="@X" onclick="openSidebar('26_Lay Siege',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\55_Eluthiel Reliquary.png" id="55_Eluthiel Reliquary" data-flag="@X" onclick="openSidebar('55_Eluthiel Reliquary',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\91_Foxes' Underground Diehard.png" id="91_Foxes Underground Diehard" data-flag="@X" onclick="openSidebar('91_Foxes Underground Diehard',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\134_Lightning Claws.png" id="134_Lightning Claws" data-flag="@X" onclick="openSidebar('134_Lightning Claws',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\173_Scholar of Forms.png" id="173_Scholar of Forms" data-flag="@X" onclick="openSidebar('173_Scholar of Forms',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\29_Mulberry Hall Clothier.png" id="29_Mulberry Hall Clothier" data-flag="@X" onclick="openSidebar('29_Mulberry Hall Clothier',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\57_Exuberant Skywright.png" id="57_Exuberant Skywright" data-flag="@X" onclick="openSidebar('57_Exuberant Skywright',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\93_Ichor Blockade.png" id="93_Ichor Blockade" data-flag="@X" onclick="openSidebar('93_Ichor Blockade',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\136_Myriad's Firebrand.png" id="136_Myriads Firebrand" data-flag="@X" onclick="openSidebar('136_Myriads Firebrand',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\175_Simpler Times.png" id="175_Simpler Times" data-flag="@X" onclick="openSidebar('175_Simpler Times',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\31_Pacifism.png" id="31_Pacifism" data-flag="@X" onclick="openSidebar('31_Pacifism',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\58_Fallowpeak Crab.png" id="58_Fallowpeak Crab" data-flag="@X" onclick="openSidebar('58_Fallowpeak Crab',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\97_Mine Lurker.png" id="97_Mine Lurker" data-flag="@X" onclick="openSidebar('97_Mine Lurker',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\137_November's Fury.png" id="137_Novembers Fury" data-flag="@X" onclick="openSidebar('137_Novembers Fury',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\178_Swell's Pilgrimage.png" id="178_Swells Pilgrimage" data-flag="@X" onclick="openSidebar('178_Swells Pilgrimage',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\32_Pave Over.png" id="32_Pave Over" data-flag="@X" onclick="openSidebar('32_Pave Over',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\60_Foxtown Forger.png" id="60_Foxtown Forger" data-flag="@X" onclick="openSidebar('60_Foxtown Forger',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\99_One Eye's Sharpshooter.png" id="99_One Eyes Sharpshooter" data-flag="@X" onclick="openSidebar('99_One Eyes Sharpshooter',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\139_Progeny Festival.png" id="139_Progeny Festival" data-flag="@X" onclick="openSidebar('139_Progeny Festival',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\179_Tairis Seer.png" id="179_Tairis Seer" data-flag="@X" onclick="openSidebar('179_Tairis Seer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\33_Pontifica's Scout.png" id="33_Pontificas Scout" data-flag="@X" onclick="openSidebar('33_Pontificas Scout',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\61_Improbable Current.png" id="61_Improbable Current" data-flag="@X" onclick="openSidebar('61_Improbable Current',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\101_Preacher of St. Frances.png" id="101_Preacher of St. Frances" data-flag="@X" onclick="openSidebar('101_Preacher of St. Frances',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\141_Righteous Tide.png" id="141_Righteous Tide" data-flag="@X" onclick="openSidebar('141_Righteous Tide',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\180_Tourist-Snapper.png" id="180_Tourist-Snapper" data-flag="@X" onclick="openSidebar('180_Tourist-Snapper',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\34_Requiter's Locomotive.png" id="34_Requiters Locomotive" data-flag="@X" onclick="openSidebar('34_Requiters Locomotive',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\64_Marlene's Deception.png" id="64_Marlenes Deception" data-flag="@X" onclick="openSidebar('64_Marlenes Deception',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\104_Rescue Mission.png" id="104_Rescue Mission" data-flag="@X" onclick="openSidebar('104_Rescue Mission',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\143_Ruby's Loyalist.png" id="143_Rubys Loyalist" data-flag="@X" onclick="openSidebar('143_Rubys Loyalist',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\181_True-Form Amalgam.png" id="181_True-Form Amalgam" data-flag="@X" onclick="openSidebar('181_True-Form Amalgam',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\36_Shock and Sexton Patrol.png" id="36_Shock and Sexton Patrol" data-flag="@X" onclick="openSidebar('36_Shock and Sexton Patrol',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\65_Miasmic Immersion.png" id="65_Miasmic Immersion" data-flag="@X" onclick="openSidebar('65_Miasmic Immersion',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\105_Rooftop Runner.png" id="105_Rooftop Runner" data-flag="@X" onclick="openSidebar('105_Rooftop Runner',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\144_Scalding Geyser.png" id="144_Scalding Geyser" data-flag="@X" onclick="openSidebar('144_Scalding Geyser',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\183_Visiting Gadabout.png" id="183_Visiting Gadabout" data-flag="@X" onclick="openSidebar('183_Visiting Gadabout',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\37_Sibling of Exploration.png" id="37_Sibling of Exploration" data-flag="@X" onclick="openSidebar('37_Sibling of Exploration',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\69_Reflect.png" id="69_Reflect" data-flag="@X" onclick="openSidebar('69_Reflect',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\106_Rotting Revolutionary.png" id="106_Rotting Revolutionary" data-flag="@X" onclick="openSidebar('106_Rotting Revolutionary',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\147_Thrill of Possibility.png" id="147_Thrill of Possibility" data-flag="@X" onclick="openSidebar('147_Thrill of Possibility',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\184_Vivian's Finisher.png" id="184_Vivians Finisher" data-flag="@X" onclick="openSidebar('184_Vivians Finisher',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\39_Standard-Issue Musket.png" id="39_Standard-Issue Musket" data-flag="@X" onclick="openSidebar('39_Standard-Issue Musket',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\77_Wry Glamermage.png" id="77_Wry Glamermage" data-flag="@X" onclick="openSidebar('77_Wry Glamermage',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\110_Weaponself Assassination.png" id="110_Weaponself Assassination" data-flag="@X" onclick="openSidebar('110_Weaponself Assassination',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\148_Vermix Hawker.png" id="148_Vermix Hawker" data-flag="@X" onclick="openSidebar('148_Vermix Hawker',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\185_Wayward Romantic.png" id="185_Wayward Romantic" data-flag="@X" onclick="openSidebar('185_Wayward Romantic',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="gold" class="anchor"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\198_Marlene, Tail for Business.png" id="198_Marlene, Tail for Business" data-flag="@X" onclick="openSidebar('198_Marlene, Tail for Business',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\194_Hippocrat Melix.png" id="194_Hippocrat Melix" data-flag="@X" onclick="openSidebar('194_Hippocrat Melix',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\199_Myriad V.png" id="199_Myriad V" data-flag="@X" onclick="openSidebar('199_Myriad V',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\204_Ruby, Rebellion's Heart.png" id="204_Ruby, Rebellions Heart" data-flag="@X" onclick="openSidebar('204_Ruby, Rebellions Heart',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\186_Aurora, Loving Healer.png" id="186_Aurora, Loving Healer" data-flag="@X" onclick="openSidebar('186_Aurora, Loving Healer',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\206_St. Ysolde.png" id="206_St. Ysolde" data-flag="@X" onclick="openSidebar('206_St. Ysolde',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\188_D'd'wid, Oathbound.png" id="188_Ddwid, Oathbound" data-flag="@X" onclick="openSidebar('188_Ddwid, Oathbound',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\189_Edgeshine of a Knife.png" id="189_Edgeshine of a Knife" data-flag="@X" onclick="openSidebar('189_Edgeshine of a Knife',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\200_November, Firestarter.png" id="200_November, Firestarter" data-flag="@X" onclick="openSidebar('200_November, Firestarter',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\210_Vivian, Hopeful Pugilist.png" id="210_Vivian, Hopeful Pugilist" data-flag="@X" onclick="openSidebar('210_Vivian, Hopeful Pugilist',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\201_Prince Wilhelm.png" id="201_Prince Wilhelm" data-flag="@X" onclick="openSidebar('201_Prince Wilhelm',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\192_Fleet, Musical Skywright.png" id="192_Fleet, Musical Skywright" data-flag="@X" onclick="openSidebar('192_Fleet, Musical Skywright',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\191_Fenley, Oasis Gardener.png" id="191_Fenley, Oasis Gardener" data-flag="@X" onclick="openSidebar('191_Fenley, Oasis Gardener',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\207_Swell, Bloomtouched Scion.png" id="207_Swell, Bloomtouched Scion" data-flag="@X" onclick="openSidebar('207_Swell, Bloomtouched Scion',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\203_Rigamaroll, Masked Crab.png" id="203_Rigamaroll, Masked Crab" data-flag="@X" onclick="openSidebar('203_Rigamaroll, Masked Crab',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\187_Captain Victoria.png" id="187_Captain Victoria" data-flag="@X" onclick="openSidebar('187_Captain Victoria',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\197_Lace, Hired Glamermage.png" id="197_Lace, Hired Glamermage" data-flag="@X" onclick="openSidebar('197_Lace, Hired Glamermage',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\202_Professor Shock.png" id="202_Professor Shock" data-flag="@X" onclick="openSidebar('202_Professor Shock',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\205_Sergeant Coxley.png" id="205_Sergeant Coxley" data-flag="@X" onclick="openSidebar('205_Sergeant Coxley',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\196_Klein, First of the Blessed.png" id="196_Klein, First of the Blessed" data-flag="@X" onclick="openSidebar('196_Klein, First of the Blessed',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\190_Endless Struggle.png" id="190_Endless Struggle" data-flag="@X" onclick="openSidebar('190_Endless Struggle',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\193_Heart of the Bloom.png" id="193_Heart of the Bloom" data-flag="@X" onclick="openSidebar('193_Heart of the Bloom',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\195_Industrial Revolution.png" id="195_Industrial Revolution" data-flag="@X" onclick="openSidebar('195_Industrial Revolution',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\208_Unbounded Feeder.png" id="208_Unbounded Feeder" data-flag="@X" onclick="openSidebar('208_Unbounded Feeder',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\209_Verity System.png" id="209_Verity System" data-flag="@X" onclick="openSidebar('209_Verity System',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\217_The Lotus of Margrave.png" id="217_The Lotus of Margrave" data-flag="@X" onclick="openSidebar('217_The Lotus of Margrave',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\219_Panharmonicon.png" id="219_Panharmonicon" data-flag="@X" onclick="openSidebar('219_Panharmonicon',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\213_FRPD Truncheon.png" id="213_FRPD Truncheon" data-flag="@X" onclick="openSidebar('213_FRPD Truncheon',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\218_Mobile Drillrig.png" id="218_Mobile Drillrig" data-flag="@X" onclick="openSidebar('218_Mobile Drillrig',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\220_Printing Press.png" id="220_Printing Press" data-flag="@X" onclick="openSidebar('220_Printing Press',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\221_St Gufilda's Memorial.png" id="221_St Gufildas Memorial" data-flag="@X" onclick="openSidebar('221_St Gufildas Memorial',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\211_Amnesiac Test Subject.png" id="211_Amnesiac Test Subject" data-flag="@X" onclick="openSidebar('211_Amnesiac Test Subject',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\212_Artisinal Armonica.png" id="212_Artisinal Armonica" data-flag="@X" onclick="openSidebar('212_Artisinal Armonica',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\214_Ichor Grenade.png" id="214_Ichor Grenade" data-flag="@X" onclick="openSidebar('214_Ichor Grenade',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\215_Ichorblade.png" id="215_Ichorblade" data-flag="@X" onclick="openSidebar('215_Ichorblade',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\216_Living Truce.png" id="216_Living Truce" data-flag="@X" onclick="openSidebar('216_Living Truce',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\1_Advance.png" id="1_Advance" data-flag="@X" onclick="openSidebar('1_Advance',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\2_Besiege.png" id="2_Besiege" data-flag="@X" onclick="openSidebar('2_Besiege',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\3_Provision.png" id="3_Provision" data-flag="@X" onclick="openSidebar('3_Provision',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\4_Retreat.png" id="4_Retreat" data-flag="@X" onclick="openSidebar('4_Retreat',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\5_Scout.png" id="5_Scout" data-flag="@X" onclick="openSidebar('5_Scout',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\225_Camp Clef.png" id="225_Camp Clef" data-flag="@X" onclick="openSidebar('225_Camp Clef',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\226_Catrest.png" id="226_Catrest" data-flag="@X" onclick="openSidebar('226_Catrest',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\229_Fenley's Garden.png" id="229_Fenleys Garden" data-flag="@X" onclick="openSidebar('229_Fenleys Garden',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\232_Gray Hand Beachhead.png" id="232_Gray Hand Beachhead" data-flag="@X" onclick="openSidebar('232_Gray Hand Beachhead',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\235_Mulberry Hall.png" id="235_Mulberry Hall" data-flag="@X" onclick="openSidebar('235_Mulberry Hall',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\243_The Summer Palace.png" id="243_The Summer Palace" data-flag="@X" onclick="openSidebar('243_The Summer Palace',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\223_Bloomwild Haze.png" id="223_Bloomwild Haze" data-flag="@X" onclick="openSidebar('223_Bloomwild Haze',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\224_Blue Palace Fountain.png" id="224_Blue Palace Fountain" data-flag="@X" onclick="openSidebar('224_Blue Palace Fountain',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\228_Fallowpeaks Prison.png" id="228_Fallowpeaks Prison" data-flag="@X" onclick="openSidebar('228_Fallowpeaks Prison',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\231_Foxtown Teahouse.png" id="231_Foxtown Teahouse" data-flag="@X" onclick="openSidebar('231_Foxtown Teahouse',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\242_Studberg Estates.png" id="242_Studberg Estates" data-flag="@X" onclick="openSidebar('242_Studberg Estates',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\254_Undertree Foundry.png" id="254_Undertree Foundry" data-flag="@X" onclick="openSidebar('254_Undertree Foundry',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\222_Autumnal Grove.png" id="222_Autumnal Grove" data-flag="@X" onclick="openSidebar('222_Autumnal Grove',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\227_Crooked Canyon.png" id="227_Crooked Canyon" data-flag="@X" onclick="openSidebar('227_Crooked Canyon',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\230_Forbidding Glacier.png" id="230_Forbidding Glacier" data-flag="@X" onclick="openSidebar('230_Forbidding Glacier',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\233_Humid Verdure.png" id="233_Humid Verdure" data-flag="@X" onclick="openSidebar('233_Humid Verdure',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\234_Miasmic Expanse.png" id="234_Miasmic Expanse" data-flag="@X" onclick="openSidebar('234_Miasmic Expanse',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\236_Nimbus Maze.png" id="236_Nimbus Maze" data-flag="@X" onclick="openSidebar('236_Nimbus Maze',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\237_Ochre Basin.png" id="237_Ochre Basin" data-flag="@X" onclick="openSidebar('237_Ochre Basin',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\238_Picturesque Outcropping.png" id="238_Picturesque Outcropping" data-flag="@X" onclick="openSidebar('238_Picturesque Outcropping',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\239_Portentous Vista.png" id="239_Portentous Vista" data-flag="@X" onclick="openSidebar('239_Portentous Vista',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\240_Salted Lakebed.png" id="240_Salted Lakebed" data-flag="@X" onclick="openSidebar('240_Salted Lakebed',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\241_Steep Snowfield.png" id="241_Steep Snowfield" data-flag="@X" onclick="openSidebar('241_Steep Snowfield',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\244_Temple of Abandon.png" id="244_Temple of Abandon" data-flag="@X" onclick="openSidebar('244_Temple of Abandon',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\245_Temple of Deceit.png" id="245_Temple of Deceit" data-flag="@X" onclick="openSidebar('245_Temple of Deceit',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\246_Temple of Enlightenment.png" id="246_Temple of Enlightenment" data-flag="@X" onclick="openSidebar('246_Temple of Enlightenment',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\247_Temple of Epiphany.png" id="247_Temple of Epiphany" data-flag="@X" onclick="openSidebar('247_Temple of Epiphany',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\248_Temple of Malady.png" id="248_Temple of Malady" data-flag="@X" onclick="openSidebar('248_Temple of Malady',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\249_Temple of Malice.png" id="249_Temple of Malice" data-flag="@X" onclick="openSidebar('249_Temple of Malice',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\250_Temple of Mystery.png" id="250_Temple of Mystery" data-flag="@X" onclick="openSidebar('250_Temple of Mystery',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\251_Temple of Plenty.png" id="251_Temple of Plenty" data-flag="@X" onclick="openSidebar('251_Temple of Plenty',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\252_Temple of Silence.png" id="252_Temple of Silence" data-flag="@X" onclick="openSidebar('252_Temple of Silence',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\253_Temple of Triumph.png" id="253_Temple of Triumph" data-flag="@X" onclick="openSidebar('253_Temple of Triumph',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\255_Plains.png" id="255_Plains" data-flag="@X" onclick="openSidebar('255_Plains',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\256_Island.png" id="256_Island" data-flag="@X" onclick="openSidebar('256_Island',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\257_Swamp.png" id="257_Swamp" data-flag="@X" onclick="openSidebar('257_Swamp',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\258_Mountain.png" id="258_Mountain" data-flag="@X" onclick="openSidebar('258_Mountain',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\259_Forest.png" id="259_Forest" data-flag="@X" onclick="openSidebar('259_Forest',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="token" class="anchor"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\1t_Copy.png" id="1t_Copy" data-flag="@X" onclick="openSidebar('1t_Copy',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\2t_In The Bloom.png" id="2t_In The Bloom" data-flag="@N" onclick="openSidebar('2t_In The Bloom',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\8t_Construct.png" id="8t_Construct" data-flag="@X" onclick="openSidebar('8t_Construct',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\9t_Treasure.png" id="9t_Treasure" data-flag="@X" onclick="openSidebar('9t_Treasure',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\10t_Forest Token.png" id="10t_Forest Token" data-flag="@X" onclick="openSidebar('10t_Forest Token',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\11t_Island Token.png" id="11t_Island Token" data-flag="@X" onclick="openSidebar('11t_Island Token',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\12t_Mountain Token.png" id="12t_Mountain Token" data-flag="@X" onclick="openSidebar('12t_Mountain Token',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\13t_Plains Token.png" id="13t_Plains Token" data-flag="@X" onclick="openSidebar('13t_Plains Token',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\14t_Swamp Token.png" id="14t_Swamp Token" data-flag="@X" onclick="openSidebar('14t_Swamp Token',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\3t_Human.png" id="3t_Human" data-flag="@X" onclick="openSidebar('3t_Human',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\4t_Illusion.png" id="4t_Illusion" data-flag="@X" onclick="openSidebar('4t_Illusion',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\5t_Cat.png" id="5t_Cat" data-flag="@X" onclick="openSidebar('5t_Cat',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\6t_Elemental.png" id="6t_Elemental" data-flag="@X" onclick="openSidebar('6t_Elemental',false)"></div>
-			<div class="container"><img alt="/sets\PRU-files\img\7t_Fungus.png" id="7t_Fungus" data-flag="@X" onclick="openSidebar('7t_Fungus',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\PRU-files\img\14_Company Exemplar.png" id="PRU_14_Company Exemplar" data-flag="@X" onclick="openSidebar('PRU_14_Company Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\42_Apothecary Exemplar.png" id="PRU_42_Apothecary Exemplar" data-flag="@X" onclick="openSidebar('PRU_42_Apothecary Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\107_State of Fear.png" id="PRU_107_State of Fear" data-flag="@X" onclick="openSidebar('PRU_107_State of Fear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\123_Eruption Exemplar.png" id="PRU_123_Eruption Exemplar" data-flag="@X" onclick="openSidebar('PRU_123_Eruption Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\176_State of Joy.png" id="PRU_176_State of Joy" data-flag="@X" onclick="openSidebar('PRU_176_State of Joy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\40_State of Peace.png" id="PRU_40_State of Peace" data-flag="@X" onclick="openSidebar('PRU_40_State of Peace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\73_State of Sadness.png" id="PRU_73_State of Sadness" data-flag="@X" onclick="openSidebar('PRU_73_State of Sadness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\111_Were Hunt Exemplar.png" id="PRU_111_Were Hunt Exemplar" data-flag="@X" onclick="openSidebar('PRU_111_Were Hunt Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\146_State of Anger.png" id="PRU_146_State of Anger" data-flag="@X" onclick="openSidebar('PRU_146_State of Anger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\182_Ultimatum Exemplar.png" id="PRU_182_Ultimatum Exemplar" data-flag="@X" onclick="openSidebar('PRU_182_Ultimatum Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\12_Caesura Technique.png" id="PRU_12_Caesura Technique" data-flag="@X" onclick="openSidebar('PRU_12_Caesura Technique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\45_Chisel, Heterodox Luthier.png" id="PRU_45_Chisel, Heterodox Luthier" data-flag="@X" onclick="openSidebar('PRU_45_Chisel, Heterodox Luthier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\81_Broken Tower Nihilist.png" id="PRU_81_Broken Tower Nihilist" data-flag="@X" onclick="openSidebar('PRU_81_Broken Tower Nihilist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\114_Annihilation Junkie.png" id="PRU_114_Annihilation Junkie" data-flag="@X" onclick="openSidebar('PRU_114_Annihilation Junkie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\152_Beast-Age Chronicler.png" id="PRU_152_Beast-Age Chronicler" data-flag="@X" onclick="openSidebar('PRU_152_Beast-Age Chronicler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\15_Crack Pilot.png" id="PRU_15_Crack Pilot" data-flag="@X" onclick="openSidebar('PRU_15_Crack Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\49_The Crown of Glass.png" id="PRU_49_The Crown of Glass" data-flag="@X" onclick="openSidebar('PRU_49_The Crown of Glass',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\83_Chessmaster.png" id="PRU_83_Chessmaster" data-flag="@X" onclick="openSidebar('PRU_83_Chessmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\122_Ephemeral Deluge.png" id="PRU_122_Ephemeral Deluge" data-flag="@X" onclick="openSidebar('PRU_122_Ephemeral Deluge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\154_Crab Caucus Patissier.png" id="PRU_154_Crab Caucus Patissier" data-flag="@X" onclick="openSidebar('PRU_154_Crab Caucus Patissier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\17_Decorated Tactician.png" id="PRU_17_Decorated Tactician" data-flag="@X" onclick="openSidebar('PRU_17_Decorated Tactician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\56_Erode Fate.png" id="PRU_56_Erode Fate" data-flag="@X" onclick="openSidebar('PRU_56_Erode Fate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\85_Clivinius the Scourge.png" id="PRU_85_Clivinius the Scourge" data-flag="@X" onclick="openSidebar('PRU_85_Clivinius the Scourge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\126_Flame-Touched Faerie.png" id="PRU_126_Flame-Touched Faerie" data-flag="@X" onclick="openSidebar('PRU_126_Flame-Touched Faerie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\156_Demerara, Silken Host.png" id="PRU_156_Demerara, Silken Host" data-flag="@X" onclick="openSidebar('PRU_156_Demerara, Silken Host',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\19_Emaciate.png" id="PRU_19_Emaciate" data-flag="@X" onclick="openSidebar('PRU_19_Emaciate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\63_Lenora's Glamer.png" id="PRU_63_Lenoras Glamer" data-flag="@X" onclick="openSidebar('PRU_63_Lenoras Glamer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\102_Pro Bono Oathmage.png" id="PRU_102_Pro Bono Oathmage" data-flag="@X" onclick="openSidebar('PRU_102_Pro Bono Oathmage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\131_Infection Vessel.png" id="PRU_131_Infection Vessel" data-flag="@X" onclick="openSidebar('PRU_131_Infection Vessel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\157_Emerald Dam Invocation.png" id="PRU_157_Emerald Dam Invocation" data-flag="@X" onclick="openSidebar('PRU_157_Emerald Dam Invocation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\27_Maviella Margave.png" id="PRU_27_Maviella Margave" data-flag="@X" onclick="openSidebar('PRU_27_Maviella Margave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\66_Nurse-Current Augur.png" id="PRU_66_Nurse-Current Augur" data-flag="@X" onclick="openSidebar('PRU_66_Nurse-Current Augur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\108_Underworld Seer.png" id="PRU_108_Underworld Seer" data-flag="@X" onclick="openSidebar('PRU_108_Underworld Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\135_Mobius, Progeny Mender.png" id="PRU_135_Mobius, Progeny Mender" data-flag="@X" onclick="openSidebar('PRU_135_Mobius, Progeny Mender',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\166_Margrave's Desolation.png" id="PRU_166_Margraves Desolation" data-flag="@X" onclick="openSidebar('PRU_166_Margraves Desolation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\35_The Sceptre.png" id="PRU_35_The Sceptre" data-flag="@X" onclick="openSidebar('PRU_35_The Sceptre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\68_Production Line.png" id="PRU_68_Production Line" data-flag="@X" onclick="openSidebar('PRU_68_Production Line',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\109_Victory Drive.png" id="PRU_109_Victory Drive" data-flag="@X" onclick="openSidebar('PRU_109_Victory Drive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\138_Phantasia IV.png" id="PRU_138_Phantasia IV" data-flag="@X" onclick="openSidebar('PRU_138_Phantasia IV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\170_People in Arms.png" id="PRU_170_People in Arms" data-flag="@X" onclick="openSidebar('PRU_170_People in Arms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\38_Song of the Void.png" id="PRU_38_Song of the Void" data-flag="@X" onclick="openSidebar('PRU_38_Song of the Void',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\70_Resurface.png" id="PRU_70_Resurface" data-flag="@X" onclick="openSidebar('PRU_70_Resurface',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\112_Ysolde's Gauntlet.png" id="PRU_112_Ysoldes Gauntlet" data-flag="@X" onclick="openSidebar('PRU_112_Ysoldes Gauntlet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\140_Revolutionary Spirit.png" id="PRU_140_Revolutionary Spirit" data-flag="@X" onclick="openSidebar('PRU_140_Revolutionary Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\174_Seed of the Mega Tree.png" id="PRU_174_Seed of the Mega Tree" data-flag="@X" onclick="openSidebar('PRU_174_Seed of the Mega Tree',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\8_Assail.png" id="PRU_8_Assail" data-flag="@X" onclick="openSidebar('PRU_8_Assail',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\43_Blue Palace Interlocutor.png" id="PRU_43_Blue Palace Interlocutor" data-flag="@X" onclick="openSidebar('PRU_43_Blue Palace Interlocutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\80_Apothecary Physician.png" id="PRU_80_Apothecary Physician" data-flag="@X" onclick="openSidebar('PRU_80_Apothecary Physician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\115_Annihilation Performance.png" id="PRU_115_Annihilation Performance" data-flag="@X" onclick="openSidebar('PRU_115_Annihilation Performance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\150_Ask The Earth.png" id="PRU_150_Ask The Earth" data-flag="@X" onclick="openSidebar('PRU_150_Ask The Earth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\9_Augmented Aerialist.png" id="PRU_9_Augmented Aerialist" data-flag="@X" onclick="openSidebar('PRU_9_Augmented Aerialist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\46_Condescend.png" id="PRU_46_Condescend" data-flag="@X" onclick="openSidebar('PRU_46_Condescend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\86_D'd'wid's Contract.png" id="PRU_86_Ddwids Contract" data-flag="@X" onclick="openSidebar('PRU_86_Ddwids Contract',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\117_Camp Clef Innovator.png" id="PRU_117_Camp Clef Innovator" data-flag="@X" onclick="openSidebar('PRU_117_Camp Clef Innovator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\151_Barkspace Conspiracy.png" id="PRU_151_Barkspace Conspiracy" data-flag="@X" onclick="openSidebar('PRU_151_Barkspace Conspiracy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\11_Bloomstained Recruiter.png" id="PRU_11_Bloomstained Recruiter" data-flag="@X" onclick="openSidebar('PRU_11_Bloomstained Recruiter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\51_Distillery Field Tester.png" id="PRU_51_Distillery Field Tester" data-flag="@X" onclick="openSidebar('PRU_51_Distillery Field Tester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\88_Eruption Blightmonger.png" id="PRU_88_Eruption Blightmonger" data-flag="@X" onclick="openSidebar('PRU_88_Eruption Blightmonger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\120_Crucible Breaker.png" id="PRU_120_Crucible Breaker" data-flag="@X" onclick="openSidebar('PRU_120_Crucible Breaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\153_Bloomtouched Toymaker.png" id="PRU_153_Bloomtouched Toymaker" data-flag="@X" onclick="openSidebar('PRU_153_Bloomtouched Toymaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\13_Committed Company.png" id="PRU_13_Committed Company" data-flag="@X" onclick="openSidebar('PRU_13_Committed Company',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\54_Eccentric Balloonist.png" id="PRU_54_Eccentric Balloonist" data-flag="@X" onclick="openSidebar('PRU_54_Eccentric Balloonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\90_Failed Sibling.png" id="PRU_90_Failed Sibling" data-flag="@X" onclick="openSidebar('PRU_90_Failed Sibling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\124_Eruption Strike Leader.png" id="PRU_124_Eruption Strike Leader" data-flag="@X" onclick="openSidebar('PRU_124_Eruption Strike Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\158_Fallow Lands Nomad.png" id="PRU_158_Fallow Lands Nomad" data-flag="@X" onclick="openSidebar('PRU_158_Fallow Lands Nomad',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\16_Daring Acrobat.png" id="PRU_16_Daring Acrobat" data-flag="@X" onclick="openSidebar('PRU_16_Daring Acrobat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\59_Fenley's Flagship.png" id="PRU_59_Fenleys Flagship" data-flag="@X" onclick="openSidebar('PRU_59_Fenleys Flagship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\92_Hungry Bloomchild.png" id="PRU_92_Hungry Bloomchild" data-flag="@X" onclick="openSidebar('PRU_92_Hungry Bloomchild',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\125_Firebomb.png" id="PRU_125_Firebomb" data-flag="@X" onclick="openSidebar('PRU_125_Firebomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\159_Flood of Moss.png" id="PRU_159_Flood of Moss" data-flag="@X" onclick="openSidebar('PRU_159_Flood of Moss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\18_Eleonora's Procession.png" id="PRU_18_Eleonoras Procession" data-flag="@X" onclick="openSidebar('PRU_18_Eleonoras Procession',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\62_Jollity Impressionist.png" id="PRU_62_Jollity Impressionist" data-flag="@X" onclick="openSidebar('PRU_62_Jollity Impressionist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\94_Ichor Extraction.png" id="PRU_94_Ichor Extraction" data-flag="@X" onclick="openSidebar('PRU_94_Ichor Extraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\127_Gleeful Arsonist.png" id="PRU_127_Gleeful Arsonist" data-flag="@X" onclick="openSidebar('PRU_127_Gleeful Arsonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\162_Fungimancer.png" id="PRU_162_Fungimancer" data-flag="@X" onclick="openSidebar('PRU_162_Fungimancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\21_Fallowpeaks Banishment.png" id="PRU_21_Fallowpeaks Banishment" data-flag="@X" onclick="openSidebar('PRU_21_Fallowpeaks Banishment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\67_Panicked Evacuation.png" id="PRU_67_Panicked Evacuation" data-flag="@X" onclick="openSidebar('PRU_67_Panicked Evacuation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\95_Masked Agent.png" id="PRU_95_Masked Agent" data-flag="@X" onclick="openSidebar('PRU_95_Masked Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\129_Ichor Exposure.png" id="PRU_129_Ichor Exposure" data-flag="@X" onclick="openSidebar('PRU_129_Ichor Exposure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\163_Invasive Plowbeetle.png" id="PRU_163_Invasive Plowbeetle" data-flag="@X" onclick="openSidebar('PRU_163_Invasive Plowbeetle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\22_Fleet's Symphony.png" id="PRU_22_Fleets Symphony" data-flag="@X" onclick="openSidebar('PRU_22_Fleets Symphony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\71_Rigamaroll's Form.png" id="PRU_71_Rigamarolls Form" data-flag="@X" onclick="openSidebar('PRU_71_Rigamarolls Form',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\96_Massacre Vulture.png" id="PRU_96_Massacre Vulture" data-flag="@X" onclick="openSidebar('PRU_96_Massacre Vulture',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\130_Immolate.png" id="PRU_130_Immolate" data-flag="@X" onclick="openSidebar('PRU_130_Immolate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\164_Kudzu Elemental.png" id="PRU_164_Kudzu Elemental" data-flag="@X" onclick="openSidebar('PRU_164_Kudzu Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\25_Ichorbronze Assistant.png" id="PRU_25_Ichorbronze Assistant" data-flag="@X" onclick="openSidebar('PRU_25_Ichorbronze Assistant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\72_Squawking Omen.png" id="PRU_72_Squawking Omen" data-flag="@X" onclick="openSidebar('PRU_72_Squawking Omen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\98_Oathbound Labourers.png" id="PRU_98_Oathbound Labourers" data-flag="@X" onclick="openSidebar('PRU_98_Oathbound Labourers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\133_Lacrymose Blessed.png" id="PRU_133_Lacrymose Blessed" data-flag="@X" onclick="openSidebar('PRU_133_Lacrymose Blessed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\167_Mask Maker.png" id="PRU_167_Mask Maker" data-flag="@X" onclick="openSidebar('PRU_167_Mask Maker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\28_Mirrorsand Duelist.png" id="PRU_28_Mirrorsand Duelist" data-flag="@X" onclick="openSidebar('PRU_28_Mirrorsand Duelist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\74_Time to Consider.png" id="PRU_74_Time to Consider" data-flag="@X" onclick="openSidebar('PRU_74_Time to Consider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\100_Orchestrated Riot.png" id="PRU_100_Orchestrated Riot" data-flag="@X" onclick="openSidebar('PRU_100_Orchestrated Riot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\142_Rioter's Mask.png" id="PRU_142_Rioters Mask" data-flag="@X" onclick="openSidebar('PRU_142_Rioters Mask',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\168_Miasmic Reclamation.png" id="PRU_168_Miasmic Reclamation" data-flag="@X" onclick="openSidebar('PRU_168_Miasmic Reclamation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\30_Orphans' Resilience.png" id="PRU_30_Orphans Resilience" data-flag="@X" onclick="openSidebar('PRU_30_Orphans Resilience',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\75_Upwelling Elemental.png" id="PRU_75_Upwelling Elemental" data-flag="@X" onclick="openSidebar('PRU_75_Upwelling Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\103_Rearguard Action.png" id="PRU_103_Rearguard Action" data-flag="@X" onclick="openSidebar('PRU_103_Rearguard Action',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\145_Spread the Infection.png" id="PRU_145_Spread the Infection" data-flag="@X" onclick="openSidebar('PRU_145_Spread the Infection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\171_Picket Line Paladin.png" id="PRU_171_Picket Line Paladin" data-flag="@X" onclick="openSidebar('PRU_171_Picket Line Paladin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\41_Supply Lines.png" id="PRU_41_Supply Lines" data-flag="@X" onclick="openSidebar('PRU_41_Supply Lines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\76_Weapons Program.png" id="PRU_76_Weapons Program" data-flag="@X" onclick="openSidebar('PRU_76_Weapons Program',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\113_Zugzwang.png" id="PRU_113_Zugzwang" data-flag="@X" onclick="openSidebar('PRU_113_Zugzwang',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\149_Were Hunt Enforcer.png" id="PRU_149_Were Hunt Enforcer" data-flag="@X" onclick="openSidebar('PRU_149_Were Hunt Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\177_Studberg Regulars.png" id="PRU_177_Studberg Regulars" data-flag="@X" onclick="openSidebar('PRU_177_Studberg Regulars',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\6_Air Support.png" id="PRU_6_Air Support" data-flag="@X" onclick="openSidebar('PRU_6_Air Support',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\44_Call the Tempest.png" id="PRU_44_Call the Tempest" data-flag="@X" onclick="openSidebar('PRU_44_Call the Tempest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\78_Alynerada's Spawn.png" id="PRU_78_Alyneradas Spawn" data-flag="@X" onclick="openSidebar('PRU_78_Alyneradas Spawn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\116_Avant Guardsman.png" id="PRU_116_Avant Guardsman" data-flag="@X" onclick="openSidebar('PRU_116_Avant Guardsman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\155_Cut Loose.png" id="PRU_155_Cut Loose" data-flag="@X" onclick="openSidebar('PRU_155_Cut Loose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\7_Airdrop Medic.png" id="PRU_7_Airdrop Medic" data-flag="@X" onclick="openSidebar('PRU_7_Airdrop Medic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\47_Contentious Supporter.png" id="PRU_47_Contentious Supporter" data-flag="@X" onclick="openSidebar('PRU_47_Contentious Supporter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\79_Apothecary Flunkie.png" id="PRU_79_Apothecary Flunkie" data-flag="@X" onclick="openSidebar('PRU_79_Apothecary Flunkie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\118_Catrest Elder.png" id="PRU_118_Catrest Elder" data-flag="@X" onclick="openSidebar('PRU_118_Catrest Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\160_Flowing Strike.png" id="PRU_160_Flowing Strike" data-flag="@X" onclick="openSidebar('PRU_160_Flowing Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\10_Bloom Company Defector.png" id="PRU_10_Bloom Company Defector" data-flag="@X" onclick="openSidebar('PRU_10_Bloom Company Defector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\48_Counter-Intelligence.png" id="PRU_48_Counter-Intelligence" data-flag="@X" onclick="openSidebar('PRU_48_Counter-Intelligence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\82_Cantankerous General.png" id="PRU_82_Cantankerous General" data-flag="@X" onclick="openSidebar('PRU_82_Cantankerous General',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\119_Collier Saboteur.png" id="PRU_119_Collier Saboteur" data-flag="@X" onclick="openSidebar('PRU_119_Collier Saboteur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\161_Foxes' Underground Heel.png" id="PRU_161_Foxes Underground Heel" data-flag="@X" onclick="openSidebar('PRU_161_Foxes Underground Heel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\20_Exclusive Entourage.png" id="PRU_20_Exclusive Entourage" data-flag="@X" onclick="openSidebar('PRU_20_Exclusive Entourage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\50_Distillery Engineers.png" id="PRU_50_Distillery Engineers" data-flag="@X" onclick="openSidebar('PRU_50_Distillery Engineers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\84_Clivinius' Takedown.png" id="PRU_84_Clivinius Takedown" data-flag="@X" onclick="openSidebar('PRU_84_Clivinius Takedown',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\121_Edgeshine's Daring.png" id="PRU_121_Edgeshines Daring" data-flag="@X" onclick="openSidebar('PRU_121_Edgeshines Daring',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\165_Margrave Honour Guard.png" id="PRU_165_Margrave Honour Guard" data-flag="@X" onclick="openSidebar('PRU_165_Margrave Honour Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\23_Gifted Unicorn.png" id="PRU_23_Gifted Unicorn" data-flag="@X" onclick="openSidebar('PRU_23_Gifted Unicorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\52_Drownedmen Sailor.png" id="PRU_52_Drownedmen Sailor" data-flag="@X" onclick="openSidebar('PRU_52_Drownedmen Sailor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\87_Desperate Stand.png" id="PRU_87_Desperate Stand" data-flag="@X" onclick="openSidebar('PRU_87_Desperate Stand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\128_Hearth Spirit.png" id="PRU_128_Hearth Spirit" data-flag="@X" onclick="openSidebar('PRU_128_Hearth Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\169_Mushroom Vintner.png" id="PRU_169_Mushroom Vintner" data-flag="@X" onclick="openSidebar('PRU_169_Mushroom Vintner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\24_Glider Ace.png" id="PRU_24_Glider Ace" data-flag="@X" onclick="openSidebar('PRU_24_Glider Ace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\53_Eager Field Marshal.png" id="PRU_53_Eager Field Marshal" data-flag="@X" onclick="openSidebar('PRU_53_Eager Field Marshal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\89_Executioner's Spores.png" id="PRU_89_Executioners Spores" data-flag="@X" onclick="openSidebar('PRU_89_Executioners Spores',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\132_Jollity Dancer.png" id="PRU_132_Jollity Dancer" data-flag="@X" onclick="openSidebar('PRU_132_Jollity Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\172_Rooftop Gardener.png" id="PRU_172_Rooftop Gardener" data-flag="@X" onclick="openSidebar('PRU_172_Rooftop Gardener',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\26_Lay Siege.png" id="PRU_26_Lay Siege" data-flag="@X" onclick="openSidebar('PRU_26_Lay Siege',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\55_Eluthiel Reliquary.png" id="PRU_55_Eluthiel Reliquary" data-flag="@X" onclick="openSidebar('PRU_55_Eluthiel Reliquary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\91_Foxes' Underground Diehard.png" id="PRU_91_Foxes Underground Diehard" data-flag="@X" onclick="openSidebar('PRU_91_Foxes Underground Diehard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\134_Lightning Claws.png" id="PRU_134_Lightning Claws" data-flag="@X" onclick="openSidebar('PRU_134_Lightning Claws',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\173_Scholar of Forms.png" id="PRU_173_Scholar of Forms" data-flag="@X" onclick="openSidebar('PRU_173_Scholar of Forms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\29_Mulberry Hall Clothier.png" id="PRU_29_Mulberry Hall Clothier" data-flag="@X" onclick="openSidebar('PRU_29_Mulberry Hall Clothier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\57_Exuberant Skywright.png" id="PRU_57_Exuberant Skywright" data-flag="@X" onclick="openSidebar('PRU_57_Exuberant Skywright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\93_Ichor Blockade.png" id="PRU_93_Ichor Blockade" data-flag="@X" onclick="openSidebar('PRU_93_Ichor Blockade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\136_Myriad's Firebrand.png" id="PRU_136_Myriads Firebrand" data-flag="@X" onclick="openSidebar('PRU_136_Myriads Firebrand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\175_Simpler Times.png" id="PRU_175_Simpler Times" data-flag="@X" onclick="openSidebar('PRU_175_Simpler Times',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\31_Pacifism.png" id="PRU_31_Pacifism" data-flag="@X" onclick="openSidebar('PRU_31_Pacifism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\58_Fallowpeak Crab.png" id="PRU_58_Fallowpeak Crab" data-flag="@X" onclick="openSidebar('PRU_58_Fallowpeak Crab',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\97_Mine Lurker.png" id="PRU_97_Mine Lurker" data-flag="@X" onclick="openSidebar('PRU_97_Mine Lurker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\137_November's Fury.png" id="PRU_137_Novembers Fury" data-flag="@X" onclick="openSidebar('PRU_137_Novembers Fury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\178_Swell's Pilgrimage.png" id="PRU_178_Swells Pilgrimage" data-flag="@X" onclick="openSidebar('PRU_178_Swells Pilgrimage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\32_Pave Over.png" id="PRU_32_Pave Over" data-flag="@X" onclick="openSidebar('PRU_32_Pave Over',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\60_Foxtown Forger.png" id="PRU_60_Foxtown Forger" data-flag="@X" onclick="openSidebar('PRU_60_Foxtown Forger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\99_One Eye's Sharpshooter.png" id="PRU_99_One Eyes Sharpshooter" data-flag="@X" onclick="openSidebar('PRU_99_One Eyes Sharpshooter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\139_Progeny Festival.png" id="PRU_139_Progeny Festival" data-flag="@X" onclick="openSidebar('PRU_139_Progeny Festival',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\179_Tairis Seer.png" id="PRU_179_Tairis Seer" data-flag="@X" onclick="openSidebar('PRU_179_Tairis Seer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\33_Pontifica's Scout.png" id="PRU_33_Pontificas Scout" data-flag="@X" onclick="openSidebar('PRU_33_Pontificas Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\61_Improbable Current.png" id="PRU_61_Improbable Current" data-flag="@X" onclick="openSidebar('PRU_61_Improbable Current',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\101_Preacher of St. Frances.png" id="PRU_101_Preacher of St. Frances" data-flag="@X" onclick="openSidebar('PRU_101_Preacher of St. Frances',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\141_Righteous Tide.png" id="PRU_141_Righteous Tide" data-flag="@X" onclick="openSidebar('PRU_141_Righteous Tide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\180_Tourist-Snapper.png" id="PRU_180_Tourist-Snapper" data-flag="@X" onclick="openSidebar('PRU_180_Tourist-Snapper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\34_Requiter's Locomotive.png" id="PRU_34_Requiters Locomotive" data-flag="@X" onclick="openSidebar('PRU_34_Requiters Locomotive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\64_Marlene's Deception.png" id="PRU_64_Marlenes Deception" data-flag="@X" onclick="openSidebar('PRU_64_Marlenes Deception',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\104_Rescue Mission.png" id="PRU_104_Rescue Mission" data-flag="@X" onclick="openSidebar('PRU_104_Rescue Mission',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\143_Ruby's Loyalist.png" id="PRU_143_Rubys Loyalist" data-flag="@X" onclick="openSidebar('PRU_143_Rubys Loyalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\181_True-Form Amalgam.png" id="PRU_181_True-Form Amalgam" data-flag="@X" onclick="openSidebar('PRU_181_True-Form Amalgam',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\36_Shock and Sexton Patrol.png" id="PRU_36_Shock and Sexton Patrol" data-flag="@X" onclick="openSidebar('PRU_36_Shock and Sexton Patrol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\65_Miasmic Immersion.png" id="PRU_65_Miasmic Immersion" data-flag="@X" onclick="openSidebar('PRU_65_Miasmic Immersion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\105_Rooftop Runner.png" id="PRU_105_Rooftop Runner" data-flag="@X" onclick="openSidebar('PRU_105_Rooftop Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\144_Scalding Geyser.png" id="PRU_144_Scalding Geyser" data-flag="@X" onclick="openSidebar('PRU_144_Scalding Geyser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\183_Visiting Gadabout.png" id="PRU_183_Visiting Gadabout" data-flag="@X" onclick="openSidebar('PRU_183_Visiting Gadabout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\37_Sibling of Exploration.png" id="PRU_37_Sibling of Exploration" data-flag="@X" onclick="openSidebar('PRU_37_Sibling of Exploration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\69_Reflect.png" id="PRU_69_Reflect" data-flag="@X" onclick="openSidebar('PRU_69_Reflect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\106_Rotting Revolutionary.png" id="PRU_106_Rotting Revolutionary" data-flag="@X" onclick="openSidebar('PRU_106_Rotting Revolutionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\147_Thrill of Possibility.png" id="PRU_147_Thrill of Possibility" data-flag="@X" onclick="openSidebar('PRU_147_Thrill of Possibility',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\184_Vivian's Finisher.png" id="PRU_184_Vivians Finisher" data-flag="@X" onclick="openSidebar('PRU_184_Vivians Finisher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\39_Standard-Issue Musket.png" id="PRU_39_Standard-Issue Musket" data-flag="@X" onclick="openSidebar('PRU_39_Standard-Issue Musket',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\77_Wry Glamermage.png" id="PRU_77_Wry Glamermage" data-flag="@X" onclick="openSidebar('PRU_77_Wry Glamermage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\110_Weaponself Assassination.png" id="PRU_110_Weaponself Assassination" data-flag="@X" onclick="openSidebar('PRU_110_Weaponself Assassination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\148_Vermix Hawker.png" id="PRU_148_Vermix Hawker" data-flag="@X" onclick="openSidebar('PRU_148_Vermix Hawker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\185_Wayward Romantic.png" id="PRU_185_Wayward Romantic" data-flag="@X" onclick="openSidebar('PRU_185_Wayward Romantic',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\198_Marlene, Tail for Business.png" id="PRU_198_Marlene, Tail for Business" data-flag="@X" onclick="openSidebar('PRU_198_Marlene, Tail for Business',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\194_Hippocrat Melix.png" id="PRU_194_Hippocrat Melix" data-flag="@X" onclick="openSidebar('PRU_194_Hippocrat Melix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\199_Myriad V.png" id="PRU_199_Myriad V" data-flag="@X" onclick="openSidebar('PRU_199_Myriad V',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\204_Ruby, Rebellion's Heart.png" id="PRU_204_Ruby, Rebellions Heart" data-flag="@X" onclick="openSidebar('PRU_204_Ruby, Rebellions Heart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\186_Aurora, Loving Healer.png" id="PRU_186_Aurora, Loving Healer" data-flag="@X" onclick="openSidebar('PRU_186_Aurora, Loving Healer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\206_St. Ysolde.png" id="PRU_206_St. Ysolde" data-flag="@X" onclick="openSidebar('PRU_206_St. Ysolde',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\188_D'd'wid, Oathbound.png" id="PRU_188_Ddwid, Oathbound" data-flag="@X" onclick="openSidebar('PRU_188_Ddwid, Oathbound',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\189_Edgeshine of a Knife.png" id="PRU_189_Edgeshine of a Knife" data-flag="@X" onclick="openSidebar('PRU_189_Edgeshine of a Knife',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\200_November, Firestarter.png" id="PRU_200_November, Firestarter" data-flag="@X" onclick="openSidebar('PRU_200_November, Firestarter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\210_Vivian, Hopeful Pugilist.png" id="PRU_210_Vivian, Hopeful Pugilist" data-flag="@X" onclick="openSidebar('PRU_210_Vivian, Hopeful Pugilist',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\201_Prince Wilhelm.png" id="PRU_201_Prince Wilhelm" data-flag="@X" onclick="openSidebar('PRU_201_Prince Wilhelm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\192_Fleet, Musical Skywright.png" id="PRU_192_Fleet, Musical Skywright" data-flag="@X" onclick="openSidebar('PRU_192_Fleet, Musical Skywright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\191_Fenley, Oasis Gardener.png" id="PRU_191_Fenley, Oasis Gardener" data-flag="@X" onclick="openSidebar('PRU_191_Fenley, Oasis Gardener',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\207_Swell, Bloomtouched Scion.png" id="PRU_207_Swell, Bloomtouched Scion" data-flag="@X" onclick="openSidebar('PRU_207_Swell, Bloomtouched Scion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\203_Rigamaroll, Masked Crab.png" id="PRU_203_Rigamaroll, Masked Crab" data-flag="@X" onclick="openSidebar('PRU_203_Rigamaroll, Masked Crab',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\187_Captain Victoria.png" id="PRU_187_Captain Victoria" data-flag="@X" onclick="openSidebar('PRU_187_Captain Victoria',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\197_Lace, Hired Glamermage.png" id="PRU_197_Lace, Hired Glamermage" data-flag="@X" onclick="openSidebar('PRU_197_Lace, Hired Glamermage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\202_Professor Shock.png" id="PRU_202_Professor Shock" data-flag="@X" onclick="openSidebar('PRU_202_Professor Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\205_Sergeant Coxley.png" id="PRU_205_Sergeant Coxley" data-flag="@X" onclick="openSidebar('PRU_205_Sergeant Coxley',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\196_Klein, First of the Blessed.png" id="PRU_196_Klein, First of the Blessed" data-flag="@X" onclick="openSidebar('PRU_196_Klein, First of the Blessed',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\190_Endless Struggle.png" id="PRU_190_Endless Struggle" data-flag="@X" onclick="openSidebar('PRU_190_Endless Struggle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\193_Heart of the Bloom.png" id="PRU_193_Heart of the Bloom" data-flag="@X" onclick="openSidebar('PRU_193_Heart of the Bloom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\195_Industrial Revolution.png" id="PRU_195_Industrial Revolution" data-flag="@X" onclick="openSidebar('PRU_195_Industrial Revolution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\208_Unbounded Feeder.png" id="PRU_208_Unbounded Feeder" data-flag="@X" onclick="openSidebar('PRU_208_Unbounded Feeder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\209_Verity System.png" id="PRU_209_Verity System" data-flag="@X" onclick="openSidebar('PRU_209_Verity System',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\217_The Lotus of Margrave.png" id="PRU_217_The Lotus of Margrave" data-flag="@X" onclick="openSidebar('PRU_217_The Lotus of Margrave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\219_Panharmonicon.png" id="PRU_219_Panharmonicon" data-flag="@X" onclick="openSidebar('PRU_219_Panharmonicon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\213_FRPD Truncheon.png" id="PRU_213_FRPD Truncheon" data-flag="@X" onclick="openSidebar('PRU_213_FRPD Truncheon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\218_Mobile Drillrig.png" id="PRU_218_Mobile Drillrig" data-flag="@X" onclick="openSidebar('PRU_218_Mobile Drillrig',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\220_Printing Press.png" id="PRU_220_Printing Press" data-flag="@X" onclick="openSidebar('PRU_220_Printing Press',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\221_St Gufilda's Memorial.png" id="PRU_221_St Gufildas Memorial" data-flag="@X" onclick="openSidebar('PRU_221_St Gufildas Memorial',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\211_Amnesiac Test Subject.png" id="PRU_211_Amnesiac Test Subject" data-flag="@X" onclick="openSidebar('PRU_211_Amnesiac Test Subject',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\212_Artisinal Armonica.png" id="PRU_212_Artisinal Armonica" data-flag="@X" onclick="openSidebar('PRU_212_Artisinal Armonica',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\214_Ichor Grenade.png" id="PRU_214_Ichor Grenade" data-flag="@X" onclick="openSidebar('PRU_214_Ichor Grenade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\215_Ichorblade.png" id="PRU_215_Ichorblade" data-flag="@X" onclick="openSidebar('PRU_215_Ichorblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\216_Living Truce.png" id="PRU_216_Living Truce" data-flag="@X" onclick="openSidebar('PRU_216_Living Truce',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\1_Advance.png" id="PRU_1_Advance" data-flag="@X" onclick="openSidebar('PRU_1_Advance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\2_Besiege.png" id="PRU_2_Besiege" data-flag="@X" onclick="openSidebar('PRU_2_Besiege',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\3_Provision.png" id="PRU_3_Provision" data-flag="@X" onclick="openSidebar('PRU_3_Provision',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\4_Retreat.png" id="PRU_4_Retreat" data-flag="@X" onclick="openSidebar('PRU_4_Retreat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\5_Scout.png" id="PRU_5_Scout" data-flag="@X" onclick="openSidebar('PRU_5_Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\225_Camp Clef.png" id="PRU_225_Camp Clef" data-flag="@X" onclick="openSidebar('PRU_225_Camp Clef',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\226_Catrest.png" id="PRU_226_Catrest" data-flag="@X" onclick="openSidebar('PRU_226_Catrest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\229_Fenley's Garden.png" id="PRU_229_Fenleys Garden" data-flag="@X" onclick="openSidebar('PRU_229_Fenleys Garden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\232_Gray Hand Beachhead.png" id="PRU_232_Gray Hand Beachhead" data-flag="@X" onclick="openSidebar('PRU_232_Gray Hand Beachhead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\235_Mulberry Hall.png" id="PRU_235_Mulberry Hall" data-flag="@X" onclick="openSidebar('PRU_235_Mulberry Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\243_The Summer Palace.png" id="PRU_243_The Summer Palace" data-flag="@X" onclick="openSidebar('PRU_243_The Summer Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\223_Bloomwild Haze.png" id="PRU_223_Bloomwild Haze" data-flag="@X" onclick="openSidebar('PRU_223_Bloomwild Haze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\224_Blue Palace Fountain.png" id="PRU_224_Blue Palace Fountain" data-flag="@X" onclick="openSidebar('PRU_224_Blue Palace Fountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\228_Fallowpeaks Prison.png" id="PRU_228_Fallowpeaks Prison" data-flag="@X" onclick="openSidebar('PRU_228_Fallowpeaks Prison',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\231_Foxtown Teahouse.png" id="PRU_231_Foxtown Teahouse" data-flag="@X" onclick="openSidebar('PRU_231_Foxtown Teahouse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\242_Studberg Estates.png" id="PRU_242_Studberg Estates" data-flag="@X" onclick="openSidebar('PRU_242_Studberg Estates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\254_Undertree Foundry.png" id="PRU_254_Undertree Foundry" data-flag="@X" onclick="openSidebar('PRU_254_Undertree Foundry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\222_Autumnal Grove.png" id="PRU_222_Autumnal Grove" data-flag="@X" onclick="openSidebar('PRU_222_Autumnal Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\227_Crooked Canyon.png" id="PRU_227_Crooked Canyon" data-flag="@X" onclick="openSidebar('PRU_227_Crooked Canyon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\230_Forbidding Glacier.png" id="PRU_230_Forbidding Glacier" data-flag="@X" onclick="openSidebar('PRU_230_Forbidding Glacier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\233_Humid Verdure.png" id="PRU_233_Humid Verdure" data-flag="@X" onclick="openSidebar('PRU_233_Humid Verdure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\234_Miasmic Expanse.png" id="PRU_234_Miasmic Expanse" data-flag="@X" onclick="openSidebar('PRU_234_Miasmic Expanse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\236_Nimbus Maze.png" id="PRU_236_Nimbus Maze" data-flag="@X" onclick="openSidebar('PRU_236_Nimbus Maze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\237_Ochre Basin.png" id="PRU_237_Ochre Basin" data-flag="@X" onclick="openSidebar('PRU_237_Ochre Basin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\238_Picturesque Outcropping.png" id="PRU_238_Picturesque Outcropping" data-flag="@X" onclick="openSidebar('PRU_238_Picturesque Outcropping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\239_Portentous Vista.png" id="PRU_239_Portentous Vista" data-flag="@X" onclick="openSidebar('PRU_239_Portentous Vista',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\240_Salted Lakebed.png" id="PRU_240_Salted Lakebed" data-flag="@X" onclick="openSidebar('PRU_240_Salted Lakebed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\241_Steep Snowfield.png" id="PRU_241_Steep Snowfield" data-flag="@X" onclick="openSidebar('PRU_241_Steep Snowfield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\244_Temple of Abandon.png" id="PRU_244_Temple of Abandon" data-flag="@X" onclick="openSidebar('PRU_244_Temple of Abandon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\245_Temple of Deceit.png" id="PRU_245_Temple of Deceit" data-flag="@X" onclick="openSidebar('PRU_245_Temple of Deceit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\246_Temple of Enlightenment.png" id="PRU_246_Temple of Enlightenment" data-flag="@X" onclick="openSidebar('PRU_246_Temple of Enlightenment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\247_Temple of Epiphany.png" id="PRU_247_Temple of Epiphany" data-flag="@X" onclick="openSidebar('PRU_247_Temple of Epiphany',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\248_Temple of Malady.png" id="PRU_248_Temple of Malady" data-flag="@X" onclick="openSidebar('PRU_248_Temple of Malady',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\249_Temple of Malice.png" id="PRU_249_Temple of Malice" data-flag="@X" onclick="openSidebar('PRU_249_Temple of Malice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\250_Temple of Mystery.png" id="PRU_250_Temple of Mystery" data-flag="@X" onclick="openSidebar('PRU_250_Temple of Mystery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\251_Temple of Plenty.png" id="PRU_251_Temple of Plenty" data-flag="@X" onclick="openSidebar('PRU_251_Temple of Plenty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\252_Temple of Silence.png" id="PRU_252_Temple of Silence" data-flag="@X" onclick="openSidebar('PRU_252_Temple of Silence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\253_Temple of Triumph.png" id="PRU_253_Temple of Triumph" data-flag="@X" onclick="openSidebar('PRU_253_Temple of Triumph',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\255_Plains.png" id="PRU_255_Plains" data-flag="@X" onclick="openSidebar('PRU_255_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\256_Island.png" id="PRU_256_Island" data-flag="@X" onclick="openSidebar('PRU_256_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\257_Swamp.png" id="PRU_257_Swamp" data-flag="@X" onclick="openSidebar('PRU_257_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\258_Mountain.png" id="PRU_258_Mountain" data-flag="@X" onclick="openSidebar('PRU_258_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\259_Forest.png" id="PRU_259_Forest" data-flag="@X" onclick="openSidebar('PRU_259_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\1t_Copy.png" id="PRU_1t_Copy" data-flag="@X" onclick="openSidebar('PRU_1t_Copy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\2t_In The Bloom.png" id="PRU_2t_In The Bloom" data-flag="@X" onclick="openSidebar('PRU_2t_In The Bloom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\8t_Construct.png" id="PRU_8t_Construct" data-flag="@X" onclick="openSidebar('PRU_8t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\9t_Treasure.png" id="PRU_9t_Treasure" data-flag="@X" onclick="openSidebar('PRU_9t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\10t_Forest Token.png" id="PRU_10t_Forest Token" data-flag="@X" onclick="openSidebar('PRU_10t_Forest Token',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\11t_Island Token.png" id="PRU_11t_Island Token" data-flag="@X" onclick="openSidebar('PRU_11t_Island Token',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\12t_Mountain Token.png" id="PRU_12t_Mountain Token" data-flag="@X" onclick="openSidebar('PRU_12t_Mountain Token',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\13t_Plains Token.png" id="PRU_13t_Plains Token" data-flag="@X" onclick="openSidebar('PRU_13t_Plains Token',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\14t_Swamp Token.png" id="PRU_14t_Swamp Token" data-flag="@X" onclick="openSidebar('PRU_14t_Swamp Token',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\3t_Human.png" id="PRU_3t_Human" data-flag="@X" onclick="openSidebar('PRU_3t_Human',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\4t_Illusion.png" id="PRU_4t_Illusion" data-flag="@X" onclick="openSidebar('PRU_4t_Illusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\5t_Cat.png" id="PRU_5t_Cat" data-flag="@X" onclick="openSidebar('PRU_5t_Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\6t_Elemental.png" id="PRU_6t_Elemental" data-flag="@X" onclick="openSidebar('PRU_6t_Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\PRU-files\img\7t_Fungus.png" id="PRU_7t_Fungus" data-flag="@X" onclick="openSidebar('PRU_7t_Fungus',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="PRU_e" data-flag="@E" onclick="openSidebar('PRU_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="PRU_er" data-flag="@E" onclick="openSidebar('PRU_er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -525,13 +567,13 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
@@ -539,8 +581,100 @@
 
 				card_list_arrayified = card_list.cards;
 
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -572,13 +706,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -604,49 +741,75 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -661,7 +824,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -672,10 +835,30 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
@@ -686,16 +869,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -705,7 +888,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

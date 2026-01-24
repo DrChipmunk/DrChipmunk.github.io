@@ -70,7 +70,7 @@ def get_related(notes, instruction, tag):
 	return related
 
 def get_number(card, back):
-	return f'{card['number']}{'' if 'double' not in card['shape'] else 'b' if back else 'a'}'
+	return f"{card['number']}{'' if 'double' not in card['shape'] else 'b' if back else 'a'}"
 
 def get_tablerow(card_type):
 	return (
@@ -82,11 +82,13 @@ def get_tablerow(card_type):
 
 def get_text(card, back, flipped):
 	combine_texts = not back and not flipped and ('split' in card['shape'] or 'adventure' in card['shape'] or 'aftermath' in card['shape'])
+	cnm = f"card_name{'' if back else '2'}"
+	rtt = f"rules_text{'2' if back or flipped else ''}"
 	return (
-		f'{card[f'rules_text{'2' if back or flipped else ''}']}' +
-		(f'\n---\n({'Front' if back else 'Back'}): {card[f'card_name{'' if back else '2'}']}' if 'double' in card['shape'] else '') +
-		(f'\n{card['rules_text3']}' if 'rules_text3' in card and card['rules_text3'] else '') +
-		(f'\n\n---\n\n{get_text(card, True, False)}' if combine_texts else '')
+		f"{card[rtt]}" +
+		(f"\n---\n({'Front' if back else 'Back'}): {card[cnm]}" if 'double' in card['shape'] else '') +
+		(f"\n{card['rules_text3']}" if 'rules_text3' in card and card['rules_text3'] else '') +
+		(f"\n\n---\n\n{get_text(card, True, False)}" if combine_texts else '')
 	).strip()
 
 def render_card(set_data, card, /, *, back=False, flipped=False):
@@ -94,7 +96,7 @@ def render_card(set_data, card, /, *, back=False, flipped=False):
 	is_two_cards = is_split or 'adventure' in card['shape']
 	suffix = '2' if back or flipped else ''
 
-	card_type = card[f'type{suffix}'].strip() + (f' // {card[f'type2'].strip()}' if is_two_cards and card[f'type2'] and card[f'type2'] != card[f'type'] else '')
+	card_type = card[f'type{suffix}'].strip() + (f" // {card['type2'].strip()}" if is_two_cards and card[f'type2'] and card[f'type2'] != card[f'type'] else '')
 	layout = (
 		'mutate' if 'Mutate' in card[f'rules_text{suffix}'] else
 		'saga' if 'Saga' in card_type else
@@ -114,7 +116,7 @@ def render_card(set_data, card, /, *, back=False, flipped=False):
 			layout = new_layout
 			break
 
-	mana_cost = format_cost(card[f'cost{suffix}']) + (f' // {format_cost(card[f'cost2'])}' if is_two_cards else '')
+	mana_cost = format_cost(card[f'cost{suffix}']) + (f" // {format_cost(card['cost2'])}" if is_two_cards else '')
 	cmc = cost_to_cmc(card[f'cost{suffix}']) + (cost_to_cmc(card[f'cost2']) if is_split else 0)
 	# For the <side>, canon flip cards have their side set to "back" in Cockatrice for their flipped version to transform it back when it leaves the battlefield
 	props = f'''
@@ -142,11 +144,12 @@ def render_card(set_data, card, /, *, back=False, flipped=False):
 		props += f'''
 				<loyalty>{xml_escape(card[f'loyalty{suffix}'])}</loyalty>'''
 
-	card_name = (f'{card[f'card_name']} // {card[f'card_name2']}' if is_two_cards else card[f'card_name{suffix}']) + (f' {card['set']}' if 'token' in card['shape'] else '')
+	card_name = (f"{card['card_name']} // {card['card_name2']}" if is_two_cards else card[f'card_name{suffix}']) + (f" {card['set']}" if 'token' in card['shape'] else '')
+	card_text_line = re.sub(r'\[/?i\]', '', xml_escape(get_text(card, back, flipped)))
 	card_string = f'''
 		<card>
 			<name>{xml_escape(card_name)}</name>
-			<text>{re.sub(r'\[/?i\]', '', xml_escape(get_text(card, back, flipped)))}</text>
+			<text>{card_text_line}</text>
 			<set rarity="{'rare' if card['rarity'] == 'cube' else card['rarity']}" picurl="{xml_escape(utils.get_picurl(set_data, card, back))}" num="{get_number(card, back)}">{xml_escape(card['set'])}</set>
 			<prop>{props}
 			</prop>
@@ -162,17 +165,15 @@ def render_card(set_data, card, /, *, back=False, flipped=False):
 
 	related = get_related(card['notes'], '!tokens', 'related')
 	if 'double' in card['shape']:
-		related.append(f'<related attach="transform">{xml_escape(card['card_name' if back else 'card_name2'])}</related>')
+		related.append(f'<related attach="transform">{xml_escape(card["card_name" if back else "card_name2"])}</related>')
 	if 'flip' in card['shape']:
-		related.append(f'<related attach="transform">{xml_escape(card['card_name' if flipped else 'card_name2'])}</related>')
+		related.append(f'<related attach="transform">{xml_escape(card["card_name" if flipped else "card_name2"])}</related>')
 	if len(related):
-		card_string += f'''
-			{'\n			'.join(related)}'''
+		card_string += "\n" + '\n			'.join(related)
 
 	reverse_related = get_related(card['notes'], '!related', 'reverse_related')
 	if len(reverse_related):
-		card_string += f'''
-			{'\n			'.join(reverse_related)}'''
+		card_string += "\n" + '\n			'.join(reverse_related)
 
 	if '!tapped' in card['notes']:
 		card_string += f'''

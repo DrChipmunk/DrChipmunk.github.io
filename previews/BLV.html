@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/BLV-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/BLV-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>BLV visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
 		body {
 			font-family: Arial, sans-serif;
 			margin: 0;
@@ -35,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -58,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -78,11 +87,12 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
 			height: auto;
-			padding-top: 20px;
+			padding-top: 80px;
 			padding-bottom: 50px;
 		}
 		.logo {
@@ -98,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -114,40 +125,54 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
-		.icon-bar {
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
 			display: grid;
-			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
-			gap: 1px;
-			padding-left: 5%;
-			padding-right: 5%;
-			padding-top: 2%;
-			padding-bottom: 1%;
-			justify-items: center;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
 			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
 		}
-		.icon-bar .icon img {
-			width: 90%;
-			max-width: 80px;
-			height: auto;
-			display: block;
-			padding: 5%;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
 		}
-		.icon-bar .dot img {
-			width: 50%;
-			max-width: 65px;
-			height: auto;
-			display: block;
-			margin: auto;
-			text-align: center;
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
 		}
 		.preload-hidden {
 			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
 		}
 		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
 		.footer {
@@ -156,398 +181,415 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/BLV-files/logo.png" />
-	<img class="preload-hidden" src="/sets/BLV-files/icon.png" />
-		<img class="preload-hidden" src="/sets/ERR-files/icon.png" />
-		<img class="preload-hidden" src="/sets/LIM-files/icon.png" />
-		<img class="preload-hidden" src="/sets/PRU-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/BLV-files/logo.png" />
+	<img class="preload-hidden" src="../sets/BLV-files/icon.png" />
+		<img class="preload-hidden" src="../sets/ERR-files/icon.png" />
+		<img class="preload-hidden" src="../sets/LIM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/PRU-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="icon-bar">
-			<div class="icon"><a href="BLV"><img src="/sets/BLV-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="ERR"><img src="/sets/ERR-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="LIM"><img src="/sets/LIM-files/icon.png"></img></a></div>
-		 <div class="dot"><img src="/img/dot.png"></img></div>
-		<div class="icon"><a href="PRU"><img src="/sets/PRU-files/icon.png"></img></a></div>
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
 
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/BLV"><img src="../sets/BLV-files/icon.png">Blood and Velvet</a>
+	
+		<a class="set-bar inactive" href="../previews/ERR"><img src="../sets/ERR-files/icon.png">Errors in the Weft</a>
+	
+		<a class="set-bar inactive" href="../previews/LIM"><img src="../sets/LIM-files/icon.png">Escape From Limbo</a>
+	
+		<a class="set-bar inactive" href="../previews/PRU"><img src="../sets/PRU-files/icon.png">Perennial Ultimatum</a>
+	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/BLV-files/logo.png">
+		<img class="logo" src="../sets/BLV-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-				<div class="container"><img alt="/sets\BLV-files\img\13_Hyev, the Resplendent Word.png" id="13_Hyev, the Resplendent Word" data-flag="@X" onclick="openSidebar('13_Hyev, the Resplendent Word',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\59_Lucid Drifter.png" id="59_Lucid Drifter" data-flag="@X" onclick="openSidebar('59_Lucid Drifter',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\105_The Sound of Chimes.png" id="105_The Sound of Chimes" data-flag="@X" onclick="openSidebar('105_The Sound of Chimes',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\141_Ralk, the Avid Word.png" id="141_Ralk, the Avid Word" data-flag="@X" onclick="openSidebar('141_Ralk, the Avid Word',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\159_Celebrated Violist.png" id="159_Celebrated Violist" data-flag="@X" onclick="openSidebar('159_Celebrated Violist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\38_Vault of Forgeries.png" id="38_Vault of Forgeries" data-flag="@X" onclick="openSidebar('38_Vault of Forgeries',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\62_Nue, the Artful Word.png" id="62_Nue, the Artful Word" data-flag="@X" onclick="openSidebar('62_Nue, the Artful Word',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\117_Xaw, the Covetous Word.png" id="117_Xaw, the Covetous Word" data-flag="@X" onclick="openSidebar('117_Xaw, the Covetous Word',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\154_Upending of Order.png" id="154_Upending of Order" data-flag="@X" onclick="openSidebar('154_Upending of Order',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\165_Ejo, the Ripening Word.png" id="165_Ejo, the Ripening Word" data-flag="@X" onclick="openSidebar('165_Ejo, the Ripening Word',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\1_Brimtouched Chaplain.png" id="1_Brimtouched Chaplain" data-flag="@X" onclick="openSidebar('1_Brimtouched Chaplain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\42_All-Consuming Project.png" id="42_All-Consuming Project" data-flag="@X" onclick="openSidebar('42_All-Consuming Project',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\81_Bianco, Midnight's Host.png" id="81_Bianco, Midnights Host" data-flag="@X" onclick="openSidebar('81_Bianco, Midnights Host',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\126_Culvert Babbler.png" id="126_Culvert Babbler" data-flag="@X" onclick="openSidebar('126_Culvert Babbler',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\169_Hunting Season.png" id="169_Hunting Season" data-flag="@X" onclick="openSidebar('169_Hunting Season',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\3_Dollmaker's Refrain.png" id="3_Dollmakers Refrain" data-flag="@X" onclick="openSidebar('3_Dollmakers Refrain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\43_Archivist's Refrain.png" id="43_Archivists Refrain" data-flag="@X" onclick="openSidebar('43_Archivists Refrain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\89_Intruding Thought.png" id="89_Intruding Thought" data-flag="@X" onclick="openSidebar('89_Intruding Thought',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\129_Girl in the Phoenix Dress.png" id="129_Girl in the Phoenix Dress" data-flag="@X" onclick="openSidebar('129_Girl in the Phoenix Dress',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\170_Importer's Refrain.png" id="170_Importers Refrain" data-flag="@X" onclick="openSidebar('170_Importers Refrain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\18_Only Eyes For Each Other.png" id="18_Only Eyes For Each Other" data-flag="@X" onclick="openSidebar('18_Only Eyes For Each Other',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\48_Disgorger of Suns.png" id="48_Disgorger of Suns" data-flag="@X" onclick="openSidebar('48_Disgorger of Suns',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\95_Nightmarish Judge.png" id="95_Nightmarish Judge" data-flag="@X" onclick="openSidebar('95_Nightmarish Judge',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\130_Highborn Dragoness.png" id="130_Highborn Dragoness" data-flag="@X" onclick="openSidebar('130_Highborn Dragoness',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\171_Kaxyl, the Last Faun.png" id="171_Kaxyl, the Last Faun" data-flag="@X" onclick="openSidebar('171_Kaxyl, the Last Faun',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\22_Prima Donna.png" id="22_Prima Donna" data-flag="@X" onclick="openSidebar('22_Prima Donna',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\54_Half-Breed Scion.png" id="54_Half-Breed Scion" data-flag="@X" onclick="openSidebar('54_Half-Breed Scion',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\98_Payment Comes Due.png" id="98_Payment Comes Due" data-flag="@X" onclick="openSidebar('98_Payment Comes Due',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\140_Radical Experiment.png" id="140_Radical Experiment" data-flag="@X" onclick="openSidebar('140_Radical Experiment',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\179_Picky Horticulturalist.png" id="179_Picky Horticulturalist" data-flag="@X" onclick="openSidebar('179_Picky Horticulturalist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\24_Selthriel, Chained Seraph.png" id="24_Selthriel, Chained Seraph" data-flag="@X" onclick="openSidebar('24_Selthriel, Chained Seraph',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\61_Mr. Hours, Pseudarchivist.png" id="61_Mr. Hours, Pseudarchivist" data-flag="@X" onclick="openSidebar('61_Mr. Hours, Pseudarchivist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\99_Penitent Poacher.png" id="99_Penitent Poacher" data-flag="@X" onclick="openSidebar('99_Penitent Poacher',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\143_Ringmaster's Refrain.png" id="143_Ringmasters Refrain" data-flag="@X" onclick="openSidebar('143_Ringmasters Refrain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\183_Rubbery Recluse.png" id="183_Rubbery Recluse" data-flag="@X" onclick="openSidebar('183_Rubbery Recluse',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\25_Shutter and Bury.png" id="25_Shutter and Bury" data-flag="@X" onclick="openSidebar('25_Shutter and Bury',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\64_Oraculous Expatriate.png" id="64_Oraculous Expatriate" data-flag="@X" onclick="openSidebar('64_Oraculous Expatriate',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\100_Phrenologist's Refrain.png" id="100_Phrenologists Refrain" data-flag="@X" onclick="openSidebar('100_Phrenologists Refrain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\146_The Scarlet Lady.png" id="146_The Scarlet Lady" data-flag="@X" onclick="openSidebar('146_The Scarlet Lady',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\185_Sensible Summoning.png" id="185_Sensible Summoning" data-flag="@X" onclick="openSidebar('185_Sensible Summoning',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\28_Slate Mask.png" id="28_Slate Mask" data-flag="@X" onclick="openSidebar('28_Slate Mask',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\66_Perfected Soloist.png" id="66_Perfected Soloist" data-flag="@X" onclick="openSidebar('66_Perfected Soloist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\104_Shade of Impending Doom.png" id="104_Shade of Impending Doom" data-flag="@X" onclick="openSidebar('104_Shade of Impending Doom',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\148_Silver Shackle Initiation.png" id="148_Silver Shackle Initiation" data-flag="@X" onclick="openSidebar('148_Silver Shackle Initiation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\186_Silk-String Marionette.png" id="186_Silk-String Marionette" data-flag="@X" onclick="openSidebar('186_Silk-String Marionette',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\30_Sovereign of Submission.png" id="30_Sovereign of Submission" data-flag="@X" onclick="openSidebar('30_Sovereign of Submission',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\76_Uninvited Guests.png" id="76_Uninvited Guests" data-flag="@X" onclick="openSidebar('76_Uninvited Guests',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\109_Tutor of Epitaphs.png" id="109_Tutor of Epitaphs" data-flag="@X" onclick="openSidebar('109_Tutor of Epitaphs',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\155_Velvet Glove Exile.png" id="155_Velvet Glove Exile" data-flag="@X" onclick="openSidebar('155_Velvet Glove Exile',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\195_Vesperine Abductor.png" id="195_Vesperine Abductor" data-flag="@X" onclick="openSidebar('195_Vesperine Abductor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\2_Darling Dealer.png" id="2_Darling Dealer" data-flag="@X" onclick="openSidebar('2_Darling Dealer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\41_Agency Field Investigators.png" id="41_Agency Field Investigators" data-flag="@X" onclick="openSidebar('41_Agency Field Investigators',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\79_Bad Influence.png" id="79_Bad Influence" data-flag="@X" onclick="openSidebar('79_Bad Influence',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\118_Acclaimed Daredevil.png" id="118_Acclaimed Daredevil" data-flag="@X" onclick="openSidebar('118_Acclaimed Daredevil',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\158_Canal Conglomeration.png" id="158_Canal Conglomeration" data-flag="@X" onclick="openSidebar('158_Canal Conglomeration',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\4_Duchess of the Dead.png" id="4_Duchess of the Dead" data-flag="@X" onclick="openSidebar('4_Duchess of the Dead',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\44_Automated Confessor.png" id="44_Automated Confessor" data-flag="@X" onclick="openSidebar('44_Automated Confessor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\82_Black Iris Visitation.png" id="82_Black Iris Visitation" data-flag="@X" onclick="openSidebar('82_Black Iris Visitation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\119_Bleeding Savior.png" id="119_Bleeding Savior" data-flag="@X" onclick="openSidebar('119_Bleeding Savior',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\162_Crystal Spires Huntress.png" id="162_Crystal Spires Huntress" data-flag="@X" onclick="openSidebar('162_Crystal Spires Huntress',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\6_Exorcise.png" id="6_Exorcise" data-flag="@X" onclick="openSidebar('6_Exorcise',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\45_Brimtouched Burglar.png" id="45_Brimtouched Burglar" data-flag="@X" onclick="openSidebar('45_Brimtouched Burglar',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\86_Father of Ransoms.png" id="86_Father of Ransoms" data-flag="@X" onclick="openSidebar('86_Father of Ransoms',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\120_Blood Moon Killer.png" id="120_Blood Moon Killer" data-flag="@X" onclick="openSidebar('120_Blood Moon Killer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\163_Disgraced Apothecary.png" id="163_Disgraced Apothecary" data-flag="@X" onclick="openSidebar('163_Disgraced Apothecary',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\10_Hallahan Voyeur.png" id="10_Hallahan Voyeur" data-flag="@X" onclick="openSidebar('10_Hallahan Voyeur',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\46_College of Symmetries Tutor.png" id="46_College of Symmetries Tutor" data-flag="@X" onclick="openSidebar('46_College of Symmetries Tutor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\88_Initiation Into Fear.png" id="88_Initiation Into Fear" data-flag="@X" onclick="openSidebar('88_Initiation Into Fear',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\121_Break the Mirror.png" id="121_Break the Mirror" data-flag="@X" onclick="openSidebar('121_Break the Mirror',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\168_Ghoul of Whit Street.png" id="168_Ghoul of Whit Street" data-flag="@X" onclick="openSidebar('168_Ghoul of Whit Street',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\11_Hear the Chimes.png" id="11_Hear the Chimes" data-flag="@X" onclick="openSidebar('11_Hear the Chimes',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\47_Disappearing Actor.png" id="47_Disappearing Actor" data-flag="@X" onclick="openSidebar('47_Disappearing Actor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\90_Kindly Rewinder.png" id="90_Kindly Rewinder" data-flag="@X" onclick="openSidebar('90_Kindly Rewinder',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\122_Burning Memories.png" id="122_Burning Memories" data-flag="@X" onclick="openSidebar('122_Burning Memories',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\173_Masksmith.png" id="173_Masksmith" data-flag="@X" onclick="openSidebar('173_Masksmith',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\12_Heed Love's Call.png" id="12_Heed Loves Call" data-flag="@X" onclick="openSidebar('12_Heed Loves Call',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\49_Disgraceful Failure.png" id="49_Disgraceful Failure" data-flag="@X" onclick="openSidebar('49_Disgraceful Failure',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\92_Maverick Medicalist.png" id="92_Maverick Medicalist" data-flag="@X" onclick="openSidebar('92_Maverick Medicalist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\132_Joyful Conflagration.png" id="132_Joyful Conflagration" data-flag="@X" onclick="openSidebar('132_Joyful Conflagration',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\174_Memento of Paradise.png" id="174_Memento of Paradise" data-flag="@X" onclick="openSidebar('174_Memento of Paradise',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\15_Illuminated Gramophone.png" id="15_Illuminated Gramophone" data-flag="@X" onclick="openSidebar('15_Illuminated Gramophone',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\50_Duplicitous Conversation.png" id="50_Duplicitous Conversation" data-flag="@X" onclick="openSidebar('50_Duplicitous Conversation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\93_Mire Maiden's Request.png" id="93_Mire Maidens Request" data-flag="@X" onclick="openSidebar('93_Mire Maidens Request',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\133_Lacquer School Memento.png" id="133_Lacquer School Memento" data-flag="@X" onclick="openSidebar('133_Lacquer School Memento',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\176_Mistress of the Menagerie.png" id="176_Mistress of the Menagerie" data-flag="@X" onclick="openSidebar('176_Mistress of the Menagerie',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\16_Imperturbable Matron.png" id="16_Imperturbable Matron" data-flag="@X" onclick="openSidebar('16_Imperturbable Matron',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\52_Entrancing Madman.png" id="52_Entrancing Madman" data-flag="@X" onclick="openSidebar('52_Entrancing Madman',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\96_One Terrible Night.png" id="96_One Terrible Night" data-flag="@X" onclick="openSidebar('96_One Terrible Night',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\134_Malicious Locomotive.png" id="134_Malicious Locomotive" data-flag="@X" onclick="openSidebar('134_Malicious Locomotive',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\177_Normality's Guardian.png" id="177_Normalitys Guardian" data-flag="@X" onclick="openSidebar('177_Normalitys Guardian',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\17_Make Presentable.png" id="17_Make Presentable" data-flag="@X" onclick="openSidebar('17_Make Presentable',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\55_Impossible Apparatus.png" id="55_Impossible Apparatus" data-flag="@X" onclick="openSidebar('55_Impossible Apparatus',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\97_Overwhelm with Insight.png" id="97_Overwhelm with Insight" data-flag="@X" onclick="openSidebar('97_Overwhelm with Insight',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\138_Moment of Connection.png" id="138_Moment of Connection" data-flag="@X" onclick="openSidebar('138_Moment of Connection',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\178_Open Invitation.png" id="178_Open Invitation" data-flag="@X" onclick="openSidebar('178_Open Invitation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\19_Paranoid Heiress.png" id="19_Paranoid Heiress" data-flag="@X" onclick="openSidebar('19_Paranoid Heiress',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\56_Let Them Down Easy.png" id="56_Let Them Down Easy" data-flag="@X" onclick="openSidebar('56_Let Them Down Easy',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\102_Scholar of Parasites.png" id="102_Scholar of Parasites" data-flag="@X" onclick="openSidebar('102_Scholar of Parasites',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\142_Renegade Clotweaver.png" id="142_Renegade Clotweaver" data-flag="@X" onclick="openSidebar('142_Renegade Clotweaver',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\184_Second Chair Drowned.png" id="184_Second Chair Drowned" data-flag="@X" onclick="openSidebar('184_Second Chair Drowned',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\26_Silent Speaker.png" id="26_Silent Speaker" data-flag="@X" onclick="openSidebar('26_Silent Speaker',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\67_Persitent Haunting.png" id="67_Persitent Haunting" data-flag="@X" onclick="openSidebar('67_Persitent Haunting',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\103_Servant of Ravens.png" id="103_Servant of Ravens" data-flag="@X" onclick="openSidebar('103_Servant of Ravens',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\144_Sanguine Effusion.png" id="144_Sanguine Effusion" data-flag="@X" onclick="openSidebar('144_Sanguine Effusion',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\187_Slayer's Calling.png" id="187_Slayers Calling" data-flag="@X" onclick="openSidebar('187_Slayers Calling',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\29_Soaring Pirouette.png" id="29_Soaring Pirouette" data-flag="@X" onclick="openSidebar('29_Soaring Pirouette',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\70_Reflection's Replacement.png" id="70_Reflections Replacement" data-flag="@X" onclick="openSidebar('70_Reflections Replacement',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\106_Spirit's Advocate.png" id="106_Spirits Advocate" data-flag="@X" onclick="openSidebar('106_Spirits Advocate',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\149_Star-Crossed Pair.png" id="149_Star-Crossed Pair" data-flag="@X" onclick="openSidebar('149_Star-Crossed Pair',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\190_Stoic Centerpiece.png" id="190_Stoic Centerpiece" data-flag="@X" onclick="openSidebar('190_Stoic Centerpiece',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\32_Stained Reminiscence.png" id="32_Stained Reminiscence" data-flag="@X" onclick="openSidebar('32_Stained Reminiscence',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\72_Smogton Falselight.png" id="72_Smogton Falselight" data-flag="@X" onclick="openSidebar('72_Smogton Falselight',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\108_Sweet Sorrow.png" id="108_Sweet Sorrow" data-flag="@X" onclick="openSidebar('108_Sweet Sorrow',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\152_Unfortunate In-Law.png" id="152_Unfortunate In-Law" data-flag="@X" onclick="openSidebar('152_Unfortunate In-Law',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\192_Taxidermical Effort.png" id="192_Taxidermical Effort" data-flag="@X" onclick="openSidebar('192_Taxidermical Effort',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\34_Temperance Deaconess.png" id="34_Temperance Deaconess" data-flag="@X" onclick="openSidebar('34_Temperance Deaconess',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\75_Triplicate Trance.png" id="75_Triplicate Trance" data-flag="@X" onclick="openSidebar('75_Triplicate Trance',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\112_Undertaker's Cudgel.png" id="112_Undertakers Cudgel" data-flag="@X" onclick="openSidebar('112_Undertakers Cudgel',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\156_Wall of Ravings.png" id="156_Wall of Ravings" data-flag="@X" onclick="openSidebar('156_Wall of Ravings',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\194_Unkillable Profusion.png" id="194_Unkillable Profusion" data-flag="@X" onclick="openSidebar('194_Unkillable Profusion',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\5_Ephebic Phantom.png" id="5_Ephebic Phantom" data-flag="@X" onclick="openSidebar('5_Ephebic Phantom',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\40_Affordable Astrologer.png" id="40_Affordable Astrologer" data-flag="@X" onclick="openSidebar('40_Affordable Astrologer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\80_Beckoning Bard.png" id="80_Beckoning Bard" data-flag="@X" onclick="openSidebar('80_Beckoning Bard',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\123_Clockwork Concertists.png" id="123_Clockwork Concertists" data-flag="@X" onclick="openSidebar('123_Clockwork Concertists',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\157_Brotherhood Fiddler.png" id="157_Brotherhood Fiddler" data-flag="@X" onclick="openSidebar('157_Brotherhood Fiddler',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\7_Fogtide Redeemer.png" id="7_Fogtide Redeemer" data-flag="@X" onclick="openSidebar('7_Fogtide Redeemer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\51_Dusky Procession.png" id="51_Dusky Procession" data-flag="@X" onclick="openSidebar('51_Dusky Procession',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\83_Dance with Death.png" id="83_Dance with Death" data-flag="@X" onclick="openSidebar('83_Dance with Death',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\124_Crazed Arsonist.png" id="124_Crazed Arsonist" data-flag="@X" onclick="openSidebar('124_Crazed Arsonist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\160_Ceramic Mother.png" id="160_Ceramic Mother" data-flag="@X" onclick="openSidebar('160_Ceramic Mother',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\8_Full-Service Staff.png" id="8_Full-Service Staff" data-flag="@X" onclick="openSidebar('8_Full-Service Staff',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\53_Fickle Fortune.png" id="53_Fickle Fortune" data-flag="@X" onclick="openSidebar('53_Fickle Fortune',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\84_Duress.png" id="84_Duress" data-flag="@X" onclick="openSidebar('84_Duress',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\125_Crystal Spires Cardsharp.png" id="125_Crystal Spires Cardsharp" data-flag="@X" onclick="openSidebar('125_Crystal Spires Cardsharp',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\161_Cryptobotanist.png" id="161_Cryptobotanist" data-flag="@X" onclick="openSidebar('161_Cryptobotanist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\9_Gentle Ending.png" id="9_Gentle Ending" data-flag="@X" onclick="openSidebar('9_Gentle Ending',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\57_Liminal Visitor.png" id="57_Liminal Visitor" data-flag="@X" onclick="openSidebar('57_Liminal Visitor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\85_Excoriate.png" id="85_Excoriate" data-flag="@X" onclick="openSidebar('85_Excoriate',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\127_Dashing Ringmaster.png" id="127_Dashing Ringmaster" data-flag="@X" onclick="openSidebar('127_Dashing Ringmaster',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\164_Dress to the Nines.png" id="164_Dress to the Nines" data-flag="@X" onclick="openSidebar('164_Dress to the Nines',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\14_Icy Reception.png" id="14_Icy Reception" data-flag="@X" onclick="openSidebar('14_Icy Reception',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\58_Loose Balloonist.png" id="58_Loose Balloonist" data-flag="@X" onclick="openSidebar('58_Loose Balloonist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\87_Fly By Midnight.png" id="87_Fly By Midnight" data-flag="@X" onclick="openSidebar('87_Fly By Midnight',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\128_Flaming Reverie.png" id="128_Flaming Reverie" data-flag="@X" onclick="openSidebar('128_Flaming Reverie',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\166_Elvish Mystic.png" id="166_Elvish Mystic" data-flag="@X" onclick="openSidebar('166_Elvish Mystic',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\20_Pinion-Clad Exile.png" id="20_Pinion-Clad Exile" data-flag="@X" onclick="openSidebar('20_Pinion-Clad Exile',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\60_Mirror-Marcher.png" id="60_Mirror-Marcher" data-flag="@X" onclick="openSidebar('60_Mirror-Marcher',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\91_Macabre Insight.png" id="91_Macabre Insight" data-flag="@X" onclick="openSidebar('91_Macabre Insight',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\131_Impudent Scion.png" id="131_Impudent Scion" data-flag="@X" onclick="openSidebar('131_Impudent Scion',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\167_Fidgety Physician.png" id="167_Fidgety Physician" data-flag="@X" onclick="openSidebar('167_Fidgety Physician',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\21_Postmaster Specific.png" id="21_Postmaster Specific" data-flag="@X" onclick="openSidebar('21_Postmaster Specific',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\63_Occult Investigator.png" id="63_Occult Investigator" data-flag="@X" onclick="openSidebar('63_Occult Investigator',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\94_Morbid Literati.png" id="94_Morbid Literati" data-flag="@X" onclick="openSidebar('94_Morbid Literati',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\135_Manic Scrivener.png" id="135_Manic Scrivener" data-flag="@X" onclick="openSidebar('135_Manic Scrivener',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\172_Lavish Host.png" id="172_Lavish Host" data-flag="@X" onclick="openSidebar('172_Lavish Host',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\23_Proper Presentation.png" id="23_Proper Presentation" data-flag="@X" onclick="openSidebar('23_Proper Presentation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\65_The Past Beckons.png" id="65_The Past Beckons" data-flag="@X" onclick="openSidebar('65_The Past Beckons',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\101_Rite of the Rose.png" id="101_Rite of the Rose" data-flag="@X" onclick="openSidebar('101_Rite of the Rose',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\136_Masquerade Marquessa.png" id="136_Masquerade Marquessa" data-flag="@X" onclick="openSidebar('136_Masquerade Marquessa',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\175_Message Falconer.png" id="175_Message Falconer" data-flag="@X" onclick="openSidebar('175_Message Falconer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\27_Slapdash Banishing.png" id="27_Slapdash Banishing" data-flag="@X" onclick="openSidebar('27_Slapdash Banishing',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\68_Rain of Revelation.png" id="68_Rain of Revelation" data-flag="@X" onclick="openSidebar('68_Rain of Revelation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\107_Superior's Siphon.png" id="107_Superiors Siphon" data-flag="@X" onclick="openSidebar('107_Superiors Siphon',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\137_Messy Altercation.png" id="137_Messy Altercation" data-flag="@X" onclick="openSidebar('137_Messy Altercation',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\180_Quiet Memorium.png" id="180_Quiet Memorium" data-flag="@X" onclick="openSidebar('180_Quiet Memorium',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\31_Spry Matron.png" id="31_Spry Matron" data-flag="@X" onclick="openSidebar('31_Spry Matron',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\69_Reclusive Visionary.png" id="69_Reclusive Visionary" data-flag="@X" onclick="openSidebar('69_Reclusive Visionary',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\110_Uncanny Chef.png" id="110_Uncanny Chef" data-flag="@X" onclick="openSidebar('110_Uncanny Chef',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\139_Novice Bloodsucker.png" id="139_Novice Bloodsucker" data-flag="@X" onclick="openSidebar('139_Novice Bloodsucker',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\181_Retired Hallowblade.png" id="181_Retired Hallowblade" data-flag="@X" onclick="openSidebar('181_Retired Hallowblade',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\33_Street Eulogist.png" id="33_Street Eulogist" data-flag="@X" onclick="openSidebar('33_Street Eulogist',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\71_Serpentine Deacon.png" id="71_Serpentine Deacon" data-flag="@X" onclick="openSidebar('71_Serpentine Deacon',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\111_Undertaker's Collector.png" id="111_Undertakers Collector" data-flag="@X" onclick="openSidebar('111_Undertakers Collector',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\145_Scandalize.png" id="145_Scandalize" data-flag="@X" onclick="openSidebar('145_Scandalize',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\182_Rooted Rapture.png" id="182_Rooted Rapture" data-flag="@X" onclick="openSidebar('182_Rooted Rapture',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\35_Temperance Maskbearer.png" id="35_Temperance Maskbearer" data-flag="@X" onclick="openSidebar('35_Temperance Maskbearer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\73_Stay Smiling.png" id="73_Stay Smiling" data-flag="@X" onclick="openSidebar('73_Stay Smiling',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\113_Undying Beggar.png" id="113_Undying Beggar" data-flag="@X" onclick="openSidebar('113_Undying Beggar',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\147_Scarlet Reminiscence.png" id="147_Scarlet Reminiscence" data-flag="@X" onclick="openSidebar('147_Scarlet Reminiscence',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\188_Snakeskin Veil.png" id="188_Snakeskin Veil" data-flag="@X" onclick="openSidebar('188_Snakeskin Veil',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\36_Tuppence Ball.png" id="36_Tuppence Ball" data-flag="@X" onclick="openSidebar('36_Tuppence Ball',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\74_Sunken Study.png" id="74_Sunken Study" data-flag="@X" onclick="openSidebar('74_Sunken Study',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\114_Unexpected Fangs.png" id="114_Unexpected Fangs" data-flag="@X" onclick="openSidebar('114_Unexpected Fangs',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\150_Star-Touched Ripper.png" id="150_Star-Touched Ripper" data-flag="@X" onclick="openSidebar('150_Star-Touched Ripper',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\189_Sonorous Terror.png" id="189_Sonorous Terror" data-flag="@X" onclick="openSidebar('189_Sonorous Terror',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\37_Uptight Dancer.png" id="37_Uptight Dancer" data-flag="@X" onclick="openSidebar('37_Uptight Dancer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\77_Unlikely Fling.png" id="77_Unlikely Fling" data-flag="@X" onclick="openSidebar('77_Unlikely Fling',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\115_Unloved Mannequin.png" id="115_Unloved Mannequin" data-flag="@X" onclick="openSidebar('115_Unloved Mannequin',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\151_Strangle.png" id="151_Strangle" data-flag="@X" onclick="openSidebar('151_Strangle',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\191_Take the Shot.png" id="191_Take the Shot" data-flag="@X" onclick="openSidebar('191_Take the Shot',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\39_Winslip Vanguard.png" id="39_Winslip Vanguard" data-flag="@X" onclick="openSidebar('39_Winslip Vanguard',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\78_Well-Bred Vampire.png" id="78_Well-Bred Vampire" data-flag="@X" onclick="openSidebar('78_Well-Bred Vampire',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\116_Velvet Glove Assassin.png" id="116_Velvet Glove Assassin" data-flag="@X" onclick="openSidebar('116_Velvet Glove Assassin',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\153_Unwoven Seamstress.png" id="153_Unwoven Seamstress" data-flag="@X" onclick="openSidebar('153_Unwoven Seamstress',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\193_Torchlit Confrontation.png" id="193_Torchlit Confrontation" data-flag="@X" onclick="openSidebar('193_Torchlit Confrontation',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="gold" class="anchor"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\231_Unspoken Rule.png" id="231_Unspoken Rule" data-flag="@X" onclick="openSidebar('231_Unspoken Rule',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\223_The Second Madness.png" id="223_The Second Madness" data-flag="@X" onclick="openSidebar('223_The Second Madness',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\218_Physician of Abominations.png" id="218_Physician of Abominations" data-flag="@X" onclick="openSidebar('218_Physician of Abominations',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\199_The Attended One.png" id="199_The Attended One" data-flag="@X" onclick="openSidebar('199_The Attended One',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\207_Girl with Carnations.png" id="207_Girl with Carnations" data-flag="@X" onclick="openSidebar('207_Girl with Carnations',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\211_The Ivory Dollmaker.png" id="211_The Ivory Dollmaker" data-flag="@X" onclick="openSidebar('211_The Ivory Dollmaker',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\197_Anonymous Assistance.png" id="197_Anonymous Assistance" data-flag="@X" onclick="openSidebar('197_Anonymous Assistance',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\232_Xolier of the Stylish Entrance.png" id="232_Xolier of the Stylish Entrance" data-flag="@X" onclick="openSidebar('232_Xolier of the Stylish Entrance',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\226_Staff of Beast's Blood.png" id="226_Staff of Beasts Blood" data-flag="@X" onclick="openSidebar('226_Staff of Beasts Blood',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\205_Faith Winslip, Riflehearted.png" id="205_Faith Winslip, Riflehearted" data-flag="@X" onclick="openSidebar('205_Faith Winslip, Riflehearted',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\204_Enraptured Medium.png" id="204_Enraptured Medium" data-flag="@X" onclick="openSidebar('204_Enraptured Medium',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\220_Preserved Gentleman.png" id="220_Preserved Gentleman" data-flag="@X" onclick="openSidebar('220_Preserved Gentleman',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\213_Lost Sun's Reach.png" id="213_Lost Suns Reach" data-flag="@X" onclick="openSidebar('213_Lost Suns Reach',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\227_Sunset Dancer.png" id="227_Sunset Dancer" data-flag="@X" onclick="openSidebar('227_Sunset Dancer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\208_Gracious Moonchosen.png" id="208_Gracious Moonchosen" data-flag="@X" onclick="openSidebar('208_Gracious Moonchosen',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\222_Rewrite.png" id="222_Rewrite" data-flag="@X" onclick="openSidebar('222_Rewrite',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\228_Thoughtstab Wretch.png" id="228_Thoughtstab Wretch" data-flag="@X" onclick="openSidebar('228_Thoughtstab Wretch',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\224_Shackled Song.png" id="224_Shackled Song" data-flag="@X" onclick="openSidebar('224_Shackled Song',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\200_Carize, Death's Editor.png" id="200_Carize, Deaths Editor" data-flag="@X" onclick="openSidebar('200_Carize, Deaths Editor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\206_Generous Reveler.png" id="206_Generous Reveler" data-flag="@X" onclick="openSidebar('206_Generous Reveler',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\215_Lucent Playwright.png" id="215_Lucent Playwright" data-flag="@X" onclick="openSidebar('215_Lucent Playwright',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\196_The Ambergris Chorus.png" id="196_The Ambergris Chorus" data-flag="@X" onclick="openSidebar('196_The Ambergris Chorus',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\221_Revisionist Historian.png" id="221_Revisionist Historian" data-flag="@X" onclick="openSidebar('221_Revisionist Historian',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\201_A Dance Not To Be Missed.png" id="201_A Dance Not To Be Missed" data-flag="@X" onclick="openSidebar('201_A Dance Not To Be Missed',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\198_Arden, Thief of Futures.png" id="198_Arden, Thief of Futures" data-flag="@X" onclick="openSidebar('198_Arden, Thief of Futures',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\212_Limor, Etiquette Enforcer.png" id="212_Limor, Etiquette Enforcer" data-flag="@X" onclick="openSidebar('212_Limor, Etiquette Enforcer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\209_Haunting in the Cellar.png" id="209_Haunting in the Cellar" data-flag="@X" onclick="openSidebar('209_Haunting in the Cellar',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\233_Your Enthusiastic Employer.png" id="233_Your Enthusiastic Employer" data-flag="@X" onclick="openSidebar('233_Your Enthusiastic Employer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\229_Transformed Deacon.png" id="229_Transformed Deacon" data-flag="@X" onclick="openSidebar('229_Transformed Deacon',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\214_Lovely Nightmares.png" id="214_Lovely Nightmares" data-flag="@X" onclick="openSidebar('214_Lovely Nightmares',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\203_Duke of Crowns.png" id="203_Duke of Crowns" data-flag="@X" onclick="openSidebar('203_Duke of Crowns',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\230_Twitchy Housekeeper.png" id="230_Twitchy Housekeeper" data-flag="@X" onclick="openSidebar('230_Twitchy Housekeeper',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\202_Dreams of Eternity.png" id="202_Dreams of Eternity" data-flag="@X" onclick="openSidebar('202_Dreams of Eternity',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\219_Precocious Playmate.png" id="219_Precocious Playmate" data-flag="@X" onclick="openSidebar('219_Precocious Playmate',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\225_Skeletal Effigy.png" id="225_Skeletal Effigy" data-flag="@X" onclick="openSidebar('225_Skeletal Effigy',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\210_Hermit of Curatives.png" id="210_Hermit of Curatives" data-flag="@X" onclick="openSidebar('210_Hermit of Curatives',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\216_Nia, Yesterday's Beloved.png" id="216_Nia, Yesterdays Beloved" data-flag="@X" onclick="openSidebar('216_Nia, Yesterdays Beloved',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\217_Patron of the Nameless.png" id="217_Patron of the Nameless" data-flag="@X" onclick="openSidebar('217_Patron of the Nameless',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="colorless" class="anchor"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\236_Cursed Portrait.png" id="236_Cursed Portrait" data-flag="@X" onclick="openSidebar('236_Cursed Portrait',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\234_Candid Camera.png" id="234_Candid Camera" data-flag="@X" onclick="openSidebar('234_Candid Camera',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\240_Ornate Flintlock.png" id="240_Ornate Flintlock" data-flag="@X" onclick="openSidebar('240_Ornate Flintlock',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\241_Pocket Armillary.png" id="241_Pocket Armillary" data-flag="@X" onclick="openSidebar('241_Pocket Armillary',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\242_Porcelain Outcast.png" id="242_Porcelain Outcast" data-flag="@X" onclick="openSidebar('242_Porcelain Outcast',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\243_Sackcloth Companion.png" id="243_Sackcloth Companion" data-flag="@X" onclick="openSidebar('243_Sackcloth Companion',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\235_Concealed Dagger.png" id="235_Concealed Dagger" data-flag="@X" onclick="openSidebar('235_Concealed Dagger',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\237_Dressup Helper.png" id="237_Dressup Helper" data-flag="@X" onclick="openSidebar('237_Dressup Helper',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\238_Garden Doll.png" id="238_Garden Doll" data-flag="@X" onclick="openSidebar('238_Garden Doll',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\239_Grisly Font.png" id="239_Grisly Font" data-flag="@X" onclick="openSidebar('239_Grisly Font',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\244_Scion's Substitute.png" id="244_Scions Substitute" data-flag="@X" onclick="openSidebar('244_Scions Substitute',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="land" class="anchor"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\248_Cordial Hall.png" id="248_Cordial Hall" data-flag="@X" onclick="openSidebar('248_Cordial Hall',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\250_Discreet Hall.png" id="250_Discreet Hall" data-flag="@X" onclick="openSidebar('250_Discreet Hall',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\245_Ambitious Hall.png" id="245_Ambitious Hall" data-flag="@X" onclick="openSidebar('245_Ambitious Hall',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\247_Breathtaking Hall.png" id="247_Breathtaking Hall" data-flag="@X" onclick="openSidebar('247_Breathtaking Hall',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\251_Echoing Hall.png" id="251_Echoing Hall" data-flag="@X" onclick="openSidebar('251_Echoing Hall',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\257_Spectral Address.png" id="257_Spectral Address" data-flag="@X" onclick="openSidebar('257_Spectral Address',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\259_Submerged Laboratory.png" id="259_Submerged Laboratory" data-flag="@X" onclick="openSidebar('259_Submerged Laboratory',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\249_Cosmic Observatory.png" id="249_Cosmic Observatory" data-flag="@X" onclick="openSidebar('249_Cosmic Observatory',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\254_Opulent Chamber.png" id="254_Opulent Chamber" data-flag="@X" onclick="openSidebar('254_Opulent Chamber',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\253_Liberating Vista.png" id="253_Liberating Vista" data-flag="@X" onclick="openSidebar('253_Liberating Vista',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\269_Riverside View.png" id="269_Riverside View" data-flag="@X" onclick="openSidebar('269_Riverside View',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\266_Dubious Path.png" id="266_Dubious Path" data-flag="@X" onclick="openSidebar('266_Dubious Path',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\263_Decadent Hall.png" id="263_Decadent Hall" data-flag="@X" onclick="openSidebar('263_Decadent Hall',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\270_Secluded Farmland.png" id="270_Secluded Farmland" data-flag="@X" onclick="openSidebar('270_Secluded Farmland',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\271_Thriving Tower.png" id="271_Thriving Tower" data-flag="@X" onclick="openSidebar('271_Thriving Tower',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\261_Unsettling Abbey.png" id="261_Unsettling Abbey" data-flag="@X" onclick="openSidebar('261_Unsettling Abbey',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\260_Twisted Sewer.png" id="260_Twisted Sewer" data-flag="@X" onclick="openSidebar('260_Twisted Sewer',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\255_Rotting Dreamscape.png" id="255_Rotting Dreamscape" data-flag="@X" onclick="openSidebar('255_Rotting Dreamscape',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\256_Smoky Parlor.png" id="256_Smoky Parlor" data-flag="@X" onclick="openSidebar('256_Smoky Parlor',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\246_Backstreet Apothecary.png" id="246_Backstreet Apothecary" data-flag="@X" onclick="openSidebar('246_Backstreet Apothecary',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\265_Downtown Theater.png" id="265_Downtown Theater" data-flag="@X" onclick="openSidebar('265_Downtown Theater',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\267_Impressive Skyline.png" id="267_Impressive Skyline" data-flag="@X" onclick="openSidebar('267_Impressive Skyline',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\268_Reliable Market.png" id="268_Reliable Market" data-flag="@X" onclick="openSidebar('268_Reliable Market',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\262_Beloved Chapel.png" id="262_Beloved Chapel" data-flag="@X" onclick="openSidebar('262_Beloved Chapel',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\264_Disturbing Locale.png" id="264_Disturbing Locale" data-flag="@X" onclick="openSidebar('264_Disturbing Locale',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\258_Stage of Endless Possibilities.png" id="258_Stage of Endless Possibilities" data-flag="@X" onclick="openSidebar('258_Stage of Endless Possibilities',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\252_Esoteric Institute.png" id="252_Esoteric Institute" data-flag="@X" onclick="openSidebar('252_Esoteric Institute',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\273_Island.png" id="273_Island" data-flag="@X" onclick="openSidebar('273_Island',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\275_Mountain.png" id="275_Mountain" data-flag="@X" onclick="openSidebar('275_Mountain',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\272_Plains.png" id="272_Plains" data-flag="@X" onclick="openSidebar('272_Plains',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\274_Swamp.png" id="274_Swamp" data-flag="@X" onclick="openSidebar('274_Swamp',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\276_Forest.png" id="276_Forest" data-flag="@X" onclick="openSidebar('276_Forest',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-<div id="token" class="anchor"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\1t_Seen In Visions.png" id="1t_Seen In Visions" data-flag="@X" onclick="openSidebar('1t_Seen In Visions',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\2t_Veiled Creature.png" id="2t_Veiled Creature" data-flag="@X" onclick="openSidebar('2t_Veiled Creature',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\7t_The Second Fiddle BLV.png" id="7t_The Second Fiddle BLV" data-flag="@X" onclick="openSidebar('7t_The Second Fiddle BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\8t_colorless Toy 11BLV.png" id="8t_colorless Toy 11BLV" data-flag="@X" onclick="openSidebar('8t_colorless Toy 11BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\9t_TreasureBLV.png" id="9t_TreasureBLV" data-flag="@X" onclick="openSidebar('9t_TreasureBLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\10t_The Winslip Special BLV.png" id="10t_The Winslip Special BLV" data-flag="@X" onclick="openSidebar('10t_The Winslip Special BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\3t_white Spirit 11BLV.png" id="3t_white Spirit 11BLV" data-flag="@X" onclick="openSidebar('3t_white Spirit 11BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\4t_black Horror 32BLV.png" id="4t_black Horror 32BLV" data-flag="@X" onclick="openSidebar('4t_black Horror 32BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\5t_green Beast 33BLV.png" id="5t_green Beast 33BLV" data-flag="@X" onclick="openSidebar('5t_green Beast 33BLV',false)"></div>
-			<div class="container"><img alt="/sets\BLV-files\img\6t_Verse BLV.png" id="6t_Verse BLV" data-flag="@X" onclick="openSidebar('6t_Verse BLV',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-			<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\BLV-files\img\13_Hyev, the Resplendent Word.png" id="BLV_13_Hyev, the Resplendent Word" data-flag="@X" onclick="openSidebar('BLV_13_Hyev, the Resplendent Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\59_Lucid Drifter.png" id="BLV_59_Lucid Drifter" data-flag="@X" onclick="openSidebar('BLV_59_Lucid Drifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\105_The Sound of Chimes.png" id="BLV_105_The Sound of Chimes" data-flag="@X" onclick="openSidebar('BLV_105_The Sound of Chimes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\141_Ralk, the Avid Word.png" id="BLV_141_Ralk, the Avid Word" data-flag="@X" onclick="openSidebar('BLV_141_Ralk, the Avid Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\159_Celebrated Violist.png" id="BLV_159_Celebrated Violist" data-flag="@X" onclick="openSidebar('BLV_159_Celebrated Violist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\38_Vault of Forgeries.png" id="BLV_38_Vault of Forgeries" data-flag="@X" onclick="openSidebar('BLV_38_Vault of Forgeries',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\62_Nue, the Artful Word.png" id="BLV_62_Nue, the Artful Word" data-flag="@X" onclick="openSidebar('BLV_62_Nue, the Artful Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\117_Xaw, the Covetous Word.png" id="BLV_117_Xaw, the Covetous Word" data-flag="@X" onclick="openSidebar('BLV_117_Xaw, the Covetous Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\154_Upending of Order.png" id="BLV_154_Upending of Order" data-flag="@X" onclick="openSidebar('BLV_154_Upending of Order',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\165_Ejo, the Ripening Word.png" id="BLV_165_Ejo, the Ripening Word" data-flag="@X" onclick="openSidebar('BLV_165_Ejo, the Ripening Word',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\1_Brimtouched Chaplain.png" id="BLV_1_Brimtouched Chaplain" data-flag="@X" onclick="openSidebar('BLV_1_Brimtouched Chaplain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\42_All-Consuming Project.png" id="BLV_42_All-Consuming Project" data-flag="@X" onclick="openSidebar('BLV_42_All-Consuming Project',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\81_Bianco, Midnight's Host.png" id="BLV_81_Bianco, Midnights Host" data-flag="@X" onclick="openSidebar('BLV_81_Bianco, Midnights Host',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\126_Culvert Babbler.png" id="BLV_126_Culvert Babbler" data-flag="@X" onclick="openSidebar('BLV_126_Culvert Babbler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\169_Hunting Season.png" id="BLV_169_Hunting Season" data-flag="@X" onclick="openSidebar('BLV_169_Hunting Season',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\3_Dollmaker's Refrain.png" id="BLV_3_Dollmakers Refrain" data-flag="@X" onclick="openSidebar('BLV_3_Dollmakers Refrain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\43_Archivist's Refrain.png" id="BLV_43_Archivists Refrain" data-flag="@X" onclick="openSidebar('BLV_43_Archivists Refrain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\89_Intruding Thought.png" id="BLV_89_Intruding Thought" data-flag="@X" onclick="openSidebar('BLV_89_Intruding Thought',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\129_Girl in the Phoenix Dress.png" id="BLV_129_Girl in the Phoenix Dress" data-flag="@X" onclick="openSidebar('BLV_129_Girl in the Phoenix Dress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\170_Importer's Refrain.png" id="BLV_170_Importers Refrain" data-flag="@X" onclick="openSidebar('BLV_170_Importers Refrain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\18_Only Eyes For Each Other.png" id="BLV_18_Only Eyes For Each Other" data-flag="@X" onclick="openSidebar('BLV_18_Only Eyes For Each Other',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\48_Disgorger of Suns.png" id="BLV_48_Disgorger of Suns" data-flag="@X" onclick="openSidebar('BLV_48_Disgorger of Suns',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\95_Nightmarish Judge.png" id="BLV_95_Nightmarish Judge" data-flag="@X" onclick="openSidebar('BLV_95_Nightmarish Judge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\130_Highborn Dragoness.png" id="BLV_130_Highborn Dragoness" data-flag="@X" onclick="openSidebar('BLV_130_Highborn Dragoness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\171_Kaxyl, the Last Faun.png" id="BLV_171_Kaxyl, the Last Faun" data-flag="@X" onclick="openSidebar('BLV_171_Kaxyl, the Last Faun',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\22_Prima Donna.png" id="BLV_22_Prima Donna" data-flag="@X" onclick="openSidebar('BLV_22_Prima Donna',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\54_Half-Breed Scion.png" id="BLV_54_Half-Breed Scion" data-flag="@X" onclick="openSidebar('BLV_54_Half-Breed Scion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\98_Payment Comes Due.png" id="BLV_98_Payment Comes Due" data-flag="@X" onclick="openSidebar('BLV_98_Payment Comes Due',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\140_Radical Experiment.png" id="BLV_140_Radical Experiment" data-flag="@X" onclick="openSidebar('BLV_140_Radical Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\179_Picky Horticulturalist.png" id="BLV_179_Picky Horticulturalist" data-flag="@X" onclick="openSidebar('BLV_179_Picky Horticulturalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\24_Selthriel, Chained Seraph.png" id="BLV_24_Selthriel, Chained Seraph" data-flag="@X" onclick="openSidebar('BLV_24_Selthriel, Chained Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\61_Mr. Hours, Pseudarchivist.png" id="BLV_61_Mr. Hours, Pseudarchivist" data-flag="@X" onclick="openSidebar('BLV_61_Mr. Hours, Pseudarchivist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\99_Penitent Poacher.png" id="BLV_99_Penitent Poacher" data-flag="@X" onclick="openSidebar('BLV_99_Penitent Poacher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\143_Ringmaster's Refrain.png" id="BLV_143_Ringmasters Refrain" data-flag="@X" onclick="openSidebar('BLV_143_Ringmasters Refrain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\183_Rubbery Recluse.png" id="BLV_183_Rubbery Recluse" data-flag="@X" onclick="openSidebar('BLV_183_Rubbery Recluse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\25_Shutter and Bury.png" id="BLV_25_Shutter and Bury" data-flag="@X" onclick="openSidebar('BLV_25_Shutter and Bury',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\64_Oraculous Expatriate.png" id="BLV_64_Oraculous Expatriate" data-flag="@X" onclick="openSidebar('BLV_64_Oraculous Expatriate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\100_Phrenologist's Refrain.png" id="BLV_100_Phrenologists Refrain" data-flag="@X" onclick="openSidebar('BLV_100_Phrenologists Refrain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\146_The Scarlet Lady.png" id="BLV_146_The Scarlet Lady" data-flag="@X" onclick="openSidebar('BLV_146_The Scarlet Lady',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\185_Sensible Summoning.png" id="BLV_185_Sensible Summoning" data-flag="@X" onclick="openSidebar('BLV_185_Sensible Summoning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\28_Slate Mask.png" id="BLV_28_Slate Mask" data-flag="@X" onclick="openSidebar('BLV_28_Slate Mask',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\66_Perfected Soloist.png" id="BLV_66_Perfected Soloist" data-flag="@X" onclick="openSidebar('BLV_66_Perfected Soloist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\104_Shade of Impending Doom.png" id="BLV_104_Shade of Impending Doom" data-flag="@X" onclick="openSidebar('BLV_104_Shade of Impending Doom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\148_Silver Shackle Initiation.png" id="BLV_148_Silver Shackle Initiation" data-flag="@X" onclick="openSidebar('BLV_148_Silver Shackle Initiation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\186_Silk-String Marionette.png" id="BLV_186_Silk-String Marionette" data-flag="@X" onclick="openSidebar('BLV_186_Silk-String Marionette',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\30_Sovereign of Submission.png" id="BLV_30_Sovereign of Submission" data-flag="@X" onclick="openSidebar('BLV_30_Sovereign of Submission',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\76_Uninvited Guests.png" id="BLV_76_Uninvited Guests" data-flag="@X" onclick="openSidebar('BLV_76_Uninvited Guests',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\109_Tutor of Epitaphs.png" id="BLV_109_Tutor of Epitaphs" data-flag="@X" onclick="openSidebar('BLV_109_Tutor of Epitaphs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\155_Velvet Glove Exile.png" id="BLV_155_Velvet Glove Exile" data-flag="@X" onclick="openSidebar('BLV_155_Velvet Glove Exile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\195_Vesperine Abductor.png" id="BLV_195_Vesperine Abductor" data-flag="@X" onclick="openSidebar('BLV_195_Vesperine Abductor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\2_Darling Dealer.png" id="BLV_2_Darling Dealer" data-flag="@X" onclick="openSidebar('BLV_2_Darling Dealer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\41_Agency Field Investigators.png" id="BLV_41_Agency Field Investigators" data-flag="@X" onclick="openSidebar('BLV_41_Agency Field Investigators',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\79_Bad Influence.png" id="BLV_79_Bad Influence" data-flag="@X" onclick="openSidebar('BLV_79_Bad Influence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\118_Acclaimed Daredevil.png" id="BLV_118_Acclaimed Daredevil" data-flag="@X" onclick="openSidebar('BLV_118_Acclaimed Daredevil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\158_Canal Conglomeration.png" id="BLV_158_Canal Conglomeration" data-flag="@X" onclick="openSidebar('BLV_158_Canal Conglomeration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\4_Duchess of the Dead.png" id="BLV_4_Duchess of the Dead" data-flag="@X" onclick="openSidebar('BLV_4_Duchess of the Dead',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\44_Automated Confessor.png" id="BLV_44_Automated Confessor" data-flag="@X" onclick="openSidebar('BLV_44_Automated Confessor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\82_Black Iris Visitation.png" id="BLV_82_Black Iris Visitation" data-flag="@X" onclick="openSidebar('BLV_82_Black Iris Visitation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\119_Bleeding Savior.png" id="BLV_119_Bleeding Savior" data-flag="@X" onclick="openSidebar('BLV_119_Bleeding Savior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\162_Crystal Spires Huntress.png" id="BLV_162_Crystal Spires Huntress" data-flag="@X" onclick="openSidebar('BLV_162_Crystal Spires Huntress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\6_Exorcise.png" id="BLV_6_Exorcise" data-flag="@X" onclick="openSidebar('BLV_6_Exorcise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\45_Brimtouched Burglar.png" id="BLV_45_Brimtouched Burglar" data-flag="@X" onclick="openSidebar('BLV_45_Brimtouched Burglar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\86_Father of Ransoms.png" id="BLV_86_Father of Ransoms" data-flag="@X" onclick="openSidebar('BLV_86_Father of Ransoms',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\120_Blood Moon Killer.png" id="BLV_120_Blood Moon Killer" data-flag="@X" onclick="openSidebar('BLV_120_Blood Moon Killer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\163_Disgraced Apothecary.png" id="BLV_163_Disgraced Apothecary" data-flag="@X" onclick="openSidebar('BLV_163_Disgraced Apothecary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\10_Hallahan Voyeur.png" id="BLV_10_Hallahan Voyeur" data-flag="@X" onclick="openSidebar('BLV_10_Hallahan Voyeur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\46_College of Symmetries Tutor.png" id="BLV_46_College of Symmetries Tutor" data-flag="@X" onclick="openSidebar('BLV_46_College of Symmetries Tutor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\88_Initiation Into Fear.png" id="BLV_88_Initiation Into Fear" data-flag="@X" onclick="openSidebar('BLV_88_Initiation Into Fear',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\121_Break the Mirror.png" id="BLV_121_Break the Mirror" data-flag="@X" onclick="openSidebar('BLV_121_Break the Mirror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\168_Ghoul of Whit Street.png" id="BLV_168_Ghoul of Whit Street" data-flag="@X" onclick="openSidebar('BLV_168_Ghoul of Whit Street',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\11_Hear the Chimes.png" id="BLV_11_Hear the Chimes" data-flag="@X" onclick="openSidebar('BLV_11_Hear the Chimes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\47_Disappearing Actor.png" id="BLV_47_Disappearing Actor" data-flag="@X" onclick="openSidebar('BLV_47_Disappearing Actor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\90_Kindly Rewinder.png" id="BLV_90_Kindly Rewinder" data-flag="@X" onclick="openSidebar('BLV_90_Kindly Rewinder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\122_Burning Memories.png" id="BLV_122_Burning Memories" data-flag="@X" onclick="openSidebar('BLV_122_Burning Memories',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\173_Masksmith.png" id="BLV_173_Masksmith" data-flag="@X" onclick="openSidebar('BLV_173_Masksmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\12_Heed Love's Call.png" id="BLV_12_Heed Loves Call" data-flag="@X" onclick="openSidebar('BLV_12_Heed Loves Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\49_Disgraceful Failure.png" id="BLV_49_Disgraceful Failure" data-flag="@X" onclick="openSidebar('BLV_49_Disgraceful Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\92_Maverick Medicalist.png" id="BLV_92_Maverick Medicalist" data-flag="@X" onclick="openSidebar('BLV_92_Maverick Medicalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\132_Joyful Conflagration.png" id="BLV_132_Joyful Conflagration" data-flag="@X" onclick="openSidebar('BLV_132_Joyful Conflagration',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\174_Memento of Paradise.png" id="BLV_174_Memento of Paradise" data-flag="@X" onclick="openSidebar('BLV_174_Memento of Paradise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\15_Illuminated Gramophone.png" id="BLV_15_Illuminated Gramophone" data-flag="@X" onclick="openSidebar('BLV_15_Illuminated Gramophone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\50_Duplicitous Conversation.png" id="BLV_50_Duplicitous Conversation" data-flag="@X" onclick="openSidebar('BLV_50_Duplicitous Conversation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\93_Mire Maiden's Request.png" id="BLV_93_Mire Maidens Request" data-flag="@X" onclick="openSidebar('BLV_93_Mire Maidens Request',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\133_Lacquer School Memento.png" id="BLV_133_Lacquer School Memento" data-flag="@X" onclick="openSidebar('BLV_133_Lacquer School Memento',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\176_Mistress of the Menagerie.png" id="BLV_176_Mistress of the Menagerie" data-flag="@X" onclick="openSidebar('BLV_176_Mistress of the Menagerie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\16_Imperturbable Matron.png" id="BLV_16_Imperturbable Matron" data-flag="@X" onclick="openSidebar('BLV_16_Imperturbable Matron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\52_Entrancing Madman.png" id="BLV_52_Entrancing Madman" data-flag="@X" onclick="openSidebar('BLV_52_Entrancing Madman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\96_One Terrible Night.png" id="BLV_96_One Terrible Night" data-flag="@X" onclick="openSidebar('BLV_96_One Terrible Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\134_Malicious Locomotive.png" id="BLV_134_Malicious Locomotive" data-flag="@X" onclick="openSidebar('BLV_134_Malicious Locomotive',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\177_Normality's Guardian.png" id="BLV_177_Normalitys Guardian" data-flag="@X" onclick="openSidebar('BLV_177_Normalitys Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\17_Make Presentable.png" id="BLV_17_Make Presentable" data-flag="@X" onclick="openSidebar('BLV_17_Make Presentable',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\55_Impossible Apparatus.png" id="BLV_55_Impossible Apparatus" data-flag="@X" onclick="openSidebar('BLV_55_Impossible Apparatus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\97_Overwhelm with Insight.png" id="BLV_97_Overwhelm with Insight" data-flag="@X" onclick="openSidebar('BLV_97_Overwhelm with Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\138_Moment of Connection.png" id="BLV_138_Moment of Connection" data-flag="@X" onclick="openSidebar('BLV_138_Moment of Connection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\178_Open Invitation.png" id="BLV_178_Open Invitation" data-flag="@X" onclick="openSidebar('BLV_178_Open Invitation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\19_Paranoid Heiress.png" id="BLV_19_Paranoid Heiress" data-flag="@X" onclick="openSidebar('BLV_19_Paranoid Heiress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\56_Let Them Down Easy.png" id="BLV_56_Let Them Down Easy" data-flag="@X" onclick="openSidebar('BLV_56_Let Them Down Easy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\102_Scholar of Parasites.png" id="BLV_102_Scholar of Parasites" data-flag="@X" onclick="openSidebar('BLV_102_Scholar of Parasites',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\142_Renegade Clotweaver.png" id="BLV_142_Renegade Clotweaver" data-flag="@X" onclick="openSidebar('BLV_142_Renegade Clotweaver',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\184_Second Chair Drowned.png" id="BLV_184_Second Chair Drowned" data-flag="@X" onclick="openSidebar('BLV_184_Second Chair Drowned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\26_Silent Speaker.png" id="BLV_26_Silent Speaker" data-flag="@X" onclick="openSidebar('BLV_26_Silent Speaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\67_Persitent Haunting.png" id="BLV_67_Persitent Haunting" data-flag="@X" onclick="openSidebar('BLV_67_Persitent Haunting',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\103_Servant of Ravens.png" id="BLV_103_Servant of Ravens" data-flag="@X" onclick="openSidebar('BLV_103_Servant of Ravens',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\144_Sanguine Effusion.png" id="BLV_144_Sanguine Effusion" data-flag="@X" onclick="openSidebar('BLV_144_Sanguine Effusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\187_Slayer's Calling.png" id="BLV_187_Slayers Calling" data-flag="@X" onclick="openSidebar('BLV_187_Slayers Calling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\29_Soaring Pirouette.png" id="BLV_29_Soaring Pirouette" data-flag="@X" onclick="openSidebar('BLV_29_Soaring Pirouette',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\70_Reflection's Replacement.png" id="BLV_70_Reflections Replacement" data-flag="@X" onclick="openSidebar('BLV_70_Reflections Replacement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\106_Spirit's Advocate.png" id="BLV_106_Spirits Advocate" data-flag="@X" onclick="openSidebar('BLV_106_Spirits Advocate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\149_Star-Crossed Pair.png" id="BLV_149_Star-Crossed Pair" data-flag="@X" onclick="openSidebar('BLV_149_Star-Crossed Pair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\190_Stoic Centerpiece.png" id="BLV_190_Stoic Centerpiece" data-flag="@X" onclick="openSidebar('BLV_190_Stoic Centerpiece',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\32_Stained Reminiscence.png" id="BLV_32_Stained Reminiscence" data-flag="@X" onclick="openSidebar('BLV_32_Stained Reminiscence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\72_Smogton Falselight.png" id="BLV_72_Smogton Falselight" data-flag="@X" onclick="openSidebar('BLV_72_Smogton Falselight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\108_Sweet Sorrow.png" id="BLV_108_Sweet Sorrow" data-flag="@X" onclick="openSidebar('BLV_108_Sweet Sorrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\152_Unfortunate In-Law.png" id="BLV_152_Unfortunate In-Law" data-flag="@X" onclick="openSidebar('BLV_152_Unfortunate In-Law',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\192_Taxidermical Effort.png" id="BLV_192_Taxidermical Effort" data-flag="@X" onclick="openSidebar('BLV_192_Taxidermical Effort',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\34_Temperance Deaconess.png" id="BLV_34_Temperance Deaconess" data-flag="@X" onclick="openSidebar('BLV_34_Temperance Deaconess',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\75_Triplicate Trance.png" id="BLV_75_Triplicate Trance" data-flag="@X" onclick="openSidebar('BLV_75_Triplicate Trance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\112_Undertaker's Cudgel.png" id="BLV_112_Undertakers Cudgel" data-flag="@X" onclick="openSidebar('BLV_112_Undertakers Cudgel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\156_Wall of Ravings.png" id="BLV_156_Wall of Ravings" data-flag="@X" onclick="openSidebar('BLV_156_Wall of Ravings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\194_Unkillable Profusion.png" id="BLV_194_Unkillable Profusion" data-flag="@X" onclick="openSidebar('BLV_194_Unkillable Profusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\5_Ephebic Phantom.png" id="BLV_5_Ephebic Phantom" data-flag="@X" onclick="openSidebar('BLV_5_Ephebic Phantom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\40_Affordable Astrologer.png" id="BLV_40_Affordable Astrologer" data-flag="@X" onclick="openSidebar('BLV_40_Affordable Astrologer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\80_Beckoning Bard.png" id="BLV_80_Beckoning Bard" data-flag="@X" onclick="openSidebar('BLV_80_Beckoning Bard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\123_Clockwork Concertists.png" id="BLV_123_Clockwork Concertists" data-flag="@X" onclick="openSidebar('BLV_123_Clockwork Concertists',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\157_Brotherhood Fiddler.png" id="BLV_157_Brotherhood Fiddler" data-flag="@X" onclick="openSidebar('BLV_157_Brotherhood Fiddler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\7_Fogtide Redeemer.png" id="BLV_7_Fogtide Redeemer" data-flag="@X" onclick="openSidebar('BLV_7_Fogtide Redeemer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\51_Dusky Procession.png" id="BLV_51_Dusky Procession" data-flag="@X" onclick="openSidebar('BLV_51_Dusky Procession',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\83_Dance with Death.png" id="BLV_83_Dance with Death" data-flag="@X" onclick="openSidebar('BLV_83_Dance with Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\124_Crazed Arsonist.png" id="BLV_124_Crazed Arsonist" data-flag="@X" onclick="openSidebar('BLV_124_Crazed Arsonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\160_Ceramic Mother.png" id="BLV_160_Ceramic Mother" data-flag="@X" onclick="openSidebar('BLV_160_Ceramic Mother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\8_Full-Service Staff.png" id="BLV_8_Full-Service Staff" data-flag="@X" onclick="openSidebar('BLV_8_Full-Service Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\53_Fickle Fortune.png" id="BLV_53_Fickle Fortune" data-flag="@X" onclick="openSidebar('BLV_53_Fickle Fortune',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\84_Duress.png" id="BLV_84_Duress" data-flag="@X" onclick="openSidebar('BLV_84_Duress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\125_Crystal Spires Cardsharp.png" id="BLV_125_Crystal Spires Cardsharp" data-flag="@X" onclick="openSidebar('BLV_125_Crystal Spires Cardsharp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\161_Cryptobotanist.png" id="BLV_161_Cryptobotanist" data-flag="@X" onclick="openSidebar('BLV_161_Cryptobotanist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\9_Gentle Ending.png" id="BLV_9_Gentle Ending" data-flag="@X" onclick="openSidebar('BLV_9_Gentle Ending',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\57_Liminal Visitor.png" id="BLV_57_Liminal Visitor" data-flag="@X" onclick="openSidebar('BLV_57_Liminal Visitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\85_Excoriate.png" id="BLV_85_Excoriate" data-flag="@X" onclick="openSidebar('BLV_85_Excoriate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\127_Dashing Ringmaster.png" id="BLV_127_Dashing Ringmaster" data-flag="@X" onclick="openSidebar('BLV_127_Dashing Ringmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\164_Dress to the Nines.png" id="BLV_164_Dress to the Nines" data-flag="@X" onclick="openSidebar('BLV_164_Dress to the Nines',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\14_Icy Reception.png" id="BLV_14_Icy Reception" data-flag="@X" onclick="openSidebar('BLV_14_Icy Reception',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\58_Loose Balloonist.png" id="BLV_58_Loose Balloonist" data-flag="@X" onclick="openSidebar('BLV_58_Loose Balloonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\87_Fly By Midnight.png" id="BLV_87_Fly By Midnight" data-flag="@X" onclick="openSidebar('BLV_87_Fly By Midnight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\128_Flaming Reverie.png" id="BLV_128_Flaming Reverie" data-flag="@X" onclick="openSidebar('BLV_128_Flaming Reverie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\166_Elvish Mystic.png" id="BLV_166_Elvish Mystic" data-flag="@X" onclick="openSidebar('BLV_166_Elvish Mystic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\20_Pinion-Clad Exile.png" id="BLV_20_Pinion-Clad Exile" data-flag="@X" onclick="openSidebar('BLV_20_Pinion-Clad Exile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\60_Mirror-Marcher.png" id="BLV_60_Mirror-Marcher" data-flag="@X" onclick="openSidebar('BLV_60_Mirror-Marcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\91_Macabre Insight.png" id="BLV_91_Macabre Insight" data-flag="@X" onclick="openSidebar('BLV_91_Macabre Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\131_Impudent Scion.png" id="BLV_131_Impudent Scion" data-flag="@X" onclick="openSidebar('BLV_131_Impudent Scion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\167_Fidgety Physician.png" id="BLV_167_Fidgety Physician" data-flag="@X" onclick="openSidebar('BLV_167_Fidgety Physician',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\21_Postmaster Specific.png" id="BLV_21_Postmaster Specific" data-flag="@X" onclick="openSidebar('BLV_21_Postmaster Specific',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\63_Occult Investigator.png" id="BLV_63_Occult Investigator" data-flag="@X" onclick="openSidebar('BLV_63_Occult Investigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\94_Morbid Literati.png" id="BLV_94_Morbid Literati" data-flag="@X" onclick="openSidebar('BLV_94_Morbid Literati',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\135_Manic Scrivener.png" id="BLV_135_Manic Scrivener" data-flag="@X" onclick="openSidebar('BLV_135_Manic Scrivener',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\172_Lavish Host.png" id="BLV_172_Lavish Host" data-flag="@X" onclick="openSidebar('BLV_172_Lavish Host',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\23_Proper Presentation.png" id="BLV_23_Proper Presentation" data-flag="@X" onclick="openSidebar('BLV_23_Proper Presentation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\65_The Past Beckons.png" id="BLV_65_The Past Beckons" data-flag="@X" onclick="openSidebar('BLV_65_The Past Beckons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\101_Rite of the Rose.png" id="BLV_101_Rite of the Rose" data-flag="@X" onclick="openSidebar('BLV_101_Rite of the Rose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\136_Masquerade Marquessa.png" id="BLV_136_Masquerade Marquessa" data-flag="@X" onclick="openSidebar('BLV_136_Masquerade Marquessa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\175_Message Falconer.png" id="BLV_175_Message Falconer" data-flag="@X" onclick="openSidebar('BLV_175_Message Falconer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\27_Slapdash Banishing.png" id="BLV_27_Slapdash Banishing" data-flag="@X" onclick="openSidebar('BLV_27_Slapdash Banishing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\68_Rain of Revelation.png" id="BLV_68_Rain of Revelation" data-flag="@X" onclick="openSidebar('BLV_68_Rain of Revelation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\107_Superior's Siphon.png" id="BLV_107_Superiors Siphon" data-flag="@X" onclick="openSidebar('BLV_107_Superiors Siphon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\137_Messy Altercation.png" id="BLV_137_Messy Altercation" data-flag="@X" onclick="openSidebar('BLV_137_Messy Altercation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\180_Quiet Memorium.png" id="BLV_180_Quiet Memorium" data-flag="@X" onclick="openSidebar('BLV_180_Quiet Memorium',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\31_Spry Matron.png" id="BLV_31_Spry Matron" data-flag="@X" onclick="openSidebar('BLV_31_Spry Matron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\69_Reclusive Visionary.png" id="BLV_69_Reclusive Visionary" data-flag="@X" onclick="openSidebar('BLV_69_Reclusive Visionary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\110_Uncanny Chef.png" id="BLV_110_Uncanny Chef" data-flag="@X" onclick="openSidebar('BLV_110_Uncanny Chef',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\139_Novice Bloodsucker.png" id="BLV_139_Novice Bloodsucker" data-flag="@X" onclick="openSidebar('BLV_139_Novice Bloodsucker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\181_Retired Hallowblade.png" id="BLV_181_Retired Hallowblade" data-flag="@X" onclick="openSidebar('BLV_181_Retired Hallowblade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\33_Street Eulogist.png" id="BLV_33_Street Eulogist" data-flag="@X" onclick="openSidebar('BLV_33_Street Eulogist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\71_Serpentine Deacon.png" id="BLV_71_Serpentine Deacon" data-flag="@X" onclick="openSidebar('BLV_71_Serpentine Deacon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\111_Undertaker's Collector.png" id="BLV_111_Undertakers Collector" data-flag="@X" onclick="openSidebar('BLV_111_Undertakers Collector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\145_Scandalize.png" id="BLV_145_Scandalize" data-flag="@X" onclick="openSidebar('BLV_145_Scandalize',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\182_Rooted Rapture.png" id="BLV_182_Rooted Rapture" data-flag="@X" onclick="openSidebar('BLV_182_Rooted Rapture',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\35_Temperance Maskbearer.png" id="BLV_35_Temperance Maskbearer" data-flag="@X" onclick="openSidebar('BLV_35_Temperance Maskbearer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\73_Stay Smiling.png" id="BLV_73_Stay Smiling" data-flag="@X" onclick="openSidebar('BLV_73_Stay Smiling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\113_Undying Beggar.png" id="BLV_113_Undying Beggar" data-flag="@X" onclick="openSidebar('BLV_113_Undying Beggar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\147_Scarlet Reminiscence.png" id="BLV_147_Scarlet Reminiscence" data-flag="@X" onclick="openSidebar('BLV_147_Scarlet Reminiscence',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\188_Snakeskin Veil.png" id="BLV_188_Snakeskin Veil" data-flag="@X" onclick="openSidebar('BLV_188_Snakeskin Veil',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\36_Tuppence Ball.png" id="BLV_36_Tuppence Ball" data-flag="@X" onclick="openSidebar('BLV_36_Tuppence Ball',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\74_Sunken Study.png" id="BLV_74_Sunken Study" data-flag="@X" onclick="openSidebar('BLV_74_Sunken Study',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\114_Unexpected Fangs.png" id="BLV_114_Unexpected Fangs" data-flag="@X" onclick="openSidebar('BLV_114_Unexpected Fangs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\150_Star-Touched Ripper.png" id="BLV_150_Star-Touched Ripper" data-flag="@X" onclick="openSidebar('BLV_150_Star-Touched Ripper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\189_Sonorous Terror.png" id="BLV_189_Sonorous Terror" data-flag="@X" onclick="openSidebar('BLV_189_Sonorous Terror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\37_Uptight Dancer.png" id="BLV_37_Uptight Dancer" data-flag="@X" onclick="openSidebar('BLV_37_Uptight Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\77_Unlikely Fling.png" id="BLV_77_Unlikely Fling" data-flag="@X" onclick="openSidebar('BLV_77_Unlikely Fling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\115_Unloved Mannequin.png" id="BLV_115_Unloved Mannequin" data-flag="@X" onclick="openSidebar('BLV_115_Unloved Mannequin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\151_Strangle.png" id="BLV_151_Strangle" data-flag="@X" onclick="openSidebar('BLV_151_Strangle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\191_Take the Shot.png" id="BLV_191_Take the Shot" data-flag="@X" onclick="openSidebar('BLV_191_Take the Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\39_Winslip Vanguard.png" id="BLV_39_Winslip Vanguard" data-flag="@X" onclick="openSidebar('BLV_39_Winslip Vanguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\78_Well-Bred Vampire.png" id="BLV_78_Well-Bred Vampire" data-flag="@X" onclick="openSidebar('BLV_78_Well-Bred Vampire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\116_Velvet Glove Assassin.png" id="BLV_116_Velvet Glove Assassin" data-flag="@X" onclick="openSidebar('BLV_116_Velvet Glove Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\153_Unwoven Seamstress.png" id="BLV_153_Unwoven Seamstress" data-flag="@X" onclick="openSidebar('BLV_153_Unwoven Seamstress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\193_Torchlit Confrontation.png" id="BLV_193_Torchlit Confrontation" data-flag="@X" onclick="openSidebar('BLV_193_Torchlit Confrontation',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div id="gold" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\231_Unspoken Rule.png" id="BLV_231_Unspoken Rule" data-flag="@X" onclick="openSidebar('BLV_231_Unspoken Rule',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\223_The Second Madness.png" id="BLV_223_The Second Madness" data-flag="@X" onclick="openSidebar('BLV_223_The Second Madness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\218_Physician of Abominations.png" id="BLV_218_Physician of Abominations" data-flag="@X" onclick="openSidebar('BLV_218_Physician of Abominations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\199_The Attended One.png" id="BLV_199_The Attended One" data-flag="@X" onclick="openSidebar('BLV_199_The Attended One',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\207_Girl with Carnations.png" id="BLV_207_Girl with Carnations" data-flag="@X" onclick="openSidebar('BLV_207_Girl with Carnations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\211_The Ivory Dollmaker.png" id="BLV_211_The Ivory Dollmaker" data-flag="@X" onclick="openSidebar('BLV_211_The Ivory Dollmaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\197_Anonymous Assistance.png" id="BLV_197_Anonymous Assistance" data-flag="@X" onclick="openSidebar('BLV_197_Anonymous Assistance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\232_Xolier of the Stylish Entrance.png" id="BLV_232_Xolier of the Stylish Entrance" data-flag="@X" onclick="openSidebar('BLV_232_Xolier of the Stylish Entrance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\226_Staff of Beast's Blood.png" id="BLV_226_Staff of Beasts Blood" data-flag="@X" onclick="openSidebar('BLV_226_Staff of Beasts Blood',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\205_Faith Winslip, Riflehearted.png" id="BLV_205_Faith Winslip, Riflehearted" data-flag="@X" onclick="openSidebar('BLV_205_Faith Winslip, Riflehearted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\204_Enraptured Medium.png" id="BLV_204_Enraptured Medium" data-flag="@X" onclick="openSidebar('BLV_204_Enraptured Medium',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\220_Preserved Gentleman.png" id="BLV_220_Preserved Gentleman" data-flag="@X" onclick="openSidebar('BLV_220_Preserved Gentleman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\213_Lost Sun's Reach.png" id="BLV_213_Lost Suns Reach" data-flag="@X" onclick="openSidebar('BLV_213_Lost Suns Reach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\227_Sunset Dancer.png" id="BLV_227_Sunset Dancer" data-flag="@X" onclick="openSidebar('BLV_227_Sunset Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\208_Gracious Moonchosen.png" id="BLV_208_Gracious Moonchosen" data-flag="@X" onclick="openSidebar('BLV_208_Gracious Moonchosen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\222_Rewrite.png" id="BLV_222_Rewrite" data-flag="@X" onclick="openSidebar('BLV_222_Rewrite',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\228_Thoughtstab Wretch.png" id="BLV_228_Thoughtstab Wretch" data-flag="@X" onclick="openSidebar('BLV_228_Thoughtstab Wretch',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\224_Shackled Song.png" id="BLV_224_Shackled Song" data-flag="@X" onclick="openSidebar('BLV_224_Shackled Song',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\200_Carize, Death's Editor.png" id="BLV_200_Carize, Deaths Editor" data-flag="@X" onclick="openSidebar('BLV_200_Carize, Deaths Editor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\206_Generous Reveler.png" id="BLV_206_Generous Reveler" data-flag="@X" onclick="openSidebar('BLV_206_Generous Reveler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\215_Lucent Playwright.png" id="BLV_215_Lucent Playwright" data-flag="@X" onclick="openSidebar('BLV_215_Lucent Playwright',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\196_The Ambergris Chorus.png" id="BLV_196_The Ambergris Chorus" data-flag="@X" onclick="openSidebar('BLV_196_The Ambergris Chorus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\221_Revisionist Historian.png" id="BLV_221_Revisionist Historian" data-flag="@X" onclick="openSidebar('BLV_221_Revisionist Historian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\201_A Dance Not To Be Missed.png" id="BLV_201_A Dance Not To Be Missed" data-flag="@X" onclick="openSidebar('BLV_201_A Dance Not To Be Missed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\198_Arden, Thief of Futures.png" id="BLV_198_Arden, Thief of Futures" data-flag="@X" onclick="openSidebar('BLV_198_Arden, Thief of Futures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\212_Limor, Etiquette Enforcer.png" id="BLV_212_Limor, Etiquette Enforcer" data-flag="@X" onclick="openSidebar('BLV_212_Limor, Etiquette Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\209_Haunting in the Cellar.png" id="BLV_209_Haunting in the Cellar" data-flag="@X" onclick="openSidebar('BLV_209_Haunting in the Cellar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\233_Your Enthusiastic Employer.png" id="BLV_233_Your Enthusiastic Employer" data-flag="@X" onclick="openSidebar('BLV_233_Your Enthusiastic Employer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\229_Transformed Deacon.png" id="BLV_229_Transformed Deacon" data-flag="@X" onclick="openSidebar('BLV_229_Transformed Deacon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\214_Lovely Nightmares.png" id="BLV_214_Lovely Nightmares" data-flag="@X" onclick="openSidebar('BLV_214_Lovely Nightmares',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\203_Duke of Crowns.png" id="BLV_203_Duke of Crowns" data-flag="@X" onclick="openSidebar('BLV_203_Duke of Crowns',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\230_Twitchy Housekeeper.png" id="BLV_230_Twitchy Housekeeper" data-flag="@X" onclick="openSidebar('BLV_230_Twitchy Housekeeper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\202_Dreams of Eternity.png" id="BLV_202_Dreams of Eternity" data-flag="@X" onclick="openSidebar('BLV_202_Dreams of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\219_Precocious Playmate.png" id="BLV_219_Precocious Playmate" data-flag="@X" onclick="openSidebar('BLV_219_Precocious Playmate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\225_Skeletal Effigy.png" id="BLV_225_Skeletal Effigy" data-flag="@X" onclick="openSidebar('BLV_225_Skeletal Effigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\210_Hermit of Curatives.png" id="BLV_210_Hermit of Curatives" data-flag="@X" onclick="openSidebar('BLV_210_Hermit of Curatives',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\216_Nia, Yesterday's Beloved.png" id="BLV_216_Nia, Yesterdays Beloved" data-flag="@X" onclick="openSidebar('BLV_216_Nia, Yesterdays Beloved',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\217_Patron of the Nameless.png" id="BLV_217_Patron of the Nameless" data-flag="@X" onclick="openSidebar('BLV_217_Patron of the Nameless',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\236_Cursed Portrait.png" id="BLV_236_Cursed Portrait" data-flag="@X" onclick="openSidebar('BLV_236_Cursed Portrait',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\234_Candid Camera.png" id="BLV_234_Candid Camera" data-flag="@X" onclick="openSidebar('BLV_234_Candid Camera',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\240_Ornate Flintlock.png" id="BLV_240_Ornate Flintlock" data-flag="@X" onclick="openSidebar('BLV_240_Ornate Flintlock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\241_Pocket Armillary.png" id="BLV_241_Pocket Armillary" data-flag="@X" onclick="openSidebar('BLV_241_Pocket Armillary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\242_Porcelain Outcast.png" id="BLV_242_Porcelain Outcast" data-flag="@X" onclick="openSidebar('BLV_242_Porcelain Outcast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\243_Sackcloth Companion.png" id="BLV_243_Sackcloth Companion" data-flag="@X" onclick="openSidebar('BLV_243_Sackcloth Companion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\235_Concealed Dagger.png" id="BLV_235_Concealed Dagger" data-flag="@X" onclick="openSidebar('BLV_235_Concealed Dagger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\237_Dressup Helper.png" id="BLV_237_Dressup Helper" data-flag="@X" onclick="openSidebar('BLV_237_Dressup Helper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\238_Garden Doll.png" id="BLV_238_Garden Doll" data-flag="@X" onclick="openSidebar('BLV_238_Garden Doll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\239_Grisly Font.png" id="BLV_239_Grisly Font" data-flag="@X" onclick="openSidebar('BLV_239_Grisly Font',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\244_Scion's Substitute.png" id="BLV_244_Scions Substitute" data-flag="@X" onclick="openSidebar('BLV_244_Scions Substitute',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div id="land" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\248_Cordial Hall.png" id="BLV_248_Cordial Hall" data-flag="@X" onclick="openSidebar('BLV_248_Cordial Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\250_Discreet Hall.png" id="BLV_250_Discreet Hall" data-flag="@X" onclick="openSidebar('BLV_250_Discreet Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\245_Ambitious Hall.png" id="BLV_245_Ambitious Hall" data-flag="@X" onclick="openSidebar('BLV_245_Ambitious Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\247_Breathtaking Hall.png" id="BLV_247_Breathtaking Hall" data-flag="@X" onclick="openSidebar('BLV_247_Breathtaking Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\251_Echoing Hall.png" id="BLV_251_Echoing Hall" data-flag="@X" onclick="openSidebar('BLV_251_Echoing Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\257_Spectral Address.png" id="BLV_257_Spectral Address" data-flag="@X" onclick="openSidebar('BLV_257_Spectral Address',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\259_Submerged Laboratory.png" id="BLV_259_Submerged Laboratory" data-flag="@X" onclick="openSidebar('BLV_259_Submerged Laboratory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\249_Cosmic Observatory.png" id="BLV_249_Cosmic Observatory" data-flag="@X" onclick="openSidebar('BLV_249_Cosmic Observatory',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\254_Opulent Chamber.png" id="BLV_254_Opulent Chamber" data-flag="@X" onclick="openSidebar('BLV_254_Opulent Chamber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\253_Liberating Vista.png" id="BLV_253_Liberating Vista" data-flag="@X" onclick="openSidebar('BLV_253_Liberating Vista',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\269_Riverside View.png" id="BLV_269_Riverside View" data-flag="@X" onclick="openSidebar('BLV_269_Riverside View',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\266_Dubious Path.png" id="BLV_266_Dubious Path" data-flag="@X" onclick="openSidebar('BLV_266_Dubious Path',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\263_Decadent Hall.png" id="BLV_263_Decadent Hall" data-flag="@X" onclick="openSidebar('BLV_263_Decadent Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\270_Secluded Farmland.png" id="BLV_270_Secluded Farmland" data-flag="@X" onclick="openSidebar('BLV_270_Secluded Farmland',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\271_Thriving Tower.png" id="BLV_271_Thriving Tower" data-flag="@X" onclick="openSidebar('BLV_271_Thriving Tower',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\261_Unsettling Abbey.png" id="BLV_261_Unsettling Abbey" data-flag="@X" onclick="openSidebar('BLV_261_Unsettling Abbey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\260_Twisted Sewer.png" id="BLV_260_Twisted Sewer" data-flag="@X" onclick="openSidebar('BLV_260_Twisted Sewer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\255_Rotting Dreamscape.png" id="BLV_255_Rotting Dreamscape" data-flag="@X" onclick="openSidebar('BLV_255_Rotting Dreamscape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\256_Smoky Parlor.png" id="BLV_256_Smoky Parlor" data-flag="@X" onclick="openSidebar('BLV_256_Smoky Parlor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\246_Backstreet Apothecary.png" id="BLV_246_Backstreet Apothecary" data-flag="@X" onclick="openSidebar('BLV_246_Backstreet Apothecary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\265_Downtown Theater.png" id="BLV_265_Downtown Theater" data-flag="@X" onclick="openSidebar('BLV_265_Downtown Theater',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\267_Impressive Skyline.png" id="BLV_267_Impressive Skyline" data-flag="@X" onclick="openSidebar('BLV_267_Impressive Skyline',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\268_Reliable Market.png" id="BLV_268_Reliable Market" data-flag="@X" onclick="openSidebar('BLV_268_Reliable Market',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\262_Beloved Chapel.png" id="BLV_262_Beloved Chapel" data-flag="@X" onclick="openSidebar('BLV_262_Beloved Chapel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\264_Disturbing Locale.png" id="BLV_264_Disturbing Locale" data-flag="@X" onclick="openSidebar('BLV_264_Disturbing Locale',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\258_Stage of Endless Possibilities.png" id="BLV_258_Stage of Endless Possibilities" data-flag="@X" onclick="openSidebar('BLV_258_Stage of Endless Possibilities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\252_Esoteric Institute.png" id="BLV_252_Esoteric Institute" data-flag="@X" onclick="openSidebar('BLV_252_Esoteric Institute',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="BLV_e" data-flag="@E" onclick="openSidebar('BLV_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\273_Island.png" id="BLV_273_Island" data-flag="@X" onclick="openSidebar('BLV_273_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\275_Mountain.png" id="BLV_275_Mountain" data-flag="@X" onclick="openSidebar('BLV_275_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\272_Plains.png" id="BLV_272_Plains" data-flag="@X" onclick="openSidebar('BLV_272_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\274_Swamp.png" id="BLV_274_Swamp" data-flag="@X" onclick="openSidebar('BLV_274_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\276_Forest.png" id="BLV_276_Forest" data-flag="@X" onclick="openSidebar('BLV_276_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\1t_Seen In Visions.png" id="BLV_1t_Seen In Visions" data-flag="@X" onclick="openSidebar('BLV_1t_Seen In Visions',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\2t_Veiled Creature.png" id="BLV_2t_Veiled Creature" data-flag="@X" onclick="openSidebar('BLV_2t_Veiled Creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\7t_The Second Fiddle BLV.png" id="BLV_7t_The Second Fiddle BLV" data-flag="@X" onclick="openSidebar('BLV_7t_The Second Fiddle BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\8t_colorless Toy 11BLV.png" id="BLV_8t_colorless Toy 11BLV" data-flag="@X" onclick="openSidebar('BLV_8t_colorless Toy 11BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\9t_TreasureBLV.png" id="BLV_9t_TreasureBLV" data-flag="@X" onclick="openSidebar('BLV_9t_TreasureBLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\10t_The Winslip Special BLV.png" id="BLV_10t_The Winslip Special BLV" data-flag="@X" onclick="openSidebar('BLV_10t_The Winslip Special BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\3t_white Spirit 11BLV.png" id="BLV_3t_white Spirit 11BLV" data-flag="@X" onclick="openSidebar('BLV_3t_white Spirit 11BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\4t_black Horror 32BLV.png" id="BLV_4t_black Horror 32BLV" data-flag="@X" onclick="openSidebar('BLV_4t_black Horror 32BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\5t_green Beast 33BLV.png" id="BLV_5t_green Beast 33BLV" data-flag="@X" onclick="openSidebar('BLV_5t_green Beast 33BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\BLV-files\img\6t_Verse BLV.png" id="BLV_6t_Verse BLV" data-flag="@X" onclick="openSidebar('BLV_6t_Verse BLV',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="BLV_er" data-flag="@E" onclick="openSidebar('BLV_er',false)"></div>
 	</div>
-</div>
+	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -560,13 +602,13 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
@@ -574,8 +616,100 @@
 
 				card_list_arrayified = card_list.cards;
 
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
 		preloadImgs = document.getElementsByClassName('preload-hidden');
-		
+
 		let images_loaded = [];
 
 		do {
@@ -607,13 +741,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -639,49 +776,75 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
 		horizontal = h;
 		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
-		
+
 		document.getElementById('sidebar').style.display = 'grid';
 
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -696,7 +859,7 @@
 			document.getElementById('sidebar-flip-btn').style.display = 'none';
 		}
 		document.getElementById('main-content').style.width = '60%';
-		
+
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
 		setSidebarTop();
@@ -707,10 +870,30 @@
 
 		document.getElementById('sidebar').style.display = 'none';
 		document.getElementById('main-content').style.width = '100%';
-		
+
 
 		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
 		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
 	}
 
 	document.getElementById("search").addEventListener("keypress", function(event) {
@@ -721,16 +904,16 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
 				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
 				let random_card = card_list_arrayified[i];
 
-				const url = new URL('card', window.location.origin);
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 				const params = {
 					set: random_card.set,
 					num: random_card.number,
@@ -740,7 +923,7 @@
 					url.searchParams.append(key, params[key]);
 				}
 
-				window.location.href = url;
+				window.location.href = url.pathname + url.search;
 			}
 	</script>
 </body>

@@ -4,7 +4,7 @@
 			"name": "Layer-Lost Innocent",
 			"rarity": "common",
 			"mana_cost": "{W}",
-			"type": "Creature — Spirit ",
+			"type": "Creature — Spirit",
 			"collector_number": "18",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/18_Layer-Lost Innocent.png"
@@ -14,7 +14,7 @@
 			"name": "Qualite Quartermaster",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "23",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/23_Qualite Quartermaster.png"
@@ -24,7 +24,7 @@
 			"name": "Rumbling Dancer",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "26",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/26_Rumbling Dancer.png"
@@ -34,7 +34,7 @@
 			"name": "Jealous Gargoyle",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact Creature — Gargoyle ",
+			"type": "Artifact Creature — Gargoyle",
 			"collector_number": "16",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/16_Jealous Gargoyle.png"
@@ -44,7 +44,7 @@
 			"name": "Caretaker of Bones",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Spirit ",
+			"type": "Creature — Spirit",
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/4_Caretaker of Bones.png"
@@ -54,7 +54,7 @@
 			"name": "Shadowwing Acolyte",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Human Bird Warlock ",
+			"type": "Creature — Human Bird Warlock",
 			"collector_number": "27",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/27_Shadowwing Acolyte.png"
@@ -64,7 +64,7 @@
 			"name": "Valiant Golem",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "32",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/32_Valiant Golem.png"
@@ -74,7 +74,7 @@
 			"name": "Relic Court Guardian",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "24",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/24_Relic Court Guardian.png"
@@ -84,7 +84,7 @@
 			"name": "Qualite Altruists",
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "21",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/21_Qualite Altruists.png"
@@ -134,7 +134,7 @@
 			"name": "Thoughtknife Rogue",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Skeleton Rogue ",
+			"type": "Creature — Skeleton Rogue",
 			"collector_number": "58",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/58_Thoughtknife Rogue.png"
@@ -144,7 +144,7 @@
 			"name": "Lucky Phantom",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Spirit ",
+			"type": "Creature — Spirit",
 			"collector_number": "47",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/47_Lucky Phantom.png"
@@ -154,7 +154,7 @@
 			"name": "Frigid Sentry",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "43",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/43_Frigid Sentry.png"
@@ -164,7 +164,7 @@
 			"name": "Relighter Drake",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Drake ",
+			"type": "Creature — Drake",
 			"collector_number": "52",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/52_Relighter Drake.png"
@@ -174,7 +174,7 @@
 			"name": "Cryptek Reliquary",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Insect Cleric ",
+			"type": "Creature — Insect Cleric",
 			"collector_number": "40",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/40_Cryptek Reliquary.png"
@@ -184,7 +184,7 @@
 			"name": "Omen Hoarder",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Skeleton ",
+			"type": "Creature — Skeleton",
 			"collector_number": "49",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/49_Omen Hoarder.png"
@@ -194,7 +194,7 @@
 			"name": "Golem of Remembrance",
 			"rarity": "common",
 			"mana_cost": "{5}{U}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "44",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/44_Golem of Remembrance.png"
@@ -254,7 +254,7 @@
 			"name": "Scrapseer Golem",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "54",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/54_Scrapseer Golem.png"
@@ -264,7 +264,7 @@
 			"name": "Skeletal Scavenger",
 			"rarity": "common",
 			"mana_cost": "{B}",
-			"type": "Creature — Skeleton Rogue ",
+			"type": "Creature — Skeleton Rogue",
 			"collector_number": "89",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/89_Skeletal Scavenger.png"
@@ -274,7 +274,7 @@
 			"name": "Sightless Failure",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Horror ",
+			"type": "Creature — Human Horror",
 			"collector_number": "88",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/88_Sightless Failure.png"
@@ -284,7 +284,7 @@
 			"name": "Gurgling Visionary",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "76",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/76_Gurgling Visionary.png"
@@ -294,7 +294,7 @@
 			"name": "Mournful Raven",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Bird ",
+			"type": "Creature — Bird",
 			"collector_number": "83",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/83_Mournful Raven.png"
@@ -304,7 +304,7 @@
 			"name": "Impaled Augur",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Zombie ",
+			"type": "Creature — Zombie",
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/77_Impaled Augur.png"
@@ -314,7 +314,7 @@
 			"name": "Facemask Carver",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Zombie Artificer ",
+			"type": "Creature — Zombie Artificer",
 			"collector_number": "75",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/75_Facemask Carver.png"
@@ -324,7 +324,7 @@
 			"name": "Indebted Argentist",
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
-			"type": "Creature — Vampire ",
+			"type": "Creature — Vampire",
 			"collector_number": "78",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/78_Indebted Argentist.png"
@@ -334,7 +334,7 @@
 			"name": "Petty Gravelord",
 			"rarity": "common",
 			"mana_cost": "{5}{B}",
-			"type": "Creature — Skeleton Noble ",
+			"type": "Creature — Skeleton Noble",
 			"collector_number": "87",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/87_Petty Gravelord.png"
@@ -394,7 +394,7 @@
 			"name": "Emberbone",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Skeleton Soldier ",
+			"type": "Creature — Skeleton Soldier",
 			"collector_number": "106",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/106_Emberbone.png"
@@ -404,7 +404,7 @@
 			"name": "Kindler Prodigy",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Wizard ",
+			"type": "Creature — Human Wizard",
 			"collector_number": "118",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/118_Kindler Prodigy.png"
@@ -414,7 +414,7 @@
 			"name": "Entranceway Smith",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Warrior ",
+			"type": "Creature — Human Warrior",
 			"collector_number": "108",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/108_Entranceway Smith.png"
@@ -424,7 +424,7 @@
 			"name": "Charlight Reader",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Lizard Warlock ",
+			"type": "Creature — Lizard Warlock",
 			"collector_number": "103",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/103_Charlight Reader.png"
@@ -434,7 +434,7 @@
 			"name": "Magmatic Aspirant",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "119",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/119_Magmatic Aspirant.png"
@@ -444,7 +444,7 @@
 			"name": "Immolation Mage",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Goblin Wizard ",
+			"type": "Creature — Goblin Wizard",
 			"collector_number": "114",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/114_Immolation Mage.png"
@@ -454,7 +454,7 @@
 			"name": "Basalt Crawler",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Spider Horror ",
+			"type": "Creature — Spider Horror",
 			"collector_number": "98",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/98_Basalt Crawler.png"
@@ -464,7 +464,7 @@
 			"name": "Ghoulish Taskmaster",
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Zombie Warrior ",
+			"type": "Creature — Zombie Warrior",
 			"collector_number": "112",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/112_Ghoulish Taskmaster.png"
@@ -524,7 +524,7 @@
 			"name": "Roothian Acidwielder",
 			"rarity": "common",
 			"mana_cost": "{G}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "151",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/151_Roothian Acidwielder.png"
@@ -534,7 +534,7 @@
 			"name": "Unctious Toady",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Ogre ",
+			"type": "Creature — Ogre",
 			"collector_number": "157",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/157_Unctious Toady.png"
@@ -544,7 +544,7 @@
 			"name": "Canny Merchant",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Snake Druid ",
+			"type": "Creature — Snake Druid",
 			"collector_number": "131",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/131_Canny Merchant.png"
@@ -554,7 +554,7 @@
 			"name": "Sunwise Tortoise",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Turtle ",
+			"type": "Creature — Turtle",
 			"collector_number": "155",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/155_Sunwise Tortoise.png"
@@ -564,7 +564,7 @@
 			"name": "Fungus Reader",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Human Druid ",
+			"type": "Creature — Human Druid",
 			"collector_number": "138",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/138_Fungus Reader.png"
@@ -574,7 +574,7 @@
 			"name": "Blind Watcher",
 			"rarity": "common",
 			"mana_cost": "{5}{G}",
-			"type": "Creature — Horror ",
+			"type": "Creature — Horror",
 			"collector_number": "130",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/130_Blind Watcher.png"
@@ -584,7 +584,7 @@
 			"name": "Snowmelt Ranger",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Human Ranger ",
+			"type": "Creature — Human Ranger",
 			"collector_number": "154",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/154_Snowmelt Ranger.png"
@@ -594,7 +594,7 @@
 			"name": "Veteran Linerunner",
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
-			"type": "Creature — Human Warrior ",
+			"type": "Creature — Human Warrior",
 			"collector_number": "160",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/160_Veteran Linerunner.png"
@@ -604,7 +604,7 @@
 			"name": "Dragon Golem",
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
-			"type": "Artifact Creature — Dragon Golem ",
+			"type": "Artifact Creature — Dragon Golem",
 			"collector_number": "134",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/134_Dragon Golem.png"
@@ -654,7 +654,7 @@
 			"name": "Availer of Relics",
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "207",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/207_Availer of Relics.png"
@@ -664,7 +664,7 @@
 			"name": "Babbling Bestial",
 			"rarity": "common",
 			"mana_cost": "{5}{U/B}{U/B}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "208",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/208_Babbling Bestial.png"
@@ -674,7 +674,7 @@
 			"name": "Famished Fargone",
 			"rarity": "common",
 			"mana_cost": "{B/R}",
-			"type": "Creature — Horror ",
+			"type": "Creature — Horror",
 			"collector_number": "209",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/209_Famished Fargone.png"
@@ -683,8 +683,8 @@
 		{
 			"name": "Smoke Dancer",
 			"rarity": "common",
-			"mana_cost": "{1}{R/G}{R/G}",
-			"type": "Creature — Human Soldier ",
+			"mana_cost": "{1{R}G}{R/G}",
+			"type": "Creature — Human Soldier",
 			"collector_number": "212",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/212_Smoke Dancer.png"
@@ -694,7 +694,7 @@
 			"name": "Anointed Curebearer",
 			"rarity": "common",
 			"mana_cost": "{G/W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "206",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/206_Anointed Curebearer.png"
@@ -703,8 +703,8 @@
 		{
 			"name": "Priest of Debt",
 			"rarity": "common",
-			"mana_cost": "{1}{W/B}",
-			"type": "Creature — Human Cleric ",
+			"mana_cost": "{1{W}B}",
+			"type": "Creature — Human Cleric",
 			"collector_number": "211",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/211_Priest of Debt.png"
@@ -713,8 +713,8 @@
 		{
 			"name": "Lanternlight Ghoul",
 			"rarity": "common",
-			"mana_cost": "{1}{B/G}{B/G}",
-			"type": "Creature — Zombie Cleric ",
+			"mana_cost": "{1{B}G}{B/G}",
+			"type": "Creature — Zombie Cleric",
 			"collector_number": "210",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/210_Lanternlight Ghoul.png"
@@ -724,7 +724,7 @@
 			"name": "Unblinking Mass",
 			"rarity": "common",
 			"mana_cost": "{2}{G/U}{G/U}",
-			"type": "Creature — Horror ",
+			"type": "Creature — Horror",
 			"collector_number": "213",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/213_Unblinking Mass.png"
@@ -743,8 +743,8 @@
 		{
 			"name": "Zealous Shieldmate",
 			"rarity": "common",
-			"mana_cost": "{1}{R/W}{R/W}",
-			"type": "Creature — Human Soldier ",
+			"mana_cost": "{1{R}W}{R/W}",
+			"type": "Creature — Human Soldier",
 			"collector_number": "215",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/215_Zealous Shieldmate.png"
@@ -754,7 +754,7 @@
 			"name": "Torturer's Implements",
 			"rarity": "common",
 			"mana_cost": "{3}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "225",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/225_Torturer's Implements.png"
@@ -774,7 +774,7 @@
 			"name": "Clattering Idol",
 			"rarity": "common",
 			"mana_cost": "{3}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "216",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/216_Clattering Idol.png"
@@ -784,7 +784,7 @@
 			"name": "Stuffed Watchman",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact Creature — Scarecrow ",
+			"type": "Artifact Creature — Scarecrow",
 			"collector_number": "224",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/224_Stuffed Watchman.png"
@@ -914,7 +914,7 @@
 			"name": "Collector Lich",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{U}{U}",
-			"type": "Creature — Skeleton Wizard ",
+			"type": "Creature — Skeleton Wizard",
 			"collector_number": "170",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/170_Collector Lich.png"
@@ -934,7 +934,7 @@
 			"name": "Jolly Gravetender",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
-			"type": "Creature — Skeleton Warlock ",
+			"type": "Creature — Skeleton Warlock",
 			"collector_number": "181",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/181_Jolly Gravetender.png"
@@ -944,7 +944,7 @@
 			"name": "Imperious Arbiter",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{U}{B}{B}",
-			"type": "Creature — Archon ",
+			"type": "Creature — Archon",
 			"collector_number": "179",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/179_Imperious Arbiter.png"
@@ -954,7 +954,7 @@
 			"name": "Cinder Road Tormentor",
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
-			"type": "Creature — Devil ",
+			"type": "Creature — Devil",
 			"collector_number": "169",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/169_Cinder Road Tormentor.png"
@@ -974,7 +974,7 @@
 			"name": "Knight of Thistles",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
-			"type": "Creature — Nightmare Knight ",
+			"type": "Creature — Nightmare Knight",
 			"collector_number": "182",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/182_Knight of Thistles.png"
@@ -984,7 +984,7 @@
 			"name": "Feasting on Corpses",
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "173",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/173_Feasting on Corpses.png"
@@ -1004,7 +1004,7 @@
 			"name": "Matron of the Intangible",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "186",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/186_Matron of the Intangible.png"
@@ -1014,7 +1014,7 @@
 			"name": "Cemetery Keeper",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
-			"type": "Creature — Zombie Cleric ",
+			"type": "Creature — Zombie Cleric",
 			"collector_number": "168",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/168_Cemetery Keeper.png"
@@ -1034,7 +1034,7 @@
 			"name": "Roothian Chronicler",
 			"rarity": "uncommon",
 			"mana_cost": "{B}{G}",
-			"type": "Creature — Human Druid ",
+			"type": "Creature — Human Druid",
 			"collector_number": "197",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/197_Roothian Chronicler.png"
@@ -1054,7 +1054,7 @@
 			"name": "Obsessive Alchemist",
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
-			"type": "Creature — Wizard ",
+			"type": "Creature — Wizard",
 			"collector_number": "192",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/192_Obsessive Alchemist.png"
@@ -1074,7 +1074,7 @@
 			"name": "Moonlit Cavalry",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
-			"type": "Creature — Spirit Knight ",
+			"type": "Creature — Spirit Knight",
 			"collector_number": "189",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/189_Moonlit Cavalry.png"
@@ -1094,7 +1094,7 @@
 			"name": "Auditor of the Cycle",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
-			"type": "Creature — Horror ",
+			"type": "Creature — Horror",
 			"collector_number": "162",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/162_Auditor of the Cycle.png"
@@ -1134,7 +1134,7 @@
 			"name": "Superstitious Aspirant",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "30",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/30_Superstitious Aspirant.png"
@@ -1144,7 +1144,7 @@
 			"name": "Golem of Offerings",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "11",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/11_Golem of Offerings.png"
@@ -1164,7 +1164,7 @@
 			"name": "Earnest Penitent",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/6_Earnest Penitent.png"
@@ -1174,7 +1174,7 @@
 			"name": "Haunted Aspirant",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "14",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/14_Haunted Aspirant.png"
@@ -1194,7 +1194,7 @@
 			"name": "Titanic Gatekeeper",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "31",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/31_Titanic Gatekeeper.png"
@@ -1204,7 +1204,7 @@
 			"name": "Flesheater Knight",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Knight ",
+			"type": "Creature — Human Knight",
 			"collector_number": "9",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/9_Flesheater Knight.png"
@@ -1214,7 +1214,7 @@
 			"name": "Angel of Unmaking",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Angel ",
+			"type": "Creature — Angel",
 			"collector_number": "1",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/1_Angel of Unmaking.png"
@@ -1224,7 +1224,7 @@
 			"name": "Blade of Hope",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "2",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/2_Blade of Hope.png"
@@ -1244,7 +1244,7 @@
 			"name": "Keeper of Small Tales",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Human Bard ",
+			"type": "Creature — Human Bard",
 			"collector_number": "17",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/17_Keeper of Small Tales.png"
@@ -1264,7 +1264,7 @@
 			"name": "Timetreader Kraken",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{U}{U}",
-			"type": "Creature — Skeleton Kraken ",
+			"type": "Creature — Skeleton Kraken",
 			"collector_number": "59",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/59_Timetreader Kraken.png"
@@ -1274,7 +1274,7 @@
 			"name": "Biding Hoarder",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
-			"type": "Creature — Drake ",
+			"type": "Creature — Drake",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/36_Biding Hoarder.png"
@@ -1284,7 +1284,7 @@
 			"name": "Trinket Strix",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Bird ",
+			"type": "Creature — Bird",
 			"collector_number": "61",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/61_Trinket Strix.png"
@@ -1294,7 +1294,7 @@
 			"name": "Trawler Mage",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Human Wizard ",
+			"type": "Creature — Human Wizard",
 			"collector_number": "60",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/60_Trawler Mage.png"
@@ -1304,7 +1304,7 @@
 			"name": "Storm Sage",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact Creature — Scarecrow ",
+			"type": "Artifact Creature — Scarecrow",
 			"collector_number": "57",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/57_Storm Sage.png"
@@ -1314,7 +1314,7 @@
 			"name": "Whisper Wielder",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "63",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/63_Whisper Wielder.png"
@@ -1324,7 +1324,7 @@
 			"name": "Raven Reader",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Creature — Human Wizard ",
+			"type": "Creature — Human Wizard",
 			"collector_number": "51",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/51_Raven Reader.png"
@@ -1344,7 +1344,7 @@
 			"name": "Drake of Azure Flame",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Creature — Zombie Drake ",
+			"type": "Creature — Zombie Drake",
 			"collector_number": "41",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/41_Drake of Azure Flame.png"
@@ -1364,7 +1364,7 @@
 			"name": "Soulwater Reader",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Human Wizard ",
+			"type": "Creature — Human Wizard",
 			"collector_number": "56",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/56_Soulwater Reader.png"
@@ -1394,7 +1394,7 @@
 			"name": "Bone Hoarder",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Skeleton Warlock ",
+			"type": "Creature — Skeleton Warlock",
 			"collector_number": "70",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/70_Bone Hoarder.png"
@@ -1434,7 +1434,7 @@
 			"name": "Argentist Pontiff",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "66",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/66_Argentist Pontiff.png"
@@ -1444,7 +1444,7 @@
 			"name": "Malevolent Summoner",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Demon ",
+			"type": "Creature — Demon",
 			"collector_number": "80",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/80_Malevolent Summoner.png"
@@ -1454,7 +1454,7 @@
 			"name": "Mind Gorger",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Vampire ",
+			"type": "Creature — Vampire",
 			"collector_number": "82",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/82_Mind Gorger.png"
@@ -1464,7 +1464,7 @@
 			"name": "Soulbinder Duo",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "91",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/91_Soulbinder Duo.png"
@@ -1474,7 +1474,7 @@
 			"name": "Skinreader Disiple",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "90",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/90_Skinreader Disiple.png"
@@ -1494,7 +1494,7 @@
 			"name": "Bloodwater Blade",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "69",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/69_Bloodwater Blade.png"
@@ -1514,7 +1514,7 @@
 			"name": "Persistent Reaper",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Nightmare ",
+			"type": "Creature — Nightmare",
 			"collector_number": "86",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/86_Persistent Reaper.png"
@@ -1524,7 +1524,7 @@
 			"name": "Avaricious King",
 			"rarity": "uncommon",
 			"mana_cost": "{7}{B}{B}",
-			"type": "Creature — Zombie Noble ",
+			"type": "Creature — Zombie Noble",
 			"collector_number": "67",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/67_Avaricious King.png"
@@ -1544,7 +1544,7 @@
 			"name": "Entralling Hunter",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Human Warlock ",
+			"type": "Creature — Human Warlock",
 			"collector_number": "107",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/107_Entralling Hunter.png"
@@ -1564,7 +1564,7 @@
 			"name": "Kindhearted Kindler",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "115",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/115_Kindhearted Kindler.png"
@@ -1574,7 +1574,7 @@
 			"name": "Grizzled Sparksword",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Soldier ",
+			"type": "Creature — Human Soldier",
 			"collector_number": "113",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/113_Grizzled Sparksword.png"
@@ -1584,7 +1584,7 @@
 			"name": "Siege Demon",
 			"rarity": "uncommon",
 			"mana_cost": "{X}{R}{R}",
-			"type": "Creature — Demon ",
+			"type": "Creature — Demon",
 			"collector_number": "125",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/125_Siege Demon.png"
@@ -1594,7 +1594,7 @@
 			"name": "Razelight Champion",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Human Warrior ",
+			"type": "Creature — Human Warrior",
 			"collector_number": "122",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/122_Razelight Champion.png"
@@ -1614,7 +1614,7 @@
 			"name": "Rotting Tyrant",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "124",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/124_Rotting Tyrant.png"
@@ -1634,7 +1634,7 @@
 			"name": "Ordained Entrance",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "120",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/120_Ordained Entrance.png"
@@ -1644,7 +1644,7 @@
 			"name": "Kindler Acolyte",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "116",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/116_Kindler Acolyte.png"
@@ -1674,7 +1674,7 @@
 			"name": "Mournful Caretaker",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "143",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/143_Mournful Caretaker.png"
@@ -1694,7 +1694,7 @@
 			"name": "Forerunner Steed",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Skeleton Horse ",
+			"type": "Creature — Skeleton Horse",
 			"collector_number": "137",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/137_Forerunner Steed.png"
@@ -1704,7 +1704,7 @@
 			"name": "Pampered Hordemaster",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
-			"type": "Creature — Human Noble ",
+			"type": "Creature — Human Noble",
 			"collector_number": "147",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/147_Pampered Hordemaster.png"
@@ -1714,7 +1714,7 @@
 			"name": "Thistle Elemental",
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}",
-			"type": "Creature — Elemental ",
+			"type": "Creature — Elemental",
 			"collector_number": "156",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/156_Thistle Elemental.png"
@@ -1724,7 +1724,7 @@
 			"name": "Keeper of Memorials",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "141",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/141_Keeper of Memorials.png"
@@ -1734,7 +1734,7 @@
 			"name": "Roothian Shaman",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Human Shaman ",
+			"type": "Creature — Human Shaman",
 			"collector_number": "153",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/153_Roothian Shaman.png"
@@ -1754,7 +1754,7 @@
 			"name": "Mulchborn Strider",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Plant Skeleton ",
+			"type": "Creature — Plant Skeleton",
 			"collector_number": "144",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/144_Mulchborn Strider.png"
@@ -1764,7 +1764,7 @@
 			"name": "Ethereal Duelist",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
-			"type": "Creature — Spirit Warrior ",
+			"type": "Creature — Spirit Warrior",
 			"collector_number": "135",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/135_Ethereal Duelist.png"
@@ -1774,7 +1774,7 @@
 			"name": "Awoken Yeti",
 			"rarity": "uncommon",
 			"mana_cost": "{6}{G}{G}",
-			"type": "Creature — Yeti ",
+			"type": "Creature — Yeti",
 			"collector_number": "129",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/129_Awoken Yeti.png"
@@ -1914,7 +1914,7 @@
 			"name": "Terya, The All-Sword",
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{U}",
-			"type": "Legendary Creature — Angel ",
+			"type": "Legendary Creature — Angel",
 			"collector_number": "201",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/201_Terya, The All-Sword.png"
@@ -1934,7 +1934,7 @@
 			"name": "He From Whom None Escape",
 			"rarity": "rare",
 			"mana_cost": "{8}{U}{B}",
-			"type": "Legendary Creature — Skeleton Noble ",
+			"type": "Legendary Creature — Skeleton Noble",
 			"collector_number": "178",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/178_He From Whom None Escape.png"
@@ -1954,7 +1954,7 @@
 			"name": "Lasveth, The Gleeful Impaler",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{R}",
-			"type": "Legendary Creature — Demon ",
+			"type": "Legendary Creature — Demon",
 			"collector_number": "184",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/184_Lasveth, The Gleeful Impaler.png"
@@ -1974,7 +1974,7 @@
 			"name": "Niksh, The Joints of Power",
 			"rarity": "rare",
 			"mana_cost": "{12}{R}{G}",
-			"type": "Legendary Creature — Skeleton ",
+			"type": "Legendary Creature — Skeleton",
 			"collector_number": "191",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/191_Niksh, The Joints of Power.png"
@@ -1994,7 +1994,7 @@
 			"name": "Fryga, The Sated",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
-			"type": "Legendary Creature — Angel ",
+			"type": "Legendary Creature — Angel",
 			"collector_number": "174",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/174_Fryga, The Sated.png"
@@ -2014,7 +2014,7 @@
 			"name": "Kurak, Puppeteer of Spines",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
-			"type": "Legendary Creature — Zombie Wizard ",
+			"type": "Legendary Creature — Zombie Wizard",
 			"collector_number": "183",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/183_Kurak, Puppeteer of Spines.png"
@@ -2034,7 +2034,7 @@
 			"name": "Xagg, Root-Prisoned",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
-			"type": "Legendary Creature — Fungus God ",
+			"type": "Legendary Creature — Fungus God",
 			"collector_number": "205",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/205_Xagg, Root-Prisoned.png"
@@ -2054,7 +2054,7 @@
 			"name": "Byou, The Lonesome",
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
-			"type": "Legendary Creature — Fungus ",
+			"type": "Legendary Creature — Fungus",
 			"collector_number": "166",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/166_Byou, The Lonesome.png"
@@ -2074,7 +2074,7 @@
 			"name": "Viksker Spitflame",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}",
-			"type": "Legendary Creature — Skeleton Wizard ",
+			"type": "Legendary Creature — Skeleton Wizard",
 			"collector_number": "202",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/202_Viksker Spitflame.png"
@@ -2094,7 +2094,7 @@
 			"name": "Gouev, Limbo's Jester",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{W}",
-			"type": "Legendary Creature — Human Bard ",
+			"type": "Legendary Creature — Human Bard",
 			"collector_number": "177",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/177_Gouev, Limbo's Jester.png"
@@ -2114,7 +2114,7 @@
 			"name": "Iria, The First Sacrifice",
 			"rarity": "rare",
 			"mana_cost": "{R}{W}{B}",
-			"type": "Legendary Creature — Angel ",
+			"type": "Legendary Creature — Angel",
 			"collector_number": "180",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/180_Iria, The First Sacrifice.png"
@@ -2124,7 +2124,7 @@
 			"name": "Oche, The Eternal Echo",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{U}{R}",
-			"type": "Legendary Creature — Avatar ",
+			"type": "Legendary Creature — Avatar",
 			"collector_number": "193",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/193_Oche, The Eternal Echo.png"
@@ -2134,7 +2134,7 @@
 			"name": "The Army of Endless Graves",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}{G}",
-			"type": "Legendary Creature — Skeleton ",
+			"type": "Legendary Creature — Skeleton",
 			"collector_number": "161",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/161_The Army of Endless Graves.png"
@@ -2144,7 +2144,7 @@
 			"name": "Maz, Thief of Redemption",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{R}{W}",
-			"type": "Legendary Creature — Human Rogue ",
+			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "187",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/187_Maz, Thief of Redemption.png"
@@ -2154,7 +2154,7 @@
 			"name": "Golsh, The Endweaver",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}{U}",
-			"type": "Legendary Creature — Spider Warlock ",
+			"type": "Legendary Creature — Spider Warlock",
 			"collector_number": "175",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/175_Golsh, The Endweaver.png"
@@ -2164,7 +2164,7 @@
 			"name": "Harbinger of Collapse",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Creature — Skeleton Cleric ",
+			"type": "Creature — Skeleton Cleric",
 			"collector_number": "13",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/13_Harbinger of Collapse.png"
@@ -2174,7 +2174,7 @@
 			"name": "Bonerise Cleric",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "3",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/3_Bonerise Cleric.png"
@@ -2194,7 +2194,7 @@
 			"name": "Preacher of the Cycle",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "19",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/19_Preacher of the Cycle.png"
@@ -2204,7 +2204,7 @@
 			"name": "Cloistered Innocent",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Human Cleric ",
+			"type": "Creature — Human Cleric",
 			"collector_number": "5",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/5_Cloistered Innocent.png"
@@ -2214,7 +2214,7 @@
 			"name": "Age-Old Gargoyle",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact Creature — Gargoyle ",
+			"type": "Artifact Creature — Gargoyle",
 			"collector_number": "33",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/33_Age-Old Gargoyle.png"
@@ -2244,7 +2244,7 @@
 			"name": "Whispering Drake",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Creature — Drake ",
+			"type": "Creature — Drake",
 			"collector_number": "64",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/64_Whispering Drake.png"
@@ -2254,7 +2254,7 @@
 			"name": "Beckoner of Spirits",
 			"rarity": "rare",
 			"mana_cost": "{U}",
-			"type": "Creature — Human Wizard ",
+			"type": "Creature — Human Wizard",
 			"collector_number": "34",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/34_Beckoner of Spirits.png"
@@ -2294,7 +2294,7 @@
 			"name": "Dusty Tormentor",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}{B}",
-			"type": "Creature — Demon ",
+			"type": "Creature — Demon",
 			"collector_number": "74",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/74_Dusty Tormentor.png"
@@ -2304,7 +2304,7 @@
 			"name": "Layer Revenant",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "Creature — Spirit ",
+			"type": "Creature — Spirit",
 			"collector_number": "79",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/79_Layer Revenant.png"
@@ -2314,7 +2314,7 @@
 			"name": "Ever-Burning Tormentor",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Devil ",
+			"type": "Creature — Devil",
 			"collector_number": "109",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/109_Ever-Burning Tormentor.png"
@@ -2324,7 +2324,7 @@
 			"name": "Slagcrawler",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Creature — Demon ",
+			"type": "Creature — Demon",
 			"collector_number": "127",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/127_Slagcrawler.png"
@@ -2334,7 +2334,7 @@
 			"name": "Autocrat of Tribute",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "97",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/97_Autocrat of Tribute.png"
@@ -2364,7 +2364,7 @@
 			"name": "Unflinching Headhunter",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
-			"type": "Creature — Spirit Knight ",
+			"type": "Creature — Spirit Knight",
 			"collector_number": "159",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/159_Unflinching Headhunter.png"
@@ -2384,7 +2384,7 @@
 			"name": "Golem of Ancestry",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Artifact Creature — Golem ",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "140",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/140_Golem of Ancestry.png"
@@ -2394,7 +2394,7 @@
 			"name": "Parasitized Aspirant",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Fungus Human Knight ",
+			"type": "Creature — Fungus Human Knight",
 			"collector_number": "148",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/148_Parasitized Aspirant.png"
@@ -2404,7 +2404,7 @@
 			"name": "Nykke, The Patient Web",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
-			"type": "Legendary Planeswalker — Nykke ",
+			"type": "Legendary Planeswalker — Nykke",
 			"collector_number": "146",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/146_Nykke, The Patient Web.png"
@@ -2514,7 +2514,7 @@
 			"name": "Plains",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Plains ",
+			"type": "Basic Land — Plains",
 			"collector_number": "252",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/252_Plains.png"
@@ -2524,7 +2524,7 @@
 			"name": "Island",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Island ",
+			"type": "Basic Land — Island",
 			"collector_number": "253",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/253_Island.png"
@@ -2534,7 +2534,7 @@
 			"name": "Swamp",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Swamp ",
+			"type": "Basic Land — Swamp",
 			"collector_number": "254",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/254_Swamp.png"
@@ -2544,7 +2544,7 @@
 			"name": "Mountain",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Mountain ",
+			"type": "Basic Land — Mountain",
 			"collector_number": "255",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/255_Mountain.png"
@@ -2554,7 +2554,7 @@
 			"name": "Forest",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Forest ",
+			"type": "Basic Land — Forest",
 			"collector_number": "256",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/256_Forest.png"
@@ -2564,130 +2564,130 @@
 			"name": "Skeleton",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Skeleton ",
+			"type": "Token Creature — Skeleton",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/5_Skeleton.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/5t_Skeleton.png"
 			}
 		},
 		{
 			"name": "Human",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Human ",
+			"type": "Token Creature — Human",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/2_Human.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/2t_Human.png"
 			}
 		},
 		{
 			"name": "Treasure",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Artifact — Treasure ",
+			"type": "Token Artifact — Treasure",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/13_Treasure.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/13t_Treasure.png"
 			}
 		},
 		{
 			"name": "Spider",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Spider ",
+			"type": "Token Creature — Spider",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/10_Spider.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/10t_Spider.png"
 			}
 		},
 		{
 			"name": "Angel",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Angel ",
+			"type": "Token Creature — Angel",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/1_Angel.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/1t_Angel.png"
 			}
 		},
 		{
 			"name": "Spirit",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Spirit ",
+			"type": "Token Creature — Spirit",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/3_Spirit.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/3t_Spirit.png"
 			}
 		},
 		{
 			"name": "Bird",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Bird ",
+			"type": "Token Creature — Bird",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/4_Bird.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/4t_Bird.png"
 			}
 		},
 		{
 			"name": "Ooze",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Ooze ",
+			"type": "Token Creature — Ooze",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/9_Ooze.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/9t_Ooze.png"
 			}
 		},
 		{
 			"name": "Reflection",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Reflection ",
+			"type": "Token Creature — Reflection",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/11_Reflection.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/11t_Reflection.png"
 			}
 		},
 		{
 			"name": "Elemental",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Elemental ",
+			"type": "Token Creature — Elemental",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/7_Elemental.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/7t_Elemental.png"
 			}
 		},
 		{
 			"name": "Zombie",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Zombie ",
+			"type": "Token Creature — Zombie",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/6_Zombie.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/6t_Zombie.png"
 			}
 		},
 		{
 			"name": "Fungus",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Fungus ",
+			"type": "Token Creature — Fungus",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/8_Fungus.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/8t_Fungus.png"
 			}
 		},
 		{
 			"name": "Clue",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Artifact — Clue ",
+			"type": "Token Artifact — Clue",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/12_Clue.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/12t_Clue.png"
 			}
 		},
 		{
@@ -2697,509 +2697,262 @@
 			"type": "",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/1_From The Pyre.png"
+				"en": "https://DrChipmunk.github.io/sets/LIM-files/img/1t_From The Pyre.png"
 			}
 		}
 	]
-[RareSlot(1)]
-2 Terya, The All-Sword
-2 Call Upon Ancient Lineage
-2 He From Whom None Escape
-2 Tear Away Their Purpose
-2 Lasveth, The Gleeful Impaler
-2 Let Every Pustule Fester
-2 Niksh, The Joints of Power
-2 Wear the Mask of Flame
-2 Fryga, The Sated
-2 Remake the World in Light
-2 Kurak, Puppeteer of Spines
-2 Beset Them With Remorse
-2 Xagg, Root-Prisoned
-2 Begin the All-Consuming Rite
-2 Byou, The Lonesome
-2 Miasma Runs Like Rivers
-2 Viksker Spitflame
-2 Burn The Past Away
-2 Gouev, Limbo's Jester
-2 Reverse The Final Journey
-2 Iria, The First Sacrifice
-2 Oche, The Eternal Echo
-2 The Army of Endless Graves
-2 Maz, Thief of Redemption
-2 Golsh, The Endweaver
-2 Harbinger of Collapse
-2 Bonerise Cleric
-2 Statue of Sanctity
-2 Preacher of the Cycle
-2 Cloistered Innocent
-2 Age-Old Gargoyle
-2 Creaking Wreck
-2 Follow The Star
-2 Whispering Drake
-2 Beckoner of Spirits
-2 Memoriam Implements
-2 Tide of Corpses
-2 Spinal Sussuration
-2 Dusty Tormentor
-2 Layer Revenant
-2 Ever-Burning Tormentor
-2 Slagcrawler
-2 Autocrat of Tribute
-2 Fiery Upheaval
-2 Become Catastrophe
-2 Unflinching Headhunter
-2 Divergent Mutation
-2 Golem of Ancestry
-2 Parasitized Aspirant
-2 Nykke, The Patient Web
-2 Tenuous Line
-2 Tenuous Cistern
-2 Tenuous Moor
-2 Tenuous Mycelium
-2 Tenuous Mists
-2 Tenuous Crypt
-2 Tenuous Wasteland
-2 Tenuous Falls
-2 Tenuous Mindscape
-2 Tenuous Crags
-[UncommonSlot(3)]
-9 Collector Lich
-9 Good Luck Charm
-9 Jolly Gravetender
-9 Imperious Arbiter
-9 Cinder Road Tormentor
-9 Cower Before My Legions
-9 Knight of Thistles
-9 Feasting on Corpses
-9 Doomed Procession
-9 Matron of the Intangible
-9 Cemetery Keeper
-9 Mortal Coil
-9 Roothian Chronicler
-9 Psycharachnia
-9 Obsessive Alchemist
-9 Spiral of Retraction
-9 Moonlit Cavalry
-9 Word of Spite
-9 Auditor of the Cycle
-9 Sunbleached Statue
-9 Fight Like Hell
-9 Ritual of Release
-9 Superstitious Aspirant
-9 Golem of Offerings
-9 Glorious Passage
-9 Earnest Penitent
-9 Haunted Aspirant
-9 Qualite Pledge
-9 Titanic Gatekeeper
-9 Flesheater Knight
-9 Angel of Unmaking
-9 Blade of Hope
-9 Exorcism By Ambush
-9 Keeper of Small Tales
-9 Sinister Sabotage
-9 Timetreader Kraken
-9 Biding Hoarder
-9 Trinket Strix
-9 Trawler Mage
-9 Storm Sage
-9 Whisper Wielder
-9 Raven Reader
-9 Behold Immensity
-9 Drake of Azure Flame
-9 Cryptek Pledge
-9 Soulwater Reader
-9 Is Anyone There
-9 Morbid Memoriam
-9 Bone Hoarder
-9 Dance With Death
-9 Drown In Suffering
-9 Zombify
-9 Argentist Pontiff
-9 Malevolent Summoner
-9 Mind Gorger
-9 Soulbinder Duo
-9 Skinreader Disiple
-9 Argentist Pledge
-9 Bloodwater Blade
-9 Creeping Oblivion
-9 Persistent Reaper
-9 Avaricious King
-9 Red Moon Rising
-9 Entralling Hunter
-9 Cast From Rage
-9 Kindhearted Kindler
-9 Grizzled Sparksword
-9 Siege Demon
-9 Razelight Champion
-9 Kindler Pledge
-9 Rotting Tyrant
-9 Bloody Augury
-9 Ordained Entrance
-9 Kindler Acolyte
-9 Fire From Within
-9 Chaotic Forging
-9 Mournful Caretaker
-9 Roothian Pledge
-9 Forerunner Steed
-9 Pampered Hordemaster
-9 Thistle Elemental
-9 Keeper of Memorials
-9 Roothian Shaman
-9 Macabre Harvest
-9 Mulchborn Strider
-9 Ethereal Duelist
-9 Awoken Yeti
-9 Get To Cover
-9 Undying Vanquishing
-9 Final Night
-9 Pendant of Resilience
-9 Pendant of Reflection
-9 Pendant of Insight
-9 Pendant of Potential
-9 Pendant of Verdance
-9 Altar of the Ichor
-9 Altar of the Eclipse
-9 Altar of the Marrow
-9 Altar of the Wax
-9 Altar of the Serpent
-[CommonSlot(9)]
-30 Layer-Lost Innocent
-30 Qualite Quartermaster
-30 Rumbling Dancer
-30 Jealous Gargoyle
-30 Caretaker of Bones
-30 Shadowwing Acolyte
-30 Valiant Golem
-30 Relic Court Guardian
-30 Qualite Altruists
-30 Put To Rout
-30 Impassable Gateway
-30 Grim March
-30 Skeletal Forging
-30 Thoughtknife Rogue
-30 Lucky Phantom
-30 Frigid Sentry
-30 Relighter Drake
-30 Cryptek Reliquary
-30 Omen Hoarder
-30 Golem of Remembrance
-30 Rite of Revocation
-30 Consider
-30 Puzzling Monument
-30 Just a Memory
-30 When Hell Freezes Over
-30 Scrapseer Golem
-30 Skeletal Scavenger
-30 Sightless Failure
-30 Gurgling Visionary
-30 Mournful Raven
-30 Impaled Augur
-30 Facemask Carver
-30 Indebted Argentist
-30 Petty Gravelord
-30 One Must Die
-30 Sympathetic Ritual
-30 Witch's Caress
-30 Beseech The Fading Moon
-30 New Flesh for Old Bones
-30 Emberbone
-30 Kindler Prodigy
-30 Entranceway Smith
-30 Charlight Reader
-30 Magmatic Aspirant
-30 Immolation Mage
-30 Basalt Crawler
-30 Ghoulish Taskmaster
-30 Consuming Cinders
-30 Payment Rendered
-30 Tyrant's Lightning
-30 Skinflame
-30 Cross the Threshold
-30 Roothian Acidwielder
-30 Unctious Toady
-30 Canny Merchant
-30 Sunwise Tortoise
-30 Fungus Reader
-30 Blind Watcher
-30 Snowmelt Ranger
-30 Veteran Linerunner
-30 Dragon Golem
-30 Doomed Confrontation
-30 Projection of Rot
-30 Nurture Hope
-30 A Path Forward
-30 Availer of Relics
-30 Babbling Bestial
-30 Famished Fargone
-30 Smoke Dancer
-30 Anointed Curebearer
-30 Priest of Debt
-30 Lanternlight Ghoul
-30 Unblinking Mass
-30 Urgent Evocation
-30 Zealous Shieldmate
-30 Torturer's Implements
-30 Moonlit Passage
-30 Clattering Idol
-30 Stuffed Watchman
-30 Potion of Oblivion
-30 Terramorphic Expanse
-[WildcardSlot(2)]
-10 Layer-Lost Innocent
-10 Qualite Quartermaster
-10 Rumbling Dancer
-10 Jealous Gargoyle
-10 Caretaker of Bones
-10 Shadowwing Acolyte
-10 Valiant Golem
-10 Relic Court Guardian
-10 Qualite Altruists
-10 Put To Rout
-10 Impassable Gateway
-10 Grim March
-10 Skeletal Forging
-10 Thoughtknife Rogue
-10 Lucky Phantom
-10 Frigid Sentry
-10 Relighter Drake
-10 Cryptek Reliquary
-10 Omen Hoarder
-10 Golem of Remembrance
-10 Rite of Revocation
-10 Consider
-10 Puzzling Monument
-10 Just a Memory
-10 When Hell Freezes Over
-10 Scrapseer Golem
-10 Skeletal Scavenger
-10 Sightless Failure
-10 Gurgling Visionary
-10 Mournful Raven
-10 Impaled Augur
-10 Facemask Carver
-10 Indebted Argentist
-10 Petty Gravelord
-10 One Must Die
-10 Sympathetic Ritual
-10 Witch's Caress
-10 Beseech The Fading Moon
-10 New Flesh for Old Bones
-10 Emberbone
-10 Kindler Prodigy
-10 Entranceway Smith
-10 Charlight Reader
-10 Magmatic Aspirant
-10 Immolation Mage
-10 Basalt Crawler
-10 Ghoulish Taskmaster
-10 Consuming Cinders
-10 Payment Rendered
-10 Tyrant's Lightning
-10 Skinflame
-10 Cross the Threshold
-10 Roothian Acidwielder
-10 Unctious Toady
-10 Canny Merchant
-10 Sunwise Tortoise
-10 Fungus Reader
-10 Blind Watcher
-10 Snowmelt Ranger
-10 Veteran Linerunner
-10 Dragon Golem
-10 Doomed Confrontation
-10 Projection of Rot
-10 Nurture Hope
-10 A Path Forward
-10 Availer of Relics
-10 Babbling Bestial
-10 Famished Fargone
-10 Smoke Dancer
-10 Anointed Curebearer
-10 Priest of Debt
-10 Lanternlight Ghoul
-10 Unblinking Mass
-10 Urgent Evocation
-10 Zealous Shieldmate
-10 Torturer's Implements
-10 Moonlit Passage
-10 Clattering Idol
-10 Stuffed Watchman
-10 Potion of Oblivion
-10 Terramorphic Expanse
-10 Collector Lich
-10 Good Luck Charm
-10 Jolly Gravetender
-10 Imperious Arbiter
-10 Cinder Road Tormentor
-10 Cower Before My Legions
-10 Knight of Thistles
-10 Feasting on Corpses
-10 Doomed Procession
-10 Matron of the Intangible
-10 Cemetery Keeper
-10 Mortal Coil
-10 Roothian Chronicler
-10 Psycharachnia
-10 Obsessive Alchemist
-10 Spiral of Retraction
-10 Moonlit Cavalry
-10 Word of Spite
-10 Auditor of the Cycle
-10 Sunbleached Statue
-10 Fight Like Hell
-10 Ritual of Release
-10 Superstitious Aspirant
-10 Golem of Offerings
-10 Glorious Passage
-10 Earnest Penitent
-10 Haunted Aspirant
-10 Qualite Pledge
-10 Titanic Gatekeeper
-10 Flesheater Knight
-10 Angel of Unmaking
-10 Blade of Hope
-10 Exorcism By Ambush
-10 Keeper of Small Tales
-10 Sinister Sabotage
-10 Timetreader Kraken
-10 Biding Hoarder
-10 Trinket Strix
-10 Trawler Mage
-10 Storm Sage
-10 Whisper Wielder
-10 Raven Reader
-10 Behold Immensity
-10 Drake of Azure Flame
-10 Cryptek Pledge
-10 Soulwater Reader
-10 Is Anyone There
-10 Morbid Memoriam
-10 Bone Hoarder
-10 Dance With Death
-10 Drown In Suffering
-10 Zombify
-10 Argentist Pontiff
-10 Malevolent Summoner
-10 Mind Gorger
-10 Soulbinder Duo
-10 Skinreader Disiple
-10 Argentist Pledge
-10 Bloodwater Blade
-10 Creeping Oblivion
-10 Persistent Reaper
-10 Avaricious King
-10 Red Moon Rising
-10 Entralling Hunter
-10 Cast From Rage
-10 Kindhearted Kindler
-10 Grizzled Sparksword
-10 Siege Demon
-10 Razelight Champion
-10 Kindler Pledge
-10 Rotting Tyrant
-10 Bloody Augury
-10 Ordained Entrance
-10 Kindler Acolyte
-10 Fire From Within
-10 Chaotic Forging
-10 Mournful Caretaker
-10 Roothian Pledge
-10 Forerunner Steed
-10 Pampered Hordemaster
-10 Thistle Elemental
-10 Keeper of Memorials
-10 Roothian Shaman
-10 Macabre Harvest
-10 Mulchborn Strider
-10 Ethereal Duelist
-10 Awoken Yeti
-10 Get To Cover
-10 Undying Vanquishing
-10 Final Night
-10 Pendant of Resilience
-10 Pendant of Reflection
-10 Pendant of Insight
-10 Pendant of Potential
-10 Pendant of Verdance
-10 Altar of the Ichor
-10 Altar of the Eclipse
-10 Altar of the Marrow
-10 Altar of the Wax
-10 Altar of the Serpent
-10 Terya, The All-Sword
-10 Call Upon Ancient Lineage
-10 He From Whom None Escape
-10 Tear Away Their Purpose
-10 Lasveth, The Gleeful Impaler
-10 Let Every Pustule Fester
-10 Niksh, The Joints of Power
-10 Wear the Mask of Flame
-10 Fryga, The Sated
-10 Remake the World in Light
-10 Kurak, Puppeteer of Spines
-10 Beset Them With Remorse
-10 Xagg, Root-Prisoned
-10 Begin the All-Consuming Rite
-10 Byou, The Lonesome
-10 Miasma Runs Like Rivers
-10 Viksker Spitflame
-10 Burn The Past Away
-10 Gouev, Limbo's Jester
-10 Reverse The Final Journey
-10 Iria, The First Sacrifice
-10 Oche, The Eternal Echo
-10 The Army of Endless Graves
-10 Maz, Thief of Redemption
-10 Golsh, The Endweaver
-10 Harbinger of Collapse
-10 Bonerise Cleric
-10 Statue of Sanctity
-10 Preacher of the Cycle
-10 Cloistered Innocent
-10 Age-Old Gargoyle
-10 Creaking Wreck
-10 Follow The Star
-10 Whispering Drake
-10 Beckoner of Spirits
-10 Memoriam Implements
-10 Tide of Corpses
-10 Spinal Sussuration
-10 Dusty Tormentor
-10 Layer Revenant
-10 Ever-Burning Tormentor
-10 Slagcrawler
-10 Autocrat of Tribute
-10 Fiery Upheaval
-10 Become Catastrophe
-10 Unflinching Headhunter
-10 Divergent Mutation
-10 Golem of Ancestry
-10 Parasitized Aspirant
-10 Nykke, The Patient Web
-10 Tenuous Line
-10 Tenuous Cistern
-10 Tenuous Moor
-10 Tenuous Mycelium
-10 Tenuous Mists
-10 Tenuous Crypt
-10 Tenuous Wasteland
-10 Tenuous Falls
-10 Tenuous Mindscape
-10 Tenuous Crags
-[LandSlot(1)]
-30 Plains
-30 Island
-30 Swamp
-30 Mountain
-30 Forest
-15 Icy Depths
-15 Sealed Depths
-15 Haunted Depths
-15 Scorched Depths
-15 Quiet Depths
-15 Ossified Depths
-15 Miasmic Depths
-15 Blossoming Depths
-15 Luminescent Depths
-15 Crystalline Depths
+
+[rare(1)]
+	5 Terya, The All-Sword
+	5 Call Upon Ancient Lineage
+	5 He From Whom None Escape
+	5 Tear Away Their Purpose
+	5 Lasveth, The Gleeful Impaler
+	5 Let Every Pustule Fester
+	5 Niksh, The Joints of Power
+	5 Wear the Mask of Flame
+	5 Fryga, The Sated
+	5 Remake the World in Light
+	5 Kurak, Puppeteer of Spines
+	5 Beset Them With Remorse
+	5 Xagg, Root-Prisoned
+	5 Begin the All-Consuming Rite
+	5 Byou, The Lonesome
+	5 Miasma Runs Like Rivers
+	5 Viksker Spitflame
+	5 Burn The Past Away
+	5 Gouev, Limbo's Jester
+	5 Reverse The Final Journey
+	5 Iria, The First Sacrifice
+	5 Oche, The Eternal Echo
+	5 The Army of Endless Graves
+	5 Maz, Thief of Redemption
+	5 Golsh, The Endweaver
+	5 Harbinger of Collapse
+	5 Bonerise Cleric
+	5 Statue of Sanctity
+	5 Preacher of the Cycle
+	5 Cloistered Innocent
+	5 Age-Old Gargoyle
+	5 Creaking Wreck
+	5 Follow The Star
+	5 Whispering Drake
+	5 Beckoner of Spirits
+	5 Memoriam Implements
+	5 Tide of Corpses
+	5 Spinal Sussuration
+	5 Dusty Tormentor
+	5 Layer Revenant
+	5 Ever-Burning Tormentor
+	5 Slagcrawler
+	5 Autocrat of Tribute
+	5 Fiery Upheaval
+	5 Become Catastrophe
+	5 Unflinching Headhunter
+	5 Divergent Mutation
+	5 Golem of Ancestry
+	5 Parasitized Aspirant
+	5 Nykke, The Patient Web
+	5 Tenuous Line
+	5 Tenuous Cistern
+	5 Tenuous Moor
+	5 Tenuous Mycelium
+	5 Tenuous Mists
+	5 Tenuous Crypt
+	5 Tenuous Wasteland
+	5 Tenuous Falls
+	5 Tenuous Mindscape
+	5 Tenuous Crags
+[uncommon(3)]
+	5 Collector Lich
+	5 Good Luck Charm
+	5 Jolly Gravetender
+	5 Imperious Arbiter
+	5 Cinder Road Tormentor
+	5 Cower Before My Legions
+	5 Knight of Thistles
+	5 Feasting on Corpses
+	5 Doomed Procession
+	5 Matron of the Intangible
+	5 Cemetery Keeper
+	5 Mortal Coil
+	5 Roothian Chronicler
+	5 Psycharachnia
+	5 Obsessive Alchemist
+	5 Spiral of Retraction
+	5 Moonlit Cavalry
+	5 Word of Spite
+	5 Auditor of the Cycle
+	5 Sunbleached Statue
+	5 Fight Like Hell
+	5 Ritual of Release
+	5 Superstitious Aspirant
+	5 Golem of Offerings
+	5 Glorious Passage
+	5 Earnest Penitent
+	5 Haunted Aspirant
+	5 Qualite Pledge
+	5 Titanic Gatekeeper
+	5 Flesheater Knight
+	5 Angel of Unmaking
+	5 Blade of Hope
+	5 Exorcism By Ambush
+	5 Keeper of Small Tales
+	5 Sinister Sabotage
+	5 Timetreader Kraken
+	5 Biding Hoarder
+	5 Trinket Strix
+	5 Trawler Mage
+	5 Storm Sage
+	5 Whisper Wielder
+	5 Raven Reader
+	5 Behold Immensity
+	5 Drake of Azure Flame
+	5 Cryptek Pledge
+	5 Soulwater Reader
+	5 Is Anyone There
+	5 Morbid Memoriam
+	5 Bone Hoarder
+	5 Dance With Death
+	5 Drown In Suffering
+	5 Zombify
+	5 Argentist Pontiff
+	5 Malevolent Summoner
+	5 Mind Gorger
+	5 Soulbinder Duo
+	5 Skinreader Disiple
+	5 Argentist Pledge
+	5 Bloodwater Blade
+	5 Creeping Oblivion
+	5 Persistent Reaper
+	5 Avaricious King
+	5 Red Moon Rising
+	5 Entralling Hunter
+	5 Cast From Rage
+	5 Kindhearted Kindler
+	5 Grizzled Sparksword
+	5 Siege Demon
+	5 Razelight Champion
+	5 Kindler Pledge
+	5 Rotting Tyrant
+	5 Bloody Augury
+	5 Ordained Entrance
+	5 Kindler Acolyte
+	5 Fire From Within
+	5 Chaotic Forging
+	5 Mournful Caretaker
+	5 Roothian Pledge
+	5 Forerunner Steed
+	5 Pampered Hordemaster
+	5 Thistle Elemental
+	5 Keeper of Memorials
+	5 Roothian Shaman
+	5 Macabre Harvest
+	5 Mulchborn Strider
+	5 Ethereal Duelist
+	5 Awoken Yeti
+	5 Get To Cover
+	5 Undying Vanquishing
+	5 Final Night
+	5 Pendant of Resilience
+	5 Pendant of Reflection
+	5 Pendant of Insight
+	5 Pendant of Potential
+	5 Pendant of Verdance
+	5 Altar of the Ichor
+	5 Altar of the Eclipse
+	5 Altar of the Marrow
+	5 Altar of the Wax
+	5 Altar of the Serpent
+[common(10)]
+	5 Layer-Lost Innocent
+	5 Qualite Quartermaster
+	5 Rumbling Dancer
+	5 Jealous Gargoyle
+	5 Caretaker of Bones
+	5 Shadowwing Acolyte
+	5 Valiant Golem
+	5 Relic Court Guardian
+	5 Qualite Altruists
+	5 Put To Rout
+	5 Impassable Gateway
+	5 Grim March
+	5 Skeletal Forging
+	5 Thoughtknife Rogue
+	5 Lucky Phantom
+	5 Frigid Sentry
+	5 Relighter Drake
+	5 Cryptek Reliquary
+	5 Omen Hoarder
+	5 Golem of Remembrance
+	5 Rite of Revocation
+	5 Consider
+	5 Puzzling Monument
+	5 Just a Memory
+	5 When Hell Freezes Over
+	5 Scrapseer Golem
+	5 Skeletal Scavenger
+	5 Sightless Failure
+	5 Gurgling Visionary
+	5 Mournful Raven
+	5 Impaled Augur
+	5 Facemask Carver
+	5 Indebted Argentist
+	5 Petty Gravelord
+	5 One Must Die
+	5 Sympathetic Ritual
+	5 Witch's Caress
+	5 Beseech The Fading Moon
+	5 New Flesh for Old Bones
+	5 Emberbone
+	5 Kindler Prodigy
+	5 Entranceway Smith
+	5 Charlight Reader
+	5 Magmatic Aspirant
+	5 Immolation Mage
+	5 Basalt Crawler
+	5 Ghoulish Taskmaster
+	5 Consuming Cinders
+	5 Payment Rendered
+	5 Tyrant's Lightning
+	5 Skinflame
+	5 Cross the Threshold
+	5 Roothian Acidwielder
+	5 Unctious Toady
+	5 Canny Merchant
+	5 Sunwise Tortoise
+	5 Fungus Reader
+	5 Blind Watcher
+	5 Snowmelt Ranger
+	5 Veteran Linerunner
+	5 Dragon Golem
+	5 Doomed Confrontation
+	5 Projection of Rot
+	5 Nurture Hope
+	5 A Path Forward
+	5 Availer of Relics
+	5 Babbling Bestial
+	5 Famished Fargone
+	5 Smoke Dancer
+	5 Anointed Curebearer
+	5 Priest of Debt
+	5 Lanternlight Ghoul
+	5 Unblinking Mass
+	5 Urgent Evocation
+	5 Zealous Shieldmate
+	5 Torturer's Implements
+	5 Moonlit Passage
+	5 Clattering Idol
+	5 Stuffed Watchman
+	5 Potion of Oblivion
+	5 Terramorphic Expanse
+	5 Icy Depths
+	5 Sealed Depths
+	5 Haunted Depths
+	5 Scorched Depths
+	5 Quiet Depths
+	5 Ossified Depths
+	5 Miasmic Depths
+	5 Blossoming Depths
+	5 Luminescent Depths
+	5 Crystalline Depths

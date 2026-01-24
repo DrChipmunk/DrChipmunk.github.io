@@ -1,0 +1,4682 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>LIM</name>
+			<longname>Escape From Limbo</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-01-23</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Layer-Lost Innocent</name>
+			<text>Flying
+Collapse — When this creature enters, if two or more cards or tokens entered your graveyard this turn, create a 1/1 white Human creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/18_Layer-Lost Innocent.png" num="18">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qualite Quartermaster</name>
+			<text>When this creature enters, put a +1/+1 counter on target creature.
+Reincarnate {1}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/23_Qualite Quartermaster.png" num="23">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rumbling Dancer</name>
+			<text>Collapse — At the beginning of your end step, if two or more tokens or cards entered your graveyard this turn, you gain 2 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/26_Rumbling Dancer.png" num="26">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jealous Gargoyle</name>
+			<text>Vigilance
+{1}, Sacrifice this creature: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/16_Jealous Gargoyle.png" num="16">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caretaker of Bones</name>
+			<text>Flying
+When this creature enters, put a +1/+1 counter on up to one target Skeleton token you control and exile up to one target card from a graveyard.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/4_Caretaker of Bones.png" num="4">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shadowwing Acolyte</name>
+			<text>Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, put a flying counter on this creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/27_Shadowwing Acolyte.png" num="27">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bird Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Valiant Golem</name>
+			<text>When this creature enters, creatures you control get +1/+1 until end of turn.
+Reincarnate {W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/32_Valiant Golem.png" num="32">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relic Court Guardian</name>
+			<text>Vigilance
+When this creature enters, if you control an artifact, tap target creature an opponent controls and put a stun counter on it.
+Reincarnate {1}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/24_Relic Court Guardian.png" num="24">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qualite Altruists</name>
+			<text>When this creature enters, you may exile a creature card with mana value 2 or less from your graveyard. If you do, create a token that&apos;s a copy of it.
+Reincarnate {2}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/21_Qualite Altruists.png" num="21">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Put To Rout</name>
+			<text>Target player sacrifices an attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/20_Put To Rout.png" num="20">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Impassable Gateway</name>
+			<text>When this artifact enters, exile target creature an opponent controls until this artifact leaves the battlefield. 
+When this artifact enters, look at the bottom card of your library. You may put it on top of your library on into your graveyard.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/15_Impassable Gateway.png" num="15">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grim March</name>
+			<text>Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, you gain 5 life.
+Grim March deals damage to target creature equal to the number of creatures you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/12_Grim March.png" num="12">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skeletal Forging</name>
+			<text>Up to one target creature gets +2/+2 until end of turn.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, creatures you control gain indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/28_Skeletal Forging.png" num="28">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thoughtknife Rogue</name>
+			<text>Vigilance
+Whenever you surveil, this creature can&apos;t be blocked this turn and gets +1/+0 until end of turn for each card put into your graveyard this way.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/58_Thoughtknife Rogue.png" num="58">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lucky Phantom</name>
+			<text>Flying
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/47_Lucky Phantom.png" num="47">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frigid Sentry</name>
+			<text>When this creature enters, return target creature you don&apos;t control to its owner&apos;s hand.
+Reincarnate {4}{U} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/43_Frigid Sentry.png" num="43">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Relighter Drake</name>
+			<text>Flying
+When this creature dies, you may put an exiled card you own with pyre into your graveyard.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/52_Relighter Drake.png" num="52">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryptek Reliquary</name>
+			<text>Flying
+When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/40_Cryptek Reliquary.png" num="40">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Omen Hoarder</name>
+			<text>When this creature enters, draw two cards, then discard a card.
+Reincarnate {2}{U} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/49_Omen Hoarder.png" num="49">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golem of Remembrance</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+{2}{U}, Discard this card: Return target noncreature, nonland card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/44_Golem of Remembrance.png" num="44">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rite of Revocation</name>
+			<text>Counter target spell unless its controller pays {2}. If a spell is countered this way, exile it instead of putting it in its owner&apos;s graveyard.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/53_Rite of Revocation.png" num="53">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Consider</name>
+			<text>Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/37_Consider.png" num="37">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Puzzling Monument</name>
+			<text>When this artifact enters, draw two cards.
+{U}, {T}, Sacrifice this artifact: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/50_Puzzling Monument.png" num="50">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Just a Memory</name>
+			<text>Put target creature on top of its owner&apos;s library.
+Each player may surveil 1. (They may look at the top card of their library and may put it into their graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/46_Just a Memory.png" num="46">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>When Hell Freezes Over</name>
+			<text>Tap target creature and put two stun counters on it.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/62_When Hell Freezes Over.png" num="62">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scrapseer Golem</name>
+			<text>Defender
+{1}{U}, Sacrifice this creature or another artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/54_Scrapseer Golem.png" num="54">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skeletal Scavenger</name>
+			<text>Deathtouch
+Whenever you sacrifice one or more other Skeletons, put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/89_Skeletal Scavenger.png" num="89">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sightless Failure</name>
+			<text>Collapse — When this creature enters, if two or more cards or tokens entered your graveyard this turn, each opponent discards a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/88_Sightless Failure.png" num="88">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gurgling Visionary</name>
+			<text>{2}{B}, Sacrifice a creature: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/76_Gurgling Visionary.png" num="76">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mournful Raven</name>
+			<text>Flying
+Whenever this creature deals combat damage to a player, target player mills two cards. (They put the top two cards of their library into their graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/83_Mournful Raven.png" num="83">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Impaled Augur</name>
+			<text>Menace
+Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/77_Impaled Augur.png" num="77">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Facemask Carver</name>
+			<text>Collapse — At the beginning of your end step, if two or more cards or tokens entered your graveyard this turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/75_Facemask Carver.png" num="75">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Indebted Argentist</name>
+			<text>Flying
+When this creature enters, you may exile it. When you do, return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/78_Indebted Argentist.png" num="78">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Petty Gravelord</name>
+			<text>Defile — {2}{B}: Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, this creature gains menace and indestructible until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/87_Petty Gravelord.png" num="87">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>One Must Die</name>
+			<text>Choose one — 
+• Each opponent sacrifices a nontoken creature.
+• Each opponent sacrifices a creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/85_One Must Die.png" num="85">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sympathetic Ritual</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or pay {4}.
+Destroy target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/93_Sympathetic Ritual.png" num="93">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Witch&apos;s Caress</name>
+			<text>Target creature gets -3/-3 until end of turn.
+Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/95_Witch&apos;s Caress.png" num="95">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Beseech The Fading Moon</name>
+			<text>Collapse — Target creature gets +1/+0 gains indestructible until end of turn. If two or more cards or tokens entered your graveyard this turn, it also gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/68_Beseech The Fading Moon.png" num="68">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>New Flesh for Old Bones</name>
+			<text>Return target creature card from your graveyard to your hand.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. When you do, return another target creature card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/84_New Flesh for Old Bones.png" num="84">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Emberbone</name>
+			<text>Menace
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/106_Emberbone.png" num="106">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kindler Prodigy</name>
+			<text>Whenever a card with pyre is exiled from your graveyard, this creature gets +1/+1 and gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/118_Kindler Prodigy.png" num="118">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Entranceway Smith</name>
+			<text>Whenever you cast a spell for its reincarnate cost, create a tapped Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/108_Entranceway Smith.png" num="108">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Charlight Reader</name>
+			<text>Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, exile the top card of your library. You may play it until the end of your next turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/103_Charlight Reader.png" num="103">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magmatic Aspirant</name>
+			<text>Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/119_Magmatic Aspirant.png" num="119">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Immolation Mage</name>
+			<text>Menace
+When this creature enters, it deals 2 damage to each opponent.
+Reincarnate {1}{R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/114_Immolation Mage.png" num="114">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Goblin Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Basalt Crawler</name>
+			<text>When this creature enters, creatures you control with power 4 or greater gain trample and haste until end of turn.
+Reincarnate {R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/98_Basalt Crawler.png" num="98">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ghoulish Taskmaster</name>
+			<text>When this creature enters, you may sacrifice another creature. When you do, this creature deals 2 damage to any target.
+Reincarnate {1}{R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/112_Ghoulish Taskmaster.png" num="112">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Consuming Cinders</name>
+			<text>Consuming Cinders deals 3 damage to target creature or planeswalker.
+If a card or token would be put into an opponent&apos;s graveyard this turn, exile it instead.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/104_Consuming Cinders.png" num="104">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Payment Rendered</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn. When you sacrifice that creature this turn, create a Treasure token. (It&apos;s an artifact with &quot;{T}, Sacrifice this artifact: Add one mana of any color.&quot;)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/121_Payment Rendered.png" num="121">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tyrant&apos;s Lightning</name>
+			<text>Tyrant&apos;s Lightning deals 4 damage to target creature.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, this spell deals 2 damage to each opponent.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/128_Tyrant&apos;s Lightning.png" num="128">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skinflame</name>
+			<text>Target creature gets +2/+0 and gains first strike until end of turn.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/126_Skinflame.png" num="126">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cross the Threshold</name>
+			<text>As an additional cost to cast this spell, discard a card or sacrifice a land.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/105_Cross the Threshold.png" num="105">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Roothian Acidwielder</name>
+			<text>Collapse — As long as two or more cards or tokens entered your graveyard this turn, this creature gets +2/+0.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/151_Roothian Acidwielder.png" num="151">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unctious Toady</name>
+			<text>Whenever this creature attacks, if you control a creature with power 4 or greater or there is a creature card with power 4 or greater in your graveyard, it gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/157_Unctious Toady.png" num="157">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ogre</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canny Merchant</name>
+			<text>{T}: Add {C}.
+{T}, Exile a card from your graveyard: Add a mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/131_Canny Merchant.png" num="131">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunwise Tortoise</name>
+			<text>Whenever you surveil, this creature gets +1/+1 until end of turn.
+{3}{G}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/155_Sunwise Tortoise.png" num="155">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fungus Reader</name>
+			<text>When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/138_Fungus Reader.png" num="138">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blind Watcher</name>
+			<text>Collapse — This spell costs {2} less to cast if two or more cards or tokens entered your graveyard this turn.
+Vigilance
+Whenever this creature attacks, mill two cards.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/130_Blind Watcher.png" num="130">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snowmelt Ranger</name>
+			<text>Trample
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/154_Snowmelt Ranger.png" num="154">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Veteran Linerunner</name>
+			<text>Reach
+Collapse — Whenever this creature attacks, if two or more tokens or cards entered your graveyard this turn, create a 1/1 white Human creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/160_Veteran Linerunner.png" num="160">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon Golem</name>
+			<text>Trample
+This spell costs {1} less to cast for each creature you control and each creature card in your graveyard.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/134_Dragon Golem.png" num="134">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Dragon Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Doomed Confrontation</name>
+			<text>Collapse — Put a +1/+1 counter on target creature you control if two or more cards or tokens entered your graveyard this turn. Then that creature fights up to one other target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/133_Doomed Confrontation.png" num="133">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Projection of Rot</name>
+			<text>Target creature you control deals damage equal to its power to target creature an opponent controls.
+Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/150_Projection of Rot.png" num="150">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nurture Hope</name>
+			<text>Choose one — 
+• Exile up to three target cards from a single graveyard.
+• Target creature gets +3/+3 until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/145_Nurture Hope.png" num="145">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>A Path Forward</name>
+			<text>Search your library for a basic land card, put it onto the battlefield, then shuffle.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/149_A Path Forward.png" num="149">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Availer of Relics</name>
+			<text>Whenever another artifact you control enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/207_Availer of Relics.png" num="207">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Babbling Bestial</name>
+			<text>Flash
+{1{U}B}, Discard this card: Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/208_Babbling Bestial.png" num="208">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>5U/BU/B</manacost>
+				<cmc>7</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Famished Fargone</name>
+			<text>Menace
+{1{B}R}, Sacrifice another creature: Put a +1/+1 counter on this creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/209_Famished Fargone.png" num="209">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>B/R</manacost>
+				<cmc>1</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smoke Dancer</name>
+			<text>As long as it&apos;s your turn, this creature gets +2/+0.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/212_Smoke Dancer.png" num="212">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1RG/}R/G</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anointed Curebearer</name>
+			<text>Vigilance
+{1}, Sacrifice this creature: Target permanent gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/206_Anointed Curebearer.png" num="206">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>G/W</manacost>
+				<cmc>1</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priest of Debt</name>
+			<text>Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, put two +1/+1 counters on this creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/211_Priest of Debt.png" num="211">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1WB/}</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lanternlight Ghoul</name>
+			<text>Collapse — At the beginning of your end step, if two or more tokens or cards entered your graveyard this turn, put a +1/+1 counter on this creature</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/210_Lanternlight Ghoul.png" num="210">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1BG/}B/G</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unblinking Mass</name>
+			<text>Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)
+Whenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/213_Unblinking Mass.png" num="213">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2G/UG/U</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urgent Evocation</name>
+			<text>Exile the top card of your library. You may play that card this turn.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/214_Urgent Evocation.png" num="214">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U/R</manacost>
+				<cmc>1</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zealous Shieldmate</name>
+			<text>Reincarnate {1{R}W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)
+When this creature enters, create a 1/1 white Human creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/215_Zealous Shieldmate.png" num="215">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1RW/}R/W</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Torturer&apos;s Implements</name>
+			<text>Defile — When this Equipment enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. When you do, attach this Equipment to target creature you control.
+Equipped creature gets +2/+0.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/225_Torturer&apos;s Implements.png" num="225">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moonlit Passage</name>
+			<text>{1}, {T}, Sacrifice this artifact: Surveil 3. You may return a land card from your graveyard to your hand. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/217_Moonlit Passage.png" num="217">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clattering Idol</name>
+			<text>When this creature enters, mill two cards.
+Reincarnate {2} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/216_Clattering Idol.png" num="216">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stuffed Watchman</name>
+			<text>This creature enters tapped.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/224_Stuffed Watchman.png" num="224">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Potion of Oblivion</name>
+			<text>Collapse — {6}, {T}, Sacrifice this artifact: Destroy target creature. This ability costs {2} less to activate if two or more cards or tokens entered your graveyard this turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/223_Potion of Oblivion.png" num="223">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Terramorphic Expanse</name>
+			<text>{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/241_Terramorphic Expanse.png" num="241">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Icy Depths</name>
+			<text>This land enters tapped.
+{T}: Add {W} or {U}.
+{1}, Exile this card from your graveyard: Add {W} or {U}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/245_Icy Depths.png" num="245">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Sealed Depths</name>
+			<text>This land enters tapped.
+{T}: Add {U} or {B}.
+{1}, Exile this card from your graveyard: Add {U} or {B}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/251_Sealed Depths.png" num="251">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Haunted Depths</name>
+			<text>This land enters tapped.
+{T}: Add {B} or {R}.
+{1}, Exile this card from your graveyard: Add {B} or {R}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/244_Haunted Depths.png" num="244">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Scorched Depths</name>
+			<text>This land enters tapped.
+{T}: Add {R} or {G}.
+{1}, Exile this card from your graveyard: Add {R} or {G}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/250_Scorched Depths.png" num="250">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Quiet Depths</name>
+			<text>This land enters tapped.
+{T}: Add {G} or {W}.
+{1}, Exile this card from your graveyard: Add {G} or {W}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/249_Quiet Depths.png" num="249">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ossified Depths</name>
+			<text>This land enters tapped.
+{T}: Add {W} or {B}.
+{1}, Exile this card from your graveyard: Add {W} or {B}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/248_Ossified Depths.png" num="248">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Miasmic Depths</name>
+			<text>This land enters tapped.
+{T}: Add {B} or {G}.
+{1}, Exile this card from your graveyard: Add {B} or {G}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/247_Miasmic Depths.png" num="247">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blossoming Depths</name>
+			<text>This land enters tapped.
+{T}: Add {G} or {U}.
+{1}, Exile this card from your graveyard: Add {G} or {U}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/242_Blossoming Depths.png" num="242">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Luminescent Depths</name>
+			<text>This land enters tapped.
+{T}: Add {U} or {R}.
+{1}, Exile this card from your graveyard: Add {U} or {R}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/246_Luminescent Depths.png" num="246">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crystalline Depths</name>
+			<text>This land enters tapped.
+{T}: Add {R} or {W}.
+{1}, Exile this card from your graveyard: Add {R} or {W}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/243_Crystalline Depths.png" num="243">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Collector Lich</name>
+			<text>This creature costs {1} less to cast for each artifact you control and each artifact card in your graveyard.
+Lifelink
+When this creature enters, draw two cards.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/170_Collector Lich.png" num="170">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>5WUU</manacost>
+				<cmc>8</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Good Luck Charm</name>
+			<text>Flash
+When this artifact enters, exile target noncreature spell or attacking creature.
+{2}, Sacrifice this artifact: You gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/176_Good Luck Charm.png" num="176">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Jolly Gravetender</name>
+			<text>{1}, {T}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+{3}{U}{B}, {T}, Sacrifice this creature: Return target creature card from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/181_Jolly Gravetender.png" num="181">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Imperious Arbiter</name>
+			<text>Flying
+When this creature enters, each opponent sacrifices two creatures of their choice.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/179_Imperious Arbiter.png" num="179">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Archon</type>
+				<maintype>Creature</maintype>
+				<manacost>4UUBB</manacost>
+				<cmc>8</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cinder Road Tormentor</name>
+			<text>Sacrifice another creature: This creature gets +1/+0 and gains trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/169_Cinder Road Tormentor.png" num="169">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cower Before My Legions</name>
+			<text>Whenever you sacrifice one or more permanents, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block.&quot; This ability triggers only once each turn.
+{2}{B}, Sacrifice a creature: Each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/171_Cower Before My Legions.png" num="171">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Knight of Thistles</name>
+			<text>Vigilance, menace, ward—Sacrifice a noncreature permanent. (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player sacrifices a noncreature permanent.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/182_Knight of Thistles.png" num="182">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Feasting on Corpses</name>
+			<text>Enchanted creature gets +2/+1 and has trample.
+You may cast this card from your graveyard if it targets a creature with power 4 or greater. If you do, it enters with a finality counter.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/173_Feasting on Corpses.png" num="173">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Doomed Procession</name>
+			<text>Kicker—Sacrifice a token. (You may sacrifice a token in addition to any other costs as you cast this spell.)
+Create two 1/1 white Human creature tokens. If this spell was kicked, create four of those tokens instead.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/172_Doomed Procession.png" num="172">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Matron of the Intangible</name>
+			<text>Collapse — This spell costs {2} less to cast if two or more tokens or cards entered your graveyard this turn.
+Creature tokens you control get +1/+1</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/186_Matron of the Intangible.png" num="186">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cemetery Keeper</name>
+			<text>If you would create one or more Skeleton tokens, instead create twice as many of those tokens.
+{1}{W}{B}, Sacrifice three Skeletons: Return this card from your graveyard to the battlefield tapped with a finality counter on it.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/168_Cemetery Keeper.png" num="168">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mortal Coil</name>
+			<text>Destroy target creature.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, each opponent discards a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/190_Mortal Coil.png" num="190">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Roothian Chronicler</name>
+			<text>At the beginning of your upkeep, mill two cards.
+{4}{B}{G}, {T}, Exile this creature: Return up to two target cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/197_Roothian Chronicler.png" num="197">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Psycharachnia</name>
+			<text>When this enchantment enters, destroy target nonland permanent an opponent controls.
+{1}, Sacrifice this enchantment: Create a 1/2 green Spider creature token with reach for each card or token that entered your graveyard this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/194_Psycharachnia.png" num="194">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Obsessive Alchemist</name>
+			<text>Whenever you surveil, you may return a card surveilled this way from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/192_Obsessive Alchemist.png" num="192">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spiral of Retraction</name>
+			<text>Surveil 2. When you do, return up to two target nonland permanents and/or permanent cards in graveyards to their owners&apos; hands.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/198_Spiral of Retraction.png" num="198">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4GU</manacost>
+				<cmc>6</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonlit Cavalry</name>
+			<text>Flying
+Whenever this creature attacks, look at the top four cards of your library. You may reveal a card with pyre from among them and put it in your graveyard. Put the rest on the bottom in a random order.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/189_Moonlit Cavalry.png" num="189">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>UR</manacost>
+				<cmc>2</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Word of Spite</name>
+			<text>This spell deals X damage to target creature, where X is 2 plus the number of cards you own in exile with pyre. 
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/204_Word of Spite.png" num="204">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Auditor of the Cycle</name>
+			<text>Whenever this creature enters or you cast a spell for its reincarnate cost, exile the top card of your library. You may cast it until the end of your next turn.
+Reincarnate {R}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/162_Auditor of the Cycle.png" num="162">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2RW</manacost>
+				<cmc>4</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunbleached Statue</name>
+			<text>Flash
+When this artifact enters, exile up to one target creature you control.
+{2}, Sacrifice this artifact: Draw a card. Return the exiled card to the battlefield under its owner&apos;s control with two +1/+1 counters on it. It gains haste until end of turn. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/199_Sunbleached Statue.png" num="199">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fight Like Hell</name>
+			<text>Creatures you control get +2/+0 until end of turn.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, creatures you control gain first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/8_Fight Like Hell.png" num="8">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ritual of Release</name>
+			<text>Defile — Exile target creature or enchantment. Its controller creates a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then they may sacrifice two creatures. If they do, they draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/25_Ritual of Release.png" num="25">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Superstitious Aspirant</name>
+			<text>Whenever this creature enters or attacks, exile up to one target card from a graveyard.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/30_Superstitious Aspirant.png" num="30">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golem of Offerings</name>
+			<text>When this creature enters, mill four cards. You may return an artifact card milled this way to your hand.
+Reincarnate {2}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/11_Golem of Offerings.png" num="11">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glorious Passage</name>
+			<text>You may sacrifice a creature. If you do, return it to the battlefield under your control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/10_Glorious Passage.png" num="10">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Earnest Penitent</name>
+			<text>Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice one or more creatures. If you do, create an X/X white Angel creature token with flying and vigilance, where X is the number of creatures sacrificed this way.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/6_Earnest Penitent.png" num="6">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haunted Aspirant</name>
+			<text>Lifelink
+When this creature leaves the battlefield, create a 3/3 white Spirit creature token with flying
+Reincarnate {4}{W}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/14_Haunted Aspirant.png" num="14">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Qualite Pledge</name>
+			<text>Create two 1/1 white Human creature tokens.
+{W}, Exile this card from your graveyard: Create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/22_Qualite Pledge.png" num="22">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Titanic Gatekeeper</name>
+			<text>When this creature enters, exile up to one target nonland permanent. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.
+Reincarnate {1}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/31_Titanic Gatekeeper.png" num="31">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flesheater Knight</name>
+			<text>Sacrifice another creature: This creature gains indestructible until end of turn. Tap it.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/9_Flesheater Knight.png" num="9">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Angel of Unmaking</name>
+			<text>Flying
+When this creature enters, return another permanent you control to its owner&apos;s hand.
+Reincarnate {W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/1_Angel of Unmaking.png" num="1">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Blade of Hope</name>
+			<text>Equipped creature gets +1/+1.
+As long as it&apos;s your turn, equipped creature has lifelink.
+Collapse — Equip {2}. This ability costs {2} less to activate if two or more cards or tokens entered your graveyard this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/2_Blade of Hope.png" num="2">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Exorcism By Ambush</name>
+			<text>Collapse — Destroy target tapped creature. If two or more cards or tokens entered your graveyard this turn, instead exile that creature and you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/7_Exorcism By Ambush.png" num="7">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Keeper of Small Tales</name>
+			<text>Vigilance
+Whenever one or more creatures you control with power 2 or less enter, investigate. This ability triggers only once each turn. (To investigate, create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/17_Keeper of Small Tales.png" num="17">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sinister Sabotage</name>
+			<text>Counter target spell. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/55_Sinister Sabotage.png" num="55">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Timetreader Kraken</name>
+			<text>Exile four cards from your graveyard: This creature can&apos;t be blocked this turn.
+{U}, Discard this card: Return target creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/59_Timetreader Kraken.png" num="59">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Kraken</type>
+				<maintype>Creature</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Biding Hoarder</name>
+			<text>Flying
+You don&apos;t lose the game to drawing from an empty library.
+This creature gets -X/-0, where X is the number of cards in your library.
+{3}{U}: Put this card form your graveyard on the bottom of your library.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/36_Biding Hoarder.png" num="36">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>10/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trinket Strix</name>
+			<text>Vigilance, flying
+{T}, Exile an artifact card from your graveyard: Draw a card, then discard a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/61_Trinket Strix.png" num="61">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trawler Mage</name>
+			<text>When this creature enters, search your library for an artifact card, put it into your graveyard, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/60_Trawler Mage.png" num="60">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Storm Sage</name>
+			<text>Whenever this creature enters or leaves the battlefield, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Reincarnate {1}{U} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/57_Storm Sage.png" num="57">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whisper Wielder</name>
+			<text>Whenever a card with pyre is exiled from your graveyard, choose one — 
+• Tap target creature.
+• Put a stun counter on target tapped creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/63_Whisper Wielder.png" num="63">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Raven Reader</name>
+			<text>When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Whenever you surveil, create a 1/1 blue Bird creature token with flying.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/51_Raven Reader.png" num="51">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Behold Immensity</name>
+			<text>Surveil 3, then reveal the top card of your library. Draw cards equal to its mana value, then discard a card. (To surveil 3, look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/35_Behold Immensity.png" num="35">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Drake of Azure Flame</name>
+			<text>This spell costs {2} less to cast if you&apos;ve cast another spell this turn.
+Flying
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/41_Drake of Azure Flame.png" num="41">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cryptek Pledge</name>
+			<text>Gain control of target creature with mana value 2 or less.
+{U}, Exile this card from your graveyard: Create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/39_Cryptek Pledge.png" num="39">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Soulwater Reader</name>
+			<text>Vigilance
+Whenever this creature enters or attacks, investigate. (Create a Clue token. It&apos;s an artifact with &quot;{2}, Sacrifice this artifact: Draw a card.&quot;)
+Reincarnate {U} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/56_Soulwater Reader.png" num="56">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Is Anyone There</name>
+			<text>Target player mills three cards. If you cast a noncreature spell with mana value 2 or greater this turn, you may put an exiled card named Is Anyone There? you own into your graveyard.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/45_Is Anyone There.png" num="45">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Morbid Memoriam</name>
+			<text>{T}: Mill a card.
+{3}{U}{U}, {T}, Sacrifice this artifact: Return another target instant, sorcery, or artifact card from your graveyard to your hand.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/48_Morbid Memoriam.png" num="48">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bone Hoarder</name>
+			<text>Defile — When this creature dies, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, return this card to the battlefield at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/70_Bone Hoarder.png" num="70">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dance With Death</name>
+			<text>Collapse — This spell costs {1} less to cast if two or more cards or tokens entered your graveyard this turn.
+Return target creature card with mana value 3 or less from your graveyard to the battlefield with a +1/+1 counter on it.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/72_Dance With Death.png" num="72">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Drown In Suffering</name>
+			<text>Collapse — Destroy target creature. You lose 3 life unless two or more cards or tokens entered your graveyard this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/73_Drown In Suffering.png" num="73">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zombify</name>
+			<text>Return target creature card from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/96_Zombify.png" num="96">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Argentist Pontiff</name>
+			<text>Sacrifice another creature: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/66_Argentist Pontiff.png" num="66">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Malevolent Summoner</name>
+			<text>Flying
+At the beginning of your end step, if you sacrificed a permanent this turn, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block.&quot;</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/80_Malevolent Summoner.png" num="80">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mind Gorger</name>
+			<text>When this creature enters, target opponent reveals their hand. You may sacrifice this creature. If you do, choose a nonland card from that player&apos;s hand. That player discards that card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/82_Mind Gorger.png" num="82">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Soulbinder Duo</name>
+			<text>Defile — Whenever this creature attacks, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. When you do, target creature gets -2/-2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/91_Soulbinder Duo.png" num="91">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skinreader Disiple</name>
+			<text>Deathtouch
+Collapse — Pay 1 life: Draw a card. Activate only once each turn and only if two or more cards or tokens entered your graveyard this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/90_Skinreader Disiple.png" num="90">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Argentist Pledge</name>
+			<text>Target player discards two cards.
+{B}, Exile this card from your graveyard: Create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/65_Argentist Pledge.png" num="65">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloodwater Blade</name>
+			<text>Equipped creature gets +3/+3 and has menace.
+Equip—Sacrifice a creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/69_Bloodwater Blade.png" num="69">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Creeping Oblivion</name>
+			<text>Exile target creature.
+Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, creatures your opponents control get -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/71_Creeping Oblivion.png" num="71">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Persistent Reaper</name>
+			<text>Flying
+Defile — Whenever this creature deals combat damage to a player, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, that player loses 3 life and you gain 3 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/86_Persistent Reaper.png" num="86">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avaricious King</name>
+			<text>This spell costs {1} less to cast for each creature card in your graveyard.
+Menace
+When this creature enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/67_Avaricious King.png" num="67">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Zombie Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>7BB</manacost>
+				<cmc>9</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Red Moon Rising</name>
+			<text>Choose one — 
+• Red Moon Rising deals 2 damage to each creature.
+• Each player sacrifices two artifacts.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/123_Red Moon Rising.png" num="123">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Entralling Hunter</name>
+			<text>When this creature enters, gain control of target creature with power 2 or less until end of turn. Untap it. It gains haste until end of turn.
+Reincarnate {2}{R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/107_Entralling Hunter.png" num="107">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cast From Rage</name>
+			<text>This spell costs {2} less to cast if it targets a creature with power 4 or greater.
+Create a token that&apos;s a copy of target creature you control, except it has trample and haste and enters with two +1/+1 counters. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/101_Cast From Rage.png" num="101">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kindhearted Kindler</name>
+			<text>When this creature enters, add {U}{R}{W}. Spend this mana only to cast spells with reincarnate.
+Reincarnate {1}{R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/115_Kindhearted Kindler.png" num="115">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grizzled Sparksword</name>
+			<text>Whenever this creature attacks, add {R}. Spend this mana only to cast spells with pyre.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/113_Grizzled Sparksword.png" num="113">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Siege Demon</name>
+			<text>When this creature enters, create X 1/1 red Elemental creature tokens with haste. Sacrifice them at the beginning of the next end step.
+Reincarnate {X}{R}{R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/125_Siege Demon.png" num="125">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>XRR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Razelight Champion</name>
+			<text>When this creature enters, creatures you control get +1/+0 and gain haste until end of turn.
+{2}{R}, Discard this card: Create two 1/1 white Human creature tokens.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/122_Razelight Champion.png" num="122">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kindler Pledge</name>
+			<text>Kindler Pledge deals 2 damage to any target.
+{R}, Exile this card from your graveyard: Create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/117_Kindler Pledge.png" num="117">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rotting Tyrant</name>
+			<text>Flying
+Defile — When this creature enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. When you do, this creature deals 4 damage to target creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/124_Rotting Tyrant.png" num="124">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloody Augury</name>
+			<text>Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, exile the top four cards of your library. Otherwise, exile the top two cards of your library. You may play cards exiled this way until the end of your next turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/100_Bloody Augury.png" num="100">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ordained Entrance</name>
+			<text>Enchant creature you control
+Enchanted creature gets +1/+0 and has haste.
+When this Aura enters, target creature can&apos;t block this turn.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/120_Ordained Entrance.png" num="120">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kindler Acolyte</name>
+			<text>{3}{R}, Sacrifice this creature, discard your hand: Draw two cards.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/116_Kindler Acolyte.png" num="116">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fire From Within</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature or pay {4}.
+Fire From Within deals 5 damage to target creature.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/111_Fire From Within.png" num="111">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Chaotic Forging</name>
+			<text>Exile cards from the top of your library until you exile a nonland card with mana value 7 or less. You may cast that card without paying its mana cost. Put the rest on the bottom in a random order.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/102_Chaotic Forging.png" num="102">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mournful Caretaker</name>
+			<text>Collapse — At the beginning of your end step, if two or more cards or tokens entered your graveyard this turn, create a 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/143_Mournful Caretaker.png" num="143">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roothian Pledge</name>
+			<text>Creatures you control get +3/+2 and gain trample until end of turn.
+{G}, Exile this card from your graveyard: Create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/152_Roothian Pledge.png" num="152">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Forerunner Steed</name>
+			<text>Creature spells you cast with power 4 or greater cost {1} less to cast.
+Whenever you cast a creature spell with power 4 or greater, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/137_Forerunner Steed.png" num="137">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Horse</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pampered Hordemaster</name>
+			<text>Whenever a creature token enters under your control, you may pay {1}. If you do, put a +1/+1 counter on it.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/147_Pampered Hordemaster.png" num="147">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Thistle Elemental</name>
+			<text>This creature enters with X +1/+1 counters on it.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/156_Thistle Elemental.png" num="156">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/0</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keeper of Memorials</name>
+			<text>Vigilance
+When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Whenever you surveil, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/141_Keeper of Memorials.png" num="141">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Roothian Shaman</name>
+			<text>Deathtouch
+{T}: Mill two cards.
+{T}: Shuffle two target cards from your graveyard into your library.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/153_Roothian Shaman.png" num="153">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Macabre Harvest</name>
+			<text>Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Return a permanent card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/142_Macabre Harvest.png" num="142">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mulchborn Strider</name>
+			<text>Trample
+This creature gets +1/+1 for each card or token that entered you graveyard this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/144_Mulchborn Strider.png" num="144">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ethereal Duelist</name>
+			<text>Collapse — When this creature enters, if two or more cards or tokens entered your graveyard this turn, it fights up to one target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/135_Ethereal Duelist.png" num="135">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Awoken Yeti</name>
+			<text>You may cast this spell as though it had flash if you sacrifice a creature as an additional cost as you cast it.
+As an additional cost to cast this spell, you may sacrifice a creature. If you do, it costs {2} less to cast.
+Trample, ward {3}</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/129_Awoken Yeti.png" num="129">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Yeti</type>
+				<maintype>Creature</maintype>
+				<manacost>6GG</manacost>
+				<cmc>8</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Get To Cover</name>
+			<text>Up to one target creature you control gets +1/+1 and gains hexproof until end of turn.
+Spells and abilities your opponents control can&apos;t cause you to sacrifice permanents this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/139_Get To Cover.png" num="139">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Undying Vanquishing</name>
+			<text>This spell deals damage to target creature equal to the greatest power among creatures you control and creature cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/158_Undying Vanquishing.png" num="158">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Final Night</name>
+			<text>Collapse — At the beginning of your end step, if two or more cards or tokens entered your graveyard this turn, put a +1/+1 counter on target creature you control.
+{3}{G}: Mill three cards. You may return a creature card milled this way to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/136_Final Night.png" num="136">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pendant of Resilience</name>
+			<text>{1}, {T}, Sacrifice this artifact: Draw a card.
+{1}{W}, {T}, Sacrifice this artifact: Put a +1/+1 counter on each creature you control. They gain vigilance until end of turn. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/221_Pendant of Resilience.png" num="221">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pendant of Reflection</name>
+			<text>{1}, {T}, Sacrifice this artifact: Draw a card.
+{1}{U}, {T}, Sacrifice this artifact: Create a tapped token that&apos;s a copy of target creature you control. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/220_Pendant of Reflection.png" num="220">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pendant of Insight</name>
+			<text>{1}, {T}, Sacrifice this artifact: Draw a card.
+{1}{B}, {T}, Sacrifice this artifact: Target player draws two cards and loses 2 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/218_Pendant of Insight.png" num="218">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pendant of Potential</name>
+			<text>{1}, {T}, Sacrifice this artifact: Draw a card.
+{1}{R}, {T}, Sacrifice this artifact: Add three mana in any combination of colors.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/219_Pendant of Potential.png" num="219">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pendant of Verdance</name>
+			<text>{1}, {T}, Sacrifice this artifact: Draw a card.
+{1}{G}, {T}, Sacrifice this artifact, Sacrifice a land: Search your library for two basic land cards, put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/222_Pendant of Verdance.png" num="222">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Altar of the Ichor</name>
+			<text>This land enters tapped.
+{T}: Add {W}.
+{1}{W}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/227_Altar of the Ichor.png" num="227">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Altar of the Eclipse</name>
+			<text>This land enters tapped.
+{T}: Add {U}.
+{1}{U}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/226_Altar of the Eclipse.png" num="226">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Altar of the Marrow</name>
+			<text>This land enters tapped.
+{T}: Add {B}.
+{1}{B}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/228_Altar of the Marrow.png" num="228">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Altar of the Wax</name>
+			<text>This land enters tapped.
+{T}: Add {R}.
+{1}{R}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/230_Altar of the Wax.png" num="230">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Altar of the Serpent</name>
+			<text>This land enters tapped.
+{T}: Add {G}.
+{1}{G}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/229_Altar of the Serpent.png" num="229">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Terya, The All-Sword</name>
+			<text>Flying
+Whenever this creature or an artifact you control enters, exile up to one target nonland permanent an opponent controls until that permanent leaves the battlefield.
+{W}{U}: Put an exiled card an opponent owns into their graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/201_Terya, The All-Sword.png" num="201">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>4WU</manacost>
+				<cmc>6</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Call Upon Ancient Lineage</name>
+			<text>Create a 1/1 white and blue Reflection creature token with flying for each creature type among non-Reflection cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/167_Call Upon Ancient Lineage.png" num="167">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3WU</manacost>
+				<cmc>5</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>He From Whom None Escape</name>
+			<text>Lifelink
+Ward—Exile two creature cards from your graveyard.
+Whenever a nonland permanent card leaves an opponent&apos;s graveyard, create a token that&apos;s a copy of it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/178_He From Whom None Escape.png" num="178">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>8UB</manacost>
+				<cmc>10</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>8/8</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tear Away Their Purpose</name>
+			<text>Choose a nonland card name. Search target opponent&apos;s graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles. You may cast those cards this turn, and mana of any type may be spent to cast them.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/200_Tear Away Their Purpose.png" num="200">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lasveth, The Gleeful Impaler</name>
+			<text>Lifelink
+Whenever you sacrifice a permanent, this creature deals 1 damage to any target. Put a +1/+1 counter on it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/184_Lasveth, The Gleeful Impaler.png" num="184">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Let Every Pustule Fester</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature. 
+Each player mills cards equal to the sacrificed creature&apos;s power. Create a 2/2 black Zombie creature token with menace for each creature card milled this way.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/185_Let Every Pustule Fester.png" num="185">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Niksh, The Joints of Power</name>
+			<text>This spell costs {X} less to cast, where X is the total power of creatures you control.
+You may cast this card from your graveyard.
+Trample</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/191_Niksh, The Joints of Power.png" num="191">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>12RG</manacost>
+				<cmc>14</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>12/12</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wear the Mask of Flame</name>
+			<text>At the beginning of your upkeep, sacrifice a land.
+Lands you control have &quot;{T}: Add two mana in any combination of colors.&quot;</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/203_Wear the Mask of Flame.png" num="203">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fryga, The Sated</name>
+			<text>Flying
+Other creatures you control have base power and toughness 3/3.
+At the beginning of your upkeep, sacrifice a creature.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/174_Fryga, The Sated.png" num="174">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Remake the World in Light</name>
+			<text>Each player&apos;s life total becomes equal to the number of creatures they control plus the number of creature cards in their graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/195_Remake the World in Light.png" num="195">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>5GW</manacost>
+				<cmc>7</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kurak, Puppeteer of Spines</name>
+			<text>Skeletons you control get +1/+0.
+At the beginning of each end step, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot; for each Skeleton you sacrificed this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/183_Kurak, Puppeteer of Spines.png" num="183">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Zombie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beset Them With Remorse</name>
+			<text>Exile target nonland permanent that shares a card type with a card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/164_Beset Them With Remorse.png" num="164">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Xagg, Root-Prisoned</name>
+			<text>Deathtouch
+Collapse — This creature can&apos;t attack or block unless two or more cards or tokens entered your graveyard this turn.
+{2}{B}{G}, Sacrifice two permanents: Draw two cards.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/205_Xagg, Root-Prisoned.png" num="205">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fungus God</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Begin the All-Consuming Rite</name>
+			<text>You may sacrifice a nonland permanent. If you do, each opponent sacrifices a permanent that shares a card type with that permanent, then repeat this process.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/163_Begin the All-Consuming Rite.png" num="163">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Byou, The Lonesome</name>
+			<text>Whenever you surveil, create a 0/1 green Fungus creature token, then put a +1/+1 counter on each Fungus you control.
+{3}{G}{U}, Sacrifice another Fungus: Draw cards equal to the sacrificed Fungus&apos; power.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/166_Byou, The Lonesome.png" num="166">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Miasma Runs Like Rivers</name>
+			<text>At the beginning of your end step, you may exile one or more cards from your graveyard with consecutive mana values. If you do, create an X/X green Ooze creature token, where X is the number of cards exiled this way.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/188_Miasma Runs Like Rivers.png" num="188">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2GU</manacost>
+				<cmc>4</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Viksker Spitflame</name>
+			<text>Whenever you cast a spell with pyre, add {R} if this is the first time this ability has resolved this turn. If it&apos;s the second time, draw a card. If it&apos;s the third time, sacrifice this creature. It deals 3 damage to each opponent and each creature your opponents control.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/202_Viksker Spitflame.png" num="202">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Burn The Past Away</name>
+			<text>Exile your graveyard. For each nonland card exiled this way, you may cast a copy of it during your next turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/165_Burn The Past Away.png" num="165">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gouev, Limbo&apos;s Jester</name>
+			<text>Vigilance
+Whenever a nontoken creature you control with reincarnate enters, create a token that&apos;s a copy of it. It gains lifelink and haste. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/177_Gouev, Limbo&apos;s Jester.png" num="177">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3RW</manacost>
+				<cmc>5</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reverse The Final Journey</name>
+			<text>Return all creature cards with mana value 2 or less from your graveyard to the battlefield. Untap all creatures you control. They gain vigilance and haste until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/196_Reverse The Final Journey.png" num="196">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4RW</manacost>
+				<cmc>6</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Iria, The First Sacrifice</name>
+			<text>Flying
+Whenever you cast a spell or activate an ability, if you sacrificed a permanent to cast or activate it, copy it. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/180_Iria, The First Sacrifice.png" num="180">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>RWB</manacost>
+				<cmc>3</cmc>
+				<colors>WBR</colors>
+				<coloridentity>WBR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oche, The Eternal Echo</name>
+			<text>Creatures you control that are copies get +2/+2 and have trample.
+Whenever a noncreature spell you control that&apos;s a copy resolves, draw a card.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/193_Oche, The Eternal Echo.png" num="193">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>2GUR</manacost>
+				<cmc>5</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Army of Endless Graves</name>
+			<text>Whenever another creature enters under your control, put X +1/+1 counters on it, where X is the number of cards and tokens that entered your graveyard this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/161_The Army of Endless Graves.png" num="161">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost>1WBG</manacost>
+				<cmc>4</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maz, Thief of Redemption</name>
+			<text>Whenever you cast your second spell each turn, exile the bottom card of your library. If it&apos;s a creature card, create a token that&apos;s a copy of it. It gains haste. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/187_Maz, Thief of Redemption.png" num="187">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1URW</manacost>
+				<cmc>4</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Golsh, The Endweaver</name>
+			<text>Vigilance
+At the beginning of your upkeep, surveil 2.
+This creature has all activated abilities of cards in your graveyard that were put there from your library this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/175_Golsh, The Endweaver.png" num="175">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spider Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>BGU</manacost>
+				<cmc>3</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Harbinger of Collapse</name>
+			<text>When this creature enters, if it was cast, destroy all other creatures.
+Reincarnate {6}{W}{W}{W} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/13_Harbinger of Collapse.png" num="13">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Skeleton Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bonerise Cleric</name>
+			<text>Defile — Whenever another nontoken creature you control enters, create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, put two +1/+1 counters and a flying counter on that creature.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/3_Bonerise Cleric.png" num="3">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Statue of Sanctity</name>
+			<text>Creatures you control get +1/+0.
+{1}, {T}, Sacrifice this artifact: Return target creature card from your graveyard to the battlefield tapped that was put there from the battlefield this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/29_Statue of Sanctity.png" num="29">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Preacher of the Cycle</name>
+			<text>Lifelink
+Creature cards in your graveyard have reincarnate. Their reincarnate cost is equal to their mana cost reduced by {2}. (You may cast them from your graveyard for their reincarnate cost. If you do, put them on the bottom of your library when they enter.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/19_Preacher of the Cycle.png" num="19">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cloistered Innocent</name>
+			<text>Whenever an opponent sacrifices a permanent to pay the cost of a spell or ability, or a spell or ability an opponent controls causes that player to sacrifice a permanent, create a 1/1 white Human creature token.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/5_Cloistered Innocent.png" num="5">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Age-Old Gargoyle</name>
+			<text>Flying
+Whenever this creature deals combat damage to a player, you may exile it and sacrifice three other artifacts. If you do, take another turn after this one.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/33_Age-Old Gargoyle.png" num="33">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Gargoyle</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Creaking Wreck</name>
+			<text>{1}{U}, {T}, Exile two cards from your graveyard: Draw a card.
+As long as there are eight or more cards exiled with this artifact, it&apos;s an artifact creature with hexproof, vigilance, and &quot;This creature&apos;s power and toughness are each equal to the number of cards exiled with it.&quot;</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/38_Creaking Wreck.png" num="38">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Follow The Star</name>
+			<text>Draw X cards, then discard half that many cards, rounded down.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/42_Follow The Star.png" num="42">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Whispering Drake</name>
+			<text>Flying
+When this creature enters, put any number of target cards you own in exile with whisper counters on them into your hand.
+{U}, Reveal this card from your hand: Exile target card from your graveyard that was put there from your library this turn with a whisper counter on it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/64_Whispering Drake.png" num="64">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Drake</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beckoner of Spirits</name>
+			<text>If you would surveil any number, surveil that number plus one instead.
+As long as there are ten or more cards in your graveyard, this creature gets +2/+2 for each ten cards in your graveyard and has flying.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/34_Beckoner of Spirits.png" num="34">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memoriam Implements</name>
+			<text>Whenever you sacrifice a creature, put a component counter on this artifact.
+{B}, {T}, Pay 2 life, Remove X component counters from this artifact and sacrifice it: Return target creature card with mana value X from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/81_Memoriam Implements.png" num="81">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tide of Corpses</name>
+			<text>Defile — At the beginning of your upkeep, you lose 1 life and create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;, then you may sacrifice two creatures. If you do, you draw a card and gain 2 life.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/94_Tide of Corpses.png" num="94">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spinal Sussuration</name>
+			<text>Defile — Create a 1/1 black Skeleton creature token with &quot;This creature can&apos;t block&quot;. Search your library for a nonland card and exile it. You may cast it by sacrificing a number of creatures equal to its mana value rather than pay its mana cost. If you don&apos;t, put it into your hand. Then shuffle.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/92_Spinal Sussuration.png" num="92">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dusty Tormentor</name>
+			<text>Flying
+You don&apos;t lose the game for having 0 or less life.
+Whenever you lose life, exile that many cards from your graveyard. If you can&apos;t, you lose the game.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/74_Dusty Tormentor.png" num="74">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Layer Revenant</name>
+			<text>This creature can&apos;t block
+Collapse — You may cast this card from your graveyard if two or more cards or tokens entered your graveyard this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/79_Layer Revenant.png" num="79">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ever-Burning Tormentor</name>
+			<text>Haste
+This creature attacks each combat if able.
+Whenever this creature deals damage to a player, you may pay {R}. If you do, put a +1/+1 counter on it.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/109_Ever-Burning Tormentor.png" num="109">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Slagcrawler</name>
+			<text>When this creature enters the battlefield, destroy up to one target artifact or nonbasic land.
+When this creature leaves the battlefield, each opponent may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Reincarnate {R} (You may cast this card from your graveyard for its reincarnate cost. If you do, put it on the bottom of your library when it enters.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/127_Slagcrawler.png" num="127">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Autocrat of Tribute</name>
+			<text>Flying, haste, ward — Pay life equal to this creature&apos;s power.
+{R}, Sacrifice a creature: This creature gets +X/+0 until end of turn, where X is the sacrificed creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/97_Autocrat of Tribute.png" num="97">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiery Upheaval</name>
+			<text>At the beginning of your upkeep, you may sacrifice a nonland permanent. When you do, target opponent exiles cards from the top of their library until they exile a card that shares a card type with the sacrificed permanent. You may cast that card without paying its mana cost. Put the rest on the bottom in a random order.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/110_Fiery Upheaval.png" num="110">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>RRR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Become Catastrophe</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Become Catastrophe deals damage equal to the sacrificed creature&apos;s power to each creature, planeswalker, and opponent.
+Pyre (When this card enters your graveyard, you may exile it. If you do, you may cast a copy during your next turn.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/99_Become Catastrophe.png" num="99">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unflinching Headhunter</name>
+			<text>When you cast this spell, mill two cards.
+Haste
+Collapse — As long as two or more cards or tokens have entered your graveyard this turn, this creature has hexproof.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/159_Unflinching Headhunter.png" num="159">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Divergent Mutation</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Search your library for two creature cards with the same mana value as the sacrificed creature that have different names from each other and from the sacrificed creature. Put them onto the battlefield tapped, then shuffle.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/132_Divergent Mutation.png" num="132">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Golem of Ancestry</name>
+			<text>{T}: Add one mana of any color. Spend this mana only to cast a creature spell that shares no creature types with creatures you control and creature cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/140_Golem of Ancestry.png" num="140">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Golem</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Parasitized Aspirant</name>
+			<text>Vigilance
+Whenever this creature deals combat damage to a player, you may sacrifice two lands. If you do, return up to three other land cards from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/148_Parasitized Aspirant.png" num="148">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Human Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nykke, The Patient Web</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/146_Nykke, The Patient Web.png" num="146">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Nykke</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Line</name>
+			<text>{T}: Add {W} or {U}.
+This land enters tapped unless there is a white or blue card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/235_Tenuous Line.png" num="235">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Cistern</name>
+			<text>{T}: Add {U} or {B}.
+This land enters tapped unless there is a blue or black card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/231_Tenuous Cistern.png" num="231">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Moor</name>
+			<text>{T}: Add {B} or {R}.
+This land enters tapped unless there is a black or red card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/238_Tenuous Moor.png" num="238">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Mycelium</name>
+			<text>{T}: Add {R} or {G}.
+This land enters tapped unless there is a red or green card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/239_Tenuous Mycelium.png" num="239">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Mists</name>
+			<text>{T}: Add {G} or {W}.
+This land enters tapped unless there is a green or white card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/237_Tenuous Mists.png" num="237">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Crypt</name>
+			<text>{T}: Add {W} or {B}.
+This land enters tapped unless there is a white or black card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/233_Tenuous Crypt.png" num="233">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Wasteland</name>
+			<text>{T}: Add {B} or {G}.
+This land enters tapped unless there is a black or green card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/240_Tenuous Wasteland.png" num="240">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Falls</name>
+			<text>{T}: Add {G} or {U}
+This land enters tapped unless there is a green or blue card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/234_Tenuous Falls.png" num="234">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Mindscape</name>
+			<text>{T}: Add {U} or {R}.
+This land enters tapped unless there is a blue or red card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/236_Tenuous Mindscape.png" num="236">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Tenuous Crags</name>
+			<text>{T}: Add {R} or {W}.
+This land enters tapped unless there is a red or white card in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/232_Tenuous Crags.png" num="232">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/252_Plains.png" num="252">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/253_Island.png" num="253">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/254_Swamp.png" num="254">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/255_Mountain.png" num="255">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/256_Forest.png" num="256">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Skeleton LIM</name>
+			<text>This creature can&apos;t block.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/5t_Skeleton.png" num="5">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Skeleton</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Human LIM</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/2t_Human.png" num="2">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure LIM</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/13t_Treasure.png" num="13">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spider LIM</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/10t_Spider.png" num="10">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Angel LIM</name>
+			<text>Flying, vigilance</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/1t_Angel.png" num="1">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Spirit LIM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/3t_Spirit.png" num="3">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird LIM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/4t_Bird.png" num="4">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ooze LIM</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/9t_Ooze.png" num="9">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Reflection LIM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/11t_Reflection.png" num="11">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Reflection</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental LIM</name>
+			<text>Haste</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/7t_Elemental.png" num="7">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie LIM</name>
+			<text>Menace</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/6t_Zombie.png" num="6">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fungus LIM</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/8t_Fungus.png" num="8">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Clue LIM</name>
+			<text>{2}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/12t_Clue.png" num="12">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>From The Pyre LIM</name>
+			<text>​</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/LIM-files/img/1t_From The Pyre.png" num="1">LIM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+	</cards>
+</cockatrice_carddatabase>
