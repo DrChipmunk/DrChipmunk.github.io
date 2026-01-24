@@ -1,4 +1,67 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+The Puzzlebox added.
+SAVE() ERR added.
+
+Puzzlebox removed.
+
+Ambitious Angel
+special_text: Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying => Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying
+
+Soulspace Refit
+rules_text: Exile target creature or enchantment, then return that card to the battlefield under its owner's control.
+Cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i] => Exile target creature or enchantment, then return that card to the battlefield under its owner's control.
+
+Immersive Moment
+rules_text: Up to one target creature gains hexproof until end of turn.
+Cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this Memory: You may play the cached card this turn.”)[/i] => Choose one — 
+• Target creature gains hexproof until end of turn.
+• Cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this Memory: You may play the cached card this turn.”)[/i]
+
+Preemption Daemon
+rules_text: Flash
+Flying
+When this creature enters, exile target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost. => Flash
+Flying
+When this creature enters, exile up to one target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.
+
+Exorcist of Errors
+rules_text: When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield. => When this creature enters, target opponent separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.
+
+BORROW()
+cost: {2}{B} => {X}{X}{B}
+rules_text: [i](As this enters, insert it into one of your three programs.)[/i]
+When this Subroutine enters, you create two 1/1 black Jellyfish enchantment creature tokens with flying, draw two cards, and gain 2 life.
+Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life. => [i](As this enters, insert it into one of your three programs.)[/i]
+When this Subroutine enters, you create X1/1 black Jellyfish enchantment creature tokens with flying, draw X cards, and gain X life.
+Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life.
+
+Pixel Pixie
+special_text: Flying
+Level up {UR} [i]({UR}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 2-4] Flying, prowess
+[level 5+] Flying, prowess, prowess, prowess => Flying
+Level up {UR} [i]({UR}: Put a level counter on this as a sorcery.)[/i]
+[level 2-4] Flying, prowess
+[level 5+] Flying, prowess, prowess, prowess
+
+Fabricated Anomaly
+type: Enchantment Creature — Elemental => Creature — Elemental
+rules_text: When this creature enters, create a colorless artifact token named Puzzlebox with “{T}, Discard a card: Draw a card.”
+Whenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it. => When this creature enters, create The Puzzlebox, a legendary colorless artifact token with “{T}, Discard a card: Draw a card.”
+Whenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.
+
+Offset Daemon
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

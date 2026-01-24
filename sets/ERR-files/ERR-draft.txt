@@ -2343,7 +2343,7 @@
 		{
 			"name": "BORROW()",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{X}{X}{B}",
 			"type": "Enchantment — Subroutine",
 			"collector_number": "83",
 			"image_uris": {
@@ -2905,9 +2905,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "24",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/24t_Treasure ERR.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/25t_Treasure ERR.png"
 			}
 		},
 		{
@@ -2915,9 +2915,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Construct",
-			"collector_number": "21",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/21t_colorless Construct XXERR.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/22t_colorless Construct XXERR.png"
 			}
 		},
 		{
@@ -2925,9 +2925,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Land — Forest Plains",
-			"collector_number": "25",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/25t_Root Node ERR.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/26t_Root Node ERR.png"
 			}
 		},
 		{
@@ -2935,9 +2935,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "26",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/26t_Errors in the Weft.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/27t_Errors in the Weft.png"
 			}
 		},
 		{
@@ -2945,9 +2945,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment — Subroutine",
-			"collector_number": "20",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/20t_SAVE() ERR.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/21t_SAVE() ERR.png"
 			}
 		},
 		{
@@ -3005,9 +3005,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact Creature — Construct",
-			"collector_number": "22",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/22t_Noop 33ERR.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/23t_Noop 33ERR.png"
 			}
 		},
 		{
@@ -3134,20 +3134,20 @@
 			"name": "Fabricated Anomaly",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}",
-			"type": "Enchantment Creature — Elemental",
+			"type": "Creature — Elemental",
 			"collector_number": "287",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/287_Fabricated Anomaly.png"
 			}
 		},
 		{
-			"name": "Puzzlebox",
+			"name": "The Puzzlebox",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Artifact",
-			"collector_number": "23",
+			"type": "Token Legendary Artifact",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/23t_Puzzlebox.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/24t_The Puzzlebox.png"
 			}
 		},
 		{
@@ -3158,6 +3158,16 @@
 			"collector_number": "288",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/288_Offset Daemon.png"
+			}
+		},
+		{
+			"name": "SAVE() ERR",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Subroutine",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/20t_SAVE() ERR.png"
 			}
 		}
 	]

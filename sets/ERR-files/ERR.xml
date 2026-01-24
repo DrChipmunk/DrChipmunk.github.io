@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-23</releasedate>
+			<releasedate>2026-01-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -393,8 +393,7 @@ Enchanted creature gets -3/-0.</text>
 		</card>
 		<card>
 			<name>Soulspace Refit</name>
-			<text>Exile target creature or enchantment, then return that card to the battlefield under its owner&apos;s control.
-Cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)</text>
+			<text>Exile target creature or enchantment, then return that card to the battlefield under its owner&apos;s control.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/71_Soulspace Refit.png" num="71">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -1144,8 +1143,9 @@ When this Aura enters, enchanted creature fights up to one target creature.</tex
 		</card>
 		<card>
 			<name>Immersive Moment</name>
-			<text>Up to one target creature gains hexproof until end of turn.
-Cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;{2}, Sacrifice this Memory: You may play the cached card this turn.&quot;)</text>
+			<text>Choose one — 
+• Target creature gains hexproof until end of turn.
+• Cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;{2}, Sacrifice this Memory: You may play the cached card this turn.&quot;)</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/174_Immersive Moment.png" num="174">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4064,7 +4064,7 @@ Whenever you cast a cached spell, copy it. You may choose new targets for the co
 			<name>Preemption Daemon</name>
 			<text>Flash
 Flying
-When this creature enters, exile target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.</text>
+When this creature enters, exile up to one target spell or nonland permanent. For as long as that card remains exiled, its owner may cast it by paying {3} rather than its mana cost.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/63_Preemption Daemon.png" num="63">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4187,7 +4187,7 @@ Exile target creature or planeswalker. Surveil 2.</text>
 		</card>
 		<card>
 			<name>Exorcist of Errors</name>
-			<text>When this creature enters, target player separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.</text>
+			<text>When this creature enters, target opponent separates their hand into a face-up pile and a face-down pile. Choose one of those piles, reveal it, and choose a nonland card from it. Exile that card until this creature leaves the battlefield.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/95_Exorcist of Errors.png" num="95">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4205,7 +4205,7 @@ Exile target creature or planeswalker. Surveil 2.</text>
 		<card>
 			<name>BORROW()</name>
 			<text>(As this enters, insert it into one of your three programs.)
-When this Subroutine enters, you create two 1/1 black Jellyfish enchantment creature tokens with flying, draw two cards, and gain 2 life.
+When this Subroutine enters, you create X1/1 black Jellyfish enchantment creature tokens with flying, draw X cards, and gain X life.
 Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creature, discard a card, and lose 1 life.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/83_BORROW().png" num="83">ERR</set>
 			<prop>
@@ -4213,8 +4213,8 @@ Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creatur
 				<side>front</side>
 				<type>Enchantment — Subroutine</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>XXB</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -5192,7 +5192,7 @@ Whenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonl
 		<card>
 			<name>Treasure ERR ERR</name>
 			<text>{T}, Sacrifice this artifact: Add a mana of any color.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/24t_Treasure ERR.png" num="24">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/25t_Treasure ERR.png" num="25">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5207,7 +5207,7 @@ Whenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonl
 		<card>
 			<name>colorless Construct XXERR ERR</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/21t_colorless Construct XXERR.png" num="21">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/22t_colorless Construct XXERR.png" num="22">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5223,7 +5223,7 @@ Whenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonl
 		<card>
 			<name>Root Node ERR ERR</name>
 			<text>({T}: Add {G} or {W}.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/25t_Root Node ERR.png" num="25">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/26t_Root Node ERR.png" num="26">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5249,7 +5249,7 @@ Whenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonl
 {G}{U}: Cache (Enchantment tokens that you can pay {2} and sacrifice to play the card under them)
 {U}{R}: Subroutines (Enchantments with effects that happen every three turns)
 {R}{W}: Tokens</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/26t_Errors in the Weft.png" num="26">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/27t_Errors in the Weft.png" num="27">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5265,7 +5265,7 @@ Whenever this Subroutine runs, you may sacrifice it. If you do, destroy all nonl
 		<card>
 			<name>SAVE() ERR ERR</name>
 			<text>Whenever this Subroutine runs, exile the top card of your library. You may play that card this turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/20t_SAVE() ERR.png" num="20">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/21t_SAVE() ERR.png" num="21">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5364,7 +5364,7 @@ As you build your deck, exchange this card for a common soulspace of your choice
 		<card>
 			<name>Noop 33ERR ERR</name>
 			<text>Defender</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/22t_Noop 33ERR.png" num="22">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/23t_Noop 33ERR.png" num="23">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5569,13 +5569,13 @@ If you control a Subroutine, move to your next program as your first main phase 
 		</card>
 		<card>
 			<name>Fabricated Anomaly</name>
-			<text>When this creature enters, create a colorless artifact token named Puzzlebox with &quot;{T}, Discard a card: Draw a card.&quot;
+			<text>When this creature enters, create The Puzzlebox, a legendary colorless artifact token with &quot;{T}, Discard a card: Draw a card.&quot;
 Whenever a creature you control attacks, you may exile a number of cards from your graveyard equal to its power. If you do, put a +1/+1 counter on it.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/287_Fabricated Anomaly.png" num="287">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment Creature — Elemental</type>
+				<type>Creature — Elemental</type>
 				<maintype>Creature</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
@@ -5586,13 +5586,13 @@ Whenever a creature you control attacks, you may exile a number of cards from yo
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Puzzlebox ERR</name>
+			<name>The Puzzlebox ERR</name>
 			<text>{T}, Discard a card: Draw a card.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/23t_Puzzlebox.png" num="23">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/24t_The Puzzlebox.png" num="24">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Token Artifact</type>
+				<type>Token Legendary Artifact</type>
 				<maintype>Artifact</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -5618,6 +5618,23 @@ When this creature enters, if it was cast, create a red and white Subroutine enc
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>SAVE() ERR ERR</name>
+			<text>Whenever this Subroutine runs, return a card named Offset Daemon from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/20t_SAVE() ERR.png" num="20">ERR</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment — Subroutine</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
