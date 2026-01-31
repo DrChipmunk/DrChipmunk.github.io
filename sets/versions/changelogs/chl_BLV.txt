@@ -1,4 +1,125 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Gilded Cage added.
+Inexplicable Illness added.
+Grim Temptation added.
+Ritual Impaling added.
+Name Your Price added.
+Sovereign of the Meek added.
+Forlorn Reflection added.
+Usher of the All-Play added.
+
+Hallahan Voyeur removed.
+Smogton Falselight removed.
+Bad Influence removed.
+Renegade Clotweaver removed.
+Normality's Guardian removed.
+Sovereign of Submission removed.
+Stoic Centerpiece removed.
+Lucent Playwright removed.
+
+Ephebic Phantom
+rules_text: Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, target creature gains indestructible until end of turn. Scry 1. => Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, target creature gains indestructible until end of turn. You Scry 1.
+
+Macabre Insight
+type: Sorcery => Instant
+rules_text: Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard. You lose 2 life. => You draw two cards, then mill two cards. You lose 2 life.
+
+Enraptured Medium
+rules_text: When this creature enters and whenever you cast a spell during an opponent's turn, create a 1/1 white Spirit creature token with flying. You gain 1 life. => Whenever you cast a spell during an opponent's turn, create a 1/1 white Spirit creature token with flying. You gain 1 life.
+pt: 1/1 => 1/3
+
+Rewrite
+rules_text: Exile target spell that was cast from its owner's hand. For as long as it remains exiled, its owner may cast it.
+Draw a card. => Exile target spell that was cast from its owner's hand. For as long as it remains exiled, its owner may cast it.
+Scry 1, then draw a card.
+
+Hermit of Curatives
+cost: {1}{G}{U} => {4}{G}{U}
+rules_text: Vision {G}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, you may return another creature you control to its owner's hand. If you do, draw a card. => Vision {1}{G}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, you may return another creature you control to its owner's hand. If you do, draw a card.
+
+Dreams of Eternity
+rules_text: This spell can't be countered.
+Draw four cards. Discard a card. You may put a land card form your hand onto the battlefield. => This spell can't be countered.
+Draw four cards, then discard a card. You may put a land card form your hand onto the battlefield.
+
+Entrancing Madman
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, tap up to one target creature and put a stun counter on it. => Defender
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, Scry 1. This creature can attack as though it didn't have defender this turn.
+pt: 1/3 => 3/4
+
+Black Iris Visitation
+rules_text: Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 1 life. => Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 2 life.
+
+Servant of Ravens
+cost: {3}{B} => {2}{B}
+pt: 3/3 => 2/3
+
+Disgorger of Suns
+rules_text: Vision {U}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy. => Vision {U}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Whenever you cast an instant spell, copy it. You may choose new targets for the copy.
+pt: 4/7 => 5/3
+
+Lucid Drifter
+rules_text: Flying
+During your turn, each instant or sorcery card in your graveyard has “Flashback—{1}{U}, Discard a card with the same mana value as this card.” => Flying
+During your turn, each instant or sorcery card in your graveyard has “Flashback—{1}{U}, Exile a card with the same mana value as this card from your hand.”
+
+Tutor of Epitaphs
+rules_text: Vision {1}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, you may cast target creature card from your graveyard. It enters with a +1/+1 counter on it. => Vision {1}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, if you cast it, you may cast target creature card from your graveyard. It enters with a +1/+1 counter on it.
+
+Penitent Poacher
+rules_text: When you cast this spell, target opponent creates a 3/3 green Beast creature token with trample.
+Whenever this creature enters or attacks, target opponent loses 3 life unless they sacrifice a nonland permanent or discard a card. => When this creature enters, destroy up to one target creature or enchantment.
+This creature attacks each combat if able.
+When this creature leaves the battlefield, target opponent creates a 3/3 green Beast creature token with trample.
+pt: 4/4 => 3/2
+
+Bianco, Midnight's Host
+rules_text: [i]Paradox[/i] — When this creature enters and whenever you cast a spell from anywhere other than your hand, veil the top card of target opponent's library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You may spend mana of any color to cast veiled spells. => [i]Paradox[/i] — When this creature enters and whenever you cast a spell from anywhere other than your hand, veil the top card of target opponent's library. It gains “You may spend mana of any color to cast this card.” [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Intruding Thought
+rules_text: Menace
+[i]Paradox[/i] — At the beginning of your end step, if you didn't cast a spell from anywhere other than your hand this turn, discard a card. => Menace
+[i]Paradox[/i] — At the beginning of your end step, mill a card. You lose life equal to its mana value. If you cast a spell from anywhere other than your hand this turn, return that card to your hand.
+pt: 5/5 => 4/4
+
+Payment Comes Due
+rules_text: Destroy all creatures with power X or less, where X is the number of instant and sorcery cards in your graveyard. If X is 4 or greater, create a 3/2 black Horror creature token with menace. => Destroy all creatures with power X or less, where X is the number of instant and sorcery cards in your graveyard. If X is 6 or greater, create a 3/2 black Horror creature token with menace.
+
+Culvert Babbler
+rules_text: At the beginning of each player's upkeep, that player may exile the top card of their library. They may play that card this turn.
+Whenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them. => When this creature enters, exile the top card of each player's library.
+Players may play cards they own exiled with this creature.
+Whenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them.
+
+All-Consuming Project
+rules_text: During your turn, you can't cast spells from your hand.
+{1}, {T}: Draw a card. => During your turn, you can't cast spells from your hand.
+{U}, {T}: Draw a card.
+
+The Sound of Chimes
+rules_text: Flying
+When this creature enters, exile all but the bottom nine cards of target opponent's library.
+At the beginning of your upkeep, you may cast an exiled nonland card an opponent owns without paying its mana cost. => Flying
+When this creature enters, exile the top nine cards of each opponent's library.
+At the beginning of your upkeep, you may cast an exiled nonland card an opponent owns without paying its mana cost.
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Wick-Masked Warden added.
