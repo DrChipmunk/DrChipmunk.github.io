@@ -50,9 +50,9 @@ Even over Catch's buffered connection Toki could feel the lurching tragedy.
 
 "Hell was that!" said Klint.
 
-"It teleported out." said Toki.
+"It teleported out," said Toki.
 
-"I can see that." said Sameron, already gaining altitude. "We need to trap it again."
+"I can see that," said Sameron, already gaining altitude. "We need to trap it again."
 
 Toki surfaced from a torrent of information, Archival research and Grip word-of-mouth flowing into her.
 
@@ -152,7 +152,7 @@ Awkward introductions commenced. It turned out one of the new fans was a hoverta
 
 Foxtrot7 stayed behind. "You got a damn impressive crew here."
 
-"Heck yeah we do." said Toki. "And you are?"
+"Heck yeah we do," said Toki. "And you are?"
 
 "Foxtrot7." He had slicked his hair back down and was looking a lot more confident than the user clinging to the ice sculpture back in Cloudsite. "I used to grind dungeons in the Heap League." He shifted into a cyber-rogue's gear and spun a dagger on his finger. "Why are Catch's best soldiers working your comms instead of next to you in the field."
 
@@ -216,9 +216,9 @@ Toki ascended and scanned for users. Some had already fled, shifting to simple g
 
 The squad split up the tower and searched. They emerged with Does over their shoulders in fireman's carries.
 
-"Can I just drop them? Sense-junkies might enjoy it." said Foxtrot7.
+"Can I just drop them? Sense-junkies might enjoy it," said Foxtrot7.
 
-"I wouldn't risk putting them through rejuvenation like this." said J8ro tactfully.
+"I wouldn't risk putting them through rejuvenation like this," said J8ro tactfully.
 
 The search and rescue of the upper layers took two trips. By the time they returned for the second trip, the error had grown to engulf the middle third of the tower, and the top third was sinking and leaning.
 
@@ -256,7 +256,7 @@ She killed her hoverjets, still trying to pull her back. She could.
 
 Sameron batted back an encroaching tendril with his psiblade. The two of them were on the ground floor of the Sensatorium, next to its pool. Above and around them, the error was coughing and baying.
 
-"Good job on the search and rescue", he said. "If you can fight, we need to defend the pool."
+"Good job on the search and rescue," he said. "If you can fight, we need to defend the pool."
 
 Toki stood back to back with Sameron. "I don't know if we can -"
 
@@ -356,13 +356,13 @@ She let the thoughts wash over her.
 
 Outside the headquarters' dewy windows, birds sang in unison. Sameron was saying something but she couldn't hear him.
 
-"Okay. I'll do it." she said. "Do you want me to make an announcement?"
+"Okay. I'll do it," she said. "Do you want me to make an announcement?"
 
-"That would be great, yeah.", said Foxtrot.
+"That would be great, yeah," said Foxtrot.
 
 Toki smiled in relief. She stood up. "Okay, here goes..." she said. She summoned the background she was using before, dismissed it, and summoned a different one. To the broadcast, she was standing in front of the remains of the Sensatorium. 
 
-"Heyo! Toki here. In this dispatch I'll be talking about the way we - Assert and Weave - are handling resource-heavy spaces and avatars. We've been putting limits on how layered they can get to try to take it easy on the fabric. And it's been going great, those of you that have been optimizing or just switching to simpler models, I really appreciate it." She blew a kiss. "But also, there's been a lot of bypassing of the limits, which, no shade, we've all done stuff like that. But the error fighting has been feeling a bit dicey, to be honest, so until Sam and I are in full fighting shape and we've got a handle on our squad, we'll be chasing those limits a little harder. So if you feel something as you're building a model, just, back off, okay? Seeya!""
+"Heyo! Toki here. In this dispatch I'll be talking about the way we - Assert and Weave - are handling resource-heavy spaces and avatars. We've been putting limits on how layered they can get to try to take it easy on the fabric. And it's been going great, those of you that have been optimizing or just switching to simpler models, I really appreciate it." She blew a kiss. "But also, there's been a lot of bypassing of the limits, which, no shade, we've all done stuff like that. But the error fighting has been feeling a bit dicey, to be honest, so until Sam and I are in full fighting shape and we've got a handle on our squad, we'll be chasing those limits a little harder. So if you feel something as you're building a model, just, back off, okay? Seeya!"
 
 She closed the recording. She felt abuzz. She bounced back and forth from one foot to the other.
 
@@ -378,11 +378,11 @@ Toki walked over to Sameron, who had positioned himself facing out the window. S
 
 Sameron looked over to her slowly, then looked back out the window.
 
-"It's only temporary, okay." she said. "Just until we get better."
+"It's only temporary, okay," she said. "Just until we get better."
 
 Sameron laughed. "No such thing as temporary with stuff like this. You know that."
 
-"Yeah", said Toki.
+"Yeah," said Toki.
 
 She looked at her feet.
 
@@ -390,25 +390,25 @@ Sameron heaved himself out of the tube up to the knees. He summoned an antique w
 
 "You worked the Mirage Circuit?" he said.
 
-"Oh yeah, I was a huge fan.", Toki bubbled. "Dico and Deflanger. Moricori and Tim882. Those guys were great." She got herself a matching chair. "Who were your favourites?"
+"Oh yeah, I was a huge fan," Toki bubbled. "Dico and Deflanger. Moricori and Tim882. Those guys were great." She got herself a matching chair. "Who were your favourites?"
 
 Sameron gestured that she was okay to sit right next to him. "There was this solo act - I think they joined up with someone later. Mije? He was great. Kind of a lumberjack-type persona."
 
-"Oh", said Toki. She laughed darkly.
+"Oh," said Toki. She laughed darkly.
 
 "You knew him?"
 
-"No, yeah, that was, he was me.", said Toki. "That was a cool avatar, wore it for a while."
+"No, yeah, that was, he was me," said Toki. "That was a cool avatar, wore it for a while."
 
-"Wow, small world." said Sameron.
+"Wow, small world," said Sameron.
 
 Toki looked over at Sameron with a hopeful expression.
 
 "So, are you not mad about the Weave restrictions?"
 
-"Oh, I'm furious." he said calmly.
+"Oh, I'm furious," he said calmly.
 
-"Oh." said Toki.
+"Oh," said Toki.
 
 Sameron looked out at the Stack's clear blue sky. "But I don't think I'm changing your mind here, so no point berating you about it. We'll see where it lands."
 
@@ -432,7 +432,7 @@ From this angle, she could see the square of the tapestry where she'd left a rec
 
 "Toki!"
 
-She snapped to. It was J8r0. "Sorry, was in recovery." she said.
+She snapped to. It was J8r0. "Sorry, was in recovery," she said.
 
 "There's an error in the Stack. Big one, out near the centennial office."
 
@@ -442,7 +442,7 @@ She shifted into her hoversuit and gestured to Sameron. "Try to hold it until I 
 
 Sameron pulled himself to his feet and let his hoversuit settle onto him. Together they approached the window, which dissolved into open air. The sound of the protest doubled with the barrier removed.
 
-"We're moving it." said J8r0. "Got it pretty well contained on a Southeast trajectory."
+"We're moving it," said J8r0. "Got it pretty well contained on a Southeast trajectory."
 
 Toki paused with one foot on the windowsill. "Wait, that's towards the Tapestry."
 
@@ -482,7 +482,7 @@ Toki and Sameron dropped into the throng. Sameron engaged his jets early, hoveri
 
 "Feeling okay?" said Sameron.
 
-"Never better." she said. "Doesn't look like it regenerates or multiplies or anything. It's just big and tough."
+"Never better," she said. "Doesn't look like it regenerates or multiplies or anything. It's just big and tough."
 
 "Sounds doable", said Sameron. "Shall we."
 
@@ -512,11 +512,11 @@ With one unquiet mind they hefted their pointers and prepared to throw. With uni
 
 It walked, shuddering, through the voids, keeping on its path.
 
-"It's the crowd." said Weitz. "All those users. It's drawn to them."
+"It's the crowd," said Weitz. "All those users. It's drawn to them."
 
 For the first time in a while Toki turned around. The running fight had carried them across half the Stack and the Tapestry was now only a few blocks away. 
 
-"Keep it busy." she said. "All of you, together. I need to get people out of its way."
+"Keep it busy," she said. "All of you, together. I need to get people out of its way."
 
 The storm of the protest had become a collective act of avatar-making. A few users stood on the Tapestry, guiding neon slogans through the air like kites on strings, but most had contributed themselves to the swirling black cloud, drawing frustration from the storm, mixing it with their own, and projecting it out as needle-sharp rain. The windows of Catch headquarters were all broken.
 
@@ -552,7 +552,7 @@ Toki launched herself into its path. Most of the Tapestry was by now unraveled. 
 
 A pointer bloomed, causing the error to flinch and roll out of her way. Toki pulled up and halted her movement, landing hard on a shaky metal beam. In front of her was a user holding a pointer.
 
-"Punishment's not done yet." said Foxtrot7. 
+"Punishment's not done yet," said Foxtrot7. 
 
 Toki's jets pulled her to her feet.
 
@@ -560,7 +560,7 @@ Toki's jets pulled her to her feet.
 
 The steel beneath them creaked, dropped a meter, then screeched to a stop.
 
-"You're right." said Toki. She walked towards him without looking at him.
+"You're right," said Toki. She walked towards him without looking at him.
 
 "I also shouldn't have listened."
 
