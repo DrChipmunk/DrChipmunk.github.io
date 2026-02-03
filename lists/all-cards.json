@@ -5,7 +5,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Elf Cleric",
-            "number": 32,
+            "number": 33,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. It gains lifelink until end of turn.",
@@ -24,7 +24,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Spirit",
-            "number": 4,
+            "number": 5,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nFlying\nWhen this creature enters, target creature gains indestructible until end of turn. You Scry 1.",
@@ -35,7 +35,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Nen Chang",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -43,7 +43,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 22,
+            "number": 23,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nFlashback\u2013{1}{W}, Discard a Plains. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -54,7 +54,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Preview\nDay4\nart4",
+            "notes": "Preview\nDay4\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -81,7 +81,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Horror",
-            "number": 19,
+            "number": 20,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature enters, if it wasn't cast from your hand, put a flying counter on it.",
@@ -100,7 +100,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Elder",
-            "number": 30,
+            "number": 31,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "{3}{W}: Put a +1/+1 counter on this creature.",
@@ -115,11 +115,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "Temperance Maskbearer",
+            "card_name": "Collector of Invitations",
             "color": "W",
             "rarity": "common",
-            "type": "Creature \u2013 Horror Cleric",
-            "number": 34,
+            "type": "Creature \u2013 Human Scion",
+            "number": 2,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -129,8 +129,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Benjamin gallego",
-            "notes": "art2",
+            "artist": "Sol Tan",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -138,7 +138,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2013 Toy",
-            "number": 7,
+            "number": 8,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Vision {1}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nWhen this creature enters, create a 1/1 colorless Toy artifact creature token.",
@@ -149,7 +149,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ina Wong",
-            "notes": "Preview\nDay4\nart4",
+            "notes": "Preview\nDay4\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -157,7 +157,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Citizen",
-            "number": 20,
+            "number": 21,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Vigilance\nWhenever you cast a spell during an opponent's turn, scry 1.",
@@ -176,7 +176,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Spirit",
-            "number": 6,
+            "number": 7,
             "color_identity": "W",
             "cost": "{5}{W}",
             "rules_text": "Flying\nWhen this creature enters, return target creature card with mana value 3 or less from your graveyard to the battlefield.",
@@ -206,7 +206,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "India Lee Crews",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -214,7 +214,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 26,
+            "number": 27,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Choose one \u2013 \n\u2022 Slapdash Banishing deals damage to target creature equal to the number of creatures you control.\n\u2022 Destroy target enchantment.",
@@ -233,7 +233,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 13,
+            "number": 14,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.\nWhen this enchantment enters, put a +1/+1 counter on target creature you control.",
@@ -271,7 +271,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 8,
+            "number": 9,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "This spell costs {2} less to cast if it targets a tapped creature.\nDestroy target creature. You gain 2 life.",
@@ -290,7 +290,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Nightmare",
-            "number": 58,
+            "number": 59,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flying\n[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, draw a card, then discard a card.",
@@ -309,7 +309,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Artificer",
-            "number": 59,
+            "number": 60,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Vision {U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nFlying\nWhen this creature enters, target creature gets -3/-0 until end of turn.",
@@ -320,7 +320,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Patrick Jensen",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -339,26 +339,26 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Billy Christian",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
-            "card_name": "Reclusive Visionary",
+            "card_name": "Cellar Oracle",
             "color": "U",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Creature \u2013 Goblin Wizard",
-            "number": 70,
+            "number": 46,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Spells you cast during an opponent's turn cost {1} less to cast.",
-            "flavor_text": "[i]Any respectable basement should surely contain some gnarled and wretched creature, kept for their wild insight.[/i]",
-            "pt": "2/1",
+            "rules_text": "Defender\n[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, scry 1. This creature can attack as though it didn't have defender this turn.",
+            "flavor_text": "[i][/i]",
+            "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": "art3",
+            "notes": "art3\nAny respectable basement should surely contain some gnarled and wretched creature, kept for their wild insight.",
             "image_type": "png"
         },
         {
@@ -366,7 +366,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Detective",
-            "number": 64,
+            "number": 65,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Vigilance\nAs long as there are two or more instant or sorcery cards in your graveyard, this creature gets +1/+0 and can't be blocked.",
@@ -385,7 +385,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Rogue",
-            "number": 61,
+            "number": 62,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other that your hand, if this creature has no counters on it, put a +1/+1 counter on it and draw a card.",
@@ -404,7 +404,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 51,
+            "number": 52,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Look at the top two cards of your library. Put one of them into your hand and veil the other. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -415,7 +415,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joshua Cairos",
-            "notes": "Preview\nDay4\nart2\nart-overlap",
+            "notes": "Preview\nDay4\nart2\nart-overlap\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -434,7 +434,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Xiao Xuan Di",
-            "notes": "\u201cBehold the Attended One!\u201d\nart3",
+            "notes": "\u201cBehold the Attended One!\u201d\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -453,7 +453,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -461,7 +461,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 69,
+            "number": 70,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Draw three cards, then discard a card.",
@@ -499,7 +499,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 66,
+            "number": 67,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Return target nonland, nontoken permanent to its owner's hand, then that player puts a card from their hand on the top or bottom of their library.",
@@ -537,7 +537,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 53,
+            "number": 54,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Choose one \u2013 \n\u2022 Counter target spell.\n\u2022 Exile target creature, then return it to the battlefield under its owner's control.",
@@ -556,7 +556,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 49,
+            "number": 50,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Counter target artifact, enchantment, or sorcery spell. Its controller veils the top card of their library. [i](They put it onto the battlefield face-down as a 2/2 creature. They may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -567,7 +567,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gilles Ketting",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -681,7 +681,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yuumei",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -700,7 +700,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kirinkarwai",
-            "notes": "art2",
+            "notes": "art2\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -719,7 +719,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Vyacheslav Safronov",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -780,21 +780,21 @@
             "image_type": "png"
         },
         {
-            "card_name": "Superior's Siphon",
+            "card_name": "Scathing Critique",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 107,
+            "number": 102,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "This spell costs {2} less to cast if you control a creature with a counter on it.\nTarget creature gets -3/-3 until end of turn.",
-            "flavor_text": "[i]\u201cI think I am half in love with pain.\u201d[/i]",
+            "flavor_text": "[i]\u201cDerivative.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Sabrina Tobal",
+            "artist": "Olga Lisitsina",
             "notes": "art2",
             "image_type": "png"
         },
@@ -871,7 +871,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": "Trample 1.5/1.5\nMenace 1/1.5\nHaste 1/1.5\nReach 1/1\nParadox Enabler 6/6\nParadox Payoff 3/3\nSpend 5 mana payoff 1/1\nEasy way to spend 5 mana 2/2\nAttack with two creatures 1/1\nart3",
+            "notes": "Trample 1.5/1.5\nMenace 1/1.5\nHaste 1/1.5\nReach 1/1\nParadox Enabler 6/6\nParadox Payoff 3/3\nSpend 5 mana payoff 1/1\nEasy way to spend 5 mana 2/2\nAttack with two creatures 1/1\nart3\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -879,7 +879,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Vampire Scion",
-            "number": 139,
+            "number": 140,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Menace\n{1}{R}, Sacrifice this creature: Veil the top card of your library. It can't block this turn. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -890,7 +890,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Naranbaatar Ganbold",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -1004,7 +1004,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Sebastian Horoszko",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -1023,7 +1023,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Leon Jaume",
-            "notes": "art3",
+            "notes": "art2\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -1042,7 +1042,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gwen Bassett",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -1213,7 +1213,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Lucas Parollin",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -1270,7 +1270,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Othon Nikolaidis",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -1289,7 +1289,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazylik",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -1308,26 +1308,26 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Valeria Dryzhak",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
-            "card_name": "Ceramic Mother",
+            "card_name": "Clever Pygmalion",
             "color": "G",
             "rarity": "common",
-            "type": "Artifact Creature \u2013 Toy",
+            "type": "Creature \u2013 Human Artificer",
             "number": 160,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, create a 1/1 colorless Toy artifact creature token.",
-            "flavor_text": "[i]\u201cCome... to... mother...\u201d[/i]",
+            "flavor_text": "[i]\u201cShe says \u2018I do'\u201d[/i]",
             "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Tarek Samaan",
-            "notes": "art2\n\nHis mind \u2014 and his mustaches \u2014 recall an age long forgotten.",
+            "artist": "Nazazhda Semenova",
+            "notes": "art3\n\nHis mind \u2014 and his mustaches \u2014 recall an age long forgotten.",
             "image_type": "png"
         },
         {
@@ -1460,7 +1460,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Anna Gotskaya",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -1498,7 +1498,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -1783,7 +1783,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Denis Kornev",
-            "notes": "UB Instants and Sorceries (Slow)\nart3",
+            "notes": "UB Instants and Sorceries (Slow)\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2011,7 +2011,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dao Trong Le",
-            "notes": "GU Self-Bounce (Slow)\nart2",
+            "notes": "GU Self-Bounce (Slow)\nart2\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -2068,7 +2068,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pedro Sena",
-            "notes": "Move ot 4 and give blue upside?\n\n\u201cMy family died in their sleep. I'm sure one day I shall too. But I intend to enjoy my dreams regardless.\u201d\n\u2014The Scarlet Lady.\nart4",
+            "notes": "Move ot 4 and give blue upside?\n\n\u201cMy family died in their sleep. I'm sure one day I shall too. But I intend to enjoy my dreams regardless.\u201d\n\u2014The Scarlet Lady.\nart4\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -2133,7 +2133,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 9,
+            "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When this artifact enters, choose one \u2013\n\u2022 Exile target nonland permanent with mana value 2 or less until this artifact leaves the battlefield.\n\u2022 Exile target black or red permanent until this artifact leaves the battlefield.",
@@ -2152,7 +2152,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 33,
+            "number": 34,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Whenever another creature you control with base power 2 enters, you may pay {X}. If you do, put X +1/+1 counters on it. If X is four or more, also put a flying counter on it.",
@@ -2171,7 +2171,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Spirit",
-            "number": 3,
+            "number": 4,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Flying, vigilance\n{X}{W}{W}: Return target creature card with mana value X from your graveyard to the battlefield. Put a +1/+1 counter on this creature. Activate only as a sorcery and only once.",
@@ -2190,7 +2190,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 5,
+            "number": 6,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Exile target artifact, enchantment, or creature with power 4 or greater.",
@@ -2209,7 +2209,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 28,
+            "number": 29,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Put two +1/+1 counters and a flying counter on target creature.\nFlashback\u2013{2}{W}, Discard a white card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]",
@@ -2228,7 +2228,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 14,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever you attack with exactly two creatures, put a +1/+1 counter on one of them.\n{4}{W}, {T}: Veil the top card of your library. Activate only as a sorcery. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2239,7 +2239,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Maria Kniazieva",
-            "notes": "art2",
+            "notes": "art2\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2247,7 +2247,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Scion",
-            "number": 18,
+            "number": 19,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nWhen this creature enters, prevent all damage that would be dealt this turn by sources your opponents control.",
@@ -2258,7 +2258,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Valeria Dryzhak",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -2266,7 +2266,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Horror Druid",
-            "number": 25,
+            "number": 26,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]\nThis spell has flash if the gift was promised.\nEach player can't cast more than one spell each turn.",
@@ -2296,7 +2296,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Diana Franco",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -2304,7 +2304,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Noble",
-            "number": 15,
+            "number": 16,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Ward {2}\nAt the beginning of your end step, if you didn't cast any spells from your hand this turn, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2315,7 +2315,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2323,7 +2323,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 16,
+            "number": 17,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Destroy target creature or planeswalker. Its controller veils the top card of their library. [i](They put it onto the battlefield face-down as a 2/2 creature. They may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2334,7 +2334,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Borja Pindado",
-            "notes": "Preview\nDay3\nart4",
+            "notes": "Preview\nDay3\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2342,7 +2342,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 31,
+            "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, put a +1/+1 counter on each creature you control. Scry 1.\n[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, return this enchantment to your hand.",
@@ -2361,7 +2361,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 10,
+            "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Choose one \u2013 \n\u2022 Target creature gets +2/+4 until end of turn.\n\u2022 Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2372,7 +2372,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Vertigo Studios",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2380,7 +2380,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 68,
+            "number": 69,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Create a 1/1 white Spirit creature token with flying. Put a +1/+1 counter on it for each instant and sorcery card in your graveyard.",
@@ -2410,7 +2410,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Albert Ramon Puig",
-            "notes": "\n\n\u201cOur statues are work of a great sculptor who chose to become nameless. You didn't see them move.\u201d\nart3",
+            "notes": "\n\n\u201cOur statues are work of a great sculptor who chose to become nameless. You didn't see them move.\u201d\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -2418,7 +2418,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Bard Rogue",
-            "number": 47,
+            "number": 48,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "When this creature enters, draw a card, then discard a card.\nWhen this creature leaves the battlefield without dying, you may pay {1}. If you do, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2429,7 +2429,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alex Heath Zander",
-            "notes": "Preview\nDay6\nart4",
+            "notes": "Preview\nDay6\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2456,7 +2456,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 50,
+            "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Look at the top five cards of your library. Separate them into a face-up and face-down pile. An opponent chooses one of the piles to put into your hand. Put the other on the bottom of your library in a random order.",
@@ -2513,7 +2513,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 55,
+            "number": 56,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, each opponent mills two cards.\n{1}{U}, {T}: Exile the top card of target opponent's library face down. For as long as it remains exiled, you may look at it and play it, and may spend mana of any color to cast it.",
@@ -2532,7 +2532,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 57,
+            "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)[/i]\nCounter target spell unless its controller pays {2}. If the gift was promised, draw a card.",
@@ -2570,7 +2570,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2013 Aura",
-            "number": 56,
+            "number": 57,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Enchant nonland permanent\nWhen this enchantment enters, if enchanted permanent is red or green, tap it.\nEnchanted permanent loses all abilities and can't become untapped.",
@@ -2587,14 +2587,14 @@
         {
             "card_name": "Entrancing Madman",
             "color": "U",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Creature \u2013 Human Wizard",
-            "number": 52,
+            "number": 53,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Defender\n[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, Scry 1. This creature can attack as though it didn't have defender this turn.",
-            "flavor_text": "[i]\u201cYou simply must invite him \u2014 he's the most entertaining madman I've had. And very affordable.\u201d[/i]",
-            "pt": "3/4",
+            "rules_text": "Spells you cast during an opponent's turn cost {1} less to cast.",
+            "flavor_text": "[i]\u201cYou simply must invite him \u2014 he's the most entertaining madman I've ever had. And very affordable.\u201d[/i]",
+            "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
@@ -2608,7 +2608,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Wizard Noble",
-            "number": 46,
+            "number": 47,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Vision {2}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nWhen this creature leaves the battlefield, return up to one target creature to its owner's hand.",
@@ -2619,7 +2619,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "Preview\nDay2\nart3",
+            "notes": "Preview\nDay2\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -2657,7 +2657,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Wisnu Tan",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3",
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2703,7 +2703,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 11,
+            "number": 12,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield.",
@@ -2722,7 +2722,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Warlock",
-            "number": 102,
+            "number": 103,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "When this creature enters, put two +1/+1 counters and a lifelink counter on target creature.\nWhenever another creature you control dies, put its counters on this creature.",
@@ -2779,7 +2779,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 106,
+            "number": 107,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, create a 1/1 white Spirit creature token with flying.",
@@ -2809,7 +2809,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hassan H",
-            "notes": "art1",
+            "notes": "art3",
             "image_type": "png"
         },
         {
@@ -2817,7 +2817,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Bird Scion",
-            "number": 103,
+            "number": 104,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]\nFlying\nWhen this creature enters, if the gift was promised, target opponent sacrifices a creature.",
@@ -2961,7 +2961,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mert Genccinar",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -3037,7 +3037,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alexander Karcz",
-            "notes": "\npreview\nDay10\nart4",
+            "notes": "\npreview\nDay10\nart4\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -3079,11 +3079,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "Ritual Impaling",
+            "card_name": "Mug",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 143,
+            "number": 139,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This spell can't be countered.\nThis spell deals 2 damage to target creature. If that creature is white or blue, this spell deals 3 damage to that creature's controller.",
@@ -3093,7 +3093,7 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Anna Gotskaya",
+            "artist": "Goodname Stufio",
             "notes": "\nwhite or blue hate?\nart3\n\nThe blood of those who don't indulge their impulses runs thin and envious.",
             "image_type": "png"
         },
@@ -3151,7 +3151,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "SOE",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3170,7 +3170,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Luna Clarion",
-            "notes": "Changes\nart3",
+            "notes": "Changes\nart3\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -3360,7 +3360,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniele Aferni",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -3398,7 +3398,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jason Scheier",
-            "notes": "Preview\nDay3\nart3",
+            "notes": "Preview\nDay3\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3436,7 +3436,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andrea Suli",
-            "notes": "art2",
+            "notes": "art2\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3493,7 +3493,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Miqdam Ul Ghani",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -3550,7 +3550,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "art2",
+            "notes": "art2\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3569,7 +3569,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Maria Yue",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3588,7 +3588,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulo Loveranes",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3607,7 +3607,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulo Loveranes",
-            "notes": "art2",
+            "notes": "art2\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3626,7 +3626,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andreas Rocha",
-            "notes": "art4",
+            "notes": "art4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3702,7 +3702,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kyle Pearson",
-            "notes": "Day7\nart3",
+            "notes": "Day7\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3759,7 +3759,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Mosca",
-            "notes": "Day3\nart4",
+            "notes": "Day3\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3824,7 +3824,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2013 Spirit Cleric",
-            "number": 29,
+            "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Flying\nWhen this creature enters, search your library for a creature card with power 2, reveal it, put it into your hand, then shuffle.",
@@ -3843,7 +3843,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
-            "number": 2,
+            "number": 3,
             "color_identity": "WU",
             "cost": "{W}",
             "rules_text": "Create a 1/1 colorless Toy artifact creature token. It can't block this turn. If this spell was cast from a graveyard, look at the top X cards of your library, where X is the number of creatures you control. Put one of them into your hand and the rest on the bottom in a random order.\nFlashback\u2013{W}{U}, Discard a blue card.",
@@ -3881,7 +3881,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 27,
+            "number": 28,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When this artifact enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\n{T}: Exile target face-down creature you control. You may cast it. If you don't, you gain 3 life.",
@@ -3892,7 +3892,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Leo S",
-            "notes": "Day3\nart3",
+            "notes": "Day3\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3900,7 +3900,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Angel Rebel",
-            "number": 23,
+            "number": 24,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Vision {W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nFlying, vigilance\nTap two untapped creatures you control: Tap target creature.",
@@ -3911,7 +3911,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "Day8\n\nOne chain for each truth told.\nart4",
+            "notes": "Day8\n\nOne chain for each truth told.\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -3919,7 +3919,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 24,
+            "number": 25,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "If you control a creature, you may cast this spell as though it had flash.\nDestroy all creatures.",
@@ -3938,7 +3938,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 17,
+            "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "As long as you control exactly two creatures, they each get +2/+2 and have ward {2}.",
@@ -3968,7 +3968,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "Day8\nart3",
+            "notes": "Day8\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -3976,7 +3976,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Human Advisor",
-            "number": 62,
+            "number": 63,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When this creature enters, scry 2.\n{X}{U}: Exile the bottom card of your library. If it's a nonland card with mana value X or less, you may cast it without paying its mana cost. Activate only as a sorcery.",
@@ -3995,7 +3995,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Horror",
-            "number": 48,
+            "number": 49,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "Vision {U}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nWhenever you cast an instant spell, copy it. You may choose new targets for the copy.",
@@ -4006,7 +4006,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": "Day10\nart3",
+            "notes": "Day10\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4014,7 +4014,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Human Faerie Scion",
-            "number": 54,
+            "number": 55,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "{T}: Mill a card.\nAs long as there are two or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has vigilance.\nAs long as there are four or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has flying.",
@@ -4063,7 +4063,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Tony Skeor",
-            "notes": "Day8\nart2\nCan become swan song but they veil maybe",
+            "notes": "Day8\nart2\nCan become swan song but they veil maybe\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -4071,7 +4071,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Human Bard",
-            "number": 67,
+            "number": 68,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, draw a card.",
@@ -4090,7 +4090,7 @@
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Elf Wizard",
-            "number": 65,
+            "number": 66,
             "color_identity": "UR",
             "cost": "{3}{U}",
             "rules_text": "Vision {1}{R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]\nWhen this creature enters, exile your hand and the top two cards of your library. You may play cards exiled this way until this end of your next turn.",
@@ -4101,7 +4101,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Y Mir",
-            "notes": "Day8\nart3\n\nThe Temperance League pursues in dream all magics unknown and provocative.",
+            "notes": "Day8\nart3\n\nThe Temperance League pursues in dream all magics unknown and provocative.\n!addtoken Vision;1\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -4109,7 +4109,7 @@
             "color": "U",
             "rarity": "mythic",
             "type": "Creature \u2013 Human Wizard",
-            "number": 60,
+            "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flying\nDuring your turn, each instant or sorcery card in your graveyard has \u201cFlashback\u2013{1}{U}, Exile a card with the same mana value as this card from your hand.\u201d",
@@ -4128,7 +4128,7 @@
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2013 Shade",
-            "number": 104,
+            "number": 105,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "When this creature enters, you may search your library for a card. If you do, shuffle, then put that card into your library third from the top.\n{B}: This creature gets +1/+1 until end of turn.",
@@ -4158,7 +4158,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Jagoda",
-            "notes": "Day10\nart4",
+            "notes": "Day10\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4177,7 +4177,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "Day5\nart4",
+            "notes": "Day5\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4196,7 +4196,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Miguel Arguelles",
-            "notes": "Day5\nart3",
+            "notes": "Day5\nart3\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -4206,7 +4206,7 @@
             "type": "Creature \u2013 Human Mercenary",
             "number": 99,
             "color_identity": "B",
-            "cost": "{2}{B}",
+            "cost": "{1}{B}{B}",
             "rules_text": "When this creature enters, destroy up to one target creature or enchantment.\nThis creature attacks each combat if able.\nWhen this creature leaves the battlefield, target opponent creates a 3/3 green Beast creature token with trample.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
@@ -4234,7 +4234,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Day9\nart2\nart-overlap\n!tag wishlist",
+            "notes": "Day9\nart2\nart-overlap\n!tag wishlist\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -4291,7 +4291,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Billy Christian",
-            "notes": "Day2\nart4",
+            "notes": "Day2\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4348,7 +4348,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gwen Bassett",
-            "notes": "Day7\nart4",
+            "notes": "Day7\nart4\n!addtoken Impulse;1",
             "image_type": "png"
         },
         {
@@ -4386,7 +4386,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Bastien Lecouffe Deharme",
-            "notes": "Day7\n\nBarred from the house of assassins for the crime of mercy.\nart3",
+            "notes": "Day7\n\nBarred from the house of assassins for the crime of mercy.\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4394,7 +4394,7 @@
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 142,
+            "number": 143,
             "color_identity": "RG",
             "cost": "{2}{R}",
             "rules_text": "Create a 3/3 green Beast creature token with trample and a Treasure token. If this spell was cast from your graveyard, create two of each of those tokens instead.\nFlashback\u2013{4}{R}{G}, Discard a green card.",
@@ -4424,7 +4424,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniela Ivanova",
-            "notes": "Day3\nart4",
+            "notes": "Day3\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -4443,7 +4443,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Devin Platts",
-            "notes": "Day4\nart4",
+            "notes": "Day4\nart4\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4500,7 +4500,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniele DAF Afferni",
-            "notes": "This enchantment enters with a slime counter on it.\nAt the beginning of your upkeep, put a slime counter on this enchantment.\nCreatures you control have base power and toughness equal to the number of slime counters on this enchantment.\nart3",
+            "notes": "This enchantment enters with a slime counter on it.\nAt the beginning of your upkeep, put a slime counter on this enchantment.\nCreatures you control have base power and toughness equal to the number of slime counters on this enchantment.\nart3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -4576,7 +4576,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Carlos C Diaz",
-            "notes": "Day2\nart3",
+            "notes": "Day2\nart3\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -4793,7 +4793,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Artifact Creature \u2013 Toy",
-            "number": 8,
+            "number": 9,
             "color_identity": "C",
             "cost": "",
             "rules_text": "",
@@ -4850,7 +4850,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2013 Beast",
-            "number": 5,
+            "number": 6,
             "color_identity": "G",
             "cost": "",
             "rules_text": "Trample",
@@ -4869,7 +4869,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Artifact \u2013 Treasure",
-            "number": 9,
+            "number": 10,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this token: Add one mana of any color.",
@@ -4888,7 +4888,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Legendary Artifact \u2013 Equipment",
-            "number": 10,
+            "number": 11,
             "color_identity": "C",
             "cost": "",
             "rules_text": "Equipped creature has double strike.\nEquip creature with base power 2 {1}\nEquip {4}",
@@ -4907,7 +4907,7 @@
             "color": "WR",
             "rarity": "common",
             "type": "Token Enchantment",
-            "number": 6,
+            "number": 7,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.",
@@ -4937,7 +4937,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Yami No Kuni",
-            "notes": "art3",
+            "notes": "art3\n!tokentag Veil",
             "image_type": "png"
         },
         {
@@ -4956,7 +4956,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "art4",
+            "notes": "art4\n!tokentag Vision",
             "image_type": "png"
         },
         {
@@ -5008,10 +5008,10 @@
             "rules_text": "Whenever you activate a loyalty ability of Girl with Carnations or whenever she takes damage, target opponent gains control of her.",
             "flavor_text": "[i]Mill two cards. Return a creature or land card milled this way to your hand.[/i]",
             "pt": "",
-            "special_text": "Whenever you activate a loyalty ability of Girl with Carnations or whenever she takes damage, target opponent gains control of her.\n[0]: Mill two cards. Return a permanent card milled this way to your hand.\n[-1]: Create a 1/1 white Spirit creature token with flying.",
+            "special_text": "Whenever you activate a loyalty ability of Girl with Carnations or whenever she is dealt damage, target opponent gains control of her.\n[+1]: Create a tapped 1/1 white Spirit creature token with flying. \n[-3]: Mill three cards. Return a permanent card milled this way to your hand.",
             "shape": "planeswalker",
             "set": "BLV",
-            "loyalty": "5",
+            "loyalty": "3",
             "artist": "St Luthien",
             "notes": "Day1\n\nart3\n!tag wishlist",
             "image_type": "png"
@@ -5021,7 +5021,7 @@
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Enchantment",
-            "number": 12,
+            "number": 13,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "When Hyev enters, veil the top card of your library with a hope counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with hope counters on them get +4/+4 and have flying and \u201cOther creatures have base power and toughness 1/1.\u201d",
@@ -5032,7 +5032,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\n\nMake these all into keyword-matters cards\nart4",
+            "notes": "Day8\n\nMake these all into keyword-matters cards\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -5040,7 +5040,7 @@
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Enchantment",
-            "number": 63,
+            "number": 64,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "When Nue enters, veil the top card of your library with an insight counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with insight counters on them get +4/+4 and have ward {2} and \u201cIf you would draw a card, draw two cards instead.\u201d",
@@ -5051,7 +5051,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart4\nvigilance?",
+            "notes": "Day8\nart4\nvigilance?\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -5070,7 +5070,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart4",
+            "notes": "Day8\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -5089,7 +5089,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Day8\nart4",
+            "notes": "Day8\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -5108,7 +5108,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Jannis Mayr",
-            "notes": "Day8\nart4",
+            "notes": "Day8\nart4\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -5154,7 +5154,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2013 Human Scion",
-            "number": 21,
+            "number": 22,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "This creature can't be blocked by creatures with power 2 or greater.\nWhenever you attack with exactly two creatures, target opponent may exile a nonland card from their hand. If they do, they may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. If they don't, draw a card.",
@@ -5169,11 +5169,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "Radical Experiment",
+            "card_name": "Reknit the Heart",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 140,
+            "number": 142,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Target creature's owner shuffles it into their library, then exiles cards from the top of their library until they exile a nonland card. They may cast that card without paying its mana cost.\nDraw a card.",
@@ -5183,8 +5183,8 @@
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "Javier Charro",
-            "notes": "art2",
+            "artist": "Dante Liu",
+            "notes": "art3",
             "image_type": "png"
         },
         {
@@ -5249,7 +5249,7 @@
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Angel Horror",
-            "number": 105,
+            "number": 106,
             "color_identity": "B",
             "cost": "{8}{B}",
             "rules_text": "Flying\nWhen this creature enters, exile the top nine cards of each opponent's library.\nAt the beginning of your upkeep, you may cast an exiled nonland card an opponent owns without paying its mana cost.",
@@ -5268,7 +5268,7 @@
             "color": "",
             "rarity": "common",
             "type": "Token Legendary Artifact",
-            "number": 7,
+            "number": 8,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{1}, {T},: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
@@ -5412,7 +5412,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Denis Kornev",
-            "notes": "art3",
+            "notes": "art3\n!addtoken Vision;1",
             "image_type": "png"
         },
         {
@@ -5432,6 +5432,25 @@
             "loyalty": "",
             "artist": "Artur Mosca",
             "notes": "art3",
+            "image_type": "png"
+        },
+        {
+            "card_name": "Can Be Played From Exile",
+            "color": "R",
+            "rarity": "common",
+            "type": "Reminder",
+            "number": 5,
+            "color_identity": "R",
+            "cost": "",
+            "rules_text": "[i](These cards can be played from exile.)[/i]",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "BLV",
+            "loyalty": "",
+            "artist": "Travis Anderson",
+            "notes": "!tokentag Impulse",
             "image_type": "png"
         },
         {

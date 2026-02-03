@@ -1,4 +1,195 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Collector of Invitations added.
+Cellar Oracle added.
+Scathing Critique added.
+Clever Pygmalion added.
+Mug added.
+Reknit the Heart added.
+Can Be Played From Exile added.
+
+Temperance Maskbearer removed.
+Reclusive Visionary removed.
+Superior's Siphon removed.
+Ceramic Mother removed.
+Ritual Impaling removed.
+Radical Experiment removed.
+
+Ephebic Phantom
+
+Proper Presentation
+
+Full-Service Staff
+
+Winslip Vanguard
+
+Loose Balloonist
+
+Affordable Astrologer
+
+Dusky Procession
+
+Serpentine Deacon
+
+Well-Bred Vampire
+
+Disgraceful Failure
+
+Morbid Literati
+
+Fly By Midnight
+
+Velvet Glove Assassin
+
+Dashing Ringmaster
+
+Novice Bloodsucker
+
+Crazed Arsonist
+
+Star-Touched Ripper
+
+Scarlet Reminiscence
+
+Lavish Host
+
+Dress to the Nines
+
+Sonorous Terror
+
+Retired Hallowblade
+
+Dressup Helper
+
+Scion's Substitute
+
+Anonymous Assistance
+
+Hermit of Curatives
+
+Lovely Nightmares
+
+Illuminated Gramophone
+
+Paranoid Heiress
+
+Kindly Rewinder
+
+Imperturbable Matron
+
+Make Presentable
+
+Hear the Chimes
+
+Automated Confessor
+
+Disappearing Actor
+
+Entrancing Madman
+rules_text: Defender
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, Scry 1. This creature can attack as though it didn't have defender this turn. => Spells you cast during an opponent's turn cost {1} less to cast.
+pt: 3/4 => 2/1
+
+College of Symmetries Tutor
+
+Black Iris Visitation
+
+Maverick Medicalist
+
+Bleeding Savior
+
+Wall of Ravings
+
+Star-Crossed Pair
+
+Break the Mirror
+
+Canal Conglomeration
+
+Open Invitation
+
+Memento of Paradise
+
+Porcelain Outcast
+
+Cordial Hall
+
+Discreet Hall
+
+Ambitious Hall
+
+Breathtaking Hall
+
+Echoing Hall
+
+The Attended One
+
+Limor, Etiquette Enforcer
+
+Slate Mask
+
+Selthriel, Chained Seraph
+
+Brimtouched Chaplain
+
+Disgorger of Suns
+
+Uninvited Guests
+
+Oraculous Expatriate
+
+Nightmarish Judge
+
+Tutor of Epitaphs
+
+Phrenologist's Refrain
+
+Penitent Poacher
+cost: {2}{B} => {1}{B}{B}
+
+Bianco, Midnight's Host
+
+Highborn Dragoness
+
+The Scarlet Lady
+
+Velvet Glove Exile
+
+Girl in the Phoenix Dress
+
+Silk-String Marionette
+
+Rubbery Recluse
+
+Picky Horticulturalist
+
+Veiled Creature
+
+Seen In Visions
+
+Girl with Carnations
+special_text: Whenever you activate a loyalty ability of Girl with Carnations or whenever she takes damage, target opponent gains control of her.
+[0]: Mill two cards. Return a permanent card milled this way to your hand.
+[-1]: Create a 1/1 white Spirit creature token with flying. => Whenever you activate a loyalty ability of Girl with Carnations or whenever she is dealt damage, target opponent gains control of her.
+[+1]: Create a tapped 1/1 white Spirit creature token with flying. 
+[-3]: Mill three cards. Return a permanent card milled this way to your hand.
+loyalty: 5 => 3
+
+Hyev, the Resplendent Word
+
+Nue, the Artful Word
+
+Xaw, the Covetous Word
+
+Ralk, the Avid Word
+
+Ejo, the Ripening Word
+
+Revisionist Historian
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Gilded Cage added.
