@@ -761,7 +761,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "Excoriate",
+            "card_name": "Expire",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
@@ -3808,7 +3808,7 @@
             "number": 196,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "At the beginning of combat on your turn, create a white and red enchantment token named Verse with \u201cWhenever you attack with exactly two creatures, they each get +1/+1 until end of turn.\u201d",
+            "rules_text": "At the beginning of combat on your turn, create a red and white enchantment token named Verse with \u201cWhenever you attack with exactly two creatures, they each get +1/+1 until end of turn.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",

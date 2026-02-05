@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-03</releasedate>
+			<releasedate>2026-02-05</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -707,9 +707,9 @@ When this creature enters, if there are two or more instant or sorcery cards in 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Excoriate</name>
+			<name>Expire</name>
 			<text>Exile target creature.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/84_Excoriate.png" num="84">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/84_Expire.png" num="84">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3454,7 +3454,7 @@ If you would draw a card, exile the top card of an opponent&apos;s library face 
 		</card>
 		<card>
 			<name>The Ambergris Chorus</name>
-			<text>At the beginning of combat on your turn, create a white and red enchantment token named Verse with &quot;Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.&quot;</text>
+			<text>At the beginning of combat on your turn, create a red and white enchantment token named Verse with &quot;Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.&quot;</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/196_The Ambergris Chorus.png" num="196">BLV</set>
 			<prop>
 				<layout>normal</layout>

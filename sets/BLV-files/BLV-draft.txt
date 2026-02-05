@@ -401,13 +401,13 @@
 			}
 		},
 		{
-			"name": "Excoriate",
+			"name": "Expire",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Instant",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Excoriate.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Expire.png"
 			}
 		},
 		{
@@ -3093,7 +3093,7 @@
 	5 Velvet Glove Assassin
 	5 Undertaker's Collector
 	5 Duress
-	5 Excoriate
+	5 Expire
 	5 Scathing Critique
 	5 Dance with Death
 	5 Unexpected Fangs

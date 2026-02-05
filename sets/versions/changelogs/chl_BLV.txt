@@ -1,4 +1,15 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Expire added.
+
+Excoriate removed.
+
+The Ambergris Chorus
+rules_text: At the beginning of combat on your turn, create a white and red enchantment token named Verse with “Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.” => At the beginning of combat on your turn, create a red and white enchantment token named Verse with “Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.”
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Collector of Invitations added.
