@@ -12,11 +12,11 @@ Sentences beginning with a * are examples of incorrect formatting.
 
 You cannot splice the text or abilities of two arbitrary cards together. Even if you could do it, the main use cases are combo bait. So you can't do
 
-	*{3}{B}, {T}: Exile target creature card from a graveyard. This creature gains all abilities of that creature.
+		*{3}{B}, {T}: Exile target creature card from a graveyard. This creature gains all abilities of that creature.
 
 or
 
-	*At the beginning of your upkeep, this creature gains all abilities of target Dragon you control until end of turn.
+		*At the beginning of your upkeep, this creature gains all abilities of target Dragon you control until end of turn.
 
 If you really insist, you can gain all activated and triggered abilities of a card or permanent.
 
@@ -24,47 +24,47 @@ A creature's abilities, color, power, or toughness cannot be dependent on its po
 
 So
 
-	*As long as this creature's power is 3 or greater, it has trample.
+		*As long as this creature's power is 3 or greater, it has trample.
 
 is incorrect; write
 
-	Whenever this creature attacks, if its power is 3 or greater, it gains trample until end of turn.
+		Whenever this creature attacks, if its power is 3 or greater, it gains trample until end of turn.
 
 Nor can you do
 
-	*This creature's power and toughness are each equal to the greatest power among other creatures you control
+		*This creature's power and toughness are each equal to the greatest power among other creatures you control
 
 <b>Syntax</b>
 
 The following things are capitalized in rules text: card names; subtypes; the first word of lines, sentences, and costs; and proper nouns (very rare, think the second word of "For Mirrodin!" or the word "Magic" in the rules text of Shahrazad). Everything else is not capitalized, so no
 
-	*Creature with Flying
+		*Creature with Flying
 
-	*Flying, First strike
+		*Flying, First strike
 
-	*target Legendary permanent
+		*target Legendary permanent
 
-	*Start Your Engines! (or capitals on words beyond the first in any keyword)
+		*Start Your Engines! (or capitals on words beyond the first in any keyword)
 
 Sentences end in periods; non-sentences do not. In Magic-ese, keyword actions are verbs, and so can be complete sentences on their own, but normal keywords are nouns. So
 
-	Add {R}.
+		Add {R}.
 
-	Surveil 2.
+		Surveil 2.
 
 Take periods, but
 
-	Annihilator 4
+		Annihilator 4
 
 does not.
 
 Triggered abilities begin (or occasionally contain) "When", "Whenever", or "At"; they put an object on the stack, and they can target and be responded to. Replacement effects have no standardized template, but they never contain those three words. Replacement effects don't use the stack; they modify an action as it happens. Replacement efects cannot target. So you can't write
 
-	*As you cast this spell, exile target permanent.
+		*As you cast this spell, exile target permanent.
 
 or
 
-	*If this creature would die, instead exile it and target player loses 3 life.
+		*If this creature would die, instead exile it and target player loses 3 life.
 
 Triggered abilities that could trigger multiple times use "Whenever", those that could trigger only once (enter triggers, death triggers, and the like) use "When".
 
@@ -72,21 +72,21 @@ Triggered abilities that could trigger multiple times use "Whenever", those that
 
 You cannot join two complete sentences with a comma. So
 
-	*"There's no point in running, they'll catch you anyways."
+		*"There's no point in running, they'll catch you anyways."
 
 Is wrong. If you're implying a causal relationship (as in that example), you want a semicolon. Otherwise, you should probably just do two sentences, or use a connecting word like "as" or "however".
 
 If you are making an adjective by combining two words (this happens often in card names), and the adjective precedes the noun, and the first word of the compound adjective doesn't end in "-ly", then use a hyphen. So
 
-	Thousand-Year Tortoise
+		Thousand-Year Tortoise
 
-	Fire-Tempered Blade
+		Fire-Tempered Blade
 
 <b>Play Patterns</b>
 
 Things that look like they target should target. Especially, if you mess with your opponent's permanents or cards in graveyards, not targeting is obnoxious. If you write
 
-	*{T}: Exile a card from a graveyard.
+		*{T}: Exile a card from a graveyard.
 
 Then it will result in the following:
 
@@ -100,18 +100,18 @@ And A will actually be in the right.
 
 If a spell or ability has non-optional targets, it cannot be put on the stack without all of those targets. if your spell says
 
-	*Draw two cards. Put a +1/+1 counter on target creature.
+		*Draw two cards. Put a +1/+1 counter on target creature.
 
 Then you can't cast that spell without a creature on the battlefield.
 
 Similarly, don't put non-optional targets on triggered abilities where you might be forced to choose detrimental targets. A creature with
 
-	*When this creature enters, destroy target nonland permanent.
+		*When this creature enters, destroy target nonland permanent.
 
 Will be forced to kill itself - or one of your other permanents - if your opponent controls no nonland permanents.
 
 If you have an ability of the form "You may A. If you do, B" and B targets, you want "When you do" instead. This is called a reflexive trigger. So
 
-	You may pay {2}. If you do, you gain 2 life.
+		You may pay {2}. If you do, you gain 2 life.
 
-	You may pay {2}. When you do, tap target creature.
+		You may pay {2}. When you do, tap target creature.
