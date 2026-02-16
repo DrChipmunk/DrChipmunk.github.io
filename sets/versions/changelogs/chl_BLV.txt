@@ -1,4 +1,129 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Minor Apparition added.
+
+Prima Donna removed.
+
+Street Eulogist
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. It gains lifelink until end of turn. => [i]Paradox[/i] — When you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature and you gain 3 life. This ability triggers only once.
+
+Ephebic Phantom
+rules_text: Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, target creature gains indestructible until end of turn. You Scry 1. => Flying
+Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.
+
+Mirror-Marcher
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other that your hand, if this creature has no counters on it, put a +1/+1 counter on it and draw a card. => [i]Paradox[/i] — When you cast a spell from anywhere other that your hand, put a +1/+1 counter on this creature and draw a card. This ability triggers only once.
+
+Uncanny Chef
+rules_text: Deathtouch
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. => Deathtouch
+[i]Paradox[/i] — When you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. This ability triggers only once.
+
+Manic Scrivener
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, this creature gets +3/+0 until end of turn. => [i]Paradox[/i] — When you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. It deals 2 damage to each opponent. This ability triggers only once.
+pt: 1/3 => 3/1
+
+Masquerade Marquessa
+pt: 3/1 => 2/2
+
+Clever Pygmalion
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a 1/1 colorless Toy artifact creature token. => [i]Paradox[/i] — When you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature and create a 1/1 colorless Toy artifact creature token. This ability triggers only once.
+
+Temperance Deaconess
+cost: {W} => {1}{W}
+rules_text: Whenever another creature you control with base power 2 enters, you may pay {X}. If you do, put X +1/+1 counters on it. If X is four or more, also put a flying counter on it. => Whenever you attack with exactly two creatures, target opponent may exile a nonland card from their hand. If they do, they may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. If they don't, draw a card.
+pt: 2/1 => 2/3
+
+Inexplicable Illness
+rules_text: Enchant nonland permanent
+When this enchantment enters, if enchanted permanent is red or green, tap it.
+Enchanted permanent loses all abilities and can't become untapped. => Enchant nonland permanent
+When this enchantment enters, if enchanted permanent is red or green, tap it.
+Enchanted permanent can't become untapped. If it's red or green, it loses all abilities.
+
+Unfortunate In-Law
+rules_text: Trample, haste
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, this creature gets +2/+1 until end of turn. => Haste
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, this creature gets +2/+1 until end of turn.
+
+Mug
+rules_text: This spell can't be countered.
+This spell deals 2 damage to target creature. If that creature is white or blue, this spell deals 3 damage to that creature's controller. => This spell can't be countered.
+Mug deals 2 damage to target creature. If that creature is white or blue, Mug deals 3 damage to that creature's controller.
+
+Crystal Spires Huntress
+rules_text: Kicker {4} [i](You may pay an additional {4} as you cast this spell.)[/i]
+This creature enters with four +1/+1 counters if it was kicked. => Whenever another creature you control with base power 2 enters, you may pay {X}. If you do, put X +1/+1 counters on that creature.
+
+Hunting Season
+cost: {2}{G} => {1}{G}{G}
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a 3/3 green Beast creature token with trample. => You may look at the top card of your library any time.
+You may cast creature spells from the top of your library.
+As long as you attacked this turn, you may play lands from the top of your library.
+
+Memento of Paradise
+rules_text: When this Equipment enters, veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}, Tap an untapped creature you control: Add one mana of any color. => When this artifact enters, veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}, Tap an untapped creature you control: Add one mana of any color.
+
+Faith Winslip, Riflehearted
+rules_text: Haste
+When Faith enters, create The Winslip Special, a legendary Equipment artifact token with “Equipped creature has double strike,” equip creature with base power 2 {1}, and equip {4}. Attach it to Faith. => Haste
+When Faith enters, create The Winslip Special, a legendary colorless Equipment artifact token with “Equipped creature has double strike,” equip creature with base power 2 {1}, and equip {4}. Attach it to Faith.
+
+Carize, Death's Editor
+cost: {1}{W}{B} => {W}{B}
+rules_text: Whenever Carize enters or attacks, exile up to one target card from a graveyard.
+When Carize dies, for each creature card with mana value 3 or less exiled with it, create a token that's a copy of that card. => Menace
+Whenever Carize enters or attacks, exile up to one target card from a graveyard.
+{X}{W}{B}, Exile Carize: For each creature card you own exiled with it with mana value X or less, create a token that's a copy of that card. Activate only as a sorcery.
+pt: 2/3 => 2/2
+
+Vault of Forgeries
+rules_text: {1}, {T}: Exile target nonland permanent card with mana value 3 or less from your graveyard. Create a token that's a copy of it. Activate only as a sorcery.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, untap this artifact. => {1}, {T}: Exile target nonland permanent card with mana value 3 or less from your graveyard. Create a token that's a copy of it. Activate only as a sorcery.
+
+Penitent Poacher
+rules_text: When this creature enters, destroy up to one target creature or enchantment.
+This creature attacks each combat if able.
+When this creature leaves the battlefield, target opponent creates a 3/3 green Beast creature token with trample. => When this creature enters, destroy up to one target creature or enchantment an opponent controls. That permanent's controller creates a 3/3 green Beast creature token with trample.
+pt: 3/2 => 2/3
+
+The Scarlet Lady
+rules_text: When The Scarlet Lady enters, create a tapped Treasure token.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, exile the top card of your library face down. [i](You can't look at it.)[/i]
+{T}, Discard your hand, Sacrifice The Scarlet Lady: Reveal the exiled cards. You may play them this turn. => When The Scarlet Lady enters, create a tapped Treasure token.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, you may sacrifice The Scarlet Lady. If you do, create a 3/2 black Horror creature token with menace.
+
+Opulent Chamber
+rules_text: Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {R} or {G}.
+{RG}, {T}: You may play the exiled card this turn. Activate only if you control seven or more lands. => Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {R} or {G}.
+{RG}, {T}: You may play the exiled card this turn. Activate only if you control eight or more lands.
+
+Celebrated Violist
+rules_text: When this creature enters, create The Second Fiddle, a legendary artifact token with “{1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.”
+Whenever another creature you control dies, mill cards equal to the number of counters on it. Return a creature card milled this way to your hand. => When this creature enters, create The Second Fiddle, a legendary colorless artifact token with “{1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.”
+Whenever another creature you control dies, mill cards equal to the number of counters on it. Return a creature card milled this way to your hand.
+
+Nia, Yesterday's Beloved
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a Treasure token, then exile the top card of each player's library.
+Once during each of your turns, you may play a card exiled with Nia. => [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, exile the top card of each player's library. You may cast a nonland card from among them without paying its mana cost. This ability triggers only once each turn.
+pt: 5/6 => 3/4
+
+Unspoken Rule
+rules_text: When this enchantment enters, draw a card, then look at the top seven cards of target opponent's library. Exile one of them face-down. Put the rest on the bottom in a random order.
+{1}, Sacrifice this enchantment, Reveal the exiled card: Counter target spell with the same name as the exiled card. => When this enchantment enters, draw a card, then look at the top seven cards of target opponent's library. Exile one of them face down. Put the rest on the bottom in a random order.
+{1}, Sacrifice this enchantment, Reveal the exiled card: Counter target spell with the same name as the exiled card.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Expire added.
