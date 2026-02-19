@@ -1,0 +1,69 @@
+The Karsten Numbers
+
+Frank Karsten is a pro player for ChannelFireball and excellent data scientist. He has written many important articles on Magic data and strategy, some of which are now unfortunately lost. Seek out his articles for details on his methodology and assumptions. This articles provides a basic cheat sheet for the his most useful findings.
+
+<b>How many lands should you play in your 60-card deck?</b>
+
+Start with the average mana value of spells in your deck. If it's
+
+1.00 - 1.53, you want 22 lands
+1.53 - 2.06, you want 23 lands
+2.06 - 2.58, you want 24 lands
+2.58 - 3.11, you want 25 lands (this is the most common number)
+3.11 - 3.64, you want 26 lands
+3.64 - 4.16, you want 27 lands
+4.16 - 4.69, you want 28 lands
+
+For each four cheap (mv 2 or less) card draw or ramp card in your deck, you can cut a land.
+For each 3 cards with landcycling 1 or similar ability (tapped MDFC, etc.), you can cut a land.
+
+<b>What is the ideal curve for a deck?</b>
+
+This depends somewhat on the speed of the format; the faster you expect games to be decided, the lower you want your curve to be. Karsten's analysis, completed 2020, assumed you were trying to maximize your mana expenditure over the first 7 turns of a game. He concluded that
+
+A 40-card deck's ideal curve is 2 1-drops, 7 2-drops, 7 3-drops, 4 4-drops, and 3 5+-drops (2-7-7-4-3)
+A 60-card deck's ideal curve is 3 1-drops, 10 2-drops, 10 3-drops, 7 4-drops, and 4 5+-drops (3-10-10-7-4)
+
+These numbers are most helpful for the building of midrange decks (i.e. all draft decks). Aggro, combo, ramp, and control decks can deviate from these numbers, but probably by less than you think.
+
+<b>How many sources of each color do you need?</b>
+
+A vital question for the construction of manabases. Karsten's math is based on a goal of 90+% consistency in having your spells castable. More sources, if you can get them are always better.
+
+In this chart, M represents a colored mana symbol, so Grizzly Bears is a 1M card.
+
+For a 60-card deck,
+9 sources can cast 4M and 5M cards
+10 sources can cast 3M cards
+12 sources can cast 2M and 5MM cards
+13 sources can cast 1M and 4MM cards
+14 sources can cast M cards (but they all must be sources that can produce colored mana turn 1)
+15 sources can cast 3MM cards
+16 sources can cast 2MM and 4MMM cards
+17 sources can cast 3MMM cards
+18 sources can cast 1MM cards (a crucial benchmark)
+19 sources can cast 2MMM cards
+21 sources can cast MM or 1MMM cards (Karsten assumes a 24-land deck, so you can have 3 sources that don't produce M)
+22 sources can cast 1MMMM cards (2 sources can fail to produce M)
+23 sources can cast MMM cards (max 1 off-color source)
+24 sources can cast MMMM cards (no off-color sources)
+
+For a 40-card deck,
+6 sources can cast 4M and 5M cards
+7 sources can cast 3M cards
+8 sources can cast 2M and 5MM cards
+9 sources can cast M, 1M and 4MM cards (but for 1-drops, they all must be sources that can produce colored mana turn 1)
+10 sources can cast 3MM and 4MMM cards
+11 sources can cast 2MM and 3MMM cards
+12 sources can cast 1MM cards
+13 sources can cast 2MMM cards
+14 sources can cast MM or 1MMM cards (Karsten assumes a 17-land deck, so you can have 3 sources that don't produce M)
+15 sources can cast 1MMMM cards (2 sources can fail to produce M)
+16 sources can cast MMM cards (max 1 off-color source)
+17 sources can cast MMMM cards (no off-color sources)
+
+For a gold card, you need to meet requirements for each color, and it's good practice to add 1 since the unreliability compounds. For instance, a WUU spell in a 60-card deck takes 13 white and 19 blue sources. In addition, you need to meet the joint requirements; so a WUU spell also requires at least 23 sources that can produce white and/or blue (at most one source that doesn't). 
+
+Karsten doesn't give advice for ramp / fixing spells and mana dorks, but I would personally say that they count as at most half a source and only for spells more expensive than them.
+
+Fetchlands that get basics count as 2/3 of a source in 3+-color decks and full sources in 2-color decks.
