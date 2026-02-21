@@ -1,5 +1,7 @@
 # DrChipmunk's EggHub
 
+Hi! I'm DrChipmunk. This is a site to host all of my custom Magic: the Gathering designs.
+
 (If you're looking for instructions on how to build an EggHub like this one, go to https://github.com/magictheegg/mse-hub/)
 
 ## My Sets
