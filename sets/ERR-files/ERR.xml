@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-01</releasedate>
+			<releasedate>2026-02-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -194,20 +194,20 @@ When this creature enters, it deals damage to target creature equal to the numbe
 		</card>
 		<card>
 			<name>Daemonic Binding</name>
-			<text>As an additional cost to cast this spell, tap an untapped creature you control with a level counter on it or pay {3}.
-Exile target creature or enchantment.</text>
+			<text>This spell has flash if you control a creature with level up.
+When this enchantment enters, exile target creature or enchantment an opponent controls until this enchantment leaves the battlefield.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/8_Daemonic Binding.png" num="8">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>2W</manacost>
-				<cmc>3</cmc>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>Plasma Strike</name>
@@ -393,7 +393,7 @@ Enchanted creature gets -3/-0.</text>
 		</card>
 		<card>
 			<name>Soulspace Refit</name>
-			<text>Exile target creature or enchantment, then return that card to the battlefield under its owner&apos;s control.</text>
+			<text>Exile target creature or Subroutine, then return that card to the battlefield under its owner&apos;s control.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/71_Soulspace Refit.png" num="71">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -594,7 +594,7 @@ Swampcycling {2} ({2}, Discard this card: Search your library for a Swamp card, 
 				<cmc>6</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>6/7</pt>
+				<pt>6/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -651,7 +651,7 @@ Add {B}{B}. Spend this mana only to pay level up costs.</text>
 		</card>
 		<card>
 			<name>Forced Shutdown</name>
-			<text>Destroy target creature or enchantment. You lose life equal to its mana value.</text>
+			<text>Destroy target battle, creature, or enchantment. You lose life equal to its mana value.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/99_Forced Shutdown.png" num="99">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -742,7 +742,7 @@ Whenever this Subroutine runs, surveil 2.
 		</card>
 		<card>
 			<name>Charming Exceptional</name>
-			<text>Corrupt — When this creature enters, if you control a permanent with greater mana value, create two 1/1 white Citizen creature tokens.</text>
+			<text>Corrupt — When this creature enters, create a 1/1 white Citizen creature token. if you control a permanent with greater mana value than this creature, create two of those tokens instead.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/126_Charming Exceptional.png" num="126">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -753,7 +753,7 @@ Whenever this Subroutine runs, surveil 2.
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>2/3</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related count="2">white Citizen 11EIW</related>
@@ -1807,7 +1807,7 @@ This land enters tapped.
 		<card>
 			<name>Refresh Daemon</name>
 			<text>Flying
-When this creature enters, exile up to one other target creature or enchantment. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step. If a creature enters under an opponent&apos;s control this way, it enters tapped with a stun counter on it.</text>
+When this creature enters, exile up to one other target creature or Subroutine. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step. If a creature enters under an opponent&apos;s control this way, it enters tapped with a stun counter on it.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/211_Refresh Daemon.png" num="211">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2153,7 +2153,7 @@ When this creature leaves the battlefield, draw a card.</text>
 		<card>
 			<name>Imperious Admin</name>
 			<text>Flying, vigilance
-Fabric — {5}: Exile another target creature or enchantment you control, then return that card to the battlefield under its owner&apos;s control. This ability costs {1} less to activate for each enchantment you control. Activate only as a sorcery and only once each turn.</text>
+Fabric — {5}: Exile another target creature or Subroutine you control, then return that card to the battlefield under its owner&apos;s control. This ability costs {1} less to activate for each enchantment you control. Activate only as a sorcery and only once each turn.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/15_Imperious Admin.png" num="15">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2501,7 +2501,7 @@ You control enchanted creature.</text>
 		<card>
 			<name>JUMP()</name>
 			<text>(As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)
-Whenever this Subroutine runs, exile up to one other target creature or enchantment. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+Whenever this Subroutine runs, exile up to one other target creature or Subroutine. Return that card to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/54_JUMP().png" num="54">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4245,7 +4245,7 @@ Whenever you attack, you may pay {R} and sacrifice two artifacts and/or enchantm
 		</card>
 		<card>
 			<name>Electronic Countermeasures</name>
-			<text>Corrupt — Electronic Countermeasures deals 5 damage to target creature. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.</text>
+			<text>Corrupt — Electronic Countermeasures deals 5 damage to target battle, creature, or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/133_Electronic Countermeasures.png" num="133">ERR</set>
 			<prop>
 				<layout>normal</layout>

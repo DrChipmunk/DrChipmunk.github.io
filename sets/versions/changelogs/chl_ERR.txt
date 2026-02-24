@@ -1,4 +1,79 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Daemonic Binding
+type: Sorcery => Enchantment
+cost: {2}{W} => {3}{W}
+rules_text: As an additional cost to cast this spell, tap an untapped creature you control with a level counter on it or pay {3}.
+Exile target creature or enchantment. => This spell has flash if you control a creature with level up.
+When this enchantment enters, exile target creature or enchantment an opponent controls until this enchantment leaves the battlefield.
+
+Soulspace Refit
+rules_text: Exile target creature or enchantment, then return that card to the battlefield under its owner's control. => Exile target creature or Subroutine, then return that card to the battlefield under its owner's control.
+
+Task Triage
+
+Ratiocinate
+
+Backdoor Prowler
+special_text: Level up {3}{B} [i]({3}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-3] Menace
+[level 4+] Menace => Level up {3}{B} [i]({3}{B}: Put a level counter on this as a sorcery.)[/i] [1/1]
+[level 1-2] Menace [4/4]
+[level 3+] Menace [7/7]
+
+Heap Delver
+special_text: Level up {1}{B} [i]({1}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-3] {B}, {T}: Surveil 1.
+[level 4+] {B}, {T}: Surveil 2. => Level up {1}{B} [i]({1}{B}: Put a level counter on this as a sorcery.)[/i] [1/3]
+[level 1-2] {B}, {T}: Surveil 1. [2/4]
+[level 3+] {B}, {T}: Surveil 2. [3/5]
+
+Dropped_Polygon
+pt: 6/7 => 6/5
+
+Forced Shutdown
+rules_text: Destroy target creature or enchantment. You lose life equal to its mana value. => Destroy target battle, creature, or enchantment. You lose life equal to its mana value.
+
+Charming Exceptional
+rules_text: [i]Corrupt[/i] — When this creature enters, if you control a permanent with greater mana value, create two 1/1 white Citizen creature tokens. => [i]Corrupt[/i] — When this creature enters, create a 1/1 white Citizen creature token. if you control a permanent with greater mana value than this creature, create two of those tokens instead.
+pt: 2/3 => 2/2
+
+Computing Titan
+
+Kaluthax's Challenger
+special_text: Level up {1{W}B} [i]({1{W}B}: Put a level counter on this as a sorcery.)[/i]
+[level 2-5] Lifelink
+[level 6+] Flying, lifelink => Level up {1{W}B} [i]({1{W}B}: Put a level counter on this as a sorcery.)[/i] [2/2]
+[level 2-4] Lifelink [3/3]
+[level 5+] Flying, lifelink [4/4]
+
+Synthetic Connaisseur
+
+Refresh Daemon
+rules_text: Flying
+When this creature enters, exile up to one other target creature or enchantment. Return that card to the battlefield under its owner's control at the beginning of the next end step. If a creature enters under an opponent's control this way, it enters tapped with a stun counter on it. => Flying
+When this creature enters, exile up to one other target creature or Subroutine. Return that card to the battlefield under its owner's control at the beginning of the next end step. If a creature enters under an opponent's control this way, it enters tapped with a stun counter on it.
+
+Imperious Admin
+rules_text: Flying, vigilance
+[i]Fabric[/i] — {5}: Exile another target creature or enchantment you control, then return that card to the battlefield under its owner's control. This ability costs {1} less to activate for each enchantment you control. Activate only as a sorcery and only once each turn. => Flying, vigilance
+[i]Fabric[/i] — {5}: Exile another target creature or Subroutine you control, then return that card to the battlefield under its owner's control. This ability costs {1} less to activate for each enchantment you control. Activate only as a sorcery and only once each turn.
+
+JUMP()
+rules_text: [i](As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]
+Whenever this Subroutine runs, exile up to one other target creature or enchantment. Return that card to the battlefield under its owner's control at the beginning of the next end step. => [i](As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]
+Whenever this Subroutine runs, exile up to one other target creature or Subroutine. Return that card to the battlefield under its owner's control at the beginning of the next end step.
+
+Toki, Celebrity Soldier
+
+Electronic Countermeasures
+rules_text: [i]Corrupt[/i] — Electronic Countermeasures deals 5 damage to target creature. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step. => [i]Corrupt[/i] — Electronic Countermeasures deals 5 damage to target battle, creature, or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 OVERFLOW() ERR added.

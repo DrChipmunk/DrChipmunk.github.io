@@ -103,8 +103,8 @@
 		{
 			"name": "Daemonic Binding",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
-			"type": "Sorcery",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
 			"collector_number": "8",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/8_Daemonic Binding.png"

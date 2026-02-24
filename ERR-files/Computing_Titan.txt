@@ -14,8 +14,8 @@ Start with the average mana value of spells in your deck. If it's
 3.64 - 4.16, you want 27 lands
 4.16 - 4.69, you want 28 lands
 
-For each four cheap (mv 2 or less) card draw or ramp card in your deck, you can cut a land.
-For each 3 cards with landcycling 1 or similar ability (tapped MDFC, etc.), you can cut a land.
+For every four cheap (mv 2 or less) card draw or ramp cards in your deck, you can cut a land.
+For every three cards with landcycling 1 or similar ability (tapped MDFC, etc.), you can cut a land.
 
 <b>What is the ideal curve for a deck?</b>
 
