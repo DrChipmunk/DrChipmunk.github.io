@@ -1,0 +1,53 @@
+Revolution Tournament Reports
+
+<b>GP Caersol</b>
+
+The field was wide open going into the first tournament of Solastere season. 23 players brought a variety of aggro, midrange, combo, and control, and no one archetype dominated the field.
+
+The headliner card for aggro was Darksun Migrant. The 1-mana double strike creature, backed up with Face of Animosity to give it +3 power and trample, gave red-based aggro decks their most explosive starts since the days of Efimia. CovetedPeacock took her graveyard-tinted version of the deck to an undefeated performance in the swiss, ending at third.
+
+The best deck of last standard season, Envoy of the Fallen aristocrats, survived basically unchanged into this season. Two players brought the card, with HSquid being the only one to find Lightless Conquest, which turns every artifact the deck generates into a sacrifice trigger. A combination of bad luck and opponents with stocked sideboards stopped his run at fifth.
+
+The best performing card of the tournament was something that looked much fairer: Nightfall is a new powerful sweeper from Solastere, and control decks in a variety of color combinations found great success combining it with Twilight Ambush to keep Darksun Migrant in check. The decks differed mainly in their approch to card advantage, with Scribbl on a variety of Rakdos enchantments, battles, and planeswalkers, Nix on mono-black discard and draw twos, and a couple of Dimir and Esper decks on blue card draw, including Mistwrit Archivist, which survives Nightfall thanks to its 5 toughness.
+
+The other two decks in top cut were Kumrac, up to his usual BG midrange shenanigans, and yours truly, on a control deck that traded Nightfall for Deafening Clarion and the difficult-to-disrupt win condition of Path of Scales.
+
+The finals came down to Nix, playing for their second GP win in a row, facing yours truly, playing for my fifth GP win of the worlds season. Your hero fought bravely, but the amount of discard in Nix's deck, main and board, was too much to overcome, and a subtle misplay game 3 sealed my fate. Congrats to Nix for their back-to-back victories; they've proved themselves a force to be reckoned with in REV.
+
+AllWhoWander got the world invite, from fourth.
+
+Elo updates
+1 (=): drchipmunk | 1698 (+1)
+2 (=): philippe saner | 1668 (=)
+3 (+1): covetedpeacock | 1625 (+14)
+4 (-1): provocative | 1612 (-20)
+5 (=): lihlosaur | 1608 (-3)
+6 (+5): allwhowander | 1607 (+34)
+7 (+11): 7nix | 1603 (+55)
+8 (-2): anarchist00 | 1600 (=)
+9 (-2): purplemurasaki | 1580 (=)
+10 (-2): drakexiv | 1576 (=)
+
+<b>GP Kaina City</b>
+
+Going into the second GP of Solastere season, all eyes were on control. With the best aggro tool (Darksun Migrant) and the best midrange tool (Foes Unfed) hit hard going into this month, the question was: do you join control, and build to beat the mirror, or try to go under them?
+
+On the side of those trying to beat control, there were many approaches. On the aggro side, PTM made top cut on a slightly bigger mono red deck packing 3- and 4-drops and lots of card advantage to keep the game rolling through the sweepers. A few players brought token decks, hoping to avoid the widely played Eltanaan, and among them CatInTree made it all the way to finals.
+
+Various flavours of green midrange packing beefy card-advantage threats hoped to slog through the control matchups. Golgari and Jund variants made it decently far, but it was Laurel on the value combination of Halo Tracer and Survivors of the New World that was able to crack top cut for the forces of midrange.
+
+On the side of the joiners, there were two main paths. One was to lean into a flash angle, playing the powerful Simic flash payoffs of SOL, possibly also splashing into white or black. Some of these decks played more creatures and leaned more tempo, but the one with the best record was ItaiUukl on a strictly value setup.
+
+The other path were the blue red control decks packing the tap-out haymakers of Path of Scales and Iviana. Two such decks, both going into white as their third color, made top cut. Yours truly ran back Jeskai battle control from last month, but it was Kayiu102, combining Path of Scales and Iviana for a control deck of maximum late game power, who claimed the tournament win and the worlds invite.
+
+Elo update
+1 (=): drchipmunk | 1706 (+8)
+2 (=): philippe saner | 1668 (=)
+3 (+8): kayiu102 | 1627 (+53)
+4 (=): provocative | 1612 (=)
+5 (-2): covetedpeacock | 1606 (-19)
+6 (-1): lihlosaur | 1600 (-8)
+7 (+1): anarchist00 | 1600 (=)
+8 (-2): allwhowander | 1598 (-9)
+9 (=): purplemurasaki | 1580 (=)
+10 (-3): 7nix | 1579 (-24)
