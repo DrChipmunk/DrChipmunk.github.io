@@ -1,4 +1,73 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+Glitch Out added.
+
+Shock removed.
+
+Ambitious Angel
+special_text: Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying => Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying
+
+Daemonic Binding
+cost: {3}{W} => {4}{W}
+rules_text: This spell has flash if you control a creature with level up.
+When this enchantment enters, exile target creature or enchantment an opponent controls until this enchantment leaves the battlefield. => This spell costs {2} less to cast if you control a creature with a level counter on it.
+When this enchantment enters, exile target creature or enchantment an opponent controls until this enchantment leaves the battlefield.
+
+Backdoor Prowler
+special_text: Level up {3}{B} [i]({3}{B}: Put a level counter on this as a sorcery.)[/i] [1/1]
+[level 1-2] Menace [4/4]
+[level 3+] Menace [7/7] => Level up {3}{B} [i]({3}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] Menace
+[level 3+] Menace
+
+Heap Delver
+special_text: Level up {1}{B} [i]({1}{B}: Put a level counter on this as a sorcery.)[/i] [1/3]
+[level 1-2] {B}, {T}: Surveil 1. [2/4]
+[level 3+] {B}, {T}: Surveil 2. [3/5] => Level up {1}{B} [i]({1}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] {B}, {T}: Surveil 1.
+[level 3+] {B}, {T}: Surveil 2.
+
+Downlink Overload
+type: Instant => Enchantment — Aura
+rules_text: Target creature gets -2/-2 until end of turn. Its controller mills two cards. => Enchant creature.
+Enchanted creature gets -2/-2.
+
+Go for Gold
+
+Kaluthax's Challenger
+special_text: Level up {1{W}B} [i]({1{W}B}: Put a level counter on this as a sorcery.)[/i] [2/2]
+[level 2-4] Lifelink [3/3]
+[level 5+] Flying, lifelink [4/4] => Level up {1{W}B} [i]({1{W}B}: Put a level counter on this as a sorcery.)[/i]
+[level 2-4] Lifelink
+[level 5+] Flying, lifelink
+
+Error Tide
+type: Sorcery => Instant
+cost: {X}{R} => {R}
+rules_text: Error Tide deals X damage to target creature or planeswalker.
+[i]Corrupt[/i] — If you control a permanent with greater mana value than this spell, create an X/X colorless Construct artifact creature token. => [i]Corrupt[/i] — Error Tide deals 2 damage to target creature. If you control a permanent with greater mana value than this spell, it deals 3 damage to that creature instead.
+
+Electronic Countermeasures
+rules_text: [i]Corrupt[/i] — Electronic Countermeasures deals 5 damage to target battle, creature, or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step. => [i]Corrupt[/i] — Electronic Countermeasures deals 5 damage to target creature or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.
+
+Pixel Pixie
+special_text: Flying
+Level up {UR} [i]({UR}: Put a level counter on this as a sorcery.)[/i]
+[level 2-4] Flying, prowess
+[level 5+] Flying, prowess, prowess, prowess => Flying
+Level up {UR} [i]({UR}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 2-4] Flying, prowess
+[level 5+] Flying, prowess, prowess, prowess
+
+
+VERSION 4 CHANGELOG
 ====================
 
 

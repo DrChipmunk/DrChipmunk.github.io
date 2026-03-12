@@ -103,7 +103,7 @@
 		{
 			"name": "Daemonic Binding",
 			"rarity": "common",
-			"mana_cost": "{3}{W}",
+			"mana_cost": "{4}{W}",
 			"type": "Enchantment",
 			"collector_number": "8",
 			"image_uris": {
@@ -374,7 +374,7 @@
 			"name": "Downlink Overload",
 			"rarity": "common",
 			"mana_cost": "{B}",
-			"type": "Instant",
+			"type": "Enchantment — Aura",
 			"collector_number": "90",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/90_Downlink Overload.png"
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Wolf Warrior",
-			"collector_number": "139",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/139_Grip Pinch-Hitter.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/140_Grip Pinch-Hitter.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/143_Inversion's Herald.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/144_Inversion's Herald.png"
 			}
 		},
 		{
@@ -455,9 +455,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Error",
-			"collector_number": "149",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/149_Segmentation_Fault.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/150_Segmentation_Fault.png"
 			}
 		},
 		{
@@ -501,13 +501,13 @@
 			}
 		},
 		{
-			"name": "Shock",
+			"name": "Glitch Out",
 			"rarity": "common",
-			"mana_cost": "{R}",
-			"type": "Instant",
-			"collector_number": "150",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/150_Shock.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/138_Glitch Out.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "138",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/138_Go for Gold.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/139_Go for Gold.png"
 			}
 		},
 		{
@@ -1575,9 +1575,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "140",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/140_Groove Surfer.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/141_Groove Surfer.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Citizen",
-			"collector_number": "141",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/141_High Rollers.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/142_High Rollers.png"
 			}
 		},
 		{
@@ -1635,9 +1635,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{7}{R}",
 			"type": "Creature — Error",
-			"collector_number": "148",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/148_Rowhammer.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/149_Rowhammer.png"
 			}
 		},
 		{
@@ -1685,16 +1685,16 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "144",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/144_Overwhelming Upload.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/145_Overwhelming Upload.png"
 			}
 		},
 		{
 			"name": "Error Tide",
 			"rarity": "uncommon",
-			"mana_cost": "{X}{R}",
-			"type": "Sorcery",
+			"mana_cost": "{R}",
+			"type": "Instant",
 			"collector_number": "134",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/134_Error Tide.png"
@@ -2385,9 +2385,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{R}{R}",
 			"type": "Creature — Error",
-			"collector_number": "142",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/142_Infinite_Loop.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/143_Infinite_Loop.png"
 			}
 		},
 		{
@@ -2405,9 +2405,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "146",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/146_Profiler of Pain.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/147_Profiler of Pain.png"
 			}
 		},
 		{
@@ -2415,9 +2415,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Enchantment — Subroutine",
-			"collector_number": "145",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/145_PANIC().png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/146_PANIC().png"
 			}
 		},
 		{
@@ -2425,9 +2425,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Creature — Hyena Bat Warrior",
-			"collector_number": "147",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/147_Red-Hot Rider.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/148_Red-Hot Rider.png"
 			}
 		},
 		{
@@ -3401,7 +3401,7 @@
 	5 Abrasive Punk
 	5 Crucible Takedown
 	5 Frag
-	5 Shock
+	5 Glitch Out
 	5 Go for Gold
 	5 Mirage Model
 	5 Garbage Collector

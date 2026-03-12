@@ -345,7 +345,7 @@
     },
     {
         "card_name": "Infinite_Loop",
-        "number": 142,
+        "number": 143,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -385,7 +385,7 @@
     },
     {
         "card_name": "PANIC()",
-        "number": 145,
+        "number": 146,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -425,7 +425,7 @@
     },
     {
         "card_name": "Profiler of Pain",
-        "number": 146,
+        "number": 147,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -465,7 +465,7 @@
     },
     {
         "card_name": "Red-Hot Rider",
-        "number": 147,
+        "number": 148,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -825,7 +825,7 @@
     },
     {
         "card_name": "Groove Surfer",
-        "number": 140,
+        "number": 141,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -865,7 +865,7 @@
     },
     {
         "card_name": "High Rollers",
-        "number": 141,
+        "number": 142,
         "shape": "leveler",
         "set": "ERR",
         "rotated": false,
@@ -905,7 +905,7 @@
     },
     {
         "card_name": "Overwhelming Upload",
-        "number": 144,
+        "number": 145,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -945,7 +945,7 @@
     },
     {
         "card_name": "Rowhammer",
-        "number": 148,
+        "number": 149,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1304,7 +1304,7 @@
         "position": ""
     },
     {
-        "card_name": "Go for Gold",
+        "card_name": "Glitch Out",
         "number": 138,
         "shape": "normal",
         "set": "ERR",
@@ -1344,9 +1344,9 @@
         "position": ""
     },
     {
-        "card_name": "Grip Pinch-Hitter",
+        "card_name": "Go for Gold",
         "number": 139,
-        "shape": "leveler",
+        "shape": "normal",
         "set": "ERR",
         "rotated": false,
         "position": ""
@@ -1384,9 +1384,9 @@
         "position": ""
     },
     {
-        "card_name": "Inversion's Herald",
-        "number": 143,
-        "shape": "normal",
+        "card_name": "Grip Pinch-Hitter",
+        "number": 140,
+        "shape": "leveler",
         "set": "ERR",
         "rotated": false,
         "position": ""
@@ -1424,8 +1424,8 @@
         "position": ""
     },
     {
-        "card_name": "Segmentation_Fault",
-        "number": 149,
+        "card_name": "Inversion's Herald",
+        "number": 144,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1464,7 +1464,7 @@
         "position": ""
     },
     {
-        "card_name": "Shock",
+        "card_name": "Segmentation_Fault",
         "number": 150,
         "shape": "normal",
         "set": "ERR",

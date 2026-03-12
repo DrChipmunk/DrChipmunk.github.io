@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-24</releasedate>
+			<releasedate>2026-03-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -194,7 +194,7 @@ When this creature enters, it deals damage to target creature equal to the numbe
 		</card>
 		<card>
 			<name>Daemonic Binding</name>
-			<text>This spell has flash if you control a creature with level up.
+			<text>This spell costs {2} less to cast if you control a creature with a level counter on it.
 When this enchantment enters, exile target creature or enchantment an opponent controls until this enchantment leaves the battlefield.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/8_Daemonic Binding.png" num="8">ERR</set>
 			<prop>
@@ -202,8 +202,8 @@ When this enchantment enters, exile target creature or enchantment an opponent c
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>3W</manacost>
-				<cmc>4</cmc>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -667,19 +667,20 @@ Add {B}{B}. Spend this mana only to pay level up costs.</text>
 		</card>
 		<card>
 			<name>Downlink Overload</name>
-			<text>Target creature gets -2/-2 until end of turn. Its controller mills two cards.</text>
+			<text>Enchant creature.
+Enchanted creature gets -2/-2.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/90_Downlink Overload.png" num="90">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
 				<manacost>B</manacost>
 				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>1</tablerow>
 		</card>
 		<card>
 			<name>RECV()</name>
@@ -761,7 +762,7 @@ Whenever this Subroutine runs, surveil 2.
 		<card>
 			<name>Grip Pinch-Hitter</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/139_Grip Pinch-Hitter.png" num="139">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/140_Grip Pinch-Hitter.png" num="140">ERR</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -779,7 +780,7 @@ Whenever this Subroutine runs, surveil 2.
 			<name>Inversion&apos;s Herald</name>
 			<text>Menace
 Corrupt — When this creature enters, if you control a permanent with greater mana value, it gets +2/+2 and gains haste until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/143_Inversion&apos;s Herald.png" num="143">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/144_Inversion&apos;s Herald.png" num="144">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -816,7 +817,7 @@ When this creature dies, cache the top card of your library face down. (Look at 
 			<name>Segmentation_Fault</name>
 			<text>Haste
 Mountaincycling {2} ({2}, Discard this card: Search your library for a Mountain card, reveal it, put it into your hand, then shuffle.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/149_Segmentation_Fault.png" num="149">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/150_Segmentation_Fault.png" num="150">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -904,15 +905,15 @@ When this creature enters, you may discard a card. If you do, draw two cards.</t
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Shock</name>
-			<text>Shock deals 2 damage to any target.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/150_Shock.png" num="150">ERR</set>
+			<name>Glitch Out</name>
+			<text>Glitch Out deals X damage to target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/138_Glitch Out.png" num="138">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>R</manacost>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
 				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -923,7 +924,7 @@ When this creature enters, you may discard a card. If you do, draw two cards.</t
 			<name>Go for Gold</name>
 			<text>Target creature gets +3/+1 until end of turn.
 Create a tapped Treasure token.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/138_Go for Gold.png" num="138">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/139_Go for Gold.png" num="139">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2828,7 +2829,7 @@ Whenever this Subroutine runs, you draw three cards and you lose 3 life.</text>
 		<card>
 			<name>Groove Surfer</name>
 			<text>Whenever you cast a noncreature spell, create a red Subroutine enchantment token named BOOST() with &quot;Whenever this Subroutine runs, add {R}.&quot; (Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/140_Groove Surfer.png" num="140">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/141_Groove Surfer.png" num="141">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2867,7 +2868,7 @@ Corrupt — When this creature enters, if it was cast and you control a permanen
 		<card>
 			<name>High Rollers</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/141_High Rollers.png" num="141">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/142_High Rollers.png" num="142">ERR</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -2940,7 +2941,7 @@ Whenever you sacrifice an artifact or enchantment, this creature deals 1 damage 
 			<name>Rowhammer</name>
 			<text>This spell costs {X} less to cast, where X is the greatest mana value among permanents you control.
 Trample, haste</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/148_Rowhammer.png" num="148">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/149_Rowhammer.png" num="149">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3035,7 +3036,7 @@ Whenever this Subroutine runs, when you next cast an instant, sorcery, or Subrou
 			<name>Overwhelming Upload</name>
 			<text>As an additional cost to cast this spell, sacrifice an artifact or enchantment or pay {2}.
 Exile the top three cards of your library. You may play them until the end of your next turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/144_Overwhelming Upload.png" num="144">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/145_Overwhelming Upload.png" num="145">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3050,15 +3051,14 @@ Exile the top three cards of your library. You may play them until the end of yo
 		</card>
 		<card>
 			<name>Error Tide</name>
-			<text>Error Tide deals X damage to target creature or planeswalker.
-Corrupt — If you control a permanent with greater mana value than this spell, create an X/X colorless Construct artifact creature token.</text>
+			<text>Corrupt — Error Tide deals 2 damage to target creature. If you control a permanent with greater mana value than this spell, it deals 3 damage to that creature instead.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/134_Error Tide.png" num="134">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>XR</manacost>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
 				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -4245,7 +4245,7 @@ Whenever you attack, you may pay {R} and sacrifice two artifacts and/or enchantm
 		</card>
 		<card>
 			<name>Electronic Countermeasures</name>
-			<text>Corrupt — Electronic Countermeasures deals 5 damage to target battle, creature, or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.</text>
+			<text>Corrupt — Electronic Countermeasures deals 5 damage to target creature or planeswalker. If you control a permanent with greater mana value than this spell, exile the top X cards of your library, where X is the excess damage dealt this way. You may play one of those cards until your next end step.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/133_Electronic Countermeasures.png" num="133">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4284,7 +4284,7 @@ Whenever this creature attacks, cache the top card of your library face down. (L
 			<name>Infinite_Loop</name>
 			<text>Trample
 When this creature enters, target Subroutine you control runs X times, where X is seven minus the number of cards in your hand. Sacrifice that Subroutine.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/142_Infinite_Loop.png" num="142">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/143_Infinite_Loop.png" num="143">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4320,7 +4320,7 @@ Whenever Eviviva enters or attacks, create a 2/2 red Warrior creature token with
 			<name>Profiler of Pain</name>
 			<text>Menace
 Error spells you cast cost {X} less to cast, where X is the total amount of life your opponents have lost this turn.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/146_Profiler of Pain.png" num="146">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/147_Profiler of Pain.png" num="147">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4339,7 +4339,7 @@ Error spells you cast cost {X} less to cast, where X is the total amount of life
 			<text>(As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)
 When this Subroutine enters, you may discard a card. When you do, it deals 4 damage to target creature or planeswalker.
 Whenever this Subroutine runs, create a 4/4 red Error creature token with menace.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/145_PANIC().png" num="145">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/146_PANIC().png" num="146">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4360,7 +4360,7 @@ Whenever this Subroutine runs, create a 4/4 red Error creature token with menace
 			<name>Red-Hot Rider</name>
 			<text>Menace
 Corrupt — When this creature enters, if you control a permanent with greater mana value, exile the top card of your library. You may play it on any turn a creature you control dealt damage to a player.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/147_Red-Hot Rider.png" num="147">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/148_Red-Hot Rider.png" num="148">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
