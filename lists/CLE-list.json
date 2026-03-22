@@ -1,0 +1,1736 @@
+﻿[
+    {
+        "card_name": "Antiquarian",
+        "number": 1,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Calamitous Miscast",
+        "number": 30,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bogberry Bloom",
+        "number": 58,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ancient Amberflow",
+        "number": 87,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Birchwood Blazewarden",
+        "number": 117,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Auroral Migrant",
+        "number": 3,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Cross Porpoises",
+        "number": 31,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bubbletoad",
+        "number": 60,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Artisanal Puzzlebox",
+        "number": 88,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Catch-and-Releaser",
+        "number": 120,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bowl-Shell Beetle",
+        "number": 4,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Excellent Idea",
+        "number": 33,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bumbling Brewer",
+        "number": 61,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Canny Negotiator",
+        "number": 89,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fiddle Fern Pie",
+        "number": 122,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Curious Shinosaur",
+        "number": 5,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fresh Start",
+        "number": 35,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Cosmos Claw",
+        "number": 63,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Discovery in Desperation",
+        "number": 92,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Follywog's Fate",
+        "number": 123,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Dinoplomacy",
+        "number": 7,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "How the Dragon Got its Wings",
+        "number": 37,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Dark-Tales Connaisseur",
+        "number": 64,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ferocious Bite",
+        "number": 93,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Foreign Chromawalker",
+        "number": 124,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Druid of Watchful Stones",
+        "number": 8,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Intangible Sage",
+        "number": 38,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Decry",
+        "number": 65,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Jaw Order Outfitter",
+        "number": 99,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Grove of Gathering",
+        "number": 125,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Founding of Buttermount",
+        "number": 9,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Meticulous Quartermaster",
+        "number": 41,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Determined Snail",
+        "number": 66,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lava Arc",
+        "number": 101,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Heritage Reclamation",
+        "number": 127,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Keeper of the Shellseal",
+        "number": 11,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Monsoon Proctor",
+        "number": 43,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fester",
+        "number": 68,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Molten Dancer",
+        "number": 103,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Moment's Respite",
+        "number": 129,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lead Off the Path",
+        "number": 12,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Potted Beanstalk",
+        "number": 47,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pestermeleon",
+        "number": 76,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Proud Judgewyrm",
+        "number": 105,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Patient Bumblerog",
+        "number": 130,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Petalwind Mage",
+        "number": 18,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Puzzlewyrm's Familiar",
+        "number": 48,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Sorrow of Waxwing",
+        "number": 77,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Quickpocket",
+        "number": 106,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Primarical Goggles",
+        "number": 132,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ponderous Ruinguard",
+        "number": 19,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Reorganize",
+        "number": 50,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sorrowmancer",
+        "number": 78,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Race of the Catwyrms",
+        "number": 107,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Reef Walker",
+        "number": 134,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Riverwatch Glider",
+        "number": 22,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sincere Impressionist",
+        "number": 51,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stone-Masked Mage",
+        "number": 80,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Redscale Challenger",
+        "number": 108,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rumbling Grovewatch",
+        "number": 137,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shimmering Bounty",
+        "number": 23,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Spell Pierce",
+        "number": 54,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Time-Bleached Dragon",
+        "number": 81,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Resonant Glimmerfeli",
+        "number": 109,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shell Scout Leader",
+        "number": 138,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stoic Outlander",
+        "number": 27,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stormwater Serpent",
+        "number": 55,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Well-Stocked Reagents",
+        "number": 83,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stolid Secondmage",
+        "number": 112,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sunset Seeker",
+        "number": 139,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Well-Rested",
+        "number": 28,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wide-Hooded Wizard",
+        "number": 56,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "White-Web Widow",
+        "number": 84,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Unleader's Tribune",
+        "number": 114,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Thistle Elemental",
+        "number": 140,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Archaeorator",
+        "number": 2,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Befuddled Apprentice",
+        "number": 29,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bounding Squangler",
+        "number": 59,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Chinook Wumprider",
+        "number": 90,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Adventure Awaits",
+        "number": 115,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Defend the Outlands",
+        "number": 6,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Eavesdrop",
+        "number": 32,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Comet Recollector",
+        "number": 62,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Chosen Glinthand",
+        "number": 91,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Aurora Chronicler",
+        "number": 116,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Joyful Disposition",
+        "number": 10,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Flashy Aerobatics",
+        "number": 34,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Diviner's Toad",
+        "number": 67,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fiery Celebration",
+        "number": 94,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Branch-Bender",
+        "number": 118,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Loess Lightbearer",
+        "number": 13,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hibernate",
+        "number": 36,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hammerhead Bully",
+        "number": 69,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fresh-Brewed Firenectar",
+        "number": 95,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bushwhack",
+        "number": 119,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lost to Myth",
+        "number": 14,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Introduction to Blobology",
+        "number": 39,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Heavy Burden",
+        "number": 70,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gregarious Kindler",
+        "number": 96,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Defender of the Patch",
+        "number": 121,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lumizoa",
+        "number": 15,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Majestic Kirin",
+        "number": 40,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hero's Downfall",
+        "number": 71,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Haughty Thespian",
+        "number": 97,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Helpful Topiary",
+        "number": 126,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mournful Craftsbug",
+        "number": 16,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Monsoon Fortune-Teller",
+        "number": 42,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "High Observator's Judgment",
+        "number": 72,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hermit of the Quairies",
+        "number": 98,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lettuce Leaper",
+        "number": 128,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Old-Law Sentinel",
+        "number": 17,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pinion Gilder",
+        "number": 44,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Knight of the Humblebee",
+        "number": 73,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Kindletouch",
+        "number": 100,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pebblemage",
+        "number": 131,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Poultice Courier",
+        "number": 20,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Playful Diver",
+        "number": 45,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Might-Tracker's Bow",
+        "number": 74,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Magma Forging",
+        "number": 102,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ram Through",
+        "number": 133,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Reliquary Cleanser",
+        "number": 21,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Possessive Archmage",
+        "number": 46,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Odds-and-Ends-Monger",
+        "number": 75,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ornery Wagonbeard",
+        "number": 104,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ribbon Range Guide",
+        "number": 135,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shining Rebuke",
+        "number": 24,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rainshadow Shield",
+        "number": 49,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Souldust Shepherd",
+        "number": 79,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shroomglow Collector",
+        "number": 110,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rivertrance",
+        "number": 136,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Skylands Vinecutter",
+        "number": 25,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sink",
+        "number": 52,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Venomous Voice",
+        "number": 82,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Slippery Critter",
+        "number": 111,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Verdant Tender",
+        "number": 141,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Snowpearl Sorter",
+        "number": 26,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Snappy Goldenwing",
+        "number": 53,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wisdom of Experience",
+        "number": 85,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stompin' Boots",
+        "number": 113,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wondrous View",
+        "number": 142,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->gold",
+    {
+        "card_name": "",
+        "number": 145,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Envision",
+        "number": 147,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Incinerating Breath",
+        "number": 149,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Scout the Outlands",
+        "number": 153,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Harvest of Clouds",
+        "number": 148,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lose Hold",
+        "number": 150,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pollywog Gossbearer",
+        "number": 160,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Nova Reenactor",
+        "number": 159,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Leaf-Clad Memorial",
+        "number": 158,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Well-Stocked Singer",
+        "number": 164,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stoneword Reciter",
+        "number": 162,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Mightkeeper Banner",
+        "number": 151,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Whiptongue Toad",
+        "number": 155,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Snappytrap",
+        "number": 154,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Adolescent Shrine-Scion",
+        "number": 146,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Orearchaeologist",
+        "number": 152,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bitter Parting",
+        "number": 156,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Comprehend",
+        "number": 157,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Reawakening",
+        "number": 161,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Yestermantic Assistance",
+        "number": 165,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Vanish",
+        "number": 163,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->colorless",
+    {
+        "card_name": "Bronze Toad",
+        "number": 166,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Egg of the Elders",
+        "number": 168,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Guards of Old Ovonia",
+        "number": 171,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Memorial Stone",
+        "number": 172,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sunbeam Blade",
+        "number": 175,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Chromatic Star",
+        "number": 167,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Everglass",
+        "number": 169,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Friendly Fisher",
+        "number": 170,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Old Jade Guardian",
+        "number": 173,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sparkling Staff",
+        "number": 174,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Breathtaking Vista",
+        "number": 176,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Placid Icescape",
+        "number": 188,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Inspiring Cairn",
+        "number": 184,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gentle Clearing",
+        "number": 180,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Picturesque Field",
+        "number": 187,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Frigid Landmark",
+        "number": 179,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gloomy Landmark",
+        "number": 181,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Luminous Landmark",
+        "number": 185,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Secluded Landmark",
+        "number": 195,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Quaint Landmark",
+        "number": 191,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Promising Overlook",
+        "number": 189,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fragrant Basin",
+        "number": 178,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Resplendent Moor",
+        "number": 193,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Impressive Peak",
+        "number": 183,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Refreshing Spring",
+        "number": 192,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Solemn Landmark",
+        "number": 196,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Bustling Landmark",
+        "number": 177,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Restorative Landmark",
+        "number": 194,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Imposing Landmark",
+        "number": 182,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Overgrown Landmark",
+        "number": 186,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "Promising Sunscape",
+        "number": 190,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    "a->token",
+    {
+        "card_name": "Clearingsong",
+        "number": 1,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Treasure",
+        "number": 2,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Kindness",
+        "number": 6,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Dragon",
+        "number": 3,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Elemental",
+        "number": 4,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ranger",
+        "number": 5,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    }
+]
