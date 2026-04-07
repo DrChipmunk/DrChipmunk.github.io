@@ -4229,7 +4229,7 @@ Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creatur
 		<card>
 			<name>Bootstrap Daemon</name>
 			<text>Flying, haste
-Whenever you attack, you may sacrifice an artifacts or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
+Whenever you attack, you may sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/122_Bootstrap Daemon.png" num="122">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4472,7 +4472,7 @@ Whenever Aurore enters or attacks, create an X/X colorless Construct artifact cr
 		<card>
 			<name>ITERATE()</name>
 			<text>Whenever this Subroutine enters or runs, choose one — 
-• Create Noop, a colorless Robot artifact creature with &quot;Noop can&apos;t attack unless she has two or more counters on her.&quot;
+• Create Noop, a colorless 2/2 Robot artifact creature with &quot;Noop can&apos;t attack unless she has two or more counters on her.&quot;
 • Put a +1/+1 counter on target Robot.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/176_ITERATE().png" num="176">ERR</set>
 			<prop>

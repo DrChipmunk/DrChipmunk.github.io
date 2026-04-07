@@ -1,4 +1,22 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Bootstrap Daemon
+rules_text: Flying, haste
+Whenever you attack, you may sacrifice an artifacts or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking. => Flying, haste
+Whenever you attack, you may sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.
+
+ITERATE()
+rules_text: Whenever this Subroutine enters or runs, choose one — 
+• Create Noop, a colorless Robot artifact creature with “Noop can't attack unless she has two or more counters on her.”
+• Put a +1/+1 counter on target Robot. => Whenever this Subroutine enters or runs, choose one — 
+• Create Noop, a colorless 2/2 Robot artifact creature with “Noop can't attack unless she has two or more counters on her.”
+• Put a +1/+1 counter on target Robot.
+
+
+VERSION 7 CHANGELOG
 ====================
 
 Dead Weight added.
