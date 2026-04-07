@@ -9,7 +9,7 @@
     },
     {
         "card_name": "Composer of Skylines",
-        "number": 44,
+        "number": 43,
         "shape": "leveler",
         "set": "ERR",
         "rotated": false,
@@ -129,7 +129,7 @@
     },
     {
         "card_name": "Convol, Archive Exec",
-        "number": 45,
+        "number": 44,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -169,7 +169,7 @@
     },
     {
         "card_name": "Echo Choreographer",
-        "number": 51,
+        "number": 50,
         "shape": "leveler",
         "set": "ERR",
         "rotated": false,
@@ -448,8 +448,8 @@
         "position": ""
     },
     {
-        "card_name": "Buoyant Datagrazer",
-        "number": 42,
+        "card_name": "COPY()",
+        "number": 45,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -488,8 +488,8 @@
         "position": ""
     },
     {
-        "card_name": "COPY()",
-        "number": 46,
+        "card_name": "Data Staff",
+        "number": 47,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -528,7 +528,7 @@
         "position": ""
     },
     {
-        "card_name": "Data Staff",
+        "card_name": "Decryption Puzzlemancer",
         "number": 48,
         "shape": "normal",
         "set": "ERR",
@@ -568,7 +568,7 @@
         "position": ""
     },
     {
-        "card_name": "Decryption Puzzlemancer",
+        "card_name": "Denotation Failure",
         "number": 49,
         "shape": "normal",
         "set": "ERR",
@@ -608,8 +608,8 @@
         "position": ""
     },
     {
-        "card_name": "Denotation Failure",
-        "number": 50,
+        "card_name": "Install Wizard",
+        "number": 53,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1089,7 +1089,7 @@
     },
     {
         "card_name": "Codepath Runner",
-        "number": 43,
+        "number": 42,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1129,7 +1129,7 @@
     },
     {
         "card_name": "Cybersaurus",
-        "number": 47,
+        "number": 46,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1169,7 +1169,7 @@
     },
     {
         "card_name": "FLOCK()",
-        "number": 52,
+        "number": 51,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1209,7 +1209,7 @@
     },
     {
         "card_name": "Glitchlands Sentinel",
-        "number": 53,
+        "number": 52,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1650,7 +1650,7 @@
     },
     {
         "card_name": "Glitchdrinker",
-        "number": 199,
+        "number": 200,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1666,7 +1666,7 @@
     },
     {
         "card_name": "Burrow Checker",
-        "number": 197,
+        "number": 198,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1781,7 +1781,7 @@
     },
     {
         "card_name": "Gemi and Nu, Cachemates",
-        "number": 198,
+        "number": 199,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1820,8 +1820,8 @@
         "position": ""
     },
     {
-        "card_name": "Install Wizard",
-        "number": 200,
+        "card_name": "Buoyant Datagrazer",
+        "number": 197,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,

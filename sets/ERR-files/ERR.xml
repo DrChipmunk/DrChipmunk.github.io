@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-12</releasedate>
+			<releasedate>2026-04-07</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -246,7 +246,7 @@ Fabric — Equip {4}. This ability costs {1} less to activate for each enchantme
 			<name>Glitchlands Sentinel</name>
 			<text>Flash
 When this creature enters, cache up to one other target permanent you control. (Exile it and create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/53_Glitchlands Sentinel.png" num="53">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/52_Glitchlands Sentinel.png" num="52">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -286,7 +286,7 @@ When this creature enters, cache up to one other target permanent you control. (
 			<name>FLOCK()</name>
 			<text>(As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)
 Whenever this Subroutine runs, create a 2/2 blue Bird enchantment creature token with flying.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/52_FLOCK().png" num="52">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/51_FLOCK().png" num="51">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -307,7 +307,7 @@ Whenever this Subroutine runs, create a 2/2 blue Bird enchantment creature token
 			<name>Codepath Runner</name>
 			<text>Vigilance
 Whenever a Subroutine you control runs, this creature gets +1/+0 until end of turn and can&apos;t be blocked this turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/43_Codepath Runner.png" num="43">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/42_Codepath Runner.png" num="42">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -360,7 +360,7 @@ Islandcycling {2} ({2}, Discard this card: Search your library for an Island car
 			<name>Cybersaurus</name>
 			<text>Ward {3} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {3}.)
 {2}{U}, Discard this card: Counter target spell with mana value 4 or less.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/47_Cybersaurus.png" num="47">ERR</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/46_Cybersaurus.png" num="46">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -906,7 +906,7 @@ When this creature enters, you may discard a card. If you do, draw two cards.</t
 		</card>
 		<card>
 			<name>Glitch Out</name>
-			<text>Glitch Out deals X damage to target creature.</text>
+			<text>Glitch Out deals X plus 1 damage to target creature.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/138_Glitch Out.png" num="138">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -1845,7 +1845,7 @@ As this creature enters, you may exile a creature card from your graveyard. If y
 			<name>Glitchdrinker</name>
 			<text>This spell costs {2} less to cast if an opponent lost life this turn.
 Corrupt — When this creature enters, if you control a permanent with greater mana value, destroy up to one target artifact, creature, or planeswalker.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/199_Glitchdrinker.png" num="199">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/200_Glitchdrinker.png" num="200">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1882,7 +1882,7 @@ Whenever you sacrifice an artifact or enchantment, this creature gets +2/+0 and 
 			<name>Burrow Checker</name>
 			<text>Vigilance
 Fabric — This creature gets +1/+1 for each enchantment you control.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/197_Burrow Checker.png" num="197">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/198_Burrow Checker.png" num="198">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1935,18 +1935,18 @@ Fabric — This creature gets +1/+1 for each enchantment you control.</text>
 		<card>
 			<name>Install Wizard</name>
 			<text>When this creature enters, cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;{2}, Sacrifice this:You may play the cached card this turn.&quot;)
-{1}{G}{U}, Sacrifice a Memory: Draw a card. You may put a land card from your hand onto the battlefield.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/200_Install Wizard.png" num="200">ERR</set>
+{1}{U}, Sacrifice a Memory: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/53_Install Wizard.png" num="53">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>GU</manacost>
-				<cmc>2</cmc>
-				<colors>UG</colors>
-				<coloridentity>UG</coloridentity>
-				<pt>2/2</pt>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>Memory ERR</related>
@@ -2061,7 +2061,7 @@ When this creature leaves the battlefield, draw a card.</text>
 		</card>
 		<card>
 			<name>Weave Dispatcher</name>
-			<text>Whenever another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with &quot;Whenever this Subroutine runs, create a 1/1 white Citizen creature token.&quot; (Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)</text>
+			<text>Whenever this creature or another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with &quot;Whenever this Subroutine runs, create a 1/1 white Citizen creature token.&quot; (Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/39_Weave Dispatcher.png" num="39">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2072,7 +2072,7 @@ When this creature leaves the battlefield, draw a card.</text>
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/1</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>ALARM() ERR</related>
@@ -2266,18 +2266,19 @@ Whenever this Subroutine runs, you gain 3 life if an opponent has more life than
 		<card>
 			<name>Buoyant Datagrazer</name>
 			<text>Flying
+When this creature enters, cache the top card of your library face down. (Exile it and create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)
 Whenever you sacrifice a Memory, draw a card.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/42_Buoyant Datagrazer.png" num="42">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/197_Buoyant Datagrazer.png" num="197">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment Creature — Whale</type>
 				<maintype>Creature</maintype>
-				<manacost>3U</manacost>
-				<cmc>4</cmc>
-				<colors>U</colors>
-				<coloridentity>U</coloridentity>
-				<pt>3/3</pt>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2325,7 +2326,7 @@ Activated abilities of Memories you control cost {1} less to activate.</text>
 			<name>Decryption Puzzlemancer</name>
 			<text>{2}{U}, {T}: Draw a card.
 {6}{U}{U}, {T}: Draw four cards.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/49_Decryption Puzzlemancer.png" num="49">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/48_Decryption Puzzlemancer.png" num="48">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2342,7 +2343,7 @@ Activated abilities of Memories you control cost {1} less to activate.</text>
 		<card>
 			<name>Denotation Failure</name>
 			<text>Counter target creature spell with toughness 2 or less.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/50_Denotation Failure.png" num="50">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/49_Denotation Failure.png" num="49">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2467,9 +2468,9 @@ Whenever this Subroutine runs, draw two cards. Creatures your opponents control 
 		<card>
 			<name>Data Staff</name>
 			<text>This artifact enters tapped.
-{T}: Add one mana of any color. Spend this mana only to cast Subroutine spells.
-{4}, {T}: Draw a card. This ability costs {1} less to activate for each time a Subroutine ran under your control this turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/48_Data Staff.png" num="48">ERR</set>
+{T}: Add {U}. You can&apos;t spend this mana to cast creature spells.
+Sacrifice this artifact: Target Subroutine runs. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Staff.png" num="47">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2523,7 +2524,7 @@ Whenever this Subroutine runs, exile up to one other target creature or Subrouti
 			<name>COPY()</name>
 			<text>(As this enters, insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)
 Whenever this Subroutine runs, create a token that&apos;s a copy of target creature you control.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/46_COPY().png" num="46">ERR</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/45_COPY().png" num="45">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2570,11 +2571,11 @@ Whenever this Subroutine runs, create a token that&apos;s a copy of target creat
 				<side>front</side>
 				<type>Creature — Human Cleric</type>
 				<maintype>Creature</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3051,7 +3052,7 @@ Exile the top three cards of your library. You may play them until the end of yo
 		</card>
 		<card>
 			<name>Error Tide</name>
-			<text>Corrupt — Error Tide deals 2 damage to target creature. If you control a permanent with greater mana value than this spell, it deals 3 damage to that creature instead.</text>
+			<text>Error Tide deals 2 damage to any target. If you control a permanent with mana value 4 or greater, it deals 3 damage to that target instead.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/134_Error Tide.png" num="134">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3622,7 +3623,8 @@ Whenever Mev deals damage to a player, that player draws a card.</text>
 		</card>
 		<card>
 			<name>Ys, Trace Talker</name>
-			<text>Whenever this creature attacks, you may exile a creature card from your graveyard with mana value equal to this creature&apos;s mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability.</text>
+			<text>Menace
+Whenever this creature enters or attacks, you may exile a creature card from your graveyard with mana value equal to this creature&apos;s mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability and menace.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/218_Ys, Trace Talker.png" num="218">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3696,7 +3698,7 @@ Whenever Lavis attacks, sacrifice any number of artifacts and/or enchantments. C
 		</card>
 		<card>
 			<name>Kaluthax, Dungeon Master</name>
-			<text>At the beginning of combat on your turn, put a level counter on another target creature you control. If it doesn&apos;t have level up, it gains level up {2} and &quot;This creature gets +1/+1 for each level counter on it.&quot; (The creature gains &quot;{2}: Put a level counter on this as a sorcery.&quot;)</text>
+			<text>At the beginning of combat on your turn, put a level counter on target creature you control. If it doesn&apos;t have level up, it gains level up {2} and &quot;This creature gets +1/+1 for each level counter on it.&quot; (The creature gains &quot;{2}: Put a level counter on this as a sorcery.&quot;)</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/201_Kaluthax, Dungeon Master.png" num="201">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -3733,7 +3735,7 @@ Once during each of your turns, when you sacrifice a nontoken, nonland permanent
 			<name>Gemi and Nu, Cachemates</name>
 			<text>Whenever you draw or cache a card, put a +1/+1 counter on up to one target land.
 At the beginning of combat on your turn, untap up to one target land you control. It becomes a 3/3 creature with vigilance, hexproof, and haste until end of turn. It&apos;s still a land.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/198_Gemi and Nu, Cachemates.png" num="198">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/199_Gemi and Nu, Cachemates.png" num="199">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3935,7 +3937,7 @@ Whenever this Subroutine runs, destroy all creatures, enchantments, and planeswa
 			<name>Convol, Archive Exec</name>
 			<text>Flash
 Whenever Convol enters or attacks, untap target creature you control. Until end of turn, it has base power and toughness 5/5 and gains hexproof and &quot;Whenever this creature deals combat damage to a player, draw two cards.&quot;</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/45_Convol, Archive Exec.png" num="45">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/44_Convol, Archive Exec.png" num="44">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4227,18 +4229,18 @@ Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creatur
 		<card>
 			<name>Bootstrap Daemon</name>
 			<text>Flying, haste
-Whenever you attack, you may pay {R} and sacrifice two artifacts and/or enchantments. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
+Whenever you attack, you may sacrifice an artifacts or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/122_Bootstrap Daemon.png" num="122">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment Creature — Phoenix</type>
 				<maintype>Creature</maintype>
-				<manacost>3R</manacost>
-				<cmc>4</cmc>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>IGNITE() ERR</related>
@@ -4395,7 +4397,7 @@ When this creature enters, separate your graveyard into two piles. An opponent c
 		</card>
 		<card>
 			<name>Menagerie Mechanic</name>
-			<text>Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is 1 plus the number of counters on this creature.
+			<text>Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is the damage dealt.
 {1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample until end of turn.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/181_Menagerie Mechanic.png" num="181">ERR</set>
 			<prop>
@@ -4403,30 +4405,30 @@ When this creature enters, separate your graveyard into two piles. An opponent c
 				<side>front</side>
 				<type>Creature — Human Artificer</type>
 				<maintype>Creature</maintype>
-				<manacost>2G</manacost>
-				<cmc>3</cmc>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>3/4</pt>
+				<pt>4/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>colorless Construct XXERR</related>
 		</card>
 		<card>
 			<name>Untethered Daemon</name>
-			<text>When this creature enters, cache up to X target cards from your graveyard. (Exile them. For each of them, create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)
-{T}: Add {G}. Spend this mana only to activate abilities of Memories.</text>
+			<text>When this creature enters, return up to one target permanent card from your graveyard to your hand. If you do, cache a card from your hand face down. (To cache a card, exile it and create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)
+{T}: Add {G}.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/195_Untethered Daemon.png" num="195">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment Creature — Plant</type>
 				<maintype>Creature</maintype>
-				<manacost>XXG</manacost>
-				<cmc>1</cmc>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>0/4</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>Memory ERR</related>
@@ -4441,11 +4443,11 @@ Fabric — At the beginning of combat on your turn, target creature gets +X/+X a
 				<side>front</side>
 				<type>Creature — Human Archer Ranger</type>
 				<maintype>Creature</maintype>
-				<manacost>2GG</manacost>
-				<cmc>4</cmc>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>4/4</pt>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4469,18 +4471,17 @@ Whenever Aurore enters or attacks, create an X/X colorless Construct artifact cr
 		</card>
 		<card>
 			<name>ITERATE()</name>
-			<text>Whenever this Subroutine runs, choose one — 
-• Create Noop, a legendary 3/3 colorless Construct artifact creature token with defender.
-• Target Construct loses defender and becomes a 5/5 Avatar in addition to its other types.
-• Put a number of +1/+1 counters on target Avatar equal to its power. It gains trample.</text>
+			<text>Whenever this Subroutine enters or runs, choose one — 
+• Create Noop, a colorless Robot artifact creature with &quot;Noop can&apos;t attack unless she has two or more counters on her.&quot;
+• Put a +1/+1 counter on target Robot.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/176_ITERATE().png" num="176">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment — Subroutine</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1G</manacost>
-				<cmc>2</cmc>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -4617,7 +4618,7 @@ Whenever Aurore enters or attacks, create an X/X colorless Construct artifact cr
 		<card>
 			<name>Echo Choreographer</name>
 			<text></text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/51_Echo Choreographer.png" num="51">ERR</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/50_Echo Choreographer.png" num="50">ERR</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -4802,7 +4803,7 @@ At the beginning of your end step, gain control of target creature with power 0 
 		<card>
 			<name>Composer of Skylines</name>
 			<text></text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/44_Composer of Skylines.png" num="44">ERR</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/43_Composer of Skylines.png" num="43">ERR</set>
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
@@ -5363,7 +5364,7 @@ As you build your deck, exchange this card for a common soulspace of your choice
 		</card>
 		<card>
 			<name>Noop 33ERR ERR</name>
-			<text>Defender</text>
+			<text>Noop can&apos;t attack unless she has two or more counters on her</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/23t_Noop 33ERR.png" num="23">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -5372,7 +5373,7 @@ As you build your deck, exchange this card for a common soulspace of your choice
 				<maintype>Creature</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
-				<pt>3/3</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>

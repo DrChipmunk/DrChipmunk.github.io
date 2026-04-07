@@ -1,4 +1,116 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Ambitious Angel
+special_text: Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying => Flying
+Level up {3}{W}{W} [i]({3}{W}{W}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] Flying
+[level 3+] Flying
+
+Glitch Out
+rules_text: Glitch Out deals X damage to target creature. => Glitch Out deals X plus 1 damage to target creature.
+
+Install Wizard
+cost: {G}{U} => {3}{U}
+rules_text: When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this:You may play the cached card this turn.”)[/i]
+{1}{G}{U}, Sacrifice a Memory: Draw a card. You may put a land card from your hand onto the battlefield. => When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this:You may play the cached card this turn.”)[/i]
+{1}{U}, Sacrifice a Memory: Draw a card.
+pt: 2/2 => 3/4
+
+Weave Dispatcher
+rules_text: Whenever another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” [i](Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i] => Whenever this creature or another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” [i](Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]
+pt: 2/1 => 3/1
+
+Buoyant Datagrazer
+cost: {3}{U} => {G}{U}
+rules_text: Flying
+Whenever you sacrifice a Memory, draw a card. => Flying
+When this creature enters, cache the top card of your library face down. [i](Exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i]
+Whenever you sacrifice a Memory, draw a card.
+pt: 3/3 => 2/2
+
+Data Staff
+rules_text: This artifact enters tapped.
+{T}: Add one mana of any color. Spend this mana only to cast Subroutine spells.
+{4}, {T}: Draw a card. This ability costs {1} less to activate for each time a Subroutine ran under your control this turn. => This artifact enters tapped.
+{T}: Add {U}. You can't spend this mana to cast creature spells.
+Sacrifice this artifact: Target Subroutine runs. Activate only as a sorcery.
+
+Grognard
+cost: {1}{B} => {B}
+pt: 2/2 => 2/1
+
+Error Tide
+rules_text: [i]Corrupt[/i] — Error Tide deals 2 damage to target creature. If you control a permanent with greater mana value than this spell, it deals 3 damage to that creature instead. => Error Tide deals 2 damage to any target. If you control a permanent with mana value 4 or greater, it deals 3 damage to that target instead.
+
+Ys, Trace Talker
+rules_text: Whenever this creature attacks, you may exile a creature card from your graveyard with mana value equal to this creature's mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability. => Menace
+Whenever this creature enters or attacks, you may exile a creature card from your graveyard with mana value equal to this creature's mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability and menace.
+
+Kaluthax, Dungeon Master
+rules_text: At the beginning of combat on your turn, put a level counter on another target creature you control. If it doesn't have level up, it gains level up {2} and “This creature gets +1/+1 for each level counter on it.” [i](The creature gains “{2}: Put a level counter on this as a sorcery.”)[/i] => At the beginning of combat on your turn, put a level counter on target creature you control. If it doesn't have level up, it gains level up {2} and “This creature gets +1/+1 for each level counter on it.” [i](The creature gains “{2}: Put a level counter on this as a sorcery.”)[/i]
+
+Bootstrap Daemon
+cost: {3}{R} => {2}{R}
+rules_text: Flying, haste
+Whenever you attack, you may pay {R} and sacrifice two artifacts and/or enchantments. If you do, return this card from your graveyard to the battlefield tapped and attacking. => Flying, haste
+Whenever you attack, you may sacrifice an artifacts or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.
+pt: 3/3 => 2/2
+
+Menagerie Mechanic
+cost: {2}{G} => {2}{G}{G}
+rules_text: Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is 1 plus the number of counters on this creature.
+{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample until end of turn. => Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is the damage dealt.
+{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample until end of turn.
+pt: 3/4 => 4/5
+
+Untethered Daemon
+cost: {X}{X}{G} => {2}{G}
+rules_text: When this creature enters, cache up to X target cards from your graveyard. [i](Exile them. For each of them, create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i]
+{T}: Add {G}. Spend this mana only to activate abilities of Memories. => When this creature enters, return up to one target permanent card from your graveyard to your hand. If you do, cache a card from your hand face down. [i](To cache a card, exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i]
+{T}: Add {G}.
+pt: 0/4 => 2/2
+
+Errorsbane Deadshot
+cost: {2}{G}{G} => {1}{G}{G}
+pt: 4/4 => 3/4
+
+ITERATE()
+cost: {1}{G} => {G}
+rules_text: Whenever this Subroutine runs, choose one — 
+• Create Noop, a legendary 3/3 colorless Construct artifact creature token with defender.
+• Target Construct loses defender and becomes a 5/5 Avatar in addition to its other types.
+• Put a number of +1/+1 counters on target Avatar equal to its power. It gains trample. => Whenever this Subroutine enters or runs, choose one — 
+• Create Noop, a colorless Robot artifact creature with “Noop can't attack unless she has two or more counters on her.”
+• Put a +1/+1 counter on target Robot.
+
+Pixel Pixie
+special_text: Flying
+Level up {UR} [i]({UR}: Put a level counter on this. Level up only as a sorcery.)[/i]
+[level 2-4] Flying, prowess
+[level 5+] Flying, prowess, prowess, prowess => Flying
+Level up {UR} [i]({UR}: Put a level counter on this as a sorcery.)[/i]
+[level 1-3] Flying, prowess
+[level 4+] Flying, prowess, prowess, prowess
+
+Composer of Skylines
+special_text: Level up {2}{U} [i]({2}{U}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time.
+[level 3+] If an ability of a permanent you control triggers, it triggers two additional times. => Level up {1}{U} [i]({1}{U}: Put a level counter on this as a sorcery.)[/i] [2/4]
+[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time. [3/5]
+[level 3+] If an ability of a permanent you control triggers, it triggers two additional times. [4/6]
+
+Noop 33ERR
+rules_text: Defender => Noop can't attack unless she has two or more counters on her
+pt: 3/3 => 2/2
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Glitch Out added.

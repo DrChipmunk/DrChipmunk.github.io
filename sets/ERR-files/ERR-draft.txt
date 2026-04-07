@@ -135,9 +135,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Ranger",
-			"collector_number": "53",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/53_Glitchlands Sentinel.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/52_Glitchlands Sentinel.png"
 			}
 		},
 		{
@@ -155,9 +155,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Enchantment — Subroutine",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/52_FLOCK().png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/51_FLOCK().png"
 			}
 		},
 		{
@@ -165,9 +165,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Rogue",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/43_Codepath Runner.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/42_Codepath Runner.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{U}{U}",
 			"type": "Enchantment Creature — Dinosaur",
-			"collector_number": "47",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/47_Cybersaurus.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/46_Cybersaurus.png"
 			}
 		},
 		{
@@ -1035,9 +1035,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{R}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "199",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/199_Glitchdrinker.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/200_Glitchdrinker.png"
 			}
 		},
 		{
@@ -1055,9 +1055,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment Creature — Ferret",
-			"collector_number": "197",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/197_Burrow Checker.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/198_Burrow Checker.png"
 			}
 		},
 		{
@@ -1083,11 +1083,11 @@
 		{
 			"name": "Install Wizard",
 			"rarity": "uncommon",
-			"mana_cost": "{G}{U}",
+			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "200",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/200_Install Wizard.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/53_Install Wizard.png"
 			}
 		},
 		{
@@ -1263,11 +1263,11 @@
 		{
 			"name": "Buoyant Datagrazer",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{G}{U}",
 			"type": "Enchantment Creature — Whale",
-			"collector_number": "42",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/42_Buoyant Datagrazer.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/197_Buoyant Datagrazer.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Merfolk Wizard",
-			"collector_number": "49",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/49_Decryption Puzzlemancer.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/48_Decryption Puzzlemancer.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "50",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/50_Denotation Failure.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/49_Denotation Failure.png"
 			}
 		},
 		{
@@ -1375,9 +1375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "48",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/48_Data Staff.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Staff.png"
 			}
 		},
 		{
@@ -1405,9 +1405,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Subroutine",
-			"collector_number": "46",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/46_COPY().png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/45_COPY().png"
 			}
 		},
 		{
@@ -1423,7 +1423,7 @@
 		{
 			"name": "Grognard",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{B}",
 			"type": "Creature — Human Cleric",
 			"collector_number": "100",
 			"image_uris": {
@@ -2085,9 +2085,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{U}",
 			"type": "Legendary Creature — Dog Cat",
-			"collector_number": "198",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/198_Gemi and Nu, Cachemates.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/199_Gemi and Nu, Cachemates.png"
 			}
 		},
 		{
@@ -2195,9 +2195,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}{U}{U}",
 			"type": "Legendary Creature — Spirit Wizard",
-			"collector_number": "45",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/45_Convol, Archive Exec.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/44_Convol, Archive Exec.png"
 			}
 		},
 		{
@@ -2353,7 +2353,7 @@
 		{
 			"name": "Bootstrap Daemon",
 			"rarity": "rare",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Enchantment Creature — Phoenix",
 			"collector_number": "122",
 			"image_uris": {
@@ -2443,7 +2443,7 @@
 		{
 			"name": "Menagerie Mechanic",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}",
+			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Human Artificer",
 			"collector_number": "181",
 			"image_uris": {
@@ -2453,7 +2453,7 @@
 		{
 			"name": "Untethered Daemon",
 			"rarity": "rare",
-			"mana_cost": "{X}{X}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Enchantment Creature — Plant",
 			"collector_number": "195",
 			"image_uris": {
@@ -2463,7 +2463,7 @@
 		{
 			"name": "Errorsbane Deadshot",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Human Archer Ranger",
 			"collector_number": "167",
 			"image_uris": {
@@ -2483,7 +2483,7 @@
 		{
 			"name": "ITERATE()",
 			"rarity": "rare",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{G}",
 			"type": "Enchantment — Subroutine",
 			"collector_number": "176",
 			"image_uris": {
@@ -2575,9 +2575,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Bard Wizard",
-			"collector_number": "51",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/51_Echo Choreographer.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/50_Echo Choreographer.png"
 			}
 		},
 		{
@@ -2675,9 +2675,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact Creature — Construct Advisor",
-			"collector_number": "44",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/44_Composer of Skylines.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/43_Composer of Skylines.png"
 			}
 		},
 		{

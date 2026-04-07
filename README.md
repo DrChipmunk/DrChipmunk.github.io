@@ -25,3 +25,7 @@ https://escapefromlimbo.github.io/
 Another set based on a TTRPG campaign; this one a classy, corrupt, and discreet affair about rules, secrets, and an endless city. Macabre in tone, the gameplay is based around a unified theme of "bluffing". Intended for Revolution Custom Standard and still in development.
 
 https://drchipmunk.itch.io/blood-and-velvet
+
+### Clearingsong (CLE)
+
+Inspired by cubes and core sets, this is a wholesome set with a wide variety of overlapping themes and synergies. The theme is "diversity"; the story is about young hatchlings banding together to mend rifts between their hidebound elders. Intended for Revolution Custom Standard and still in development.

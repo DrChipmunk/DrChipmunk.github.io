@@ -51,3 +51,19 @@ Elo update
 8 (-2): allwhowander | 1598 (-9)
 9 (=): purplemurasaki | 1580 (=)
 10 (-3): 7nix | 1579 (-24)
+
+<b>GP Neo Stehlia</b>
+
+The field was wide open going into the last standard GP of Cybaros' tenure and the last chance to earn a spot in worlds 2026. Those already qualified were bringing their best brews to get prepared; those not qualified were putting their best last chance. 
+
+The most popular deck of the tournament was dragon control. The most common build, put together by Kayiu, was a lean Jeskai control list playing the format's best answers. Three players - Kayiu himself, CovetedPeacock, and Epid - brought nearly the same list, and SilverParabellum had a similar Grixis build. These four players would end up being matched into each other, resulting in a lot of grindy control mirrors. Kayiu and Peacock boht made top cut, with Peacock winning a marathon four mirror matches en route to finals.
+
+Midrange was varied and popular: BG, RW, RB, and Naya builds all put in their best, with two unusual brews cracking into top 8. Tremor was on another Kayiu-built deck, using Qaraz Monument to assemble a wide variety of artifact and enchantment engines. Itaiuukl was on a BR midrange deck that used Leyshard and Shigane Manor Burns to ramp into 4-mana haymakers.
+
+Although the patch at the top of this month featured the CCR buffs, their impact ended being fairly tame. The most impactful buff of the month was the change to Clash at Mistwrit Vale from a marginal control piece to prowess all-star. Yours truly and newcomer to the format cftsoc3 both brought the Battle into top cut, where cftsoc3 beat out Itai in a quartfinals match that stamped their ticket to worlds 2026.
+
+If Jeskai control was the top deck by standings, the most feared deck in the field was Solidarity in the hands of platypeople. Capable of frequent turn 3 kills and reliable turn 4 kills, this aggro deck demanded early interaction to keep in check. It's sure that our worlds competitors will have this deck in mind going into next month. Platy dropped at third to a well-prepared cftsoc3.
+
+The finals came down to CovetedPeacock vs. cftsoc3. cftsoc3 - a player with real life pro tour experience - navigated the matchup beautifully, including by using the prowess granted by Clash at Mistwrit Vale to grow their tokens out of Deafening Clarion range. They took home the win, and certainly all eyes will be on them going into worlds.
+
+Elo update
