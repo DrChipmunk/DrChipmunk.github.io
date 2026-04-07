@@ -371,13 +371,13 @@
 			}
 		},
 		{
-			"name": "Downlink Overload",
+			"name": "Dead Weight",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "90",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/90_Downlink Overload.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/88_Dead Weight.png"
 			}
 		},
 		{
@@ -1465,9 +1465,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Spirit Warlock",
-			"collector_number": "88",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/88_Death's Believers.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/89_Death's Believers.png"
 			}
 		},
 		{
@@ -1495,9 +1495,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Error",
-			"collector_number": "89",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/89_Do_Not_Respond.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/90_Do_Not_Respond.png"
 			}
 		},
 		{
@@ -3388,7 +3388,7 @@
 	5 Reboot
 	5 Level Drain
 	5 Forced Shutdown
-	5 Downlink Overload
+	5 Dead Weight
 	5 RECV()
 	5 Unfettered Spirit
 	5 Thrilljammer

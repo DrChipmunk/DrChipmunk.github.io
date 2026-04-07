@@ -657,7 +657,7 @@
     },
     {
         "card_name": "Death's Believers",
-        "number": 88,
+        "number": 89,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "Do_Not_Respond",
-        "number": 89,
+        "number": 90,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,
@@ -1176,8 +1176,8 @@
         "position": ""
     },
     {
-        "card_name": "Downlink Overload",
-        "number": 90,
+        "card_name": "Dead Weight",
+        "number": 88,
         "shape": "normal",
         "set": "ERR",
         "rotated": false,

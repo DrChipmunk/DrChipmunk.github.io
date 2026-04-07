@@ -1,4 +1,12 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Dead Weight added.
+
+Downlink Overload removed.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

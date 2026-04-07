@@ -671,11 +671,11 @@
             "notes": "\n\nart5\nflagged (maybe)\nflagged (sideboard)"
         },
         {
-            "card_name": "Downlink Overload",
+            "card_name": "Dead Weight",
             "color": "B",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 90,
+            "number": 88,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Enchant creature.\nEnchanted creature gets -2/-2.",
@@ -2637,7 +2637,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Spirit Warlock",
-            "number": 88,
+            "number": 89,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Lifelink\n[i]Corrupt[/i] \u2014 When this creature enters, return target creature card from your graveyard to your hand. If you cast this creature and you control a permanent with greater mana value than this creature, return that card to the battlefield instead.",
@@ -2691,7 +2691,7 @@
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Error",
-            "number": 89,
+            "number": 90,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "You may pay {1}{B} rather than pay this spell's mana cost. When you do, target opponent creates two 1/1 white Citizen creature tokens.",
@@ -5711,5 +5711,5 @@
             "notes": "!!exportname OVERFLOW() ERR\n!\nart5"
         }
     ],
-    "version": 6
+    "version": 7
 }
