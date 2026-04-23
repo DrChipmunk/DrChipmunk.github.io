@@ -944,7 +944,7 @@
             "card_name": "Mirage Model",
             "color": "G",
             "rarity": "common",
-            "type": "Creature \u2014 Human Shaman",
+            "type": "Creature \u2014 Human Druid",
             "number": 182,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -956,7 +956,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Kaana Moonshadow",
-            "notes": "Cache 2/2 4/4\nError 0/0.5 2/2\nProgram 2/2\nEnchantment 1/1 2/2\nLevel Up 1/1\ngraveyard 0.5/1 2/3\nSac a/e 1/1 2/2\nRegion: The Buffer. Solarpunk\n\nart3\nflagged (maybe)\nflagged (favorite)"
+            "notes": "!tag divergence\nCache 2/2 4/4\nError 0/0.5 2/2\nProgram 2/2\nEnchantment 1/1 2/2\nLevel Up 1/1\ngraveyard 0.5/1 2/3\nSac a/e 1/1 2/2\nRegion: The Buffer. Solarpunk\n\nart3\nflagged (maybe)\nflagged (favorite)"
         },
         {
             "card_name": "Garbage Collector",
@@ -1286,7 +1286,7 @@
             "card_name": "Lonesome Afterimage",
             "color": "BG",
             "rarity": "common",
-            "type": "Creature \u2014 Elf Shaman",
+            "type": "Creature \u2014 Elf Druid",
             "number": 224,
             "color_identity": "BG",
             "cost": "{2}{BG}",
@@ -1298,7 +1298,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Katherine Makoyana",
-            "notes": "art5\n\nunhuman?"
+            "notes": "!tag divergence\nart5\n\nunhuman?"
         },
         {
             "card_name": "Superuser",
@@ -1964,7 +1964,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Dimitri Chappuis",
-            "notes": "!tokens Memory ERR\n!tag divergence\n!\nA value deck that ramps, draws cards, uses Cache synergy, and eventually wins with enormous finishers.\nart4\n"
+            "notes": "!tokens Memory ERR\n!tag divergence\n!\nA value deck that ramps, draws cards, uses Cache synergy, and eventually wins with enormous finishers.\nart4"
         },
         {
             "card_name": "Scripting Sage",
@@ -2852,7 +2852,7 @@
             "card_name": "Transgressive Trendsetter",
             "color": "R",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Human Bard",
+            "type": "Creature \u2014 Human Bard Rebel",
             "number": 154,
             "color_identity": "BR",
             "cost": "{1}{R}",
@@ -2864,7 +2864,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Aurore Folny",
-            "notes": "type B\nart4\n\nCorrupt \u2014 When this creature enters, if you control a permanent with greater mana value than it, add BR.\nflagged (maybe)\n\nAlternate triggers\nGain control of target creature with power 2 or less until end of turn. Untap it. It gains haste until end of turn.\nit deals 1 damage to each creature your opponents control. Those creatures can't block this turn.\ncreate two tapped Treasure tokens.\nit deals 2 damage to any target.\n\n\nIf it was cast / add RR\n\ntop20"
+            "notes": "!tag divergence\ntype B\nart4\n\nCorrupt \u2014 When this creature enters, if you control a permanent with greater mana value than it, add BR.\nflagged (maybe)\n\nAlternate triggers\nGain control of target creature with power 2 or less until end of turn. Untap it. It gains haste until end of turn.\nit deals 1 damage to each creature your opponents control. Those creatures can't block this turn.\ncreate two tapped Treasure tokens.\nit deals 2 damage to any target.\n\n\nIf it was cast / add RR\n\ntop20"
         },
         {
             "card_name": "High Rollers",
@@ -2924,7 +2924,7 @@
             "card_name": "Threadripper",
             "color": "R",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Jackal Warlock",
+            "type": "Creature \u2014 Wolf Warlock",
             "number": 151,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
@@ -2936,7 +2936,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Dinkartworks",
-            "notes": "\nart4\n\n// This line should be unreachable."
+            "notes": "!tag divergence\nart4\n\n// This line should be unreachable."
         },
         {
             "card_name": "Rowhammer",
@@ -3055,7 +3055,7 @@
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Error Tide deals 2 damage to any target. If you control a permanent with mana value 4 or greater, it deals 3 damage to that target instead.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cThe higher we built, the greater we dreamed, from this they grew stronger.\u201d\n\u2014Eviviva[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3122,7 +3122,7 @@
             "card_name": "Masksmith",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Elf Shaman",
+            "type": "Creature \u2014 Elf Druid",
             "number": 178,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -3134,7 +3134,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "ALexander Aronsson",
-            "notes": "!tokens Memory ERR\n!\nart5\n\n\u2022 Exile target enchantment.\n\u2022 Exile target player's graveyard.\n\u2022 Cache target card from your graveyard. (Exile it and create a Memory enchantment token with \u201c2, Sacrifice this: You may play the cached card this turn.\u201d)\n\nExile target artifact, enchantment, or card in a graveyard. If you own that card, cache it (\nflagged (solid)\n\ntop20"
+            "notes": "!tokens Memory ERR\n!tag divergence\nart5\n\n\u2022 Exile target enchantment.\n\u2022 Exile target player's graveyard.\n\u2022 Cache target card from your graveyard. (Exile it and create a Memory enchantment token with \u201c2, Sacrifice this: You may play the cached card this turn.\u201d)\n\nExile target artifact, enchantment, or card in a graveyard. If you own that card, cache it (\nflagged (solid)\n\ntop20"
         },
         {
             "card_name": "Irreverent Modder",
@@ -3734,7 +3734,7 @@
             "card_name": "Piroia, Perennial Sacrifice",
             "color": "BG",
             "rarity": "rare",
-            "type": "Legendary Creature \u2014 Human Shaman",
+            "type": "Legendary Creature \u2014 Human Warlock",
             "number": 209,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
@@ -3746,7 +3746,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Oliver Wetter",
-            "notes": "art3\n\u201cIf there must be sacrifices, let me be all of them.\u201d"
+            "notes": "!tag divergence\nart3\n\u201cIf there must be sacrifices, let me be all of them.\u201d"
         },
         {
             "card_name": "Gemi and Nu, Cachemates",
@@ -4007,7 +4007,7 @@
             "type": "Creature \u2014 Human Artificer",
             "number": 40,
             "color_identity": "U",
-            "cost": "{U}{U}",
+            "cost": "{1}{U}",
             "rules_text": "When this creature enters, mill three cards, then you may exile an instant, sorcery, or Subroutine card from your graveyard. You may cast a copy of that card. If you don't, cache it. [i](You still pay its costs. To cache a card, exile it and create a Memory enchantment token with \u201c{2}, Sacrifice this: You may play the cached card this turn.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
@@ -4016,7 +4016,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Alexandra Trauth",
-            "notes": "!tokens Memory ERR\n!\nart5\nflagged (solid)\nflagged (favorite)\n\ntop20"
+            "notes": "!tokens Memory ERR\n!tag divergence\nart5\nflagged (solid)\nflagged (favorite)\n\ntop20"
         },
         {
             "card_name": "Post-Weft Psionic",
@@ -4241,7 +4241,7 @@
             "type": "Enchantment Creature \u2014 Phoenix",
             "number": 122,
             "color_identity": "R",
-            "cost": "{2}{R}",
+            "cost": "{1}{R}{R}",
             "rules_text": "Flying, haste\nWhenever you attack, you may sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
@@ -4364,7 +4364,7 @@
             "card_name": "Red-Hot Rider",
             "color": "R",
             "rarity": "rare",
-            "type": "Creature \u2014 Hyena Bat Warrior",
+            "type": "Creature \u2014 Wolf Bat Warrior",
             "number": 148,
             "color_identity": "R",
             "cost": "{R}",
@@ -4376,7 +4376,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Amarihel",
-            "notes": "!tokens Red Hot ERR\n!\nart3\nterminal1\nflagged (favorite)\nconcern (art)"
+            "notes": "!tokens Red Hot ERR\n!tag divergence\nart3\nterminal1\nflagged (favorite)\nconcern (art)"
         },
         {
             "card_name": "Record_Desync",
@@ -4688,7 +4688,7 @@
             "card_name": "Mystic of Returns",
             "color": "G",
             "rarity": "rare",
-            "type": "Creature \u2014 Human Shaman",
+            "type": "Creature \u2014 Human Druid",
             "number": 183,
             "color_identity": "WBG",
             "cost": "{1}{G}",
@@ -4700,7 +4700,7 @@
             "set": "ERR",
             "loyalty": "",
             "artist": "Joao Queiroz",
-            "notes": "!tokens Memory EIW\n!\nart5\n\nIf a card would be put into a graveyard, exile it instead.\n\nIf a card would be put into a graveyard, instead exile it and you gain 1 life.\nflagged (solid)\n\ntop20"
+            "notes": "!tokens Memory EIW\n!tag divergence\nart5\n\nIf a card would be put into a graveyard, exile it instead.\n\nIf a card would be put into a graveyard, instead exile it and you gain 1 life.\nflagged (solid)\n\ntop20"
         },
         {
             "card_name": "The Weftheart",
@@ -4821,7 +4821,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "2/4",
-            "special_text": "Level up {1}{U} [i]({1}{U}: Put a level counter on this as a sorcery.)[/i] [2/4]\n[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time. [3/5]\n[level 3+] If an ability of a permanent you control triggers, it triggers two additional times. [4/6]",
+            "special_text": "Level up {1}{U} [i]({1}{U}: Put a level counter on this as a sorcery.)[/i]\n[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time.\n[level 3+] If an ability of a permanent you control triggers, it triggers two additional times.",
             "shape": "leveler",
             "set": "ERR",
             "loyalty": "",

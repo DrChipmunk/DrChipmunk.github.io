@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-07</releasedate>
+			<releasedate>2026-04-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -946,7 +946,7 @@ Create a tapped Treasure token.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Shaman</type>
+				<type>Creature — Human Druid</type>
 				<maintype>Creature</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -1290,7 +1290,7 @@ Trample</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Elf Shaman</type>
+				<type>Creature — Elf Druid</type>
 				<maintype>Creature</maintype>
 				<manacost>2B/G</manacost>
 				<cmc>3</cmc>
@@ -2856,7 +2856,7 @@ Corrupt — When this creature enters, if it was cast and you control a permanen
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Bard</type>
+				<type>Creature — Human Bard Rebel</type>
 				<maintype>Creature</maintype>
 				<manacost>1R</manacost>
 				<cmc>2</cmc>
@@ -2928,7 +2928,7 @@ Whenever you sacrifice an artifact or enchantment, this creature deals 1 damage 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Jackal Warlock</type>
+				<type>Creature — Wolf Warlock</type>
 				<maintype>Creature</maintype>
 				<manacost>3RR</manacost>
 				<cmc>5</cmc>
@@ -3133,7 +3133,7 @@ Whenever this Subroutine runs, discard up to three cards, then draw that many ca
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Elf Shaman</type>
+				<type>Creature — Elf Druid</type>
 				<maintype>Creature</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -3721,7 +3721,7 @@ Once during each of your turns, when you sacrifice a nontoken, nonland permanent
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Human Shaman</type>
+				<type>Legendary Creature — Human Warlock</type>
 				<maintype>Creature</maintype>
 				<manacost>1BG</manacost>
 				<cmc>3</cmc>
@@ -3998,7 +3998,7 @@ When this creature enters, for each permanent type, create a token that&apos;s a
 				<side>front</side>
 				<type>Creature — Human Artificer</type>
 				<maintype>Creature</maintype>
-				<manacost>UU</manacost>
+				<manacost>1U</manacost>
 				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
@@ -4236,7 +4236,7 @@ Whenever you attack, you may sacrifice an artifact or enchantment. If you do, re
 				<side>front</side>
 				<type>Enchantment Creature — Phoenix</type>
 				<maintype>Creature</maintype>
-				<manacost>2R</manacost>
+				<manacost>1RR</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -4366,7 +4366,7 @@ Corrupt — When this creature enters, if you control a permanent with greater m
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Hyena Bat Warrior</type>
+				<type>Creature — Wolf Bat Warrior</type>
 				<maintype>Creature</maintype>
 				<manacost>R</manacost>
 				<cmc>1</cmc>
@@ -4675,7 +4675,7 @@ Whenever Aurore enters or attacks, create an X/X colorless Construct artifact cr
 			<prop>
 				<layout>leveler</layout>
 				<side>front</side>
-				<type>Creature — Human Shaman</type>
+				<type>Creature — Human Druid</type>
 				<maintype>Creature</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>

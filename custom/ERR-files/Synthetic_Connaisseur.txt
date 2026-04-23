@@ -117,3 +117,13 @@ If you have an ability of the form "You may A. If you do, B" and B targets, you 
 &emsp;&emsp;You may pay {2}. If you do, you gain 2 life.
 
 &emsp;&emsp;You may pay {2}. When you do, tap target creature.
+
+Do not make me care about the difference between "destroyed" and "died". Compare the following:
+
+&emsp;&emsp;A: Whenever you destroy a creature, draw a card.
+
+&emsp;&emsp;B: Whenever a creature is destroyed, draw a card.
+
+&emsp;&emsp;C: Whenever a creature dies, draw a card.
+
+Doom Blade triggers all three. Lightning Bolt triggers B and C. Sheoldred's Edict or Mire's Grasp trigger only C. This is not intuitive.

@@ -56,7 +56,7 @@ Elo update
 
 The field was wide open going into the last standard GP of Cybaros' tenure and the last chance to earn a spot in worlds 2026. Those already qualified were bringing their best brews to get prepared; those not qualified were putting their best last chance. 
 
-The most popular deck of the tournament was dragon control. The most common build, put together by Kayiu, was a lean Jeskai control list playing the format's best answers. Three players - Kayiu himself, CovetedPeacock, and Epid - brought nearly the same list, and SilverParabellum had a similar Grixis build. These four players would end up being matched into each other, resulting in a lot of grindy control mirrors. Kayiu and Peacock boht made top cut, with Peacock winning a marathon four mirror matches en route to finals.
+The most popular deck of the tournament was dragon control. The most common build, put together by Kayiu, was a lean Jeskai control list playing the format's best answers. Three players - Kayiu himself, CovetedPeacock, and Epid - brought nearly the same list, and SilverParabellum had a similar Grixis build. These four players would end up being matched into each other, resulting in a lot of grindy control mirrors. Kayiu and Peacock both made top cut, with Peacock winning a marathon four mirror matches en route to finals.
 
 Midrange was varied and popular: BG, RW, RB, and Naya builds all put in their best, with two unusual brews cracking into top 8. Tremor was on another Kayiu-built deck, using Qaraz Monument to assemble a wide variety of artifact and enchantment engines. Itaiuukl was on a BR midrange deck that used Leyshard and Shigane Manor Burns to ramp into 4-mana haymakers.
 
@@ -67,3 +67,13 @@ If Jeskai control was the top deck by standings, the most feared deck in the fie
 The finals came down to CovetedPeacock vs. cftsoc3. cftsoc3 - a player with real life pro tour experience - navigated the matchup beautifully, including by using the prowess granted by Clash at Mistwrit Vale to grow their tokens out of Deafening Clarion range. They took home the win, and certainly all eyes will be on them going into worlds.
 
 Elo update
+1 (=): drchipmunk | 1692 (-15)
+2 (=): philippe saner | 1669 (=)
+3 (=): kayiu102 | 1636 (+9)
+4 (+1): covetedpeacock | 1635 (+28)
+5 (-1): provocative | 1602 (-10)
+6 (=): lihlosaur | 1601 (=)
+7 (+1): anarchist00 | 1595 (=)
+8 (-1): allwhowander | 1591 (-8)
+9 (=): purplemurasaki | 1580 (=)
+10 (=): 7nix | 1579 (=)

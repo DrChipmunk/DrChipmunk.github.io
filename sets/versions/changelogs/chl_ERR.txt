@@ -1,4 +1,51 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+
+
+Mirage Model
+type: Creature — Human Shaman => Creature — Human Druid
+
+Lonesome Afterimage
+type: Creature — Elf Shaman => Creature — Elf Druid
+
+Install Wizard
+
+Transgressive Trendsetter
+type: Creature — Human Bard => Creature — Human Bard Rebel
+
+Threadripper
+type: Creature — Jackal Warlock => Creature — Wolf Warlock
+
+Error Tide
+
+Masksmith
+type: Creature — Elf Shaman => Creature — Elf Druid
+
+Piroia, Perennial Sacrifice
+type: Legendary Creature — Human Shaman => Legendary Creature — Human Warlock
+
+Architect of the Intangible
+cost: {U}{U} => {1}{U}
+
+Bootstrap Daemon
+cost: {2}{R} => {1}{R}{R}
+
+Red-Hot Rider
+type: Creature — Hyena Bat Warrior => Creature — Wolf Bat Warrior
+
+Mystic of Returns
+type: Creature — Human Shaman => Creature — Human Druid
+
+Composer of Skylines
+special_text: Level up {1}{U} [i]({1}{U}: Put a level counter on this as a sorcery.)[/i] [2/4]
+[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time. [3/5]
+[level 3+] If an ability of a permanent you control triggers, it triggers two additional times. [4/6] => Level up {1}{U} [i]({1}{U}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] If an ability of a permanent you control triggers, it triggers an additional time.
+[level 3+] If an ability of a permanent you control triggers, it triggers two additional times.
+
+
+VERSION 8 CHANGELOG
 ====================
 
 

@@ -524,7 +524,7 @@
 			"name": "Mirage Model",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Shaman",
+			"type": "Creature — Human Druid",
 			"collector_number": "182",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/182_Mirage Model.png"
@@ -714,7 +714,7 @@
 			"name": "Lonesome Afterimage",
 			"rarity": "common",
 			"mana_cost": "{2}{B/G}",
-			"type": "Creature — Elf Shaman",
+			"type": "Creature — Elf Druid",
 			"collector_number": "224",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/224_Lonesome Afterimage.png"
@@ -1584,7 +1584,7 @@
 			"name": "Transgressive Trendsetter",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Bard",
+			"type": "Creature — Human Bard Rebel",
 			"collector_number": "154",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/154_Transgressive Trendsetter.png"
@@ -1624,7 +1624,7 @@
 			"name": "Threadripper",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Creature — Jackal Warlock",
+			"type": "Creature — Wolf Warlock",
 			"collector_number": "151",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/151_Threadripper.png"
@@ -1734,7 +1734,7 @@
 			"name": "Masksmith",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Elf Shaman",
+			"type": "Creature — Elf Druid",
 			"collector_number": "178",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/178_Masksmith.png"
@@ -2074,7 +2074,7 @@
 			"name": "Piroia, Perennial Sacrifice",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
-			"type": "Legendary Creature — Human Shaman",
+			"type": "Legendary Creature — Human Warlock",
 			"collector_number": "209",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/209_Piroia, Perennial Sacrifice.png"
@@ -2223,7 +2223,7 @@
 		{
 			"name": "Architect of the Intangible",
 			"rarity": "rare",
-			"mana_cost": "{U}{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Artificer",
 			"collector_number": "40",
 			"image_uris": {
@@ -2353,7 +2353,7 @@
 		{
 			"name": "Bootstrap Daemon",
 			"rarity": "rare",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment Creature — Phoenix",
 			"collector_number": "122",
 			"image_uris": {
@@ -2424,7 +2424,7 @@
 			"name": "Red-Hot Rider",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Creature — Hyena Bat Warrior",
+			"type": "Creature — Wolf Bat Warrior",
 			"collector_number": "148",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/148_Red-Hot Rider.png"
@@ -2604,7 +2604,7 @@
 			"name": "Mystic of Returns",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Human Shaman",
+			"type": "Creature — Human Druid",
 			"collector_number": "183",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/183_Mystic of Returns.png"
