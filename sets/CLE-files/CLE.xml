@@ -1,0 +1,4863 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>CLE</name>
+			<longname>Clearingsong</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-04-29</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Clearingsong CLE</name>
+			<text>Rules of Clearingsong
+- The world is full of beautiful variety
+- Evil exists but it can be beaten
+- Friendship takes all kinds
+- This is not a world of warriors
+- The elders are hidebound and silly but the children can work together
+- Everything has detail and texture
+- No mammals
+Principles of design
+- Elegance. Find the elegant cards that haven&apos;t been made
+- Friendliness. Don&apos;t play with fire.
+- Diversity. Each card encourages you to play other, different cards.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/1t_Clearingsong.png" num="1">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Loess Lightbearer</name>
+			<text>Aspire — When this creature becomes the target of a spell or ability you control, put a +1/+1 counter on it. Create a 1/1 red Elemental creature token. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/22_Loess Lightbearer.png" num="22">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monsoon Fortune-Teller</name>
+			<text>Aspire — When you scry or surveil, put a +1/+1 counter on this creature. (Each aspire ability triggers only once.)
+This creature can&apos;t attack unless it has aspired.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/62_Monsoon Fortune-Teller.png" num="62">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Odds-and-Ends-Monger</name>
+			<text>This spell costs {1} less to cast for each card type among cards in your graveyard.
+Menace</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/107_Odds-and-Ends-Monger.png" num="107">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Ranger Monger</type>
+				<maintype>Creature</maintype>
+				<manacost>6B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Haughty Thespian</name>
+			<text>When this creature enters, you may discard a card. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/135_Haughty Thespian.png" num="135">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Branch-Bender</name>
+			<text>Trample
+Aspire — When you spend five or more mana to cast a spell, put a +1/+1 counter on this creature and scry 2. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/169_Branch-Bender.png" num="169">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Poultice Courier</name>
+			<text>Flying
+Aspire — When you gain life, put a +1/+1 counter on this creature and scry 1. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/29_Poultice Courier.png" num="29">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eavesdrop</name>
+			<text>Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/49_Eavesdrop.png" num="49">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hammerhead Bully</name>
+			<text>Menace
+Aspire — When an opponent or a spell or permanent an opponent controls becomes the target of a spell or ability you control, put a +1/+1 counter on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/99_Hammerhead Bully.png" num="99">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shark Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fiery Celebration</name>
+			<text>Choose one — 
+• Fiery Celebration deals 2 damage to target creature.
+• Fiery Celebration deals damage to target creature equal to the number of different powers among creatures you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/131_Fiery Celebration.png" num="131">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Aurora Chronicler</name>
+			<text>Aspire — When you control a creature with power 4 or greater, put a +1/+1 counter on this creature. (Each aspire ability triggers only once.)
+{T}: Add {C}. If this creature has aspired, instead add one mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/167_Aurora Chronicler.png" num="167">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snowpearl Sorter</name>
+			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
+When this creature enters, if ti was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.
+Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png" num="37">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flashy Aerobatics</name>
+			<text>Draw two cards.
+If you control a creature with flying, create a 1/1 red Elemental creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/52_Flashy Aerobatics.png" num="52">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Comet Recollector</name>
+			<text>Aspire — When another creature you control dies, put a +1/+1 counter on this creature and return up to one target creature card from your graveyard to your hand. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/87_Comet Recollector.png" num="87">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chinook Wumprider</name>
+			<text>Haste
+Aspire — When you attack with three or more creatures, put a +1/+1 counter on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/126_Chinook Wumprider.png" num="126">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Verdant Tender</name>
+			<text>{3}: This creature gets +2/+2 until end of turn. If you spent three colors of mana to activate this ability, put a +1/+1 counter on this creature. Activate only once each turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/199_Verdant Tender.png" num="199">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Old-Law Sentinel</name>
+			<text>When this creature enters, target creature gets +2/+2 until end of turn. 
+If that creature has mana value 1, put two +1/+1 counters on it instead.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/26_Old-Law Sentinel.png" num="26">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rainshadow Shield</name>
+			<text>Counter target spell unless its controller pays {2}. If you control a Wizard, instead counter that spell unless its controller pays {4}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/70_Rainshadow Shield.png" num="70">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bounding Squangler</name>
+			<text>Deathtouch
+As long as there is a sorcery card in your graveyard, this creature has flying.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/84_Bounding Squangler.png" num="84">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gregarious Kindler</name>
+			<text>Menace
+Aspire — When you activate an ability that isn&apos;t a mana ability, put a +1/+1 counter on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/134_Gregarious Kindler.png" num="134">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rivertrance</name>
+			<text>Target creature gets +X/+X and gains trample until end of turn, where X is the number of card types among permanents you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/192_Rivertrance.png" num="192">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Petalwind Mage</name>
+			<text>Creatures you control with flying get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/27_Petalwind Mage.png" num="27">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snappy Goldenwing</name>
+			<text>Flying
+When this creature enters, return target instant card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/75_Snappy Goldenwing.png" num="75">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Souldust Shepherd</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Flying
+When this creature enters, if it was kicked, create two 1/1 red Elemental creature tokens.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/113_Souldust Shepherd.png" num="113">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Magma Forging</name>
+			<text>This spell costs {2} less to cast if you control an Elemental.
+Exile the top two cards of your library. You may play them until the end of your next turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/142_Magma Forging.png" num="142">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wondrous View</name>
+			<text>Enchant land
+Enchanted land has {T}: Add two mana of any one color.
+When this enchantment enters, if you control a Scout or Ranger, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/200_Wondrous View.png" num="200">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Joyful Disposition</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets +2/+2.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/17_Joyful Disposition.png" num="17">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Majestic Kirin</name>
+			<text>This creature can&apos;t be blocked if you&apos;ve drawn two or more cards this turn.
+{2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/59_Majestic Kirin.png" num="59">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Kirin</type>
+				<maintype>Creature</maintype>
+				<manacost>5U</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>High Observator&apos;s Judgment</name>
+			<text>This spell costs {1} less to cast if you control a creature with menace.
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/102_High Observator&apos;s Judgment.png" num="102">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Splashy Syrupcaster</name>
+			<text>Kicked spells you cast cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/154_Splashy Syrupcaster.png" num="154">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ram Through</name>
+			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. If the creature you control has trample, excess damage is dealt to that creature&apos;s controller instead.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/188_Ram Through.png" num="188">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lost to Myth</name>
+			<text>Flash
+When this enchantment enters, exile target artifact or creature an opponent controls until this enchantment leaves the battlefield.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/23_Lost to Myth.png" num="23">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Befuddled Apprentice</name>
+			<text>Aspire — When you cast your second spell in a turn, put a +1/+1 counter on this creature and draw a card. (Each aspire ability triggers only once.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/43_Befuddled Apprentice.png" num="43">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wisdom of Experience</name>
+			<text>You draw two cards and you lose 2 life. If you control a creature that has aspired, instead you draw two cards and you gain 2 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/120_Wisdom of Experience.png" num="120">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hermit of the Quairies</name>
+			<text>Flying
+Discard a card: Draw a card. Activate only as a sorcery and only once each turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/136_Hermit of the Quairies.png" num="136">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ribbon Range Guide</name>
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
+When this creature enters, create a 2/2 green Ranger creature token. If this creature was kicked, put three +1/+1 counters on that token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/191_Ribbon Range Guide.png" num="191">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Troll</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shining Rebuke</name>
+			<text>Shining Rebuke deals damage to target creature equal to the number of creatures you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/35_Shining Rebuke.png" num="35">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hibernate</name>
+			<text>Enchant creature
+Enchanted creature loses all abilities and has base power and toughness 1/1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/54_Hibernate.png" num="54">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Diviner&apos;s Toad</name>
+			<text>When this creature enters, you lose 1 life and draw a card.
+{3}{B}: Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/92_Diviner&apos;s Toad.png" num="92">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fresh-Brewed Firenectar</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Fresh-Brewed Firenectar deals 3 damage to any target. If it was kicked, create a 1/1 red Elemental creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/132_Fresh-Brewed Firenectar.png" num="132">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pebblemage</name>
+			<text>Vigilance, trample
+{4}{G}{G}: Put two +1/+1 counters on this creature. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/185_Pebblemage.png" num="185">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mournful Craftsbug</name>
+			<text>Whenever this creature attacks, if you control a token, tap target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/25_Mournful Craftsbug.png" num="25">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sink</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Return target nonland permanent to its owner&apos;s hand. If this spell was kicked, instead its owner puts it on the top or bottom of their library.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/73_Sink.png" num="73">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Knight of the Humblebee</name>
+			<text>Flying, lifelink</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/105_Knight of the Humblebee.png" num="105">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Knight</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kindletouch</name>
+			<text>Enchant creature you control
+When this Aura enters, enchanted creature deals 4 damage to up to one target creature.
+Enchanted creature gets +1/+1 and has menace.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/139_Kindletouch.png" num="139">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Helpful Topiary</name>
+			<text>Vigilance
+When this creature enters, you gain 3 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/179_Helpful Topiary.png" num="179">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reliquary Cleanser</name>
+			<text>Vigilance
+{1}, Sacrifice this creature: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/32_Reliquary Cleanser.png" num="32">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Possessive Archmage</name>
+			<text>Flying
+When this creature enters, scry 2.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/67_Possessive Archmage.png" num="67">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Might-Tracker&apos;s Bow</name>
+			<text>Flash
+When this Equipment enters, attach it to target creature you control.
+Equipped creature gets +2/+1.
+Equip {3}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/106_Might-Tracker&apos;s Bow.png" num="106">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stompin&apos; Boots</name>
+			<text>Equipped creature gets +2/+0 and has haste.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/157_Stompin&apos; Boots.png" num="157">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lettuce Leaper</name>
+			<text>Reach</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/182_Lettuce Leaper.png" num="182">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defend the Outlands</name>
+			<text>Choose one — 
+• Destroy target creature with power 4 or greater.
+• Create a 2/2 green Ranger creature token. You gain 2 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/8_Defend the Outlands.png" num="8">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pinion Gilder</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Flying
+When this creature enters, if it was kicked, another target creature you control gets +1/+1 and gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/65_Pinion Gilder.png" num="65">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venomous Voice</name>
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
+Destroy target creature with mana value 2 or less. If this spell was kicked, instead destroy target creature with mana value 4 or less.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/116_Venomous Voice.png" num="116">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shroomglow Collector</name>
+			<text>Trample
+When this creature enters, create a Treasure token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/152_Shroomglow Collector.png" num="152">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adventure Awaits</name>
+			<text>Mill two cards. Return a permanent card milled this way to your hand.
+Create a tapped Treasure token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/166_Adventure Awaits.png" num="166">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lumizoa</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Flying, vigilance
+When this creature enters, if it was kicked, you draw a card and you gain 1 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/24_Lumizoa.png" num="24">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Jellyfish</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Playful Diver</name>
+			<text>Vigilance
+{3}{U}: Put a +1/+1 counter on this creature. It can&apos;t be blocked this turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/66_Playful Diver.png" num="66">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Merfolk Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hero&apos;s Downfall</name>
+			<text>Destroy target creature or planeswalker.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/101_Hero&apos;s Downfall.png" num="101">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Slippery Critter</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Trample, haste
+When this creature enters, if it was kicked, it gets +2/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/153_Slippery Critter.png" num="153">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bushwhack</name>
+			<text>Choose one —
+• Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+• Target creature you control fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/170_Bushwhack.png" num="170">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Skylands Vinecutter</name>
+			<text>When this Equipment enters, create two 2/2 green Ranger creature tokens, then attach this Equipment to one of them.
+Equipped creature gets +2/+2 and has vigilance.
+Equip {4}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png" num="36">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Introduction to Blobology</name>
+			<text>When this artifact enters, create a 1/1 red Elemental creature token.
+{1}{U}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/58_Introduction to Blobology.png" num="58">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Book</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heavy Burden</name>
+			<text>Enchant creature
+Enchanted creature gets -3/-3.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/100_Heavy Burden.png" num="100">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ornery Wagonbeard</name>
+			<text>This spell costs {2} less to cast if you control an artifact.
+When this creature enters, it deals 2 damage to any target.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/146_Ornery Wagonbeard.png" num="146">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Defender of the Patch</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+When this creature enters, if it was kicked, destroy up to one target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/173_Defender of the Patch.png" num="173">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Old Jade Guardian</name>
+			<text>When this creature enters, if you spent three mana of the same color to cast it, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/243_Old Jade Guardian.png" num="243">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Friendly Fisher</name>
+			<text>When this creature enters, you may discard a card. If you do, search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/240_Friendly Fisher.png" num="240">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sparkling Staff</name>
+			<text>When this Equipment enters, it deals 3 damage to up to one target creature.
+Equipped creature gets +1/+0.
+Equip {2}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/244_Sparkling Staff.png" num="244">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Everglass</name>
+			<text>{T}: Add one mana of any color.
+{T}: You gain 1 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/239_Everglass.png" num="239">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chromatic Star</name>
+			<text>{1}, {T}, Sacrifice this artifact: Add one mana of any color.
+When this artifact is put into a graveyard from the battlefield, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/237_Chromatic Star.png" num="237">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Promising Sunscape</name>
+			<text>When this land enters, sacrifice it. if you do, search your library for a basic land card, put it onto the battlefield tapped, the shuffle. Scry 1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/265_Promising Sunscape.png" num="265">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Stoneword Reciter</name>
+			<text>When this creature enters, tap up to one target creature and put a stun counter on it.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/227_Stoneword Reciter.png" num="227">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2W/U</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pollywog Gossbearer</name>
+			<text>Flash
+When this creature enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/225_Pollywog Gossbearer.png" num="225">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2U/B</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Nova Reenactor</name>
+			<text>When this creature enters, it deals 2 damage to target opponent.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/224_Nova Reenactor.png" num="224">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1BR/}</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leaf-Clad Memorial</name>
+			<text>{T}: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/223_Leaf-Clad Memorial.png" num="223">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1RG/}</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Well-Stocked Singer</name>
+			<text>When this creature enters, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/229_Well-Stocked Singer.png" num="229">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>{/1GW/}</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bitter Parting</name>
+			<text>Exile target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/221_Bitter Parting.png" num="221">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3W/B</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Reawakening</name>
+			<text>Return target creature card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/226_Reawakening.png" num="226">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B/G</manacost>
+				<cmc>1</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vanish</name>
+			<text>Choose one — 
+• Target creature gains hexproof until end of turn.
+• Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/228_Vanish.png" num="228">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G/U</manacost>
+				<cmc>1</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Comprehend</name>
+			<text>You may discard a card. If you do, draw two cards.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/222_Comprehend.png" num="222">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1UR/}</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Yestermantic Assistance</name>
+			<text>Target creature gets +3/+0 and gains first strike until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/230_Yestermantic Assistance.png" num="230">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>{/1RW/}</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Breathtaking Vista</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {W} or {U}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/247_Breathtaking Vista.png" num="247">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Placid Icescape</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {U} or {B}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/263_Placid Icescape.png" num="263">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Inspiring Cairn</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {B} or {R}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/257_Inspiring Cairn.png" num="257">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gentle Clearing</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {R} or {G}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/253_Gentle Clearing.png" num="253">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Picturesque Field</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {G} or {W}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/262_Picturesque Field.png" num="262">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Promising Overlook</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {W} or {B}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/264_Promising Overlook.png" num="264">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Resplendent Moor</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {B} or {G}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/268_Resplendent Moor.png" num="268">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Refreshing Spring</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {G} or {U}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/267_Refreshing Spring.png" num="267">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fragrant Basin</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {U} or {R}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/251_Fragrant Basin.png" num="251">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Impressive Peak</name>
+			<text>You may have this land enter tapped. When you don&apos;t, target opponent may scry 1 at the beginning of their next upkeep.
+{T}: Add {R} or {W}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/256_Impressive Peak.png" num="256">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Lose Hold</name>
+			<text>Counter target spell unless its controller pays {3}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/212_Lose Hold.png" num="212">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Envision</name>
+			<text>Draw two cards. Discard a card unless you pay 2 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/208_Envision.png" num="208">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Incinerating Breath</name>
+			<text>Choose one or both — 
+• Exile target creature.
+• Exile target player&apos;s graveyard.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/211_Incinerating Breath.png" num="211">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scout the Outlands</name>
+			<text>Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/216_Scout the Outlands.png" num="216">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>RG</manacost>
+				<cmc>2</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Harvest of Clouds</name>
+			<text>Put a +1/+1 counter on each creature you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/210_Harvest of Clouds.png" num="210">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mightkeeper Banner</name>
+			<text>Flying
+When this creature enters, exile target nonland permanent an opponent controls until this creature leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/213_Mightkeeper Banner.png" num="213">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Snappytrap</name>
+			<text>This creature&apos;s power and toughness are each equal to the number of cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/217_Snappytrap.png" num="217">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant</type>
+				<maintype>Creature</maintype>
+				<manacost>2BG</manacost>
+				<cmc>4</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>*/*</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Orearchaeologist</name>
+			<text>When this creature enters, return target card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/215_Orearchaeologist.png" num="215">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1GU</manacost>
+				<cmc>3</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Whiptongue Toad</name>
+			<text>Haste
+When this creature enters, return up to one target creature to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/220_Whiptongue Toad.png" num="220">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Adolescent Shrine-Scion</name>
+			<text>When this creature enters, destroy up to one target artifact or enchantment.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/206_Adolescent Shrine-Scion.png" num="206">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frigid Landmark</name>
+			<text>({T}: Add {W} or {U}.)
+This land enters tapped.
+{1}{W}{U}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/252_Frigid Landmark.png" num="252">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Gloomy Landmark</name>
+			<text>({T}: Add {U} or {B}.)
+This land enters tapped.
+{1}{U}{B}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/254_Gloomy Landmark.png" num="254">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Luminous Landmark</name>
+			<text>({T}: Add {B} or {R}.)
+This land enters tapped.
+{1}{B}{R}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/259_Luminous Landmark.png" num="259">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Secluded Landmark</name>
+			<text>({T}: Add {R} or {G}.)
+This land enters tapped.
+{1}{R}{G}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/270_Secluded Landmark.png" num="270">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Quaint Landmark</name>
+			<text>({T}: Add {G} or {W}.)
+This land enters tapped.
+{1}{G}{W}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/266_Quaint Landmark.png" num="266">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Solemn Landmark</name>
+			<text>({T}: Add {W} or {B}.)
+This land enters tapped.
+{1}{W}{B}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/271_Solemn Landmark.png" num="271">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Plains Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Restorative Landmark</name>
+			<text>({T}: Add {B} or {G}.)
+This land enters tapped.
+{1}{B}{G}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/269_Restorative Landmark.png" num="269">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Swamp Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Overgrown Landmark</name>
+			<text>({T}: Add {G} or {U}.)
+This land enters tapped.
+{1}{G}{U}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/261_Overgrown Landmark.png" num="261">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Forest Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Bustling Landmark</name>
+			<text>({T}: Add {U} or {R}.)
+This land enters tapped.
+{1}{U}{R}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/248_Bustling Landmark.png" num="248">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Island Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Imposing Landmark</name>
+			<text>({T}: Add {R} or {W}.)
+This land enters tapped.
+{1}{R}{W}, {T}, Sacrifice this land: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/255_Imposing Landmark.png" num="255">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land — Mountain Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Elemental CLE</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4t_Elemental.png" num="4">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ranger CLE</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5t_Ranger.png" num="5">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure CLE</name>
+			<text>{T}, Sacrifice this token: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/2t_Treasure.png" num="2">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Kindness CLE</name>
+			<text>You may scry 1 at the beginning of your next upkeep.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6t_Kindness.png" num="6">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Egg of the Elders</name>
+			<text>When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/238_Egg of the Elders.png" num="238">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Guards of Old Ovonia</name>
+			<text>This spell costs {1} less to cast for each name among lands you control.
+When this creature enters, destroy up to one target nonland permanent.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/241_Guards of Old Ovonia.png" num="241">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>10</manacost>
+				<cmc>10</cmc>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Memorial Stone</name>
+			<text>When this artifact enters, exile up to one target card from a graveyard.
+Whenever you cast a spell, exile up to one target card from a graveyard.
+{1}, {T}, Sacrifice this artifact: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/242_Memorial Stone.png" num="242">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bronze Toad</name>
+			<text>When this creature enters, you gain 3 life.
+When this creature dies, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/236_Bronze Toad.png" num="236">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunbeam Blade</name>
+			<text>Equipped creature gets +5/+5 and has trample.
+Equip {5}</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/245_Sunbeam Blade.png" num="245">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Shimmering Bounty</name>
+			<text>Create three 1/1 red Elemental creature tokens.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/34_Shimmering Bounty.png" num="34">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Calamitous Miscast</name>
+			<text>Choose one or both — 
+• Counter target spell.
+• Create a 1/1 red Elemental creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/45_Calamitous Miscast.png" num="45">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fester</name>
+			<text>Target creature gets -4/-4 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/95_Fester.png" num="95">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Racing the Wind</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/149_Racing the Wind.png" num="149">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fiddle Fern Pie</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/174_Fiddle Fern Pie.png" num="174">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bowl-Shell Beetle</name>
+			<text>{1}, Sacrifice this creature: Target creature gains indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4_Bowl-Shell Beetle.png" num="4">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Patient Bumblerog</name>
+			<text>Aspire — When you cast a sorcery spell, put two +1/+1 counters on this creature, (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/184_Patient Bumblerog.png" num="184">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cross Porpoises</name>
+			<text>Flying
+Whenever this creature deals combat damage to a player, that player mills cards equal to twice the number of Islands you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/48_Cross Porpoises.png" num="48">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Canny Negotiator</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Menace
+When this creature enters, if it was kicked, gain control of target creature until end of turn. Untap it. It gains haste until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/125_Canny Negotiator.png" num="125">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>White-Web Widow</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+When this creature enters, if it was kicked, each opponent sacrifices a creature of their choice.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/119_White-Web Widow.png" num="119">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spider</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keeper of the Shellseal</name>
+			<text>Whenever you attack with three or more creatures, creatures you control gain indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/18_Keeper of the Shellseal.png" num="18">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heritage Reclamation</name>
+			<text>Choose one — 
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile up to one target card from a graveyard. Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/180_Heritage Reclamation.png" num="180">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Intangible Sage</name>
+			<text>Hexproof
+When this creature enters, mill five cards, then return a noncreature, nonland card milled this way to your hand.
+{2}: Put target card from your graveyard on the bottom of your library.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/57_Intangible Sage.png" num="57">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kirin</type>
+				<maintype>Creature</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Proud Judgewyrm</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Flying
+When this creature enters, if it was kicked, it deals 2 damage to each opponent and each creature your opponents control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/147_Proud Judgewyrm.png" num="147">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bubbletoad</name>
+			<text>Whenever you cast a spell during an opponent&apos;s turn, create a 1/1 red Elemental creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/85_Bubbletoad.png" num="85">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Curious Shinosaur</name>
+			<text>Aspire — When this creature attacks, put a +1/+1 counter on it. (Each aspire ability triggers only once.)
+When this creature dies, if it aspired, create a tapped 2/2 green Ranger creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/7_Curious Shinosaur.png" num="7">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sunset Seeker</name>
+			<text>Vigilance
+Aspire — When you control two or more enchantments, put a +1/+1 counter on this creature and draw a card. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/196_Sunset Seeker.png" num="196">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monsoon Proctor</name>
+			<text>At the beginning of your second main phase, exile up to one target tapped creature you control, then return it to the battlefield under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/63_Monsoon Proctor.png" num="63">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Molten Dancer</name>
+			<text>Flash
+When this creature enters, target creature gets +2/+0 and gains trample until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/144_Molten Dancer.png" num="144">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bogberry Bloom</name>
+			<text>Return target creature card with mana value less than or equal to the number of Swamps you control from the graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/82_Bogberry Bloom.png" num="82">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Stoic Outlander</name>
+			<text>Vigilance
+{6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 2 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/38_Stoic Outlander.png" num="38">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Birchwood Blazewarden</name>
+			<text>At the beginning of combat on your turn, choose one — 
+• Target creature gets +1/+1 and gains trample until end of turn.
+• Put a +1/+1 counter on target creature with trample.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/168_Birchwood Blazewarden.png" num="168">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stormwater Serpent</name>
+			<text>This creature enters tapped with four stun counters on it.
+Whenever an opponent or a permanent or spell an opponent controls becomes the target of a spell or ability you control, untap this creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/77_Stormwater Serpent.png" num="77">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Redscale Challenger</name>
+			<text>Haste
+Aspire — When this creature is dealt damage, put two +1/+1 counters on it. (Each aspire ability triggers only once. It must survive the damage to receive the counters.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/150_Redscale Challenger.png" num="150">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sorrowmancer</name>
+			<text>When this creature enters, target opponent loses X life and you gain X life, where X is the number of card types among cards in your graveyard.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/112_Sorrowmancer.png" num="112">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Archaeorator</name>
+			<text>As long as it&apos;s your turn and you control an enchantment, this creature has first strike and lifelink.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/2_Archaeorator.png" num="2">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dinosaur Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Foreign Chromawalker</name>
+			<text>This spell costs {1} less to cast for each color among permanents you control.
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/176_Foreign Chromawalker.png" num="176">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Meticulous Quartermaster</name>
+			<text>Aspire — When you control three or more artifacts, put a +1/+1 counter on this creature. Draw two cards, then discard two cards. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/60_Meticulous Quartermaster.png" num="60">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unleader&apos;s Tribune</name>
+			<text>Menace
+{7}: Create a 4/4 blue Dragon creature token with flying. It can&apos;t block this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/160_Unleader&apos;s Tribune.png" num="160">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bumbling Brewer</name>
+			<text>Menace
+Whenever you gain life, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/86_Bumbling Brewer.png" num="86">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Shapeshifter Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Druid of Watchful Stones</name>
+			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
+Flying
+When this creature enters, if it was kicked, return target creature card with mana value 1 from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/10_Druid of Watchful Stones.png" num="10">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reef Walker</name>
+			<text>Elementals you control get +1/+1.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/190_Reef Walker.png" num="190">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Reorganize</name>
+			<text>Return target creature to its owner&apos;s hand. If you control a Wizard, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/71_Reorganize.png" num="71">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Artisanal Puzzlebox</name>
+			<text>{T}, Discard a card: Draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/123_Artisanal Puzzlebox.png" num="123">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stone-Masked Mage</name>
+			<text>Flying
+Aspire — When you cast a kicked spell, put two +1/+1 counters on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/114_Stone-Masked Mage.png" num="114">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Auroral Migrant</name>
+			<text>This spell costs {1} less to cast for each token you control.
+Flying, vigilance.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/3_Auroral Migrant.png" num="3">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swiftmeleon</name>
+			<text>Flash
+Whenever you scry or surveil, you may pay {1}. If you do, create a 2/2 green Ranger creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/197_Swiftmeleon.png" num="197">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Puzzlewyrm&apos;s Familiar</name>
+			<text>Flying
+Aspire — When you draw your third card in a turn turn, put two +1/+1 counters on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/69_Puzzlewyrm&apos;s Familiar.png" num="69">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jaw Order Outfitter</name>
+			<text>Aspire — When a creature you control with menace deals combat damage to a player, put a +1/+1 counter on this creature and create a Treasure token. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/138_Jaw Order Outfitter.png" num="138">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Determined Snail</name>
+			<text>This creature can&apos;t block.
+At the beginning of your end step, if a non-Snail creature died this turn and this card is in your graveyard, you may pay {B}. If you do, return this card to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/91_Determined Snail.png" num="91">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snail</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dinoplomacy</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack.
+When a creature you control aspires, exile enchanted creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/9_Dinoplomacy.png" num="9">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Follywog&apos;s Fate</name>
+			<text>Target creature you control gets +1/+1 until end of turn for each Forest you control. It fights up to one target creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/175_Follywog&apos;s Fate.png" num="175">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Potted Beanstalk</name>
+			<text>{T}: Draw a card. Activate only if this artifact entered this turn or you spent five or more mana to cast a spell this turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/68_Potted Beanstalk.png" num="68">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ferocious Bite</name>
+			<text>This spell costs {2} less to cast if you control a creature with power 4 or greater.
+Ferocious Bite deals 4 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/130_Ferocious Bite.png" num="130">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Sorrow of Waxwing</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/111_The Sorrow of Waxwing.png" num="111">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riverwatch Glider</name>
+			<text>When this Equipment enters, scry 2.
+Equipped creature gets +1/+1 and has flying.
+Equip {3}
+Equip Scout or Ranger {1}</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/33_Riverwatch Glider.png" num="33">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Moment&apos;s Respite</name>
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+You gain 5 life. If this spell was kicked, you gain 10 life instead.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/183_Moment&apos;s Respite.png" num="183">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>How the Dragon Got its Wings</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/55_How the Dragon Got its Wings.png" num="55">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Quickpocket</name>
+			<text>At the beginning of your first main phase, add {R}. You can&apos;t spend this mana to cast spells from your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/148_Quickpocket.png" num="148">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kobold Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cosmos Claw</name>
+			<text>Choose one — 
+• All creatures get -2/-2 until end of turn.
+• Return up to two target creature cards from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/88_Cosmos Claw.png" num="88">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ponderous Ruinguard</name>
+			<text>Vigilance
+Aspire — When you control three creatures that share a creature type, put two +1/+1 counters on this creature. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/28_Ponderous Ruinguard.png" num="28">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rumbling Grovewatch</name>
+			<text>Whenever a land you control enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/193_Rumbling Grovewatch.png" num="193">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sincere Impressionist</name>
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+You may have this creature enter as a copy of another creature you control. If it was kicked, you may have it enter as a copy of a creature an opponent controls.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/72_Sincere Impressionist.png" num="72">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Amberflow</name>
+			<text>Trample
+When this creature enters, you may discard your hand, then draw cards equal to the number of different powers among creatures you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/122_Ancient Amberflow.png" num="122">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Time-Bleached Dragon</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Flying
+When this creature enters, if it was kicked, you draw two cards and lose 2 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/115_Time-Bleached Dragon.png" num="115">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Founding of Buttermount</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/11_The Founding of Buttermount.png" num="11">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Thistle Elemental</name>
+			<text>Reach
+This creature enters with X +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/198_Thistle Elemental.png" num="198">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spell Pierce</name>
+			<text>Counter target noncreature spell unless its controller pays {2}.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/76_Spell Pierce.png" num="76">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Discovery in Desperation</name>
+			<text>Exile the top three cards of your library face-down. For as long as they remain exiled, you may look at them, and if you have no cards in hand you may play them.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/127_Discovery in Desperation.png" num="127">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Well-Stocked Reagents</name>
+			<text>{T}: Each opponent loses 1 life and you gain 1 life. Mill a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/117_Well-Stocked Reagents.png" num="117">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Antiquarian</name>
+			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
+Lifelink
+When this creature enters, if it was kicked, search your library for an Aura, Saga, or Equipment card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/1_Antiquarian.png" num="1">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Catch-and-Releaser</name>
+			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
+When this creature enters, return a creature you control to its owner&apos;s hand. If this creature was kicked, create a token that&apos;s a copy of that creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/172_Catch-and-Releaser.png" num="172">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Excellent Idea</name>
+			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
+Scry 2, then draw two cards. If this spell was kicked, instead scry 4, then draw four cards.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/51_Excellent Idea.png" num="51">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Resonant Glimmerfeli</name>
+			<text>During your turn, this creature has first strike.
+Whenever this creature becomes the target of a spell or ability you control, exile the top card of your library. You may play it this turn. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/151_Resonant Glimmerfeli.png" num="151">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Cat</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pestermeleon</name>
+			<text>Flying
+Aspire — When this creature deals combat damage to an opponent, put a +1/+1 counter on it. Each opponent discards a card. (Each aspire ability triggers only once.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/108_Pestermeleon.png" num="108">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lead Off the Path</name>
+			<text>Exile target creature. Its controller creates a 1/1 red Elemental creature tokens.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/19_Lead Off the Path.png" num="19">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Primarical Goggles</name>
+			<text>This artifact enters tapped.
+{T}: Add one mana of any color.
+{6}, {T}: Return target permanent card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/187_Primarical Goggles.png" num="187">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fresh Start</name>
+			<text>Flash
+Enchant creature
+Enchanted creature gets -5/-0 and loses all abilities.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/53_Fresh Start.png" num="53">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Lava Arc</name>
+			<text>This spell costs {1} less to cast for each Mountain you control.
+Lava Arc deals 5 damage to target creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/141_Lava Arc.png" num="141">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5R</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Decry</name>
+			<text>Destroy target creature with power less than or equal to the number of card types among permanents you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/90_Decry.png" num="90">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Well-Rested</name>
+			<text>Enchant creature you control
+When this Aura enters, scry 1, then draw a card.
+Enchanted creature gets +1/+0.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/40_Well-Rested.png" num="40">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Grove of Gathering</name>
+			<text>You may look at the top card of your library any time.
+You may cast creature spells from the top of your library.
+{2}{G}: Scry 1.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/178_Grove of Gathering.png" num="178">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wide-Hooded Wizard</name>
+			<text>Vigilance
+Creatures your opponents control get -1/-0.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/79_Wide-Hooded Wizard.png" num="79">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stolid Secondmage</name>
+			<text>Whenever you cast your second spell each turn, create a 1/1 red Elemental creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/156_Stolid Secondmage.png" num="156">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dark-Tales Connaisseur</name>
+			<text>Menace
+Whenever this creature attacks, if a player has 10 or less life, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/89_Dark-Tales Connaisseur.png" num="89">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vernon the Inventive</name>
+			<text>Flying
+Whenever you cast your second spell each turn, copy it. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/219_Vernon the Inventive.png" num="219">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sinister Stew</name>
+			<text>You may cast creature cards from your graveyard.
+If a creature card would be put into your graveyard from anywhere, exile it instead.
+{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/110_Sinister Stew.png" num="110">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Honey-Flinger</name>
+			<text>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
+Haste
+When this creature enters, if it was kicked, it deals 2 damage to target creature an opponent controls. That creature can&apos;t block this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/137_Honey-Flinger.png" num="137">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(lifegain payoff)</name>
+			<text>Lifelink
+At the beginning of your end step, return up to one target creature card with mana value less than or equal to the amount of life you gained this turn from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/204_(lifegain payoff).png" num="204">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Moon Snail</name>
+			<text>Flying
+Whenever The Moon Snail deals combat damage to a player, exile up to one target nonland permanent you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/214_The Moon Snail.png" num="214">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Snail</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Dragon CLE</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/3t_Dragon.png" num="3">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Legendary Mica</name>
+			<text>When Mica enters, look at the top five cards of your library. You may reveal a legendary or Plains card from among them and put it into your hand. Put the rest on the bottom in a random order.
+Aspire — When you control three or more legendary permanents, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/21_The Legendary Mica.png" num="21">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Whale Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crackling Hearth</name>
+			<text>When this artifact enters, create a 1/1 red Elemental creature token.
+Creatures you control get +1/+1.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6_Crackling Hearth.png" num="6">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leader of the Lights</name>
+			<text>Vigilance
+Whenever you attack, create a 1/1 red Elemental creature token that&apos;s tapped and attacking.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/20_Leader of the Lights.png" num="20">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Venturers&apos; Return</name>
+			<text>Choose one or more — 
+• Return target creature card with mana value 1 from your graveyard to the battlefield.
+• Return target creature card with mana value 2 from your graveyard to the battlefield.
+• Return target creature card with mana value 3 from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/39_Venturers&apos; Return.png" num="39">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ice-Sculptor Dragon</name>
+			<text>Flash
+Flying, lifelink</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/16_Ice-Sculptor Dragon.png" num="16">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gno Grows Up</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/14_Gno Grows Up.png" num="14">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Get Some Time Alone</name>
+			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
+Each player chooses a creature they control. If this spell was kicked, instead for each player, you choose a creature they control. Destroy all creatures not chosen this way.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/13_Get Some Time Alone.png" num="13">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cottonscale Drifter</name>
+			<text>Flash
+Flying
+Sacrifice this creature: Exile target player&apos;s graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5_Cottonscale Drifter.png" num="5">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Queen Bizabeth</name>
+			<text>Flying
+As Queen Bizabeth enters, choose a nonland card name.
+Spells with the chosen name can&apos;t be cast.
+Creatures with the chosen name can&apos;t attack or block.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/30_Queen Bizabeth.png" num="30">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gabl, the Dancing Mandible</name>
+			<text>Double strike
+Whenever you attack with a number of creatures greater than Gabl&apos;s power, put a +1/+1 counter on Gabl.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/209_Gabl, the Dancing Mandible.png" num="209">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Insect Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(card types)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/201_(card types).png" num="201">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>BG</manacost>
+				<cmc>2</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(instants matter)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/203_(instants matter).png" num="203">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>UB</manacost>
+				<cmc>2</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bigmancer Bilfin</name>
+			<text>Flying
+Whenever you cast a spell, if the amount of mana you spent to cast it is greater than its mana value, Bilfin gets +X/+0 and gains lifelink until end of turn, where X is the difference.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/207_Bigmancer Bilfin.png" num="207">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Insect Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(ferocious payoff)</name>
+			<text>Whenever (ferocious payoff) or another creature you control with power 4 or greater dies, exile the top card of your library. You may play that card until your next end step.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/202_(ferocious payoff).png" num="202">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Spiralpainter Shellsworth</name>
+			<text>When Shellsworth enters, if you cast it from your hand, exile the top seven cards of your library. For each number from 1 to 7, you may cast a card with that mana value from among them without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/218_Spiralpainter Shellsworth.png" num="218">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Crab Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>6GU</manacost>
+				<cmc>8</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(scout - ranger lord)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/205_(scout - ranger lord).png" num="205">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>GW</manacost>
+				<cmc>2</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Havenback Tortoise</name>
+			<text>Vigilance
+Whenever this creature enters or attacks, search your library for up to two creature cards with different names with mana value 1, put them onto the battlefield, then shuffle.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/15_Havenback Tortoise.png" num="15">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fountain of Stars</name>
+			<text>{1}, {T}: Draw a card. Activate only if a token entered under your control this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/12_Fountain of Stars.png" num="12">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chinook Encampment</name>
+			<text>This land enters tapped unless you control a Mountain.
+{T}: Add {R}.
+{5}{R}: This land becomes a 5/5 red Ranger creature with menace until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/249_Chinook Encampment.png" num="249">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crest, Ever-Talkative</name>
+			<text>Flying
+When Crest enters, scry 2.
+Aspire — When you cast your third spell in a turn, put two +1/+1 counters on Crest. (Each aspire ability triggers only once.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/47_Crest, Ever-Talkative.png" num="47">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Bird Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mind Spring</name>
+			<text>Draw X cards.
+(scry / surveil?)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/61_Mind Spring.png" num="61">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Orb of Old Shadows</name>
+			<text>Whenever a Wizard you control enters, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/64_Orb of Old Shadows.png" num="64">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Arch-Chancellor Zybsalim</name>
+			<text>Flying
+Whenever you attack, draw a card.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/42_Arch-Chancellor Zybsalim.png" num="42">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trisect Essence</name>
+			<text>Choose target creature you control. Create three tokens that are copies of it.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/78_Trisect Essence.png" num="78">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3UUU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Wondrous Cadet</name>
+			<text>Flying
+Whenever this creature attacks, create a 1/1 red Elemental creature token for each card you&apos;ve drawn this turn.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/80_Wondrous Cadet.png" num="80">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Breaching Sprayback</name>
+			<text>Flash
+This spell can&apos;t be countered.
+Discard a card: Exile this creature. Return it to the battlefield under your control at the beginning of the next upkeep.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/44_Breaching Sprayback.png" num="44">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Whale</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>I Can Count to Three</name>
+			<text>(Saga)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/56_I Can Count to Three.png" num="56">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Coming Storm</name>
+			<text>Kicker {2}{U} (You may pay an additional {2}{U} as you cast this spell.)
+Return target creature to its owner&apos;s hand. If this spell was kicked, instead return all creatures to their owners&apos; hands.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/46_Coming Storm.png" num="46">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eelectrician</name>
+			<text>Flash
+When this creature enters, tap up to one target creature. It doesn&apos;t untap during its controller&apos;s untap step for as long as you control this creature.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/50_Eelectrician.png" num="50">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Skylobite</name>
+			<text>Flash
+Flying
+Whenever this creature deals combat damage to a player, draw a card, then discard a card.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/74_Skylobite.png" num="74">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Trilobite</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Monsooon Millery</name>
+			<text>This land enters tapped unless you control an Island.
+{T}: Add {U}.
+{2}{U}: This land becomes a 2/2 blue Turtle creature with flying until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/260_Monsooon Millery.png" num="260">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>(aurora creatureland)</name>
+			<text>This land enters tapped unless you control a Forest.
+{T}: Add {G}.
+{6}{G}: This land becomes a 6/6 green &lt;type&gt; creature with trample until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/246_(aurora creatureland).png" num="246">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Loess Town</name>
+			<text>This land enters tapped unless you control a Plains.
+{T}: Add {W}.
+{4}{W}: This land becomes a 4/4 white Knight creature with first strike until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/258_Loess Town.png" num="258">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Comet Starcourse</name>
+			<text>This land enters tapped unless you control a Swamp.
+{T}: Add {B}.
+{3}{B}: This land becomes a 3/3 black Elemental creature with deathtouch until end of turn. It&apos;s still a land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/250_Comet Starcourse.png" num="250">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Enthralling Gaze</name>
+			<text>Look at the top three cards of target opponent&apos;s library. Exile one of them face down and put the rest on the bottom of their library in a random order. You may play that card for as long as it remains exiled, and may spend mana of any color to cast it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/93_Enthralling Gaze.png" num="93">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>High Priestess Varga</name>
+			<text>Flying
+At the beginning of your end step, you gain X life, where X is the total amount of life players lost this turn.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/103_High Priestess Varga.png" num="103">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elder Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>When Dragons Fought</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/118_When Dragons Fought.png" num="118">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gibbous, the Scaredybug</name>
+			<text>Flying
+When Gibbous enters, each player discards a card.
+Aspire — When there are twenty or more cards in your graveyard, put two +1/+1 counters on Gibbous. (Each aspire ability triggers only once.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/96_Gibbous, the Scaredybug.png" num="96">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Insect Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glowing Reminiscence</name>
+			<text>You draw X cards and you lose X life, where X is the number of card types among cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/97_Glowing Reminiscence.png" num="97">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bottom-Feeder</name>
+			<text>At the beginning of your end step, if a creature died this turn, create two 1/1 red Elemental creature tokens.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/83_Bottom-Feeder.png" num="83">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fish</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Exertion</name>
+			<text>Each creature gets -X/-X until end of turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/94_Exertion.png" num="94">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XBB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Remnant of the Lost Clan</name>
+			<text>Flying, haste
+Whenever this creature attacks, you may pay X life. If you do, draw X cards.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/109_Remnant of the Lost Clan.png" num="109">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Avatar Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>5BB</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Homesick Sailor</name>
+			<text>Whenever this creature attacks, reveal the top card of your library and put it into your hand. You lose life equal to that card&apos;s mana value.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/104_Homesick Sailor.png" num="104">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grim Yestermancy</name>
+			<text>Kicker {3}{B} (You may pay an additional {3}{B} as you cast this spell.)
+Return target creature card from your graveyard to the battlefield. If this spell was kicked, instead return all creature cards from your graveyard to the battlefield.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/98_Grim Yestermancy.png" num="98">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Easterly, Eager to Meet You</name>
+			<text>When Easterly enters, create a 1/1 red Elemental creature token.
+Aspire — When you attack with creatures with six or more unique creature types among them, put two +1/+1 counters on Easterly. (Each aspire ability triggers only once.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/128_Easterly, Eager to Meet You.png" num="128">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Salamander Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glintstone&apos;s Chosen</name>
+			<text>Whenever this creature enters or attacks, exile the top card of your library. You may play that card this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/133_Glintstone&apos;s Chosen.png" num="133">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Sorcerer</type>
+				<maintype>Creature</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unleader Sclo</name>
+			<text>Flying
+Whenever you cast an instant or sorcery spell, you may pay {2}. If you do, copy it. You may choose new targets for the copy.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/159_Unleader Sclo.png" num="159">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Trickety-Tickety-Tin</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/158_Trickety-Tickety-Tin.png" num="158">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Most Helpful Tome</name>
+			<text>(Paradox)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/145_Most Helpful Tome.png" num="145">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Book</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Kindlotl</name>
+			<text>Menace
+Whenever a creature you control with menace attacks, add {R}. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/140_Kindlotl.png" num="140">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Salamander</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Enchanted Eruption</name>
+			<text>Kicker {5}{R} (You may pay an additional {5}{R} as you cast this spell.)
+Exile target sorcery card with mana value 3 or less from your graveyard. Copy it. If this spell was kicked, copy it three times instead. You may cast the copies without paying their mana costs.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/129_Enchanted Eruption.png" num="129">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Magmablood Elder</name>
+			<text>Flying, haste
+Whenever this creature attacks, add {R}{R}{R}.
+You don&apos;t lose unspent red mana as steps and phases end.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/143_Magmablood Elder.png" num="143">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Starburst</name>
+			<text>This spell deals X damage to any target.
+(artifacts?)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/155_Starburst.png" num="155">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Brew For the Weary</name>
+			<text>This spell can&apos;t be countered.
+Each player may discard their hand and draw five cards.
+(something creature-related — Menace?)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/124_Brew For the Weary.png" num="124">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pepper, the Precocious</name>
+			<text>When Pepper enters, reveal the top five cards of your library. Put a land card from among them into your hand and the rest on the bottom in a random order.
+Aspire — When you control seven or more lands, put two +1/+1 counters on Pepper. (Each aspire ability triggers only once.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/186_Pepper, the Precocious.png" num="186">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Lizard Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Carefree Smudgebundler</name>
+			<text>Vigilance
+The first enchantment spell you cast each turn costs {1} less to cast.
+Whenever you cast an enchantment spell, this creature gets +1/+1 until end of turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/171_Carefree Smudgebundler.png" num="171">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Frog Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shell Scout Leader</name>
+			<text>Vigilance
+{T}: Surveil 1.
+{2}{G}, {T}: Create a 2/2 green Ranger creature token. It can&apos;t block this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/194_Shell Scout Leader.png" num="194">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Grandpa Garoom of Aurora</name>
+			<text>Trample
+You may play two additional lands each turn.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/177_Grandpa Garoom of Aurora.png" num="177">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(kicker spell)</name>
+			<text>Kicker {3}{G} (You may pay an additional {3}{G} as you cast this spell.)
+Create two 2/2 green Ranger creature token. If this spell was kicked, create five of those tokens instead.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/164_(kicker spell).png" num="164">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Ranger&apos;s Creed</name>
+			<text>(saga)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/189_The Ranger&apos;s Creed.png" num="189">CLE</set>
+			<prop>
+				<layout>saga</layout>
+				<side>front</side>
+				<type>Enchantment — Saga</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Stupendulous Sporing</name>
+			<text>When this enchantment enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{2}{W}{U}{B}{R}{G}, Sacrifice this enchantment: Exile cards from the top of your library until you exile cards with total mana value 4 or greater. You may cast any number of spells from among them without paying their mana costs. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/195_Stupendulous Sporing.png" num="195">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>WUBRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(big creature)</name>
+			<text>This spell costs {X} less to cast, where X is the total power of creatures you control.
+Trample
+Other creatures you control get +3/+3 and have trample.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/162_(big creature).png" num="162">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>14G</manacost>
+				<cmc>15</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>9/9</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(trample equip)</name>
+			<text>Equipped creature gets +1/+1 and has ward {2}.
+Whenever equipped creature attacks, draw a card.
+Equip creature with trample {1}
+Equip {3}</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/165_(trample equip).png" num="165">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leafcutter Disciple</name>
+			<text>Creatures you control with +1/+1 counters on them have trample.
+Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/181_Leafcutter Disciple.png" num="181">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(anti-control card)</name>
+			<text>This spell can&apos;t be countered.
+Haste
+This creature has hexproof unless you were dealt damage this turn.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/161_(anti-control card).png" num="161">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/272_Plains.png" num="272">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/273_Island.png" num="273">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/274_Swamp.png" num="274">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/275_Mountain.png" num="275">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/276_Forest.png" num="276">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>(todo list)</name>
+			<text>INSPECT: (life gain, draw, sorcery, legends, wizards, types in yard, solidarity, coven, power 4 or greater)
+TODO: (Aspir, flying, instants, artifact, types of field, rangers, scry / surveil, paradox, sagas)
+DONE: (colors, kicker, flurry, battalion, blink, enchantment, menace, valiant, morbid, 1-drop, tokens, mana values)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/235_(todo list).png" num="235">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(rare artifact)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/234_(rare artifact).png" num="234">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(rare artifact 2)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/231_(rare artifact 2).png" num="231">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(rare artifact 3)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/232_(rare artifact 3).png" num="232">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(rare artifact 4)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/233_(rare artifact 4).png" num="233">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ranger Knight Hatchling</name>
+			<text>Flying, lifelink, first strike
+Whenever this creature becomes the target of a spell or ability for the first time each turn, put a +1/+1 counter on it. Scry 1.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/31_Ranger Knight Hatchling.png" num="31">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Archer Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>(blue rare)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/41_(blue rare).png" num="41">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(black rare)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/81_(black rare).png" num="81">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(red rare)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/121_(red rare).png" num="121">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>(green rare)</name>
+			<text></text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/163_(green rare).png" num="163">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

@@ -1,4 +1,181 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Splashy Syrupcaster added.
+Racing the Wind added.
+Swiftmeleon added.
+Vernon the Inventive added.
+Sinister Stew added.
+Honey-Flinger added.
+(lifegain payoff) added.
+The Moon Snail added.
+The Legendary Mica added.
+Crackling Hearth added.
+Leader of the Lights added.
+Venturers' Return added.
+Ice-Sculptor Dragon added.
+Gno Grows Up added.
+Get Some Time Alone added.
+Cottonscale Drifter added.
+Queen Bizabeth added.
+Gabl, the Dancing Mandible added.
+(card types) added.
+(instants matter) added.
+Bigmancer Bilfin added.
+(ferocious payoff) added.
+Spiralpainter Shellsworth added.
+(scout - ranger lord) added.
+Havenback Tortoise added.
+Fountain of Stars added.
+Chinook Encampment added.
+Crest, Ever-Talkative added.
+Mind Spring added.
+Orb of Old Shadows added.
+Arch-Chancellor Zybsalim added.
+Trisect Essence added.
+Wondrous Cadet added.
+Breaching Sprayback added.
+I Can Count to Three added.
+Coming Storm added.
+Eelectrician added.
+Skylobite added.
+Monsooon Millery added.
+(aurora creatureland) added.
+Loess Town added.
+Comet Starcourse added.
+Enthralling Gaze added.
+High Priestess Varga added.
+When Dragons Fought added.
+Gibbous, the Scaredybug added.
+Glowing Reminiscence added.
+Bottom-Feeder added.
+Exertion added.
+Remnant of the Lost Clan added.
+Homesick Sailor added.
+Grim Yestermancy added.
+Easterly, Eager to Meet You added.
+Glintstone's Chosen added.
+Unleader Sclo added.
+Trickety-Tickety-Tin added.
+Most Helpful Tome added.
+Kindlotl added.
+Enchanted Eruption added.
+Magmablood Elder added.
+Starburst added.
+Brew For the Weary added.
+Pepper, the Precocious added.
+Carefree Smudgebundler added.
+Grandpa Garoom of Aurora added.
+(kicker spell) added.
+The Ranger's Creed added.
+Stupendulous Sporing added.
+(big creature) added.
+(trample equip) added.
+Leafcutter Disciple added.
+(anti-control card) added.
+(todo list) added.
+(rare artifact) added.
+(rare artifact 2) added.
+(rare artifact 3) added.
+(rare artifact 4) added.
+Ranger Knight Hatchling added.
+(blue rare) added.
+(black rare) added.
+(red rare) added.
+(green rare) added.
+
+Chosen Glinthand removed.
+The Race of the Catwyrms removed.
+
+Odds-and-Ends-Monger
+rules_text: Menace
+This spell costs {1} less to cast for each card type among cards in your graveyard. => This spell costs {1} less to cast for each card type among cards in your graveyard.
+Menace
+
+Majestic Kirin
+rules_text: {2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.
+This creature can't be blocked if you've drawn two or more cards this turn. => This creature can't be blocked if you've drawn two or more cards this turn.
+{2}, Discard this card: Search your library for an Island card, reveal it, put it into your hand, then shuffle.
+
+Possessive Archmage
+
+Shroomglow Collector
+type: Creature — Lizard Citizen => Creature — Lizard Ranger
+
+Hero's Downfall
+
+Introduction to Blobology
+type: Artifact => Artifact — Book
+
+Everglass
+rules_text: {T}: Add one mana of any color. You gain 1 life. => {T}: Add one mana of any color.
+{T}: You gain 1 life.
+
+Chromatic Star
+
+Kindness
+pt: 1/1 => 
+
+Fiddle Fern Pie
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 red Elemental creature token.
+II — Create a tapped Treasure token.
+III — Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 red Elemental creature token.
+Create a tapped Treasure token.
+II — Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control.
+
+Monsoon Proctor
+rules_text: At the beginning of you second main phase, exile up to one target tapped creature you control, then return it to the battlefield under its owner's control. => At the beginning of your second main phase, exile up to one target tapped creature you control, then return it to the battlefield under its owner's control.
+
+Sorrowmancer
+
+Bumbling Brewer
+type: Creature — Changeling Wizard => Creature — Shapeshifter Wizard
+
+Reef Walker
+type: Creature — Lizard Scout => Creature — Lizard Druid
+
+How the Dragon Got its Wings
+special_text: 
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+​
+
+Time-Bleached Dragon
+rules_text: Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Flying
+When this creature enters, if it was kicked, return target creature card from your graveyard to the battlefield. => Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Flying
+When this creature enters, if it was kicked, you draw two cards and lose 2 life.
+
+The Founding of Buttermount
+special_text: 
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card.
+
+Catch-and-Releaser
+type: Creature — Turtle Ranger => Creature — Turtle Citizen
+
+Decry
+rules_text: Destroy target creature with mana value less than or equal to the number of card types among permanents you control. => Destroy target creature with power less than or equal to the number of card types among permanents you control.
+
+Shell Scout Leader
+type: Creature — Turtle Scout => Creature
+cost: {3}{G} => {1}{G}{G}
+rules_text: Whenever you scry or surveil, you may pay {1}. If you do, create a 2/2 green Ranger creature token. => Vigilance
+{T}: Surveil 1.
+{2}{G}, {T}: Create a 2/2 green Ranger creature token. It can't block this turn.
+pt: 4/4 => 3/4
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.

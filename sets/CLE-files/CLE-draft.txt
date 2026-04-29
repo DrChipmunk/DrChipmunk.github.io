@@ -7,67 +7,67 @@
 			"type": "",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/1_Clearingsong.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/1t_Clearingsong.png"
 			}
 		},
 		{
 			"name": "Loess Lightbearer",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Frog Wizard ",
+			"type": "Creature — Frog Wizard",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/22_Loess Lightbearer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/22_Loess Lightbearer.png"
 			}
 		},
 		{
 			"name": "Monsoon Fortune-Teller",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Turtle Wizard ",
+			"type": "Creature — Turtle Wizard",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/62_Monsoon Fortune-Teller.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/62_Monsoon Fortune-Teller.png"
 			}
 		},
 		{
 			"name": "Odds-and-Ends-Monger",
 			"rarity": "common",
 			"mana_cost": "{6}{B}",
-			"type": "Creature — Insect Ranger Monger ",
+			"type": "Creature — Insect Ranger Monger",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/107_Odds-and-Ends-Monger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/107_Odds-and-Ends-Monger.png"
 			}
 		},
 		{
 			"name": "Haughty Thespian",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Lizard Bard ",
+			"type": "Creature — Lizard Bard",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/135_Haughty Thespian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/135_Haughty Thespian.png"
 			}
 		},
 		{
 			"name": "Branch-Bender",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Dragon Druid ",
+			"type": "Creature — Dragon Druid",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/169_Branch-Bender.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/169_Branch-Bender.png"
 			}
 		},
 		{
 			"name": "Poultice Courier",
 			"rarity": "common",
 			"mana_cost": "{W}",
-			"type": "Creature — Bird Scout ",
+			"type": "Creature — Bird Scout",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/29_Poultice Courier.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/29_Poultice Courier.png"
 			}
 		},
 		{
@@ -77,17 +77,17 @@
 			"type": "Instant",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/49_Eavesdrop.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/49_Eavesdrop.png"
 			}
 		},
 		{
 			"name": "Hammerhead Bully",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Shark Rogue ",
+			"type": "Creature — Shark Rogue",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/99_Hammerhead Bully.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/99_Hammerhead Bully.png"
 			}
 		},
 		{
@@ -97,27 +97,27 @@
 			"type": "Instant",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/131_Fiery Celebration.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/131_Fiery Celebration.png"
 			}
 		},
 		{
 			"name": "Aurora Chronicler",
 			"rarity": "common",
 			"mana_cost": "{G}",
-			"type": "Creature — Bird Bard ",
+			"type": "Creature — Bird Bard",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/167_Aurora Chronicler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/167_Aurora Chronicler.png"
 			}
 		},
 		{
 			"name": "Snowpearl Sorter",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Insect Monk ",
+			"type": "Creature — Insect Monk",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png"
 			}
 		},
 		{
@@ -127,47 +127,47 @@
 			"type": "Sorcery",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/52_Flashy Aerobatics.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/52_Flashy Aerobatics.png"
 			}
 		},
 		{
 			"name": "Comet Recollector",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Dragon Wizard ",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/87_Comet Recollector.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/87_Comet Recollector.png"
 			}
 		},
 		{
 			"name": "Chinook Wumprider",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Lizard Knight ",
+			"type": "Creature — Lizard Knight",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/126_Chinook Wumprider.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/126_Chinook Wumprider.png"
 			}
 		},
 		{
 			"name": "Verdant Tender",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Bird Druid ",
+			"type": "Creature — Bird Druid",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/199_Verdant Tender.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/199_Verdant Tender.png"
 			}
 		},
 		{
 			"name": "Old-Law Sentinel",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Snake Cleric ",
+			"type": "Creature — Snake Cleric",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/26_Old-Law Sentinel.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/26_Old-Law Sentinel.png"
 			}
 		},
 		{
@@ -177,27 +177,27 @@
 			"type": "Instant",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/70_Rainshadow Shield.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/70_Rainshadow Shield.png"
 			}
 		},
 		{
 			"name": "Bounding Squangler",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Frog Beast ",
+			"type": "Creature — Frog Beast",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/84_Bounding Squangler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/84_Bounding Squangler.png"
 			}
 		},
 		{
 			"name": "Gregarious Kindler",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Dragon Wizard ",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/134_Gregarious Kindler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/134_Gregarious Kindler.png"
 			}
 		},
 		{
@@ -207,37 +207,37 @@
 			"type": "Instant",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/192_Rivertrance.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/192_Rivertrance.png"
 			}
 		},
 		{
 			"name": "Petalwind Mage",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Lizard Wizard ",
+			"type": "Creature — Lizard Wizard",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/27_Petalwind Mage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/27_Petalwind Mage.png"
 			}
 		},
 		{
 			"name": "Snappy Goldenwing",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Bird Wizard ",
+			"type": "Creature — Bird Wizard",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/75_Snappy Goldenwing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/75_Snappy Goldenwing.png"
 			}
 		},
 		{
 			"name": "Souldust Shepherd",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Insect Cleric ",
+			"type": "Creature — Insect Cleric",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/113_Souldust Shepherd.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/113_Souldust Shepherd.png"
 			}
 		},
 		{
@@ -247,37 +247,37 @@
 			"type": "Sorcery",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/142_Magma Forging.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/142_Magma Forging.png"
 			}
 		},
 		{
 			"name": "Wondrous View",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/200_Wondrous View.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/200_Wondrous View.png"
 			}
 		},
 		{
 			"name": "Joyful Disposition",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/17_Joyful Disposition.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/17_Joyful Disposition.png"
 			}
 		},
 		{
 			"name": "Majestic Kirin",
 			"rarity": "common",
 			"mana_cost": "{5}{U}",
-			"type": "Creature — Elemental Kirin ",
+			"type": "Creature — Elemental Kirin",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/59_Majestic Kirin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/59_Majestic Kirin.png"
 			}
 		},
 		{
@@ -287,17 +287,17 @@
 			"type": "Sorcery",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/102_High Observator's Judgment.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/102_High Observator's Judgment.png"
 			}
 		},
 		{
 			"name": "Splashy Syrupcaster",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Insect Wizard ",
+			"type": "Creature — Insect Wizard",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/154_Splashy Syrupcaster.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/154_Splashy Syrupcaster.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Instant",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/188_Ram Through.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/188_Ram Through.png"
 			}
 		},
 		{
@@ -317,17 +317,17 @@
 			"type": "Enchantment",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/23_Lost to Myth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/23_Lost to Myth.png"
 			}
 		},
 		{
 			"name": "Befuddled Apprentice",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Lizard Wizard ",
+			"type": "Creature — Lizard Wizard",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/43_Befuddled Apprentice.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/43_Befuddled Apprentice.png"
 			}
 		},
 		{
@@ -337,27 +337,27 @@
 			"type": "Sorcery",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/120_Wisdom of Experience.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/120_Wisdom of Experience.png"
 			}
 		},
 		{
 			"name": "Hermit of the Quairies",
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/136_Hermit of the Quairies.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/136_Hermit of the Quairies.png"
 			}
 		},
 		{
 			"name": "Ribbon Range Guide",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Troll ",
+			"type": "Creature — Troll",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/191_Ribbon Range Guide.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/191_Ribbon Range Guide.png"
 			}
 		},
 		{
@@ -367,27 +367,27 @@
 			"type": "Instant",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/35_Shining Rebuke.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/35_Shining Rebuke.png"
 			}
 		},
 		{
 			"name": "Hibernate",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/54_Hibernate.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/54_Hibernate.png"
 			}
 		},
 		{
 			"name": "Diviner's Toad",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Elemental Frog ",
+			"type": "Creature — Elemental Frog",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/92_Diviner's Toad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/92_Diviner's Toad.png"
 			}
 		},
 		{
@@ -397,27 +397,27 @@
 			"type": "Sorcery",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/132_Fresh-Brewed Firenectar.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/132_Fresh-Brewed Firenectar.png"
 			}
 		},
 		{
 			"name": "Pebblemage",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Snake Druid ",
+			"type": "Creature — Snake Druid",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/185_Pebblemage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/185_Pebblemage.png"
 			}
 		},
 		{
 			"name": "Mournful Craftsbug",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Insect Artificer ",
+			"type": "Creature — Insect Artificer",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/25_Mournful Craftsbug.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/25_Mournful Craftsbug.png"
 			}
 		},
 		{
@@ -427,87 +427,87 @@
 			"type": "Instant",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/73_Sink.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/73_Sink.png"
 			}
 		},
 		{
 			"name": "Knight of the Humblebee",
 			"rarity": "common",
 			"mana_cost": "{B}",
-			"type": "Creature — Insect Knight ",
+			"type": "Creature — Insect Knight",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/105_Knight of the Humblebee.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/105_Knight of the Humblebee.png"
 			}
 		},
 		{
 			"name": "Kindletouch",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/139_Kindletouch.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/139_Kindletouch.png"
 			}
 		},
 		{
 			"name": "Helpful Topiary",
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
-			"type": "Creature — Plant Elemental ",
+			"type": "Creature — Plant Elemental",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/179_Helpful Topiary.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/179_Helpful Topiary.png"
 			}
 		},
 		{
 			"name": "Reliquary Cleanser",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Insect Cleric ",
+			"type": "Creature — Insect Cleric",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/32_Reliquary Cleanser.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/32_Reliquary Cleanser.png"
 			}
 		},
 		{
 			"name": "Possessive Archmage",
 			"rarity": "common",
 			"mana_cost": "{4}{U}",
-			"type": "Creature — Dragon Wizard ",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/67_Possessive Archmage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/67_Possessive Archmage.png"
 			}
 		},
 		{
 			"name": "Might-Tracker's Bow",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/106_Might-Tracker's Bow.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/106_Might-Tracker's Bow.png"
 			}
 		},
 		{
 			"name": "Stompin' Boots",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/157_Stompin' Boots.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/157_Stompin' Boots.png"
 			}
 		},
 		{
 			"name": "Lettuce Leaper",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Plant Elemental ",
+			"type": "Creature — Plant Elemental",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/182_Lettuce Leaper.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/182_Lettuce Leaper.png"
 			}
 		},
 		{
@@ -517,17 +517,17 @@
 			"type": "Sorcery",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/8_Defend the Outlands.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/8_Defend the Outlands.png"
 			}
 		},
 		{
 			"name": "Pinion Gilder",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Bird Artificer ",
+			"type": "Creature — Bird Artificer",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/65_Pinion Gilder.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/65_Pinion Gilder.png"
 			}
 		},
 		{
@@ -537,17 +537,17 @@
 			"type": "Instant",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/116_Venomous Voice.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/116_Venomous Voice.png"
 			}
 		},
 		{
 			"name": "Shroomglow Collector",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Lizard Ranger ",
+			"type": "Creature — Lizard Ranger",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/152_Shroomglow Collector.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/152_Shroomglow Collector.png"
 			}
 		},
 		{
@@ -557,27 +557,27 @@
 			"type": "Sorcery",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/166_Adventure Awaits.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/166_Adventure Awaits.png"
 			}
 		},
 		{
 			"name": "Lumizoa",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Elemental Jellyfish ",
+			"type": "Creature — Elemental Jellyfish",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/24_Lumizoa.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/24_Lumizoa.png"
 			}
 		},
 		{
 			"name": "Playful Diver",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Lizard Merfolk Scout ",
+			"type": "Creature — Lizard Merfolk Scout",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/66_Playful Diver.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/66_Playful Diver.png"
 			}
 		},
 		{
@@ -587,17 +587,17 @@
 			"type": "Instant",
 			"collector_number": "101",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/101_Hero's Downfall.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/101_Hero's Downfall.png"
 			}
 		},
 		{
 			"name": "Slippery Critter",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Elemental Salamander ",
+			"type": "Creature — Elemental Salamander",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/153_Slippery Critter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/153_Slippery Critter.png"
 			}
 		},
 		{
@@ -607,87 +607,87 @@
 			"type": "Sorcery",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/170_Bushwhack.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/170_Bushwhack.png"
 			}
 		},
 		{
 			"name": "Skylands Vinecutter",
 			"rarity": "common",
 			"mana_cost": "{5}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png"
 			}
 		},
 		{
 			"name": "Introduction to Blobology",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Artifact — Book ",
+			"type": "Artifact — Book",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/58_Introduction to Blobology.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/58_Introduction to Blobology.png"
 			}
 		},
 		{
 			"name": "Heavy Burden",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/100_Heavy Burden.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/100_Heavy Burden.png"
 			}
 		},
 		{
 			"name": "Ornery Wagonbeard",
 			"rarity": "common",
 			"mana_cost": "{5}{R}",
-			"type": "Creature — Lizard ",
+			"type": "Creature — Lizard",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/146_Ornery Wagonbeard.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/146_Ornery Wagonbeard.png"
 			}
 		},
 		{
 			"name": "Defender of the Patch",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Lizard Wizard ",
+			"type": "Creature — Lizard Wizard",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/173_Defender of the Patch.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/173_Defender of the Patch.png"
 			}
 		},
 		{
 			"name": "Old Jade Guardian",
 			"rarity": "common",
 			"mana_cost": "{3}",
-			"type": "Artifact Creature — Construct ",
+			"type": "Artifact Creature — Construct",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/243_Old Jade Guardian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/243_Old Jade Guardian.png"
 			}
 		},
 		{
 			"name": "Friendly Fisher",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact Creature — Construct ",
+			"type": "Artifact Creature — Construct",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/240_Friendly Fisher.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/240_Friendly Fisher.png"
 			}
 		},
 		{
 			"name": "Sparkling Staff",
 			"rarity": "common",
 			"mana_cost": "{4}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/244_Sparkling Staff.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/244_Sparkling Staff.png"
 			}
 		},
 		{
@@ -697,7 +697,7 @@
 			"type": "Artifact",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/239_Everglass.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/239_Everglass.png"
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			"type": "Artifact",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/237_Chromatic Star.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/237_Chromatic Star.png"
 			}
 		},
 		{
@@ -717,57 +717,57 @@
 			"type": "Land",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/265_Promising Sunscape.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/265_Promising Sunscape.png"
 			}
 		},
 		{
 			"name": "Stoneword Reciter",
 			"rarity": "common",
 			"mana_cost": "{2}{W/U}",
-			"type": "Creature — Dragon Advisor ",
+			"type": "Creature — Dragon Advisor",
 			"collector_number": "227",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/227_Stoneword Reciter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/227_Stoneword Reciter.png"
 			}
 		},
 		{
 			"name": "Pollywog Gossbearer",
 			"rarity": "common",
 			"mana_cost": "{2}{U/B}",
-			"type": "Creature — Frog Scout ",
+			"type": "Creature — Frog Scout",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/225_Pollywog Gossbearer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/225_Pollywog Gossbearer.png"
 			}
 		},
 		{
 			"name": "Nova Reenactor",
 			"rarity": "common",
-			"mana_cost": "{1{B}/R}",
-			"type": "Creature — Dragon Wizard ",
+			"mana_cost": "{1{B}R}",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/224_Nova Reenactor.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/224_Nova Reenactor.png"
 			}
 		},
 		{
 			"name": "Leaf-Clad Memorial",
 			"rarity": "common",
-			"mana_cost": "{1{R}/G}",
-			"type": "Creature — Plant Elemental ",
+			"mana_cost": "{1{R}G}",
+			"type": "Creature — Plant Elemental",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/223_Leaf-Clad Memorial.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/223_Leaf-Clad Memorial.png"
 			}
 		},
 		{
 			"name": "Well-Stocked Singer",
 			"rarity": "common",
-			"mana_cost": "{1{G}/W}",
-			"type": "Creature — Bird Ranger ",
+			"mana_cost": "{1{G}W}",
+			"type": "Creature — Bird Ranger",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/229_Well-Stocked Singer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/229_Well-Stocked Singer.png"
 			}
 		},
 		{
@@ -777,7 +777,7 @@
 			"type": "Sorcery",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/221_Bitter Parting.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/221_Bitter Parting.png"
 			}
 		},
 		{
@@ -787,7 +787,7 @@
 			"type": "Sorcery",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/226_Reawakening.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/226_Reawakening.png"
 			}
 		},
 		{
@@ -797,27 +797,27 @@
 			"type": "Instant",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/228_Vanish.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/228_Vanish.png"
 			}
 		},
 		{
 			"name": "Comprehend",
 			"rarity": "common",
-			"mana_cost": "{1{U}/R}",
+			"mana_cost": "{1{U}R}",
 			"type": "Instant",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/222_Comprehend.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/222_Comprehend.png"
 			}
 		},
 		{
 			"name": "Yestermantic Assistance",
 			"rarity": "common",
-			"mana_cost": "{1{R}/W}",
+			"mana_cost": "{1{R}W}",
 			"type": "Instant",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/230_Yestermantic Assistance.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/230_Yestermantic Assistance.png"
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 			"type": "Land",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/247_Breathtaking Vista.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/247_Breathtaking Vista.png"
 			}
 		},
 		{
@@ -837,7 +837,7 @@
 			"type": "Land",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/263_Placid Icescape.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/263_Placid Icescape.png"
 			}
 		},
 		{
@@ -847,7 +847,7 @@
 			"type": "Land",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/257_Inspiring Cairn.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/257_Inspiring Cairn.png"
 			}
 		},
 		{
@@ -857,7 +857,7 @@
 			"type": "Land",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/253_Gentle Clearing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/253_Gentle Clearing.png"
 			}
 		},
 		{
@@ -867,7 +867,7 @@
 			"type": "Land",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/262_Picturesque Field.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/262_Picturesque Field.png"
 			}
 		},
 		{
@@ -877,7 +877,7 @@
 			"type": "Land",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/264_Promising Overlook.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/264_Promising Overlook.png"
 			}
 		},
 		{
@@ -887,7 +887,7 @@
 			"type": "Land",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/268_Resplendent Moor.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/268_Resplendent Moor.png"
 			}
 		},
 		{
@@ -897,7 +897,7 @@
 			"type": "Land",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/267_Refreshing Spring.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/267_Refreshing Spring.png"
 			}
 		},
 		{
@@ -907,7 +907,7 @@
 			"type": "Land",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/251_Fragrant Basin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/251_Fragrant Basin.png"
 			}
 		},
 		{
@@ -917,7 +917,7 @@
 			"type": "Land",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/256_Impressive Peak.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/256_Impressive Peak.png"
 			}
 		},
 		{
@@ -927,7 +927,7 @@
 			"type": "Instant",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/212_Lose Hold.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/212_Lose Hold.png"
 			}
 		},
 		{
@@ -937,7 +937,7 @@
 			"type": "Sorcery",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/208_Envision.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/208_Envision.png"
 			}
 		},
 		{
@@ -947,7 +947,7 @@
 			"type": "Instant",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/211_Incinerating Breath.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/211_Incinerating Breath.png"
 			}
 		},
 		{
@@ -957,7 +957,7 @@
 			"type": "Sorcery",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/216_Scout the Outlands.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/216_Scout the Outlands.png"
 			}
 		},
 		{
@@ -967,187 +967,187 @@
 			"type": "Instant",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/210_Harvest of Clouds.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/210_Harvest of Clouds.png"
 			}
 		},
 		{
 			"name": "Mightkeeper Banner",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
-			"type": "Creature — Bird Cleric ",
+			"type": "Creature — Bird Cleric",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/213_Mightkeeper Banner.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/213_Mightkeeper Banner.png"
 			}
 		},
 		{
 			"name": "Snappytrap",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
-			"type": "Creature — Plant ",
+			"type": "Creature — Plant",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/217_Snappytrap.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/217_Snappytrap.png"
 			}
 		},
 		{
 			"name": "Orearchaeologist",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
-			"type": "Creature — Turtle Druid ",
+			"type": "Creature — Turtle Druid",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/215_Orearchaeologist.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/215_Orearchaeologist.png"
 			}
 		},
 		{
 			"name": "Whiptongue Toad",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
-			"type": "Creature — Frog ",
+			"type": "Creature — Frog",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/220_Whiptongue Toad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/220_Whiptongue Toad.png"
 			}
 		},
 		{
 			"name": "Adolescent Shrine-Scion",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
-			"type": "Creature — Lizard Rogue ",
+			"type": "Creature — Lizard Rogue",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/206_Adolescent Shrine-Scion.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/206_Adolescent Shrine-Scion.png"
 			}
 		},
 		{
 			"name": "Frigid Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Plains Island ",
+			"type": "Land — Plains Island",
 			"collector_number": "252",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/252_Frigid Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/252_Frigid Landmark.png"
 			}
 		},
 		{
 			"name": "Gloomy Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Island Swamp ",
+			"type": "Land — Island Swamp",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/254_Gloomy Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/254_Gloomy Landmark.png"
 			}
 		},
 		{
 			"name": "Luminous Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Swamp Mountain ",
+			"type": "Land — Swamp Mountain",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/259_Luminous Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/259_Luminous Landmark.png"
 			}
 		},
 		{
 			"name": "Secluded Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Mountain Forest ",
+			"type": "Land — Mountain Forest",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/270_Secluded Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/270_Secluded Landmark.png"
 			}
 		},
 		{
 			"name": "Quaint Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Forest Plains ",
+			"type": "Land — Forest Plains",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/266_Quaint Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/266_Quaint Landmark.png"
 			}
 		},
 		{
 			"name": "Solemn Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Plains Swamp ",
+			"type": "Land — Plains Swamp",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/271_Solemn Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/271_Solemn Landmark.png"
 			}
 		},
 		{
 			"name": "Restorative Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Swamp Forest ",
+			"type": "Land — Swamp Forest",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/269_Restorative Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/269_Restorative Landmark.png"
 			}
 		},
 		{
 			"name": "Overgrown Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Forest Island ",
+			"type": "Land — Forest Island",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/261_Overgrown Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/261_Overgrown Landmark.png"
 			}
 		},
 		{
 			"name": "Bustling Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Island Mountain ",
+			"type": "Land — Island Mountain",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/248_Bustling Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/248_Bustling Landmark.png"
 			}
 		},
 		{
 			"name": "Imposing Landmark",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Land — Mountain Plains ",
+			"type": "Land — Mountain Plains",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/255_Imposing Landmark.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/255_Imposing Landmark.png"
 			}
 		},
 		{
 			"name": "Elemental",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Elemental ",
+			"type": "Token Creature — Elemental",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/4_Elemental.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4t_Elemental.png"
 			}
 		},
 		{
 			"name": "Ranger",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Ranger ",
+			"type": "Token Creature — Ranger",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/5_Ranger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5t_Ranger.png"
 			}
 		},
 		{
 			"name": "Treasure",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Artifact — Treasure ",
+			"type": "Token Artifact — Treasure",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/2_Treasure.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/2t_Treasure.png"
 			}
 		},
 		{
@@ -1157,7 +1157,7 @@
 			"type": "Reminder",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/6_Kindness.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6t_Kindness.png"
 			}
 		},
 		{
@@ -1167,17 +1167,17 @@
 			"type": "Artifact",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/238_Egg of the Elders.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/238_Egg of the Elders.png"
 			}
 		},
 		{
 			"name": "Guards of Old Ovonia",
 			"rarity": "uncommon",
 			"mana_cost": "{10}",
-			"type": "Artifact Creature — Construct ",
+			"type": "Artifact Creature — Construct",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/241_Guards of Old Ovonia.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/241_Guards of Old Ovonia.png"
 			}
 		},
 		{
@@ -1187,27 +1187,27 @@
 			"type": "Artifact",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/242_Memorial Stone.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/242_Memorial Stone.png"
 			}
 		},
 		{
 			"name": "Bronze Toad",
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
-			"type": "Artifact Creature — Construct Frog ",
+			"type": "Artifact Creature — Construct Frog",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/236_Bronze Toad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/236_Bronze Toad.png"
 			}
 		},
 		{
 			"name": "Sunbeam Blade",
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/245_Sunbeam Blade.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/245_Sunbeam Blade.png"
 			}
 		},
 		{
@@ -1217,7 +1217,7 @@
 			"type": "Sorcery",
 			"collector_number": "34",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/34_Shimmering Bounty.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/34_Shimmering Bounty.png"
 			}
 		},
 		{
@@ -1227,7 +1227,7 @@
 			"type": "Instant",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/45_Calamitous Miscast.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/45_Calamitous Miscast.png"
 			}
 		},
 		{
@@ -1237,87 +1237,87 @@
 			"type": "Instant",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/95_Fester.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/95_Fester.png"
 			}
 		},
 		{
 			"name": "Racing the Wind",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/149_Racing the Wind.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/149_Racing the Wind.png"
 			}
 		},
 		{
 			"name": "Fiddle Fern Pie",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/174_Fiddle Fern Pie.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/174_Fiddle Fern Pie.png"
 			}
 		},
 		{
 			"name": "Bowl-Shell Beetle",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
-			"type": "Creature — Insect ",
+			"type": "Creature — Insect",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/4_Bowl-Shell Beetle.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4_Bowl-Shell Beetle.png"
 			}
 		},
 		{
 			"name": "Patient Bumblerog",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
-			"type": "Creature — Frog Bard ",
+			"type": "Creature — Frog Bard",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/184_Patient Bumblerog.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/184_Patient Bumblerog.png"
 			}
 		},
 		{
 			"name": "Cross Porpoises",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Whale ",
+			"type": "Creature — Whale",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/48_Cross Porpoises.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/48_Cross Porpoises.png"
 			}
 		},
 		{
 			"name": "Canny Negotiator",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Dinosaur Advisor ",
+			"type": "Creature — Dinosaur Advisor",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/125_Canny Negotiator.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/125_Canny Negotiator.png"
 			}
 		},
 		{
 			"name": "White-Web Widow",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Spider ",
+			"type": "Creature — Spider",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/119_White-Web Widow.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/119_White-Web Widow.png"
 			}
 		},
 		{
 			"name": "Keeper of the Shellseal",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
-			"type": "Creature — Dinosaur Cleric ",
+			"type": "Creature — Dinosaur Cleric",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/18_Keeper of the Shellseal.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/18_Keeper of the Shellseal.png"
 			}
 		},
 		{
@@ -1327,77 +1327,77 @@
 			"type": "Instant",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/180_Heritage Reclamation.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/180_Heritage Reclamation.png"
 			}
 		},
 		{
 			"name": "Intangible Sage",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
-			"type": "Creature — Kirin ",
+			"type": "Creature — Kirin",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/57_Intangible Sage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/57_Intangible Sage.png"
 			}
 		},
 		{
 			"name": "Proud Judgewyrm",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/147_Proud Judgewyrm.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/147_Proud Judgewyrm.png"
 			}
 		},
 		{
 			"name": "Bubbletoad",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Frog ",
+			"type": "Creature — Frog",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/85_Bubbletoad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/85_Bubbletoad.png"
 			}
 		},
 		{
 			"name": "Curious Shinosaur",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Dinosaur ",
+			"type": "Creature — Dinosaur",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/7_Curious Shinosaur.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7_Curious Shinosaur.png"
 			}
 		},
 		{
 			"name": "Sunset Seeker",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Bird Ranger ",
+			"type": "Creature — Bird Ranger",
 			"collector_number": "196",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/196_Sunset Seeker.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/196_Sunset Seeker.png"
 			}
 		},
 		{
 			"name": "Monsoon Proctor",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Bird Wizard ",
+			"type": "Creature — Bird Wizard",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/63_Monsoon Proctor.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/63_Monsoon Proctor.png"
 			}
 		},
 		{
 			"name": "Molten Dancer",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Creature — Elemental ",
+			"type": "Creature — Elemental",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/144_Molten Dancer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/144_Molten Dancer.png"
 			}
 		},
 		{
@@ -1407,127 +1407,127 @@
 			"type": "Sorcery",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/82_Bogberry Bloom.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/82_Bogberry Bloom.png"
 			}
 		},
 		{
 			"name": "Stoic Outlander",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Insect Scout ",
+			"type": "Creature — Insect Scout",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/38_Stoic Outlander.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/38_Stoic Outlander.png"
 			}
 		},
 		{
 			"name": "Birchwood Blazewarden",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Lizard Ranger ",
+			"type": "Creature — Lizard Ranger",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/168_Birchwood Blazewarden.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/168_Birchwood Blazewarden.png"
 			}
 		},
 		{
 			"name": "Stormwater Serpent",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
-			"type": "Creature — Serpent ",
+			"type": "Creature — Serpent",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/77_Stormwater Serpent.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/77_Stormwater Serpent.png"
 			}
 		},
 		{
 			"name": "Redscale Challenger",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Creature — Dinosaur Noble ",
+			"type": "Creature — Dinosaur Noble",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/150_Redscale Challenger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/150_Redscale Challenger.png"
 			}
 		},
 		{
 			"name": "Sorrowmancer",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
-			"type": "Creature — Lizard Wizard ",
+			"type": "Creature — Lizard Wizard",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/112_Sorrowmancer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/112_Sorrowmancer.png"
 			}
 		},
 		{
 			"name": "Archaeorator",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Dinosaur Wizard ",
+			"type": "Creature — Dinosaur Wizard",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/2_Archaeorator.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/2_Archaeorator.png"
 			}
 		},
 		{
 			"name": "Foreign Chromawalker",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{G}",
-			"type": "Creature — Beast ",
+			"type": "Creature — Beast",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/176_Foreign Chromawalker.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/176_Foreign Chromawalker.png"
 			}
 		},
 		{
 			"name": "Meticulous Quartermaster",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Insect Scout ",
+			"type": "Creature — Insect Scout",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/60_Meticulous Quartermaster.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/60_Meticulous Quartermaster.png"
 			}
 		},
 		{
 			"name": "Unleader's Tribune",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Lizard Ranger ",
+			"type": "Creature — Lizard Ranger",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/160_Unleader's Tribune.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/160_Unleader's Tribune.png"
 			}
 		},
 		{
 			"name": "Bumbling Brewer",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Shapeshifter Wizard ",
+			"type": "Creature — Shapeshifter Wizard",
 			"collector_number": "86",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/86_Bumbling Brewer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/86_Bumbling Brewer.png"
 			}
 		},
 		{
 			"name": "Druid of Watchful Stones",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Dragon Druid ",
+			"type": "Creature — Dragon Druid",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/10_Druid of Watchful Stones.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/10_Druid of Watchful Stones.png"
 			}
 		},
 		{
 			"name": "Reef Walker",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Lizard Druid ",
+			"type": "Creature — Lizard Druid",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/190_Reef Walker.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/190_Reef Walker.png"
 			}
 		},
 		{
@@ -1537,7 +1537,7 @@
 			"type": "Instant",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/71_Reorganize.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/71_Reorganize.png"
 			}
 		},
 		{
@@ -1547,77 +1547,77 @@
 			"type": "Artifact",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/123_Artisanal Puzzlebox.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/123_Artisanal Puzzlebox.png"
 			}
 		},
 		{
 			"name": "Stone-Masked Mage",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Bird Wizard ",
+			"type": "Creature — Bird Wizard",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/114_Stone-Masked Mage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/114_Stone-Masked Mage.png"
 			}
 		},
 		{
 			"name": "Auroral Migrant",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{W}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/3_Auroral Migrant.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3_Auroral Migrant.png"
 			}
 		},
 		{
 			"name": "Swiftmeleon",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
-			"type": "Creature — Lizard Scout ",
+			"type": "Creature — Lizard Scout",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/197_Swiftmeleon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/197_Swiftmeleon.png"
 			}
 		},
 		{
 			"name": "Puzzlewyrm's Familiar",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Faerie Dragon ",
+			"type": "Creature — Faerie Dragon",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/69_Puzzlewyrm's Familiar.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/69_Puzzlewyrm's Familiar.png"
 			}
 		},
 		{
 			"name": "Jaw Order Outfitter",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Lizard Artificer ",
+			"type": "Creature — Lizard Artificer",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/138_Jaw Order Outfitter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/138_Jaw Order Outfitter.png"
 			}
 		},
 		{
 			"name": "Determined Snail",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
-			"type": "Creature — Snail ",
+			"type": "Creature — Snail",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/91_Determined Snail.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/91_Determined Snail.png"
 			}
 		},
 		{
 			"name": "Dinoplomacy",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/9_Dinoplomacy.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/9_Dinoplomacy.png"
 			}
 		},
 		{
@@ -1627,7 +1627,7 @@
 			"type": "Sorcery",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/175_Follywog's Fate.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/175_Follywog's Fate.png"
 			}
 		},
 		{
@@ -1637,7 +1637,7 @@
 			"type": "Artifact",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/68_Potted Beanstalk.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/68_Potted Beanstalk.png"
 			}
 		},
 		{
@@ -1647,27 +1647,27 @@
 			"type": "Sorcery",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/130_Ferocious Bite.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/130_Ferocious Bite.png"
 			}
 		},
 		{
 			"name": "The Sorrow of Waxwing",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/111_The Sorrow of Waxwing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/111_The Sorrow of Waxwing.png"
 			}
 		},
 		{
 			"name": "Riverwatch Glider",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/33_Riverwatch Glider.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/33_Riverwatch Glider.png"
 			}
 		},
 		{
@@ -1677,27 +1677,27 @@
 			"type": "Sorcery",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/183_Moment's Respite.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/183_Moment's Respite.png"
 			}
 		},
 		{
 			"name": "How the Dragon Got its Wings",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/55_How the Dragon Got its Wings.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/55_How the Dragon Got its Wings.png"
 			}
 		},
 		{
 			"name": "Quickpocket",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Creature — Kobold Rogue ",
+			"type": "Creature — Kobold Rogue",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/148_Quickpocket.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/148_Quickpocket.png"
 			}
 		},
 		{
@@ -1707,27 +1707,27 @@
 			"type": "Sorcery",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/88_Cosmos Claw.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/88_Cosmos Claw.png"
 			}
 		},
 		{
 			"name": "Ponderous Ruinguard",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Turtle Ranger ",
+			"type": "Creature — Turtle Ranger",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/28_Ponderous Ruinguard.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/28_Ponderous Ruinguard.png"
 			}
 		},
 		{
 			"name": "Rumbling Grovewatch",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Elemental ",
+			"type": "Creature — Elemental",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/193_Rumbling Grovewatch.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/193_Rumbling Grovewatch.png"
 			}
 		},
 		{
@@ -1737,47 +1737,47 @@
 			"type": "Creature",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/72_Sincere Impressionist.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/72_Sincere Impressionist.png"
 			}
 		},
 		{
 			"name": "Ancient Amberflow",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Creature — Elemental ",
+			"type": "Creature — Elemental",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/122_Ancient Amberflow.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/122_Ancient Amberflow.png"
 			}
 		},
 		{
 			"name": "Time-Bleached Dragon",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
-			"type": "Creature — Dragon Wizard ",
+			"type": "Creature — Dragon Wizard",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/115_Time-Bleached Dragon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/115_Time-Bleached Dragon.png"
 			}
 		},
 		{
 			"name": "The Founding of Buttermount",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/11_The Founding of Buttermount.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/11_The Founding of Buttermount.png"
 			}
 		},
 		{
 			"name": "Thistle Elemental",
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}",
-			"type": "Creature — Plant Elemental ",
+			"type": "Creature — Plant Elemental",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/198_Thistle Elemental.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/198_Thistle Elemental.png"
 			}
 		},
 		{
@@ -1787,7 +1787,7 @@
 			"type": "Instant",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/76_Spell Pierce.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/76_Spell Pierce.png"
 			}
 		},
 		{
@@ -1797,7 +1797,7 @@
 			"type": "Sorcery",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/127_Discovery in Desperation.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/127_Discovery in Desperation.png"
 			}
 		},
 		{
@@ -1807,27 +1807,27 @@
 			"type": "Artifact",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/117_Well-Stocked Reagents.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/117_Well-Stocked Reagents.png"
 			}
 		},
 		{
 			"name": "Antiquarian",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Insect Cleric ",
+			"type": "Creature — Insect Cleric",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/1_Antiquarian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/1_Antiquarian.png"
 			}
 		},
 		{
 			"name": "Catch-and-Releaser",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Turtle Citizen ",
+			"type": "Creature — Turtle Citizen",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/172_Catch-and-Releaser.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/172_Catch-and-Releaser.png"
 			}
 		},
 		{
@@ -1837,27 +1837,27 @@
 			"type": "Sorcery",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/51_Excellent Idea.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/51_Excellent Idea.png"
 			}
 		},
 		{
 			"name": "Resonant Glimmerfeli",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
-			"type": "Creature — Elemental Cat ",
+			"type": "Creature — Elemental Cat",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/151_Resonant Glimmerfeli.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/151_Resonant Glimmerfeli.png"
 			}
 		},
 		{
 			"name": "Pestermeleon",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Faerie Lizard ",
+			"type": "Creature — Faerie Lizard",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/108_Pestermeleon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/108_Pestermeleon.png"
 			}
 		},
 		{
@@ -1867,7 +1867,7 @@
 			"type": "Instant",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/19_Lead Off the Path.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/19_Lead Off the Path.png"
 			}
 		},
 		{
@@ -1877,17 +1877,17 @@
 			"type": "Artifact",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/187_Primarical Goggles.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/187_Primarical Goggles.png"
 			}
 		},
 		{
 			"name": "Fresh Start",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/53_Fresh Start.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/53_Fresh Start.png"
 			}
 		},
 		{
@@ -1897,7 +1897,7 @@
 			"type": "Instant",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/141_Lava Arc.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/141_Lava Arc.png"
 			}
 		},
 		{
@@ -1907,17 +1907,17 @@
 			"type": "Instant",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/90_Decry.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/90_Decry.png"
 			}
 		},
 		{
 			"name": "Well-Rested",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
-			"type": "Enchantment — Aura ",
+			"type": "Enchantment — Aura",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/40_Well-Rested.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/40_Well-Rested.png"
 			}
 		},
 		{
@@ -1927,67 +1927,67 @@
 			"type": "Enchantment",
 			"collector_number": "178",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/178_Grove of Gathering.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/178_Grove of Gathering.png"
 			}
 		},
 		{
 			"name": "Wide-Hooded Wizard",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Snake Wizard ",
+			"type": "Creature — Snake Wizard",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/79_Wide-Hooded Wizard.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/79_Wide-Hooded Wizard.png"
 			}
 		},
 		{
 			"name": "Stolid Secondmage",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Lizard Wizard ",
+			"type": "Creature — Lizard Wizard",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/156_Stolid Secondmage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/156_Stolid Secondmage.png"
 			}
 		},
 		{
 			"name": "Dark-Tales Connaisseur",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Turtle Ranger ",
+			"type": "Creature — Turtle Ranger",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/89_Dark-Tales Connaisseur.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/89_Dark-Tales Connaisseur.png"
 			}
 		},
 		{
 			"name": "Vernon the Inventive",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
-			"type": "Legendary Artifact Creature — Dragon ",
+			"type": "Legendary Artifact Creature — Dragon",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/219_Vernon the Inventive.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/219_Vernon the Inventive.png"
 			}
 		},
 		{
 			"name": "Sinister Stew",
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Artifact — Food ",
+			"type": "Artifact — Food",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/110_Sinister Stew.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/110_Sinister Stew.png"
 			}
 		},
 		{
 			"name": "Honey-Flinger",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Insect ",
+			"type": "Creature — Insect",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/137_Honey-Flinger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/137_Honey-Flinger.png"
 			}
 		},
 		{
@@ -1997,37 +1997,37 @@
 			"type": "Legendary Creature",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/204_(lifegain payoff).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/204_(lifegain payoff).png"
 			}
 		},
 		{
 			"name": "The Moon Snail",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
-			"type": "Legendary Creature — Snail ",
+			"type": "Legendary Creature — Snail",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/214_The Moon Snail.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/214_The Moon Snail.png"
 			}
 		},
 		{
 			"name": "Dragon",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Creature — Dragon ",
+			"type": "Token Creature — Dragon",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/3_Dragon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3t_Dragon.png"
 			}
 		},
 		{
 			"name": "The Legendary Mica",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Whale Ranger ",
+			"type": "Legendary Creature — Whale Ranger",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/21_The Legendary Mica.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/21_The Legendary Mica.png"
 			}
 		},
 		{
@@ -2037,17 +2037,17 @@
 			"type": "Artifact",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/6_Crackling Hearth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6_Crackling Hearth.png"
 			}
 		},
 		{
 			"name": "Leader of the Lights",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Creature — Insect Wizard ",
+			"type": "Creature — Insect Wizard",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/20_Leader of the Lights.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/20_Leader of the Lights.png"
 			}
 		},
 		{
@@ -2057,27 +2057,27 @@
 			"type": "Sorcery",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/39_Venturers' Return.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/39_Venturers' Return.png"
 			}
 		},
 		{
 			"name": "Ice-Sculptor Dragon",
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Creature — Dragon Noble ",
+			"type": "Creature — Dragon Noble",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/16_Ice-Sculptor Dragon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/16_Ice-Sculptor Dragon.png"
 			}
 		},
 		{
 			"name": "Gno Grows Up",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/14_Gno Grows Up.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/14_Gno Grows Up.png"
 			}
 		},
 		{
@@ -2087,37 +2087,37 @@
 			"type": "Sorcery",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/13_Get Some Time Alone.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/13_Get Some Time Alone.png"
 			}
 		},
 		{
 			"name": "Cottonscale Drifter",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
-			"type": "Creature — Elemental Salamander ",
+			"type": "Creature — Elemental Salamander",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/5_Cottonscale Drifter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5_Cottonscale Drifter.png"
 			}
 		},
 		{
 			"name": "Queen Bizabeth",
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Legendary Creature — Elder Dragon ",
+			"type": "Legendary Creature — Elder Dragon",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/30_Queen Bizabeth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/30_Queen Bizabeth.png"
 			}
 		},
 		{
 			"name": "Gabl, the Dancing Mandible",
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
-			"type": "Legendary Creature — Insect Monk ",
+			"type": "Legendary Creature — Insect Monk",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/209_Gabl, the Dancing Mandible.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/209_Gabl, the Dancing Mandible.png"
 			}
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"type": "Legendary Creature",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/201_(card types).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/201_(card types).png"
 			}
 		},
 		{
@@ -2137,57 +2137,57 @@
 			"type": "Legendary Creature",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/203_(instants matter).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/203_(instants matter).png"
 			}
 		},
 		{
 			"name": "Bigmancer Bilfin",
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
-			"type": "Legendary Creature — Insect Wizard ",
+			"type": "Legendary Creature — Insect Wizard",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/207_Bigmancer Bilfin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/207_Bigmancer Bilfin.png"
 			}
 		},
 		{
 			"name": "(ferocious payoff)",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Elemental ",
+			"type": "Legendary Creature — Elemental",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/202_(ferocious payoff).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/202_(ferocious payoff).png"
 			}
 		},
 		{
 			"name": "Spiralpainter Shellsworth",
 			"rarity": "rare",
 			"mana_cost": "{6}{G}{U}",
-			"type": "Legendary Creature — Crab Artificer ",
+			"type": "Legendary Creature — Crab Artificer",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/218_Spiralpainter Shellsworth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/218_Spiralpainter Shellsworth.png"
 			}
 		},
 		{
 			"name": "(scout - ranger lord)",
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
-			"type": "Legendary Creature — Scout ",
+			"type": "Legendary Creature — Scout",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/205_(scout - ranger lord).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/205_(scout - ranger lord).png"
 			}
 		},
 		{
 			"name": "Havenback Tortoise",
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Creature — Turtle ",
+			"type": "Creature — Turtle",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/15_Havenback Tortoise.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/15_Havenback Tortoise.png"
 			}
 		},
 		{
@@ -2197,7 +2197,7 @@
 			"type": "Artifact",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/12_Fountain of Stars.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/12_Fountain of Stars.png"
 			}
 		},
 		{
@@ -2207,17 +2207,17 @@
 			"type": "Land",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/249_Chinook Encampment.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/249_Chinook Encampment.png"
 			}
 		},
 		{
 			"name": "Crest, Ever-Talkative",
 			"rarity": "mythic",
 			"mana_cost": "{U}",
-			"type": "Legendary Creature — Bird Wizard ",
+			"type": "Legendary Creature — Bird Wizard",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/47_Crest, Ever-Talkative.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/47_Crest, Ever-Talkative.png"
 			}
 		},
 		{
@@ -2227,7 +2227,7 @@
 			"type": "Sorcery",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/61_Mind Spring.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/61_Mind Spring.png"
 			}
 		},
 		{
@@ -2237,17 +2237,17 @@
 			"type": "Artifact",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/64_Orb of Old Shadows.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/64_Orb of Old Shadows.png"
 			}
 		},
 		{
 			"name": "Arch-Chancellor Zybsalim",
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Legendary Creature — Elder Bird ",
+			"type": "Legendary Creature — Elder Bird",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/42_Arch-Chancellor Zybsalim.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/42_Arch-Chancellor Zybsalim.png"
 			}
 		},
 		{
@@ -2257,37 +2257,37 @@
 			"type": "Instant",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/78_Trisect Essence.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/78_Trisect Essence.png"
 			}
 		},
 		{
 			"name": "Wondrous Cadet",
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Turtle Ranger ",
+			"type": "Creature — Turtle Ranger",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/80_Wondrous Cadet.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/80_Wondrous Cadet.png"
 			}
 		},
 		{
 			"name": "Breaching Sprayback",
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
-			"type": "Creature — Whale ",
+			"type": "Creature — Whale",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/44_Breaching Sprayback.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/44_Breaching Sprayback.png"
 			}
 		},
 		{
 			"name": "I Can Count to Three",
 			"rarity": "rare",
 			"mana_cost": "{U}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/56_I Can Count to Three.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/56_I Can Count to Three.png"
 			}
 		},
 		{
@@ -2297,27 +2297,27 @@
 			"type": "Sorcery",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/46_Coming Storm.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/46_Coming Storm.png"
 			}
 		},
 		{
 			"name": "Eelectrician",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}",
-			"type": "Creature — Fish Archer ",
+			"type": "Creature — Fish Archer",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/50_Eelectrician.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/50_Eelectrician.png"
 			}
 		},
 		{
 			"name": "Skylobite",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Trilobite ",
+			"type": "Creature — Trilobite",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/74_Skylobite.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/74_Skylobite.png"
 			}
 		},
 		{
@@ -2327,7 +2327,7 @@
 			"type": "Land",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/260_Monsooon Millery.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/260_Monsooon Millery.png"
 			}
 		},
 		{
@@ -2337,7 +2337,7 @@
 			"type": "Land",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/246_(aurora creatureland).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/246_(aurora creatureland).png"
 			}
 		},
 		{
@@ -2347,7 +2347,7 @@
 			"type": "Land",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/258_Loess Town.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/258_Loess Town.png"
 			}
 		},
 		{
@@ -2357,7 +2357,7 @@
 			"type": "Land",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/250_Comet Starcourse.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/250_Comet Starcourse.png"
 			}
 		},
 		{
@@ -2367,37 +2367,37 @@
 			"type": "Sorcery",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/93_Enthralling Gaze.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/93_Enthralling Gaze.png"
 			}
 		},
 		{
 			"name": "High Priestess Varga",
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Legendary Creature — Elder Dragon ",
+			"type": "Legendary Creature — Elder Dragon",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/103_High Priestess Varga.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/103_High Priestess Varga.png"
 			}
 		},
 		{
 			"name": "When Dragons Fought",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/118_When Dragons Fought.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/118_When Dragons Fought.png"
 			}
 		},
 		{
 			"name": "Gibbous, the Scaredybug",
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}",
-			"type": "Legendary Creature — Insect Wizard ",
+			"type": "Legendary Creature — Insect Wizard",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/96_Gibbous, the Scaredybug.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/96_Gibbous, the Scaredybug.png"
 			}
 		},
 		{
@@ -2407,17 +2407,17 @@
 			"type": "Instant",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/97_Glowing Reminiscence.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/97_Glowing Reminiscence.png"
 			}
 		},
 		{
 			"name": "Bottom-Feeder",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
-			"type": "Creature — Fish ",
+			"type": "Creature — Fish",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/83_Bottom-Feeder.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/83_Bottom-Feeder.png"
 			}
 		},
 		{
@@ -2427,27 +2427,27 @@
 			"type": "Sorcery",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/94_Exertion.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/94_Exertion.png"
 			}
 		},
 		{
 			"name": "Remnant of the Lost Clan",
 			"rarity": "mythic",
 			"mana_cost": "{5}{B}{B}",
-			"type": "Creature — Insect Avatar Warrior ",
+			"type": "Creature — Insect Avatar Warrior",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/109_Remnant of the Lost Clan.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/109_Remnant of the Lost Clan.png"
 			}
 		},
 		{
 			"name": "Homesick Sailor",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — Turtle Ranger ",
+			"type": "Creature — Turtle Ranger",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/104_Homesick Sailor.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/104_Homesick Sailor.png"
 			}
 		},
 		{
@@ -2457,67 +2457,67 @@
 			"type": "Sorcery",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/98_Grim Yestermancy.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/98_Grim Yestermancy.png"
 			}
 		},
 		{
 			"name": "Easterly, Eager to Meet You",
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
-			"type": "Legendary Creature — Salamander Scout ",
+			"type": "Legendary Creature — Salamander Scout",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/128_Easterly, Eager to Meet You.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/128_Easterly, Eager to Meet You.png"
 			}
 		},
 		{
 			"name": "Glintstone's Chosen",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
-			"type": "Creature — Lizard Sorcerer ",
+			"type": "Creature — Lizard Sorcerer",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/133_Glintstone's Chosen.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/133_Glintstone's Chosen.png"
 			}
 		},
 		{
 			"name": "Unleader Sclo",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Creature — Dragon ",
+			"type": "Legendary Creature — Dragon",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/159_Unleader Sclo.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/159_Unleader Sclo.png"
 			}
 		},
 		{
 			"name": "Trickety-Tickety-Tin",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/158_Trickety-Tickety-Tin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/158_Trickety-Tickety-Tin.png"
 			}
 		},
 		{
 			"name": "Most Helpful Tome",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Artifact — Book ",
+			"type": "Artifact — Book",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/145_Most Helpful Tome.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/145_Most Helpful Tome.png"
 			}
 		},
 		{
 			"name": "Kindlotl",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Elemental Salamander  ",
+			"type": "Creature — Elemental Salamander",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/140_Kindlotl.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/140_Kindlotl.png"
 			}
 		},
 		{
@@ -2527,17 +2527,17 @@
 			"type": "Sorcery",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/129_Enchanted Eruption.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/129_Enchanted Eruption.png"
 			}
 		},
 		{
 			"name": "Magmablood Elder",
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{R}",
-			"type": "Creature — Dragon ",
+			"type": "Creature — Dragon",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/143_Magmablood Elder.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/143_Magmablood Elder.png"
 			}
 		},
 		{
@@ -2547,7 +2547,7 @@
 			"type": "Instant",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/155_Starburst.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/155_Starburst.png"
 			}
 		},
 		{
@@ -2557,27 +2557,27 @@
 			"type": "Sorcery",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/124_Brew For the Weary.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/124_Brew For the Weary.png"
 			}
 		},
 		{
 			"name": "Pepper, the Precocious",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}",
-			"type": "Legendary Creature — Lizard Ranger ",
+			"type": "Legendary Creature — Lizard Ranger",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/186_Pepper, the Precocious.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/186_Pepper, the Precocious.png"
 			}
 		},
 		{
 			"name": "Carefree Smudgebundler",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Creature — Frog Cleric ",
+			"type": "Creature — Frog Cleric",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/171_Carefree Smudgebundler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/171_Carefree Smudgebundler.png"
 			}
 		},
 		{
@@ -2587,7 +2587,7 @@
 			"type": "Creature",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/194_Shell Scout Leader.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/194_Shell Scout Leader.png"
 			}
 		},
 		{
@@ -2597,7 +2597,7 @@
 			"type": "",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/177_Grandpa Garoom of Aurora.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/177_Grandpa Garoom of Aurora.png"
 			}
 		},
 		{
@@ -2607,17 +2607,17 @@
 			"type": "Sorcery",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/164_(kicker spell).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/164_(kicker spell).png"
 			}
 		},
 		{
 			"name": "The Ranger's Creed",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
-			"type": "Enchantment — Saga ",
+			"type": "Enchantment — Saga",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/189_The Ranger's Creed.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/189_The Ranger's Creed.png"
 			}
 		},
 		{
@@ -2627,7 +2627,7 @@
 			"type": "Enchantment",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/195_Stupendulous Sporing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/195_Stupendulous Sporing.png"
 			}
 		},
 		{
@@ -2637,27 +2637,27 @@
 			"type": "Creature",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/162_(big creature).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/162_(big creature).png"
 			}
 		},
 		{
 			"name": "(trample equip)",
 			"rarity": "rare",
 			"mana_cost": "{G}",
-			"type": "Artifact — Equipment ",
+			"type": "Artifact — Equipment",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/165_(trample equip).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/165_(trample equip).png"
 			}
 		},
 		{
 			"name": "Leafcutter Disciple",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Insect Monk ",
+			"type": "Creature — Insect Monk",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/181_Leafcutter Disciple.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/181_Leafcutter Disciple.png"
 			}
 		},
 		{
@@ -2667,57 +2667,57 @@
 			"type": "Creature",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/161_(anti-control card).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/161_(anti-control card).png"
 			}
 		},
 		{
 			"name": "Plains",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Plains ",
+			"type": "Basic Land — Plains",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/272_Plains.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/272_Plains.png"
 			}
 		},
 		{
 			"name": "Island",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Island ",
+			"type": "Basic Land — Island",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/273_Island.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/273_Island.png"
 			}
 		},
 		{
 			"name": "Swamp",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Swamp ",
+			"type": "Basic Land — Swamp",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/274_Swamp.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/274_Swamp.png"
 			}
 		},
 		{
 			"name": "Mountain",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Mountain ",
+			"type": "Basic Land — Mountain",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/275_Mountain.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/275_Mountain.png"
 			}
 		},
 		{
 			"name": "Forest",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Basic Land — Forest ",
+			"type": "Basic Land — Forest",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/276_Forest.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/276_Forest.png"
 			}
 		},
 		{
@@ -2727,7 +2727,7 @@
 			"type": "Artifact",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/235_(todo list).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/235_(todo list).png"
 			}
 		},
 		{
@@ -2737,7 +2737,7 @@
 			"type": "Artifact",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/234_(rare artifact).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/234_(rare artifact).png"
 			}
 		},
 		{
@@ -2747,7 +2747,7 @@
 			"type": "Artifact",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/231_(rare artifact 2).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/231_(rare artifact 2).png"
 			}
 		},
 		{
@@ -2757,7 +2757,7 @@
 			"type": "Artifact",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/232_(rare artifact 3).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/232_(rare artifact 3).png"
 			}
 		},
 		{
@@ -2767,17 +2767,17 @@
 			"type": "Artifact",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/233_(rare artifact 4).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/233_(rare artifact 4).png"
 			}
 		},
 		{
 			"name": "Ranger Knight Hatchling",
 			"rarity": "rare",
 			"mana_cost": "{W}",
-			"type": "Creature — Insect Archer Scout ",
+			"type": "Creature — Insect Archer Scout",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/31_Ranger Knight Hatchling.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/31_Ranger Knight Hatchling.png"
 			}
 		},
 		{
@@ -2787,7 +2787,7 @@
 			"type": "",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/41_(blue rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/41_(blue rare).png"
 			}
 		},
 		{
@@ -2797,7 +2797,7 @@
 			"type": "",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/81_(black rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/81_(black rare).png"
 			}
 		},
 		{
@@ -2807,7 +2807,7 @@
 			"type": "",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/121_(red rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/121_(red rare).png"
 			}
 		},
 		{
@@ -2817,554 +2817,282 @@
 			"type": "",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://EscapeFromLimbo.github.io/sets/CLE-files/img/163_(green rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/163_(green rare).png"
 			}
 		}
 	]
-[RareSlot(1)]
-2 Vernon the Inventive
-2 Honey-Flinger
-2 (lifegain payoff)
-2 The Moon Snail
-2 Leader of the Lights
-2 Venturers' Return
-2 Gno Grows Up
-2 Get Some Time Alone
-2 Cottonscale Drifter
-2 Gabl, the Dancing Mandible
-2 (card types)
-2 (instants matter)
-2 Bigmancer Bilfin
-2 (ferocious payoff)
-2 Spiralpainter Shellsworth
-2 (scout - ranger lord)
-2 Havenback Tortoise
-2 Fountain of Stars
-2 Chinook Encampment
-2 Mind Spring
-2 Orb of Old Shadows
-2 Breaching Sprayback
-2 I Can Count to Three
-2 Coming Storm
-2 Eelectrician
-2 Skylobite
-2 Monsooon Millery
-2 (aurora creatureland)
-2 Loess Town
-2 Comet Starcourse
-2 Enthralling Gaze
-2 When Dragons Fought
-2 Glowing Reminiscence
-2 Bottom-Feeder
-2 Exertion
-2 Homesick Sailor
-2 Grim Yestermancy
-2 Glintstone's Chosen
-2 Trickety-Tickety-Tin
-2 Most Helpful Tome
-2 Kindlotl
-2 Enchanted Eruption
-2 Brew For the Weary
-2 Carefree Smudgebundler
-2 Shell Scout Leader
-2 (kicker spell)
-2 The Ranger's Creed
-2 Stupendulous Sporing
-2 (big creature)
-2 (trample equip)
-2 (todo list)
-2 (rare artifact)
-2 (rare artifact 2)
-2 (rare artifact 3)
-2 (rare artifact 4)
-2 Ranger Knight Hatchling
-2 (blue rare)
-2 (black rare)
-2 (red rare)
-2 (green rare)
-1 Sinister Stew
-1 The Legendary Mica
-1 Crackling Hearth
-1 Ice-Sculptor Dragon
-1 Queen Bizabeth
-1 Crest, Ever-Talkative
-1 Arch-Chancellor Zybsalim
-1 Trisect Essence
-1 Wondrous Cadet
-1 High Priestess Varga
-1 Gibbous, the Scaredybug
-1 Remnant of the Lost Clan
-1 Easterly, Eager to Meet You
-1 Unleader Sclo
-1 Magmablood Elder
-1 Starburst
-1 Pepper, the Precocious
-1 Grandpa Garoom of Aurora
-1 Leafcutter Disciple
-1 (anti-control card)
-[UncommonSlot(3)]
-9 Petalwind Mage
-9 Lose Hold
-9 Envision
-9 Incinerating Breath
-9 Scout the Outlands
-9 Harvest of Clouds
-9 Mightkeeper Banner
-9 Snappytrap
-9 Orearchaeologist
-9 Whiptongue Toad
-9 Adolescent Shrine-Scion
-9 Egg of the Elders
-9 Guards of Old Ovonia
-9 Memorial Stone
-9 Bronze Toad
-9 Sunbeam Blade
-9 Shimmering Bounty
-9 Calamitous Miscast
-9 Fester
-9 Racing the Wind
-9 Fiddle Fern Pie
-9 Bowl-Shell Beetle
-9 Patient Bumblerog
-9 Cross Porpoises
-9 Canny Negotiator
-9 White-Web Widow
-9 Keeper of the Shellseal
-9 Heritage Reclamation
-9 Intangible Sage
-9 Proud Judgewyrm
-9 Bubbletoad
-9 Curious Shinosaur
-9 Sunset Seeker
-9 Monsoon Proctor
-9 Molten Dancer
-9 Bogberry Bloom
-9 Stoic Outlander
-9 Birchwood Blazewarden
-9 Stormwater Serpent
-9 Redscale Challenger
-9 Sorrowmancer
-9 Foreign Chromawalker
-9 Meticulous Quartermaster
-9 Unleader's Tribune
-9 Bumbling Brewer
-9 Druid of Watchful Stones
-9 Reef Walker
-9 Reorganize
-9 Artisanal Puzzlebox
-9 Stone-Masked Mage
-9 Auroral Migrant
-9 Swiftmeleon
-9 Puzzlewyrm's Familiar
-9 Jaw Order Outfitter
-9 Determined Snail
-9 Dinoplomacy
-9 Follywog's Fate
-9 Potted Beanstalk
-9 Ferocious Bite
-9 The Sorrow of Waxwing
-9 Riverwatch Glider
-9 Moment's Respite
-9 How the Dragon Got its Wings
-9 Quickpocket
-9 Cosmos Claw
-9 Ponderous Ruinguard
-9 Rumbling Grovewatch
-9 Sincere Impressionist
-9 Ancient Amberflow
-9 Time-Bleached Dragon
-9 The Founding of Buttermount
-9 Thistle Elemental
-9 Spell Pierce
-9 Discovery in Desperation
-9 Well-Stocked Reagents
-9 Antiquarian
-9 Catch-and-Releaser
-9 Excellent Idea
-9 Resonant Glimmerfeli
-9 Pestermeleon
-9 Lead Off the Path
-9 Primarical Goggles
-9 Fresh Start
-9 Lava Arc
-9 Decry
-9 Well-Rested
-9 Grove of Gathering
-9 Wide-Hooded Wizard
-9 Stolid Secondmage
-9 Dark-Tales Connaisseur
-[CommonSlot(7)]
-30 Loess Lightbearer
-30 Monsoon Fortune-Teller
-30 Odds-and-Ends-Monger
-30 Haughty Thespian
-30 Branch-Bender
-30 Poultice Courier
-30 Eavesdrop
-30 Hammerhead Bully
-30 Fiery Celebration
-30 Aurora Chronicler
-30 Snowpearl Sorter
-30 Flashy Aerobatics
-30 Comet Recollector
-30 Chinook Wumprider
-30 Verdant Tender
-30 Old-Law Sentinel
-30 Rainshadow Shield
-30 Bounding Squangler
-30 Gregarious Kindler
-30 Rivertrance
-30 Snappy Goldenwing
-30 Souldust Shepherd
-30 Magma Forging
-30 Wondrous View
-30 Joyful Disposition
-30 Majestic Kirin
-30 High Observator's Judgment
-30 Splashy Syrupcaster
-30 Ram Through
-30 Lost to Myth
-30 Befuddled Apprentice
-30 Wisdom of Experience
-30 Hermit of the Quairies
-30 Ribbon Range Guide
-30 Shining Rebuke
-30 Hibernate
-30 Diviner's Toad
-30 Fresh-Brewed Firenectar
-30 Pebblemage
-30 Mournful Craftsbug
-30 Sink
-30 Knight of the Humblebee
-30 Kindletouch
-30 Helpful Topiary
-30 Reliquary Cleanser
-30 Possessive Archmage
-30 Might-Tracker's Bow
-30 Stompin' Boots
-30 Lettuce Leaper
-30 Defend the Outlands
-30 Pinion Gilder
-30 Venomous Voice
-30 Shroomglow Collector
-30 Adventure Awaits
-30 Lumizoa
-30 Playful Diver
-30 Hero's Downfall
-30 Slippery Critter
-30 Bushwhack
-30 Skylands Vinecutter
-30 Introduction to Blobology
-30 Heavy Burden
-30 Ornery Wagonbeard
-30 Defender of the Patch
-30 Old Jade Guardian
-30 Friendly Fisher
-30 Sparkling Staff
-30 Everglass
-30 Chromatic Star
-30 Promising Sunscape
-30 Stoneword Reciter
-30 Pollywog Gossbearer
-30 Nova Reenactor
-30 Leaf-Clad Memorial
-30 Well-Stocked Singer
-30 Bitter Parting
-30 Reawakening
-30 Vanish
-30 Comprehend
-30 Yestermantic Assistance
-30 Frigid Landmark
-30 Gloomy Landmark
-30 Luminous Landmark
-30 Secluded Landmark
-30 Quaint Landmark
-30 Solemn Landmark
-30 Restorative Landmark
-30 Overgrown Landmark
-30 Bustling Landmark
-30 Imposing Landmark
-30 Archaeorator
-[WildcardSlot(2)]
-10 Loess Lightbearer
-10 Monsoon Fortune-Teller
-10 Odds-and-Ends-Monger
-10 Haughty Thespian
-10 Branch-Bender
-10 Poultice Courier
-10 Eavesdrop
-10 Hammerhead Bully
-10 Fiery Celebration
-10 Aurora Chronicler
-10 Snowpearl Sorter
-10 Flashy Aerobatics
-10 Comet Recollector
-10 Chinook Wumprider
-10 Verdant Tender
-10 Old-Law Sentinel
-10 Rainshadow Shield
-10 Bounding Squangler
-10 Gregarious Kindler
-10 Rivertrance
-10 Petalwind Mage
-10 Snappy Goldenwing
-10 Souldust Shepherd
-10 Magma Forging
-10 Wondrous View
-10 Joyful Disposition
-10 Majestic Kirin
-10 High Observator's Judgment
-10 Splashy Syrupcaster
-10 Ram Through
-10 Lost to Myth
-10 Befuddled Apprentice
-10 Wisdom of Experience
-10 Hermit of the Quairies
-10 Ribbon Range Guide
-10 Shining Rebuke
-10 Hibernate
-10 Diviner's Toad
-10 Fresh-Brewed Firenectar
-10 Pebblemage
-10 Mournful Craftsbug
-10 Sink
-10 Knight of the Humblebee
-10 Kindletouch
-10 Helpful Topiary
-10 Reliquary Cleanser
-10 Possessive Archmage
-10 Might-Tracker's Bow
-10 Stompin' Boots
-10 Lettuce Leaper
-10 Defend the Outlands
-10 Pinion Gilder
-10 Venomous Voice
-10 Shroomglow Collector
-10 Adventure Awaits
-10 Lumizoa
-10 Playful Diver
-10 Hero's Downfall
-10 Slippery Critter
-10 Bushwhack
-10 Skylands Vinecutter
-10 Introduction to Blobology
-10 Heavy Burden
-10 Ornery Wagonbeard
-10 Defender of the Patch
-10 Old Jade Guardian
-10 Friendly Fisher
-10 Sparkling Staff
-10 Everglass
-10 Chromatic Star
-10 Promising Sunscape
-10 Stoneword Reciter
-10 Pollywog Gossbearer
-10 Nova Reenactor
-10 Leaf-Clad Memorial
-10 Well-Stocked Singer
-10 Bitter Parting
-10 Reawakening
-10 Vanish
-10 Comprehend
-10 Yestermantic Assistance
-10 Breathtaking Vista
-10 Placid Icescape
-10 Inspiring Cairn
-10 Gentle Clearing
-10 Picturesque Field
-10 Promising Overlook
-10 Resplendent Moor
-10 Refreshing Spring
-10 Fragrant Basin
-10 Impressive Peak
-10 Lose Hold
-10 Envision
-10 Incinerating Breath
-10 Scout the Outlands
-10 Harvest of Clouds
-10 Mightkeeper Banner
-10 Snappytrap
-10 Orearchaeologist
-10 Whiptongue Toad
-10 Adolescent Shrine-Scion
-10 Frigid Landmark
-10 Gloomy Landmark
-10 Luminous Landmark
-10 Secluded Landmark
-10 Quaint Landmark
-10 Solemn Landmark
-10 Restorative Landmark
-10 Overgrown Landmark
-10 Bustling Landmark
-10 Imposing Landmark
-10 Egg of the Elders
-10 Guards of Old Ovonia
-10 Memorial Stone
-10 Bronze Toad
-10 Sunbeam Blade
-10 Shimmering Bounty
-10 Calamitous Miscast
-10 Fester
-10 Racing the Wind
-10 Fiddle Fern Pie
-10 Bowl-Shell Beetle
-10 Patient Bumblerog
-10 Cross Porpoises
-10 Canny Negotiator
-10 White-Web Widow
-10 Keeper of the Shellseal
-10 Heritage Reclamation
-10 Intangible Sage
-10 Proud Judgewyrm
-10 Bubbletoad
-10 Curious Shinosaur
-10 Sunset Seeker
-10 Monsoon Proctor
-10 Molten Dancer
-10 Bogberry Bloom
-10 Stoic Outlander
-10 Birchwood Blazewarden
-10 Stormwater Serpent
-10 Redscale Challenger
-10 Sorrowmancer
-10 Archaeorator
-10 Foreign Chromawalker
-10 Meticulous Quartermaster
-10 Unleader's Tribune
-10 Bumbling Brewer
-10 Druid of Watchful Stones
-10 Reef Walker
-10 Reorganize
-10 Artisanal Puzzlebox
-10 Stone-Masked Mage
-10 Auroral Migrant
-10 Swiftmeleon
-10 Puzzlewyrm's Familiar
-10 Jaw Order Outfitter
-10 Determined Snail
-10 Dinoplomacy
-10 Follywog's Fate
-10 Potted Beanstalk
-10 Ferocious Bite
-10 The Sorrow of Waxwing
-10 Riverwatch Glider
-10 Moment's Respite
-10 How the Dragon Got its Wings
-10 Quickpocket
-10 Cosmos Claw
-10 Ponderous Ruinguard
-10 Rumbling Grovewatch
-10 Sincere Impressionist
-10 Ancient Amberflow
-10 Time-Bleached Dragon
-10 The Founding of Buttermount
-10 Thistle Elemental
-10 Spell Pierce
-10 Discovery in Desperation
-10 Well-Stocked Reagents
-10 Antiquarian
-10 Catch-and-Releaser
-10 Excellent Idea
-10 Resonant Glimmerfeli
-10 Pestermeleon
-10 Lead Off the Path
-10 Primarical Goggles
-10 Fresh Start
-10 Lava Arc
-10 Decry
-10 Well-Rested
-10 Grove of Gathering
-10 Wide-Hooded Wizard
-10 Stolid Secondmage
-10 Dark-Tales Connaisseur
-10 Vernon the Inventive
-10 Sinister Stew
-10 Honey-Flinger
-10 (lifegain payoff)
-10 The Moon Snail
-10 The Legendary Mica
-10 Crackling Hearth
-10 Leader of the Lights
-10 Venturers' Return
-10 Ice-Sculptor Dragon
-10 Gno Grows Up
-10 Get Some Time Alone
-10 Cottonscale Drifter
-10 Queen Bizabeth
-10 Gabl, the Dancing Mandible
-10 (card types)
-10 (instants matter)
-10 Bigmancer Bilfin
-10 (ferocious payoff)
-10 Spiralpainter Shellsworth
-10 (scout - ranger lord)
-10 Havenback Tortoise
-10 Fountain of Stars
-10 Chinook Encampment
-10 Crest, Ever-Talkative
-10 Mind Spring
-10 Orb of Old Shadows
-10 Arch-Chancellor Zybsalim
-10 Trisect Essence
-10 Wondrous Cadet
-10 Breaching Sprayback
-10 I Can Count to Three
-10 Coming Storm
-10 Eelectrician
-10 Skylobite
-10 Monsooon Millery
-10 (aurora creatureland)
-10 Loess Town
-10 Comet Starcourse
-10 Enthralling Gaze
-10 High Priestess Varga
-10 When Dragons Fought
-10 Gibbous, the Scaredybug
-10 Glowing Reminiscence
-10 Bottom-Feeder
-10 Exertion
-10 Remnant of the Lost Clan
-10 Homesick Sailor
-10 Grim Yestermancy
-10 Easterly, Eager to Meet You
-10 Glintstone's Chosen
-10 Unleader Sclo
-10 Trickety-Tickety-Tin
-10 Most Helpful Tome
-10 Kindlotl
-10 Enchanted Eruption
-10 Magmablood Elder
-10 Starburst
-10 Brew For the Weary
-10 Pepper, the Precocious
-10 Carefree Smudgebundler
-10 Shell Scout Leader
-10 Grandpa Garoom of Aurora
-10 (kicker spell)
-10 The Ranger's Creed
-10 Stupendulous Sporing
-10 (big creature)
-10 (trample equip)
-10 Leafcutter Disciple
-10 (anti-control card)
-10 (todo list)
-10 (rare artifact)
-10 (rare artifact 2)
-10 (rare artifact 3)
-10 (rare artifact 4)
-10 Ranger Knight Hatchling
-10 (blue rare)
-10 (black rare)
-10 (red rare)
-10 (green rare)
-[LandSlot(1)]
-10 Breathtaking Vista
-10 Placid Icescape
-10 Inspiring Cairn
-10 Gentle Clearing
-10 Picturesque Field
-10 Promising Overlook
-10 Resplendent Moor
-10 Refreshing Spring
-10 Fragrant Basin
-10 Impressive Peak
+
+[rare(1)]
+	5 Vernon the Inventive
+	5 Sinister Stew
+	5 Honey-Flinger
+	5 (lifegain payoff)
+	5 The Moon Snail
+	5 The Legendary Mica
+	5 Crackling Hearth
+	5 Leader of the Lights
+	5 Venturers' Return
+	5 Ice-Sculptor Dragon
+	5 Gno Grows Up
+	5 Get Some Time Alone
+	5 Cottonscale Drifter
+	5 Queen Bizabeth
+	5 Gabl, the Dancing Mandible
+	5 (card types)
+	5 (instants matter)
+	5 Bigmancer Bilfin
+	5 (ferocious payoff)
+	5 Spiralpainter Shellsworth
+	5 (scout - ranger lord)
+	5 Havenback Tortoise
+	5 Fountain of Stars
+	5 Chinook Encampment
+	5 Crest, Ever-Talkative
+	5 Mind Spring
+	5 Orb of Old Shadows
+	5 Arch-Chancellor Zybsalim
+	5 Trisect Essence
+	5 Wondrous Cadet
+	5 Breaching Sprayback
+	5 I Can Count to Three
+	5 Coming Storm
+	5 Eelectrician
+	5 Skylobite
+	5 Monsooon Millery
+	5 (aurora creatureland)
+	5 Loess Town
+	5 Comet Starcourse
+	5 Enthralling Gaze
+	5 High Priestess Varga
+	5 When Dragons Fought
+	5 Gibbous, the Scaredybug
+	5 Glowing Reminiscence
+	5 Bottom-Feeder
+	5 Exertion
+	5 Remnant of the Lost Clan
+	5 Homesick Sailor
+	5 Grim Yestermancy
+	5 Easterly, Eager to Meet You
+	5 Glintstone's Chosen
+	5 Unleader Sclo
+	5 Trickety-Tickety-Tin
+	5 Most Helpful Tome
+	5 Kindlotl
+	5 Enchanted Eruption
+	5 Magmablood Elder
+	5 Starburst
+	5 Brew For the Weary
+	5 Pepper, the Precocious
+	5 Carefree Smudgebundler
+	5 Shell Scout Leader
+	5 Grandpa Garoom of Aurora
+	5 (kicker spell)
+	5 The Ranger's Creed
+	5 Stupendulous Sporing
+	5 (big creature)
+	5 (trample equip)
+	5 Leafcutter Disciple
+	5 (anti-control card)
+	5 (todo list)
+	5 (rare artifact)
+	5 (rare artifact 2)
+	5 (rare artifact 3)
+	5 (rare artifact 4)
+	5 Ranger Knight Hatchling
+	5 (blue rare)
+	5 (black rare)
+	5 (red rare)
+	5 (green rare)
+[uncommon(3)]
+	5 Petalwind Mage
+	5 Breathtaking Vista
+	5 Placid Icescape
+	5 Inspiring Cairn
+	5 Gentle Clearing
+	5 Picturesque Field
+	5 Promising Overlook
+	5 Resplendent Moor
+	5 Refreshing Spring
+	5 Fragrant Basin
+	5 Impressive Peak
+	5 Lose Hold
+	5 Envision
+	5 Incinerating Breath
+	5 Scout the Outlands
+	5 Harvest of Clouds
+	5 Mightkeeper Banner
+	5 Snappytrap
+	5 Orearchaeologist
+	5 Whiptongue Toad
+	5 Adolescent Shrine-Scion
+	5 Egg of the Elders
+	5 Guards of Old Ovonia
+	5 Memorial Stone
+	5 Bronze Toad
+	5 Sunbeam Blade
+	5 Shimmering Bounty
+	5 Calamitous Miscast
+	5 Fester
+	5 Racing the Wind
+	5 Fiddle Fern Pie
+	5 Bowl-Shell Beetle
+	5 Patient Bumblerog
+	5 Cross Porpoises
+	5 Canny Negotiator
+	5 White-Web Widow
+	5 Keeper of the Shellseal
+	5 Heritage Reclamation
+	5 Intangible Sage
+	5 Proud Judgewyrm
+	5 Bubbletoad
+	5 Curious Shinosaur
+	5 Sunset Seeker
+	5 Monsoon Proctor
+	5 Molten Dancer
+	5 Bogberry Bloom
+	5 Stoic Outlander
+	5 Birchwood Blazewarden
+	5 Stormwater Serpent
+	5 Redscale Challenger
+	5 Sorrowmancer
+	5 Foreign Chromawalker
+	5 Meticulous Quartermaster
+	5 Unleader's Tribune
+	5 Bumbling Brewer
+	5 Druid of Watchful Stones
+	5 Reef Walker
+	5 Reorganize
+	5 Artisanal Puzzlebox
+	5 Stone-Masked Mage
+	5 Auroral Migrant
+	5 Swiftmeleon
+	5 Puzzlewyrm's Familiar
+	5 Jaw Order Outfitter
+	5 Determined Snail
+	5 Dinoplomacy
+	5 Follywog's Fate
+	5 Potted Beanstalk
+	5 Ferocious Bite
+	5 The Sorrow of Waxwing
+	5 Riverwatch Glider
+	5 Moment's Respite
+	5 How the Dragon Got its Wings
+	5 Quickpocket
+	5 Cosmos Claw
+	5 Ponderous Ruinguard
+	5 Rumbling Grovewatch
+	5 Sincere Impressionist
+	5 Ancient Amberflow
+	5 Time-Bleached Dragon
+	5 The Founding of Buttermount
+	5 Thistle Elemental
+	5 Spell Pierce
+	5 Discovery in Desperation
+	5 Well-Stocked Reagents
+	5 Antiquarian
+	5 Catch-and-Releaser
+	5 Excellent Idea
+	5 Resonant Glimmerfeli
+	5 Pestermeleon
+	5 Lead Off the Path
+	5 Primarical Goggles
+	5 Fresh Start
+	5 Lava Arc
+	5 Decry
+	5 Well-Rested
+	5 Grove of Gathering
+	5 Wide-Hooded Wizard
+	5 Stolid Secondmage
+	5 Dark-Tales Connaisseur
+[common(10)]
+	5 Loess Lightbearer
+	5 Monsoon Fortune-Teller
+	5 Odds-and-Ends-Monger
+	5 Haughty Thespian
+	5 Branch-Bender
+	5 Poultice Courier
+	5 Eavesdrop
+	5 Hammerhead Bully
+	5 Fiery Celebration
+	5 Aurora Chronicler
+	5 Snowpearl Sorter
+	5 Flashy Aerobatics
+	5 Comet Recollector
+	5 Chinook Wumprider
+	5 Verdant Tender
+	5 Old-Law Sentinel
+	5 Rainshadow Shield
+	5 Bounding Squangler
+	5 Gregarious Kindler
+	5 Rivertrance
+	5 Snappy Goldenwing
+	5 Souldust Shepherd
+	5 Magma Forging
+	5 Wondrous View
+	5 Joyful Disposition
+	5 Majestic Kirin
+	5 High Observator's Judgment
+	5 Splashy Syrupcaster
+	5 Ram Through
+	5 Lost to Myth
+	5 Befuddled Apprentice
+	5 Wisdom of Experience
+	5 Hermit of the Quairies
+	5 Ribbon Range Guide
+	5 Shining Rebuke
+	5 Hibernate
+	5 Diviner's Toad
+	5 Fresh-Brewed Firenectar
+	5 Pebblemage
+	5 Mournful Craftsbug
+	5 Sink
+	5 Knight of the Humblebee
+	5 Kindletouch
+	5 Helpful Topiary
+	5 Reliquary Cleanser
+	5 Possessive Archmage
+	5 Might-Tracker's Bow
+	5 Stompin' Boots
+	5 Lettuce Leaper
+	5 Defend the Outlands
+	5 Pinion Gilder
+	5 Venomous Voice
+	5 Shroomglow Collector
+	5 Adventure Awaits
+	5 Lumizoa
+	5 Playful Diver
+	5 Hero's Downfall
+	5 Slippery Critter
+	5 Bushwhack
+	5 Skylands Vinecutter
+	5 Introduction to Blobology
+	5 Heavy Burden
+	5 Ornery Wagonbeard
+	5 Defender of the Patch
+	5 Old Jade Guardian
+	5 Friendly Fisher
+	5 Sparkling Staff
+	5 Everglass
+	5 Chromatic Star
+	5 Promising Sunscape
+	5 Stoneword Reciter
+	5 Pollywog Gossbearer
+	5 Nova Reenactor
+	5 Leaf-Clad Memorial
+	5 Well-Stocked Singer
+	5 Bitter Parting
+	5 Reawakening
+	5 Vanish
+	5 Comprehend
+	5 Yestermantic Assistance
+	5 Frigid Landmark
+	5 Gloomy Landmark
+	5 Luminous Landmark
+	5 Secluded Landmark
+	5 Quaint Landmark
+	5 Solemn Landmark
+	5 Restorative Landmark
+	5 Overgrown Landmark
+	5 Bustling Landmark
+	5 Imposing Landmark
+	5 Archaeorator
