@@ -68,6 +68,26 @@ or
 
 Triggered abilities that could trigger multiple times use "Whenever", those that could trigger only once (enter triggers, death triggers, and the like) use "When".
 
+Choose one effects work differently from all other choices made on a spell or ability. Which mode of a choose one (or more) spell or ability must be chosen as that cpell or ability is put on the stack, at the same time that targets are chosen. In addition, "choose" must be the very first word of the imperative part of a modal spell or ability. Lastly, if the last sentence before the bulleted list of choices began with the word "Choose", ther it gets an em-dash with a space and no period. Otherwise, just a period.
+
+So these are all wrong
+
+&emsp;&emsp;*Choose two.--
+
+&emsp;&emsp;*Choose one. If you control three or more creatures, you may choose two instead --
+
+&emsp;&emsp;*Exile the top card of your library. Choose one -- - Put that card into your hand. You lose life equal to its mana value - Each opponent loses life equal to its mana value.
+
+These should be
+
+&emsp;&emsp;Choose two --
+
+&emsp;&emsp;Choose one. If you control three or more creatures as you cast this spell, you may choose two instead.
+
+&emsp;&emsp;Exile the top card of your library. You may put it into your hand. If you do, you lose life equal to its mana value. Otherwise, each opponent loses life equal to its mana value.
+
+If you really must have a spell or ability that has a modal portion and a non-modal portion, you have two options. You can either put the modal portion first (see Blood on the Snow; this only works for spells, not abilities) or you can put the non-modal part first and have a "When you do" (see Cemetery Desecrator).
+
 <b>English Grammar and Syntax</b>
 
 You cannot join two complete sentences with a comma. So
