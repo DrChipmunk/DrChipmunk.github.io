@@ -34,6 +34,14 @@ Nor can you do
 
 &emsp;&emsp;*This creature's power and toughness are each equal to the greatest power among other creatures you control
 
+Any card that adds additional steps or phases to the turn needs to be templated such that it can't add steps or phases after the cleanup step (this would cause all sorts of bizarre effects). So don't do
+
+&emsp;&emsp;*When this creature enters, there’s an additional combat phase after this phase. 
+
+You need
+
+&emsp;&emsp;When this creature enters, if it’s your main phase, there’s an additional combat phase after this phase.
+
 <b>Syntax</b>
 
 The following things are capitalized in rules text: card names; subtypes; the first word of lines, sentences, and costs; and proper nouns (very rare, think the second word of "For Mirrodin!" or the word "Magic" in the rules text of Shahrazad). Everything else is not capitalized, so no

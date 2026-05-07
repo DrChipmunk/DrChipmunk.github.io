@@ -77,3 +77,54 @@ Elo update
 8 (-1): allwhowander | 1591 (-8)
 9 (=): purplemurasaki | 1580 (=)
 10 (=): 7nix | 1579 (=)
+
+<b>GP Silver Glade</b>
+
+While Worlds 2026 raged, in the background the first invite for Worlds 2027 was being seized. Revolution's first Archaeologist GP allowed players to register any deck from REV history. There's a major difference between this format and historical standard in canon Magic - REV has nerfs, not bans, so the best decks of yesteryear are mostly not playable as they were. There were two major approaches - either play a deck of the current rotation or close enough that the nerf bat has yet spared, or play an old, familiar deck that still mostly survives.
+
+Of the oldies, RW aggro, Naya Hydra toolbox, UR flashback, RW experience, and bant counters all came out of the vault for a last hurrah, but the only old deck to make the top tables was Rickrister's old reliable 4c Consonance. Ricky may have more reps with consonance than anyone else in the format with a single deck, and that experience overcame what slight dust the strategy has accumulated over the years.
+
+There was one more interesting wrinkle in the format's historical accuracy - the buff patches, which allowed certain buffed cards to cross paths with cards that rotated before they were buffed. The most relevant was Envoy of the Fallen getting access to Eidolon of Empty Thoughts, giving aristocrats access to the full 12 creatures that die into treasures. Two players brought this strategy (and another an older crats list), with Lih getting into top cut.
+ 
+On the no-nonsense side of the scale, all the biggest boogeymen of SOL-era standard with in full force. Jeskai control, solidarity, and jund midrange went for their shot, but it was tremor's finely tuned BG midrange (sans Zukar but still powerful) and cftsoc3's UR prowess featuring Clash at Mistwrit Vale that got there. The finals came down the cftsoc3 vs. Rickyrister, and the new hotness beat the old classics. cftsoc3 claimed back-to-back GPs and the Worlds 2027 invite.
+
+Elo update
+1 (+1): philippe saner | 1669 (=)
+2 (-1): drchipmunk | 1669 (-23)
+3 (+1): covetedpeacock | 1635 (=)
+4 (-1): kayiu102 | 1610 (-26)
+5 (=): provocative | 1602 (=)
+6 (=): lihlosaur | 1598 (-3)
+7 (+8): cftsoc3 | 1597 (+33)
+8 (-1): anarchist00 | 1595 (=)
+9 (-1): allwhowander | 1592 (+1)
+10 (-1): purplemurasaki | 1580 (=)
+
+<b>Worlds 2026</b>
+The 2026 Worlds qualifier season was a time of passing eras. Yours truly, Lih, Nix, and cftsoc3 all took turns standing astride the format, and all were making the most of their cunning going into the year's biggest tournament.
+
+But when the decklists were revealed, another story quickly took over. Three players had ingeniously found, built around, and kept secret a nasty combo of Zukar and Temple fo Origins, allowing them to remove their opponent's ability to produce colored mana as early as turn 3. HSquid and CatInTree had a RB control shell, and tremor a BG midrange shell, for the combo. 
+
+Outside of those three, the field was diverse. PTM (according to style) and kumrac (very much not according to style) brought low-curve red aggro decks. PTM brought Flaw in the System as a read on the format's greedy manabases and got as far as 5th; both he and kumrac (7th) fell to a RW midrange deck with a ton of lifegain.
+
+That RW midrange deck was piloted by AllWhoWander, who brought the massive life gain of Cleansing Starfire all the way to third place, taking out yours truly on a different RW midrange deck built around Qaraz Monument (giving me fourth). After Zukar, the card of the tournament was Offset Daemon, putting in excellent work across midrange and control decks; AllWhoWander found the excellent sideboard option of Oberys as an ecellent meta call.
+
+It was a bad tournament for players trying to make fair creature-based midrange happen; Stasis on Bant midrange and Provocative on Naya tokens both went 0-2, falling to various aggro decks and decks packing the format's excellent 3- and 4-mana sweepers.
+
+The most common single archetype in the room was UR prowess, with three players on some variant of the strategy. Despite the awesome power of Clash at Mistwrit Vale, the field was well-prepared, and cftsoc3 got the furthest of them at 9th.
+
+The biggest deck of the SOL season overall was Jeskai control in its many guises; Kayiu brought the deck, barely tweaked from its excellent last-month performance, to a respectable 5th, falling to yours truly. The plentiful sweepers and removal had a tough time against the planeswalker, land, and enchantment-centric threats on offer.
+
+Two players brought ramp decks built around the previously little-explored Last Wish. Of them, Lih had the better build, playing blue to gain access to Black Dawn Historian for a combo finish. Lih had a clean record into winners finals, was dropped to losers finals, where they beat AllWhoWander for the revenge shot in grands.
+
+Of the Sukar players, the two RB control lists had little luck, but tremor, who qualified from fourth-place in TWI league season, had the best deck in the field. With comprehensive matchup testing, they dropped not a single game all the way to grand finals, where they defeated Lih to claim the ultimate dark horse victory.
+
+Standings:
+1st: tremor
+2nd: Lihlosaur
+3rd: AllWhoWander
+4th: DrChipmunk
+5th: kayiu102
+5th: PTM
+7th: kumrac
+7th: HSquid

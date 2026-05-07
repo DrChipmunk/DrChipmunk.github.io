@@ -1,4 +1,211 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Beginner's Blobology added.
+Memorial Lute added.
+Meticulous Nectarwatch added.
+See With New Eyes added.
+Long-Tenured Judge added.
+Acheaorator Zarrack added.
+Collector Quelbsy added.
+Klemph, Spawn of Grudges added.
+Prol Lavatoucher added.
+Krivvik, Cavern's Tutelage added.
+Aurora Titanwatch added.
+Loess Bustleton added.
+Spectral Seeker added.
+Gurglollon added.
+Introduction to Impossibilities added.
+Ranger's Oath added.
+Find Your Clearingsong added.
+Blade of the Elders added.
+The Lotus of Ovonia added.
+The Stone of Heroes added.
+Panharmonicon added.
+Magnificent Inventificator added.
+Humming Hive added.
+Amethyst Talekeeper added.
+Insect added.
+
+Introduction to Blobology removed.
+Memorial Stone removed.
+Archaeorator removed.
+Excellent Idea removed.
+Wide-Hooded Wizard removed.
+(lifegain payoff) removed.
+(card types) removed.
+(instants matter) removed.
+(ferocious payoff) removed.
+(scout - ranger lord) removed.
+(aurora creatureland) removed.
+Loess Town removed.
+Glowing Reminiscence removed.
+Bottom-Feeder removed.
+Most Helpful Tome removed.
+(kicker spell) removed.
+The Ranger's Creed removed.
+(trample equip) removed.
+(rare artifact) removed.
+(rare artifact 2) removed.
+(rare artifact 3) removed.
+(blue rare) removed.
+(red rare) removed.
+(green rare) removed.
+
+Racing the Wind
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — This Saga deals 1 damage to each opponent.
+II, III — At the beginning of your next combat, target creature you control gets +1/+1 and gains haste until end of turn.
+​ => 
+This Saga deals 1 damage to each opponent.
+At the beginning of your next combat, target creature you control gets +1/+1 and gains haste until end of turn.
+
+Fiddle Fern Pie
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 red Elemental creature token.
+Create a tapped Treasure token.
+II — Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control. => 
+Create a 1/1 red Elemental creature token.
+Create a tapped Treasure token.
+Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control.
+
+Sorrowmancer
+rules_text: When this creature enters, target opponent loses X life and you gain X life, where X is the number of card types among cards in your graveyard. => Lifelink
+Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of card types among cards in your graveyard.
+pt: 5/4 => 1/4
+
+Puzzlewyrm's Familiar
+rules_text: Flying
+Aspire — When you draw your third card in a turn turn, put two +1/+1 counters on this creature. [i](Each aspire ability triggers only once.)[/i] => Flying
+Aspire — When you draw your third card in a turn, put two +1/+1 counters on this creature. [i](Each aspire ability triggers only once.)[/i]
+
+The Sorrow of Waxwing
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Destroy target creature an opponent controls.
+II, III — Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+​ => 
+Destroy target creature an opponent controls.
+Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+
+How the Dragon Got its Wings
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+​ => 
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+
+The Founding of Buttermount
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card. => 
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card.
+
+The Legendary Mica
+type: Legendary Creature — Whale Ranger => Legendary Creature — Whale Cleric
+
+Gno Grows Up
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 2/2 green Ranger creature token.
+II, III — Put a +1/+1 counter on target creature with the least power among creatures you control.
+​ => 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control.
+
+Mind Spring
+rules_text: Draw X cards.
+[i](scry / surveil?)[/i] => Draw X cards.
+
+Orb of Old Shadows
+rules_text: Whenever a Wizard you control enters, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. => When this artifact enters, surveil 2.
+Whenever a Wizard you control enters, you may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead.
+
+Arch-Chancellor Zybsalim
+rules_text: Flying
+Whenever you attack, draw a card. => Flying
+At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Draw a card.
+II — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+III — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+When Dragons Fought
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 4/4 blue Dragon creature token with flying. Draw a card.
+II — Discard a card.
+III — Sacrifice a creature. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Target player gains control of this Saga.
+II — Sacrifice a creature.
+III — Discard a card.
+IV — You lose 3 life. You may remove all lore counters from this Saga.
+
+Unleader Sclo
+type: Legendary Creature — Dragon => Legendary Creature — Elder Dragon
+rules_text: Flying
+Whenever you cast an instant or sorcery spell, you may pay {2}. If you do, copy it. You may choose new targets for the copy. => Flying
+At the beginning of combat on your turn, create a token that's a copy of another target creature you control. It gains haste. Sacrifice it at the beginning of the next end step.
+
+Trickety-Tickety-Tin
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Exile the top card of your library.
+III — Exile the top card of your library. You may play a card exiled with this Saga this turn.
+​ => 
+Exile the top card of your library.
+Exile the top card of your library. You may play a card exiled with this Saga this turn.
+
+Enchanted Eruption
+rules_text: Kicker {5}{R} [i](You may pay an additional {5}{R} as you cast this spell.)[/i]
+Exile target sorcery card with mana value 3 or less from your graveyard. Copy it. If this spell was kicked, copy it three times instead. You may cast the copies without paying their mana costs. => Exile target sorcery card with mana value 2 or 3 from your graveyard. Copy it. You may cast the copy without paying its mana cost.
+
+Starburst
+type: Instant => Sorcery
+rules_text: This spell deals X damage to any target.
+[i](artifacts?)[/i] => Kicker {R} [i](You may pay an additional {R} as you cast this spell.)[/i]
+Choose one. If this spell was kicked, you may choose both.
+• Starburst deals X damage to any target.
+• Create X 1/1 red Elemental creature tokens.
+
+Brew For the Weary
+rules_text: This spell can't be countered.
+Each player may discard their hand and draw five cards.
+[i](something creature-related — Menace?)[/i] => This spell can't be countered.
+Each player may discard their hand and draw five cards.
+
+Carefree Smudgebundler
+pt:  => 1/1
+
+Grandpa Garoom of Aurora
+type:  => Legendary Creature — Elder Crocodile
+rules_text: Trample
+You may play two additional lands each turn. => Trample
+You may play land cards you own from outside the game.
+You may play an additional land each turn.
+
+(big creature)
+
+(anti-control card)
+
+(todo list)
+rules_text: INSPECT: [i](life gain, draw, sorcery, legends, wizards, types in yard, solidarity, coven, power 4 or greater)[/i]
+TODO: [i](Aspir, flying, instants, artifact, types of field, rangers, scry / surveil, paradox, sagas)[/i]
+DONE: [i](colors, kicker, flurry, battalion, blink, enchantment, menace, valiant, morbid, 1-drop, tokens, mana values)[/i] => 
+
+(rare artifact 4)
+
+(black rare)
+type:  => Creature
+rules_text:  => Whenever a creature you control with flying dies,
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Splashy Syrupcaster added.

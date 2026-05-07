@@ -1,7 +1,7 @@
 ﻿[
     {
         "card_name": "Crackling Hearth",
-        "number": 6,
+        "number": 5,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -9,7 +9,7 @@
     },
     {
         "card_name": "Arch-Chancellor Zybsalim",
-        "number": 42,
+        "number": 41,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -17,7 +17,7 @@
     },
     {
         "card_name": "Gibbous, the Scaredybug",
-        "number": 96,
+        "number": 95,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -25,7 +25,7 @@
     },
     {
         "card_name": "Easterly, Eager to Meet You",
-        "number": 128,
+        "number": 127,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -41,7 +41,7 @@
     },
     {
         "card_name": "Ice-Sculptor Dragon",
-        "number": 16,
+        "number": 15,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -57,7 +57,7 @@
     },
     {
         "card_name": "High Priestess Varga",
-        "number": 103,
+        "number": 102,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -65,7 +65,7 @@
     },
     {
         "card_name": "Magmablood Elder",
-        "number": 143,
+        "number": 144,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -81,7 +81,7 @@
     },
     {
         "card_name": "The Legendary Mica",
-        "number": 21,
+        "number": 20,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -89,7 +89,7 @@
     },
     {
         "card_name": "Trisect Essence",
-        "number": 78,
+        "number": 79,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Remnant of the Lost Clan",
-        "number": 109,
+        "number": 108,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "Sinister Stew",
-        "number": 110,
+        "number": 109,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -161,15 +161,15 @@
     },
     {
         "card_name": "Cottonscale Drifter",
-        "number": 5,
+        "number": 4,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(blue rare)",
-        "number": 41,
+        "card_name": "Breaching Sprayback",
+        "number": 44,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -184,8 +184,8 @@
         "position": ""
     },
     {
-        "card_name": "(red rare)",
-        "number": 121,
+        "card_name": "Brew For the Weary",
+        "number": 123,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -201,47 +201,7 @@
     },
     {
         "card_name": "Fountain of Stars",
-        "number": 12,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Breaching Sprayback",
-        "number": 44,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Bottom-Feeder",
-        "number": 83,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Brew For the Weary",
-        "number": 124,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "(green rare)",
-        "number": 163,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Get Some Time Alone",
-        "number": 13,
+        "number": 11,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -257,7 +217,7 @@
     },
     {
         "card_name": "Enthralling Gaze",
-        "number": 93,
+        "number": 92,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -265,14 +225,14 @@
     },
     {
         "card_name": "Enchanted Eruption",
-        "number": 129,
+        "number": 128,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(kicker spell)",
+        "card_name": "Amethyst Talekeeper",
         "number": 164,
         "shape": "normal",
         "set": "CLE",
@@ -280,9 +240,9 @@
         "position": ""
     },
     {
-        "card_name": "Gno Grows Up",
-        "number": 14,
-        "shape": "saga",
+        "card_name": "Get Some Time Alone",
+        "number": 12,
+        "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
@@ -297,7 +257,7 @@
     },
     {
         "card_name": "Exertion",
-        "number": 94,
+        "number": 93,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -305,39 +265,39 @@
     },
     {
         "card_name": "Glintstone's Chosen",
-        "number": 133,
+        "number": 132,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(trample equip)",
-        "number": 165,
+        "card_name": "Blade of the Elders",
+        "number": 167,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Havenback Tortoise",
-        "number": 15,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "I Can Count to Three",
-        "number": 56,
+        "card_name": "Gno Grows Up",
+        "number": 13,
         "shape": "saga",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Glowing Reminiscence",
-        "number": 97,
+        "card_name": "I Can Count to Three",
+        "number": 55,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Grim Yestermancy",
+        "number": 96,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -345,7 +305,7 @@
     },
     {
         "card_name": "Honey-Flinger",
-        "number": 137,
+        "number": 136,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -353,15 +313,55 @@
     },
     {
         "card_name": "Carefree Smudgebundler",
-        "number": 171,
+        "number": 170,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
+        "card_name": "Havenback Tortoise",
+        "number": 14,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Magnificent Inventificator",
+        "number": 58,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gurglollon",
+        "number": 97,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Humming Hive",
+        "number": 137,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Find Your Clearingsong",
+        "number": 174,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Leader of the Lights",
-        "number": 20,
+        "number": 19,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -376,25 +376,25 @@
         "position": ""
     },
     {
-        "card_name": "Grim Yestermancy",
-        "number": 98,
+        "card_name": "Homesick Sailor",
+        "number": 103,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Kindlotl",
-        "number": 140,
+        "card_name": "Introduction to Impossibilities",
+        "number": 138,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "The Ranger's Creed",
+        "card_name": "Ranger's Oath",
         "number": 189,
-        "shape": "saga",
+        "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
@@ -416,16 +416,16 @@
         "position": ""
     },
     {
-        "card_name": "Homesick Sailor",
-        "number": 104,
+        "card_name": "Spectral Seeker",
+        "number": 113,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Most Helpful Tome",
-        "number": 145,
+        "card_name": "Kindlotl",
+        "number": 141,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -449,7 +449,7 @@
     },
     {
         "card_name": "Skylobite",
-        "number": 74,
+        "number": 75,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -505,7 +505,7 @@
     },
     {
         "card_name": "Ancient Amberflow",
-        "number": 122,
+        "number": 121,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -513,7 +513,7 @@
     },
     {
         "card_name": "Birchwood Blazewarden",
-        "number": 168,
+        "number": 166,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -521,7 +521,7 @@
     },
     {
         "card_name": "Auroral Migrant",
-        "number": 3,
+        "number": 2,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -537,7 +537,7 @@
     },
     {
         "card_name": "Bubbletoad",
-        "number": 85,
+        "number": 84,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -545,7 +545,7 @@
     },
     {
         "card_name": "Artisanal Puzzlebox",
-        "number": 123,
+        "number": 122,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -553,7 +553,7 @@
     },
     {
         "card_name": "Catch-and-Releaser",
-        "number": 172,
+        "number": 171,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -561,47 +561,7 @@
     },
     {
         "card_name": "Bowl-Shell Beetle",
-        "number": 4,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Excellent Idea",
-        "number": 51,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Bumbling Brewer",
-        "number": 86,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Canny Negotiator",
-        "number": 125,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Fiddle Fern Pie",
-        "number": 174,
-        "shape": "saga",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Curious Shinosaur",
-        "number": 7,
+        "number": 3,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -609,15 +569,55 @@
     },
     {
         "card_name": "Fresh Start",
-        "number": 53,
+        "number": 52,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
+        "card_name": "Bumbling Brewer",
+        "number": 85,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Canny Negotiator",
+        "number": 124,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fiddle Fern Pie",
+        "number": 173,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Curious Shinosaur",
+        "number": 6,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "How the Dragon Got its Wings",
+        "number": 54,
+        "shape": "saga",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Cosmos Claw",
-        "number": 88,
+        "number": 87,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -625,7 +625,7 @@
     },
     {
         "card_name": "Discovery in Desperation",
-        "number": 127,
+        "number": 126,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -641,23 +641,23 @@
     },
     {
         "card_name": "Dinoplomacy",
-        "number": 9,
+        "number": 8,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "How the Dragon Got its Wings",
-        "number": 55,
-        "shape": "saga",
+        "card_name": "Intangible Sage",
+        "number": 56,
+        "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
         "card_name": "Dark-Tales Connaisseur",
-        "number": 89,
+        "number": 88,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -665,7 +665,7 @@
     },
     {
         "card_name": "Ferocious Bite",
-        "number": 130,
+        "number": 129,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -681,14 +681,14 @@
     },
     {
         "card_name": "Druid of Watchful Stones",
-        "number": 10,
+        "number": 9,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Intangible Sage",
+        "card_name": "Long-Tenured Judge",
         "number": 57,
         "shape": "normal",
         "set": "CLE",
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "Decry",
-        "number": 90,
+        "number": 89,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -705,7 +705,7 @@
     },
     {
         "card_name": "Jaw Order Outfitter",
-        "number": 138,
+        "number": 139,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -721,7 +721,7 @@
     },
     {
         "card_name": "The Founding of Buttermount",
-        "number": 11,
+        "number": 10,
         "shape": "saga",
         "set": "CLE",
         "rotated": false,
@@ -737,7 +737,7 @@
     },
     {
         "card_name": "Determined Snail",
-        "number": 91,
+        "number": 90,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -745,7 +745,7 @@
     },
     {
         "card_name": "Lava Arc",
-        "number": 141,
+        "number": 142,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -761,7 +761,7 @@
     },
     {
         "card_name": "Keeper of the Shellseal",
-        "number": 18,
+        "number": 17,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Fester",
-        "number": 95,
+        "number": 94,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -785,7 +785,7 @@
     },
     {
         "card_name": "Molten Dancer",
-        "number": 144,
+        "number": 145,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -801,7 +801,7 @@
     },
     {
         "card_name": "Lead Off the Path",
-        "number": 19,
+        "number": 18,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -817,7 +817,7 @@
     },
     {
         "card_name": "Pestermeleon",
-        "number": 108,
+        "number": 107,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -857,7 +857,7 @@
     },
     {
         "card_name": "The Sorrow of Waxwing",
-        "number": 111,
+        "number": 110,
         "shape": "saga",
         "set": "CLE",
         "rotated": false,
@@ -897,7 +897,7 @@
     },
     {
         "card_name": "Sorrowmancer",
-        "number": 112,
+        "number": 111,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -928,7 +928,7 @@
         "position": ""
     },
     {
-        "card_name": "Sincere Impressionist",
+        "card_name": "See With New Eyes",
         "number": 72,
         "shape": "normal",
         "set": "CLE",
@@ -968,8 +968,8 @@
         "position": ""
     },
     {
-        "card_name": "Spell Pierce",
-        "number": 76,
+        "card_name": "Sincere Impressionist",
+        "number": 73,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1008,7 +1008,7 @@
         "position": ""
     },
     {
-        "card_name": "Stormwater Serpent",
+        "card_name": "Spell Pierce",
         "number": 77,
         "shape": "normal",
         "set": "CLE",
@@ -1048,8 +1048,8 @@
         "position": ""
     },
     {
-        "card_name": "Wide-Hooded Wizard",
-        "number": 79,
+        "card_name": "Stormwater Serpent",
+        "number": 78,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1080,8 +1080,8 @@
         "position": ""
     },
     {
-        "card_name": "Archaeorator",
-        "number": 2,
+        "card_name": "Defend the Outlands",
+        "number": 7,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1089,7 +1089,7 @@
     },
     {
         "card_name": "Befuddled Apprentice",
-        "number": 43,
+        "number": 42,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1097,7 +1097,7 @@
     },
     {
         "card_name": "Bounding Squangler",
-        "number": 84,
+        "number": 83,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Chinook Wumprider",
-        "number": 126,
+        "number": 125,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1113,15 +1113,55 @@
     },
     {
         "card_name": "Adventure Awaits",
-        "number": 166,
+        "number": 163,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Defend the Outlands",
-        "number": 8,
+        "card_name": "Joyful Disposition",
+        "number": 16,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Beginner's Blobology",
+        "number": 43,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Comet Recollector",
+        "number": 86,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Fiery Celebration",
+        "number": 130,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Aurora Chronicler",
+        "number": 165,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Loess Lightbearer",
+        "number": 21,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1136,48 +1176,8 @@
         "position": ""
     },
     {
-        "card_name": "Comet Recollector",
-        "number": 87,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Fiery Celebration",
-        "number": 131,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Aurora Chronicler",
-        "number": 167,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Joyful Disposition",
-        "number": 17,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Flashy Aerobatics",
-        "number": 52,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "Diviner's Toad",
-        "number": 92,
+        "number": 91,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Fresh-Brewed Firenectar",
-        "number": 132,
+        "number": 131,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1193,47 +1193,7 @@
     },
     {
         "card_name": "Branch-Bender",
-        "number": 169,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Loess Lightbearer",
-        "number": 22,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Hibernate",
-        "number": 54,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Hammerhead Bully",
-        "number": 99,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Gregarious Kindler",
-        "number": 134,
-        "shape": "normal",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Bushwhack",
-        "number": 170,
+        "number": 168,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1241,39 +1201,39 @@
     },
     {
         "card_name": "Lost to Myth",
-        "number": 23,
+        "number": 22,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Introduction to Blobology",
-        "number": 58,
+        "card_name": "Flashy Aerobatics",
+        "number": 51,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Heavy Burden",
-        "number": 100,
+        "card_name": "Hammerhead Bully",
+        "number": 98,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Haughty Thespian",
-        "number": 135,
+        "card_name": "Gregarious Kindler",
+        "number": 133,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Defender of the Patch",
-        "number": 173,
+        "card_name": "Bushwhack",
+        "number": 169,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1281,6 +1241,46 @@
     },
     {
         "card_name": "Lumizoa",
+        "number": 23,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hibernate",
+        "number": 53,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Heavy Burden",
+        "number": 99,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Haughty Thespian",
+        "number": 134,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Defender of the Patch",
+        "number": 172,
+        "shape": "normal",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Meticulous Nectarwatch",
         "number": 24,
         "shape": "normal",
         "set": "CLE",
@@ -1297,7 +1297,7 @@
     },
     {
         "card_name": "Hero's Downfall",
-        "number": 101,
+        "number": 100,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1305,7 +1305,7 @@
     },
     {
         "card_name": "Hermit of the Quairies",
-        "number": 136,
+        "number": 135,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1337,7 +1337,7 @@
     },
     {
         "card_name": "High Observator's Judgment",
-        "number": 102,
+        "number": 101,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1345,7 +1345,7 @@
     },
     {
         "card_name": "Kindletouch",
-        "number": 139,
+        "number": 140,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1377,7 +1377,7 @@
     },
     {
         "card_name": "Knight of the Humblebee",
-        "number": 105,
+        "number": 104,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1385,7 +1385,7 @@
     },
     {
         "card_name": "Magma Forging",
-        "number": 142,
+        "number": 143,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1417,7 +1417,7 @@
     },
     {
         "card_name": "Might-Tracker's Bow",
-        "number": 106,
+        "number": 105,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1457,7 +1457,7 @@
     },
     {
         "card_name": "Odds-and-Ends-Monger",
-        "number": 107,
+        "number": 106,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1497,7 +1497,7 @@
     },
     {
         "card_name": "Souldust Shepherd",
-        "number": 113,
+        "number": 112,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1529,7 +1529,7 @@
     },
     {
         "card_name": "Sink",
-        "number": 73,
+        "number": 74,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1569,7 +1569,7 @@
     },
     {
         "card_name": "Snappy Goldenwing",
-        "number": 75,
+        "number": 76,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1614,15 +1614,15 @@
     "a->gold",
     {
         "card_name": "The Moon Snail",
-        "number": 214,
+        "number": 213,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(instants matter)",
-        "number": 203,
+        "card_name": "Klemph, Spawn of Grudges",
+        "number": 209,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1630,23 +1630,23 @@
     },
     {
         "card_name": "Bigmancer Bilfin",
-        "number": 207,
+        "number": 203,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(ferocious payoff)",
-        "number": 202,
+        "card_name": "Prol Lavatoucher",
+        "number": 215,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(scout - ranger lord)",
-        "number": 205,
+        "card_name": "Krivvik, Cavern's Tutelage",
+        "number": 210,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1654,7 +1654,7 @@
     },
     {
         "card_name": "Lose Hold",
-        "number": 212,
+        "number": 211,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1662,7 +1662,7 @@
     },
     {
         "card_name": "Envision",
-        "number": 208,
+        "number": 205,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1670,7 +1670,7 @@
     },
     {
         "card_name": "Incinerating Breath",
-        "number": 211,
+        "number": 208,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1686,7 +1686,7 @@
     },
     {
         "card_name": "Harvest of Clouds",
-        "number": 210,
+        "number": 207,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1748,8 +1748,8 @@
         "card_name": "er"
     },
     {
-        "card_name": "(lifegain payoff)",
-        "number": 204,
+        "card_name": "Acheaorator Zarrack",
+        "number": 201,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1764,8 +1764,8 @@
         "position": ""
     },
     {
-        "card_name": "(card types)",
-        "number": 201,
+        "card_name": "Collector Quelbsy",
+        "number": 204,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1773,7 +1773,7 @@
     },
     {
         "card_name": "Gabl, the Dancing Mandible",
-        "number": 209,
+        "number": 206,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1789,7 +1789,7 @@
     },
     {
         "card_name": "Mightkeeper Banner",
-        "number": 213,
+        "number": 212,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1813,7 +1813,7 @@
     },
     {
         "card_name": "Adolescent Shrine-Scion",
-        "number": 206,
+        "number": 202,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1821,7 +1821,7 @@
     },
     {
         "card_name": "Orearchaeologist",
-        "number": 215,
+        "number": 214,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1881,7 +1881,7 @@
     },
     "a->colorless",
     {
-        "card_name": "(rare artifact 2)",
+        "card_name": "(rare artifact 4)",
         "number": 231,
         "shape": "normal",
         "set": "CLE",
@@ -1889,7 +1889,7 @@
         "position": ""
     },
     {
-        "card_name": "(rare artifact 3)",
+        "card_name": "(todo list)",
         "number": 232,
         "shape": "normal",
         "set": "CLE",
@@ -1897,24 +1897,24 @@
         "position": ""
     },
     {
-        "card_name": "(rare artifact 4)",
-        "number": 233,
+        "card_name": "The Lotus of Ovonia",
+        "number": 239,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(rare artifact)",
-        "number": 234,
+        "card_name": "Panharmonicon",
+        "number": 242,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "(todo list)",
-        "number": 235,
+        "card_name": "The Stone of Heroes",
+        "number": 244,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1922,7 +1922,7 @@
     },
     {
         "card_name": "Bronze Toad",
-        "number": 236,
+        "number": 233,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1930,7 +1930,7 @@
     },
     {
         "card_name": "Egg of the Elders",
-        "number": 238,
+        "number": 235,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1938,15 +1938,15 @@
     },
     {
         "card_name": "Guards of Old Ovonia",
-        "number": 241,
+        "number": 238,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Memorial Stone",
-        "number": 242,
+        "card_name": "Memorial Lute",
+        "number": 240,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1962,7 +1962,7 @@
     },
     {
         "card_name": "Chromatic Star",
-        "number": 237,
+        "number": 234,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1970,7 +1970,7 @@
     },
     {
         "card_name": "Everglass",
-        "number": 239,
+        "number": 236,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1978,7 +1978,7 @@
     },
     {
         "card_name": "Friendly Fisher",
-        "number": 240,
+        "number": 237,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1986,7 +1986,7 @@
     },
     {
         "card_name": "Old Jade Guardian",
-        "number": 243,
+        "number": 241,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1994,7 +1994,7 @@
     },
     {
         "card_name": "Sparkling Staff",
-        "number": 244,
+        "number": 243,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -2014,7 +2014,7 @@
     },
     "a->land",
     {
-        "card_name": "Loess Town",
+        "card_name": "Loess Bustleton",
         "number": 258,
         "shape": "normal",
         "set": "CLE",
@@ -2046,7 +2046,7 @@
         "position": ""
     },
     {
-        "card_name": "(aurora creatureland)",
+        "card_name": "Aurora Titanwatch",
         "number": 246,
         "shape": "normal",
         "set": "CLE",
@@ -2364,7 +2364,7 @@
     },
     {
         "card_name": "Kindness",
-        "number": 6,
+        "number": 7,
         "shape": "token",
         "set": "CLE",
         "rotated": false,
@@ -2387,7 +2387,7 @@
         "position": ""
     },
     {
-        "card_name": "Ranger",
+        "card_name": "Insect",
         "number": 5,
         "shape": "token",
         "set": "CLE",
@@ -2395,7 +2395,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Ranger",
+        "number": 6,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"

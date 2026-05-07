@@ -15,9 +15,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Frog Wizard",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/22_Loess Lightbearer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/21_Loess Lightbearer.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "common",
 			"mana_cost": "{6}{B}",
 			"type": "Creature — Insect Ranger Monger",
-			"collector_number": "107",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/107_Odds-and-Ends-Monger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/106_Odds-and-Ends-Monger.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Lizard Bard",
-			"collector_number": "135",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/135_Haughty Thespian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/134_Haughty Thespian.png"
 			}
 		},
 		{
@@ -55,9 +55,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Dragon Druid",
-			"collector_number": "169",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/169_Branch-Bender.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/168_Branch-Bender.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Shark Rogue",
-			"collector_number": "99",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/99_Hammerhead Bully.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/98_Hammerhead Bully.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "131",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/131_Fiery Celebration.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/130_Fiery Celebration.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Bird Bard",
-			"collector_number": "167",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/167_Aurora Chronicler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/165_Aurora Chronicler.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/52_Flashy Aerobatics.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/51_Flashy Aerobatics.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Dragon Wizard",
-			"collector_number": "87",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/87_Comet Recollector.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/86_Comet Recollector.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Lizard Knight",
-			"collector_number": "126",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/126_Chinook Wumprider.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/125_Chinook Wumprider.png"
 			}
 		},
 		{
@@ -185,9 +185,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Frog Beast",
-			"collector_number": "84",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/84_Bounding Squangler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/83_Bounding Squangler.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Dragon Wizard",
-			"collector_number": "134",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/134_Gregarious Kindler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/133_Gregarious Kindler.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Bird Wizard",
-			"collector_number": "75",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/75_Snappy Goldenwing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/76_Snappy Goldenwing.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Insect Cleric",
-			"collector_number": "113",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/113_Souldust Shepherd.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/112_Souldust Shepherd.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "142",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/142_Magma Forging.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/143_Magma Forging.png"
 			}
 		},
 		{
@@ -265,9 +265,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/17_Joyful Disposition.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/16_Joyful Disposition.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/102_High Observator's Judgment.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/101_High Observator's Judgment.png"
 			}
 		},
 		{
@@ -315,9 +315,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/23_Lost to Myth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/22_Lost to Myth.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Lizard Wizard",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/43_Befuddled Apprentice.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/42_Befuddled Apprentice.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "136",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/136_Hermit of the Quairies.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/135_Hermit of the Quairies.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "54",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/54_Hibernate.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/53_Hibernate.png"
 			}
 		},
 		{
@@ -385,9 +385,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Elemental Frog",
-			"collector_number": "92",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/92_Diviner's Toad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/91_Diviner's Toad.png"
 			}
 		},
 		{
@@ -395,9 +395,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "132",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/132_Fresh-Brewed Firenectar.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/131_Fresh-Brewed Firenectar.png"
 			}
 		},
 		{
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "73",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/73_Sink.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/74_Sink.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Insect Knight",
-			"collector_number": "105",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/105_Knight of the Humblebee.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/104_Knight of the Humblebee.png"
 			}
 		},
 		{
@@ -445,9 +445,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "139",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/139_Kindletouch.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/140_Kindletouch.png"
 			}
 		},
 		{
@@ -485,9 +485,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Equipment",
-			"collector_number": "106",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/106_Might-Tracker's Bow.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/105_Might-Tracker's Bow.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "8",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/8_Defend the Outlands.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7_Defend the Outlands.png"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/166_Adventure Awaits.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/163_Adventure Awaits.png"
 			}
 		},
 		{
@@ -565,9 +565,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Elemental Jellyfish",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/24_Lumizoa.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/23_Lumizoa.png"
 			}
 		},
 		{
@@ -585,9 +585,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Instant",
-			"collector_number": "101",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/101_Hero's Downfall.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/100_Hero's Downfall.png"
 			}
 		},
 		{
@@ -605,9 +605,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "170",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/170_Bushwhack.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/169_Bushwhack.png"
 			}
 		},
 		{
@@ -621,13 +621,13 @@
 			}
 		},
 		{
-			"name": "Introduction to Blobology",
+			"name": "Beginner's Blobology",
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Artifact — Book",
-			"collector_number": "58",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/58_Introduction to Blobology.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/43_Beginner's Blobology.png"
 			}
 		},
 		{
@@ -635,9 +635,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "100",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/100_Heavy Burden.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/99_Heavy Burden.png"
 			}
 		},
 		{
@@ -655,9 +655,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Lizard Wizard",
-			"collector_number": "173",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/173_Defender of the Patch.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/172_Defender of the Patch.png"
 			}
 		},
 		{
@@ -665,9 +665,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "243",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/243_Old Jade Guardian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/241_Old Jade Guardian.png"
 			}
 		},
 		{
@@ -675,9 +675,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "240",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/240_Friendly Fisher.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/237_Friendly Fisher.png"
 			}
 		},
 		{
@@ -685,9 +685,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact — Equipment",
-			"collector_number": "244",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/244_Sparkling Staff.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/243_Sparkling Staff.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "239",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/239_Everglass.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/236_Everglass.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "237",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/237_Chromatic Star.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/234_Chromatic Star.png"
 			}
 		},
 		{
@@ -925,9 +925,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Instant",
-			"collector_number": "212",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/212_Lose Hold.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/211_Lose Hold.png"
 			}
 		},
 		{
@@ -935,9 +935,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Sorcery",
-			"collector_number": "208",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/208_Envision.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/205_Envision.png"
 			}
 		},
 		{
@@ -945,9 +945,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
-			"collector_number": "211",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/211_Incinerating Breath.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/208_Incinerating Breath.png"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Instant",
-			"collector_number": "210",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/210_Harvest of Clouds.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/207_Harvest of Clouds.png"
 			}
 		},
 		{
@@ -975,9 +975,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Bird Cleric",
-			"collector_number": "213",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/213_Mightkeeper Banner.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/212_Mightkeeper Banner.png"
 			}
 		},
 		{
@@ -995,9 +995,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Turtle Druid",
-			"collector_number": "215",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/215_Orearchaeologist.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/214_Orearchaeologist.png"
 			}
 		},
 		{
@@ -1015,9 +1015,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Creature — Lizard Rogue",
-			"collector_number": "206",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/206_Adolescent Shrine-Scion.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/202_Adolescent Shrine-Scion.png"
 			}
 		},
 		{
@@ -1135,9 +1135,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Ranger",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5t_Ranger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6t_Ranger.png"
 			}
 		},
 		{
@@ -1155,9 +1155,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6t_Kindness.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7t_Kindness.png"
 			}
 		},
 		{
@@ -1165,9 +1165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "238",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/238_Egg of the Elders.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/235_Egg of the Elders.png"
 			}
 		},
 		{
@@ -1175,19 +1175,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{10}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "241",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/241_Guards of Old Ovonia.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/238_Guards of Old Ovonia.png"
 			}
 		},
 		{
-			"name": "Memorial Stone",
+			"name": "Memorial Lute",
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "242",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/242_Memorial Stone.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/240_Memorial Lute.png"
 			}
 		},
 		{
@@ -1195,9 +1195,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Construct Frog",
-			"collector_number": "236",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/236_Bronze Toad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/233_Bronze Toad.png"
 			}
 		},
 		{
@@ -1235,9 +1235,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "95",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/95_Fester.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/94_Fester.png"
 			}
 		},
 		{
@@ -1255,9 +1255,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "174",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/174_Fiddle Fern Pie.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/173_Fiddle Fern Pie.png"
 			}
 		},
 		{
@@ -1265,9 +1265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Insect",
-			"collector_number": "4",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4_Bowl-Shell Beetle.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3_Bowl-Shell Beetle.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Dinosaur Advisor",
-			"collector_number": "125",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/125_Canny Negotiator.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/124_Canny Negotiator.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Dinosaur Cleric",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/18_Keeper of the Shellseal.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/17_Keeper of the Shellseal.png"
 			}
 		},
 		{
@@ -1335,9 +1335,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Kirin",
-			"collector_number": "57",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/57_Intangible Sage.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/56_Intangible Sage.png"
 			}
 		},
 		{
@@ -1355,9 +1355,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Frog",
-			"collector_number": "85",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/85_Bubbletoad.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/84_Bubbletoad.png"
 			}
 		},
 		{
@@ -1365,9 +1365,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Dinosaur",
-			"collector_number": "7",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7_Curious Shinosaur.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6_Curious Shinosaur.png"
 			}
 		},
 		{
@@ -1395,9 +1395,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Elemental",
-			"collector_number": "144",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/144_Molten Dancer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/145_Molten Dancer.png"
 			}
 		},
 		{
@@ -1425,9 +1425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Lizard Ranger",
-			"collector_number": "168",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/168_Birchwood Blazewarden.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/166_Birchwood Blazewarden.png"
 			}
 		},
 		{
@@ -1435,9 +1435,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Creature — Serpent",
-			"collector_number": "77",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/77_Stormwater Serpent.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/78_Stormwater Serpent.png"
 			}
 		},
 		{
@@ -1455,19 +1455,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Lizard Wizard",
-			"collector_number": "112",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/112_Sorrowmancer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/111_Sorrowmancer.png"
 			}
 		},
 		{
-			"name": "Archaeorator",
+			"name": "Meticulous Nectarwatch",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Dinosaur Wizard",
-			"collector_number": "2",
+			"type": "Creature — Insect Citizen",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/2_Archaeorator.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/24_Meticulous Nectarwatch.png"
 			}
 		},
 		{
@@ -1505,9 +1505,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Shapeshifter Wizard",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/86_Bumbling Brewer.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/85_Bumbling Brewer.png"
 			}
 		},
 		{
@@ -1515,9 +1515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Dragon Druid",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/10_Druid of Watchful Stones.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/9_Druid of Watchful Stones.png"
 			}
 		},
 		{
@@ -1545,9 +1545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "123",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/123_Artisanal Puzzlebox.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/122_Artisanal Puzzlebox.png"
 			}
 		},
 		{
@@ -1565,9 +1565,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{W}",
 			"type": "Creature — Dragon",
-			"collector_number": "3",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3_Auroral Migrant.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/2_Auroral Migrant.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Lizard Artificer",
-			"collector_number": "138",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/138_Jaw Order Outfitter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/139_Jaw Order Outfitter.png"
 			}
 		},
 		{
@@ -1605,9 +1605,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Snail",
-			"collector_number": "91",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/91_Determined Snail.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/90_Determined Snail.png"
 			}
 		},
 		{
@@ -1615,9 +1615,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "9",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/9_Dinoplomacy.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/8_Dinoplomacy.png"
 			}
 		},
 		{
@@ -1645,9 +1645,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/130_Ferocious Bite.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/129_Ferocious Bite.png"
 			}
 		},
 		{
@@ -1655,9 +1655,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Enchantment — Saga",
-			"collector_number": "111",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/111_The Sorrow of Waxwing.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/110_The Sorrow of Waxwing.png"
 			}
 		},
 		{
@@ -1685,9 +1685,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "55",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/55_How the Dragon Got its Wings.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/54_How the Dragon Got its Wings.png"
 			}
 		},
 		{
@@ -1705,9 +1705,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "88",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/88_Cosmos Claw.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/87_Cosmos Claw.png"
 			}
 		},
 		{
@@ -1735,9 +1735,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature",
-			"collector_number": "72",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/72_Sincere Impressionist.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/73_Sincere Impressionist.png"
 			}
 		},
 		{
@@ -1745,9 +1745,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Elemental",
-			"collector_number": "122",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/122_Ancient Amberflow.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/121_Ancient Amberflow.png"
 			}
 		},
 		{
@@ -1765,9 +1765,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Saga",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/11_The Founding of Buttermount.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/10_The Founding of Buttermount.png"
 			}
 		},
 		{
@@ -1785,9 +1785,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "76",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/76_Spell Pierce.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/77_Spell Pierce.png"
 			}
 		},
 		{
@@ -1795,9 +1795,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/127_Discovery in Desperation.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/126_Discovery in Desperation.png"
 			}
 		},
 		{
@@ -1825,19 +1825,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Turtle Citizen",
-			"collector_number": "172",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/172_Catch-and-Releaser.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/171_Catch-and-Releaser.png"
 			}
 		},
 		{
-			"name": "Excellent Idea",
+			"name": "See With New Eyes",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "51",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/51_Excellent Idea.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/72_See With New Eyes.png"
 			}
 		},
 		{
@@ -1855,9 +1855,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Faerie Lizard",
-			"collector_number": "108",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/108_Pestermeleon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/107_Pestermeleon.png"
 			}
 		},
 		{
@@ -1865,9 +1865,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/19_Lead Off the Path.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/18_Lead Off the Path.png"
 			}
 		},
 		{
@@ -1885,9 +1885,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "53",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/53_Fresh Start.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/52_Fresh Start.png"
 			}
 		},
 		{
@@ -1895,9 +1895,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}",
 			"type": "Instant",
-			"collector_number": "141",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/141_Lava Arc.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/142_Lava Arc.png"
 			}
 		},
 		{
@@ -1905,9 +1905,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "90",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/90_Decry.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/89_Decry.png"
 			}
 		},
 		{
@@ -1931,13 +1931,13 @@
 			}
 		},
 		{
-			"name": "Wide-Hooded Wizard",
+			"name": "Long-Tenured Judge",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
-			"type": "Creature — Snake Wizard",
-			"collector_number": "79",
+			"type": "Creature — Turtle Citizen",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/79_Wide-Hooded Wizard.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/57_Long-Tenured Judge.png"
 			}
 		},
 		{
@@ -1955,9 +1955,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Turtle Ranger",
-			"collector_number": "89",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/89_Dark-Tales Connaisseur.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/88_Dark-Tales Connaisseur.png"
 			}
 		},
 		{
@@ -1975,9 +1975,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Artifact — Food",
-			"collector_number": "110",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/110_Sinister Stew.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/109_Sinister Stew.png"
 			}
 		},
 		{
@@ -1985,19 +1985,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Insect",
-			"collector_number": "137",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/137_Honey-Flinger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/136_Honey-Flinger.png"
 			}
 		},
 		{
-			"name": "(lifegain payoff)",
+			"name": "Acheaorator Zarrack",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
-			"type": "Legendary Creature",
-			"collector_number": "204",
+			"type": "Legendary Creature — Dinosaur Cleric",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/204_(lifegain payoff).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/201_Acheaorator Zarrack.png"
 			}
 		},
 		{
@@ -2005,9 +2005,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Snail",
-			"collector_number": "214",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/214_The Moon Snail.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/213_The Moon Snail.png"
 			}
 		},
 		{
@@ -2024,10 +2024,10 @@
 			"name": "The Legendary Mica",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}",
-			"type": "Legendary Creature — Whale Ranger",
-			"collector_number": "21",
+			"type": "Legendary Creature — Whale Cleric",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/21_The Legendary Mica.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/20_The Legendary Mica.png"
 			}
 		},
 		{
@@ -2035,9 +2035,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Artifact",
-			"collector_number": "6",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6_Crackling Hearth.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5_Crackling Hearth.png"
 			}
 		},
 		{
@@ -2045,9 +2045,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Insect Wizard",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/20_Leader of the Lights.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/19_Leader of the Lights.png"
 			}
 		},
 		{
@@ -2065,9 +2065,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Dragon Noble",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/16_Ice-Sculptor Dragon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/15_Ice-Sculptor Dragon.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Saga",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/14_Gno Grows Up.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/13_Gno Grows Up.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/13_Get Some Time Alone.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/12_Get Some Time Alone.png"
 			}
 		},
 		{
@@ -2095,9 +2095,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Elemental Salamander",
-			"collector_number": "5",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5_Cottonscale Drifter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4_Cottonscale Drifter.png"
 			}
 		},
 		{
@@ -2115,29 +2115,29 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Insect Monk",
-			"collector_number": "209",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/209_Gabl, the Dancing Mandible.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/206_Gabl, the Dancing Mandible.png"
 			}
 		},
 		{
-			"name": "(card types)",
+			"name": "Collector Quelbsy",
 			"rarity": "rare",
 			"mana_cost": "{B}{G}",
-			"type": "Legendary Creature",
-			"collector_number": "201",
+			"type": "Legendary Creature — Turtle Citizen",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/201_(card types).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/204_Collector Quelbsy.png"
 			}
 		},
 		{
-			"name": "(instants matter)",
+			"name": "Klemph, Spawn of Grudges",
 			"rarity": "rare",
-			"mana_cost": "{U}{B}",
-			"type": "Legendary Creature",
-			"collector_number": "203",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Snake",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/203_(instants matter).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/209_Klemph, Spawn of Grudges.png"
 			}
 		},
 		{
@@ -2145,19 +2145,19 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Legendary Creature — Insect Wizard",
-			"collector_number": "207",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/207_Bigmancer Bilfin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/203_Bigmancer Bilfin.png"
 			}
 		},
 		{
-			"name": "(ferocious payoff)",
+			"name": "Prol Lavatoucher",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{G}",
-			"type": "Legendary Creature — Elemental",
-			"collector_number": "202",
+			"type": "Legendary Creature — Insect Phoenix",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/202_(ferocious payoff).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/215_Prol Lavatoucher.png"
 			}
 		},
 		{
@@ -2171,13 +2171,13 @@
 			}
 		},
 		{
-			"name": "(scout - ranger lord)",
+			"name": "Krivvik, Cavern's Tutelage",
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
-			"type": "Legendary Creature — Scout",
-			"collector_number": "205",
+			"type": "Legendary Creature — Insect Elder",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/205_(scout - ranger lord).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/210_Krivvik, Cavern's Tutelage.png"
 			}
 		},
 		{
@@ -2185,9 +2185,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Turtle",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/15_Havenback Tortoise.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/14_Havenback Tortoise.png"
 			}
 		},
 		{
@@ -2195,9 +2195,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}",
 			"type": "Artifact",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/12_Fountain of Stars.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/11_Fountain of Stars.png"
 			}
 		},
 		{
@@ -2245,9 +2245,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Creature — Elder Bird",
-			"collector_number": "42",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/42_Arch-Chancellor Zybsalim.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/41_Arch-Chancellor Zybsalim.png"
 			}
 		},
 		{
@@ -2255,9 +2255,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}{U}{U}",
 			"type": "Instant",
-			"collector_number": "78",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/78_Trisect Essence.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/79_Trisect Essence.png"
 			}
 		},
 		{
@@ -2285,9 +2285,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Enchantment — Saga",
-			"collector_number": "56",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/56_I Can Count to Three.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/55_I Can Count to Three.png"
 			}
 		},
 		{
@@ -2315,9 +2315,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Trilobite",
-			"collector_number": "74",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/74_Skylobite.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/75_Skylobite.png"
 			}
 		},
 		{
@@ -2331,23 +2331,23 @@
 			}
 		},
 		{
-			"name": "(aurora creatureland)",
+			"name": "Aurora Titanwatch",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/246_(aurora creatureland).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/246_Aurora Titanwatch.png"
 			}
 		},
 		{
-			"name": "Loess Town",
+			"name": "Loess Bustleton",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/258_Loess Town.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/258_Loess Bustleton.png"
 			}
 		},
 		{
@@ -2365,9 +2365,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "93",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/93_Enthralling Gaze.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/92_Enthralling Gaze.png"
 			}
 		},
 		{
@@ -2375,9 +2375,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Elder Dragon",
-			"collector_number": "103",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/103_High Priestess Varga.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/102_High Priestess Varga.png"
 			}
 		},
 		{
@@ -2395,29 +2395,29 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Insect Wizard",
-			"collector_number": "96",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/96_Gibbous, the Scaredybug.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/95_Gibbous, the Scaredybug.png"
 			}
 		},
 		{
-			"name": "Glowing Reminiscence",
+			"name": "Spectral Seeker",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
-			"type": "Instant",
-			"collector_number": "97",
+			"type": "Creature — Insect Wizard",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/97_Glowing Reminiscence.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/113_Spectral Seeker.png"
 			}
 		},
 		{
-			"name": "Bottom-Feeder",
+			"name": "Gurglollon",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Fish",
-			"collector_number": "83",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/83_Bottom-Feeder.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/97_Gurglollon.png"
 			}
 		},
 		{
@@ -2425,9 +2425,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "94",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/94_Exertion.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/93_Exertion.png"
 			}
 		},
 		{
@@ -2435,9 +2435,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Insect Avatar Warrior",
-			"collector_number": "109",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/109_Remnant of the Lost Clan.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/108_Remnant of the Lost Clan.png"
 			}
 		},
 		{
@@ -2445,9 +2445,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Turtle Ranger",
-			"collector_number": "104",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/104_Homesick Sailor.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/103_Homesick Sailor.png"
 			}
 		},
 		{
@@ -2455,9 +2455,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "98",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/98_Grim Yestermancy.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/96_Grim Yestermancy.png"
 			}
 		},
 		{
@@ -2465,9 +2465,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Salamander Scout",
-			"collector_number": "128",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/128_Easterly, Eager to Meet You.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/127_Easterly, Eager to Meet You.png"
 			}
 		},
 		{
@@ -2475,16 +2475,16 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Lizard Sorcerer",
-			"collector_number": "133",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/133_Glintstone's Chosen.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/132_Glintstone's Chosen.png"
 			}
 		},
 		{
 			"name": "Unleader Sclo",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Legendary Creature — Dragon",
+			"type": "Legendary Creature — Elder Dragon",
 			"collector_number": "159",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/159_Unleader Sclo.png"
@@ -2501,13 +2501,13 @@
 			}
 		},
 		{
-			"name": "Most Helpful Tome",
+			"name": "Introduction to Impossibilities",
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Artifact — Book",
-			"collector_number": "145",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/145_Most Helpful Tome.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/138_Introduction to Impossibilities.png"
 			}
 		},
 		{
@@ -2515,9 +2515,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Elemental Salamander",
-			"collector_number": "140",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/140_Kindlotl.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/141_Kindlotl.png"
 			}
 		},
 		{
@@ -2525,9 +2525,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "129",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/129_Enchanted Eruption.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/128_Enchanted Eruption.png"
 			}
 		},
 		{
@@ -2535,16 +2535,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "143",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/143_Magmablood Elder.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/144_Magmablood Elder.png"
 			}
 		},
 		{
 			"name": "Starburst",
 			"rarity": "mythic",
 			"mana_cost": "{X}{R}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "155",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/155_Starburst.png"
@@ -2555,9 +2555,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
-			"collector_number": "124",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/124_Brew For the Weary.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/123_Brew For the Weary.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Creature — Frog Cleric",
-			"collector_number": "171",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/171_Carefree Smudgebundler.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/170_Carefree Smudgebundler.png"
 			}
 		},
 		{
@@ -2594,30 +2594,30 @@
 			"name": "Grandpa Garoom of Aurora",
 			"rarity": "mythic",
 			"mana_cost": "{2}{G}{G}",
-			"type": "",
+			"type": "Legendary Creature — Elder Crocodile",
 			"collector_number": "177",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/177_Grandpa Garoom of Aurora.png"
 			}
 		},
 		{
-			"name": "(kicker spell)",
+			"name": "Ranger's Oath",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "164",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/164_(kicker spell).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/189_Ranger's Oath.png"
 			}
 		},
 		{
-			"name": "The Ranger's Creed",
+			"name": "Find Your Clearingsong",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment — Saga",
-			"collector_number": "189",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/189_The Ranger's Creed.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/174_Find Your Clearingsong.png"
 			}
 		},
 		{
@@ -2641,13 +2641,13 @@
 			}
 		},
 		{
-			"name": "(trample equip)",
+			"name": "Blade of the Elders",
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Artifact — Equipment",
-			"collector_number": "165",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/165_(trample equip).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/167_Blade of the Elders.png"
 			}
 		},
 		{
@@ -2725,39 +2725,39 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Artifact",
-			"collector_number": "235",
-			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/235_(todo list).png"
-			}
-		},
-		{
-			"name": "(rare artifact)",
-			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Artifact",
-			"collector_number": "234",
-			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/234_(rare artifact).png"
-			}
-		},
-		{
-			"name": "(rare artifact 2)",
-			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Artifact",
-			"collector_number": "231",
-			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/231_(rare artifact 2).png"
-			}
-		},
-		{
-			"name": "(rare artifact 3)",
-			"rarity": "rare",
-			"mana_cost": "",
-			"type": "Artifact",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/232_(rare artifact 3).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/232_(todo list).png"
+			}
+		},
+		{
+			"name": "The Lotus of Ovonia",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/239_The Lotus of Ovonia.png"
+			}
+		},
+		{
+			"name": "The Stone of Heroes",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Legendary Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/244_The Stone of Heroes.png"
+			}
+		},
+		{
+			"name": "Panharmonicon",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/242_Panharmonicon.png"
 			}
 		},
 		{
@@ -2765,9 +2765,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Artifact",
-			"collector_number": "233",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/233_(rare artifact 4).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/231_(rare artifact 4).png"
 			}
 		},
 		{
@@ -2781,43 +2781,53 @@
 			}
 		},
 		{
-			"name": "(blue rare)",
+			"name": "Magnificent Inventificator",
 			"rarity": "rare",
-			"mana_cost": "{U}",
-			"type": "",
-			"collector_number": "41",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Lizard Artificer",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/41_(blue rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/58_Magnificent Inventificator.png"
 			}
 		},
 		{
 			"name": "(black rare)",
 			"rarity": "rare",
 			"mana_cost": "{B}",
-			"type": "",
+			"type": "Creature",
 			"collector_number": "81",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/81_(black rare).png"
 			}
 		},
 		{
-			"name": "(red rare)",
+			"name": "Humming Hive",
 			"rarity": "rare",
-			"mana_cost": "{R}",
-			"type": "",
-			"collector_number": "121",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/121_(red rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/137_Humming Hive.png"
 			}
 		},
 		{
-			"name": "(green rare)",
+			"name": "Amethyst Talekeeper",
 			"rarity": "rare",
-			"mana_cost": "{G}",
-			"type": "",
-			"collector_number": "163",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Lizard Bard",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/163_(green rare).png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/164_Amethyst Talekeeper.png"
+			}
+		},
+		{
+			"name": "Insect",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5t_Insect.png"
 			}
 		}
 	]
@@ -2826,7 +2836,7 @@
 	5 Vernon the Inventive
 	5 Sinister Stew
 	5 Honey-Flinger
-	5 (lifegain payoff)
+	5 Acheaorator Zarrack
 	5 The Moon Snail
 	5 The Legendary Mica
 	5 Crackling Hearth
@@ -2838,12 +2848,12 @@
 	5 Cottonscale Drifter
 	5 Queen Bizabeth
 	5 Gabl, the Dancing Mandible
-	5 (card types)
-	5 (instants matter)
+	5 Collector Quelbsy
+	5 Klemph, Spawn of Grudges
 	5 Bigmancer Bilfin
-	5 (ferocious payoff)
+	5 Prol Lavatoucher
 	5 Spiralpainter Shellsworth
-	5 (scout - ranger lord)
+	5 Krivvik, Cavern's Tutelage
 	5 Havenback Tortoise
 	5 Fountain of Stars
 	5 Chinook Encampment
@@ -2859,15 +2869,15 @@
 	5 Eelectrician
 	5 Skylobite
 	5 Monsooon Millery
-	5 (aurora creatureland)
-	5 Loess Town
+	5 Aurora Titanwatch
+	5 Loess Bustleton
 	5 Comet Starcourse
 	5 Enthralling Gaze
 	5 High Priestess Varga
 	5 When Dragons Fought
 	5 Gibbous, the Scaredybug
-	5 Glowing Reminiscence
-	5 Bottom-Feeder
+	5 Spectral Seeker
+	5 Gurglollon
 	5 Exertion
 	5 Remnant of the Lost Clan
 	5 Homesick Sailor
@@ -2876,7 +2886,7 @@
 	5 Glintstone's Chosen
 	5 Unleader Sclo
 	5 Trickety-Tickety-Tin
-	5 Most Helpful Tome
+	5 Introduction to Impossibilities
 	5 Kindlotl
 	5 Enchanted Eruption
 	5 Magmablood Elder
@@ -2886,23 +2896,23 @@
 	5 Carefree Smudgebundler
 	5 Shell Scout Leader
 	5 Grandpa Garoom of Aurora
-	5 (kicker spell)
-	5 The Ranger's Creed
+	5 Ranger's Oath
+	5 Find Your Clearingsong
 	5 Stupendulous Sporing
 	5 (big creature)
-	5 (trample equip)
+	5 Blade of the Elders
 	5 Leafcutter Disciple
 	5 (anti-control card)
 	5 (todo list)
-	5 (rare artifact)
-	5 (rare artifact 2)
-	5 (rare artifact 3)
+	5 The Lotus of Ovonia
+	5 The Stone of Heroes
+	5 Panharmonicon
 	5 (rare artifact 4)
 	5 Ranger Knight Hatchling
-	5 (blue rare)
+	5 Magnificent Inventificator
 	5 (black rare)
-	5 (red rare)
-	5 (green rare)
+	5 Humming Hive
+	5 Amethyst Talekeeper
 [uncommon(3)]
 	5 Petalwind Mage
 	5 Breathtaking Vista
@@ -2927,7 +2937,7 @@
 	5 Adolescent Shrine-Scion
 	5 Egg of the Elders
 	5 Guards of Old Ovonia
-	5 Memorial Stone
+	5 Memorial Lute
 	5 Bronze Toad
 	5 Sunbeam Blade
 	5 Shimmering Bounty
@@ -2991,7 +3001,7 @@
 	5 Well-Stocked Reagents
 	5 Antiquarian
 	5 Catch-and-Releaser
-	5 Excellent Idea
+	5 See With New Eyes
 	5 Resonant Glimmerfeli
 	5 Pestermeleon
 	5 Lead Off the Path
@@ -3001,7 +3011,7 @@
 	5 Decry
 	5 Well-Rested
 	5 Grove of Gathering
-	5 Wide-Hooded Wizard
+	5 Long-Tenured Judge
 	5 Stolid Secondmage
 	5 Dark-Tales Connaisseur
 [common(10)]
@@ -3065,7 +3075,7 @@
 	5 Slippery Critter
 	5 Bushwhack
 	5 Skylands Vinecutter
-	5 Introduction to Blobology
+	5 Beginner's Blobology
 	5 Heavy Burden
 	5 Ornery Wagonbeard
 	5 Defender of the Patch
@@ -3095,4 +3105,4 @@
 	5 Overgrown Landmark
 	5 Bustling Landmark
 	5 Imposing Landmark
-	5 Archaeorator
+	5 Meticulous Nectarwatch
