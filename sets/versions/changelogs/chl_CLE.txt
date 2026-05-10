@@ -1,4 +1,202 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Everything-Eater added.
+Wise Ol' Woodman added.
+Land's-End Locus added.
+Friendmaker Golem added.
+Fleafriend Beetle added.
+
+(big creature) removed.
+(anti-control card) removed.
+(todo list) removed.
+(rare artifact 4) removed.
+(black rare) removed.
+
+Snowpearl Sorter
+rules_text: Kicker {1} [i](You may pay an additional {1} as you cast this spell.)[/i]
+When this creature enters, if ti was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.
+Flying => Kicker {1} [i](You may pay an additional {1} as you cast this spell.)[/i]
+Flying
+When this creature enters, if ti was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.
+
+Splashy Syrupcaster
+
+Wisdom of Experience
+
+Friendly Fisher
+
+Frigid Landmark
+
+Gloomy Landmark
+
+Luminous Landmark
+
+Secluded Landmark
+
+Quaint Landmark
+
+Solemn Landmark
+
+Restorative Landmark
+
+Overgrown Landmark
+
+Bustling Landmark
+
+Imposing Landmark
+
+Racing the Wind
+special_text: 
+This Saga deals 1 damage to each opponent.
+At the beginning of your next combat, target creature you control gets +1/+1 and gains haste until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — This Saga deals 1 damage to each opponent.
+II, III — At the beginning of your next combat, target creature you control gets +1/+1 and gains haste until end of turn.
+​
+
+Fiddle Fern Pie
+special_text: 
+Create a 1/1 red Elemental creature token.
+Create a tapped Treasure token.
+Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 1/1 red Elemental creature token.
+Create a tapped Treasure token.
+II — Put X +1/+1 counters on target creature you control, where X is the number of names among tokens you control.
+
+Monsoon Proctor
+
+Meticulous Nectarwatch
+
+The Sorrow of Waxwing
+special_text: 
+Destroy target creature an opponent controls.
+Target creature you control gets +2/+2 and gains deathtouch until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Destroy target creature an opponent controls.
+II, III — Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+​
+
+How the Dragon Got its Wings
+special_text: 
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+​
+
+The Founding of Buttermount
+special_text: 
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card.
+
+Long-Tenured Judge
+
+Vernon the Inventive
+
+Crackling Hearth
+
+Leader of the Lights
+
+Ice-Sculptor Dragon
+type: Creature — Dragon Noble => Creature — Dragon Artificer
+
+Gno Grows Up
+special_text: 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Create a 2/2 green Ranger creature token.
+II, III — Put a +1/+1 counter on target creature with the least power among creatures you control.
+​
+
+Cottonscale Drifter
+
+Gabl, the Dancing Mandible
+
+Fountain of Stars
+
+Mind Spring
+
+Trisect Essence
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+I — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+II — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+High Priestess Varga
+
+When Dragons Fought
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Target player gains control of this Saga.
+II — Sacrifice a creature.
+III — Discard a card.
+IV — You lose 3 life. You may remove all lore counters from this Saga. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Target player gains control of this Saga.
+II — Sacrifice a creature.
+Discard a card.
+III — You lose 3 life. You may remove all lore counters from this Saga.
+
+Gurglollon
+
+Exertion
+
+Remnant of the Lost Clan
+
+Homesick Sailor
+
+Trickety-Tickety-Tin
+special_text: 
+Exile the top card of your library.
+Exile the top card of your library. You may play a card exiled with this Saga this turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Exile the top card of your library.
+Exile the top card of your library. You may play a card exiled with this Saga this turn.
+​
+
+Enchanted Eruption
+
+Magmablood Elder
+type: Creature — Dragon => Creature — Elemental Dragon
+
+Starburst
+
+Brew For the Weary
+
+Ranger's Oath
+rules_text: Kicker {3}{G} [i](You may pay an additional {3}{G} as you cast this spell.)[/i]
+Create two 2/2 green Ranger creature token. If this spell was kicked, create five of those tokens instead. => Kicker {4}{G} [i](You may pay an additional {4}{G} as you cast this spell.)[/i]
+Create two 2/2 green Ranger creature token. If this spell was kicked, create eight of those tokens instead.
+
+Find Your Clearingsong
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill three cards.
+Return a land card from your graveyard to the battlefield. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Mill three cards.
+II, III — Return a land card from your graveyard to the battlefield.
+​
+
+The Lotus of Ovonia
+cost: {4} => {5}
+rules_text: This artifact enters tapped.
+When this artifact enters, draw three cards.
+At the beginning of each player's upkeep, that player gains control of this artifact. Untap it.
+{T}: Add three mana of any one color. => When this artifact enters, draw two cards.
+At the beginning of each player's upkeep, that player gains control of this artifact. Untap it.
+{T}: Add three mana of any one color.
+
+Humming Hive
+
+Amethyst Talekeeper
+type: Creature — Lizard Bard => Creature — Elemental Lizard Bard
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Beginner's Blobology added.
