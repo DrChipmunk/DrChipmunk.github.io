@@ -5,7 +5,7 @@
 			<name>CLE</name>
 			<longname>Clearingsong</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-10</releasedate>
+			<releasedate>2026-05-15</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -38,7 +38,7 @@ Principles of design
 		<card>
 			<name>Loess Lightbearer</name>
 			<text>Aspire — When this creature becomes the target of a spell or ability you control, put a +1/+1 counter on it. Create a 1/1 red Elemental creature token. (Each aspire ability triggers only once.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/21_Loess Lightbearer.png" num="21">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/23_Loess Lightbearer.png" num="23">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -127,7 +127,7 @@ Aspire — When you spend five or more mana to cast a spell, put a +1/+1 counter
 			<name>Poultice Courier</name>
 			<text>Flying
 Aspire — When you gain life, put a +1/+1 counter on this creature and scry 1. (Each aspire ability triggers only once.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/29_Poultice Courier.png" num="29">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/31_Poultice Courier.png" num="31">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -216,8 +216,8 @@ Aspire — When an opponent or a spell or permanent an opponent controls becomes
 			<name>Snowpearl Sorter</name>
 			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
 Flying
-When this creature enters, if ti was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png" num="37">CLE</set>
+When this creature enters, if it was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/38_Snowpearl Sorter.png" num="38">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -284,9 +284,9 @@ Aspire — When you attack with three or more creatures, put a +1/+1 counter on 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Verdant Tender</name>
+			<name>Grass-Gardener</name>
 			<text>{3}: This creature gets +2/+2 until end of turn. If you spent three colors of mana to activate this ability, put a +1/+1 counter on this creature. Activate only once each turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/198_Verdant Tender.png" num="198">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/177_Grass-Gardener.png" num="177">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -304,7 +304,7 @@ Aspire — When you attack with three or more creatures, put a +1/+1 counter on 
 			<name>Old-Law Sentinel</name>
 			<text>When this creature enters, target creature gets +2/+2 until end of turn. 
 If that creature has mana value 1, put two +1/+1 counters on it instead.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/26_Old-Law Sentinel.png" num="26">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/28_Old-Law Sentinel.png" num="28">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -373,7 +373,7 @@ Aspire — When you activate an ability that isn&apos;t a mana ability, put a +1
 		<card>
 			<name>Rivertrance</name>
 			<text>Target creature gets +X/+X and gains trample until end of turn, where X is the number of card types among permanents you control.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/191_Rivertrance.png" num="191">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/192_Rivertrance.png" num="192">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -389,7 +389,7 @@ Aspire — When you activate an ability that isn&apos;t a mana ability, put a +1
 		<card>
 			<name>Petalwind Mage</name>
 			<text>Creatures you control with flying get +1/+1.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/27_Petalwind Mage.png" num="27">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/29_Petalwind Mage.png" num="29">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -480,7 +480,7 @@ When this enchantment enters, if you control a Scout or Ranger, draw a card.</te
 			<text>Flash
 Enchant creature
 Enchanted creature gets +2/+2.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/16_Joyful Disposition.png" num="16">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/18_Joyful Disposition.png" num="18">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -548,7 +548,7 @@ Target opponent reveals their hand. You choose a nonland card from it. That play
 		<card>
 			<name>Ram Through</name>
 			<text>Target creature you control deals damage equal to its power to target creature you don&apos;t control. If the creature you control has trample, excess damage is dealt to that creature&apos;s controller instead.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/187_Ram Through.png" num="187">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/188_Ram Through.png" num="188">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -565,7 +565,7 @@ Target opponent reveals their hand. You choose a nonland card from it. That play
 			<name>Lost to Myth</name>
 			<text>Flash
 When this enchantment enters, exile target artifact or creature an opponent controls until this enchantment leaves the battlefield.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/22_Lost to Myth.png" num="22">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/24_Lost to Myth.png" num="24">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -633,7 +633,7 @@ Discard a card: Draw a card. Activate only as a sorcery and only once each turn.
 			<name>Ribbon Range Guide</name>
 			<text>Kicker {4} (You may pay an additional {4} as you cast this spell.)
 When this creature enters, create a 2/2 green Ranger creature token. If this creature was kicked, put three +1/+1 counters on that token.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/190_Ribbon Range Guide.png" num="190">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/191_Ribbon Range Guide.png" num="191">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -648,9 +648,9 @@ When this creature enters, create a 2/2 green Ranger creature token. If this cre
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Shining Rebuke</name>
-			<text>Shining Rebuke deals damage to target creature equal to the number of creatures you control.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/35_Shining Rebuke.png" num="35">CLE</set>
+			<name>Condemnation</name>
+			<text>Condemnation deals damage to target creature equal to the number of creatures you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4_Condemnation.png" num="4">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -719,7 +719,7 @@ Fresh-Brewed Firenectar deals 3 damage to any target. If it was kicked, create a
 			<name>Pebblemage</name>
 			<text>Vigilance, trample
 {4}{G}{G}: Put two +1/+1 counters on this creature. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/184_Pebblemage.png" num="184">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/185_Pebblemage.png" num="185">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -736,7 +736,7 @@ Fresh-Brewed Firenectar deals 3 damage to any target. If it was kicked, create a
 		<card>
 			<name>Mournful Craftsbug</name>
 			<text>Whenever this creature attacks, if you control a token, tap target creature an opponent controls.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/25_Mournful Craftsbug.png" num="25">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/27_Mournful Craftsbug.png" num="27">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -806,7 +806,7 @@ Enchanted creature gets +1/+1 and has menace.</text>
 			<name>Helpful Topiary</name>
 			<text>Vigilance
 When this creature enters, you gain 3 life and surveil 1. (Look at the top card of your library. You may put it into your graveyard.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/178_Helpful Topiary.png" num="178">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/179_Helpful Topiary.png" num="179">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -821,10 +821,10 @@ When this creature enters, you gain 3 life and surveil 1. (Look at the top card 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Reliquary Cleanser</name>
+			<name>Incense Censor</name>
 			<text>Vigilance
 {1}, Sacrifice this creature: Destroy target artifact or enchantment.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/32_Reliquary Cleanser.png" num="32">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/17_Incense Censor.png" num="17">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -895,7 +895,7 @@ Equip {2}</text>
 		<card>
 			<name>Lettuce Leaper</name>
 			<text>Reach</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/181_Lettuce Leaper.png" num="181">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/182_Lettuce Leaper.png" num="182">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -914,7 +914,7 @@ Equip {2}</text>
 			<text>Choose one — 
 • Destroy target creature with power 4 or greater.
 • Create a 2/2 green Ranger creature token. You gain 2 life.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/7_Defend the Outlands.png" num="7">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/8_Defend the Outlands.png" num="8">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1003,7 +1003,7 @@ Create a tapped Treasure token.</text>
 			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Flying, vigilance
 When this creature enters, if it was kicked, you draw a card and you gain 1 life.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/23_Lumizoa.png" num="23">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/25_Lumizoa.png" num="25">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1093,7 +1093,7 @@ When this creature enters, if it was kicked, it gets +2/+2 until end of turn.</t
 			<text>When this Equipment enters, create two 2/2 green Ranger creature tokens, then attach this Equipment to one of them.
 Equipped creature gets +2/+2 and has vigilance.
 Equip {4}</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png" num="36">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/37_Skylands Vinecutter.png" num="37">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1267,9 +1267,9 @@ When this artifact is put into a graveyard from the battlefield, draw a card.</t
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Stoneword Reciter</name>
+			<name>Stoneword Recitalist</name>
 			<text>When this creature enters, tap up to one target creature and put a stun counter on it.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/227_Stoneword Reciter.png" num="227">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/227_Stoneword Recitalist.png" num="227">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2081,7 +2081,7 @@ Equip {5}</text>
 		<card>
 			<name>Shimmering Bounty</name>
 			<text>Create three 1/1 red Elemental creature tokens.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/34_Shimmering Bounty.png" num="34">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/36_Shimmering Bounty.png" num="36">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2180,7 +2180,7 @@ Equip {5}</text>
 		<card>
 			<name>Patient Bumblerog</name>
 			<text>Aspire — When you cast a sorcery spell, put two +1/+1 counters on this creature, (Each aspire ability triggers only once.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/183_Patient Bumblerog.png" num="183">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/184_Patient Bumblerog.png" num="184">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2252,7 +2252,7 @@ When this creature enters, if it was kicked, each opponent sacrifices a creature
 		<card>
 			<name>Keeper of the Shellseal</name>
 			<text>Whenever you attack with three or more creatures, creatures you control gain indestructible until end of turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/17_Keeper of the Shellseal.png" num="17">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/19_Keeper of the Shellseal.png" num="19">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2272,7 +2272,7 @@ When this creature enters, if it was kicked, each opponent sacrifices a creature
 • Destroy target artifact.
 • Destroy target enchantment.
 • Exile up to one target card from a graveyard. Draw a card.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/179_Heritage Reclamation.png" num="179">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/180_Heritage Reclamation.png" num="180">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2344,7 +2344,7 @@ When this creature enters, if it was kicked, it deals 2 damage to each opponent 
 			<name>Curious Shinosaur</name>
 			<text>Aspire — When this creature attacks, put a +1/+1 counter on it. (Each aspire ability triggers only once.)
 When this creature dies, if it aspired, create a tapped 2/2 green Ranger creature token.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6_Curious Shinosaur.png" num="6">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/7_Curious Shinosaur.png" num="7">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2362,7 +2362,7 @@ When this creature dies, if it aspired, create a tapped 2/2 green Ranger creatur
 			<name>Sunset Seeker</name>
 			<text>Vigilance
 Aspire — When you control two or more enchantments, put a +1/+1 counter on this creature and draw a card. (Each aspire ability triggers only once.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/195_Sunset Seeker.png" num="195">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/196_Sunset Seeker.png" num="196">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2428,10 +2428,10 @@ When this creature enters, target creature gets +2/+0 and gains trample until en
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Stoic Outlander</name>
+			<name>Sand Sandlander</name>
 			<text>Vigilance
 {6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 2 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/38_Stoic Outlander.png" num="38">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/35_Sand Sandlander.png" num="35">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2502,8 +2502,7 @@ Aspire — When this creature is dealt damage, put two +1/+1 counters on it. (Ea
 		</card>
 		<card>
 			<name>Sorrowmancer</name>
-			<text>Lifelink
-Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of card types among cards in your graveyard.</text>
+			<text>When this creature enters, each opponent loses X life and you gain X life, where X is the number of card types among cards in your graveyard.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/111_Sorrowmancer.png" num="111">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -2514,14 +2513,14 @@ Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the 
 				<cmc>5</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>1/4</pt>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Meticulous Nectarwatch</name>
 			<text>As long as it&apos;s your turn and you control an enchantment, this creature has first strike and lifelink.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/24_Meticulous Nectarwatch.png" num="24">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/26_Meticulous Nectarwatch.png" num="26">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2611,7 +2610,7 @@ Whenever you gain life, surveil 2. (Look at the top two cards of your library, t
 			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
 Flying
 When this creature enters, if it was kicked, return target creature card with mana value 1 from your graveyard to the battlefield.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/9_Druid of Watchful Stones.png" num="9">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/10_Druid of Watchful Stones.png" num="10">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2628,7 +2627,7 @@ When this creature enters, if it was kicked, return target creature card with ma
 		<card>
 			<name>Reef Walker</name>
 			<text>Elementals you control get +1/+1.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/189_Reef Walker.png" num="189">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/190_Reef Walker.png" num="190">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2714,7 +2713,7 @@ Flying, vigilance.</text>
 			<name>Swiftmeleon</name>
 			<text>Flash
 Whenever you scry or surveil, you may pay {1}. If you do, create a 2/2 green Ranger creature token.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/196_Swiftmeleon.png" num="196">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/197_Swiftmeleon.png" num="197">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2786,7 +2785,7 @@ At the beginning of your end step, if a non-Snail creature died this turn and th
 			<text>Enchant creature
 Enchanted creature can&apos;t attack.
 When a creature you control aspires, exile enchanted creature.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/8_Dinoplomacy.png" num="8">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/9_Dinoplomacy.png" num="9">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2870,7 +2869,7 @@ Ferocious Bite deals 4 damage to any target.</text>
 Equipped creature gets +1/+1 and has flying.
 Equip {3}
 Equip Scout or Ranger {1}</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/33_Riverwatch Glider.png" num="33">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/34_Riverwatch Glider.png" num="34">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2887,7 +2886,7 @@ Equip Scout or Ranger {1}</text>
 			<name>Moment&apos;s Respite</name>
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 You gain 5 life. If this spell was kicked, you gain 10 life instead.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/182_Moment&apos;s Respite.png" num="182">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/183_Moment&apos;s Respite.png" num="183">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2955,7 +2954,7 @@ You gain 5 life. If this spell was kicked, you gain 10 life instead.</text>
 			<name>Ponderous Ruinguard</name>
 			<text>Vigilance
 Aspire — When you control three creatures that share a creature type, put two +1/+1 counters on this creature. (Each aspire ability triggers only once.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/28_Ponderous Ruinguard.png" num="28">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/30_Ponderous Ruinguard.png" num="30">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2972,7 +2971,7 @@ Aspire — When you control three creatures that share a creature type, put two 
 		<card>
 			<name>Rumbling Grovewatch</name>
 			<text>Whenever a land you control enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/192_Rumbling Grovewatch.png" num="192">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/193_Rumbling Grovewatch.png" num="193">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3044,7 +3043,7 @@ When this creature enters, if it was kicked, you draw two cards and lose 2 life.
 		<card>
 			<name>The Founding of Buttermount</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/10_The Founding of Buttermount.png" num="10">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/11_The Founding of Buttermount.png" num="11">CLE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -3061,7 +3060,7 @@ When this creature enters, if it was kicked, you draw two cards and lose 2 life.
 			<name>Thistle Elemental</name>
 			<text>Reach
 This creature enters with X +1/+1 counters on it.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/197_Thistle Elemental.png" num="197">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/198_Thistle Elemental.png" num="198">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3216,7 +3215,7 @@ Aspire — When this creature deals combat damage to an opponent, put a +1/+1 co
 		<card>
 			<name>Lead Off the Path</name>
 			<text>Exile target creature. Its controller creates a 1/1 red Elemental creature tokens.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/18_Lead Off the Path.png" num="18">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/20_Lead Off the Path.png" num="20">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3234,7 +3233,7 @@ Aspire — When this creature deals combat damage to an opponent, put a +1/+1 co
 			<text>This artifact enters tapped.
 {T}: Add one mana of any color.
 {6}, {T}: Return target permanent card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/186_Primarical Goggles.png" num="186">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/187_Primarical Goggles.png" num="187">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3321,7 +3320,7 @@ Enchanted creature gets +1/+0.</text>
 			<text>You may look at the top card of your library any time.
 You may cast creature spells from the top of your library.
 {2}{G}: Scry 1.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/177_Grove of Gathering.png" num="177">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/178_Grove of Gathering.png" num="178">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3500,7 +3499,7 @@ Whenever The Moon Snail deals combat damage to a player, exile up to one target 
 			<name>The Legendary Mica</name>
 			<text>When Mica enters, look at the top five cards of your library. You may reveal a legendary or Plains card from among them and put it into your hand. Put the rest on the bottom in a random order.
 Aspire — When you control three or more legendary permanents, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/20_The Legendary Mica.png" num="20">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/22_The Legendary Mica.png" num="22">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3518,7 +3517,7 @@ Aspire — When you control three or more legendary permanents, put two +1/+1 co
 			<name>Crackling Hearth</name>
 			<text>When this artifact enters, create a 1/1 red Elemental creature token.
 Creatures you control get +1/+1.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5_Crackling Hearth.png" num="5">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6_Crackling Hearth.png" num="6">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3535,7 +3534,7 @@ Creatures you control get +1/+1.</text>
 			<name>Leader of the Lights</name>
 			<text>Vigilance
 Whenever you attack, create a 1/1 red Elemental creature token that&apos;s tapped and attacking.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/19_Leader of the Lights.png" num="19">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/21_Leader of the Lights.png" num="21">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3572,7 +3571,7 @@ Whenever you attack, create a 1/1 red Elemental creature token that&apos;s tappe
 			<name>Ice-Sculptor Dragon</name>
 			<text>Flash
 Flying, lifelink</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/15_Ice-Sculptor Dragon.png" num="15">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/16_Ice-Sculptor Dragon.png" num="16">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3589,7 +3588,7 @@ Flying, lifelink</text>
 		<card>
 			<name>Gno Grows Up</name>
 			<text></text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/13_Gno Grows Up.png" num="13">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/14_Gno Grows Up.png" num="14">CLE</set>
 			<prop>
 				<layout>saga</layout>
 				<side>front</side>
@@ -3606,7 +3605,7 @@ Flying, lifelink</text>
 			<name>Get Some Time Alone</name>
 			<text>Kicker {1}{W} (You may pay an additional {1}{W} as you cast this spell.)
 Each player chooses a creature they control. If this spell was kicked, instead for each player, you choose a creature they control. Destroy all creatures not chosen this way.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/12_Get Some Time Alone.png" num="12">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/13_Get Some Time Alone.png" num="13">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3624,7 +3623,7 @@ Each player chooses a creature they control. If this spell was kicked, instead f
 			<text>Flash
 Flying
 Sacrifice this creature: Exile target player&apos;s graveyard.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4_Cottonscale Drifter.png" num="4">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5_Cottonscale Drifter.png" num="5">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3644,7 +3643,7 @@ Sacrifice this creature: Exile target player&apos;s graveyard.</text>
 As Queen Bizabeth enters, choose a nonland card name.
 Spells with the chosen name can&apos;t be cast.
 Creatures with the chosen name can&apos;t attack or block.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/30_Queen Bizabeth.png" num="30">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/32_Queen Bizabeth.png" num="32">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3788,7 +3787,7 @@ You may cast this card from your graveyard if you attacked with a creature with 
 			<name>Havenback Tortoise</name>
 			<text>Vigilance
 Whenever this creature enters or attacks, search your library for up to two creature cards with different names with mana value 1, put them onto the battlefield, then shuffle.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/14_Havenback Tortoise.png" num="14">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/15_Havenback Tortoise.png" num="15">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3805,7 +3804,7 @@ Whenever this creature enters or attacks, search your library for up to two crea
 		<card>
 			<name>Fountain of Stars</name>
 			<text>{1}, {T}: Draw a card. Activate only if a token entered under your control this turn.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/11_Fountain of Stars.png" num="11">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/12_Fountain of Stars.png" num="12">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4446,7 +4445,7 @@ Each player may discard their hand and draw five cards.</text>
 			<name>Pepper, the Precocious</name>
 			<text>When Pepper enters, reveal the top five cards of your library. Put a land card from among them into your hand and the rest on the bottom in a random order.
 Aspire — When you control seven or more lands, put two +1/+1 counters on Pepper. (Each aspire ability triggers only once.)</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/185_Pepper, the Precocious.png" num="185">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/186_Pepper, the Precocious.png" num="186">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4484,7 +4483,7 @@ Whenever you cast an enchantment spell, this creature gets +1/+1 until end of tu
 			<text>Vigilance
 {T}: Surveil 1.
 {2}{G}, {T}: Create a 2/2 green Ranger creature token. It can&apos;t block this turn.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/193_Shell Scout Leader.png" num="193">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/194_Shell Scout Leader.png" num="194">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4499,11 +4498,11 @@ Whenever you cast an enchantment spell, this creature gets +1/+1 until end of tu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Grandpa Garoom of Aurora</name>
+			<name>Grandpa Garoom</name>
 			<text>Trample
 You may play land cards you own from outside the game.
 You may play an additional land each turn.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/176_Grandpa Garoom of Aurora.png" num="176">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/176_Grandpa Garoom.png" num="176">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4520,8 +4519,8 @@ You may play an additional land each turn.</text>
 		<card>
 			<name>Ranger&apos;s Oath</name>
 			<text>Kicker {4}{G} (You may pay an additional {4}{G} as you cast this spell.)
-Create two 2/2 green Ranger creature token. If this spell was kicked, create eight of those tokens instead.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/188_Ranger&apos;s Oath.png" num="188">CLE</set>
+Create two 2/2 green Ranger creature tokens. If this spell was kicked, create eight of those tokens instead.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/189_Ranger&apos;s Oath.png" num="189">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4552,20 +4551,21 @@ Create two 2/2 green Ranger creature token. If this spell was kicked, create eig
 		</card>
 		<card>
 			<name>Stupendulous Sporing</name>
-			<text>When this enchantment enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
-{2}{W}{U}{B}{R}{G}, Sacrifice this enchantment: Exile cards from the top of your library until you exile cards with total mana value 4 or greater. You may cast any number of spells from among them without paying their mana costs. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/194_Stupendulous Sporing.png" num="194">CLE</set>
+			<text>Return up to two target permanent cards from your graveyard to your hand.
+You may put a permanent card with mana value less than or equal to the number of colors of mana spent to cast this spell from your hand onto the battlefield.
+Exile Stupendulous Sporing.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/195_Stupendulous Sporing.png" num="195">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>G</manacost>
-				<cmc>1</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
 				<colors>G</colors>
-				<coloridentity>WUBRG</coloridentity>
+				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>Everything-Eater</name>
@@ -4607,7 +4607,7 @@ Equip {3}</text>
 			<name>Leafcutter Disciple</name>
 			<text>Creatures you control with +1/+1 counters on them have trample.
 Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/180_Leafcutter Disciple.png" num="180">CLE</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/181_Leafcutter Disciple.png" num="181">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4617,7 +4617,7 @@ Landfall — Whenever a land you control enters, put a +1/+1 counter on target c
 				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>1/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4716,9 +4716,9 @@ Trample
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Land&apos;s-End Locus</name>
-			<text>{1}, {T}: Put a charge counter on this artifact, then put a +1/+1 counter on target creature for each charge counter on this artifact. Activate only as a sorcery.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/238_Land&apos;s-End Locus.png" num="238">CLE</set>
+			<name>Light at Land&apos;s End</name>
+			<text>{1}, {T}: Put a charge counter on this artifact, then put a +1/+1 counter on target creature you control that entered this turn for each charge counter on this artifact.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/238_Light at Land&apos;s End.png" num="238">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4795,7 +4795,7 @@ Creatures you control of the chosen type enter with an additional +1/+1 counter 
 			<name>Ranger Knight Hatchling</name>
 			<text>Flying, lifelink, first strike
 Whenever this creature becomes the target of a spell or ability for the first time each turn, put a +1/+1 counter on it. Scry 1.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/31_Ranger Knight Hatchling.png" num="31">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/33_Ranger Knight Hatchling.png" num="33">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
