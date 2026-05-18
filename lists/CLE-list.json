@@ -960,7 +960,7 @@
         "position": ""
     },
     {
-        "card_name": "Sand Sandlander",
+        "card_name": "Shimmering Bounty",
         "number": 35,
         "shape": "normal",
         "set": "CLE",
@@ -1000,8 +1000,8 @@
         "position": ""
     },
     {
-        "card_name": "Shimmering Bounty",
-        "number": 36,
+        "card_name": "Stolid Sandlander",
+        "number": 38,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1521,7 +1521,7 @@
     },
     {
         "card_name": "Skylands Vinecutter",
-        "number": 37,
+        "number": 36,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1561,7 +1561,7 @@
     },
     {
         "card_name": "Snowpearl Sorter",
-        "number": 38,
+        "number": 37,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1614,7 +1614,7 @@
     "a->gold",
     {
         "card_name": "The Moon Snail",
-        "number": 213,
+        "number": 212,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1630,7 +1630,7 @@
     },
     {
         "card_name": "Bigmancer Bilfin",
-        "number": 203,
+        "number": 202,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1788,8 +1788,8 @@
         "position": ""
     },
     {
-        "card_name": "Mightkeeper Banner",
-        "number": 212,
+        "card_name": "Bothersome Buzzer",
+        "number": 203,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1812,8 +1812,8 @@
         "position": ""
     },
     {
-        "card_name": "Adolescent Shrine-Scion",
-        "number": 202,
+        "card_name": "Pollenpeace Cleric",
+        "number": 214,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1821,7 +1821,7 @@
     },
     {
         "card_name": "Orearchaeologist",
-        "number": 214,
+        "number": 213,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,

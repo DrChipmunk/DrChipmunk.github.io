@@ -207,7 +207,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Insect Monk",
-            "number": 38,
+            "number": 37,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Kicker {1} [i](You may pay an additional {1} as you cast this spell.)[/i]\nFlying\nWhen this creature enters, if it was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.",
@@ -337,7 +337,7 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nAs long as there is a sorcery card in your graveyard, this creature has flying.",
-            "flavor_text": "[i]On the nights of full moon Jade Jungle rings with their squanging.[/i]",
+            "flavor_text": "[i]On the nights of full moon Jade Jungle rings with their squangling.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -434,7 +434,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "If duress, this becomes menace payoff"
         },
         {
             "card_name": "Magma Forging",
@@ -516,7 +516,7 @@
             "number": 101,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "This spell costs {1} less to cast if you control a creature with menace.\nTarget opponent reveals their hand. You choose a nonland card from it. That player discards that card.",
+            "rules_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nPut a +1/+1 counter on up to one target creature with menace.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -524,7 +524,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Allesandro Cabrini",
-            "notes": ""
+            "notes": "Maybe becomes duress?"
         },
         {
             "card_name": "Splashy Syrupcaster",
@@ -605,8 +605,8 @@
             "type": "Sorcery",
             "number": 120,
             "color_identity": "B",
-            "cost": "{1}{B}",
-            "rules_text": "You draw two cards and you lose 2 life. If you control a creature that has aspired, instead you draw two cards and you gain 2 life.",
+            "cost": "{2}{B}",
+            "rules_text": "Scry 1. If you control a creature that has aspired, scry 3 instead.\nYou draw two cards and you lose 2 life.",
             "flavor_text": "[i]Hatchlings of other clans respect their elders. In Comet, they revere them.[/i]",
             "pt": "",
             "special_text": "",
@@ -614,7 +614,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Sandara Tang",
-            "notes": ""
+            "notes": "Hatchlings of other clans respect their elders. In Comet, they revere them."
         },
         {
             "card_name": "Hermit of the Quairies",
@@ -679,7 +679,7 @@
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Enchant creature\nEnchanted creature loses all abilities and has base power and toughness 1/1.",
-            "flavor_text": "[i]The elder's great argument shook the earth and called all heroic hatchlings to act.\n...if they noticed it.[/i]",
+            "flavor_text": "[i]The elders' great argument shook the earth and called all heroic hatchlings to act.\n...if they noticed it.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -931,7 +931,7 @@
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Choose one \u2014 \n\u2022 Destroy target creature with power 4 or greater.\n\u2022 Create a 2/2 green Ranger creature token. You gain 2 life.",
-            "flavor_text": "[i]With the elders aquarrerling and lands aquaking, heroes must arise.[/i]",
+            "flavor_text": "[i]With the elders aquarreling and lands aquaking, heroes must arise.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -984,9 +984,9 @@
             "number": 152,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Trample\nWhen this creature enters, create a Treasure token.",
+            "rules_text": "Trample\nWhen this creature enters, create a tapped Treasure token.",
             "flavor_text": "[i]\u201c\u2018I'll send her lights' said Sun to the air\n\u2018To aglow and adorn her silver hair.'\u201d\n\u2014[/i]The Sun Loved the Moon[i][/i]",
-            "pt": "4/2",
+            "pt": "4/1",
             "special_text": "",
             "shape": "normal",
             "set": "CLE",
@@ -1107,7 +1107,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 37,
+            "number": 36,
             "color_identity": "W",
             "cost": "{5}{W}",
             "rules_text": "When this Equipment enters, create two 2/2 green Ranger creature tokens, then attach this Equipment to one of them.\nEquipped creature gets +2/+2 and has vigilance.\nEquip {4}",
@@ -1496,7 +1496,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Placid Icescape",
@@ -1514,7 +1514,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Inspiring Cairn",
@@ -1532,7 +1532,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Gentle Clearing",
@@ -1550,7 +1550,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Picturesque Field",
@@ -1568,7 +1568,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Promising Overlook",
@@ -1586,7 +1586,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi HOnkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Resplendent Moor",
@@ -1604,7 +1604,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Refreshing Spring",
@@ -1622,7 +1622,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Fragrant Basin",
@@ -1640,7 +1640,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Impressive Peak",
@@ -1658,7 +1658,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": "!landslot"
+            "notes": ""
         },
         {
             "card_name": "Lose Hold",
@@ -1751,11 +1751,11 @@
             "notes": "Mass pump spell\nart2"
         },
         {
-            "card_name": "Mightkeeper Banner",
+            "card_name": "Bothersome Buzzer",
             "color": "WB",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Bird Cleric",
-            "number": 212,
+            "type": "Creature \u2014 Insect",
+            "number": 203,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Flying\nWhen this creature enters, exile target nonland permanent an opponent controls until this creature leaves the battlefield.",
@@ -1765,7 +1765,7 @@
             "shape": "normal",
             "set": "CLE",
             "loyalty": "",
-            "artist": "Yanni Panagiotopoulos",
+            "artist": "Anton Zemskov",
             "notes": "(Fiend Hunter)\nart2"
         },
         {
@@ -1791,7 +1791,7 @@
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Turtle Druid",
-            "number": 214,
+            "number": 213,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
             "rules_text": "When this creature enters, return target card from your graveyard to your hand.",
@@ -1823,22 +1823,22 @@
             "notes": "art2"
         },
         {
-            "card_name": "Adolescent Shrine-Scion",
+            "card_name": "Pollenpeace Cleric",
             "color": "WR",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Lizard Rogue",
-            "number": 202,
+            "type": "Creature \u2014 Salamander Cleric",
+            "number": 214,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "When this creature enters, destroy up to one target artifact or enchantment.",
-            "flavor_text": "[i]With the weight of thousands of years of history on one's shoulders, rebellion is inevitable.[/i]",
+            "flavor_text": "[i]She sings the restless blooms to sleep.[/i]",
             "pt": "3/1",
             "special_text": "",
             "shape": "normal",
             "set": "CLE",
             "loyalty": "",
-            "artist": "Timi Honkanen",
-            "notes": "art2"
+            "artist": "Jaime Staite",
+            "notes": "art2\nWith the weight of thousands of years of history on one's shoulders, rebellion is inevitable."
         },
         {
             "card_name": "Frigid Landmark",
@@ -2155,7 +2155,7 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "When this creature enters, you gain 3 life.\nWhen this creature dies, draw a card.",
-            "flavor_text": "[i]\u201cIn Frogwatch\u201d\n\u2014Loess expression meaning \u201cSafe.\u201d[/i]",
+            "flavor_text": "[i]\u201cLike a frog on watch\u201d\n\u2014Loess expression meaning \u2018Still.'[/i]",
             "pt": "2/3",
             "special_text": "",
             "shape": "normal",
@@ -2187,7 +2187,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 36,
+            "number": 35,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Create three 1/1 red Elemental creature tokens.",
@@ -2227,7 +2227,7 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature gets -4/-4 until end of turn.",
-            "flavor_text": "[i]Hatred is like a sickness; it will grow without treatment. And any sickness of the elders is a sickness of Ovonia.[/i]",
+            "flavor_text": "[i]Hatred is like a sickness; it will grow without treatment. And a sickness of the elders is a sickness of Ovonia.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -2306,7 +2306,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Irvan Pradivta",
-            "notes": ""
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Cross Porpoises",
@@ -2543,14 +2543,14 @@
             "notes": ""
         },
         {
-            "card_name": "Sand Sandlander",
+            "card_name": "Stolid Sandlander",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Insect Scout",
-            "number": 35,
+            "number": 38,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Vigilance\n{6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 2 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.",
+            "rules_text": "Vigilance\n{6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.",
             "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
@@ -2839,7 +2839,7 @@
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Flash\nWhenever you scry or surveil, you may pay {1}. If you do, create a 2/2 green Ranger creature token.",
-            "flavor_text": "[i]His tongue goes so fast it can taste the future.[/i]",
+            "flavor_text": "[i]His tongue is so fast it can taste the future.[/i]",
             "pt": "4/3",
             "special_text": "",
             "shape": "normal",
@@ -2985,7 +2985,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nDestroy target creature an opponent controls.\nTarget creature you control gets +2/+2 and gains deathtouch until end of turn.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Destroy target creature an opponent controls.\nII, III \u2014 Target creature you control gets +2/+2 and gains deathtouch until end of turn.\n\u200b",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3039,7 +3039,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI, II \u2014 Scry 1. Draw a card, then discard a card.\nIII \u2014 Create a 4/4 blue Dragon creature token with flying.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Scry 1. Draw a card, then discard a card.\nIII \u2014 Create a 4/4 blue Dragon creature token with flying.\n\u200b",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3162,7 +3162,7 @@
             "number": 115,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]\nFlying\nWhen this creature enters, if it was kicked, you draw two cards and lose 2 life.",
+            "rules_text": "Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]\nFlying\nWhen this creature enters, if it was kicked, you draw two cards and you lose 2 life.",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -3183,7 +3183,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nI \u2014 Gain 2 life. If an opponent has more life than you, gain 2 life.\nII \u2014 Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.\nIII \u2014 Draw a card. If an opponent has more cards in hand than you, draw a card.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Gain 2 life. If an opponent has more life than you, gain 2 life.\nII \u2014 Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.\nIII \u2014 Draw a card. If an opponent has more cards in hand than you, draw a card.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3288,7 +3288,7 @@
             "number": 169,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]\nWhen this creature enters, return a creature you control to its owner's hand. If this creature was kicked, create a token that's a copy of that creature.",
+            "rules_text": "Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]\nWhen this creature enters, return a creature you control to its owner's hand. If this creature was kicked and you returned a non-Turtle creature to your hand this way, create a token that's a copy of that creature.",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -3360,7 +3360,7 @@
             "number": 20,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Exile target creature. Its controller creates a 1/1 red Elemental creature tokens.",
+            "rules_text": "Exile target creature. Its controller creates a 1/1 red Elemental creature token.",
             "flavor_text": "[i]\u201cI'm sure he went this way!\u201d said Mica.\n\u201cNo!\u201d shouted Crest, but it was too late.[/i]",
             "pt": "",
             "special_text": "",
@@ -3523,7 +3523,7 @@
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Menace\nWhenever this creature attacks, if a player has 10 or less life, draw a card.",
-            "flavor_text": "[i]\u201cI feel a story brewing that will scare children in a generation.\u201d[/i]",
+            "flavor_text": "[i]\u201cI feel a story brewing that will scare children a generation hence.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -3576,8 +3576,8 @@
             "number": 136,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Kicker {1}{R} [i](You may pay an additional {1}{R} as you cast this spell.)[/i]\nHaste\nWhen this creature enters, if it was kicked, it deals 2 damage to target creature an opponent controls. That creature can't block this turn.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Haste\nWhenever this creature attacks, you may pay {R}. When you do, target creature can't block this turn.",
+            "flavor_text": "[i]To gather honey in the Bigreeds, best to just stand on a hill and shout.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -3609,7 +3609,7 @@
             "color": "WU",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Snail",
-            "number": 213,
+            "number": 212,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Flying\nWhenever The Moon Snail deals combat damage to a player, exile up to one target nonland permanent you control. Return it to the battlefield under its owner's control at the beginning of the next end step.",
@@ -3702,7 +3702,7 @@
             "number": 39,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Choose one or more \u2014 \n\u2022 Return target creature card with mana value 1 from your graveyard to the battlefield.\n\u2022 Return target creature card with mana value 2 from your graveyard to the battlefield.\n\u2022 Return target creature card with mana value 3 from your graveyard to the battlefield.",
+            "rules_text": "Return up to one target creature card with mana value 1, up to one target creature card with mana value 2, and up to one target creature card with mana value 3 from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3710,7 +3710,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Rachel Walpole",
-            "notes": ""
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Ice-Sculptor Dragon",
@@ -3741,7 +3741,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "\nCreate a 2/2 green Ranger creature token.\nPut a +1/+1 counter on target creature with the least power among creatures you control.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 Create a 2/2 green Ranger creature token.\nPut a +1/+1 counter on target creature with the least power among creatures you control.\n\u200b",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3782,7 +3782,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Anato Finnstark",
-            "notes": "Valilant?\n"
+            "notes": "Valilant?"
         },
         {
             "card_name": "Queen Bizabeth",
@@ -3828,7 +3828,7 @@
             "number": 204,
             "color_identity": "BG",
             "cost": "{B}{G}",
-            "rules_text": "Whenever you cast a spell, note one of its card types other than creature that hasn't been noted by Collector Snelbsy. If you do, put a +1/+1 counter on Snelsby and draw a card.",
+            "rules_text": "Whenever you cast a spell, note one of its card types other than creature that hasn't been noted by Quelbsy. If you do, put a +1/+1 counter on Quelsby and draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3861,7 +3861,7 @@
             "color": "BR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Insect Wizard",
-            "number": 203,
+            "number": 202,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Flying\nWhenever you cast a spell, if the amount of mana you spent to cast it is greater than its mana value, Bilfin gets +X/+0 and gains lifelink until end of turn, where X is the difference.",
@@ -3882,7 +3882,7 @@
             "number": 215,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "Trample\nYou may cast this card from your graveyard if you attacked with a creature with power 4 or greater this turn.",
+            "rules_text": "Trample\nYou may cast this card from your graveyard if you attacked with a non-Phoenix creature with power 4 or greater this turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -4009,7 +4009,7 @@
             "color_identity": "U",
             "cost": "{X}{U}{U}",
             "rules_text": "Draw X cards.",
-            "flavor_text": "[i]Do not let your mind be sequestered in its burrow, buried in a winter of dusty thought \u2014 even mine. By seeing those out there, even fools, will you learn something new.\n\u2014First-Chancellor Febidiah[/i]",
+            "flavor_text": "[i]\u201cDo not let your mind be sequestered in its burrow, buried in a winter of dusty thought \u2014 even mine. By seeing those out there, even fools, will you learn something new.\u201d\n\u2014First-Chancellor Febidiah[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4044,7 +4044,7 @@
             "number": 41,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flying\nAt the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.",
+            "rules_text": "Flying\nAt the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -4061,8 +4061,8 @@
             "type": "Instant",
             "number": 79,
             "color_identity": "U",
-            "cost": "{3}{U}{U}{U}",
-            "rules_text": "Choose target creature you control. Create three tokens that are copies of it.",
+            "cost": "{2}{U}{U}{U}",
+            "rules_text": "Exile target creature you control. Create three tokens that are copies of it.",
             "flavor_text": "[i]\u201cOne is the number of a dragon's nose! Two is the number of their wings! But I can better what a dragon knows with a number that can count so many things!\u201d\n\u2014[/i]I Can Count to Three[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4080,7 +4080,7 @@
             "number": 80,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flying\nWhenever this creature attacks, create a 1/1 red Elemental creature token for each card you've drawn this turn.",
+            "rules_text": "Flying\nWhenever this creature deals combat damage to a player, create a 1/1 red Elemental creature token for each card you've drawn this turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -4088,7 +4088,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Justice Wong",
-            "notes": ""
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Breaching Sprayback",
@@ -4119,7 +4119,7 @@
             "rules_text": "[i](Saga)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw a card.\nSurveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nYou may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Draw a card.\nII \u2014 Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nIII \u2014 You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -4299,12 +4299,12 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nTarget player gains control of this Saga.\nSacrifice a creature.\nDiscard a card.\nYou lose 3 life. You may remove all lore counters from this Saga.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nI \u2014 Target player gains control of this Saga.\nII \u2014 Sacrifice a creature.\nIII \u2014 Discard a card.\nIV \u2014 You lose 3 life. You may remove all lore counters from this Saga.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
             "artist": "Sandra Duchiexicz",
-            "notes": "Revise. Menace?\nholdout"
+            "notes": "Revise. Menace?\nholdout\n!tag wishlist"
         },
         {
             "card_name": "Gibbous, the Scaredybug",
@@ -4556,7 +4556,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Niklavs Romeiko",
-            "notes": ""
+            "notes": "!tag wishlist"
         },
         {
             "card_name": "Magmablood Elder",
@@ -4598,7 +4598,7 @@
             "card_name": "Brew For the Weary",
             "color": "R",
             "rarity": "rare",
-            "type": "Sorcery",
+            "type": "Instant",
             "number": 123,
             "color_identity": "R",
             "cost": "{3}{R}",
@@ -4713,7 +4713,7 @@
             "rules_text": "[i](saga)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nReturn a land card from your graveyard to the battlefield.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Mill three cards.\nIII \u2014 Return a land card from your graveyard to the battlefield.\n\u200b",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -5016,7 +5016,7 @@
             "number": 58,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "At the beginning of combat on your turn, choose up to one noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains \u201cWhenever this creature deals combat damage to a player, create a token that's a copy of it.\u201d [i](The tokens won't be creatures.)[/i]",
+            "rules_text": "At the beginning of combat on your turn, choose up to one target noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains \u201cWhenever this creature deals combat damage to a player, create a token that's a copy of it.\u201d [i](The tokens won't be creatures.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/4",
             "special_text": "",
@@ -5033,8 +5033,8 @@
             "type": "Creature \u2014 Insect",
             "number": 94,
             "color_identity": "B",
-            "cost": "{1}{B}",
-            "rules_text": "Deathtouch\nWhenever one or more creatures you control with flying deal combat damage to a player, you draw a card and you lose 1 life.",
+            "cost": "{B}",
+            "rules_text": "Deathtouch\nWhenever one or more creatures you control with flying deal combat damage to a player, you may pay {B} and 1 life. If you do, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",

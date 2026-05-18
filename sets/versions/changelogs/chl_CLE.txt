@@ -1,4 +1,198 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Bothersome Buzzer added.
+Pollenpeace Cleric added.
+Stolid Sandlander added.
+
+Mightkeeper Banner removed.
+Adolescent Shrine-Scion removed.
+Sand Sandlander removed.
+
+Bounding Squangler
+
+Souldust Shepherd
+
+High Observator's Judgment
+rules_text: This spell costs {1} less to cast if you control a creature with menace.
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. => Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Put a +1/+1 counter on up to one target creature with menace.
+
+Wisdom of Experience
+cost: {1}{B} => {2}{B}
+rules_text: You draw two cards and you lose 2 life. If you control a creature that has aspired, instead you draw two cards and you gain 2 life. => Scry 1. If you control a creature that has aspired, scry 3 instead.
+You draw two cards and you lose 2 life.
+
+Hibernate
+
+Defend the Outlands
+
+Shroomglow Collector
+rules_text: Trample
+When this creature enters, create a Treasure token. => Trample
+When this creature enters, create a tapped Treasure token.
+pt: 4/2 => 4/1
+
+Breathtaking Vista
+
+Placid Icescape
+
+Inspiring Cairn
+
+Gentle Clearing
+
+Picturesque Field
+
+Promising Overlook
+
+Resplendent Moor
+
+Refreshing Spring
+
+Fragrant Basin
+
+Impressive Peak
+
+Bronze Toad
+
+Fester
+
+Patient Bumblerog
+
+Swiftmeleon
+
+The Sorrow of Waxwing
+special_text: 
+Destroy target creature an opponent controls.
+Target creature you control gets +2/+2 and gains deathtouch until end of turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Destroy target creature an opponent controls.
+II, III — Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+​
+
+How the Dragon Got its Wings
+special_text: 
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+​
+
+Time-Bleached Dragon
+rules_text: Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Flying
+When this creature enters, if it was kicked, you draw two cards and lose 2 life. => Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Flying
+When this creature enters, if it was kicked, you draw two cards and you lose 2 life.
+
+The Founding of Buttermount
+special_text: 
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card.
+
+Catch-and-Releaser
+rules_text: Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]
+When this creature enters, return a creature you control to its owner's hand. If this creature was kicked, create a token that's a copy of that creature. => Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]
+When this creature enters, return a creature you control to its owner's hand. If this creature was kicked and you returned a non-Turtle creature to your hand this way, create a token that's a copy of that creature.
+
+Lead Off the Path
+rules_text: Exile target creature. Its controller creates a 1/1 red Elemental creature tokens. => Exile target creature. Its controller creates a 1/1 red Elemental creature token.
+
+Dark-Tales Connaisseur
+
+Honey-Flinger
+rules_text: Kicker {1}{R} [i](You may pay an additional {1}{R} as you cast this spell.)[/i]
+Haste
+When this creature enters, if it was kicked, it deals 2 damage to target creature an opponent controls. That creature can't block this turn. => Haste
+Whenever this creature attacks, you may pay {R}. When you do, target creature can't block this turn.
+
+Venturers' Return
+rules_text: Choose one or more — 
+• Return target creature card with mana value 1 from your graveyard to the battlefield.
+• Return target creature card with mana value 2 from your graveyard to the battlefield.
+• Return target creature card with mana value 3 from your graveyard to the battlefield. => Return up to one target creature card with mana value 1, up to one target creature card with mana value 2, and up to one target creature card with mana value 3 from your graveyard to the battlefield.
+
+Gno Grows Up
+special_text: 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control.
+​
+
+Cottonscale Drifter
+
+Collector Quelbsy
+rules_text: Whenever you cast a spell, note one of its card types other than creature that hasn't been noted by Collector Snelbsy. If you do, put a +1/+1 counter on Snelsby and draw a card. => Whenever you cast a spell, note one of its card types other than creature that hasn't been noted by Quelbsy. If you do, put a +1/+1 counter on Quelsby and draw a card.
+
+Prol Lavatoucher
+rules_text: Trample
+You may cast this card from your graveyard if you attacked with a creature with power 4 or greater this turn. => Trample
+You may cast this card from your graveyard if you attacked with a non-Phoenix creature with power 4 or greater this turn.
+
+Mind Spring
+
+Arch-Chancellor Zybsalim
+rules_text: Flying
+At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand. => Flying
+At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process.
+
+Trisect Essence
+cost: {3}{U}{U}{U} => {2}{U}{U}{U}
+rules_text: Choose target creature you control. Create three tokens that are copies of it. => Exile target creature you control. Create three tokens that are copies of it.
+
+Wondrous Cadet
+rules_text: Flying
+Whenever this creature attacks, create a 1/1 red Elemental creature token for each card you've drawn this turn. => Flying
+Whenever this creature deals combat damage to a player, create a 1/1 red Elemental creature token for each card you've drawn this turn.
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Draw a card.
+II — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+III — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+When Dragons Fought
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Target player gains control of this Saga.
+Sacrifice a creature.
+Discard a card.
+You lose 3 life. You may remove all lore counters from this Saga. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Target player gains control of this Saga.
+II — Sacrifice a creature.
+III — Discard a card.
+IV — You lose 3 life. You may remove all lore counters from this Saga.
+
+Enchanted Eruption
+
+Brew For the Weary
+type: Sorcery => Instant
+
+Find Your Clearingsong
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill three cards.
+Return a land card from your graveyard to the battlefield. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Mill three cards.
+III — Return a land card from your graveyard to the battlefield.
+​
+
+Magnificent Inventificator
+rules_text: At the beginning of combat on your turn, choose up to one noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains “Whenever this creature deals combat damage to a player, create a token that's a copy of it.” [i](The tokens won't be creatures.)[/i] => At the beginning of combat on your turn, choose up to one target noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains “Whenever this creature deals combat damage to a player, create a token that's a copy of it.” [i](The tokens won't be creatures.)[/i]
+
+Fleafriend Beetle
+cost: {1}{B} => {B}
+rules_text: Deathtouch
+Whenever one or more creatures you control with flying deal combat damage to a player, you draw a card and you lose 1 life. => Deathtouch
+Whenever one or more creatures you control with flying deal combat damage to a player, you may pay {B} and 1 life. If you do, draw a card.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 Grass-Gardener added.

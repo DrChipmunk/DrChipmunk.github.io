@@ -9,6 +9,39 @@ This is an unusual thing to do
 Bravo and Ys are a pair, and they love each other
 Ys is the organized, practical one
 Bravo's job is social, difficult, and fun, and he's on the verge of a breakthrough
+Order of Operations:
+
+Not for the first time, Ys regretted fitting his soulspace with circadian lighting. He had always been a stickler for the old 24-hour cycle. Before the crisis, this had made him something of an outlier. Less so these days. Time was now of the essence and so even those who would once tinker with a puzzle for centuries were now counting the days.
+
+<describe the soulspace physically>
+
+He was lying on a bed of stars. The mattress was invisible except for the regularly spaced points of light embedded within, pushed from their grid by his weight and by the weight of his husband Bravo. Those lights were twinkling brighter, gently coaxing him awake as he had programmed them. He allowed himself another few moments glancing into Bravo's peaceful smile. 
+
+<ys and bravo, physically>
+
+Contented streaks of light reached across the sky. He let his thoughts shape the space. The bed descended through unfolding shelves and servers, sliding easily to a halt next to a hovering cube of light. 
+
+Ys reached into the cube and adjusted his alertness. Excitement and determination followed. The inlaid lighting in the shelf they were hovering beside glowed a sunrise orange. He backed it off just slightly, happy with the change to his mood.
+
+Bravo rolled onto his side and mumbled something. Ys kissed him on the cheek. 
+
+"It's 0730, <pet name>," he said.  
+
+Bravo stretched like a cat. "Morning, <pet name>." He sat up and leaned his head on Ys's shoulder.
+
+"Sleep well?"
+
+"Yeah, just give me a moment."
+
+Most people never entered their own soulspace, much less let others into it, so most people couldn't adjust their mood whenever they needed. Ys had learned to give most people some time.
+
+"Okay, I'm up." Bravo closed his eyes and loaded into an avatar more suitable for walking around in public. <physical description>. 
+
+Ys admired the process. "Going in early?" he asked. Bravo's work didn't begin until 0800 and the soulspace exit spawned right near the <laboratory of error-proof infrastructure>. 
+
+Bravo nodded, eyes still closed, as he finished off his outfit with <cute detail>. 
+
+"We've nearly gotten the thing working." He stood, ready to dive off the bed. He faked a jump, instead falling back to wrap around Ys and pepper him with kisses. "Besides, looks like you've got work lined up too." With that, he rolled off the back of the bed and fell gracefully out of Ys's soulspace.
 
 Scene 2:
 Ys enters the trace that landed while he was resting. There's a request from a close friend to recover a shared key. Ys finds it, but also finds that this guy secretly hated his friend
@@ -17,6 +50,10 @@ Ys's job and specialty is investigating the traces of dead users
 Death in the Weft has one source these days, and that's errors
 Errors leave a trace - the remnants of a soulspace - broken and corrupted
 Ys is very good at what he does
+
+<Trace physical description>
+
+<Ys physical description>
 
 Scene 3:
 Ys meets with the close friend at a meeting-place in the Archives. He hands over the key, but can't restrain himself from saying what he learned.

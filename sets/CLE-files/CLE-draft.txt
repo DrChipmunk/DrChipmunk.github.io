@@ -115,9 +115,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Insect Monk",
-			"collector_number": "38",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/38_Snowpearl Sorter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png"
 			}
 		},
 		{
@@ -333,7 +333,7 @@
 		{
 			"name": "Wisdom of Experience",
 			"rarity": "common",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
 			"collector_number": "120",
 			"image_uris": {
@@ -615,9 +615,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{W}",
 			"type": "Artifact — Equipment",
-			"collector_number": "37",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/37_Skylands Vinecutter.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png"
 			}
 		},
 		{
@@ -971,13 +971,13 @@
 			}
 		},
 		{
-			"name": "Mightkeeper Banner",
+			"name": "Bothersome Buzzer",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
-			"type": "Creature — Bird Cleric",
-			"collector_number": "212",
+			"type": "Creature — Insect",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/212_Mightkeeper Banner.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/203_Bothersome Buzzer.png"
 			}
 		},
 		{
@@ -995,9 +995,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Turtle Druid",
-			"collector_number": "214",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/214_Orearchaeologist.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/213_Orearchaeologist.png"
 			}
 		},
 		{
@@ -1011,13 +1011,13 @@
 			}
 		},
 		{
-			"name": "Adolescent Shrine-Scion",
+			"name": "Pollenpeace Cleric",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
-			"type": "Creature — Lizard Rogue",
-			"collector_number": "202",
+			"type": "Creature — Salamander Cleric",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/202_Adolescent Shrine-Scion.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/214_Pollenpeace Cleric.png"
 			}
 		},
 		{
@@ -1215,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
-			"collector_number": "36",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/36_Shimmering Bounty.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/35_Shimmering Bounty.png"
 			}
 		},
 		{
@@ -1411,13 +1411,13 @@
 			}
 		},
 		{
-			"name": "Sand Sandlander",
+			"name": "Stolid Sandlander",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Insect Scout",
-			"collector_number": "35",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/35_Sand Sandlander.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/38_Stolid Sandlander.png"
 			}
 		},
 		{
@@ -2005,9 +2005,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Legendary Creature — Snail",
-			"collector_number": "213",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/213_The Moon Snail.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/212_The Moon Snail.png"
 			}
 		},
 		{
@@ -2145,9 +2145,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}{R}",
 			"type": "Legendary Creature — Insect Wizard",
-			"collector_number": "203",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/203_Bigmancer Bilfin.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/202_Bigmancer Bilfin.png"
 			}
 		},
 		{
@@ -2253,7 +2253,7 @@
 		{
 			"name": "Trisect Essence",
 			"rarity": "mythic",
-			"mana_cost": "{3}{U}{U}{U}",
+			"mana_cost": "{2}{U}{U}{U}",
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
@@ -2554,7 +2554,7 @@
 			"name": "Brew For the Weary",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "123",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/123_Brew For the Weary.png"
@@ -2793,7 +2793,7 @@
 		{
 			"name": "Fleafriend Beetle",
 			"rarity": "rare",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{B}",
 			"type": "Creature — Insect",
 			"collector_number": "94",
 			"image_uris": {
@@ -2930,11 +2930,11 @@
 	5 Incinerating Breath
 	5 Scout the Outlands
 	5 Harvest of Clouds
-	5 Mightkeeper Banner
+	5 Bothersome Buzzer
 	5 Snappytrap
 	5 Orearchaeologist
 	5 Whiptongue Toad
-	5 Adolescent Shrine-Scion
+	5 Pollenpeace Cleric
 	5 Egg of the Elders
 	5 Guards of Old Ovonia
 	5 Memorial Lute
@@ -2960,7 +2960,7 @@
 	5 Monsoon Proctor
 	5 Molten Dancer
 	5 Bogberry Bloom
-	5 Sand Sandlander
+	5 Stolid Sandlander
 	5 Birchwood Blazewarden
 	5 Stormwater Serpent
 	5 Redscale Challenger

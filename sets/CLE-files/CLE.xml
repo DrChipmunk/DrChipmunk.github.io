@@ -5,7 +5,7 @@
 			<name>CLE</name>
 			<longname>Clearingsong</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-15</releasedate>
+			<releasedate>2026-05-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -217,7 +217,7 @@ Aspire — When an opponent or a spell or permanent an opponent controls becomes
 			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
 Flying
 When this creature enters, if it was kicked, exile up to one target creature. Return it to the battlefield at the beginning of the next end step.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/38_Snowpearl Sorter.png" num="38">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/37_Snowpearl Sorter.png" num="37">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -513,8 +513,8 @@ Enchanted creature gets +2/+2.</text>
 		</card>
 		<card>
 			<name>High Observator&apos;s Judgment</name>
-			<text>This spell costs {1} less to cast if you control a creature with menace.
-Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+Put a +1/+1 counter on up to one target creature with menace.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/101_High Observator&apos;s Judgment.png" num="101">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -597,15 +597,16 @@ When this enchantment enters, exile target artifact or creature an opponent cont
 		</card>
 		<card>
 			<name>Wisdom of Experience</name>
-			<text>You draw two cards and you lose 2 life. If you control a creature that has aspired, instead you draw two cards and you gain 2 life.</text>
+			<text>Scry 1. If you control a creature that has aspired, scry 3 instead.
+You draw two cards and you lose 2 life.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/120_Wisdom of Experience.png" num="120">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -966,7 +967,7 @@ Destroy target creature with mana value 2 or less. If this spell was kicked, ins
 		<card>
 			<name>Shroomglow Collector</name>
 			<text>Trample
-When this creature enters, create a Treasure token.</text>
+When this creature enters, create a tapped Treasure token.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/152_Shroomglow Collector.png" num="152">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -977,7 +978,7 @@ When this creature enters, create a Treasure token.</text>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>4/2</pt>
+				<pt>4/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1093,7 +1094,7 @@ When this creature enters, if it was kicked, it gets +2/+2 until end of turn.</t
 			<text>When this Equipment enters, create two 2/2 green Ranger creature tokens, then attach this Equipment to one of them.
 Equipped creature gets +2/+2 and has vigilance.
 Equip {4}</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/37_Skylands Vinecutter.png" num="37">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/36_Skylands Vinecutter.png" num="36">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1677,14 +1678,14 @@ When this creature enters, surveil 1. (Look at the top card of your library. You
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Mightkeeper Banner</name>
+			<name>Bothersome Buzzer</name>
 			<text>Flying
 When this creature enters, exile target nonland permanent an opponent controls until this creature leaves the battlefield.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/212_Mightkeeper Banner.png" num="212">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/203_Bothersome Buzzer.png" num="203">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Bird Cleric</type>
+				<type>Creature — Insect</type>
 				<maintype>Creature</maintype>
 				<manacost>1WB</manacost>
 				<cmc>3</cmc>
@@ -1714,7 +1715,7 @@ When this creature enters, exile target nonland permanent an opponent controls u
 		<card>
 			<name>Orearchaeologist</name>
 			<text>When this creature enters, return target card from your graveyard to your hand.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/214_Orearchaeologist.png" num="214">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/213_Orearchaeologist.png" num="213">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1747,13 +1748,13 @@ When this creature enters, return up to one target creature to its owner&apos;s 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Adolescent Shrine-Scion</name>
+			<name>Pollenpeace Cleric</name>
 			<text>When this creature enters, destroy up to one target artifact or enchantment.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/202_Adolescent Shrine-Scion.png" num="202">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/214_Pollenpeace Cleric.png" num="214">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Lizard Rogue</type>
+				<type>Creature — Salamander Cleric</type>
 				<maintype>Creature</maintype>
 				<manacost>1RW</manacost>
 				<cmc>3</cmc>
@@ -2081,7 +2082,7 @@ Equip {5}</text>
 		<card>
 			<name>Shimmering Bounty</name>
 			<text>Create three 1/1 red Elemental creature tokens.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/36_Shimmering Bounty.png" num="36">CLE</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/35_Shimmering Bounty.png" num="35">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2428,10 +2429,10 @@ When this creature enters, target creature gets +2/+0 and gains trample until en
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Sand Sandlander</name>
+			<name>Stolid Sandlander</name>
 			<text>Vigilance
-{6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 2 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/35_Sand Sandlander.png" num="35">CLE</set>
+{6}, {T}: Look the top four cards of you library. You may reveal a creature card with mana value 3 or less from among them and put it into your hand. Put the rest on the bottom in a random order. This ability costs {1} less to activate for each Plains you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/38_Stolid Sandlander.png" num="38">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3025,7 +3026,7 @@ When this creature enters, you may discard your hand, then draw cards equal to t
 			<name>Time-Bleached Dragon</name>
 			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Flying
-When this creature enters, if it was kicked, you draw two cards and lose 2 life.</text>
+When this creature enters, if it was kicked, you draw two cards and you lose 2 life.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/115_Time-Bleached Dragon.png" num="115">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3144,7 +3145,7 @@ When this creature enters, if it was kicked, search your library for an Aura, Sa
 		<card>
 			<name>Catch-and-Releaser</name>
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
-When this creature enters, return a creature you control to its owner&apos;s hand. If this creature was kicked, create a token that&apos;s a copy of that creature.</text>
+When this creature enters, return a creature you control to its owner&apos;s hand. If this creature was kicked and you returned a non-Turtle creature to your hand this way, create a token that&apos;s a copy of that creature.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/169_Catch-and-Releaser.png" num="169">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3214,7 +3215,7 @@ Aspire — When this creature deals combat damage to an opponent, put a +1/+1 co
 		</card>
 		<card>
 			<name>Lead Off the Path</name>
-			<text>Exile target creature. Its controller creates a 1/1 red Elemental creature tokens.</text>
+			<text>Exile target creature. Its controller creates a 1/1 red Elemental creature token.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/20_Lead Off the Path.png" num="20">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3424,9 +3425,8 @@ If a creature card would be put into your graveyard from anywhere, exile it inst
 		</card>
 		<card>
 			<name>Honey-Flinger</name>
-			<text>Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)
-Haste
-When this creature enters, if it was kicked, it deals 2 damage to target creature an opponent controls. That creature can&apos;t block this turn.</text>
+			<text>Haste
+Whenever this creature attacks, you may pay {R}. When you do, target creature can&apos;t block this turn.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/136_Honey-Flinger.png" num="136">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3463,7 +3463,7 @@ At the beginning of your end step, exile up to one target creature card with man
 			<name>The Moon Snail</name>
 			<text>Flying
 Whenever The Moon Snail deals combat damage to a player, exile up to one target nonland permanent you control. Return it to the battlefield under its owner&apos;s control at the beginning of the next end step.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/213_The Moon Snail.png" num="213">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/212_The Moon Snail.png" num="212">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3550,10 +3550,7 @@ Whenever you attack, create a 1/1 red Elemental creature token that&apos;s tappe
 		</card>
 		<card>
 			<name>Venturers&apos; Return</name>
-			<text>Choose one or more — 
-• Return target creature card with mana value 1 from your graveyard to the battlefield.
-• Return target creature card with mana value 2 from your graveyard to the battlefield.
-• Return target creature card with mana value 3 from your graveyard to the battlefield.</text>
+			<text>Return up to one target creature card with mana value 1, up to one target creature card with mana value 2, and up to one target creature card with mana value 3 from your graveyard to the battlefield.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/39_Venturers&apos; Return.png" num="39">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3677,7 +3674,7 @@ Whenever you attack with a number of creatures greater than Gabl&apos;s power, p
 		</card>
 		<card>
 			<name>Collector Quelbsy</name>
-			<text>Whenever you cast a spell, note one of its card types other than creature that hasn&apos;t been noted by Collector Snelbsy. If you do, put a +1/+1 counter on Snelsby and draw a card.</text>
+			<text>Whenever you cast a spell, note one of its card types other than creature that hasn&apos;t been noted by Quelbsy. If you do, put a +1/+1 counter on Quelsby and draw a card.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/204_Collector Quelbsy.png" num="204">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3716,7 +3713,7 @@ Whenever you cast a spell during an opponent&apos;s turn, put a +1/+1 counter on
 			<name>Bigmancer Bilfin</name>
 			<text>Flying
 Whenever you cast a spell, if the amount of mana you spent to cast it is greater than its mana value, Bilfin gets +X/+0 and gains lifelink until end of turn, where X is the difference.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/203_Bigmancer Bilfin.png" num="203">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/202_Bigmancer Bilfin.png" num="202">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3733,7 +3730,7 @@ Whenever you cast a spell, if the amount of mana you spent to cast it is greater
 		<card>
 			<name>Prol Lavatoucher</name>
 			<text>Trample
-You may cast this card from your graveyard if you attacked with a creature with power 4 or greater this turn.</text>
+You may cast this card from your graveyard if you attacked with a non-Phoenix creature with power 4 or greater this turn.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/215_Prol Lavatoucher.png" num="215">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3889,7 +3886,7 @@ Whenever a Wizard you control enters, you may cast target instant or sorcery car
 		<card>
 			<name>Arch-Chancellor Zybsalim</name>
 			<text>Flying
-At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.</text>
+At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/41_Arch-Chancellor Zybsalim.png" num="41">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3906,15 +3903,15 @@ At the beginning of your second main phase, choose a number. Mill a card. If its
 		</card>
 		<card>
 			<name>Trisect Essence</name>
-			<text>Choose target creature you control. Create three tokens that are copies of it.</text>
+			<text>Exile target creature you control. Create three tokens that are copies of it.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/79_Trisect Essence.png" num="79">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Instant</type>
 				<maintype>Instant</maintype>
-				<manacost>3UUU</manacost>
-				<cmc>6</cmc>
+				<manacost>2UUU</manacost>
+				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -3923,7 +3920,7 @@ At the beginning of your second main phase, choose a number. Mill a card. If its
 		<card>
 			<name>Wondrous Cadet</name>
 			<text>Flying
-Whenever this creature attacks, create a 1/1 red Elemental creature token for each card you&apos;ve drawn this turn.</text>
+Whenever this creature deals combat damage to a player, create a 1/1 red Elemental creature token for each card you&apos;ve drawn this turn.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/80_Wondrous Cadet.png" num="80">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4432,8 +4429,8 @@ Each player may discard their hand and draw five cards.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
 				<manacost>3R</manacost>
 				<cmc>4</cmc>
 				<colors>R</colors>
@@ -4811,7 +4808,7 @@ Whenever this creature becomes the target of a spell or ability for the first ti
 		</card>
 		<card>
 			<name>Magnificent Inventificator</name>
-			<text>At the beginning of combat on your turn, choose up to one noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains &quot;Whenever this creature deals combat damage to a player, create a token that&apos;s a copy of it.&quot; (The tokens won&apos;t be creatures.)</text>
+			<text>At the beginning of combat on your turn, choose up to one target noncreature artifact you control. Until end of turn, it becomes a 4/4 artifact creature and gains &quot;Whenever this creature deals combat damage to a player, create a token that&apos;s a copy of it.&quot; (The tokens won&apos;t be creatures.)</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/58_Magnificent Inventificator.png" num="58">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4829,15 +4826,15 @@ Whenever this creature becomes the target of a spell or ability for the first ti
 		<card>
 			<name>Fleafriend Beetle</name>
 			<text>Deathtouch
-Whenever one or more creatures you control with flying deal combat damage to a player, you draw a card and you lose 1 life.</text>
+Whenever one or more creatures you control with flying deal combat damage to a player, you may pay {B} and 1 life. If you do, draw a card.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/94_Fleafriend Beetle.png" num="94">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Insect</type>
 				<maintype>Creature</maintype>
-				<manacost>1B</manacost>
-				<cmc>2</cmc>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 				<pt>1/1</pt>
