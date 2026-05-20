@@ -5,7 +5,7 @@
 			<name>CLE</name>
 			<longname>Clearingsong</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-18</releasedate>
+			<releasedate>2026-05-19</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1937,7 +1937,7 @@ This land enters tapped.
 		<card>
 			<name>Elemental CLE</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4t_Elemental.png" num="4">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5t_Elemental.png" num="5">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1955,7 +1955,7 @@ This land enters tapped.
 		<card>
 			<name>Ranger CLE</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6t_Ranger.png" num="6">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/7t_Ranger.png" num="7">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1988,7 +1988,7 @@ This land enters tapped.
 		<card>
 			<name>Kindness CLE</name>
 			<text>You may scry 1 at the beginning of your next upkeep.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/7t_Kindness.png" num="7">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/8t_Kindness.png" num="8">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2003,7 +2003,7 @@ This land enters tapped.
 		<card>
 			<name>Egg of the Elders</name>
 			<text>When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
-{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token.</text>
+{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/233_Egg of the Elders.png" num="233">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -3480,7 +3480,7 @@ Whenever The Moon Snail deals combat damage to a player, exile up to one target 
 		<card>
 			<name>Dragon CLE</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/3t_Dragon.png" num="3">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/4t_Dragon.png" num="4">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3497,16 +3497,16 @@ Whenever The Moon Snail deals combat damage to a player, exile up to one target 
 		</card>
 		<card>
 			<name>The Legendary Mica</name>
-			<text>When Mica enters, look at the top five cards of your library. You may reveal a legendary or Plains card from among them and put it into your hand. Put the rest on the bottom in a random order.
-Aspire — When you control three or more legendary permanents, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
+			<text>When Mica enters, create The Truth Pick, a colorless Equipment artifact token with &quot;Equipped creature gets +1/+0 and has vigilance.&quot; and Equip {1}.
+Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/22_The Legendary Mica.png" num="22">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Whale Cleric</type>
 				<maintype>Creature</maintype>
-				<manacost>1W</manacost>
-				<cmc>2</cmc>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 				<pt>1/1</pt>
@@ -4879,7 +4879,7 @@ Whenever one or more creatures you control with flying deal combat damage to a p
 			<name>Insect CLE</name>
 			<text>Haste
 This creature can&apos;t block.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/5t_Insect.png" num="5">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/6t_Insect.png" num="6">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4892,6 +4892,22 @@ This creature can&apos;t block.</text>
 				<pt>X/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Truth Pick CLE</name>
+			<text>Equipped creature gets +1/+0 and has vigilance.
+Equip {1}</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/3t_The Truth Pick.png" num="3">CLE</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
 			<token>1</token>
 		</card>
 	</cards>

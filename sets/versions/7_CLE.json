@@ -1496,7 +1496,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Placid Icescape",
@@ -1514,7 +1514,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Inspiring Cairn",
@@ -1532,7 +1532,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Gentle Clearing",
@@ -1550,7 +1550,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Picturesque Field",
@@ -1568,7 +1568,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Promising Overlook",
@@ -1586,7 +1586,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi HOnkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Resplendent Moor",
@@ -1604,7 +1604,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Refreshing Spring",
@@ -1622,7 +1622,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Fragrant Basin",
@@ -1640,7 +1640,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Impressive Peak",
@@ -1658,7 +1658,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!addtoken Kindness;1"
         },
         {
             "card_name": "Lose Hold",
@@ -2025,7 +2025,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Creature \u2014 Elemental",
-            "number": 4,
+            "number": 5,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -2043,7 +2043,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Token Creature \u2014 Ranger",
-            "number": 6,
+            "number": 7,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -2079,7 +2079,7 @@
             "color": "",
             "rarity": "common",
             "type": "Reminder",
-            "number": 7,
+            "number": 8,
             "color_identity": "C",
             "cost": "",
             "rules_text": "You may scry 1 at the beginning of your next upkeep.",
@@ -2090,7 +2090,7 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "Timi Honkanen",
-            "notes": ""
+            "notes": "!tokentag Kindness"
         },
         {
             "card_name": "Egg of the Elders",
@@ -2100,7 +2100,7 @@
             "number": 233,
             "color_identity": "WUBRG",
             "cost": "{2}",
-            "rules_text": "When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token.",
+            "rules_text": "When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.\n{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token with flying.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2985,7 +2985,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Destroy target creature an opponent controls.\nII, III \u2014 Target creature you control gets +2/+2 and gains deathtouch until end of turn.\n\u200b",
+            "special_text": "\nDestroy target creature an opponent controls.\nTarget creature you control gets +2/+2 and gains deathtouch until end of turn.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3039,7 +3039,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Scry 1. Draw a card, then discard a card.\nIII \u2014 Create a 4/4 blue Dragon creature token with flying.\n\u200b",
+            "special_text": "\nI, II \u2014 Scry 1. Draw a card, then discard a card.\nIII \u2014 Create a 4/4 blue Dragon creature token with flying.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3183,7 +3183,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Gain 2 life. If an opponent has more life than you, gain 2 life.\nII \u2014 Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.\nIII \u2014 Draw a card. If an opponent has more cards in hand than you, draw a card.",
+            "special_text": "\nI \u2014 Gain 2 life. If an opponent has more life than you, gain 2 life.\nII \u2014 Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.\nIII \u2014 Draw a card. If an opponent has more cards in hand than you, draw a card.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -3627,7 +3627,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Token Creature \u2014 Dragon",
-            "number": 3,
+            "number": 4,
             "color_identity": "U",
             "cost": "",
             "rules_text": "Flying",
@@ -3647,8 +3647,8 @@
             "type": "Legendary Creature \u2014 Whale Cleric",
             "number": 22,
             "color_identity": "W",
-            "cost": "{1}{W}",
-            "rules_text": "When Mica enters, look at the top five cards of your library. You may reveal a legendary or Plains card from among them and put it into your hand. Put the rest on the bottom in a random order.\nAspire \u2014 When you control three or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i]",
+            "cost": "{W}",
+            "rules_text": "When Mica enters, create The Truth Pick, a colorless Equipment artifact token with \u201cEquipped creature gets +1/+0 and has vigilance.\u201d and Equip {1}.\nAspire \u2014 When you control four or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3741,7 +3741,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II, III \u2014 Create a 2/2 green Ranger creature token.\nPut a +1/+1 counter on target creature with the least power among creatures you control.\n\u200b",
+            "special_text": "\nCreate a 2/2 green Ranger creature token.\nPut a +1/+1 counter on target creature with the least power among creatures you control.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -4119,7 +4119,7 @@
             "rules_text": "[i](Saga)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2014 Draw a card.\nII \u2014 Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nIII \u2014 You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nDraw a card.\nSurveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]\nYou may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -4299,7 +4299,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nI \u2014 Target player gains control of this Saga.\nII \u2014 Sacrifice a creature.\nIII \u2014 Discard a card.\nIV \u2014 You lose 3 life. You may remove all lore counters from this Saga.",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]\nTarget player gains control of this Saga.\nSacrifice a creature.\nDiscard a card.\nYou lose 3 life. You may remove all lore counters from this Saga.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -4713,7 +4713,7 @@
             "rules_text": "[i](saga)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI, II \u2014 Mill three cards.\nIII \u2014 Return a land card from your graveyard to the battlefield.\n\u200b",
+            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nMill three cards.\nReturn a land card from your graveyard to the battlefield.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",
@@ -5085,7 +5085,7 @@
             "color": "R",
             "rarity": "common",
             "type": "Token Creature \u2014 Insect",
-            "number": 5,
+            "number": 6,
             "color_identity": "R",
             "cost": "",
             "rules_text": "Haste\nThis creature can't block.",
@@ -5096,6 +5096,24 @@
             "set": "CLE",
             "loyalty": "",
             "artist": "rafael zanchetin",
+            "notes": ""
+        },
+        {
+            "card_name": "The Truth Pick",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Legendary Artifact \u2014 Equipment",
+            "number": 3,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "Equipped creature gets +1/+0 and has vigilance.\nEquip {1}",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "CLE",
+            "loyalty": "",
+            "artist": "Brian Valeza",
             "notes": ""
         }
     ]

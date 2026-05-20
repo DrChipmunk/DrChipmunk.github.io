@@ -1,4 +1,105 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+The Truth Pick added.
+
+
+Breathtaking Vista
+
+Placid Icescape
+
+Inspiring Cairn
+
+Gentle Clearing
+
+Picturesque Field
+
+Promising Overlook
+
+Resplendent Moor
+
+Refreshing Spring
+
+Fragrant Basin
+
+Impressive Peak
+
+Kindness
+
+Egg of the Elders
+rules_text: When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token. => When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Draw a card. You gain 3 life. Create a 4/4 blue Dragon creature token with flying.
+
+The Sorrow of Waxwing
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Destroy target creature an opponent controls.
+II, III — Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+​ => 
+Destroy target creature an opponent controls.
+Target creature you control gets +2/+2 and gains deathtouch until end of turn.
+
+How the Dragon Got its Wings
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+​ => 
+I, II — Scry 1. Draw a card, then discard a card.
+III — Create a 4/4 blue Dragon creature token with flying.
+
+The Founding of Buttermount
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card. => 
+I — Gain 2 life. If an opponent has more life than you, gain 2 life.
+II — Create a 1/1 red Elemental creature token. If an opponent controls more creatures than you, create a 1/1 red Elemental creature token.
+III — Draw a card. If an opponent has more cards in hand than you, draw a card.
+
+The Legendary Mica
+cost: {1}{W} => {W}
+rules_text: When Mica enters, look at the top five cards of your library. You may reveal a legendary or Plains card from among them and put it into your hand. Put the rest on the bottom in a random order.
+Aspire — When you control three or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i] => When Mica enters, create The Truth Pick, a colorless Equipment artifact token with “Equipped creature gets +1/+0 and has vigilance.” and Equip {1}.
+Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i]
+
+Gno Grows Up
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II, III — Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control.
+​ => 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control.
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Draw a card.
+II — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+III — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+When Dragons Fought
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+I — Target player gains control of this Saga.
+II — Sacrifice a creature.
+III — Discard a card.
+IV — You lose 3 life. You may remove all lore counters from this Saga. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)[/i]
+Target player gains control of this Saga.
+Sacrifice a creature.
+Discard a card.
+You lose 3 life. You may remove all lore counters from this Saga.
+
+Find Your Clearingsong
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Mill three cards.
+III — Return a land card from your graveyard to the battlefield.
+​ => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Mill three cards.
+Return a land card from your graveyard to the battlefield.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Bothersome Buzzer added.

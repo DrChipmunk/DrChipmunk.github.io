@@ -2363,15 +2363,7 @@
         "position": ""
     },
     {
-        "card_name": "Kindness",
-        "number": 7,
-        "shape": "token",
-        "set": "CLE",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Dragon",
+        "card_name": "The Truth Pick",
         "number": 3,
         "shape": "token",
         "set": "CLE",
@@ -2379,7 +2371,15 @@
         "position": ""
     },
     {
-        "card_name": "Elemental",
+        "card_name": "Kindness",
+        "number": 8,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Dragon",
         "number": 4,
         "shape": "token",
         "set": "CLE",
@@ -2387,7 +2387,7 @@
         "position": ""
     },
     {
-        "card_name": "Insect",
+        "card_name": "Elemental",
         "number": 5,
         "shape": "token",
         "set": "CLE",
@@ -2395,7 +2395,7 @@
         "position": ""
     },
     {
-        "card_name": "Ranger",
+        "card_name": "Insect",
         "number": 6,
         "shape": "token",
         "set": "CLE",
@@ -2403,7 +2403,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Ranger",
+        "number": 7,
+        "shape": "token",
+        "set": "CLE",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"

@@ -1125,9 +1125,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Elemental",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4t_Elemental.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5t_Elemental.png"
 			}
 		},
 		{
@@ -1135,9 +1135,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Ranger",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6t_Ranger.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7t_Ranger.png"
 			}
 		},
 		{
@@ -1155,9 +1155,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/7t_Kindness.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/8t_Kindness.png"
 			}
 		},
 		{
@@ -2015,15 +2015,15 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Dragon",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3t_Dragon.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/4t_Dragon.png"
 			}
 		},
 		{
 			"name": "The Legendary Mica",
 			"rarity": "mythic",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}",
 			"type": "Legendary Creature — Whale Cleric",
 			"collector_number": "22",
 			"image_uris": {
@@ -2825,9 +2825,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Insect",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/5t_Insect.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/6t_Insect.png"
+			}
+		},
+		{
+			"name": "The Truth Pick",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Legendary Artifact — Equipment",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/3t_The Truth Pick.png"
 			}
 		}
 	]
