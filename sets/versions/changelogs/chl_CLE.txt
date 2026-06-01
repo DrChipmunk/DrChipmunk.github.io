@@ -1,4 +1,71 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+Chit-Chat added.
+Steal Time Together added.
+Queen Birrabeth added.
+Magmablood Dragon added.
+
+Eavesdrop removed.
+Get Some Time Alone removed.
+Queen Bizabeth removed.
+Magmablood Elder removed.
+
+Wondrous View
+rules_text: Enchant land
+Enchanted land has {T}: Add two mana of any one color.
+When this enchantment enters, if you control a Scout or Ranger, draw a card. => Enchant land
+Enchanted land has “{T}: Add two mana of any one color.”
+When this enchantment enters, if you control a Scout or Ranger, draw a card.
+
+Curious Shinosaur
+rules_text: Aspire — When this creature attacks, put a +1/+1 counter on it. [i](Each aspire ability triggers only once.)[/i]
+When this creature dies, if it aspired, create a tapped 2/2 green Ranger creature token. => Aspire — When this creature deals combat damage to a player, put a +1/+1 counter on it. [i](Each aspire ability triggers only once.)[/i]
+When this creature dies, if it aspired, create a tapped 2/2 green Ranger creature token.
+
+Bogberry Bloom
+rules_text: Return target creature card with mana value less than or equal to the number of Swamps you control from the graveyard to the battlefield. => Return target creature card with mana value less than or equal to the number of Swamps you control from your graveyard to the battlefield.
+
+Foreign Chromawalker
+rules_text: This spell costs {1} less to cast for each color among permanents you control.
+Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i] => This spell costs {1} less to cast for each color among permanents you control.
+This creature can't be blocked by more than one creature.
+
+Auroral Migrant
+rules_text: This spell costs {1} less to cast for each token you control.
+Flying, vigilance. => This spell costs {1} less to cast for each token you control.
+Flying, vigilance
+
+Ponderous Ruinguard
+rules_text: Vigilance
+Aspire — When you control three creatures that share a creature type, put two +1/+1 counters on this creature. [i](Each aspire ability triggers only once.)[/i] => Vigilance
+Aspire — When you control three creatures with different names that share a creature type, put two +1/+1 counters on this creature. [i](Each aspire ability triggers only once.)[/i]
+
+The Legendary Mica
+rules_text: When Mica enters, create The Truth Pick, a colorless Equipment artifact token with “Equipped creature gets +1/+0 and has vigilance.” and Equip {1}.
+Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i] => When Mica enters, create The Truth Pick, a colorless legendary Equipment artifact token with “Equipped creature gets +1/+0 and has vigilance” and equip {1}.
+Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i]
+
+Brew For the Weary
+cost: {3}{R} => {2}{R}{R}
+
+Shell Scout Leader
+type: Creature => Creature — Turtle Ranger
+
+Ranger's Oath
+cost: {2}{G} => {1}{G}{G}
+
+Blade of the Elders
+rules_text: Equipped creature gets +1/+1 and has ward {2}.
+Whenever equipped creature attacks, draw a card.
+Equip creature with trample {1}
+Equip {3} => Equipped creature gets +1/+1.
+Whenever equipped creature attacks, draw a card.
+Equip creature with trample {1}
+Equip {3}
+
+
+VERSION 7 CHANGELOG
 ====================
 
 The Truth Pick added.

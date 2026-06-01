@@ -41,7 +41,7 @@
     },
     {
         "card_name": "Ice-Sculptor Dragon",
-        "number": 16,
+        "number": 15,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -49,7 +49,7 @@
     },
     {
         "card_name": "Crest, Ever-Talkative",
-        "number": 47,
+        "number": 48,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -81,7 +81,7 @@
     },
     {
         "card_name": "The Legendary Mica",
-        "number": 22,
+        "number": 21,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -104,7 +104,7 @@
         "position": ""
     },
     {
-        "card_name": "Magmablood Elder",
+        "card_name": "Magmablood Dragon",
         "number": 144,
         "shape": "normal",
         "set": "CLE",
@@ -120,8 +120,8 @@
         "position": ""
     },
     {
-        "card_name": "Queen Bizabeth",
-        "number": 32,
+        "card_name": "Queen Birrabeth",
+        "number": 31,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -209,7 +209,7 @@
     },
     {
         "card_name": "Coming Storm",
-        "number": 46,
+        "number": 47,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -240,9 +240,9 @@
         "position": ""
     },
     {
-        "card_name": "Get Some Time Alone",
+        "card_name": "Gno Grows Up",
         "number": 13,
-        "shape": "normal",
+        "shape": "saga",
         "set": "CLE",
         "rotated": false,
         "position": ""
@@ -280,9 +280,9 @@
         "position": ""
     },
     {
-        "card_name": "Gno Grows Up",
+        "card_name": "Havenback Tortoise",
         "number": 14,
-        "shape": "saga",
+        "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
@@ -320,8 +320,8 @@
         "position": ""
     },
     {
-        "card_name": "Havenback Tortoise",
-        "number": 15,
+        "card_name": "Leader of the Lights",
+        "number": 20,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -360,8 +360,8 @@
         "position": ""
     },
     {
-        "card_name": "Leader of the Lights",
-        "number": 21,
+        "card_name": "Ranger Knight Hatchling",
+        "number": 32,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -400,8 +400,8 @@
         "position": ""
     },
     {
-        "card_name": "Ranger Knight Hatchling",
-        "number": 33,
+        "card_name": "Steal Time Together",
+        "number": 37,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -529,7 +529,7 @@
     },
     {
         "card_name": "Cross Porpoises",
-        "number": 48,
+        "number": 49,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -761,7 +761,7 @@
     },
     {
         "card_name": "Keeper of the Shellseal",
-        "number": 19,
+        "number": 18,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -801,7 +801,7 @@
     },
     {
         "card_name": "Lead Off the Path",
-        "number": 20,
+        "number": 19,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -841,7 +841,7 @@
     },
     {
         "card_name": "Petalwind Mage",
-        "number": 29,
+        "number": 28,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -881,7 +881,7 @@
     },
     {
         "card_name": "Ponderous Ruinguard",
-        "number": 30,
+        "number": 29,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -921,7 +921,7 @@
     },
     {
         "card_name": "Riverwatch Glider",
-        "number": 34,
+        "number": 33,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -961,7 +961,7 @@
     },
     {
         "card_name": "Shimmering Bounty",
-        "number": 35,
+        "number": 34,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1161,15 +1161,15 @@
     },
     {
         "card_name": "Incense Censor",
-        "number": 17,
+        "number": 16,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Eavesdrop",
-        "number": 49,
+        "card_name": "Chit-Chat",
+        "number": 46,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1201,7 +1201,7 @@
     },
     {
         "card_name": "Joyful Disposition",
-        "number": 18,
+        "number": 17,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1241,7 +1241,7 @@
     },
     {
         "card_name": "Loess Lightbearer",
-        "number": 23,
+        "number": 22,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1281,7 +1281,7 @@
     },
     {
         "card_name": "Lost to Myth",
-        "number": 24,
+        "number": 23,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1321,7 +1321,7 @@
     },
     {
         "card_name": "Lumizoa",
-        "number": 25,
+        "number": 24,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1361,7 +1361,7 @@
     },
     {
         "card_name": "Meticulous Nectarwatch",
-        "number": 26,
+        "number": 25,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1401,7 +1401,7 @@
     },
     {
         "card_name": "Mournful Craftsbug",
-        "number": 27,
+        "number": 26,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1441,7 +1441,7 @@
     },
     {
         "card_name": "Old-Law Sentinel",
-        "number": 28,
+        "number": 27,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1481,7 +1481,7 @@
     },
     {
         "card_name": "Poultice Courier",
-        "number": 31,
+        "number": 30,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1521,7 +1521,7 @@
     },
     {
         "card_name": "Skylands Vinecutter",
-        "number": 36,
+        "number": 35,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1561,7 +1561,7 @@
     },
     {
         "card_name": "Snowpearl Sorter",
-        "number": 37,
+        "number": 36,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,

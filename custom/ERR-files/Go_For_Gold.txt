@@ -128,3 +128,30 @@ Standings:
 5th: PTM
 7th: kumrac
 7th: HSquid
+
+<b>GP Thraben</b>
+Revolution's second-ever double rotation, along with a large slew of post-worlds nerfs, made the format wide open going into May 2026. Kayiu, tremor, and cftsoc3 all qualified for worlds 2027 last month, but otherwise the field was wide open for players looking to stake their claim. 
+
+In the busy league jostling leading up to the GP, aggro was the deck to fear. All-creature muster builds featuring the four 1-mana muster creatures from VLR put up the fastest starts. A more straightforward red deck playing the format's best cards managed to get kumrac two 5-0 runs. Tokens decks, powered by Westvale Cult Induction as a +2/+2 anthem, were also strong. However, the GP format was well-prepared for the aggro menace. No one even brought muster, and the only aggro deck to make the top cut was CatInTree's Naya tokens, which had the resilience of its token-making and buffing enchantments to survive the highly interactive format and make it to 5th.
+
+The Zukar and Last Wish combos of Worlds were nerfed out of existence, but the Lifehacker - Pact Beyond Death interaction which, provided you have two mana enough to kill hacker and avoid decking yourself, can draw 30ish cards and gain 60ish life, went unchanged. Tremor, our worlds 2026 champion, led the midrange charge with an Abzan deck featuring both that combo and the Feasting Predator - Generous Farmer combo backed up by the best midrange threats and interaction, getting just into top cut at 9th.
+
+REV is awash in powerful artifact and enchantment engines right now. While a few players experimented with the artifact tokens build involving new token doubler Harvesttide Procession, it was AllWhoWander, running back their worlds RW counters deck, who made top cut. The immense life gain of Cleansing Starfire put them ahead of the aggro field. 
+
+The best UR prowess card, Clash at Mistwrit Vale, was nerfed going into this month, but UR spells in various forms was alive and kicking. There were pure prowess builds, UR terrors builds using the new payoffs Ominous Frogs and Cordelia's Ripper, and CovetedPeacock's unique take built around overlooked SOL card Psionic Sage. Ricky on the terrors build and Peacock both managed to get top cut out of the big pool.
+
+But the breakout package of the new sets was undoubtedly the Simic Value cards. The Setral Shaper, Ery, In Tune, Teeming Secrets, Shape the Pattern, Voice of the Old Grove, and Umber Grovetender in various combinations proved a unimpeachable strategy. Of the four players that put both Islands and Forests in their deck, all four made top cut. Yours Truly had the most straightforward version - a Druids deck with no interaction, just endless value and consistency. Lih had a less all-in version that managed to fit in blue countermagic instead of quite as much ramp. Kayiu102 and cftsoc3 both played control decks that splashed a third color - Kayiu white for new 4 mana wrath Beyond Comprehension and the fog Cereus Argosa and cftsoc black for better removal like Hang and Twilight Ambush. They met in the finals in a grueling control mirror. cftsoc3 took the first game off of mana screw. In the second game they pulled ahead in card advantage but were unable to stop an Astraling from sticking, but a Warden of Tremors in blocking mode stopped the bleeding, leading to their third consecutive GP win!
+
+CovetedPeacock got the worlds invite, from third.
+
+Elo update (note that there was a change to the Elo calculations in this GP. Starting now, players who did not play for three consecutive GPs would have their Elo gradually decay. This change was applied retroactively)
+1 (=): drchipmunk | 1658 (-10)
+2 (+3): cftsoc3 | 1650 (+53)
+3 (-1): covetedpeacock | 1650 (+21)
+4 (+4): kayiu102 | 1627 (+41)
+5 (+1): lihlosaur | 1600 (+4)
+6 (+1): allwhowander | 1596 (+6)
+7 (-3): philippe saner | 1595 (-5)
+8 (+2): rickyrister | 1587 (+24)
+9 (-6): provocative | 1584 (-16)
+10 (-1): 7nix | 1573 (-4)
