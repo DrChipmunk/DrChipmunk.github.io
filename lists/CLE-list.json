@@ -17,7 +17,7 @@
     },
     {
         "card_name": "Gibbous, the Scaredybug",
-        "number": 95,
+        "number": 96,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -121,7 +121,7 @@
     },
     {
         "card_name": "Queen Birrabeth",
-        "number": 31,
+        "number": 30,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -177,7 +177,7 @@
     },
     {
         "card_name": "Enthralling Gaze",
-        "number": 91,
+        "number": 92,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -217,7 +217,7 @@
     },
     {
         "card_name": "Exertion",
-        "number": 92,
+        "number": 93,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -257,7 +257,7 @@
     },
     {
         "card_name": "Fleafriend Beetle",
-        "number": 94,
+        "number": 95,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Grim Yestermancy",
-        "number": 96,
+        "number": 97,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -337,7 +337,7 @@
     },
     {
         "card_name": "Gurglollon",
-        "number": 97,
+        "number": 98,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -361,7 +361,7 @@
     },
     {
         "card_name": "Ranger Knight Hatchling",
-        "number": 32,
+        "number": 31,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Fester",
-        "number": 93,
+        "number": 94,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -841,7 +841,7 @@
     },
     {
         "card_name": "Petalwind Mage",
-        "number": 28,
+        "number": 27,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -881,7 +881,7 @@
     },
     {
         "card_name": "Ponderous Ruinguard",
-        "number": 29,
+        "number": 28,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -921,7 +921,7 @@
     },
     {
         "card_name": "Riverwatch Glider",
-        "number": 33,
+        "number": 32,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -961,7 +961,7 @@
     },
     {
         "card_name": "Shimmering Bounty",
-        "number": 34,
+        "number": 33,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1136,7 +1136,7 @@
         "position": ""
     },
     {
-        "card_name": "Comet Recollector",
+        "card_name": "Comet Contemptor",
         "number": 85,
         "shape": "normal",
         "set": "CLE",
@@ -1216,8 +1216,8 @@
         "position": ""
     },
     {
-        "card_name": "Hammerhead Bully",
-        "number": 98,
+        "card_name": "Duress",
+        "number": 91,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1256,7 +1256,7 @@
         "position": ""
     },
     {
-        "card_name": "Heavy Burden",
+        "card_name": "Hammerhead Bully",
         "number": 99,
         "shape": "normal",
         "set": "CLE",
@@ -1280,7 +1280,7 @@
         "position": ""
     },
     {
-        "card_name": "Lost to Myth",
+        "card_name": "Lumizoa",
         "number": 23,
         "shape": "normal",
         "set": "CLE",
@@ -1296,7 +1296,7 @@
         "position": ""
     },
     {
-        "card_name": "Hero's Downfall",
+        "card_name": "Heavy Burden",
         "number": 100,
         "shape": "normal",
         "set": "CLE",
@@ -1320,7 +1320,7 @@
         "position": ""
     },
     {
-        "card_name": "Lumizoa",
+        "card_name": "Meticulous Nectarwatch",
         "number": 24,
         "shape": "normal",
         "set": "CLE",
@@ -1336,7 +1336,7 @@
         "position": ""
     },
     {
-        "card_name": "High Observator's Judgment",
+        "card_name": "Hero's Downfall",
         "number": 101,
         "shape": "normal",
         "set": "CLE",
@@ -1360,7 +1360,7 @@
         "position": ""
     },
     {
-        "card_name": "Meticulous Nectarwatch",
+        "card_name": "Mournful Craftsbug",
         "number": 25,
         "shape": "normal",
         "set": "CLE",
@@ -1400,7 +1400,7 @@
         "position": ""
     },
     {
-        "card_name": "Mournful Craftsbug",
+        "card_name": "Old-Law Sentinel",
         "number": 26,
         "shape": "normal",
         "set": "CLE",
@@ -1440,8 +1440,8 @@
         "position": ""
     },
     {
-        "card_name": "Old-Law Sentinel",
-        "number": 27,
+        "card_name": "Poultice Courier",
+        "number": 29,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1480,8 +1480,8 @@
         "position": ""
     },
     {
-        "card_name": "Poultice Courier",
-        "number": 30,
+        "card_name": "Skylands Vinecutter",
+        "number": 34,
         "shape": "normal",
         "set": "CLE",
         "rotated": false,
@@ -1520,7 +1520,7 @@
         "position": ""
     },
     {
-        "card_name": "Skylands Vinecutter",
+        "card_name": "Snared in a Snap",
         "number": 35,
         "shape": "normal",
         "set": "CLE",

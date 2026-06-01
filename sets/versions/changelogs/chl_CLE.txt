@@ -1,4 +1,83 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+Comet Contemptor added.
+Duress added.
+Snared in a Snap added.
+
+Comet Recollector removed.
+High Observator's Judgment removed.
+Lost to Myth removed.
+
+Chit-Chat
+rules_text: Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+Draw a card. => Surveil 1. [i](Look at the top card of your library. You may put it into your graveyard.)[/i]
+Draw a card.
+Surveil 1.
+
+Souldust Shepherd
+rules_text: Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Flying
+When this creature enters, if it was kicked, create two 1/1 red Elemental creature tokens. => Flying
+Aspire — When another creature you control dies, put a +1/+1 counter on this creature and return up to one target creature card from your graveyard to your hand. [i](Each aspire ability triggers only once.)[/i]
+
+Joyful Disposition
+
+Breathtaking Vista
+
+Placid Icescape
+
+Inspiring Cairn
+
+Gentle Clearing
+
+Picturesque Field
+
+Promising Overlook
+
+Resplendent Moor
+
+Refreshing Spring
+
+Fragrant Basin
+
+Impressive Peak
+
+Molten Dancer
+rules_text: Flash
+When this creature enters, target creature gets +2/+0 and gains trample until end of turn. => Flash
+When this creature enters, target attacking creature you control gets +2/+0 and gains trample until end of turn.
+
+Meticulous Quartermaster
+rules_text: Aspire — When you control three or more artifacts, put a +1/+1 counter on this creature. Draw two cards, then discard two cards. [i](Each aspire ability triggers only once.)[/i] => Aspire — When you control three or more artifacts, put a +1/+1 counter on this creature. Draw two cards, then discard a card. [i](Each aspire ability triggers only once.)[/i]
+
+Discovery in Desperation
+rules_text: Exile the top three cards of your library face-down. For as long as they remain exiled, you may look at them, and if you have no cards in hand you may play them. => Exile the top three cards of your library face down. For as long as they remain exiled, you may look at them, and if you have no cards in hand you may play them.
+
+Trickety-Tickety-Tin
+special_text: 
+Exile the top card of your library.
+Exile the top card of your library. You may play a card exiled with this Saga this turn. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile the top card of your library.
+II, III — Exile the top card of your library. You may play a card exiled with this Saga this turn.
+​
+
+Starburst
+rules_text: Kicker {R} [i](You may pay an additional {R} as you cast this spell.)[/i]
+Choose one. If this spell was kicked, you may choose both.
+• Starburst deals X damage to any target.
+• Create X 1/1 red Elemental creature tokens. => Kicker {R} [i](You may pay an additional {R} as you cast this spell.)[/i]
+Choose one. If this spell was kicked, you may choose both.
+• Starburst deals X damage to target creature or planeswalker.
+• Target player creates X 1/1 red Elemental creature tokens.
+
+Leafcutter Disciple
+rules_text: Creatures you control with +1/+1 counters on them have trample.
+[i]Landfall[/i] — Whenever a land you control enters, put a +1/+1 counter on target creature. => Other creatures you control with +1/+1 counters on them have trample.
+[i]Landfall[/i] — Whenever a land you control enters, put a +1/+1 counter on target creature.
+
+
+VERSION 8 CHANGELOG
 ====================
 
 Chit-Chat added.
