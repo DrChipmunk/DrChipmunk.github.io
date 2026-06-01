@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-23</releasedate>
+			<releasedate>2026-06-01</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -651,7 +651,7 @@ Add {B}{B}. Spend this mana only to pay level up costs.</text>
 		</card>
 		<card>
 			<name>Forced Shutdown</name>
-			<text>Destroy target battle, creature, or enchantment. You lose life equal to its mana value.</text>
+			<text>Destroy target creature or enchantment. You lose life equal to its mana value.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/99_Forced Shutdown.png" num="99">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2061,7 +2061,7 @@ When this creature leaves the battlefield, draw a card.</text>
 		</card>
 		<card>
 			<name>Weave Dispatcher</name>
-			<text>Whenever this creature or another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with &quot;Whenever this Subroutine runs, create a 1/1 white Citizen creature token.&quot; (Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)</text>
+			<text>Whenever another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with &quot;Whenever this Subroutine runs, create a 1/1 white Citizen creature token.&quot; (Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/39_Weave Dispatcher.png" num="39">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2072,7 +2072,7 @@ When this creature leaves the battlefield, draw a card.</text>
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>3/1</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>ALARM() ERR</related>
@@ -2305,8 +2305,8 @@ Whenever you sacrifice a Memory, draw a card.</text>
 		</card>
 		<card>
 			<name>Just-In-Time Interpreter</name>
-			<text>When this creature enters, cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;{2}, Sacrifice this:You may play the cached card this turn.&quot;)
-Activated abilities of Memories you control cost {1} less to activate.</text>
+			<text>When this creature enters, cache the top card of your library face down. (Look at it, then exile it face down. Create a Memory enchantment token with &quot;, Sacrifice this:You may play the cached card this turn.&quot;)
+Activated abilities of Memories you control cost less to activate.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/55_Just-In-Time Interpreter.png" num="55">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2377,8 +2377,8 @@ When this creature enters, for each player, choose up to one other target nonlan
 		</card>
 		<card>
 			<name>Mev&apos;s Holographist</name>
-			<text>When this creature enters, mill four cards. You may return a noncreature, nonland card milled this way to your hand.
-{1}{W}: This creature gets +1/+0 and gains first strike until end of turn.</text>
+			<text>When this creature enters, tap target creature an opponent controls and put a stun counter on it.
+{X}{W}: Tap target creature with power X or less.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/56_Mev&apos;s Holographist.png" num="56">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2389,7 +2389,7 @@ When this creature enters, for each player, choose up to one other target nonlan
 				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>WU</coloridentity>
-				<pt>2/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2466,22 +2466,22 @@ Whenever this Subroutine runs, draw two cards. Creatures your opponents control 
 			<related>Program C ERR</related>
 		</card>
 		<card>
-			<name>Data Staff</name>
-			<text>This artifact enters tapped.
-{T}: Add {U}. You can&apos;t spend this mana to cast creature spells.
-Sacrifice this artifact: Target Subroutine runs. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Staff.png" num="47">ERR</set>
+			<name>Data Visionary</name>
+			<text>When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.
+{2}, {T}: Target Subroutine you control runs.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Visionary.png" num="47">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
+				<type>Creature — Wolf Wizard</type>
+				<maintype>Creature</maintype>
 				<manacost>1U</manacost>
 				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Soulspace Access</name>
@@ -3624,18 +3624,18 @@ Whenever Mev deals damage to a player, that player draws a card.</text>
 		<card>
 			<name>Ys, Trace Talker</name>
 			<text>Menace
-Whenever this creature enters or attacks, you may exile a creature card from your graveyard with mana value equal to this creature&apos;s mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability and menace.</text>
+Whenever this creature attacks, exile up to one target creature card from your graveyard. If you do, this creature becomes a copy of that card, except it has this ability and menace.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/218_Ys, Trace Talker.png" num="218">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Elf Warlock</type>
 				<maintype>Creature</maintype>
-				<manacost>UB</manacost>
-				<cmc>2</cmc>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
 				<colors>UB</colors>
 				<coloridentity>UB</coloridentity>
-				<pt>2/2</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3721,7 +3721,7 @@ Once during each of your turns, when you sacrifice a nontoken, nonland permanent
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Legendary Creature — Human Warlock</type>
+				<type>Legendary Creature — Zombie Warlock</type>
 				<maintype>Creature</maintype>
 				<manacost>1BG</manacost>
 				<cmc>3</cmc>
@@ -4229,7 +4229,7 @@ Whenever this Subroutine leaves the battlefield or runs, you sacrifice a creatur
 		<card>
 			<name>Bootstrap Daemon</name>
 			<text>Flying, haste
-Whenever you attack, you may sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
+Whenever you attack, you may pay {R} and sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/122_Bootstrap Daemon.png" num="122">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4397,8 +4397,8 @@ When this creature enters, separate your graveyard into two piles. An opponent c
 		</card>
 		<card>
 			<name>Menagerie Mechanic</name>
-			<text>Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is the damage dealt.
-{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample until end of turn.</text>
+			<text>Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is one plus the number of counters on this creature.
+{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample and indestructible until end of turn.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/181_Menagerie Mechanic.png" num="181">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -4428,7 +4428,7 @@ When this creature enters, separate your graveyard into two piles. An opponent c
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 <related>Memory ERR</related>
@@ -4471,17 +4471,18 @@ Whenever Aurore enters or attacks, create an X/X colorless Construct artifact cr
 		</card>
 		<card>
 			<name>ITERATE()</name>
-			<text>Whenever this Subroutine enters or runs, choose one — 
-• Create Noop, a colorless 2/2 Robot artifact creature with &quot;Noop can&apos;t attack unless she has two or more counters on her.&quot;
-• Put a +1/+1 counter on target Robot.</text>
+			<text>Whenever this Subroutine runs, choose one — 
+• Create Noop, a colorless 3/3 Robot artifact creature with defender.
+• Target Robot loses defender and becomes a 5/5 Avatar with vigilance in addition to its other types.
+• Put a number of +1/+1 counters on target Avatar equal to its power. It gains trample.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/176_ITERATE().png" num="176">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Enchantment — Subroutine</type>
 				<maintype>Enchantment</maintype>
-				<manacost>G</manacost>
-				<cmc>1</cmc>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -5364,16 +5365,16 @@ As you build your deck, exchange this card for a common soulspace of your choice
 		</card>
 		<card>
 			<name>Noop 33ERR ERR</name>
-			<text>Noop can&apos;t attack unless she has two or more counters on her</text>
+			<text>Defender</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/23t_Noop 33ERR.png" num="23">ERR</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Token Legendary Artifact Creature — Construct</type>
+				<type>Token Legendary Artifact Creature — Robot</type>
 				<maintype>Creature</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
-				<pt>2/2</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>

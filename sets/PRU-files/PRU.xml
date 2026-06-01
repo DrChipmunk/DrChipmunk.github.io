@@ -1,0 +1,4696 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>PRU</name>
+			<longname>Perennial Ultimatum</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-06-01</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Advance</name>
+			<text>Create a 1/1 white Human creature token.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Advance would be put into your graveyard, shuffle it into your tactic deck instead.)</text>
+			<set rarity="special" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/1_Advance.png" num="1">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Tactic</type>
+				<maintype>Instant</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Retreat</name>
+			<text>Return target permanent you control to its owner&apos;s hand.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Retreat would be put into your graveyard, shuffle it into your tactic deck instead.)</text>
+			<set rarity="special" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/5_Retreat.png" num="5">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Tactic</type>
+				<maintype>Instant</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Besiege</name>
+			<text>Tap target creature.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Besiege would be put into your graveyard, shuffle it into your tactic deck instead.)</text>
+			<set rarity="special" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/2_Besiege.png" num="2">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Tactic</type>
+				<maintype>Instant</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scout</name>
+			<text>Scry 2.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Scout would be put into your graveyard, shuffle it into your tactic deck instead.)</text>
+			<set rarity="special" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/6_Scout.png" num="6">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Tactic</type>
+				<maintype>Instant</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Provision</name>
+			<text>Put a +1/+1 counter on target creature.
+(You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Provision would be put into your graveyard, shuffle it into your tactic deck instead.)</text>
+			<set rarity="special" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/4_Provision.png" num="4">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant — Tactic</type>
+				<maintype>Instant</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Airdrop Medic</name>
+			<text>Flying, lifelink</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/8_Airdrop Medic.png" num="8">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gifted Unicorn</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, target opponent may draw a card. If they do, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/24_Gifted Unicorn.png" num="24">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Unicorn</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloom Company Defector</name>
+			<text>At the beginning of combat on your turn, if you control a Faerie, this creature gains first strike and vigilance until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/11_Bloom Company Defector.png" num="11">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pontifica&apos;s Scout</name>
+			<text>When this creature enters, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/35_Pontifica&apos;s Scout.png" num="35">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mulberry Hall Clothier</name>
+			<text>When this creature enters, put a +1/+1 counter on target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/31_Mulberry Hall Clothier.png" num="31">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shock and Sexton Patrol</name>
+			<text>Create two 1/1 white Human creature tokens. Strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/38_Shock and Sexton Patrol.png" num="38">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Exclusive Entourage</name>
+			<text>When this creature enters, put two +1/+1 counters on another target Human you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/21_Exclusive Entourage.png" num="21">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sibling of Exploration</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Tactic spells you cast cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/39_Sibling of Exploration.png" num="39">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Glider Ace</name>
+			<text>Flying
+When this creature enters, if you control a creature with a +1/+1 counter on it, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/25_Glider Ace.png" num="25">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lay Siege</name>
+			<text>This spell deals damage to target creature equal to the number of creatures you control. Strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/28_Lay Siege.png" num="28">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Pacifism</name>
+			<text>Enchant creature
+Enchanted creature can&apos;t attack or block</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/33_Pacifism.png" num="33">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Air Support</name>
+			<text>Strategize. (Put the top card of your tactic deck into your hand.)
+Until end of turn, target creature gets +1/+1 for each Tactic card in your hand and gains flying.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/7_Air Support.png" num="7">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Requiter&apos;s Locomotive</name>
+			<text>Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/36_Requiter&apos;s Locomotive.png" num="36">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Pave Over</name>
+			<text>Destroy target enchantment or tapped creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/34_Pave Over.png" num="34">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Standard-Issue Musket</name>
+			<text>When this Equipment enters, attach it to target creature you control.
+Equip {3}
+Equipped creature gets +2/+2.
+{1}, Discard this card, return a land you control to its owner&apos;s hand: Create a tapped Plains token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/41_Standard-Issue Musket.png" num="41">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Exuberant Skywright</name>
+			<text>Flying
+Whenever you strategize, scry 1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/59_Exuberant Skywright.png" num="59">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eager Field Marshal</name>
+			<text>Flash
+When this creature enters, if you&apos;ve cast two or more spells this turn, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/55_Eager Field Marshal.png" num="55">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wry Glamermage</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever this creature deals combat damage to a player, you may sacrifice it. If you do, create a 2/2 blue Illusion creature token with flying.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/79_Wry Glamermage.png" num="79">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Foxtown Forger</name>
+			<text>Vigilance
+This creature can&apos;t be blocked if you&apos;ve cast two or more spells this turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/62_Foxtown Forger.png" num="62">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Faerie Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Distillery Engineers</name>
+			<text>Whenever this creature attacks, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/52_Distillery Engineers.png" num="52">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eluthiel Reliquary</name>
+			<text>Flying, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/57_Eluthiel Reliquary.png" num="57">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fallowpeak Crab</name>
+			<text>This spell costs {2} less to cast for each card you own with bloom in exile or in your graveyard.
+Ward {2} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/60_Fallowpeak Crab.png" num="60">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crab</type>
+				<maintype>Creature</maintype>
+				<manacost>6U</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Drownedmen Sailor</name>
+			<text>Defender
+{T}: Add {C}. You can&apos;t spend this mana to cast creature spells.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/54_Drownedmen Sailor.png" num="54">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marlene&apos;s Deception</name>
+			<text>Counter target spell unless its controller pays {2}. If they pay, draw a card, then discard a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/66_Marlene&apos;s Deception.png" num="66">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Miasmic Immersion</name>
+			<text>Enchant creature
+When this enchantment enters, strategize. (Put the top card of your tactic deck into your hand.)
+Enchanted creature loses all abilities and has base power and toughness 1/1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/67_Miasmic Immersion.png" num="67">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Reflect</name>
+			<text>Draw a card.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/71_Reflect.png" num="71">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Contentious Supporter</name>
+			<text>When this creature enters, draw three cards, then discard two cards.
+{1}, Discard this card, return a land you control to its owner&apos;s hand: Create a tapped Island token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/49_Contentious Supporter.png" num="49">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Call the Tempest</name>
+			<text>Tap up to two target creatures. Put a stun counter on each of them.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/46_Call the Tempest.png" num="46">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Improbable Current</name>
+			<text>Target creature gets -2/-0 until end of turn. If this spell was cast from exile, return that creature to its owner&apos;s hand. 
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/63_Improbable Current.png" num="63">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Counter-Intelligence</name>
+			<text>Choose one — 
+• Counter target spell.
+• Draw a card, then strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/50_Counter-Intelligence.png" num="50">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Foxes&apos; Underground Diehard</name>
+			<text>When this creature enters, each opponent loses 1 life, then strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/93_Foxes&apos; Underground Diehard.png" num="93">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>One Eye&apos;s Sharpshooter</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{2}{B}, Remove a zeal counter from this creature: Destroy target creature that was dealt damage this turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/101_One Eye&apos;s Sharpshooter.png" num="101">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Apothecary Flunkie</name>
+			<text>When this creature dies, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/81_Apothecary Flunkie.png" num="81">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cantankerous General</name>
+			<text>Whenever another Human you control enters, this creature gets +1/+1 and gains menace until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/84_Cantankerous General.png" num="84">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rotting Revolutionary</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{1}{B}, Remove a zeal counter from this creature: It gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/108_Rotting Revolutionary.png" num="108">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mine Lurker</name>
+			<text>As long as you control a Human, this creature has deathtouch.
+As long as you control a Faerie, this creature has lifelink.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/99_Mine Lurker.png" num="99">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Nightmare</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rooftop Runner</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{B}, Remove a zeal counter from this creature: It gets +1/+0 and gains flying until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/107_Rooftop Runner.png" num="107">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Alynerada&apos;s Spawn</name>
+			<text>Flying
+This creature enters with a +1/+1 counter on it if an opponent lost life this turn.
+{1}, Discard this card, return a land you control to its owner&apos;s hand: Create a tapped Swamp token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/80_Alynerada&apos;s Spawn.png" num="80">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Weaponself Assassination</name>
+			<text>This spell costs {2} less to cast if you control a Human.
+This spell costs {2} less to cast if you control a Faerie.
+Exile target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/112_Weaponself Assassination.png" num="112">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Executioner&apos;s Spores</name>
+			<text>Choose one — 
+• Destroy target creature with mana value 3 or less.
+• Create a tapped 2/2 green Fungus creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/91_Executioner&apos;s Spores.png" num="91">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ichor Blockade</name>
+			<text>Target opponent sacrifices a creature. If you&apos;ve cast another spell this turn, instead that player sacrifices a creature with the greatest power among creatures they control</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/95_Ichor Blockade.png" num="95">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Clivinius&apos; Takedown</name>
+			<text>Target creature gets -8/-8 until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/86_Clivinius&apos; Takedown.png" num="86">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rescue Mission</name>
+			<text>Return up to two target creature cards from your graveyard to your hand. Strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/106_Rescue Mission.png" num="106">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Preacher of St. Frances</name>
+			<text>When this creature enters, you may pay {B} and 1 life. If you do, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/103_Preacher of St. Frances.png" num="103">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Desperate Stand</name>
+			<text>Until end of turn, target creature gets +2/+0 and gains &quot;When this creature dies, return it to its owner&apos;s hand. If this creature is a Human, instead return it to the battlefield under its owner&apos;s control.&quot;</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/89_Desperate Stand.png" num="89">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Vermix Hawker</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature enters, put a zeal counter on target Faerie.
+{1}{R}, Remove a zeal counter from this creature, Discard a card: Draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/150_Vermix Hawker.png" num="150">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Raccoon Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruby&apos;s Loyalist</name>
+			<text>When this creature dies, create a 1/1 white Human creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/145_Ruby&apos;s Loyalist.png" num="145">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Collier Saboteur</name>
+			<text>Trample
+{1}{R}, Discard this card: Destroy target artifact.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/121_Collier Saboteur.png" num="121">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hearth Spirit</name>
+			<text>Whenever you attack, target attacking creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/130_Hearth Spirit.png" num="130">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Catrest Elder</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Create a tapped 1/1 red Cat creature token with prowess. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/120_Catrest Elder.png" num="120">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Faerie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Avant Guardsman</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever this creature attacks, the next noncreature spell you cast this turn costs {1} less to cast.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/118_Avant Guardsman.png" num="118">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Myriad&apos;s Firebrand</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{R}, Remove a zeal counter from this creature: Target creature gains haste until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/138_Myriad&apos;s Firebrand.png" num="138">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Progeny Festival</name>
+			<text>Create three 1/1 red Cat creature tokens with prowess.
+{1}, Discard this card, return a land you control to its owner&apos;s hand: Create a tapped Mountain token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/141_Progeny Festival.png" num="141">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Jollity Dancer</name>
+			<text>Menace
+When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Target creature can&apos;t block this turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/134_Jollity Dancer.png" num="134">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear Faerie Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>November&apos;s Fury</name>
+			<text>This spell deals 4 damage to target creature. Put a zeal counter on up to one target Faerie.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/139_November&apos;s Fury.png" num="139">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Righteous Tide</name>
+			<text>This spell deals 3 damage to target creature. If an opponent lost life this turn, this spell deals 6 damage to that creature instead.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/143_Righteous Tide.png" num="143">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lightning Claws</name>
+			<text>Creatures you control get +2/+0 until end of turn.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/136_Lightning Claws.png" num="136">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scalding Geyser</name>
+			<text>This spell deals 1 damage to any target.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/146_Scalding Geyser.png" num="146">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Thrill of Possibility</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/149_Thrill of Possibility.png" num="149">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Edgeshine&apos;s Daring</name>
+			<text>Target creature gets +2/+0 and gains first strike until end of turn. Create a Treasure token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/123_Edgeshine&apos;s Daring.png" num="123">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Visiting Gadabout</name>
+			<text>When this creature enters, put a +1/+1 counter on target creature.
+Creatures you control with +1/+1 counters on them have ward {2}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/186_Visiting Gadabout.png" num="186">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Margrave Honour Guard</name>
+			<text>{T}: Add one mana of any color among Humans you control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/168_Margrave Honour Guard.png" num="168">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scholar of Forms</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{3}{G}{G}, Remove a zeal counter from this creature: Put three +1/+1 counters on it.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/176_Scholar of Forms.png" num="176">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Angel Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mushroom Vintner</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{3}{G}, Remove a zeal counter from this creature: Target creature gets +2/+2 and gains trample until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/172_Mushroom Vintner.png" num="172">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wayward Romantic</name>
+			<text>When this creature enters, create a 1/1 white Human creature token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/188_Wayward Romantic.png" num="188">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rooftop Gardener</name>
+			<text>Reach
+When this creature enters, put a zeal counter on target Faerie.
+{1}{G}, Remove a zeal counter from this creature: Create a tapped Forest token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/175_Rooftop Gardener.png" num="175">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Faerie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tourist-Snapper</name>
+			<text>Deathtouch
+When this creature dies, draw a card.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/183_Tourist-Snapper.png" num="183">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tairis Seer</name>
+			<text>Vigilance
+When this creature enters, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: Scry 2. You gain 2 life.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/182_Tairis Seer.png" num="182">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Foxes&apos; Underground Heel</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{G}, Remove a zeal counter from this creature: Target creature blocks this creature this turn if able.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/163_Foxes&apos; Underground Heel.png" num="163">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>True-Form Amalgam</name>
+			<text>This creature can&apos;t be blocked by creatures with power 2 or less.
+{1}, Discard this card, return a land you control to its owner&apos;s hand: Create a tapped Forest token.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/184_True-Form Amalgam.png" num="184">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vivian&apos;s Finisher</name>
+			<text>Put a +1/+1 counter on target creature you control if you control a Human and a Faerie. 
+That creature deals damage equal to its power to target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/187_Vivian&apos;s Finisher.png" num="187">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cut Loose</name>
+			<text>You gain 1 life. Put a zeal counter on up to one target Faerie.
+Bloom. (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/157_Cut Loose.png" num="157">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flowing Strike</name>
+			<text>Target creature gets +2/+2 until end of turn.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/162_Flowing Strike.png" num="162">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Simpler Times</name>
+			<text>Choose one — 
+• Destroy target artifact.
+• Destroy target enchantment.
+• Return target permanent card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/178_Simpler Times.png" num="178">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Swell&apos;s Pilgrimage</name>
+			<text>Mill three cards, then put all land cards and cards with bloom milled this way into your hand.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/181_Swell&apos;s Pilgrimage.png" num="181">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ichor Grenade</name>
+			<text>You may discard a Tactic card rather than pay this spell&apos;s mana cost.
+{3}, {T}, Sacrifice this artifact: This artifact deals 6 damage to target creature.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/218_Ichor Grenade.png" num="218">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Amnesiac Test Subject</name>
+			<text>When this creature dies, put a zeal counter on target Faerie.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/214_Amnesiac Test Subject.png" num="214">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Living Truce</name>
+			<text>Whenever this creature attacks, if you control a Human and a Faerie, this creature gains indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/220_Living Truce.png" num="220">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Spirit Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Artisinal Armonica</name>
+			<text>{T}: Add one mana of any color.
+{2}, {T}: Scry 1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/215_Artisinal Armonica.png" num="215">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ichorblade</name>
+			<text>When this Equipment enters, create a 1/1 white Human creature token, then attach this Equipment to it.
+Equip {5}
+Equipped creature gets +3/+1.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/219_Ichorblade.png" num="219">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Portentous Vista</name>
+			<text>When this land enters, sacrifice it. Choose a basic land type. Create a tapped basic land token with that type.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/247_Portentous Vista.png" num="247">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Enlightenment</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {W} or {U}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/255_Temple of Enlightenment.png" num="255">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Deceit</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {U} or {B}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/254_Temple of Deceit.png" num="254">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Malice</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {B} or {R}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/258_Temple of Malice.png" num="258">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Abandon</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {R} or {G}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/253_Temple of Abandon.png" num="253">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Plenty</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {G} or {W}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/260_Temple of Plenty.png" num="260">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Silence</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {W} or {B}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/261_Temple of Silence.png" num="261">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Epiphany</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {U} or {R}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/256_Temple of Epiphany.png" num="256">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Malady</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {B} or {G}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/257_Temple of Malady.png" num="257">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Triumph</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {R} or {W}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/262_Temple of Triumph.png" num="262">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Temple of Mystery</name>
+			<text>This land enters tapped.
+When this land enters, scry 1.
+{T}: Add {G} or {U}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/259_Temple of Mystery.png" num="259">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Nimbus Maze</name>
+			<text>{T}: Add {C}.
+{T}: Add {W}. Activate only if you control an Island.
+{T}: Add {U}. Activate only if you control a Plains.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/243_Nimbus Maze.png" num="243">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forbidding Glacier</name>
+			<text>{T}: Add {C}.
+{T}: Add {U}. Activate only if you control a Swamp.
+{T}: Add {B}. Activate only if you control an Island.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/234_Forbidding Glacier.png" num="234">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Crooked Canyon</name>
+			<text>{T}: Add {C}.
+{T}: Add {B}. Activate only if you control a Mountain.
+{T}: Add {R}. Activate only if you control a Swamp.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/231_Crooked Canyon.png" num="231">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Autumnal Grove</name>
+			<text>{T}: Add {C}.
+{T}: Add {R}. Activate only if you control a Forest.
+{T}: Add {G}. Activate only if you control a Mountain.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/226_Autumnal Grove.png" num="226">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Picturesque Outcropping</name>
+			<text>{T}: Add {C}.
+{T}: Add {G}. Activate only if you control a Plains.
+{T}: Add {W}. Activate only if you control a Forest.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/245_Picturesque Outcropping.png" num="245">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Salted Lakebed</name>
+			<text>{T}: Add {C}.
+{T}: Add {W}. Activate only if you control a Swamp.
+{T}: Add {B}. Activate only if you control a Plains.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/248_Salted Lakebed.png" num="248">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Ochre Basin</name>
+			<text>{T}: Add {C}.
+{T}: Add {U}. Activate only if you control a Mountain.
+{T}: Add {R}. Activate only if you control an Island.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/244_Ochre Basin.png" num="244">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Miasmic Expanse</name>
+			<text>{T}: Add {C}.
+{T}: Add {B}. Activate only if you control a Forest.
+{T}: Add {G}. Activate only if you control a Swamp.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/240_Miasmic Expanse.png" num="240">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Steep Snowfield</name>
+			<text>{T}: Add {C}.
+{T}: Add {R}. Activate only if you control a Plains.
+{T}: Add {W}. Activate only if you control a Mountain.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/249_Steep Snowfield.png" num="249">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Humid Verdure</name>
+			<text>{T}: Add {C}.
+{T}: Add {G}. Activate only if you control an Island.
+{T}: Add {U}. Activate only if you control a Forest.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/238_Humid Verdure.png" num="238">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>St. Ysolde</name>
+			<text>Vigilance
+Whenever this creature attacks, strategize. (Put the top card of your tactic deck into your hand.)
+Whenever you cast a Tactic spell, you may pay {1}. If you do, copy it. You may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/209_St. Ysolde.png" num="209">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2WU</manacost>
+				<cmc>4</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>D&apos;d&apos;wid, Oathbound</name>
+			<text>When this creature enters, scry 1. You lose 1 life.
+Whenever you cast your second spell each turn, you may return this card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/191_D&apos;d&apos;wid, Oathbound.png" num="191">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Plant Faerie Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Edgeshine of a Knife</name>
+			<text>Menace
+Whenever an opponent loses life, create a Treasure token, then exile the top card of that player&apos;s library. If it&apos;s a nonland card, you may cast it this turn. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/192_Edgeshine of a Knife.png" num="192">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>November, Firestarter</name>
+			<text>Trample
+When this creature enters, put a zeal counter on target Faerie.
+{1{R}G}, Remove a zeal counter from this creature: This creature gets +2/+2 until end of turn. Put a zeal counter on up to one other target Faerie you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/203_November, Firestarter.png" num="203">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact Creature — Bird Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vivian, Hopeful Pugilist</name>
+			<text>Flash
+When this creature enters, put a +1/+1 counter on target creature.
+Whenever one or more +1/+1 counters are put on another creature you control, put that many +1/+1 counters on this creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/213_Vivian, Hopeful Pugilist.png" num="213">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Fox Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Captain Victoria</name>
+			<text>Lifelink
+Whenever you attack, up to one target attacking Human gets +1/+0 until end of turn for each Human you control. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/190_Captain Victoria.png" num="190">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lace, Hired Glamermage</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever a you control with prowess deals combat damage to a player, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/200_Lace, Hired Glamermage.png" num="200">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Professor Shock</name>
+			<text>Deathtouch
+{1}{B}{G}, Sacrifice a Human and a Faerie: Draw two cards, then create a X/X colorless Construct artifact creature token, where X is the combined power of the sacrificed creatures. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/205_Professor Shock.png" num="205">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sergeant Coxley</name>
+			<text>First strike
+Whenever you attack with two or more creatures, create a 1/1 white Human creature token that&apos;s tapped and attacking.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/208_Sergeant Coxley.png" num="208">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Klein, First of the Blessed</name>
+			<text>Flying
+When this creature enters, return target card with bloom from your graveyard to your hand.
+{1}{G}{U}: Exile this creature, then return it to the battlefield tapped under its owner&apos;s control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/199_Klein, First of the Blessed.png" num="199">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Shaman Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>3GU</manacost>
+				<cmc>5</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Assail</name>
+			<text>Destroy target creature if it&apos;s attacking or has power 4 or greater.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/9_Assail.png" num="9">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bloomstained Recruiter</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+Whenever you cast a noncreature spell, create a tapped 1/1 white Human creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/12_Bloomstained Recruiter.png" num="12">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichorbronze Assistant</name>
+			<text>First strike, vigilance
+{1}, {T}: Put a +1/+1 counter on target creature with a +1/+1 counter on it. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/27_Ichorbronze Assistant.png" num="27">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Augmented Aerialist</name>
+			<text>Flying
+When this creature enters, strategize twice. (To strategize, put the top card of your tactic deck into your hand.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/10_Augmented Aerialist.png" num="10">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mutant Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eleonora&apos;s Procession</name>
+			<text>Vigilance
+Other Humans you control get +1/+0.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/19_Eleonora&apos;s Procession.png" num="19">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Daring Acrobat</name>
+			<text>Flying
+When this creature dies, if its power was 4 or greater, return it to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/17_Daring Acrobat.png" num="17">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mirrorsand Duelist</name>
+			<text>Flash
+When this creature enters, you may pay {1}{W}. If you do, other creatures you control get +2/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/30_Mirrorsand Duelist.png" num="30">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fox Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Supply Lines</name>
+			<text>When this enchantment enters, strategize. (Put the top card of your tactic deck into your hand.)
+Whenever you strategize, put a +1/+1 counter on target creature you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/43_Supply Lines.png" num="43">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Committed Company</name>
+			<text>Reveal the top nine cards of your library. Put up to three creature cards with mana value 3 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/14_Committed Company.png" num="14">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>5W</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Orphans&apos; Resilience</name>
+			<text>This spell costs {1} less to cast if it targets a Human and {1} less to cast if it targets a Faerie.
+Put a +1/+1 counter on each of up to three target creatures.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/32_Orphans&apos; Resilience.png" num="32">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fallowpeaks Banishment</name>
+			<text>When this enchantment enters, exile up to one target creature until this enchantment leaves the battlefield.
+{1}{W}: Return this enchantment to its owner&apos;s hand. Strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/22_Fallowpeaks Banishment.png" num="22">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fleet&apos;s Symphony</name>
+			<text>At the beginning of your upkeep, target creature you control gets +1/+0 and gains prowess until end of turn. (Whenever you cast a noncreature spell, it gets +1/+1 until end of turn. Prowess stacks.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/23_Fleet&apos;s Symphony.png" num="23">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Rigamaroll&apos;s Form</name>
+			<text>Until end of turn, target creature gets +1/+0, gains hexproof, and cannot be blocked.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/73_Rigamaroll&apos;s Form.png" num="73">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fenley&apos;s Flagship</name>
+			<text>This spell costs {1} less to cast for each Tactic card in your hand.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)
+Flying
+Whenever you cast a Tactic spell, draw a card.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/61_Fenley&apos;s Flagship.png" num="61">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>5UU</manacost>
+				<cmc>7</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eccentric Balloonist</name>
+			<text>Flying
+Whenever you cast a noncreature spell with mana value greater than this creature&apos;s power, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/56_Eccentric Balloonist.png" num="56">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jollity Impressionist</name>
+			<text>Prowess
+You may have this creature enter the battlefield as a copy of a creature you control, except it has prowess. (Prowess stacks.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/64_Jollity Impressionist.png" num="64">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Upwelling Elemental</name>
+			<text>Flying
+Whenever this creature attacks, when you next cast a spell with bloom this turn, copy it. You may choose new targets for the copy.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/77_Upwelling Elemental.png" num="77">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Squawking Omen</name>
+			<text>Create a 2/2 blue Illusion creature token with flying. Scry 2.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/74_Squawking Omen.png" num="74">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Blue Palace Interlocutor</name>
+			<text>Whenever you cast a noncreature spell, each opponent mills two cards.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/45_Blue Palace Interlocutor.png" num="45">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Time to Consider</name>
+			<text>Mill two cards, then return a card milled this way to your hand. Put a stun counter on up to one target tapped creature.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/76_Time to Consider.png" num="76">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Weapons Program</name>
+			<text>Draw three cards, then strategize. (Put the top card of your tactic deck into your hand.)
+You may cast a Tactic spell from your hand without paying its mana cost.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/78_Weapons Program.png" num="78">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4U</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Panicked Evacuation</name>
+			<text>This spell costs {2} less to cast if you&apos;ve cast another spell this turn.
+Target nonland permanent&apos;s owner puts it on the top or bottom of their library</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/69_Panicked Evacuation.png" num="69">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Distillery Field Tester</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)
+When this creature dies, draw cards equal to its power.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/53_Distillery Field Tester.png" num="53">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Condescend</name>
+			<text>Counter target spell unless its controller pays {X}. Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/48_Condescend.png" num="48">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>XU</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Oathbound Labourers</name>
+			<text>This creature can&apos;t block.
+Whenever one or more Humans you control attack while this card is in your graveyard, you may pay {2}{B}. If you do, return this card to the battlefield tapped and attacking.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/100_Oathbound Labourers.png" num="100">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Massacre Vulture</name>
+			<text>Flying, deathtouch
+{B}, Exile a Human card and a Faerie card from your graveyard: Put two +1/+1 counters on this creature. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/98_Massacre Vulture.png" num="98">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rearguard Action</name>
+			<text>As an additional cost to cast this spell, you may sacrifice any number of creatures. This spell costs {2} less to cast for each creature sacrificed this way.
+Destroy up to two target creatures.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/105_Rearguard Action.png" num="105">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6B</manacost>
+				<cmc>7</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Masked Agent</name>
+			<text>Menace
+At the beginning of your end step, if an opponent lost life this turn, put a zeal counter on target Faerie.
+{1}{B}, Remove a zeal counter from this creature: You draw a card and you lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/97_Masked Agent.png" num="97">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hungry Bloomchild</name>
+			<text>Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/94_Hungry Bloomchild.png" num="94">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>D&apos;d&apos;wid&apos;s Contract</name>
+			<text>You lose life equal to the number of cards in your hand.
+Scry 2, then draw two cards.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/88_D&apos;d&apos;wid&apos;s Contract.png" num="88">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Eruption Blightmonger</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{1}{B}, Remove a zeal counter from this creature: Target opponent may discard a card. If they don&apos;t, you may return a creature card from your graveyard to your hand. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/90_Eruption Blightmonger.png" num="90">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Zugzwang</name>
+			<text>At the beginning of your end step, strategize if an opponent lost life this turn. Otherwise, each opponent loses 1 life and you gain 1 life. (To strategize, put the top card of your Tactic deck into your hand.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/115_Zugzwang.png" num="115">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Failed Sibling</name>
+			<text>When this creature enters, target player reveals their hand. You may choose a nonland card from it. If you do, exile that card and this creature. (An exiled Tactic card is shuffled into its owner&apos;s tactic deck.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/92_Failed Sibling.png" num="92">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ichor Extraction</name>
+			<text>Destroy target creature. Its controller creates a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/96_Ichor Extraction.png" num="96">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Orchestrated Riot</name>
+			<text>Strategize twice, then this spell deals X damage to target creature and you gain X life, where X is the number of Tactic cards in your hand. (To strategize, put the top card of your tactic deck into your hand.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/102_Orchestrated Riot.png" num="102">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Apothecary Physician</name>
+			<text>Lifelink
+When this creature enters, return target creature card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/82_Apothecary Physician.png" num="82">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Camp Clef Innovator</name>
+			<text>Prowess
+When this creature or another nontoken creature you control with prowess enters, put a zeal counter on target Faerie.
+Remove a zeal counter from this creature: Add one mana of any color.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/119_Camp Clef Innovator.png" num="119">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gleeful Arsonist</name>
+			<text>This spell costs {X} less to cast, where X is the total amount of life your opponents have lost this turn.
+Menace</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/129_Gleeful Arsonist.png" num="129">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crucible Breaker</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{3}{R}, Remove a zeal counter from this creature: Create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/122_Crucible Breaker.png" num="122">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lacrymose Blessed</name>
+			<text>Flying
+When this creature enters, creatures you control get +1/+0 and gain menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/135_Lacrymose Blessed.png" num="135">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eruption Strike Leader</name>
+			<text>Whenever this creature attacks, put a zeal counter on target Faerie.
+{R}, Remove a zeal counter from this creature: It gains first strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/126_Eruption Strike Leader.png" num="126">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Were Hunt Enforcer</name>
+			<text>Trample, prowess. (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/151_Were Hunt Enforcer.png" num="151">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rioter&apos;s Mask</name>
+			<text>Equip {R}
+Equipped creature gets +1/+0 and has haste.
+Whenever equipped creature deals combat damage to a player, put a zeal counter on target Faerie you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/144_Rioter&apos;s Mask.png" num="144">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Annihilation Performance</name>
+			<text>Discard any number of cards, then draw that many cards.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/117_Annihilation Performance.png" num="117">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ichor Exposure</name>
+			<text>Enchant creature
+Enchanted creature gets +2/-2 and has trample and &quot;Whenever this creature attacks, exile the top card of your library. You may play it this turn.&quot;</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/131_Ichor Exposure.png" num="131">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Spread the Infection</name>
+			<text>This spell deals 2 damage to any target. If a creature dealt damage this way would die this turn, exile it instead.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/147_Spread the Infection.png" num="147">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Firebomb</name>
+			<text>This spell deals 2 damage to each creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/127_Firebomb.png" num="127">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Immolate</name>
+			<text>This spell deals X plus 1 damage to target creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/132_Immolate.png" num="132">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XR</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Kudzu Elemental</name>
+			<text>Reach
+This creature enters with X +1/+1 counters on it.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/167_Kudzu Elemental.png" num="167">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>XG</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Studberg Regulars</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: This creature fights target creature you don&apos;t control. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/180_Studberg Regulars.png" num="180">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dragon Faerie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fallow Lands Nomad</name>
+			<text>{T}: Add {G}.
+{1}{G}, {T}, Remove a zeal counter from this creature: Mill three cards, then return a card milled this way from your graveyard to your hand.
+{2}{G}{G}, {T}: Put a zeal counter on target Faerie.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/160_Fallow Lands Nomad.png" num="160">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Faerie Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Invasive Plowbeetle</name>
+			<text>When this creature enters, return a permanent you control to its owner&apos;s hand.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/166_Invasive Plowbeetle.png" num="166">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Picket Line Paladin</name>
+			<text>Vigilance, trample
+This creature gets +1/+0 for each Human you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/174_Picket Line Paladin.png" num="174">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloomtouched Toymaker</name>
+			<text>Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Whenever you cast a spell with bloom from your hand, put a +1/+1 counter on target creature you control and create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/155_Bloomtouched Toymaker.png" num="155">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mask Maker</name>
+			<text>When this creature enters, double the number of each type of counter on target creature.
+Creatures you control with counters on them have vigilance.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/170_Mask Maker.png" num="170">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fungimancer</name>
+			<text>At the beginning of your upkeep, you may exile three cards from your graveyard. When you do, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: Create a 2/2 green Fungus creature token. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/164_Fungimancer.png" num="164">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Fungus Faerie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Barkspace Conspiracy</name>
+			<text>Landfall — Whenever a land you control enters, put a zeal counter on target Faerie you control.
+Whenever you remove a zeal counter from a creature you control, put a +1/+1 counter on that creature.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/153_Barkspace Conspiracy.png" num="153">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ask The Earth</name>
+			<text>Put X +1/+1 counters on target creature, where X is its power.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/152_Ask The Earth.png" num="152">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flood of Moss</name>
+			<text>Choose a basic land type. Create a tapped basic land token with that type. You gain 2 life.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/161_Flood of Moss.png" num="161">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Miasmic Reclamation</name>
+			<text>Destroy up to one target artifact, enchantment, or creature with flying. 
+If you control a Human and a Faerie, create a 2/2 green Fungus creature token.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/171_Miasmic Reclamation.png" num="171">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Printing Press</name>
+			<text>{2}, {T}: Put a zeal counter on target Faerie you control.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/224_Printing Press.png" num="224">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>FRPD Truncheon</name>
+			<text>Equip {3}
+Equip Human {1}
+Equipped creature gets +2/+0.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/217_FRPD Truncheon.png" num="217">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mobile Drillrig</name>
+			<text>Whenever you cast your second spell each turn, this Vehicle becomes an artifact creature until end of turn.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/222_Mobile Drillrig.png" num="222">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>St Gufilda&apos;s Memorial</name>
+			<text>When this artifact enters, create two 1/1 white Human creature tokens.
+Whenever an attacking creature you control dies, create a 1/1 white Human creature token. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/225_St Gufilda&apos;s Memorial.png" num="225">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bloomwild Haze</name>
+			<text>When this land enters, exile the top two cards of your library.
+This land has all basic land types of the exiled cards.
+{T}: Add {C} or one mana of any of the exiled cards&apos; colors.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/227_Bloomwild Haze.png" num="227">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Studberg Estates</name>
+			<text>{T}: Add {C}
+{T}, Pay 1 life: Add {W}
+{3}{W}, {T}: Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/250_Studberg Estates.png" num="250">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fallowpeaks Prison</name>
+			<text>{T}: Add {C}
+{T}, Pay 1 life: Add {B}
+{3}{B}, {T}: Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/232_Fallowpeaks Prison.png" num="232">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Foxtown Teahouse</name>
+			<text>{T}: Add {C}
+{T}, Pay 1 life: Add {G}
+{3}{G}, {T}: Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/236_Foxtown Teahouse.png" num="236">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Blue Palace Fountain</name>
+			<text>{T}: Add {C}
+{T}, Pay 1 life: Add {U}
+{3}{U}, {T}: Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/228_Blue Palace Fountain.png" num="228">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Undertree Foundry</name>
+			<text>{T}: Add {C}
+{T}, Pay 1 life: Add {R}
+{3}{R}, {T}: Scry 2.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/263_Undertree Foundry.png" num="263">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Marlene, Tail for Business</name>
+			<text>Players play with the top card of their library revealed.
+During each player&apos;s turn, that player may cast spells from the tops of their opponents&apos; libraries. Mana of any type may be spent to cast those spells. Spells you cast this way cost {1} less to cast.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/201_Marlene, Tail for Business.png" num="201">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Fox Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hippocrat Melix</name>
+			<text>Whenever this creature deals combat damage to a player, draw a card.
+When this creature dies, you may exile target creature an opponent controls. If you do, return this creature to the battlefield under that player&apos;s control.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/197_Hippocrat Melix.png" num="197">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1UB</manacost>
+				<cmc>3</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Myriad V</name>
+			<text>First strike
+Whenever a creature an opponent controls dies, put a zeal counter on target Faerie.
+{BR}, Remove a zeal counter from this creature: Target player loses 3 life unless they exile a card from their hand or a nonland permanent they control. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/202_Myriad V.png" num="202">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Assassin</type>
+				<maintype>Creature</maintype>
+				<manacost>2BR</manacost>
+				<cmc>4</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ruby, Rebellion&apos;s Heart</name>
+			<text>Creatures you control enter the battlefield with an additional zeal counter on them.
+Creatures you control have all activated abilities of Faerie cards in your graveyard.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/207_Ruby, Rebellion&apos;s Heart.png" num="207">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Shark Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1RG</manacost>
+				<cmc>3</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Aurora, Loving Healer</name>
+			<text>Flash, Defender
+When this creature enters, return all creature cards from your graveyard to the battlefield that were put there from the battlefield this turn. Put two +1/+1 counters on each of them.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/189_Aurora, Loving Healer.png" num="189">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>0/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prince Wilhelm</name>
+			<text>When this creature enters, create two 1/1 white Human creature tokens.
+Whenever you cast a Tactic spell, you may pay 2 life. If you do, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/204_Prince Wilhelm.png" num="204">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3WB</manacost>
+				<cmc>5</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fleet, Musical Skywright</name>
+			<text>Prowess
+Whenever this creature attacks, you may sacrifice an artifact. If you do, reveal the top ten cards of your library. Put an artifact card from among them onto the battlefield and the rest on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/195_Fleet, Musical Skywright.png" num="195">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2UR</manacost>
+				<cmc>4</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fenley, Oasis Gardener</name>
+			<text>Landfall — Whenever a land you control enters, put an extraction counter on another target creature. Its controller creates a Treasure token.
+Each creature gets -1/-1 for each extraction counter on it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/194_Fenley, Oasis Gardener.png" num="194">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Swell, Bloomtouched Scion</name>
+			<text>Lifelink
+When this creature enters, each player may choose a creature other than Swell, Bloomtouched Scion. This creature deals 3 damage to each creature chosen this way.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/210_Swell, Bloomtouched Scion.png" num="210">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Rigamaroll, Masked Crab</name>
+			<text>Whenever a creature you control enters under, this creature becomes a copy of that creature until the end of your next turn, except it&apos;s a 3/3 Crab named Rigamaroll, Masked Crab.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/206_Rigamaroll, Masked Crab.png" num="206">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Crab Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Song of the Void</name>
+			<text>Enchant creature you control
+Enchanted creature has ward {1}.
+When this enchantment enters, exile target creature until this enchantment leaves the battlefield.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/40_Song of the Void.png" num="40">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Maviella Margave</name>
+			<text>When this creature enters, look at the top five cards of your library. You may reveal a Human card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.
+Human spells you cast cost {W}{U}{B}{R}{G} less to cast. This effect reduces only the amount of colored mana you pay.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/29_Maviella Margave.png" num="29">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Crack Pilot</name>
+			<text>Vehicle creatures and equipped creatures you control get +1/+1 and have &quot;When this creature dies, return it to the battlefield under your control with a finality counter on it&quot; (If a creature with a finality counter on it would die, exile it instead.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/16_Crack Pilot.png" num="16">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Pilot</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Caesura Technique</name>
+			<text>You can&apos;t untap more than one land during your untap step.
+At the beginning of your upkeep, draw a card.
+Whenever an opponent casts a spell, untap up to one target land.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/13_Caesura Technique.png" num="13">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Decorated Tactician</name>
+			<text>Prowess, first strike
+When this creature enters, strategize.
+{X}{W}, Tap X untapped creatures you control, discard a Tactic card: Copy the discarded card X times. You may cast the copies without paying their mana cost. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/18_Decorated Tactician.png" num="18">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Noble Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emaciate</name>
+			<text>All creatures have base power and toughness 0/0 until end of turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/20_Emaciate.png" num="20">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>The Sceptre</name>
+			<text>Crew 1
+Whenever this Vehicle attacks, put a +1/+1 counter on each creature you control.
+Whenever a creature crews this Vehicle alone, sacrifice it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/37_The Sceptre.png" num="37">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Crown of Glass</name>
+			<text>Equip {U}
+Equipped creature has prowess. (Prowess stacks.)
+Whenever equipped creature attacks, exile the top card of your library face down. (You can&apos;t look at it)
+{2}, Sacrifice this Equipment: Put all cards exiled with it into their owners&apos; hands.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/51_The Crown of Glass.png" num="51">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment Clue</type>
+				<maintype>Artifact</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chisel, Heterodox Luthier</name>
+			<text>Flash, prowess.
+When this creature enters, gain control of target spell with mana value X or less. You may choose new targets for it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/47_Chisel, Heterodox Luthier.png" num="47">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>XUU</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Erode Fate</name>
+			<text>Target player mills eleven cards.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/58_Erode Fate.png" num="58">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lenora&apos;s Glamer</name>
+			<text>Whenever you cast a Tactic spell, you may pay {1}. If you do, create a 2/2 blue Illusion creature token with flying.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/65_Lenora&apos;s Glamer.png" num="65">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Resurface</name>
+			<text>Exile target creature you control, then return it to the battlefield under your control.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/72_Resurface.png" num="72">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Nurse-Current Augur</name>
+			<text>Flying
+Noncreature spells you cast cost {1} less to cast for each face-up exiled card you own in exile with bloom.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/68_Nurse-Current Augur.png" num="68">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Production Line</name>
+			<text>{T}: Exile all Construct tokens you control, then create an X/X colorless Construct artifact creature token, where X is the number of spells you have cast this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/70_Production Line.png" num="70">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Clivinius the Scourge</name>
+			<text>Menace
+When this creature enters, destroy eight other target creatures.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/87_Clivinius the Scourge.png" num="87">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Octopus Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pro Bono Oathmage</name>
+			<text>When this creature enters, put a zeal counter on target Faerie.
+{5}{B}{B}{B}, Remove a zeal counter from this creature: Gain control of target creature. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/104_Pro Bono Oathmage.png" num="104">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Underworld Seer</name>
+			<text>Lifelink
+Whenever you scry, exile the bottom card of your library. You lose life equal to its mana value. If it&apos;s a nonland card, put it in your hand.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/110_Underworld Seer.png" num="110">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Broken Tower Nihilist</name>
+			<text>Deathtouch
+At the beginning of your upkeep, you may sacrifice a Faerie. If you do, draw a card and put a +1/+1 counter on each Human you control.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/83_Broken Tower Nihilist.png" num="83">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chessmaster</name>
+			<text>Whenever a player casts their second spell each turn, strategize. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/85_Chessmaster.png" num="85">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Victory Drive</name>
+			<text>Create X 1/1 white Human creature tokens, where X is the total amount of life your opponents have lost this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/111_Victory Drive.png" num="111">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ysolde&apos;s Gauntlet</name>
+			<text>Whenever you cast a spell, each player loses 1 life.
+Equip {2}{B}
+Equipped creature gets +X/+X, where X is the total amount of life players have lost this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/114_Ysolde&apos;s Gauntlet.png" num="114">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mobius, Progeny Mender</name>
+			<text>Discard a card: Put a zeal counter on target Faerie.
+{1}{R}, Remove a zeal counter from this creature: Copy target instant or sorcery spell you control. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/137_Mobius, Progeny Mender.png" num="137">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Faerie Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ephemeral Deluge</name>
+			<text>Cascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/124_Ephemeral Deluge.png" num="124">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Flame-Touched Faerie</name>
+			<text>Haste
+{1}{R}{R}, Exile this card from your graveyard: This card deals 3 damage to each creature. Activate only as a sorcery and only if an opponent lost life this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/128_Flame-Touched Faerie.png" num="128">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elemental Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Revolutionary Spirit</name>
+			<text>Whenever you remove one or more zeal counters from a creature to pay the cost of an ability, copy that ability. You may choose new targets for the copy.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/142_Revolutionary Spirit.png" num="142">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Annihilation Junkie</name>
+			<text>Prowess
+At the beginning of combat on your turn, if this creature&apos;s power is 4 or greater, create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/116_Annihilation Junkie.png" num="116">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infection Vessel</name>
+			<text>Whenever this creature enters or attacks, put a +1/+1 counter on target creature with no +1/+1 counters on it.
+Creatures with +1/+1 counters on them can&apos;t block.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/133_Infection Vessel.png" num="133">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Plant Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Phantasia IV</name>
+			<text>Flying, Crew 1. Crew only once each turn.
+Whenever this Vehicle deals combat damage to a player, create a Treasure token, then you may sacrifice this Vehicle. If you do, exile the top X cards of your library, where X is the total power of creatures that crewed this Vehicle this turn. You may play those cards this turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/140_Phantasia IV.png" num="140">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Demerara, Silken Host</name>
+			<text>Reach, Ward {1} (Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)
+Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to this creature&apos;s toughness.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/158_Demerara, Silken Host.png" num="158">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spider Faerie</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seed of the Mega Tree</name>
+			<text>When this artifact enters and whenever you cast a spell with bloom from your hand, create a Forest token.
+{8}{G}{G}: This artifact becomes a creature with vigilance, reach, and &quot;This creature&apos;s power and toughness are each equal to the number of lands you control.&quot;</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/177_Seed of the Mega Tree.png" num="177">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Margrave&apos;s Desolation</name>
+			<text>Destroy target noncreature permanent. Create two 2/2 green Fungus creature tokens, then put a +1/+1 counter on each Fungus you control.
+Bloom (If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/169_Margrave&apos;s Desolation.png" num="169">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crab Caucus Patissier</name>
+			<text>Whenever you gain life, put a +1/+1 counter on this creature. Then draw a card if this creature&apos;s power is 4 or greater.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/156_Crab Caucus Patissier.png" num="156">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Ferret Faerie Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Beast-Age Chronicler</name>
+			<text>This creature can&apos;t be blocked by more than one creature.
+Whenever this creature deals combat damage to a player, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: You may put a permanent card from your hand onto the battlefield.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/154_Beast-Age Chronicler.png" num="154">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>People in Arms</name>
+			<text>This creature enters tapped with five stun counters on it.
+Whenever another nontoken creature you control dies, put a zeal counter on target Faerie.
+{G}, Remove a zeal counter from this creature: Untap target creature.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/173_People in Arms.png" num="173">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Emerald Dam Invocation</name>
+			<text>Mill fifteen cards. Return a permanent card milled this way to your hand. Put this spell and up to four cards from its owner&apos;s graveyard on the bottom of their owner&apos;s library in a random order.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/159_Emerald Dam Invocation.png" num="159">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Panharmonicon</name>
+			<text>If an artifact or creature entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/223_Panharmonicon.png" num="223">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gray Hand Beachhead</name>
+			<text>{T}: Add {C}.
+{1}, {T}: Strategize. Activate only if you attacked with a Human this turn. (Put the top card of your tactic deck into your hand.)</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/237_Gray Hand Beachhead.png" num="237">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>The Lotus of Margrave</name>
+			<text>When this artifact enters, draw two cards.
+{T}: Add three mana of any one color.
+At the beginning of each player&apos;s upkeep, that player gains control of this artifact. Untap it.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/221_The Lotus of Margrave.png" num="221">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Summer Palace</name>
+			<text>{T}: Add {G}.
+{1}{G}{G}, Discard this card: Creatures you control gain hexproof and indestructible until end of turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/251_The Summer Palace.png" num="251">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Catrest</name>
+			<text>{T}: Add {R}.
+{2}{R}{R}, Discard this card: Create two tapped 1/1 red Cat creature tokens with prowess.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/230_Catrest.png" num="230">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mulberry Hall</name>
+			<text>{T}: Add {W}.
+{2}{W}{W}, Discard this card: Put two +1/+1 counters on target creature.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/242_Mulberry Hall.png" num="242">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fenley&apos;s Garden</name>
+			<text>{T}: Add {B}.
+{1}{B}{B}, Sacrifice a creature, discard this card: Create a Treasure token, then draw two cards.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/233_Fenley&apos;s Garden.png" num="233">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Camp Clef</name>
+			<text>{T}: Add {U}.
+{2}{U}{U}, Discard this card: Reveal the top six cards of your library. Put all noncreature, nonland cards revealed this way into your hand and the rest on the bottom of your library in a random order.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/229_Camp Clef.png" num="229">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Industrial Revolution</name>
+			<text>When this enchantment enters, create two Treasure tokens.
+Whenever you cast a noncreature spell, if mana from a Treasure was spent to cast it, copy it. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/198_Industrial Revolution.png" num="198">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2URW</manacost>
+				<cmc>5</cmc>
+				<colors>WUR</colors>
+				<coloridentity>WUR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Unbounded Feeder</name>
+			<text>At the beginning of your end step, you may pay 2 life. If you do, put an infection counter on this artifact. If you don&apos;t, destroy all nonland permanents, then create a 2/2 green Fungus creature token for each infection counter on this artifact.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/211_Unbounded Feeder.png" num="211">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1BRG</manacost>
+				<cmc>4</cmc>
+				<colors>BRG</colors>
+				<coloridentity>BRG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Endless Struggle</name>
+			<text>Whenever a nontoken Human or Faerie you control dies, return it to the battlefield under your control with a finality counter on it. (If a creature with a finality counter on it would die, exile it instead)</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/193_Endless Struggle.png" num="193">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WBG</manacost>
+				<cmc>5</cmc>
+				<colors>WBG</colors>
+				<coloridentity>WBG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Verity System</name>
+			<text>Enchant player
+Whenever a player casts their second spell each turn, put all cards exiled with this Aura into their owner&apos;s graveyard, then exile the top three cards of enchanted player&apos;s library.
+Enchanted player can&apos;t cast spells with the same mana value as a card exiled with this Aura.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/212_Verity System.png" num="212">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Enchantment — Aura Curse</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1WUB</manacost>
+				<cmc>4</cmc>
+				<colors>WUB</colors>
+				<coloridentity>WUB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Heart of the Bloom</name>
+			<text>When this enchantment enters, exile a white card, a blue card, a black card, a red card, and a green card you own from outside the game.
+Landfall — Whenever a land you control enters, choose one of the exiled cards at random. You may cast it without paying its mana cost.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/196_Heart of the Bloom.png" num="196">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GUR</manacost>
+				<cmc>6</cmc>
+				<colors>URG</colors>
+				<coloridentity>URG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Company Exemplar</name>
+			<text>Vigilance
+At the beginning of your upkeep, strategize. (Put the top card of your tactic deck into your hand.)
+Discard five Tactic cards: Create twenty 1/1 white Human creature tokens.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/15_Company Exemplar.png" num="15">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WWWW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State of Peace</name>
+			<text>When this enchantment enters, create a 1/1 red Cat creature token with prowess. You gain 3 life.
+{2}{W}, Sacrifice this enchantment: Reveal a white card you own from outside the game and put it in your hand.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/42_State of Peace.png" num="42">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Apothecary Exemplar</name>
+			<text>Flying
+Other Horror creatures you control have flying.
+Whenever this creature deals combat damage to an opponent, that player mills that many cards. You may return a creature card milled this way to the battlefield under your control. It&apos;s a Horror in addition to its other types.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/44_Apothecary Exemplar.png" num="44">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wizard Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1UUUU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State of Sadness</name>
+			<text>When this enchantment enters, scry 2, then draw a card.
+{2}{U}, Sacrifice this enchantment: Reveal a blue card you own from outside the game and put it in your hand.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/75_State of Sadness.png" num="75">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Were Hunt Exemplar</name>
+			<text>Menace
+{B}{B}, Sacrifice another creature with mana value X: Draw X cards.
+{B}{B}, Discard X cards: Return target creature with mana value X from your graveyard to the battlefield.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/113_Were Hunt Exemplar.png" num="113">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bear Faerie Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1BBBB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>6/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State of Fear</name>
+			<text>When this enchantment enters, look at target opponent&apos;s hand. Choose a noncreature, nonland card from it. That player discards that card.
+{2}{B}, Sacrifice this enchantment: Reveal a black card you own from outside the game and put it in your hand.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/109_State of Fear.png" num="109">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Eruption Exemplar</name>
+			<text>As long is it&apos;s your turn, this creature has first strike.
+Whenever you attack, exile target creature, then return it to the battlefield tapped and attacking under your control. Its owner gains control of it at the beginning of the next end step.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/125_Eruption Exemplar.png" num="125">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Shaman</type>
+				<maintype>Creature</maintype>
+				<manacost>1RRRR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>7/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State of Anger</name>
+			<text>When this enchantment enters, it deals 3 damage to target creature.
+{2}{R}, Sacrifice this enchantment: Reveal a red card you own from outside the game and put it in your hand.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/148_State of Anger.png" num="148">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ultimatum Exemplar</name>
+			<text>Trample
+At the beginning of your end step, put a zeal counter on target Faerie.
+{X}{G}, Remove a zeal counter from this creature: Reveal the top X cards of your library. You may put a creature card with mana value X or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order. Activate only as a sorcery.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/185_Ultimatum Exemplar.png" num="185">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Faerie Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1GGGG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>State of Joy</name>
+			<text>When this enchantment enters, you may return a land you control to its owner&apos;s hand. If you do, choose a basic land type. Create a basic land token with that type.
+{2}{G}, Sacrifice this enchantment: Reveal a green card you own from outside the game and put it in your hand.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/179_State of Joy.png" num="179">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Human</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/26_Human.png" num="26">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Human</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cat PRU</name>
+			<text>Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/3t_Cat.png" num="3">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Fungus</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/165_Fungus.png" num="165">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Fungus</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Illusion PRU</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/2t_Illusion.png" num="2">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure PRU</name>
+			<text>{T}, Sacrifice Treasure: Add a mana of any color.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/5t_Treasure.png" num="5">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental PRU</name>
+			<text>Haste, Prowess</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/4t_Elemental.png" num="4">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Copy</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/3_Copy.png" num="3">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token</type>
+				<maintype>Token</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Construct</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/216_Construct.png" num="216">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>X/X</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Plains Token</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/246_Plains Token.png" num="246">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island Token</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/239_Island Token.png" num="239">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp Token</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/252_Swamp Token.png" num="252">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain Token</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/241_Mountain Token.png" num="241">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest Token</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/235_Forest Token.png" num="235">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>In The Bloom PRU</name>
+			<text>After a Bloom spell you cast from your hand resolves, you can place the exiled card here.
+Whenever you cast a spell with greater mana value than the exiled card, you may cast the exiled card without paying its mana cost</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/1t_In The Bloom.png" num="1">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type></type>
+				<maintype></maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/264_Plains.png" num="264">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/265_Island.png" num="265">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/266_Swamp.png" num="266">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/267_Mountain.png" num="267">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/PRU-files/img/268_Forest.png" num="268">PRU</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

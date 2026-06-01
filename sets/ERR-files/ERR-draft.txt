@@ -1371,13 +1371,13 @@
 			}
 		},
 		{
-			"name": "Data Staff",
+			"name": "Data Visionary",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact",
+			"type": "Creature — Wolf Wizard",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Staff.png"
+				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Visionary.png"
 			}
 		},
 		{
@@ -2023,7 +2023,7 @@
 		{
 			"name": "Ys, Trace Talker",
 			"rarity": "rare",
-			"mana_cost": "{U}{B}",
+			"mana_cost": "{2}{U}{B}",
 			"type": "Legendary Creature — Elf Warlock",
 			"collector_number": "218",
 			"image_uris": {
@@ -2074,7 +2074,7 @@
 			"name": "Piroia, Perennial Sacrifice",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
-			"type": "Legendary Creature — Human Warlock",
+			"type": "Legendary Creature — Zombie Warlock",
 			"collector_number": "209",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/209_Piroia, Perennial Sacrifice.png"
@@ -2483,7 +2483,7 @@
 		{
 			"name": "ITERATE()",
 			"rarity": "rare",
-			"mana_cost": "{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Subroutine",
 			"collector_number": "176",
 			"image_uris": {
@@ -3004,7 +3004,7 @@
 			"name": "Noop 33ERR",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "Token Legendary Artifact Creature — Construct",
+			"type": "Token Legendary Artifact Creature — Robot",
 			"collector_number": "23",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/ERR-files/img/23t_Noop 33ERR.png"
@@ -3297,7 +3297,7 @@
 	5 Underflow_Error
 	5 Parse
 	5 WAIT()
-	5 Data Staff
+	5 Data Visionary
 	5 Soulspace Access
 	5 JUMP()
 	5 COPY()

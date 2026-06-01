@@ -1,4 +1,86 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Data Visionary added.
+
+Data Staff removed.
+
+Forced Shutdown
+rules_text: Destroy target battle, creature, or enchantment. You lose life equal to its mana value. => Destroy target creature or enchantment. You lose life equal to its mana value.
+
+Weave Dispatcher
+rules_text: Whenever this creature or another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” [i](Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i] => Whenever another nontoken creature you control enters, you may pay {1}. If you do, create a white Subroutine enchantment token named ALARM() with “Whenever this Subroutine runs, create a 1/1 white Citizen creature token.” [i](Insert it into one of your three programs. At your first main phase each turn, the next program runs all its Subroutines.)[/i]
+pt: 3/1 => 2/1
+
+Just-In-Time Interpreter
+rules_text: When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “{2}, Sacrifice this:You may play the cached card this turn.”)[/i]
+Activated abilities of Memories you control cost {1} less to activate. => When this creature enters, cache the top card of your library face down. [i](Look at it, then exile it face down. Create a Memory enchantment token with “, Sacrifice this:You may play the cached card this turn.”)[/i]
+Activated abilities of Memories you control cost less to activate.
+
+Mev's Holographist
+rules_text: When this creature enters, mill four cards. You may return a noncreature, nonland card milled this way to your hand.
+{1}{W}: This creature gets +1/+0 and gains first strike until end of turn. => When this creature enters, tap target creature an opponent controls and put a stun counter on it.
+{X}{W}: Tap target creature with power X or less.
+pt: 2/1 => 2/2
+
+Grognard
+special_text: Level up {2}{B} [i]({2}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] This creature gets +1/+1 for each creature and/or enchantment card in your graveyard.
+[level 3+] This creature gets +1/+1 for each creature and/or enchantment card in all graveyards. => This creature enters tapped.
+Level up {2}{B} [i]({2}{B}: Put a level counter on this as a sorcery.)[/i]
+[level 1-2] This creature gets +1/+1 for each creature and/or enchantment card in your graveyard.
+[level 3+] This creature gets +1/+1 for each creature and/or enchantment card in all graveyards.
+
+Ys, Trace Talker
+cost: {U}{B} => {2}{U}{B}
+rules_text: Menace
+Whenever this creature enters or attacks, you may exile a creature card from your graveyard with mana value equal to this creature's mana value plus 1. If you do, this creature becomes a copy of that card, except it has this ability and menace. => Menace
+Whenever this creature attacks, exile up to one target creature card from your graveyard. If you do, this creature becomes a copy of that card, except it has this ability and menace.
+pt: 2/2 => 4/4
+
+Piroia, Perennial Sacrifice
+type: Legendary Creature — Human Warlock => Legendary Creature — Zombie Warlock
+
+Bootstrap Daemon
+rules_text: Flying, haste
+Whenever you attack, you may sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking. => Flying, haste
+Whenever you attack, you may pay {R} and sacrifice an artifact or enchantment. If you do, return this card from your graveyard to the battlefield tapped and attacking.
+
+Menagerie Mechanic
+rules_text: Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is the damage dealt.
+{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample until end of turn. => Whenever this creature deals combat damage to a player, create an X/X colorless Construct artifact creature token, where X is one plus the number of counters on this creature.
+{1}, Sacrifice an artifact or enchantment: Put a +1/+1 counter on this creature. It gains trample and indestructible until end of turn.
+
+Untethered Daemon
+pt: 2/2 => 2/3
+
+ITERATE()
+cost: {G} => {1}{G}
+rules_text: Whenever this Subroutine enters or runs, choose one — 
+• Create Noop, a colorless 2/2 Robot artifact creature with “Noop can't attack unless she has two or more counters on her.”
+• Put a +1/+1 counter on target Robot. => Whenever this Subroutine runs, choose one — 
+• Create Noop, a colorless 3/3 Robot artifact creature with defender.
+• Target Robot loses defender and becomes a 5/5 Avatar with vigilance in addition to its other types.
+• Put a number of +1/+1 counters on target Avatar equal to its power. It gains trample.
+
+Lifehacker
+special_text: Lifelink
+Level up—{1}, Pay 4 life.
+[level 1-4] Whenever you gain life, draw a card.
+[level 5+] Whenever you gain life, draw that many cards. => Lifelink
+Level up—{1}, Pay 4 life.
+[level 1-4] Lifelink
+Once each turn, when you gain life, you may draw a card.
+[level 5+] Lifelink
+Once each turn, when you gain life, you may draw that many cards.
+
+Noop 33ERR
+type: Token Legendary Artifact Creature — Construct => Token Legendary Artifact Creature — Robot
+rules_text: Noop can't attack unless she has two or more counters on her => Defender
+pt: 2/2 => 3/3
+
+
+VERSION 9 CHANGELOG
 ====================
 
 

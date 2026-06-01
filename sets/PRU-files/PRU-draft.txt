@@ -1,0 +1,2990 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "Advance",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Instant — Tactic",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/1_Advance.png"
+			}
+		},
+		{
+			"name": "Retreat",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Instant — Tactic",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/5_Retreat.png"
+			}
+		},
+		{
+			"name": "Besiege",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Instant — Tactic",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/2_Besiege.png"
+			}
+		},
+		{
+			"name": "Scout",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Instant — Tactic",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/6_Scout.png"
+			}
+		},
+		{
+			"name": "Provision",
+			"rarity": "special",
+			"mana_cost": "{2}",
+			"type": "Instant — Tactic",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/4_Provision.png"
+			}
+		},
+		{
+			"name": "Airdrop Medic",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/8_Airdrop Medic.png"
+			}
+		},
+		{
+			"name": "Gifted Unicorn",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Unicorn",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/24_Gifted Unicorn.png"
+			}
+		},
+		{
+			"name": "Bloom Company Defector",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/11_Bloom Company Defector.png"
+			}
+		},
+		{
+			"name": "Pontifica's Scout",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Scout",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/35_Pontifica's Scout.png"
+			}
+		},
+		{
+			"name": "Mulberry Hall Clothier",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Faerie",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/31_Mulberry Hall Clothier.png"
+			}
+		},
+		{
+			"name": "Shock and Sexton Patrol",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/38_Shock and Sexton Patrol.png"
+			}
+		},
+		{
+			"name": "Exclusive Entourage",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/21_Exclusive Entourage.png"
+			}
+		},
+		{
+			"name": "Sibling of Exploration",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/39_Sibling of Exploration.png"
+			}
+		},
+		{
+			"name": "Glider Ace",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Pilot",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/25_Glider Ace.png"
+			}
+		},
+		{
+			"name": "Lay Siege",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/28_Lay Siege.png"
+			}
+		},
+		{
+			"name": "Pacifism",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/33_Pacifism.png"
+			}
+		},
+		{
+			"name": "Air Support",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/7_Air Support.png"
+			}
+		},
+		{
+			"name": "Requiter's Locomotive",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/36_Requiter's Locomotive.png"
+			}
+		},
+		{
+			"name": "Pave Over",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/34_Pave Over.png"
+			}
+		},
+		{
+			"name": "Standard-Issue Musket",
+			"rarity": "common",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact — Equipment",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/41_Standard-Issue Musket.png"
+			}
+		},
+		{
+			"name": "Exuberant Skywright",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/59_Exuberant Skywright.png"
+			}
+		},
+		{
+			"name": "Eager Field Marshal",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/55_Eager Field Marshal.png"
+			}
+		},
+		{
+			"name": "Wry Glamermage",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Dragon Faerie Rogue",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/79_Wry Glamermage.png"
+			}
+		},
+		{
+			"name": "Foxtown Forger",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Dragon Faerie Artificer",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/62_Foxtown Forger.png"
+			}
+		},
+		{
+			"name": "Distillery Engineers",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/52_Distillery Engineers.png"
+			}
+		},
+		{
+			"name": "Eluthiel Reliquary",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Faerie Cleric",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/57_Eluthiel Reliquary.png"
+			}
+		},
+		{
+			"name": "Fallowpeak Crab",
+			"rarity": "common",
+			"mana_cost": "{6}{U}",
+			"type": "Creature — Crab",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/60_Fallowpeak Crab.png"
+			}
+		},
+		{
+			"name": "Drownedmen Sailor",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/54_Drownedmen Sailor.png"
+			}
+		},
+		{
+			"name": "Marlene's Deception",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/66_Marlene's Deception.png"
+			}
+		},
+		{
+			"name": "Miasmic Immersion",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/67_Miasmic Immersion.png"
+			}
+		},
+		{
+			"name": "Reflect",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/71_Reflect.png"
+			}
+		},
+		{
+			"name": "Contentious Supporter",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Faerie Citizen",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/49_Contentious Supporter.png"
+			}
+		},
+		{
+			"name": "Call the Tempest",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/46_Call the Tempest.png"
+			}
+		},
+		{
+			"name": "Improbable Current",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/63_Improbable Current.png"
+			}
+		},
+		{
+			"name": "Counter-Intelligence",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/50_Counter-Intelligence.png"
+			}
+		},
+		{
+			"name": "Foxes' Underground Diehard",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/93_Foxes' Underground Diehard.png"
+			}
+		},
+		{
+			"name": "One Eye's Sharpshooter",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/101_One Eye's Sharpshooter.png"
+			}
+		},
+		{
+			"name": "Apothecary Flunkie",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Mutant",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/81_Apothecary Flunkie.png"
+			}
+		},
+		{
+			"name": "Cantankerous General",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/84_Cantankerous General.png"
+			}
+		},
+		{
+			"name": "Rotting Revolutionary",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Faerie Soldier",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/108_Rotting Revolutionary.png"
+			}
+		},
+		{
+			"name": "Mine Lurker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Nightmare",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/99_Mine Lurker.png"
+			}
+		},
+		{
+			"name": "Rooftop Runner",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Cat Faerie Rogue",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/107_Rooftop Runner.png"
+			}
+		},
+		{
+			"name": "Alynerada's Spawn",
+			"rarity": "common",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Faerie Horror",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/80_Alynerada's Spawn.png"
+			}
+		},
+		{
+			"name": "Weaponself Assassination",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/112_Weaponself Assassination.png"
+			}
+		},
+		{
+			"name": "Executioner's Spores",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/91_Executioner's Spores.png"
+			}
+		},
+		{
+			"name": "Ichor Blockade",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/95_Ichor Blockade.png"
+			}
+		},
+		{
+			"name": "Clivinius' Takedown",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/86_Clivinius' Takedown.png"
+			}
+		},
+		{
+			"name": "Rescue Mission",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/106_Rescue Mission.png"
+			}
+		},
+		{
+			"name": "Preacher of St. Frances",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/103_Preacher of St. Frances.png"
+			}
+		},
+		{
+			"name": "Desperate Stand",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/89_Desperate Stand.png"
+			}
+		},
+		{
+			"name": "Vermix Hawker",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Raccoon Faerie Rogue",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/150_Vermix Hawker.png"
+			}
+		},
+		{
+			"name": "Ruby's Loyalist",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Fox Faerie",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/145_Ruby's Loyalist.png"
+			}
+		},
+		{
+			"name": "Collier Saboteur",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Citizen",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/121_Collier Saboteur.png"
+			}
+		},
+		{
+			"name": "Hearth Spirit",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elemental Spirit",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/130_Hearth Spirit.png"
+			}
+		},
+		{
+			"name": "Catrest Elder",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Cat Faerie Druid",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/120_Catrest Elder.png"
+			}
+		},
+		{
+			"name": "Avant Guardsman",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/118_Avant Guardsman.png"
+			}
+		},
+		{
+			"name": "Myriad's Firebrand",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Dragon Faerie Warrior",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/138_Myriad's Firebrand.png"
+			}
+		},
+		{
+			"name": "Progeny Festival",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/141_Progeny Festival.png"
+			}
+		},
+		{
+			"name": "Jollity Dancer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Bear Faerie Bard",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/134_Jollity Dancer.png"
+			}
+		},
+		{
+			"name": "November's Fury",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/139_November's Fury.png"
+			}
+		},
+		{
+			"name": "Righteous Tide",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/143_Righteous Tide.png"
+			}
+		},
+		{
+			"name": "Lightning Claws",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/136_Lightning Claws.png"
+			}
+		},
+		{
+			"name": "Scalding Geyser",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/146_Scalding Geyser.png"
+			}
+		},
+		{
+			"name": "Thrill of Possibility",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/149_Thrill of Possibility.png"
+			}
+		},
+		{
+			"name": "Edgeshine's Daring",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/123_Edgeshine's Daring.png"
+			}
+		},
+		{
+			"name": "Visiting Gadabout",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Noble",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/186_Visiting Gadabout.png"
+			}
+		},
+		{
+			"name": "Margrave Honour Guard",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Faerie Advisor",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/168_Margrave Honour Guard.png"
+			}
+		},
+		{
+			"name": "Scholar of Forms",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Faerie Angel Wizard",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/176_Scholar of Forms.png"
+			}
+		},
+		{
+			"name": "Mushroom Vintner",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Fungus Faerie Shaman",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/172_Mushroom Vintner.png"
+			}
+		},
+		{
+			"name": "Wayward Romantic",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Faerie Monk",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/188_Wayward Romantic.png"
+			}
+		},
+		{
+			"name": "Rooftop Gardener",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Bird Faerie Druid",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/175_Rooftop Gardener.png"
+			}
+		},
+		{
+			"name": "Tourist-Snapper",
+			"rarity": "common",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Crocodile",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/183_Tourist-Snapper.png"
+			}
+		},
+		{
+			"name": "Tairis Seer",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Faerie Wizard",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/182_Tairis Seer.png"
+			}
+		},
+		{
+			"name": "Foxes' Underground Heel",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Faerie Soldier",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/163_Foxes' Underground Heel.png"
+			}
+		},
+		{
+			"name": "True-Form Amalgam",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Horror",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/184_True-Form Amalgam.png"
+			}
+		},
+		{
+			"name": "Vivian's Finisher",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/187_Vivian's Finisher.png"
+			}
+		},
+		{
+			"name": "Cut Loose",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/157_Cut Loose.png"
+			}
+		},
+		{
+			"name": "Flowing Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/162_Flowing Strike.png"
+			}
+		},
+		{
+			"name": "Simpler Times",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/178_Simpler Times.png"
+			}
+		},
+		{
+			"name": "Swell's Pilgrimage",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/181_Swell's Pilgrimage.png"
+			}
+		},
+		{
+			"name": "Ichor Grenade",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/218_Ichor Grenade.png"
+			}
+		},
+		{
+			"name": "Amnesiac Test Subject",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Faerie",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/214_Amnesiac Test Subject.png"
+			}
+		},
+		{
+			"name": "Living Truce",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact Creature — Spirit Construct",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/220_Living Truce.png"
+			}
+		},
+		{
+			"name": "Artisinal Armonica",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/215_Artisinal Armonica.png"
+			}
+		},
+		{
+			"name": "Ichorblade",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/219_Ichorblade.png"
+			}
+		},
+		{
+			"name": "Portentous Vista",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/247_Portentous Vista.png"
+			}
+		},
+		{
+			"name": "Temple of Enlightenment",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/255_Temple of Enlightenment.png"
+			}
+		},
+		{
+			"name": "Temple of Deceit",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/254_Temple of Deceit.png"
+			}
+		},
+		{
+			"name": "Temple of Malice",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/258_Temple of Malice.png"
+			}
+		},
+		{
+			"name": "Temple of Abandon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/253_Temple of Abandon.png"
+			}
+		},
+		{
+			"name": "Temple of Plenty",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/260_Temple of Plenty.png"
+			}
+		},
+		{
+			"name": "Temple of Silence",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/261_Temple of Silence.png"
+			}
+		},
+		{
+			"name": "Temple of Epiphany",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/256_Temple of Epiphany.png"
+			}
+		},
+		{
+			"name": "Temple of Malady",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/257_Temple of Malady.png"
+			}
+		},
+		{
+			"name": "Temple of Triumph",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/262_Temple of Triumph.png"
+			}
+		},
+		{
+			"name": "Temple of Mystery",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/259_Temple of Mystery.png"
+			}
+		},
+		{
+			"name": "Nimbus Maze",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/243_Nimbus Maze.png"
+			}
+		},
+		{
+			"name": "Forbidding Glacier",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/234_Forbidding Glacier.png"
+			}
+		},
+		{
+			"name": "Crooked Canyon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/231_Crooked Canyon.png"
+			}
+		},
+		{
+			"name": "Autumnal Grove",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/226_Autumnal Grove.png"
+			}
+		},
+		{
+			"name": "Picturesque Outcropping",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/245_Picturesque Outcropping.png"
+			}
+		},
+		{
+			"name": "Salted Lakebed",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/248_Salted Lakebed.png"
+			}
+		},
+		{
+			"name": "Ochre Basin",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/244_Ochre Basin.png"
+			}
+		},
+		{
+			"name": "Miasmic Expanse",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/240_Miasmic Expanse.png"
+			}
+		},
+		{
+			"name": "Steep Snowfield",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/249_Steep Snowfield.png"
+			}
+		},
+		{
+			"name": "Humid Verdure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/238_Humid Verdure.png"
+			}
+		},
+		{
+			"name": "St. Ysolde",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/209_St. Ysolde.png"
+			}
+		},
+		{
+			"name": "D'd'wid, Oathbound",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Plant Faerie Warlock",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/191_D'd'wid, Oathbound.png"
+			}
+		},
+		{
+			"name": "Edgeshine of a Knife",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Faerie Rogue",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/192_Edgeshine of a Knife.png"
+			}
+		},
+		{
+			"name": "November, Firestarter",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Artifact Creature — Bird Faerie",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/203_November, Firestarter.png"
+			}
+		},
+		{
+			"name": "Vivian, Hopeful Pugilist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Human Fox Faerie",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/213_Vivian, Hopeful Pugilist.png"
+			}
+		},
+		{
+			"name": "Captain Victoria",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/190_Captain Victoria.png"
+			}
+		},
+		{
+			"name": "Lace, Hired Glamermage",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Fox Faerie Rogue",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/200_Lace, Hired Glamermage.png"
+			}
+		},
+		{
+			"name": "Professor Shock",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/205_Professor Shock.png"
+			}
+		},
+		{
+			"name": "Sergeant Coxley",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/208_Sergeant Coxley.png"
+			}
+		},
+		{
+			"name": "Klein, First of the Blessed",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Shaman Horror",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/199_Klein, First of the Blessed.png"
+			}
+		},
+		{
+			"name": "Assail",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/9_Assail.png"
+			}
+		},
+		{
+			"name": "Bloomstained Recruiter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Scout",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/12_Bloomstained Recruiter.png"
+			}
+		},
+		{
+			"name": "Ichorbronze Assistant",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/27_Ichorbronze Assistant.png"
+			}
+		},
+		{
+			"name": "Augmented Aerialist",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Human Mutant Soldier",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/10_Augmented Aerialist.png"
+			}
+		},
+		{
+			"name": "Eleonora's Procession",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Noble Soldier",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/19_Eleonora's Procession.png"
+			}
+		},
+		{
+			"name": "Daring Acrobat",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Faerie Bard",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/17_Daring Acrobat.png"
+			}
+		},
+		{
+			"name": "Mirrorsand Duelist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Fox Faerie Wizard",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/30_Mirrorsand Duelist.png"
+			}
+		},
+		{
+			"name": "Supply Lines",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/43_Supply Lines.png"
+			}
+		},
+		{
+			"name": "Committed Company",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Instant",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/14_Committed Company.png"
+			}
+		},
+		{
+			"name": "Orphans' Resilience",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/32_Orphans' Resilience.png"
+			}
+		},
+		{
+			"name": "Fallowpeaks Banishment",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/22_Fallowpeaks Banishment.png"
+			}
+		},
+		{
+			"name": "Fleet's Symphony",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/23_Fleet's Symphony.png"
+			}
+		},
+		{
+			"name": "Rigamaroll's Form",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/73_Rigamaroll's Form.png"
+			}
+		},
+		{
+			"name": "Fenley's Flagship",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/61_Fenley's Flagship.png"
+			}
+		},
+		{
+			"name": "Eccentric Balloonist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/56_Eccentric Balloonist.png"
+			}
+		},
+		{
+			"name": "Jollity Impressionist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/64_Jollity Impressionist.png"
+			}
+		},
+		{
+			"name": "Upwelling Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elemental",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/77_Upwelling Elemental.png"
+			}
+		},
+		{
+			"name": "Squawking Omen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/74_Squawking Omen.png"
+			}
+		},
+		{
+			"name": "Blue Palace Interlocutor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/45_Blue Palace Interlocutor.png"
+			}
+		},
+		{
+			"name": "Time to Consider",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/76_Time to Consider.png"
+			}
+		},
+		{
+			"name": "Weapons Program",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/78_Weapons Program.png"
+			}
+		},
+		{
+			"name": "Panicked Evacuation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/69_Panicked Evacuation.png"
+			}
+		},
+		{
+			"name": "Distillery Field Tester",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/53_Distillery Field Tester.png"
+			}
+		},
+		{
+			"name": "Condescend",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/48_Condescend.png"
+			}
+		},
+		{
+			"name": "Oathbound Labourers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/100_Oathbound Labourers.png"
+			}
+		},
+		{
+			"name": "Massacre Vulture",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/98_Massacre Vulture.png"
+			}
+		},
+		{
+			"name": "Rearguard Action",
+			"rarity": "uncommon",
+			"mana_cost": "{6}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/105_Rearguard Action.png"
+			}
+		},
+		{
+			"name": "Masked Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/97_Masked Agent.png"
+			}
+		},
+		{
+			"name": "Hungry Bloomchild",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Horror",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/94_Hungry Bloomchild.png"
+			}
+		},
+		{
+			"name": "D'd'wid's Contract",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/88_D'd'wid's Contract.png"
+			}
+		},
+		{
+			"name": "Eruption Blightmonger",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Faerie Assassin",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/90_Eruption Blightmonger.png"
+			}
+		},
+		{
+			"name": "Zugzwang",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/115_Zugzwang.png"
+			}
+		},
+		{
+			"name": "Failed Sibling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Horror",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/92_Failed Sibling.png"
+			}
+		},
+		{
+			"name": "Ichor Extraction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/96_Ichor Extraction.png"
+			}
+		},
+		{
+			"name": "Orchestrated Riot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/102_Orchestrated Riot.png"
+			}
+		},
+		{
+			"name": "Apothecary Physician",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/82_Apothecary Physician.png"
+			}
+		},
+		{
+			"name": "Camp Clef Innovator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Faerie Artificer",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/119_Camp Clef Innovator.png"
+			}
+		},
+		{
+			"name": "Gleeful Arsonist",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/129_Gleeful Arsonist.png"
+			}
+		},
+		{
+			"name": "Crucible Breaker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Faerie Rogue",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/122_Crucible Breaker.png"
+			}
+		},
+		{
+			"name": "Lacrymose Blessed",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Horror",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/135_Lacrymose Blessed.png"
+			}
+		},
+		{
+			"name": "Eruption Strike Leader",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Faerie Warrior",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/126_Eruption Strike Leader.png"
+			}
+		},
+		{
+			"name": "Were Hunt Enforcer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragon Faerie Warrior",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/151_Were Hunt Enforcer.png"
+			}
+		},
+		{
+			"name": "Rioter's Mask",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/144_Rioter's Mask.png"
+			}
+		},
+		{
+			"name": "Annihilation Performance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/117_Annihilation Performance.png"
+			}
+		},
+		{
+			"name": "Ichor Exposure",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/131_Ichor Exposure.png"
+			}
+		},
+		{
+			"name": "Spread the Infection",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/147_Spread the Infection.png"
+			}
+		},
+		{
+			"name": "Firebomb",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/127_Firebomb.png"
+			}
+		},
+		{
+			"name": "Immolate",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/132_Immolate.png"
+			}
+		},
+		{
+			"name": "Kudzu Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}",
+			"type": "Creature — Elemental",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/167_Kudzu Elemental.png"
+			}
+		},
+		{
+			"name": "Studberg Regulars",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Dragon Faerie Soldier",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/180_Studberg Regulars.png"
+			}
+		},
+		{
+			"name": "Fallow Lands Nomad",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Cat Faerie Scout",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/160_Fallow Lands Nomad.png"
+			}
+		},
+		{
+			"name": "Invasive Plowbeetle",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Insect",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/166_Invasive Plowbeetle.png"
+			}
+		},
+		{
+			"name": "Picket Line Paladin",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Faerie Warrior",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/174_Picket Line Paladin.png"
+			}
+		},
+		{
+			"name": "Bloomtouched Toymaker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Artificer",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/155_Bloomtouched Toymaker.png"
+			}
+		},
+		{
+			"name": "Mask Maker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Faerie Shaman",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/170_Mask Maker.png"
+			}
+		},
+		{
+			"name": "Fungimancer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Fungus Faerie Druid",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/164_Fungimancer.png"
+			}
+		},
+		{
+			"name": "Barkspace Conspiracy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/153_Barkspace Conspiracy.png"
+			}
+		},
+		{
+			"name": "Ask The Earth",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/152_Ask The Earth.png"
+			}
+		},
+		{
+			"name": "Flood of Moss",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/161_Flood of Moss.png"
+			}
+		},
+		{
+			"name": "Miasmic Reclamation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/171_Miasmic Reclamation.png"
+			}
+		},
+		{
+			"name": "Printing Press",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/224_Printing Press.png"
+			}
+		},
+		{
+			"name": "FRPD Truncheon",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact — Equipment",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/217_FRPD Truncheon.png"
+			}
+		},
+		{
+			"name": "Mobile Drillrig",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/222_Mobile Drillrig.png"
+			}
+		},
+		{
+			"name": "St Gufilda's Memorial",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/225_St Gufilda's Memorial.png"
+			}
+		},
+		{
+			"name": "Bloomwild Haze",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/227_Bloomwild Haze.png"
+			}
+		},
+		{
+			"name": "Studberg Estates",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/250_Studberg Estates.png"
+			}
+		},
+		{
+			"name": "Fallowpeaks Prison",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/232_Fallowpeaks Prison.png"
+			}
+		},
+		{
+			"name": "Foxtown Teahouse",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/236_Foxtown Teahouse.png"
+			}
+		},
+		{
+			"name": "Blue Palace Fountain",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/228_Blue Palace Fountain.png"
+			}
+		},
+		{
+			"name": "Undertree Foundry",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/263_Undertree Foundry.png"
+			}
+		},
+		{
+			"name": "Marlene, Tail for Business",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Fox Faerie",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/201_Marlene, Tail for Business.png"
+			}
+		},
+		{
+			"name": "Hippocrat Melix",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Human Artificer",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/197_Hippocrat Melix.png"
+			}
+		},
+		{
+			"name": "Myriad V",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Faerie Assassin",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/202_Myriad V.png"
+			}
+		},
+		{
+			"name": "Ruby, Rebellion's Heart",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Legendary Creature — Shark Faerie",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/207_Ruby, Rebellion's Heart.png"
+			}
+		},
+		{
+			"name": "Aurora, Loving Healer",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/189_Aurora, Loving Healer.png"
+			}
+		},
+		{
+			"name": "Prince Wilhelm",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{B}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/204_Prince Wilhelm.png"
+			}
+		},
+		{
+			"name": "Fleet, Musical Skywright",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Legendary Creature — Faerie Artificer",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/195_Fleet, Musical Skywright.png"
+			}
+		},
+		{
+			"name": "Fenley, Oasis Gardener",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Human",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/194_Fenley, Oasis Gardener.png"
+			}
+		},
+		{
+			"name": "Swell, Bloomtouched Scion",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Faerie Noble",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/210_Swell, Bloomtouched Scion.png"
+			}
+		},
+		{
+			"name": "Rigamaroll, Masked Crab",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Crab Faerie",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/206_Rigamaroll, Masked Crab.png"
+			}
+		},
+		{
+			"name": "Song of the Void",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/40_Song of the Void.png"
+			}
+		},
+		{
+			"name": "Maviella Margave",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Faerie Noble",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/29_Maviella Margave.png"
+			}
+		},
+		{
+			"name": "Crack Pilot",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Pilot",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/16_Crack Pilot.png"
+			}
+		},
+		{
+			"name": "Caesura Technique",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/13_Caesura Technique.png"
+			}
+		},
+		{
+			"name": "Decorated Tactician",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Noble Soldier",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/18_Decorated Tactician.png"
+			}
+		},
+		{
+			"name": "Emaciate",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/20_Emaciate.png"
+			}
+		},
+		{
+			"name": "The Sceptre",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/37_The Sceptre.png"
+			}
+		},
+		{
+			"name": "The Crown of Glass",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Legendary Artifact — Equipment Clue",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/51_The Crown of Glass.png"
+			}
+		},
+		{
+			"name": "Chisel, Heterodox Luthier",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Legendary Creature — Faerie Artificer",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/47_Chisel, Heterodox Luthier.png"
+			}
+		},
+		{
+			"name": "Erode Fate",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/58_Erode Fate.png"
+			}
+		},
+		{
+			"name": "Lenora's Glamer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/65_Lenora's Glamer.png"
+			}
+		},
+		{
+			"name": "Resurface",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/72_Resurface.png"
+			}
+		},
+		{
+			"name": "Nurse-Current Augur",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Elemental",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/68_Nurse-Current Augur.png"
+			}
+		},
+		{
+			"name": "Production Line",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Artifact",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/70_Production Line.png"
+			}
+		},
+		{
+			"name": "Clivinius the Scourge",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Octopus Faerie",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/87_Clivinius the Scourge.png"
+			}
+		},
+		{
+			"name": "Pro Bono Oathmage",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Faerie Warlock",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/104_Pro Bono Oathmage.png"
+			}
+		},
+		{
+			"name": "Underworld Seer",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Faerie Wizard",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/110_Underworld Seer.png"
+			}
+		},
+		{
+			"name": "Broken Tower Nihilist",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Faerie Cleric",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/83_Broken Tower Nihilist.png"
+			}
+		},
+		{
+			"name": "Chessmaster",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Advisor",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/85_Chessmaster.png"
+			}
+		},
+		{
+			"name": "Victory Drive",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/111_Victory Drive.png"
+			}
+		},
+		{
+			"name": "Ysolde's Gauntlet",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/114_Ysolde's Gauntlet.png"
+			}
+		},
+		{
+			"name": "Mobius, Progeny Mender",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Faerie Cleric",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/137_Mobius, Progeny Mender.png"
+			}
+		},
+		{
+			"name": "Ephemeral Deluge",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/124_Ephemeral Deluge.png"
+			}
+		},
+		{
+			"name": "Flame-Touched Faerie",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental Faerie Shaman",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/128_Flame-Touched Faerie.png"
+			}
+		},
+		{
+			"name": "Revolutionary Spirit",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/142_Revolutionary Spirit.png"
+			}
+		},
+		{
+			"name": "Annihilation Junkie",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Bard",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/116_Annihilation Junkie.png"
+			}
+		},
+		{
+			"name": "Infection Vessel",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Plant Faerie",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/133_Infection Vessel.png"
+			}
+		},
+		{
+			"name": "Phantasia IV",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Artifact — Vehicle",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/140_Phantasia IV.png"
+			}
+		},
+		{
+			"name": "Demerara, Silken Host",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Spider Faerie",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/158_Demerara, Silken Host.png"
+			}
+		},
+		{
+			"name": "Seed of the Mega Tree",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Artifact",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/177_Seed of the Mega Tree.png"
+			}
+		},
+		{
+			"name": "Margrave's Desolation",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/169_Margrave's Desolation.png"
+			}
+		},
+		{
+			"name": "Crab Caucus Patissier",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ferret Faerie Druid",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/156_Crab Caucus Patissier.png"
+			}
+		},
+		{
+			"name": "Beast-Age Chronicler",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Faerie Bard",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/154_Beast-Age Chronicler.png"
+			}
+		},
+		{
+			"name": "People in Arms",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Faerie Citizen",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/173_People in Arms.png"
+			}
+		},
+		{
+			"name": "Emerald Dam Invocation",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/159_Emerald Dam Invocation.png"
+			}
+		},
+		{
+			"name": "Panharmonicon",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/223_Panharmonicon.png"
+			}
+		},
+		{
+			"name": "Gray Hand Beachhead",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/237_Gray Hand Beachhead.png"
+			}
+		},
+		{
+			"name": "The Lotus of Margrave",
+			"rarity": "rare",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/221_The Lotus of Margrave.png"
+			}
+		},
+		{
+			"name": "The Summer Palace",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/251_The Summer Palace.png"
+			}
+		},
+		{
+			"name": "Catrest",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/230_Catrest.png"
+			}
+		},
+		{
+			"name": "Mulberry Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/242_Mulberry Hall.png"
+			}
+		},
+		{
+			"name": "Fenley's Garden",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/233_Fenley's Garden.png"
+			}
+		},
+		{
+			"name": "Camp Clef",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/229_Camp Clef.png"
+			}
+		},
+		{
+			"name": "Industrial Revolution",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/198_Industrial Revolution.png"
+			}
+		},
+		{
+			"name": "Unbounded Feeder",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{R}{G}",
+			"type": "Legendary Artifact",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/211_Unbounded Feeder.png"
+			}
+		},
+		{
+			"name": "Endless Struggle",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/193_Endless Struggle.png"
+			}
+		},
+		{
+			"name": "Verity System",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}{B}",
+			"type": "Artifact Enchantment — Aura Curse",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/212_Verity System.png"
+			}
+		},
+		{
+			"name": "Heart of the Bloom",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{U}{R}",
+			"type": "Legendary Enchantment",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/196_Heart of the Bloom.png"
+			}
+		},
+		{
+			"name": "Company Exemplar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}{W}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/15_Company Exemplar.png"
+			}
+		},
+		{
+			"name": "State of Peace",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/42_State of Peace.png"
+			}
+		},
+		{
+			"name": "Apothecary Exemplar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}{U}{U}",
+			"type": "Creature — Wizard Horror",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/44_Apothecary Exemplar.png"
+			}
+		},
+		{
+			"name": "State of Sadness",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/75_State of Sadness.png"
+			}
+		},
+		{
+			"name": "Were Hunt Exemplar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}{B}{B}",
+			"type": "Creature — Bear Faerie Mercenary",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/113_Were Hunt Exemplar.png"
+			}
+		},
+		{
+			"name": "State of Fear",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/109_State of Fear.png"
+			}
+		},
+		{
+			"name": "Eruption Exemplar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}{R}{R}",
+			"type": "Creature — Faerie Shaman",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/125_Eruption Exemplar.png"
+			}
+		},
+		{
+			"name": "State of Anger",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/148_State of Anger.png"
+			}
+		},
+		{
+			"name": "Ultimatum Exemplar",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}{G}{G}",
+			"type": "Creature — Faerie Soldier",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/185_Ultimatum Exemplar.png"
+			}
+		},
+		{
+			"name": "State of Joy",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/179_State of Joy.png"
+			}
+		},
+		{
+			"name": "Human",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/26_Human.png"
+			}
+		},
+		{
+			"name": "Cat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Cat",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/3t_Cat.png"
+			}
+		},
+		{
+			"name": "Fungus",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Fungus",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/165_Fungus.png"
+			}
+		},
+		{
+			"name": "Illusion",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Illusion",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/2t_Illusion.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/5t_Treasure.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/4t_Elemental.png"
+			}
+		},
+		{
+			"name": "Copy",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/3_Copy.png"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Construct",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/216_Construct.png"
+			}
+		},
+		{
+			"name": "Plains Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land — Plains",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/246_Plains Token.png"
+			}
+		},
+		{
+			"name": "Island Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land — Island",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/239_Island Token.png"
+			}
+		},
+		{
+			"name": "Swamp Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land — Swamp",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/252_Swamp Token.png"
+			}
+		},
+		{
+			"name": "Mountain Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land — Mountain",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/241_Mountain Token.png"
+			}
+		},
+		{
+			"name": "Forest Token",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Basic Land — Forest",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/235_Forest Token.png"
+			}
+		},
+		{
+			"name": "In The Bloom",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/1t_In The Bloom.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/264_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/265_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/266_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/267_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/PRU-files/img/268_Forest.png"
+			}
+		}
+	]
+
+[rare(1)]
+	5 Marlene, Tail for Business
+	5 Hippocrat Melix
+	5 Myriad V
+	5 Ruby, Rebellion's Heart
+	5 Aurora, Loving Healer
+	5 Prince Wilhelm
+	5 Fleet, Musical Skywright
+	5 Fenley, Oasis Gardener
+	5 Swell, Bloomtouched Scion
+	5 Rigamaroll, Masked Crab
+	5 Song of the Void
+	5 Maviella Margave
+	5 Crack Pilot
+	5 Caesura Technique
+	5 Decorated Tactician
+	5 Emaciate
+	5 The Sceptre
+	5 The Crown of Glass
+	5 Chisel, Heterodox Luthier
+	5 Erode Fate
+	5 Lenora's Glamer
+	5 Resurface
+	5 Nurse-Current Augur
+	5 Production Line
+	5 Clivinius the Scourge
+	5 Pro Bono Oathmage
+	5 Underworld Seer
+	5 Broken Tower Nihilist
+	5 Chessmaster
+	5 Victory Drive
+	5 Ysolde's Gauntlet
+	5 Mobius, Progeny Mender
+	5 Ephemeral Deluge
+	5 Flame-Touched Faerie
+	5 Revolutionary Spirit
+	5 Annihilation Junkie
+	5 Infection Vessel
+	5 Phantasia IV
+	5 Demerara, Silken Host
+	5 Seed of the Mega Tree
+	5 Margrave's Desolation
+	5 Crab Caucus Patissier
+	5 Beast-Age Chronicler
+	5 People in Arms
+	5 Emerald Dam Invocation
+	5 Panharmonicon
+	5 Gray Hand Beachhead
+	5 The Lotus of Margrave
+	5 The Summer Palace
+	5 Catrest
+	5 Mulberry Hall
+	5 Fenley's Garden
+	5 Camp Clef
+	5 Industrial Revolution
+	5 Unbounded Feeder
+	5 Endless Struggle
+	5 Verity System
+	5 Heart of the Bloom
+	5 Company Exemplar
+	5 State of Peace
+	5 Apothecary Exemplar
+	5 State of Sadness
+	5 Were Hunt Exemplar
+	5 State of Fear
+	5 Eruption Exemplar
+	5 State of Anger
+	5 Ultimatum Exemplar
+	5 State of Joy
+[uncommon(3)]
+	5 St. Ysolde
+	5 D'd'wid, Oathbound
+	5 Edgeshine of a Knife
+	5 November, Firestarter
+	5 Vivian, Hopeful Pugilist
+	5 Captain Victoria
+	5 Lace, Hired Glamermage
+	5 Professor Shock
+	5 Sergeant Coxley
+	5 Klein, First of the Blessed
+	5 Assail
+	5 Bloomstained Recruiter
+	5 Ichorbronze Assistant
+	5 Augmented Aerialist
+	5 Eleonora's Procession
+	5 Daring Acrobat
+	5 Mirrorsand Duelist
+	5 Supply Lines
+	5 Committed Company
+	5 Orphans' Resilience
+	5 Fallowpeaks Banishment
+	5 Fleet's Symphony
+	5 Rigamaroll's Form
+	5 Fenley's Flagship
+	5 Eccentric Balloonist
+	5 Jollity Impressionist
+	5 Upwelling Elemental
+	5 Squawking Omen
+	5 Blue Palace Interlocutor
+	5 Time to Consider
+	5 Weapons Program
+	5 Panicked Evacuation
+	5 Distillery Field Tester
+	5 Condescend
+	5 Oathbound Labourers
+	5 Massacre Vulture
+	5 Rearguard Action
+	5 Masked Agent
+	5 Hungry Bloomchild
+	5 D'd'wid's Contract
+	5 Eruption Blightmonger
+	5 Zugzwang
+	5 Failed Sibling
+	5 Ichor Extraction
+	5 Orchestrated Riot
+	5 Apothecary Physician
+	5 Camp Clef Innovator
+	5 Gleeful Arsonist
+	5 Crucible Breaker
+	5 Lacrymose Blessed
+	5 Eruption Strike Leader
+	5 Were Hunt Enforcer
+	5 Rioter's Mask
+	5 Annihilation Performance
+	5 Ichor Exposure
+	5 Spread the Infection
+	5 Firebomb
+	5 Immolate
+	5 Kudzu Elemental
+	5 Studberg Regulars
+	5 Fallow Lands Nomad
+	5 Invasive Plowbeetle
+	5 Picket Line Paladin
+	5 Bloomtouched Toymaker
+	5 Mask Maker
+	5 Fungimancer
+	5 Barkspace Conspiracy
+	5 Ask The Earth
+	5 Flood of Moss
+	5 Miasmic Reclamation
+	5 Printing Press
+	5 FRPD Truncheon
+	5 Mobile Drillrig
+	5 St Gufilda's Memorial
+	5 Bloomwild Haze
+	5 Studberg Estates
+	5 Fallowpeaks Prison
+	5 Foxtown Teahouse
+	5 Blue Palace Fountain
+	5 Undertree Foundry
+[common(10)]
+	5 Airdrop Medic
+	5 Gifted Unicorn
+	5 Bloom Company Defector
+	5 Pontifica's Scout
+	5 Mulberry Hall Clothier
+	5 Shock and Sexton Patrol
+	5 Exclusive Entourage
+	5 Sibling of Exploration
+	5 Glider Ace
+	5 Lay Siege
+	5 Pacifism
+	5 Air Support
+	5 Requiter's Locomotive
+	5 Pave Over
+	5 Standard-Issue Musket
+	5 Exuberant Skywright
+	5 Eager Field Marshal
+	5 Wry Glamermage
+	5 Foxtown Forger
+	5 Distillery Engineers
+	5 Eluthiel Reliquary
+	5 Fallowpeak Crab
+	5 Drownedmen Sailor
+	5 Marlene's Deception
+	5 Miasmic Immersion
+	5 Reflect
+	5 Contentious Supporter
+	5 Call the Tempest
+	5 Improbable Current
+	5 Counter-Intelligence
+	5 Foxes' Underground Diehard
+	5 One Eye's Sharpshooter
+	5 Apothecary Flunkie
+	5 Cantankerous General
+	5 Rotting Revolutionary
+	5 Mine Lurker
+	5 Rooftop Runner
+	5 Alynerada's Spawn
+	5 Weaponself Assassination
+	5 Executioner's Spores
+	5 Ichor Blockade
+	5 Clivinius' Takedown
+	5 Rescue Mission
+	5 Preacher of St. Frances
+	5 Desperate Stand
+	5 Vermix Hawker
+	5 Ruby's Loyalist
+	5 Collier Saboteur
+	5 Hearth Spirit
+	5 Catrest Elder
+	5 Avant Guardsman
+	5 Myriad's Firebrand
+	5 Progeny Festival
+	5 Jollity Dancer
+	5 November's Fury
+	5 Righteous Tide
+	5 Lightning Claws
+	5 Scalding Geyser
+	5 Thrill of Possibility
+	5 Edgeshine's Daring
+	5 Visiting Gadabout
+	5 Margrave Honour Guard
+	5 Scholar of Forms
+	5 Mushroom Vintner
+	5 Wayward Romantic
+	5 Rooftop Gardener
+	5 Tourist-Snapper
+	5 Tairis Seer
+	5 Foxes' Underground Heel
+	5 True-Form Amalgam
+	5 Vivian's Finisher
+	5 Cut Loose
+	5 Flowing Strike
+	5 Simpler Times
+	5 Swell's Pilgrimage
+	5 Ichor Grenade
+	5 Amnesiac Test Subject
+	5 Living Truce
+	5 Artisinal Armonica
+	5 Ichorblade
+	5 Portentous Vista
+	5 Temple of Enlightenment
+	5 Temple of Deceit
+	5 Temple of Malice
+	5 Temple of Abandon
+	5 Temple of Plenty
+	5 Temple of Silence
+	5 Temple of Epiphany
+	5 Temple of Malady
+	5 Temple of Triumph
+	5 Temple of Mystery
+	5 Nimbus Maze
+	5 Forbidding Glacier
+	5 Crooked Canyon
+	5 Autumnal Grove
+	5 Picturesque Outcropping
+	5 Salted Lakebed
+	5 Ochre Basin
+	5 Miasmic Expanse
+	5 Steep Snowfield
+	5 Humid Verdure
+	5 Human
+	5 Fungus
+	5 Copy
+	5 Construct

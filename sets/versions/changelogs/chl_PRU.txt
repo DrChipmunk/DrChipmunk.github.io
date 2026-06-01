@@ -1,4 +1,743 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+
+Advance
+
+Retreat
+rules_text: Return target permanent you control to its owner’s hand.
+[i](You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Retreat would be put into your graveyard, shuffle it into your tactic deck instead.)[/i] => Return target permanent you control to its owner's hand.
+[i](You start the game with a tactic deck of one copy each of Advance, Besiege, Provision, Retreat, and Scout. If Retreat would be put into your graveyard, shuffle it into your tactic deck instead.)[/i]
+
+Besiege
+
+Scout
+
+Provision
+
+Airdrop Medic
+
+Gifted Unicorn
+
+Bloom Company Defector
+rules_text: At the beginning of combat on your turn, if you control a Faerie, this creature gains first strike and vigilance until end of turn.  => At the beginning of combat on your turn, if you control a Faerie, this creature gains first strike and vigilance until end of turn.
+
+Pontifica's Scout
+
+Mulberry Hall Clothier
+
+Shock and Sexton Patrol
+
+Exclusive Entourage
+
+Sibling of Exploration
+
+Glider Ace
+
+Lay Siege
+
+Pacifism
+rules_text: Enchant creature
+Enchanted creature can’t attack or block => Enchant creature
+Enchanted creature can't attack or block
+
+Air Support
+
+Requiter's Locomotive
+rules_text: Crew 1 [i](Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i] => Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Pave Over
+
+Standard-Issue Musket
+rules_text: When this Equipment enters, attach it to target creature you control.
+Equip {3}
+Equipped creature gets +2/+2.
+{1}, Discard this card, return a land you control to its owner’s hand: Create a tapped Plains token. => When this Equipment enters, attach it to target creature you control.
+Equip {3}
+Equipped creature gets +2/+2.
+{1}, Discard this card, return a land you control to its owner's hand: Create a tapped Plains token.
+
+Exuberant Skywright
+
+Eager Field Marshal
+rules_text: Flash
+When this creature enters, if you’ve cast two or more spells this turn, strategize. [i](Put the top card of your tactic deck into your hand.)[/i] => Flash
+When this creature enters, if you've cast two or more spells this turn, strategize. [i](Put the top card of your tactic deck into your hand.)[/i]
+
+Wry Glamermage
+
+Foxtown Forger
+rules_text: Vigilance
+This creature can’t be blocked if you’ve cast two or more spells this turn. => Vigilance
+This creature can't be blocked if you've cast two or more spells this turn.
+
+Distillery Engineers
+
+Eluthiel Reliquary
+
+Fallowpeak Crab
+
+Drownedmen Sailor
+rules_text: Defender
+{T}: Add {C}. You can’t spend this mana to cast creature spells. => Defender
+{T}: Add {C}. You can't spend this mana to cast creature spells.
+
+Marlene's Deception
+
+Miasmic Immersion
+
+Reflect
+
+Contentious Supporter
+rules_text: When this creature enters, draw three cards, then discard two cards.
+{1}, Discard this card, return a land you control to its owner’s hand: Create a tapped Island token. => When this creature enters, draw three cards, then discard two cards.
+{1}, Discard this card, return a land you control to its owner's hand: Create a tapped Island token.
+
+Call the Tempest
+
+Improbable Current
+rules_text: Target creature gets -2/-0 until end of turn. If this spell was cast from exile, return that creature to its owner’s hand. 
+Bloom [i](If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)[/i] => Target creature gets -2/-0 until end of turn. If this spell was cast from exile, return that creature to its owner's hand. 
+Bloom [i](If you cast this from your hand, exile it as it resolves. When you cast a spell with greater mana value, you may cast this from exile without paying its mana cost.)[/i]
+
+Counter-Intelligence
+
+Foxes' Underground Diehard
+
+One Eye's Sharpshooter
+
+Apothecary Flunkie
+
+Cantankerous General
+
+Rotting Revolutionary
+
+Mine Lurker
+
+Rooftop Runner
+
+Alynerada's Spawn
+rules_text: Flying
+This creature enters with a +1/+1 counter on it if an opponent lost life this turn.
+{1}, Discard this card, return a land you control to its owner’s hand: Create a tapped Swamp token. => Flying
+This creature enters with a +1/+1 counter on it if an opponent lost life this turn.
+{1}, Discard this card, return a land you control to its owner's hand: Create a tapped Swamp token.
+
+Weaponself Assassination
+
+Executioner's Spores
+
+Ichor Blockade
+rules_text: Target opponent sacrifices a creature. If you’ve cast another spell this turn, instead that player sacrifices a creature with the greatest power among creatures they control => Target opponent sacrifices a creature. If you've cast another spell this turn, instead that player sacrifices a creature with the greatest power among creatures they control
+
+Clivinius' Takedown
+
+Rescue Mission
+
+Preacher of St. Frances
+
+Desperate Stand
+rules_text: Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to its owner’s hand. If this creature is a Human, instead return it to the battlefield under its owner’s control.” => Until end of turn, target creature gets +2/+0 and gains “When this creature dies, return it to its owner's hand. If this creature is a Human, instead return it to the battlefield under its owner's control.”
+
+Vermix Hawker
+rules_text: Prowess  [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+When this creature enters, put a zeal counter on target Faerie.
+{1}{R}, Remove a zeal counter from this creature, Discard a card: Draw a card.        => Prowess [i](Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)[/i]
+When this creature enters, put a zeal counter on target Faerie.
+{1}{R}, Remove a zeal counter from this creature, Discard a card: Draw a card.
+
+Ruby's Loyalist
+
+Collier Saboteur
+
+Hearth Spirit
+
+Catrest Elder
+rules_text: When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Create a tapped 1/1 red Cat creature token with prowess. [i](Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn)[/i]         => When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Create a tapped 1/1 red Cat creature token with prowess. [i](Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn)[/i]
+
+Avant Guardsman
+
+Myriad's Firebrand
+
+Progeny Festival
+rules_text: Create three 1/1 red Cat creature tokens with prowess.
+{1}, Discard this card, return a land you control to its owner’s hand: Create a tapped Mountain token.  => Create three 1/1 red Cat creature tokens with prowess.
+{1}, Discard this card, return a land you control to its owner's hand: Create a tapped Mountain token.
+
+Jollity Dancer
+rules_text: Menace
+When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Target creature can’t block this turn.  => Menace
+When this creature enters, put a zeal counter on target Faerie.
+{2}{R}, Remove a zeal counter from this creature: Target creature can't block this turn.
+
+November's Fury
+
+Righteous Tide
+
+Lightning Claws
+
+Scalding Geyser
+
+Thrill of Possibility
+
+Edgeshine's Daring
+
+Visiting Gadabout
+
+Margrave Honour Guard
+
+Scholar of Forms
+
+Mushroom Vintner
+
+Wayward Romantic
+
+Rooftop Gardener
+
+Tourist-Snapper
+
+Tairis Seer
+
+Foxes' Underground Heel
+
+True-Form Amalgam
+rules_text: This creature can’t be blocked by creatures with power 2 or less.
+{1}, Discard this card, return a land you control to its owner’s hand: Create a tapped Forest token.  => This creature can't be blocked by creatures with power 2 or less.
+{1}, Discard this card, return a land you control to its owner's hand: Create a tapped Forest token.
+
+Vivian's Finisher
+rules_text: Put a +1/+1 counter on target creature you control if you control a Human and a Faerie. 
+That creature deals damage equal to its power to target creature you don’t control. => Put a +1/+1 counter on target creature you control if you control a Human and a Faerie. 
+That creature deals damage equal to its power to target creature you don't control.
+
+Cut Loose
+
+Flowing Strike
+
+Simpler Times
+
+Swell's Pilgrimage
+
+Ichor Grenade
+rules_text: You may discard a Tactic card rather than pay this spell’s mana cost.
+{3}, {T}, Sacrifice this artifact: This artifact deals 6 damage to target creature. => You may discard a Tactic card rather than pay this spell's mana cost.
+{3}, {T}, Sacrifice this artifact: This artifact deals 6 damage to target creature.
+
+Amnesiac Test Subject
+
+Living Truce
+
+Artisinal Armonica
+
+Ichorblade
+
+Portentous Vista
+
+Temple of Enlightenment
+
+Temple of Deceit
+
+Temple of Malice
+
+Temple of Abandon
+
+Temple of Plenty
+
+Temple of Silence
+
+Temple of Epiphany
+
+Temple of Malady
+
+Temple of Triumph
+
+Temple of Mystery
+
+Nimbus Maze
+
+Forbidding Glacier
+
+Crooked Canyon
+
+Autumnal Grove
+
+Picturesque Outcropping
+
+Salted Lakebed
+
+Ochre Basin
+
+Miasmic Expanse
+
+Steep Snowfield
+
+Humid Verdure
+
+St. Ysolde
+
+D'd'wid, Oathbound
+
+Edgeshine of a Knife
+rules_text: Menace
+Whenever an opponent loses life, create a Treasure token, then exile the top card of that player’s library. If it’s a nonland card, you may cast it this turn. This ability triggers only once each turn. => Menace
+Whenever an opponent loses life, create a Treasure token, then exile the top card of that player's library. If it's a nonland card, you may cast it this turn. This ability triggers only once each turn.
+
+November, Firestarter
+rules_text: Trample
+When this creature enters, put a zeal counter on target Faerie.
+{1}{RG}, Remove a zeal counter from this creature: This creature gets +2/+2 until end of turn. Put a zeal counter on up to one other target Faerie you control.            => Trample
+When this creature enters, put a zeal counter on target Faerie.
+{1{R}G}, Remove a zeal counter from this creature: This creature gets +2/+2 until end of turn. Put a zeal counter on up to one other target Faerie you control.
+
+Vivian, Hopeful Pugilist
+
+Captain Victoria
+
+Lace, Hired Glamermage
+
+Professor Shock
+rules_text: Deathtouch
+{1}{B}{G}, Sacrifice a Human and a Faerie: Draw two cards, then create a X/X colorless Construct artifact creature token, where X is the combined power of the sacrificed creatures. Activate only as a sorcery.      => Deathtouch
+{1}{B}{G}, Sacrifice a Human and a Faerie: Draw two cards, then create a X/X colorless Construct artifact creature token, where X is the combined power of the sacrificed creatures. Activate only as a sorcery.
+
+Sergeant Coxley
+rules_text: First strike
+Whenever you attack with two or more creatures, create a 1/1 white Human creature token that’s tapped and attacking. => First strike
+Whenever you attack with two or more creatures, create a 1/1 white Human creature token that's tapped and attacking.
+
+Klein, First of the Blessed
+rules_text: Flying
+When this creature enters, return target card with bloom from your graveyard to your hand.
+{1}{G}{U}: Exile this creature, then return it to the battlefield tapped under its owner’s control. => Flying
+When this creature enters, return target card with bloom from your graveyard to your hand.
+{1}{G}{U}: Exile this creature, then return it to the battlefield tapped under its owner's control.
+
+Assail
+rules_text: Destroy target creature if it’s attacking or has power 4 or greater. => Destroy target creature if it's attacking or has power 4 or greater.
+
+Bloomstained Recruiter
+
+Ichorbronze Assistant
+
+Augmented Aerialist
+
+Eleonora's Procession
+
+Daring Acrobat
+rules_text: Flying
+When this creature dies, if its power was 4 or greater, return it to its owner’s hand. => Flying
+When this creature dies, if its power was 4 or greater, return it to its owner's hand.
+
+Mirrorsand Duelist
+
+Supply Lines
+
+Committed Company
+
+Orphans' Resilience
+
+Fallowpeaks Banishment
+rules_text: When this enchantment enters, exile up to one target creature until this enchantment leaves the battlefield.
+{1}{W}: Return this enchantment to its owner’s hand. Strategize. [i](Put the top card of your tactic deck into your hand.)[/i] => When this enchantment enters, exile up to one target creature until this enchantment leaves the battlefield.
+{1}{W}: Return this enchantment to its owner's hand. Strategize. [i](Put the top card of your tactic deck into your hand.)[/i]
+
+Fleet's Symphony
+
+Rigamaroll's Form
+
+Fenley's Flagship
+rules_text: This spell costs {1} less to cast for each Tactic card in your hand.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i]
+Flying
+Whenever you cast a Tactic spell, draw a card. => This spell costs {1} less to cast for each Tactic card in your hand.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+Flying
+Whenever you cast a Tactic spell, draw a card.
+
+Eccentric Balloonist
+rules_text: Flying
+Whenever you cast a noncreature spell with mana value greater than this creature’s power, put a +1/+1 counter on this creature. => Flying
+Whenever you cast a noncreature spell with mana value greater than this creature's power, put a +1/+1 counter on this creature.
+
+Jollity Impressionist
+
+Upwelling Elemental
+
+Squawking Omen
+
+Blue Palace Interlocutor
+
+Time to Consider
+
+Weapons Program
+
+Panicked Evacuation
+rules_text: This spell costs {2} less to cast if you’ve cast another spell this turn.
+Target nonland permanent’s owner puts it on the top or bottom of their library => This spell costs {2} less to cast if you've cast another spell this turn.
+Target nonland permanent's owner puts it on the top or bottom of their library
+
+Distillery Field Tester
+
+Condescend
+
+Oathbound Labourers
+rules_text: This creature can’t block.
+Whenever one or more Humans you control attack while this card is in your graveyard, you may pay {2}{B}. If you do, return this card to the battlefield tapped and attacking. => This creature can't block.
+Whenever one or more Humans you control attack while this card is in your graveyard, you may pay {2}{B}. If you do, return this card to the battlefield tapped and attacking.
+
+Massacre Vulture
+
+Rearguard Action
+
+Masked Agent
+
+Hungry Bloomchild
+
+D'd'wid's Contract
+
+Eruption Blightmonger
+rules_text: When this creature enters, put a zeal counter on target Faerie.
+{1}{B}, Remove a zeal counter from this creature: Target opponent may discard a card. If they don’t, you may return a creature card from your graveyard to your hand. Activate only as a sorcery.       => When this creature enters, put a zeal counter on target Faerie.
+{1}{B}, Remove a zeal counter from this creature: Target opponent may discard a card. If they don't, you may return a creature card from your graveyard to your hand. Activate only as a sorcery.
+
+Zugzwang
+
+Failed Sibling
+rules_text: When this creature enters, target player reveals their hand. You may choose a nonland card from it. If you do, exile that card and this creature. [i](An exiled Tactic card is shuffled into its owner’s tactic deck.)[/i] => When this creature enters, target player reveals their hand. You may choose a nonland card from it. If you do, exile that card and this creature. [i](An exiled Tactic card is shuffled into its owner's tactic deck.)[/i]
+
+Ichor Extraction
+
+Orchestrated Riot
+
+Apothecary Physician
+
+Camp Clef Innovator
+
+Gleeful Arsonist
+
+Crucible Breaker
+rules_text: When this creature enters, put a zeal counter on target Faerie.
+{3}{R}, Remove a zeal counter from this creature: Create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.        => When this creature enters, put a zeal counter on target Faerie.
+{3}{R}, Remove a zeal counter from this creature: Create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step. Activate only as a sorcery.
+
+Lacrymose Blessed
+
+Eruption Strike Leader
+
+Were Hunt Enforcer
+
+Rioter's Mask
+
+Annihilation Performance
+
+Ichor Exposure
+
+Spread the Infection
+
+Firebomb
+
+Immolate
+
+Kudzu Elemental
+
+Studberg Regulars
+rules_text: When this creature enters, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: This creature fights target creature you don’t control. Activate only as a sorcery.  => When this creature enters, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: This creature fights target creature you don't control. Activate only as a sorcery.
+
+Fallow Lands Nomad
+
+Invasive Plowbeetle
+rules_text: When this creature enters, return a permanent you control to its owner’s hand. => When this creature enters, return a permanent you control to its owner's hand.
+
+Picket Line Paladin
+
+Bloomtouched Toymaker
+
+Mask Maker
+
+Fungimancer
+
+Barkspace Conspiracy
+
+Ask The Earth
+
+Flood of Moss
+
+Miasmic Reclamation
+
+Printing Press
+
+FRPD Truncheon
+
+Mobile Drillrig
+rules_text: Whenever you cast your second spell each turn, this Vehicle becomes an artifact creature until end of turn.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or greater: This Vehicle becomes an artifact creature until end of turn.)[/i] => Whenever you cast your second spell each turn, this Vehicle becomes an artifact creature until end of turn.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+St Gufilda's Memorial
+
+Bloomwild Haze
+rules_text: When this land enters, exile the top two cards of your library.
+This land has all basic land types of the exiled cards.
+{T}: Add {C} or one mana of any of the exiled cards’ colors. => When this land enters, exile the top two cards of your library.
+This land has all basic land types of the exiled cards.
+{T}: Add {C} or one mana of any of the exiled cards' colors.
+
+Studberg Estates
+
+Fallowpeaks Prison
+
+Foxtown Teahouse
+
+Blue Palace Fountain
+
+Undertree Foundry
+
+Marlene, Tail for Business
+rules_text: Players play with the top card of their library revealed.
+During each player’s turn, that player may cast spells from the tops of their opponents’ libraries. Mana of any type may be spent to cast those spells. Spells you cast this way cost {1} less to cast. => Players play with the top card of their library revealed.
+During each player's turn, that player may cast spells from the tops of their opponents' libraries. Mana of any type may be spent to cast those spells. Spells you cast this way cost {1} less to cast.
+
+Hippocrat Melix
+rules_text: Whenever this creature deals combat damage to a player, draw a card.
+When this creature dies, you may exile target creature an opponent controls. If you do, return this creature to the battlefield under that player’s control. => Whenever this creature deals combat damage to a player, draw a card.
+When this creature dies, you may exile target creature an opponent controls. If you do, return this creature to the battlefield under that player's control.
+
+Myriad V
+
+Ruby, Rebellion's Heart
+
+Aurora, Loving Healer
+
+Prince Wilhelm
+
+Fleet, Musical Skywright
+
+Fenley, Oasis Gardener
+
+Swell, Bloomtouched Scion
+
+Rigamaroll, Masked Crab
+rules_text: Whenever a creature you control enters under, this creature becomes a copy of that creature until the end of your next turn, except it’s a 3/3 Crab named Rigamaroll, Masked Crab. => Whenever a creature you control enters under, this creature becomes a copy of that creature until the end of your next turn, except it's a 3/3 Crab named Rigamaroll, Masked Crab.
+
+Song of the Void
+
+Maviella Margave
+
+Crack Pilot
+
+Caesura Technique
+rules_text: You can’t untap more than one land during your untap step.
+At the beginning of your upkeep, draw a card.
+Whenever an opponent casts a spell, untap up to one target land. => You can't untap more than one land during your untap step.
+At the beginning of your upkeep, draw a card.
+Whenever an opponent casts a spell, untap up to one target land.
+
+Decorated Tactician
+
+Emaciate
+
+The Sceptre
+
+The Crown of Glass
+rules_text: Equip {U}
+Equipped creature has prowess. [i](Prowess stacks.)[/i]
+Whenever equipped creature attacks, exile the top card of your library face down. [i](You can’t look at it)[/i]
+{2}, Sacrifice this Equipment: Put all cards exiled with it into their owners’ hands. => Equip {U}
+Equipped creature has prowess. [i](Prowess stacks.)[/i]
+Whenever equipped creature attacks, exile the top card of your library face down. [i](You can't look at it)[/i]
+{2}, Sacrifice this Equipment: Put all cards exiled with it into their owners' hands.
+
+Chisel, Heterodox Luthier
+
+Erode Fate
+
+Lenora's Glamer
+
+Resurface
+
+Nurse-Current Augur
+
+Production Line
+
+Clivinius the Scourge
+
+Pro Bono Oathmage
+
+Underworld Seer
+rules_text: Lifelink
+Whenever you scry, exile the bottom card of your library. You lose life equal to its mana value. If it’s a nonland card, put it in your hand. => Lifelink
+Whenever you scry, exile the bottom card of your library. You lose life equal to its mana value. If it's a nonland card, put it in your hand.
+
+Broken Tower Nihilist
+
+Chessmaster
+
+Victory Drive
+
+Ysolde's Gauntlet
+rules_text: Whenever you cast a spell, each player loses 1 life.
+Equip {2}{B}
+Equipped creature gets +X/+X, where X is the total amount of life players have lost this turn.  => Whenever you cast a spell, each player loses 1 life.
+Equip {2}{B}
+Equipped creature gets +X/+X, where X is the total amount of life players have lost this turn.
+
+Mobius, Progeny Mender
+
+Ephemeral Deluge
+
+Flame-Touched Faerie
+
+Revolutionary Spirit
+
+Annihilation Junkie
+rules_text: Prowess
+At the beginning of combat on your turn, if this creature’s power is 4 or greater, create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step. => Prowess
+At the beginning of combat on your turn, if this creature's power is 4 or greater, create a 4/4 red Elemental creature token with haste and prowess. Sacrifice it at the beginning of the next end step.
+
+Infection Vessel
+rules_text: Whenever this creature enters or attacks, put a +1/+1 counter on target creature with no +1/+1 counters on it.
+Creatures with +1/+1 counters on them can’t block. => Whenever this creature enters or attacks, put a +1/+1 counter on target creature with no +1/+1 counters on it.
+Creatures with +1/+1 counters on them can't block.
+
+Phantasia IV
+rules_text: Flying, Crew 1. Crew only once each turn.
+Whenever this Vehicle deals combat damage to a player, create a Treasure token, then you may sacrifice this Vehicle. If you do, exile the top X cards of your library, where X is the total power of creatures that crewed this Vehicle this turn. You may play those cards this turn.       => Flying, Crew 1. Crew only once each turn.
+Whenever this Vehicle deals combat damage to a player, create a Treasure token, then you may sacrifice this Vehicle. If you do, exile the top X cards of your library, where X is the total power of creatures that crewed this Vehicle this turn. You may play those cards this turn.
+
+Demerara, Silken Host
+rules_text: Reach, Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to this creature’s toughness. => Reach, Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+Each other creature you control enters the battlefield with a number of additional +1/+1 counters on it equal to this creature's toughness.
+
+Seed of the Mega Tree
+rules_text: When this artifact enters and whenever you cast a spell with bloom from your hand, create a Forest token.
+{8}{G}{G}: This artifact becomes a creature with vigilance, reach, and “This creature’s power and toughness are each equal to the number of lands you control.” => When this artifact enters and whenever you cast a spell with bloom from your hand, create a Forest token.
+{8}{G}{G}: This artifact becomes a creature with vigilance, reach, and “This creature's power and toughness are each equal to the number of lands you control.”
+
+Margrave's Desolation
+
+Crab Caucus Patissier
+rules_text: Whenever you gain life, put a +1/+1 counter on this creature. Then draw a card if this creature’s power is 4 or greater. => Whenever you gain life, put a +1/+1 counter on this creature. Then draw a card if this creature's power is 4 or greater.
+
+Beast-Age Chronicler
+rules_text: This creature can’t be blocked by more than one creature.
+Whenever this creature deals combat damage to a player, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: You may put a permanent card from your hand onto the battlefield. => This creature can't be blocked by more than one creature.
+Whenever this creature deals combat damage to a player, put a zeal counter on target Faerie.
+{2}{G}, Remove a zeal counter from this creature: You may put a permanent card from your hand onto the battlefield.
+
+People in Arms
+rules_text: This creature enters tapped with five stun counters on it.
+Whenever another nontoken creature you control dies, put a zeal counter on target Faerie.
+{G}, Remove a zeal counter from this creature: Untap target creature.         => This creature enters tapped with five stun counters on it.
+Whenever another nontoken creature you control dies, put a zeal counter on target Faerie.
+{G}, Remove a zeal counter from this creature: Untap target creature.
+
+Emerald Dam Invocation
+rules_text: Mill fifteen cards. Return a permanent card milled this way to your hand. Put this spell and up to four cards from its owner’s graveyard on the bottom of their owner’s library in a random order. => Mill fifteen cards. Return a permanent card milled this way to your hand. Put this spell and up to four cards from its owner's graveyard on the bottom of their owner's library in a random order.
+
+Panharmonicon
+
+Gray Hand Beachhead
+
+The Lotus of Margrave
+rules_text: When this artifact enters, draw two cards.
+{T}: Add three mana of any one color.
+At the beginning of each player’s upkeep, that player gains control of this artifact. Untap it. => When this artifact enters, draw two cards.
+{T}: Add three mana of any one color.
+At the beginning of each player's upkeep, that player gains control of this artifact. Untap it.
+
+The Summer Palace
+
+Catrest
+
+Mulberry Hall
+
+Fenley's Garden
+
+Camp Clef
+
+Industrial Revolution
+
+Unbounded Feeder
+rules_text: At the beginning of your end step, you may pay 2 life. If you do, put an infection counter on this artifact. If you don’t, destroy all nonland permanents, then create a 2/2 green Fungus creature token for each infection counter on this artifact. => At the beginning of your end step, you may pay 2 life. If you do, put an infection counter on this artifact. If you don't, destroy all nonland permanents, then create a 2/2 green Fungus creature token for each infection counter on this artifact.
+
+Endless Struggle
+
+Verity System
+rules_text: Enchant player
+Whenever a player casts their second spell each turn, put all cards exiled with this Aura into their owner’s graveyard, then exile the top three cards of enchanted player’s library.
+Enchanted player can’t cast spells with the same mana value as a card exiled with this Aura. => Enchant player
+Whenever a player casts their second spell each turn, put all cards exiled with this Aura into their owner's graveyard, then exile the top three cards of enchanted player's library.
+Enchanted player can't cast spells with the same mana value as a card exiled with this Aura.
+
+Heart of the Bloom
+
+Company Exemplar
+
+State of Peace
+
+Apothecary Exemplar
+rules_text: Flying
+Other Horror creatures you control have flying.
+Whenever this creature deals combat damage to an opponent, that player mills that many cards. You may return a creature card milled this way to the battlefield under your control. It’s a Horror in addition to its other types. => Flying
+Other Horror creatures you control have flying.
+Whenever this creature deals combat damage to an opponent, that player mills that many cards. You may return a creature card milled this way to the battlefield under your control. It's a Horror in addition to its other types.
+
+State of Sadness
+
+Were Hunt Exemplar
+
+State of Fear
+rules_text: When this enchantment enters, look at target opponent’s hand. Choose a noncreature, nonland card from it. That player discards that card.
+{2}{B}, Sacrifice this enchantment: Reveal a black card you own from outside the game and put it in your hand. => When this enchantment enters, look at target opponent's hand. Choose a noncreature, nonland card from it. That player discards that card.
+{2}{B}, Sacrifice this enchantment: Reveal a black card you own from outside the game and put it in your hand.
+
+Eruption Exemplar
+rules_text: As long is it’s your turn, this creature has first strike.
+Whenever you attack, exile target creature, then return it to the battlefield tapped and attacking under your control. Its owner gains control of it at the beginning of the next end step.  => As long is it's your turn, this creature has first strike.
+Whenever you attack, exile target creature, then return it to the battlefield tapped and attacking under your control. Its owner gains control of it at the beginning of the next end step.
+
+State of Anger
+
+Ultimatum Exemplar
+rules_text: Trample
+At the beginning of your end step, put a zeal counter on target Faerie.
+{X}{G}, Remove a zeal counter from this creature: Reveal the top X cards of your library. You may put a creature card with mana value X or less from among them onto the battlefield. Put the  rest on the bottom of your library in a random order. Activate only as a sorcery. => Trample
+At the beginning of your end step, put a zeal counter on target Faerie.
+{X}{G}, Remove a zeal counter from this creature: Reveal the top X cards of your library. You may put a creature card with mana value X or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order. Activate only as a sorcery.
+
+State of Joy
+rules_text: When this enchantment enters, you may return a land you control to its owner’s hand. If you do, choose a basic land type. Create a basic land token with that type.
+{2}{G}, Sacrifice this enchantment: Reveal a green card you own from outside the game and put it in your hand. => When this enchantment enters, you may return a land you control to its owner's hand. If you do, choose a basic land type. Create a basic land token with that type.
+{2}{G}, Sacrifice this enchantment: Reveal a green card you own from outside the game and put it in your hand.
+
+Human
+
+Cat
+
+Fungus
+
+Illusion
+
+Treasure
+
+Elemental
+
+Copy
+
+Construct
+
+In The Bloom
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
