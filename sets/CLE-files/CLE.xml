@@ -5,7 +5,7 @@
 			<name>CLE</name>
 			<longname>Clearingsong</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-01</releasedate>
+			<releasedate>2026-06-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -3388,10 +3388,10 @@ Whenever this creature attacks, if a player has 10 or less life, draw a card.</t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Vernon the Inventive</name>
+			<name>Verna the Inventive</name>
 			<text>Flying
 Whenever you cast your second spell each turn, copy it. You may choose new targets for the copy.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/219_Vernon the Inventive.png" num="219">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/219_Verna the Inventive.png" num="219">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3442,10 +3442,10 @@ Whenever this creature attacks, you may pay {R}. When you do, target creature ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Acheaorator Zarrack</name>
+			<name>Acheaorator Zarracka</name>
 			<text>Lifelink
 At the beginning of your end step, exile up to one target creature card with mana value less than or equal to the amount of life you gained this turn from your graveyard. If you do, create a token that&apos;s a copy of it.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/201_Acheaorator Zarrack.png" num="201">CLE</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/201_Acheaorator Zarracka.png" num="201">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3886,7 +3886,7 @@ Whenever a Wizard you control enters, you may cast target instant or sorcery car
 		<card>
 			<name>Arch-Chancellor Zybsalim</name>
 			<text>Flying
-At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process.</text>
+Whenever you cast a spell, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/41_Arch-Chancellor Zybsalim.png" num="41">CLE</set>
 			<prop>
 				<layout>normal</layout>

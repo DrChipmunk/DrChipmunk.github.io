@@ -1961,13 +1961,13 @@
 			}
 		},
 		{
-			"name": "Vernon the Inventive",
+			"name": "Verna the Inventive",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Artifact Creature — Dragon",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/219_Vernon the Inventive.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/219_Verna the Inventive.png"
 			}
 		},
 		{
@@ -1991,13 +1991,13 @@
 			}
 		},
 		{
-			"name": "Acheaorator Zarrack",
+			"name": "Acheaorator Zarracka",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Dinosaur Cleric",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/201_Acheaorator Zarrack.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/201_Acheaorator Zarracka.png"
 			}
 		},
 		{
@@ -2843,10 +2843,10 @@
 	]
 
 [rare(1)]
-	5 Vernon the Inventive
+	5 Verna the Inventive
 	5 Sinister Stew
 	5 Honey-Flinger
-	5 Acheaorator Zarrack
+	5 Acheaorator Zarracka
 	5 The Moon Snail
 	5 The Legendary Mica
 	5 Crackling Hearth

@@ -9178,7 +9178,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "Vernon the Inventive",
+            "card_name": "Verna the Inventive",
             "color": "UR",
             "rarity": "rare",
             "type": "Legendary Artifact Creature \u2013 Dragon",
@@ -9186,7 +9186,7 @@
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
             "rules_text": "Flying\nWhenever you cast your second spell each turn, copy it. You may choose new targets for the copy.",
-            "flavor_text": "[i]Living proof of his own ingenuity.[/i]",
+            "flavor_text": "[i]Living proof of her own ingenuity.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -9235,7 +9235,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "Acheaorator Zarrack",
+            "card_name": "Acheaorator Zarracka",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Dinosaur Cleric",
@@ -9717,7 +9717,7 @@
             "number": 41,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flying\nAt the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process.",
+            "rules_text": "Flying\nWhenever you cast a spell, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -10195,7 +10195,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]\nI \u2013 Exile the top card of your library.\nII, III \u2013 Exile the top card of your library. You may play a card exiled with this Saga this turn.\n\u200b",
+            "special_text": "\nExile the top card of your library.\nExile the top card of your library. You may play a card exiled with this Saga this turn.",
             "shape": "saga",
             "set": "CLE",
             "loyalty": "",

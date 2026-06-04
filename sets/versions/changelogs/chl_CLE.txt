@@ -1,4 +1,27 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Verna the Inventive added.
+Acheaorator Zarracka added.
+
+Vernon the Inventive removed.
+Acheaorator Zarrack removed.
+
+Arch-Chancellor Zybsalim
+rules_text: Flying
+At the beginning of your second main phase, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand and repeat this process. => Flying
+Whenever you cast a spell, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand.
+
+Trickety-Tickety-Tin
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I — Exile the top card of your library.
+II, III — Exile the top card of your library. You may play a card exiled with this Saga this turn.
+​ => 
+Exile the top card of your library.
+Exile the top card of your library. You may play a card exiled with this Saga this turn.
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Comet Contemptor added.
