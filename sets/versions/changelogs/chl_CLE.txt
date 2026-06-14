@@ -1,4 +1,63 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Guardians of Old Ovonia added.
+Dracocrystal Ball added.
+Monsoon Millery added.
+Ominous Orb added.
+
+Guards of Old Ovonia removed.
+Orb of Old Shadows removed.
+Monsooon Millery removed.
+Light at Land's End removed.
+
+Promising Sunscape
+rules_text: When this land enters, sacrifice it. if you do, search your library for a basic land card, put it onto the battlefield tapped, the shuffle. Scry 1. => When this land enters, sacrifice it. if you do, search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Scry 1.
+
+Patient Bumblerog
+rules_text: Aspire — When you cast a sorcery spell, put two +1/+1 counters on this creature, [i](Each aspire ability triggers only once.)[/i] => Aspire — When you cast a sorcery spell, put two +1/+1 counters on this creature. [i](Each aspire ability triggers only once.)[/i]
+
+Gno Grows Up
+special_text: 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control. => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 2/2 green Ranger creature token.
+III — Put a +1/+1 counter on target creature with the least power among creatures you control.
+​
+
+Gabl, the Dancing Mandible
+rules_text: Double strike
+Whenever you attack with a number of creatures greater than Gabl's power, put a +1/+1 counter on Gabl. => Double strike
+Whenever you attack with a number of other creatures greater than Gabl's power, put a +1/+1 counter on Gabl.
+
+Spiralpainter Shellsworth
+rules_text: When Shellsworth enters, if you cast it from your hand, exile the top seven cards of your library. For each number from 1 to 7, you may cast a card with that mana value from among them without paying its mana cost. => When Shellsworth enters, if you cast it from your hand, reveal the top seven cards of your library. For each number from 1 to 7, you may cast a card with that mana value from among them without paying its mana cost. Put the rest into your hand.
+
+Fountain of Stars
+cost: {W} => {1}{W}
+
+Arch-Chancellor Zybsalim
+rules_text: Flying
+Whenever you cast a spell, choose a number. Mill a card. If its mana value is equal to the chosen number, return it to your hand. => Flying
+Whenever you attack, draw a card.
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+I — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+II — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+Grandpa Garoom
+rules_text: Trample
+You may play land cards you own from outside the game.
+You may play an additional land each turn. => Trample
+You may play land cards you own from outside the game.
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Verna the Inventive added.
