@@ -5,7 +5,7 @@
 			<name>ERR</name>
 			<longname>Errors in the Weft</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-01</releasedate>
+			<releasedate>2026-06-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2267,7 +2267,7 @@ Whenever this Subroutine runs, you gain 3 life if an opponent has more life than
 			<name>Buoyant Datagrazer</name>
 			<text>Flying
 When this creature enters, cache the top card of your library face down. (Exile it and create a Memory enchantment token with &quot;{2}, Sacrifice this: You may play the cached card this turn.&quot;)
-Whenever you sacrifice a Memory, draw a card.</text>
+Whenever you play a cached card, draw a card.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/197_Buoyant Datagrazer.png" num="197">ERR</set>
 			<prop>
 				<layout>normal</layout>
@@ -2468,7 +2468,7 @@ Whenever this Subroutine runs, draw two cards. Creatures your opponents control 
 		<card>
 			<name>Data Visionary</name>
 			<text>When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.
-{2}, {T}: Target Subroutine you control runs.</text>
+{2}, {T}: Target Subroutine you control runs. Activate only as a sorcery and only once.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/ERR-files/img/47_Data Visionary.png" num="47">ERR</set>
 			<prop>
 				<layout>normal</layout>

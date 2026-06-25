@@ -1,4 +1,60 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+Old Jade Watcher added.
+
+Old Jade Guardian removed.
+
+The Legendary Mica
+rules_text: When Mica enters, create The Truth Pick, a colorless legendary Equipment artifact token with “Equipped creature gets +1/+0 and has vigilance” and equip {1}.
+Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i] => When Mica enters, create The Truth Pick, a colorless legendary Equipment artifact token with “Equipped creature gets +1/+0 and has vigilance” and equip {1}.
+Aspire — When you control four or more legendary permanents with different names, put two +1/+1 counters on Mica. [i](Each aspire ability triggers only once.)[/i]
+
+Gno Grows Up
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+I, II — Create a 2/2 green Ranger creature token.
+III — Put a +1/+1 counter on target creature with the least power among creatures you control.
+​ => 
+Create a 2/2 green Ranger creature token.
+Put a +1/+1 counter on target creature with the least power among creatures you control.
+
+Arch-Chancellor Zybsalim
+
+I Can Count to Three
+special_text: [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+I — Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+II — You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i] => [i](As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)[/i]
+Draw a card.
+Surveil 2. [i](Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i]
+You may shuffle up to three target cards from your graveyard into your library. [i](You can't target this Saga.)[/i]
+
+Spectral Seeker
+rules_text: Whenever this creature deals combat damage to a player, that player discards a card.
+{6}{B}: This creature gets +2/+2 until end of turn. This ability costs {1} less for each card type among cards in your graveyard. => Whenever this creature deals combat damage to a player, that player discards a card.
+{5}{B}{B}: This creature gets +2/+2 until end of turn. This ability costs {1} less for each card type among cards in your graveyard.
+
+Remnant of the Lost Clan
+rules_text: Flying, haste
+Whenever this creature attacks, you may pay X life. If you do, draw X cards. => Flying
+{B}, Pay 1 life: Create a 4/4 blue Dragon creature token with flying.
+pt: 3/5 => 2/6
+
+Easterly, Eager to Meet You
+rules_text: When Easterly enters, create a 1/1 red Elemental creature token.
+Aspire — When you attack with creatures with six or more unique creature types among them, put two +1/+1 counters on Easterly. [i](Each aspire ability triggers only once.)[/i] => When Easterly enters, create a 1/1 red Elemental creature token.
+Aspire — When you attack with creatures with seven or more unique creature types among them, put two +1/+1 counters on Easterly. [i](Each aspire ability triggers only once.)[/i]
+
+Brew For the Weary
+type: Instant => Sorcery
+
+Amethyst Talekeeper
+rules_text: Whenever you sacrifice a nontoken Saga, create a token that's a copy of it.
+{T}: Add one mana of any color. => {T}: Add one mana of any color.
+{1}, {T}: Add or remove a lore counter from target Saga you control. Activate only as a sorcery.
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Guardians of Old Ovonia added.

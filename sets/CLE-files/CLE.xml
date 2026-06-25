@@ -5,7 +5,7 @@
 			<name>CLE</name>
 			<longname>Clearingsong</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-13</releasedate>
+			<releasedate>2026-06-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1178,9 +1178,9 @@ When this creature enters, if it was kicked, destroy up to one target artifact o
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Old Jade Guardian</name>
+			<name>Old Jade Watcher</name>
 			<text>When this creature enters, if you spent three mana of the same color to cast it, draw a card.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/240_Old Jade Guardian.png" num="240">CLE</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/240_Old Jade Watcher.png" num="240">CLE</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3498,7 +3498,7 @@ Whenever The Moon Snail deals combat damage to a player, exile up to one target 
 		<card>
 			<name>The Legendary Mica</name>
 			<text>When Mica enters, create The Truth Pick, a colorless legendary Equipment artifact token with &quot;Equipped creature gets +1/+0 and has vigilance&quot; and equip {1}.
-Aspire — When you control four or more legendary permanents, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
+Aspire — When you control four or more legendary permanents with different names, put two +1/+1 counters on Mica. (Each aspire ability triggers only once.)</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/21_The Legendary Mica.png" num="21">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4164,7 +4164,7 @@ Aspire — When there are twenty or more cards in your graveyard, put two +1/+1 
 		<card>
 			<name>Spectral Seeker</name>
 			<text>Whenever this creature deals combat damage to a player, that player discards a card.
-{6}{B}: This creature gets +2/+2 until end of turn. This ability costs {1} less for each card type among cards in your graveyard.</text>
+{5}{B}{B}: This creature gets +2/+2 until end of turn. This ability costs {1} less for each card type among cards in your graveyard.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/113_Spectral Seeker.png" num="113">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4214,8 +4214,8 @@ Aspire — When there are twenty or more cards in your graveyard, put two +1/+1 
 		</card>
 		<card>
 			<name>Remnant of the Lost Clan</name>
-			<text>Flying, haste
-Whenever this creature attacks, you may pay X life. If you do, draw X cards.</text>
+			<text>Flying
+{B}, Pay 1 life: Create a 4/4 blue Dragon creature token with flying.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/108_Remnant of the Lost Clan.png" num="108">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4226,7 +4226,7 @@ Whenever this creature attacks, you may pay X life. If you do, draw X cards.</te
 				<cmc>7</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>3/5</pt>
+				<pt>2/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4267,7 +4267,7 @@ Return target creature card from your graveyard to the battlefield. If this spel
 		<card>
 			<name>Easterly, Eager to Meet You</name>
 			<text>When Easterly enters, create a 1/1 red Elemental creature token.
-Aspire — When you attack with creatures with six or more unique creature types among them, put two +1/+1 counters on Easterly. (Each aspire ability triggers only once.)</text>
+Aspire — When you attack with creatures with seven or more unique creature types among them, put two +1/+1 counters on Easterly. (Each aspire ability triggers only once.)</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/127_Easterly, Eager to Meet You.png" num="127">CLE</set>
 			<prop>
 				<layout>normal</layout>
@@ -4429,8 +4429,8 @@ Each player may discard their hand and draw five cards.</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
 				<manacost>2RR</manacost>
 				<cmc>4</cmc>
 				<colors>R</colors>
@@ -4859,8 +4859,8 @@ Whenever one or more creatures you control with flying deal combat damage to a p
 		</card>
 		<card>
 			<name>Amethyst Talekeeper</name>
-			<text>Whenever you sacrifice a nontoken Saga, create a token that&apos;s a copy of it.
-{T}: Add one mana of any color.</text>
+			<text>{T}: Add one mana of any color.
+{1}, {T}: Add or remove a lore counter from target Saga you control. Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/CLE-files/img/162_Amethyst Talekeeper.png" num="162">CLE</set>
 			<prop>
 				<layout>normal</layout>

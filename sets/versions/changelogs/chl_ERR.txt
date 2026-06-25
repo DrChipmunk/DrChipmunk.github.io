@@ -1,4 +1,22 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+
+
+Buoyant Datagrazer
+rules_text: Flying
+When this creature enters, cache the top card of your library face down. [i](Exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i]
+Whenever you sacrifice a Memory, draw a card. => Flying
+When this creature enters, cache the top card of your library face down. [i](Exile it and create a Memory enchantment token with “{2}, Sacrifice this: You may play the cached card this turn.”)[/i]
+Whenever you play a cached card, draw a card.
+
+Data Visionary
+rules_text: When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.
+{2}, {T}: Target Subroutine you control runs. => When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.
+{2}, {T}: Target Subroutine you control runs. Activate only as a sorcery and only once.
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Data Visionary added.

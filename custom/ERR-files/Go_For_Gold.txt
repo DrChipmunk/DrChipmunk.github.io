@@ -155,3 +155,16 @@ Elo update (note that there was a change to the Elo calculations in this GP. Sta
 8 (+2): rickyrister | 1587 (+24)
 9 (-6): provocative | 1584 (-16)
 10 (-1): 7nix | 1573 (-4)
+
+<b>GP Volwood</b>
+It was a quiet month in the world of custom Magic, with many prominent members of the community on vacation. Still, there were 17 players trying their hand for the second GP of the IWH-TWI season. 
+
+The talk of the format going into the GP was Naya Concord. Combining the artifact-and-enchantment payoffs of both SOL and IWH, some variant of this deck claimed the majority of the League wins going into the GP, both in more aggressive variants with Advance of the Sainted March and Hope's Trail Ranger and in more value-oriented versions using Qaraz Monument. Tremor and Tyabely both managed to make top cut with their variant of the deck. Especial congratulations to Tyabely for making top cut in their first-ever GP.
+
+Tyabely and Tremor were both taken out of top cut by Silverparabellum on a four-color control deck deliberately built to exploit the Harvesttide decks. Eltanaan, Ayeshi Breaks the Loop, and Path's End are all sweepers that hit artifacts and enchantments, giving the control deck an answer to the naya deck's difficult-to-stop boards. Silver's old mainstay of Iviana served as the finisher.
+
+Lots of players were bringing their pet cards, novel brews, and underexplored favourites to this GP. There were multiple variants of UR spells, red ramp, black aggro, and more. Viola.exe, for instance, managed top cut with a Jund Golden Age deck, using Melodious Mallard to ramp into a variety of haymaker 4 mana spells. The format had a lighter air without some of its top grinders.
+
+Aggro was also well-represented. Magmadragon was on a tempoish blue-black deck that combined the resilient Vardo's Scalpel - Bleed for the Cause package with Scrapyard Mecha, an engine piece that hasn't shown itself in a while. Kumrac, having swapped from a golgari midrange specialist to a mono-red aggro specialist as of late, got all the way to finals with a list featuring the format's most consistent red threats and interaction. There they faced off against Silverparabellum, and managed to get under their sweepers in two short games, securing the tournament and the worlds invite.
+
+Elo update

@@ -2280,8 +2280,8 @@
             "number": 197,
             "color_identity": "UG",
             "cost": "{G}{U}",
-            "rules_text": "Flying\nWhen this creature enters, cache the top card of your library face down. [i](Exile it and create a Memory enchantment token with \u201c{2}, Sacrifice this: You may play the cached card this turn.\u201d)[/i]\nWhenever you sacrifice a Memory, draw a card.",
-            "flavor_text": "[i]The daemons remember what users have forgotten.[/i]",
+            "rules_text": "Flying\nWhen this creature enters, cache the top card of your library face down. [i](Exile it and create a Memory enchantment token with \u201c{2}, Sacrifice this: You may play the cached card this turn.\u201d)[/i]\nWhenever you play a cached card, draw a card.",
+            "flavor_text": "[i]Daemons remember what users forget.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -2478,7 +2478,7 @@
             "number": 47,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.\n{2}, {T}: Target Subroutine you control runs.",
+            "rules_text": "When this creature enters, look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom in a random order.\n{2}, {T}: Target Subroutine you control runs. Activate only as a sorcery and only once.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -5711,5 +5711,5 @@
             "notes": "!!exportname OVERFLOW() ERR\n!\nart5"
         }
     ],
-    "version": 10
+    "version": 11
 }

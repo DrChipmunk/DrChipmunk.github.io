@@ -661,13 +661,13 @@
 			}
 		},
 		{
-			"name": "Old Jade Guardian",
+			"name": "Old Jade Watcher",
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Construct",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/240_Old Jade Guardian.png"
+				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/240_Old Jade Watcher.png"
 			}
 		},
 		{
@@ -2554,7 +2554,7 @@
 			"name": "Brew For the Weary",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "123",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/CLE-files/img/123_Brew For the Weary.png"
@@ -3089,7 +3089,7 @@
 	5 Heavy Burden
 	5 Ornery Wagonbeard
 	5 Defender of the Patch
-	5 Old Jade Guardian
+	5 Old Jade Watcher
 	5 Friendly Fisher
 	5 Sparkling Staff
 	5 Everglass
