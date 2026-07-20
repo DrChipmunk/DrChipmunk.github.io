@@ -1,4 +1,262 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Disgraced Chemist added.
+Teacher of Epitaphs added.
+Glimpsed added.
+
+Disgraced Apothecary removed.
+Tutor of Epitaphs removed.
+Seen In Visions removed.
+
+Full-Service Staff
+rules_text: Vision {1}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, create a 1/1 colorless Toy artifact creature token. => Glimpse {1}{W} [i](You may cast this spell as though it had flash for {1}{W}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, create a 1/1 colorless Toy artifact creature token.
+
+Winslip Vanguard
+rules_text: Vision {W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature gets +2/+2 until end of turn. => Glimpse {W} [i](You may cast this spell as though it had flash for {W}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature gets +2/+2 until end of turn.
+
+Loose Balloonist
+rules_text: Vision {U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, target creature gets -3/-0 until end of turn. => Glimpse {U} [i](You may cast this spell as though it had flash for {U}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, target creature gets -3/-0 until end of turn.
+
+Affordable Astrologer
+rules_text: Vision {2}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, draw a card. => Glimpse {2}{U} [i](You may cast this spell as though it had flash for {2}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, draw a card.
+
+Serpentine Deacon
+rules_text: Vision {1}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, tap up to one target creature and put a stun counter on it. => Glimpse {1}{U} [i](You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, tap up to one target creature and put a stun counter on it.
+
+Morbid Literati
+rules_text: Vision {1}{B} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard. => Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard.
+
+Velvet Glove Assassin
+rules_text: Vision {B} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, put a menace counter on target creature you control. => Glimpse {B} [i](You may cast this spell as though it had flash for {B}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, put a menace counter on target creature you control.
+
+Manic Scrivener
+type: Creature — Human Shaman => Creature — Human Wizard
+
+Crazed Arsonist
+type: Creature — Elf Shaman => Creature — Elf Rogue
+rules_text: Vision {R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Trample
+When this creature enters, target creature can't block this turn. => Glimpse {R} [i](You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without vision later.)[/i]
+Trample
+When this creature enters, target creature can't block this turn.
+
+Star-Touched Ripper
+rules_text: Vision {1}{R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature gets +2/+0 and gains haste until end of turn. => Glimpse {1}{R} [i](You may cast this spell as though it had flash for {1}{R}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature gets +2/+0 and gains haste until end of turn.
+
+Scandalize
+rules_text: This spell deals X plus one damage to target creature. => Scandalize deals X plus 1 damage to target creature.
+
+Lavish Host
+rules_text: Vision {1}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, put a +1/+1 counter on target creature. => Glimpse {1}{G} [i](You may cast this spell as though it had flash for {1}{G}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, put a +1/+1 counter on target creature.
+
+Retired Hallowblade
+rules_text: Vision {1}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Trample
+When this creature enters, you gain 3 life. => Glimpse {1}{G} [i](You may cast this spell as though it had flash for {1}{G}. When it enters, exile it. You may cast it without vision later.)[/i]
+Trample
+When this creature enters, you gain 3 life.
+
+Scion's Substitute
+rules_text: Vision {2} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, draw a card, then discard a card. => Glimpse {2} [i](You may cast this spell as though it had flash for {2}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, draw a card, then discard a card.
+
+Gracious Moonchosen
+pt: 2/3 => 2/2
+
+Skeletal Effigy
+rules_text: When this artifact enters, put two +1/+1 counters and a menace counter on target creature you control.
+{T}, Pay 1 life: Draw a card. Activate only if you put a counter on a creature this turn. => When this artifact enters, put two +1/+1 counters on target creature you control.
+{T}, Pay 1 life: Draw a card. Activate only if you put a counter on a creature this turn.
+
+Hermit of Curatives
+rules_text: Vision {1}{G}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, you may return another creature you control to its owner's hand. If you do, draw a card. => Glimpse {1}{G}{U} [i](You may cast this spell as though it had flash for {1}{G}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, you may return another creature you control to its owner's hand. If you do, draw a card.
+
+Temperance Deaconess
+pt: 2/3 => 3/2
+
+Paranoid Heiress
+rules_text: Vision {2}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, prevent all damage that would be dealt this turn by sources your opponents control. => Glimpse {2}{W} [i](You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, prevent all damage that would be dealt this turn by sources your opponents control.
+
+Silent Speaker
+rules_text: Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]
+This spell has flash if the gift was promised.
+Each player can't cast more than one spell each turn. => Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]
+This spell has flash if the gift was promised.
+Each player can't cast more than one noncreature spell each turn.
+
+Kindly Rewinder
+rules_text: Vision {1}{B} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, return target creature card with mana value 3 or less from your graveyard to your hand. => Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, return target creature card with mana value 3 or less from your graveyard to your hand.
+
+Automated Confessor
+rules_text: Vision {1}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, exile up to one other target creature. Return it to the battlefield under its owner's control at the beginning of the next end step. => Glimpse {1}{U} [i](You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, exile up to one other target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+
+Inexplicable Illness
+rules_text: Enchant nonland permanent
+When this enchantment enters, if enchanted permanent is red or green, tap it.
+Enchanted permanent can't become untapped. If it's red or green, it loses all abilities. => Enchant creature.
+When this enchantment enters, if enchanted creature is red or green, tap it.
+Enchanted creature can't become untapped. If it's red or green, it loses all abilities.
+
+College of Symmetries Tutor
+rules_text: Vision {2}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature leaves the battlefield, return up to one target creature to its owner's hand. => Glimpse {2}{U} [i](You may cast this spell as though it had flash for {2}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature leaves the battlefield, return up to one target creature to its owner's hand.
+
+Overwhelm with Insight
+rules_text: Target creature gets -X/-X until end of turn, where X is the number of instant and sorcery cards in your graveyard.
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i] => Choose one —
+• Target creature gets -X/-X until end of turn, where X is the number of instant and sorcery cards in your graveyard.
+• You draw a card and you lose 1 life.
+
+Bleeding Savior
+rules_text: Vision {3}{R}{R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, it deals 4 damage to target creature or planeswalker an opponent controls. => Glimpse {3}{R}{R} [i](You may cast this spell as though it had flash for {3}{R}{R}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+When this creature enters, it deals 4 damage to target creature or planeswalker an opponent controls.
+
+Crystal Spires Huntress
+rules_text: Whenever another creature you control with base power 2 enters, you may pay {X}. If you do, put X +1/+1 counters on that creature. => Whenever another creature you control with base power 2 enters, you may pay {2}. If you do, put 2 +1/+1 counters on that creature.
+
+Canal Conglomeration
+rules_text: Vision {X}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, put X +1/+1 counters on target untapped creature. => Glimpse {X}{G} [i](You may cast this spell as though it had flash for {X}{G}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, put X +1/+1 counters on target untapped creature.
+
+Pocket Armillary
+rules_text: {T}: Exile target card from a graveyard.
+Cycling {3} [i]({3}, Discard this card: Draw a card.)[/i] => {T}: Exile target card from a graveyard.
+
+Porcelain Outcast
+rules_text: Vision {7} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, if it was cast for its vision cost, destroy target nonland permanent. => Glimpse {7} [i](You may cast this spell as though it had flash for {7}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, if it was cast for its vision cost, destroy target nonland permanent.
+
+Sackcloth Companion
+
+Limor, Etiquette Enforcer
+rules_text: When Limor enters, put a deathtouch counter on target creature.
+Whenever another face-up creature you control with one or more counters on it dies, veil the top card of your library, then put those counters on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => When Limor enters, put a +1/+1 counter on target creature.
+Whenever another nontoken creature you control with one or more counters on it dies, you may pay {1}. If you do, create a 1/1 colorless Toy artifact creature token, then put those counters on it.
+pt: 1/3 => 2/1
+
+Arden, Thief of Futures
+rules_text: Whenever a creature you control deals combat damage to a player, draw a card.
+If you would draw a card, exile the top card of an opponent's library face down instead. You may look at and play that card for as long as it remains exiled, and may spend mana as though it were mana of any color to cast it. => Menace
+Whenever a creature you control deals combat damage to a player, draw a card.
+If you would draw a card, exile the top card of an opponent's library face down instead. You may look at and play that card for as long as it remains exiled, and may spend mana as though it were mana of any color to cast it.
+pt: 4/3 => 3/3
+
+Selthriel, Chained Seraph
+rules_text: Vision {W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying, vigilance
+Tap two untapped creatures you control: Tap target creature. => Glimpse {W} [i](You may cast this spell as though it had flash for {W}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying, vigilance
+Tap two untapped creatures you control: Tap target creature.
+
+Brimtouched Chaplain
+rules_text: Vision {2}{B} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, return target creature card with mana value 2 or less from your graveyard to the battlefield. => Glimpse {2}{B} [i](You may cast this spell as though it had flash for {2}{B}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, return target creature card with mana value 2 or less from your graveyard to the battlefield.
+
+Disgorger of Suns
+rules_text: Vision {U}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Whenever you cast an instant spell, copy it. You may choose new targets for the copy. => Glimpse {U}{U} [i](You may cast this spell as though it had flash for {U}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+Whenever you cast an instant spell, copy it. You may choose new targets for the copy.
+
+Oraculous Expatriate
+rules_text: Vision {1}{R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, exile your hand and the top two cards of your library. You may play cards exiled this way until this end of your next turn. => Glimpse {1}{R} [i](You may cast this spell as though it had flash for {1}{R}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, exile your hand and the top two cards of your library. You may play cards exiled this way until this end of your next turn.
+
+Nightmarish Judge
+rules_text: Vision {B} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+{1}, Sacrifice another creature: Draw a card. Put a +1/+1 counter on this creature. => Glimpse {B} [i](You may cast this spell as though it had flash for {B}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+{1}, Sacrifice another creature: Draw a card. Put a +1/+1 counter on this creature.
+
+Highborn Dragoness
+rules_text: Vision {R} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+{1}{R}: This creature deals 2 damage to target creature. Activate only if this creature entered or attacked this turn. => Glimpse {R} [i](You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without vision later.)[/i]
+Flying
+{1}{R}: This creature deals 2 damage to target creature. Activate only if this creature entered or attacked this turn.
+
+The Scarlet Lady
+rules_text: When The Scarlet Lady enters, create a tapped Treasure token.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, you may sacrifice The Scarlet Lady. If you do, create a 3/2 black Horror creature token with menace. => When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled. Create a tapped Treasure token.
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady is a 5/4 Horror with menace.
+
+Velvet Glove Exile
+rules_text: Vision {3}{W} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, creatures you control gain “Whenever this creature is dealt damage, it deals that much damage to target player.” until end of turn. => Glimpse {3}{W} [i](You may cast this spell as though it had flash for {3}{W}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, creatures you control gain “Whenever this creature is dealt damage, it deals that much damage to target player.” until end of turn.
+
+Silk-String Marionette
+rules_text: Vision {1}{G} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+Reach, trample
+Discard a card: Another target creature gains hexproof and indestructible until end of turn. => Glimpse {1}{G} [i](You may cast this spell as though it had flash for {1}{G}. When it enters, exile it. You may cast it without vision later.)[/i]
+Reach, trample
+Discard a card: Another target creature gains hexproof and indestructible until end of turn.
+
+Sensible Summoning
+rules_text: Target opponent chooses a creature type. Search your library for a creature card with mana value X or less that isn't the chosen type, put it onto the battlefield, then shuffle. => Search your library for two creature cards with different names each with mana value X, exile them, then shuffle. If you exiled two cards this way, an opponent chooses one of them. Put the chosen card onto the battlefield.
+
+Rubbery Recluse
+rules_text: Vision {2}{U} [i](You may cast this spell as though it had flash for its vision cost. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature has base power and toughness 5/5 and gains “Whenever this creature deals combat damage to a player, draw a card.” until end of turn. => Glimpse {2}{U} [i](You may cast this spell as though it had flash for {2}{U}. When it enters, exile it. You may cast it without vision later.)[/i]
+When this creature enters, target creature has base power and toughness 5/5 and gains “Whenever this creature deals combat damage to a player, draw a card.” until end of turn.
+
+Celebrated Violist
+rules_text: When this creature enters, create The Second Fiddle, a legendary colorless artifact token with “{1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.”
+Whenever another creature you control dies, mill cards equal to the number of counters on it. Return a creature card milled this way to your hand. => When this creature enters, create The Second Fiddle, a legendary colorless artifact token with “{1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.”
+Creatures you control with counters on them have trample.
+
+Generous Reveler
+rules_text: Trample
+When this creature enters, you may have target opponent gain control of another target permanent you control. If you do, draw a card and put X +1/+1 counters on this creature, where X is that permanent's mana value. => When this creature enters, choose one — 
+• Target opponent gains control of target permanent you control.
+• Draw two cards, then discard two cards.
+pt: 2/2 => 3/2
+
+Revisionist Historian
+rules_text: Creature cards in your hand have vision {W}{U}{B}{R}{G}. [i](You may cast them as though they had flash for {W}{U}{B}{R}{G}. Exile them when they enter. You may cast them from exile on a later turn.)[/i] => Creature cards in your hand have glimpse {W}{U}{B}{R}{G}. [i](You may cast them as though they had flash for {W}{U}{B}{R}{G}. Exile them when they enter. You may cast them from exile on a later turn.)[/i]
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Minor Apparition added.

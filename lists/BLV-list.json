@@ -376,7 +376,7 @@
         "position": ""
     },
     {
-        "card_name": "Tutor of Epitaphs",
+        "card_name": "Teacher of Epitaphs",
         "number": 109,
         "shape": "normal",
         "set": "BLV",
@@ -512,7 +512,7 @@
         "position": ""
     },
     {
-        "card_name": "Disgraced Apothecary",
+        "card_name": "Disgraced Chemist",
         "number": 163,
         "shape": "normal",
         "set": "BLV",
@@ -2340,7 +2340,7 @@
     },
     {
         "card_name": "Island",
-        "number": 273,
+        "number": 274,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -2348,7 +2348,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 275,
+        "number": 277,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -2364,7 +2364,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 274,
+        "number": 276,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -2372,11 +2372,36 @@
     },
     {
         "card_name": "Forest",
-        "number": 276,
+        "number": 278,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "Plains",
+        "number": 273,
+        "shape": "normal",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Island",
+        "number": 275,
+        "shape": "normal",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"
@@ -2392,7 +2417,7 @@
     },
     "a->token",
     {
-        "card_name": "Seen In Visions",
+        "card_name": "Glimpsed",
         "number": 1,
         "shape": "token",
         "set": "BLV",

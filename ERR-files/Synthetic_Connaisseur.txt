@@ -66,7 +66,7 @@ Take periods, but
 
 does not.
 
-Triggered abilities begin (or occasionally contain) "When", "Whenever", or "At"; they put an object on the stack, and they can target and be responded to. Replacement effects have no standardized template, but they never contain those three words. Replacement effects don't use the stack; they modify an action as it happens. Replacement efects cannot target. So you can't write
+Triggered abilities begin (or occasionally contain) "When", "Whenever", or "At"; they put an object on the stack, and they can target and be responded to. Replacement effects have no standardized template, but they never contain those three words. Replacement effects don't use the stack; they modify an action as it happens. Replacement effects cannot target. So you can't write
 
 &emsp;&emsp;*As you cast this spell, exile target permanent.
 

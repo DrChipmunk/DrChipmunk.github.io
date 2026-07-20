@@ -474,7 +474,7 @@
 			"name": "Manic Scrivener",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — Human Shaman",
+			"type": "Creature — Human Wizard",
 			"collector_number": "135",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/135_Manic Scrivener.png"
@@ -524,7 +524,7 @@
 			"name": "Crazed Arsonist",
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
-			"type": "Creature — Elf Shaman",
+			"type": "Creature — Elf Rogue",
 			"collector_number": "124",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/124_Crazed Arsonist.png"
@@ -1671,13 +1671,13 @@
 			}
 		},
 		{
-			"name": "Disgraced Apothecary",
+			"name": "Disgraced Chemist",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Druid",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/163_Disgraced Apothecary.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/163_Disgraced Chemist.png"
 			}
 		},
 		{
@@ -2191,13 +2191,13 @@
 			}
 		},
 		{
-			"name": "Tutor of Epitaphs",
+			"name": "Teacher of Epitaphs",
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Warlock",
 			"collector_number": "109",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/109_Tutor of Epitaphs.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/109_Teacher of Epitaphs.png"
 			}
 		},
 		{
@@ -2601,13 +2601,13 @@
 			}
 		},
 		{
-			"name": "Seen In Visions",
+			"name": "Glimpsed",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/1t_Seen In Visions.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/1t_Glimpsed.png"
 			}
 		},
 		{
@@ -2615,9 +2615,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "273",
+			"collector_number": "274",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/273_Island.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/274_Island.png"
 			}
 		},
 		{
@@ -2625,9 +2625,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "275",
+			"collector_number": "277",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/275_Mountain.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/277_Mountain.png"
 			}
 		},
 		{
@@ -2795,9 +2795,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "274",
+			"collector_number": "276",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/274_Swamp.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/276_Swamp.png"
 			}
 		},
 		{
@@ -2805,9 +2805,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "276",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/276_Forest.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/278_Forest.png"
 			}
 		},
 		{
@@ -2869,6 +2869,26 @@
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/5t_Can Be Played From Exile.png"
 			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "273",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/273_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "275",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/275_Island.png"
+			}
 		}
 	]
 
@@ -2903,7 +2923,7 @@
 	5 Lucid Drifter
 	5 Shade of Impending Doom
 	5 Nightmarish Judge
-	5 Tutor of Epitaphs
+	5 Teacher of Epitaphs
 	5 Phrenologist's Refrain
 	5 Penitent Poacher
 	5 Bianco, Midnight's Host
@@ -3030,7 +3050,7 @@
 	5 Malicious Locomotive
 	5 Star-Crossed Pair
 	5 Break the Mirror
-	5 Disgraced Apothecary
+	5 Disgraced Chemist
 	5 Name Your Price
 	5 Ghoul of Whit Street
 	5 Second Chair Drowned

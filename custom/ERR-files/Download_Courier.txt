@@ -1,0 +1,25 @@
+DrChipmunk's Various Projects and Resources
+
+<b>Taxonomy of Magic the Gathering Mechanics</b>
+https://docs.google.com/document/d/1zBMvmzgxIKdDxtRntJQrr8-GYAIJICIU7SHsspWp3sI/edit?tab=t.0
+A list of every named mechanic in Magic the Gathering, sorted by mechanical implementation
+
+<b>Taxonomy of Custom Magic the Gathering Mechanics</b>
+https://docs.google.com/document/d/1iVElp11MGaKsqZ3hTQPy-bAQsZ-RDOwV-Cn1ciKkFHo/edit?tab=t.0
+Same thing, but also including mechanics from REV and MSEM custom formats
+
+<b>Hill Giants Results Table</b>
+https://docs.google.com/document/d/1PPualvP4VaQ0ZxTROkNj40pueAJ4ovlcaM3qC-gBC_I/edit?tab=t.0
+A record of every match and result from Cool Beens' Hill Giants design event
+
+<b>A Numbers-Based Guide to the LR Grading Scale</b>
+https://docs.google.com/document/d/1bLXnKZMuant49H6VXIKhzTtaM_JnD2VglEbAsrQ8bfM/edit?tab=t.0
+An introduction to the scale used by limited players to talk about card power level
+
+<b>Escape From Limbo</b>
+https://escapefromlimbo.github.io/
+Scryfall-like database for the Revolution Custom Standard format 
+
+<b>The DrChipmunk YouTube channel</b>
+https://www.youtube.com/@dangermunkdelta
+Home of regular coverage of Revolution Custom Standard

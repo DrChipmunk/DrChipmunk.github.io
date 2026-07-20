@@ -1,6 +1,6 @@
 The Karsten Numbers
 
-Frank Karsten is a pro player for ChannelFireball and excellent data scientist. He has written many important articles on Magic data and strategy, some of which are now unfortunately lost. Seek out his articles for details on his methodology and assumptions. This articles provides a basic cheat sheet for the his most useful findings.
+Frank Karsten is a pro player for ChannelFireball and excellent data scientist. He has written many important articles on Magic data and strategy, some of which are now unfortunately lost. Seek out his articles for details on his methodology and assumptions. This articles provides a basic cheat sheet for his most useful findings.
 
 <b>How many lands should you play in your 60-card deck?</b>
 
@@ -28,7 +28,7 @@ These numbers are most helpful for the building of midrange decks (i.e. all draf
 
 <b>How many sources of each color do you need?</b>
 
-A vital question for the construction of manabases. Karsten's math is based on a goal of 90+% consistency in having your spells castable. More sources, if you can get them are always better.
+A vital question for the construction of manabases. Karsten's math is based on a goal of 90+% consistency in having your spells castable. More sources, if you can get them, are always better.
 
 In this chart, M represents a colored mana symbol, so Grizzly Bears is a 1M card.
 
