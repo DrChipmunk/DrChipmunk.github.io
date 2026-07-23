@@ -9,7 +9,7 @@
     },
     {
         "card_name": "Lucid Drifter",
-        "number": 61,
+        "number": 62,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -17,7 +17,7 @@
     },
     {
         "card_name": "The Sound of Chimes",
-        "number": 106,
+        "number": 108,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -49,7 +49,7 @@
     },
     {
         "card_name": "Nue, the Artful Word",
-        "number": 64,
+        "number": 65,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Bianco, Midnight's Host",
-        "number": 80,
+        "number": 82,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "Intruding Thought",
-        "number": 89,
+        "number": 91,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -177,7 +177,7 @@
     },
     {
         "card_name": "Nightmarish Judge",
-        "number": 95,
+        "number": 96,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -209,7 +209,7 @@
     },
     {
         "card_name": "Half-Fae Scion",
-        "number": 55,
+        "number": 56,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -217,7 +217,7 @@
     },
     {
         "card_name": "Payment Comes Due",
-        "number": 98,
+        "number": 99,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -249,7 +249,7 @@
     },
     {
         "card_name": "Mr. Hours, Pseudarchivist",
-        "number": 63,
+        "number": 64,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -257,7 +257,7 @@
     },
     {
         "card_name": "Penitent Poacher",
-        "number": 99,
+        "number": 100,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -289,7 +289,7 @@
     },
     {
         "card_name": "Oraculous Expatriate",
-        "number": 66,
+        "number": 67,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Phrenologist's Refrain",
-        "number": 100,
+        "number": 101,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -329,7 +329,7 @@
     },
     {
         "card_name": "Perfected Soloist",
-        "number": 68,
+        "number": 69,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -337,7 +337,7 @@
     },
     {
         "card_name": "Shade of Impending Doom",
-        "number": 105,
+        "number": 107,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -369,7 +369,7 @@
     },
     {
         "card_name": "Uninvited Guests",
-        "number": 76,
+        "number": 77,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -377,7 +377,7 @@
     },
     {
         "card_name": "Teacher of Epitaphs",
-        "number": 109,
+        "number": 111,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -417,7 +417,7 @@
     },
     {
         "card_name": "Black Iris Visitation",
-        "number": 81,
+        "number": 83,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -457,7 +457,7 @@
     },
     {
         "card_name": "Father of Ransoms",
-        "number": 85,
+        "number": 88,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -497,7 +497,7 @@
     },
     {
         "card_name": "Grim Temptation",
-        "number": 87,
+        "number": 89,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -537,7 +537,7 @@
     },
     {
         "card_name": "Initiation Into Fear",
-        "number": 88,
+        "number": 90,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -577,7 +577,7 @@
     },
     {
         "card_name": "Kindly Rewinder",
-        "number": 90,
+        "number": 92,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -617,7 +617,7 @@
     },
     {
         "card_name": "Maverick Medicalist",
-        "number": 92,
+        "number": 93,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -657,7 +657,7 @@
     },
     {
         "card_name": "Mire Maiden's Request",
-        "number": 93,
+        "number": 94,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "One Terrible Night",
-        "number": 96,
+        "number": 97,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -729,7 +729,7 @@
     },
     {
         "card_name": "Impossible Apparatus",
-        "number": 56,
+        "number": 57,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -737,7 +737,7 @@
     },
     {
         "card_name": "Overwhelm with Insight",
-        "number": 97,
+        "number": 98,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -769,7 +769,7 @@
     },
     {
         "card_name": "Inexplicable Illness",
-        "number": 57,
+        "number": 58,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Scholar of Parasites",
-        "number": 103,
+        "number": 105,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -809,7 +809,7 @@
     },
     {
         "card_name": "Let Them Down Easy",
-        "number": 58,
+        "number": 59,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -817,7 +817,7 @@
     },
     {
         "card_name": "Servant of Ravens",
-        "number": 104,
+        "number": 106,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -849,7 +849,7 @@
     },
     {
         "card_name": "Persitent Haunting",
-        "number": 69,
+        "number": 70,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -857,7 +857,7 @@
     },
     {
         "card_name": "Spirit's Advocate",
-        "number": 107,
+        "number": 109,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -889,7 +889,7 @@
     },
     {
         "card_name": "Reflection's Replacement",
-        "number": 71,
+        "number": 72,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -897,7 +897,7 @@
     },
     {
         "card_name": "Sweet Sorrow",
-        "number": 108,
+        "number": 110,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -929,7 +929,7 @@
     },
     {
         "card_name": "Triplicate Trance",
-        "number": 75,
+        "number": 76,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -937,7 +937,7 @@
     },
     {
         "card_name": "Undertaker's Cudgel",
-        "number": 112,
+        "number": 113,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -976,7 +976,7 @@
         "position": ""
     },
     {
-        "card_name": "Beckoning Bard",
+        "card_name": "\nFly By Midnight",
         "number": 79,
         "shape": "normal",
         "set": "BLV",
@@ -1016,8 +1016,8 @@
         "position": ""
     },
     {
-        "card_name": "Dance with Death",
-        "number": 82,
+        "card_name": "\nUnexpected Fangs",
+        "number": 80,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1056,8 +1056,8 @@
         "position": ""
     },
     {
-        "card_name": "Duress",
-        "number": 83,
+        "card_name": "Beckoning Bard",
+        "number": 81,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1088,7 +1088,7 @@
         "position": ""
     },
     {
-        "card_name": "Fickle Fortune",
+        "card_name": "Envision",
         "number": 54,
         "shape": "normal",
         "set": "BLV",
@@ -1096,7 +1096,7 @@
         "position": ""
     },
     {
-        "card_name": "Expire",
+        "card_name": "Dance with Death",
         "number": 84,
         "shape": "normal",
         "set": "BLV",
@@ -1128,16 +1128,16 @@
         "position": ""
     },
     {
-        "card_name": "Liminal Visitor",
-        "number": 59,
+        "card_name": "Fickle Fortune",
+        "number": 55,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Fly By Midnight",
-        "number": 86,
+        "card_name": "Discarded Mannequin",
+        "number": 85,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1168,7 +1168,7 @@
         "position": ""
     },
     {
-        "card_name": "Loose Balloonist",
+        "card_name": "Liminal Visitor",
         "number": 60,
         "shape": "normal",
         "set": "BLV",
@@ -1176,8 +1176,8 @@
         "position": ""
     },
     {
-        "card_name": "Macabre Insight",
-        "number": 91,
+        "card_name": "Duress",
+        "number": 86,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1208,16 +1208,16 @@
         "position": ""
     },
     {
-        "card_name": "Mirror-Marcher",
-        "number": 62,
+        "card_name": "Loose Balloonist",
+        "number": 61,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Morbid Literati",
-        "number": 94,
+        "card_name": "Expire",
+        "number": 87,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1248,16 +1248,16 @@
         "position": ""
     },
     {
-        "card_name": "Occult Investigator",
-        "number": 65,
+        "card_name": "Mirror-Marcher",
+        "number": 63,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Rite of the Rose",
-        "number": 101,
+        "card_name": "Morbid Literati",
+        "number": 95,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1288,15 +1288,15 @@
         "position": ""
     },
     {
-        "card_name": "The Past Beckons",
-        "number": 67,
+        "card_name": "Occult Investigator",
+        "number": 66,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Scathing Critique",
+        "card_name": "Read the Bones",
         "number": 102,
         "shape": "normal",
         "set": "BLV",
@@ -1328,16 +1328,16 @@
         "position": ""
     },
     {
-        "card_name": "Rain of Revelation",
-        "number": 70,
+        "card_name": "The Past Beckons",
+        "number": 68,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Uncanny Chef",
-        "number": 110,
+        "card_name": "Rite of the Rose",
+        "number": 103,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1368,16 +1368,16 @@
         "position": ""
     },
     {
-        "card_name": "Serpentine Deacon",
-        "number": 72,
+        "card_name": "Possessed Ingenue",
+        "number": 71,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Undertaker's Collector",
-        "number": 111,
+        "card_name": "Scathing Critique",
+        "number": 104,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1408,7 +1408,7 @@
         "position": ""
     },
     {
-        "card_name": "Stay Smiling",
+        "card_name": "Serpentine Deacon",
         "number": 73,
         "shape": "normal",
         "set": "BLV",
@@ -1416,8 +1416,8 @@
         "position": ""
     },
     {
-        "card_name": "Undying Beggar",
-        "number": 113,
+        "card_name": "Uncanny Chef",
+        "number": 112,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1448,7 +1448,7 @@
         "position": ""
     },
     {
-        "card_name": "Sunken Study",
+        "card_name": "Stay Smiling",
         "number": 74,
         "shape": "normal",
         "set": "BLV",
@@ -1456,7 +1456,7 @@
         "position": ""
     },
     {
-        "card_name": "Unexpected Fangs",
+        "card_name": "Undertaker's Experiment",
         "number": 114,
         "shape": "normal",
         "set": "BLV",
@@ -1488,15 +1488,15 @@
         "position": ""
     },
     {
-        "card_name": "Unlikely Fling",
-        "number": 77,
+        "card_name": "Sunken Study",
+        "number": 75,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Unloved Mannequin",
+        "card_name": "Undying Beggar",
         "number": 115,
         "shape": "normal",
         "set": "BLV",
@@ -1528,7 +1528,7 @@
         "position": ""
     },
     {
-        "card_name": "Well-Bred Vampire",
+        "card_name": "Unlikely Fling",
         "number": 78,
         "shape": "normal",
         "set": "BLV",
@@ -1536,7 +1536,7 @@
         "position": ""
     },
     {
-        "card_name": "Velvet Glove Assassin",
+        "card_name": "Velvet Glove Initiate",
         "number": 116,
         "shape": "normal",
         "set": "BLV",
@@ -2379,7 +2379,7 @@
         "position": ""
     },
     {
-        "card_name": "Plains",
+        "card_name": "Plains (gemstone)",
         "number": 273,
         "shape": "normal",
         "set": "BLV",
@@ -2387,7 +2387,7 @@
         "position": ""
     },
     {
-        "card_name": "Island",
+        "card_name": "Island (gemstone)",
         "number": 275,
         "shape": "normal",
         "set": "BLV",
