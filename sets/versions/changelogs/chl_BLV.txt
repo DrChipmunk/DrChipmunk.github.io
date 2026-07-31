@@ -1,4 +1,237 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Temperance Exemplar added.
+
+Scintillating Draught added.
+Perplexing Plinth added.
+Red Hot Rictus added.
+Couture Campaign added.
+Hopeless Void added.
+Soaring Soloist added.
+Forboded Haunt added.
+Half-Forgotten Memory added.
+Convulse added.
+Wistful Hollow added.
+Scholar of Dualities added.
+Grim Prioritization added.
+Fearful Initiate added.
+Joyful Aria added.
+Shopping Spree added.
+Searing Spear added.
+Cogwork Librarian added.
+
+Postmaster Specific removed.
+
+Unexpected Fangs removed.
+Anonymous Assistance removed.
+Lost Sun's Reach removed.
+A Dance Not To Be Missed removed.
+Exorcise removed.
+Soaring Pirouette removed.
+Persitent Haunting removed.
+Inexplicable Illness removed.
+Overwhelm with Insight removed.
+Heed Love's Call removed.
+Scholar of Parasites removed.
+Grim Temptation removed.
+Initiation Into Fear removed.
+Joyful Conflagrationist removed.
+Name Your Price removed.
+Slayer's Calling removed.
+Usher of the All-Play removed.
+
+Mirror-Marcher
+cost: {1}{U} => {2}{U}
+pt: 2/1 => 3/2
+
+Undying Beggar
+
+Undertaker's Experiment
+rules_text: Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, target creature you control gets +2/+0 until end of turn. Put a deathtouch counter on it. => Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put a deathtouch counter on target creature.
+
+Expire
+rules_text: Exile target creature. => Exile target creature. Scry 1.
+
+Scathing Critique
+cost: {2}{B} => {1}{B}
+rules_text: This spell costs {2} less to cast if you control a creature with a counter on it.
+Destroy target creature with mana value 4 or less. => As an additional cost to cast this spell, pay {3} or remove a counter from a creature you control.
+Destroy target creature.
+
+Dance with Death
+type: Instant => Sorcery
+cost: {1}{B} => {B}
+rules_text: Target creature gets -2/-2 until end of turn.
+If you've cast another spell this turn, scry 1. => Target creature gets -2/-2 until end of turn. If you've cast another spell this turn, it gets -3/-3 until end of turn instead.
+
+Novice Bloodsucker
+rules_text: Haste
+When this creature dies, exile the top card of your library. You may play it until your next end step. => Haste
+When this creature dies, exile the top card of your library. You may play it until the end of your next turn.
+
+Unwoven Seamstress
+cost: {3}{R} => {2}{R}
+pt: 4/3 => 4/2
+
+Crazed Arsonist
+cost: {5}{R} => {4}{R}
+pt: 6/4 => 5/4
+
+Star-Touched Ripper
+cost: {4}{R} => {6}{R}
+rules_text: When this creature enters, up to one target creature gets +2/-2 until end of turn. => Glimpse {2}{R} [i](You may cast this spell as though it had flash for {2}{R}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, up to one target creature gets +2/-2 until end of turn.
+pt: 4/4 => 4/5
+
+Scion's Substitute
+pt: 4/5 => 4/3
+
+Preserved Gentleman
+cost: {U}{B} => {3}{U}{B}
+rules_text: As long as there are two or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has deathtouch.
+{T}: Draw a card, then discard a card. => When this creature enters, scry 1.
+Whenever you scry or surveil, veil the top card of your library. This ability triggers only once each turn. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+pt: 2/2 => 2/3
+
+Sunset Dancer
+pt: 2/1 => 1/1
+
+Staff of Beast's Blood
+cost: {2}{R}{G} => {3}{R}{G}
+rules_text: {T}: Create a 3/3 green Beast creature token with trample. Activate only if this artifact entered this turn or you spent five or more mana to cast spells this turn. => {T}: Create a 3/3 green Beast creature token with trample. Activate only if you spent five or more mana to cast spells this turn.
+
+Shackled Song
+type: Enchantment => Sorcery
+rules_text: When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
+Creatures you control get +1/+0. => Choose one — 
+• Exile target nonland permanent.
+• Put two +1/+1 counters on each creature you control.
+
+Transformed Deacon
+cost: {1}{W}{B} => {W}{B}
+rules_text: When this creature enters, you may sacrifice a creature. When you do, up to one target creature gets -X/-X until end of turn and you gain X life, where X is the sacrificed creature's power. => Whenever you cast your second spell in a turn, create a 1/1 white Spirit creature token with flying.
+pt: 3/3 => 3/1
+
+Duke of Crowns
+pt: 2/3 => 1/3
+
+Gilded Cage
+cost: {1}{W} => {W}
+rules_text: When this artifact enters, choose one —
+• Exile target nonland permanent with mana value 2 or less until this artifact leaves the battlefield.
+• Exile target black or red permanent until this artifact leaves the battlefield. => When this artifact enters, exile target tapped creature until this artifact leaves the battlefield.
+
+Duchess of the Dead
+rules_text: Flying, vigilance
+{X}{W}{W}: Return target creature card with mana value X from your graveyard to the battlefield. Put a +1/+1 counter on this creature. Activate only as a sorcery and only once. => Flying
+Creatures you control with base power 2 get +1/+1.
+pt: 3/4 => 3/3
+
+Illuminated Gramophone
+
+Paranoid Heiress
+rules_text: Glimpse {2}{W} [i](You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, prevent all damage that would be dealt this turn by sources your opponents control. => Glimpse {2}{W} [i](You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, if you cast it, prevent all damage that would be dealt this turn by sources your opponents control.
+
+Kindly Rewinder
+cost: {3}{B} => {4}{B}
+pt: 2/3 => 3/4
+
+Make Presentable
+type: Sorcery => Instant
+
+Stained Reminiscence
+type: Enchantment => Sorcery
+rules_text: When this enchantment enters, put a +1/+1 counter on each creature you control. Scry 1.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, return this enchantment to your hand. => Put a +1/+1 counter on each creature you control.
+Flashback—{2}{W}, Discard a white card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Hear the Chimes
+rules_text: Choose one — 
+• Target creature gets +2/+4 until end of turn.
+• Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Return up to one target permanent card that was put into your graveyard this turn from anywhere to your hand.
+Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Brimtouched Burglar
+cost: {1}{U} => {2}{U}
+pt: 2/1 => 2/3
+
+Reflection's Replacement
+type: Instant => Enchantment — Aura
+cost: {5}{U}{U} => {4}{U}{U}
+rules_text: Choose one — 
+• Gain control of target nonland permanent. Tap it.
+• Gain control of target spell. You may choose new targets for it. => Enchant creature
+You control enchanted creature.
+Enchanted creature loses all abilities and can't block.
+
+Black Iris Visitation
+rules_text: Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 2 life. => Veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 2 life.
+
+Spirit's Advocate
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a 1/1 white Spirit creature token with flying. => [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on a Spirit you control. If you can't, create a 1/1 white Spirit creature token with flying.
+pt: 3/2 => 3/3
+
+Mug
+type: Instant => Sorcery
+cost: {1}{R} => {1}{G}
+rules_text: Mug deals 3 damage to any target. => Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control.
+Flashback—{1}{G}, Discard a green card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i]
+
+Second Chair Drowned
+cost: {3}{G} => {2}{G}{G}
+rules_text: Creatures you control with base power 2 get +1/+1. => Deathtouch
+When this creature enters, scry 1.
+At the beginning of your end step, if you spent 5 or more mana to cast spells this turn, you may return this card from your graveyard to your hand.
+pt: 3/4 => 3/1
+
+Crystal Spires Huntress
+rules_text: Whenever another creature you control with base power 2 enters, you may pay {2}. If you do, put 2 +1/+1 counters on that creature. => Whenever another creature you control with base power 2 enters, you may pay {2}. If you do, put two +1/+1 counters on that creature.
+
+Canal Conglomeration
+rules_text: Glimpse {X}{G} [i](You may cast this spell as though it had flash for {X}{G}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put X +1/+1 counters on target untapped creature. => Glimpse {X}{G}{G} [i](You may cast this spell as though it had flash for {X}{G}{G}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put X +1/+1 counters on target untapped creature.
+pt: 2/3 => 2/2
+
+Memento of Paradise
+rules_text: When this artifact enters, veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}, Tap an untapped creature you control: Add one mana of any color. => This artifact enters tapped.
+When this artifact enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}, Tap an untapped creature you control: Add one mana of any color.
+
+Submerged Laboratory
+rules_text: Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {U} or {B}.
+{UB}, {T}: You may play the exiled card this turn. Activate only if there are four or more instant or sorcery cards in your graveyard. => Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {U} or {B}.
+{UB}, {T}: You may play the exiled card this turn. Activate only if you've scried or surveilled this turn.
+
+Unsettling Abbey
+rules_text: Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {W} or {B}.
+{WB}, {T}: You may play the exiled card this turn. Activate only if a card left your graveyard this turn. => Hideaway 3 [i](When this land enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)[/i]
+This land enters tapped.
+{T}: Add {W} or {B}.
+{WB}, {T}: You may play the exiled card this turn. Activate only if you've cast two or more spells this turn.
+
+Generous Reveler
+rules_text: When this creature enters, choose one — 
+• Target opponent gains control of target permanent you control.
+• Draw two cards, then discard two cards. => At the beginning of your end step, target opponent may gain control of target nonland permanent you control. Draw a card.
+pt: 3/2 => 4/2
+
+
+VERSION 9 CHANGELOG
 ====================
 
 Siezed From Slumber added.

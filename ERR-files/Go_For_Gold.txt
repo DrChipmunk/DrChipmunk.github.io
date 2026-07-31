@@ -178,3 +178,26 @@ Elo update
 8 (-2): allwhowander | 1573 (-24)
 9 (+1): 7nix | 1569 (-4)
 10 (-2): rickyrister | 1564 (-23)
+
+<b>GP Goldpeak Gateway</b>
+Going into the last standard GP of the IWH/VLR season, and the last standard GP of CNY's tenure in the format, the landscape was defined by two pillars.
+
+One was the CNY sleeper hit Scandalous Revelation. This sorcery managed to slip under the radar for nearly a year before making a big impact this season. The combination of removing permanents of all types, card draw, card selection, and life gain made it the perfect control finisher. There were two main builds: a straightforward control version piloted by Scribbl to 5th, and a reanimator variant that brought new player DeathMage13 all the way to semifinals.
+
+The other pillar of the format was red aggro. After Kumrac's victory last month, red aggro variously with green, white, or blue as its second color, or with no second color at all, was a force to fear. The 2 mana haste creatures Cache Thrasher and Roseaun Firebrand were particularly important for pressuring sweeper-heavy control. Epid made top cut with the straight red version, losing to format founder and aggro specialist PTM on the splash-blue variant.
+
+There was other decks in the field trying to navigate these two big matchups. Silverparabellum made top cut for the second month running on a 4 color control deck not running Scandalous Revelation. In the wake of the ERR-KDT buff patch, some new cards proved their worth. Prov brought their own Fablewoven Seishin to a good result in a RG midrage list, Laurelkeeper sneaked into top cut with Errorsbane Deadshot enchantment midrange, and Lih brought a Data Visionary deck with a blink theme and the ability to win with Incumbency.
+
+It was RickyRister who found the solution to the format. Scandalous Revelation, for all its virtues, has trouble with very high-mana value threats. There's no silver bullet for the red aggro decks but copious amounts of removal and sweepers give you the best odds. These factors combines in a UR terrors list using the format's multiple excellent threats that are discounted for each spell in the yard, which Ricky piloted to take only two losses all tournament, beating PTM in the finals to claim victory and the worlds invite.
+
+Elo Update
+1 (+1): cftsoc3 | 1650 (=)
+2 (+1): covetedpeacock | 1650 (=)
+3 (-2): drchipmunk | 1634 (-24)
+4 (=): kayiu102 | 1627 (=)
+5 (+5): rickyrister | 1621 (+57)
+6 (-1): lihlosaur | 1600 (=)
+7 (-1): philippe saner | 1585 (-5)
+8 (-1): provocative | 1585 (+1)
+9 (-1): allwhowander | 1573 (=)
+10 (-1): 7nix | 1559 (-10)
