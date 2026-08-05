@@ -1,4 +1,311 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Emerald Lapidary added.
+Retired Dowager added.
+Hummingbird Leaguer added.
+Recurring Apparition added.
+Search the Stacks added.
+Velvet Glove Assassin added.
+Gelatinous Trendsetter added.
+Absinthe Automaton added.
+Peel Back the Mind added.
+Haunting Procession added.
+Spectral Nanny added.
+Become Forgotten added.
+Bluebottle Sleuths added.
+Nearly-Forgotten Memory added.
+Heartbroken Hollow added.
+Exchange of Vitality added.
+Ambergris Selection added.
+Thoughtroil Savior added.
+Smolder added.
+Vengeant Hand added.
+Ancient-Fire Caller added.
+Hit the Archives added.
+Select Society added.
+Gambler's Glove added.
+The Fleeting Madness added.
+Carize, Editor of Lineages added.
+Chimeborn Heiress added.
+Brimtouched Celebrant added.
+Snapfinger Rogue added.
+Mariner's Refrain added.
+Pearl Lapidary added.
+Sapphire Lapidary added.
+Mortician's Refrain added.
+Conquest of Nightmares added.
+Jet Lapidary added.
+Ruby Lapidary added.
+Couturist's Refrain added.
+Moment of Melancholy added.
+Witch of the Marl added.
+green Beast 33BLV added.
+
+Uptight Dancer removed.
+Pinion-Clad Exile removed.
+Winslip Vanguard removed.
+Tuppence Ball removed.
+Sunken Study removed.
+Velvet Glove Initiate removed.
+Scandalize removed.
+Message Falconer removed.
+Retired Hallowblade removed.
+Red Hot Rictus removed.
+Haunting in the Cellar removed.
+Duchess of the Dead removed.
+Hopeless Void removed.
+Forboded Haunt removed.
+Agency Field Investigators removed.
+Half-Forgotten Memory removed.
+Wistful Hollow removed.
+Grim Prioritization removed.
+Joyful Aria removed.
+Bleeding Savior removed.
+Burning Memories removed.
+Malicious Locomotive removed.
+Shopping Spree removed.
+Hunting Season removed.
+Ornate Flintlock removed.
+The Second Madness removed.
+Carize, Death's Editor removed.
+Only Eyes For Each Other removed.
+Brimtouched Chaplain removed.
+Archivist's Refrain removed.
+Oraculous Expatriate removed.
+Teacher of Epitaphs removed.
+Phrenologist's Refrain removed.
+Payment Comes Due removed.
+Velvet Glove Exile removed.
+Rubbery Recluse removed.
+Importer's Refrain removed.
+Minor Apparition removed.
+Reknit the Heart removed.
+
+Ephebic Phantom
+
+Proper Presentation
+
+Collector of Invitations
+
+Full-Service Staff
+
+Temperance Exemplar
+
+Fogtide Redeemer
+
+Icy Reception
+
+Siezed From Slumber
+
+Liminal Visitor
+pt: 3/4 => 3/3
+
+Affordable Astrologer
+
+Cellar Oracle
+rules_text: Defender
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, scry 1. This creature can attack as though it didn't have defender this turn. => Defender
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, this creature can attack as though it didn't have defender this turn.
+pt: 3/4 => 3/3
+
+Dusky Procession
+
+Morbid Literati
+
+Dance with Death
+
+
+Scintillating Draught
+
+Novice Bloodsucker
+
+Unwoven Seamstress
+
+Asphyxiation
+type: Sorcery => Instant
+cost: {1}{R} => {X}{R}
+rules_text: Gift a card. [i](You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)[/i]
+Asphyxiation deals 4 damage to target creature or planeswalker. If the gift was promised, it deals 2 damage to each opponent. => Asphyxiation deals X plus 1 damage to target creature.
+
+Mug
+cost: {1}{G} => {1}{R}
+rules_text: Put a +1/+1 counter on target creature you control. It fights up to one target creature you don't control.
+Flashback—{1}{G}, Discard a green card. [i](You may cast this card from your graveyard for its flashback cost. Then exile it.)[/i] => Gift a card. [i](You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)[/i]
+Mug deals 4 damage to target creature or planeswalker. If the gift was promised, Mug deals 2 damage to each opponent.
+
+Fidgety Physician
+
+Dress to the Nines
+
+Garden Doll
+
+Decadent Hall
+
+Beloved Chapel
+
+Perplexing Plinth
+
+Thoughtstab Wretch
+
+Staff of Beast's Blood
+
+Shackled Song
+
+Transformed Deacon
+
+Gilded Cage
+
+Soaring Soloist
+type: Creature => Creature — Human Scion
+
+Hear the Chimes
+
+Half-Fae Scion
+cost: {U} => {1}{U}
+rules_text: {T}: Mill a card.
+As long as there are two or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has vigilance.
+As long as there are four or more instant or sorcery cards in your graveyard, this creature gets +1/+1 and has flying. => Flying
+You may look at an additional card each time you scry or surveil.
+pt: 1/1 => 2/1
+
+Let Them Down Easy
+
+Reflection's Replacement
+
+Convulse
+
+Scholar of Dualities
+
+One Terrible Night
+
+Mire Maiden's Request
+
+Servant of Ravens
+cost: {2}{B} => {B}
+rules_text: Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, when it enters, they draw a card.)[/i]
+Flying
+When this creature enters, if the gift was promised, target opponent sacrifices a creature. => Glimpse {B} [i](You may cast this spell as though it had flash for {B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Flying
+When this creature enters, scry 1.
+pt: 2/3 => 1/1
+
+Father of Ransoms
+
+Fearful Initiate
+
+Break the Mirror
+
+Searing Spear
+
+Pocket Armillary
+
+Sovereign of the Meek
+cost: {1}{W}{W} => {2}{W}
+rules_text: Flying
+When this creature enters, search your library for a creature card with power 2, reveal it, put it into your hand, then shuffle. => Flying
+If an ability of a creature you control with base power 2 would trigger, it triggers an additional time.
+
+Dollmaker's Refrain
+type: Instant => Sorcery
+rules_text: Create a 1/1 colorless Toy artifact creature token. It can't block this turn. If this spell was cast from a graveyard, look at the top X cards of your library, where X is the number of creatures you control. Put one of them into your hand and the rest on the bottom in a random order.
+Flashback—{W}{U}, Discard a blue card. => Scry 2.
+Create a 1/1 colorless Toy artifact creature token. If this spell was cast from a graveyard, instead create two of those tokens, then creatures you control gain haste until end of turn.
+Flashback—{1}{R}{W}, Discard a red card.
+
+Vault of Forgeries
+rules_text: {1}, {T}: Exile target nonland permanent card with mana value 3 or less from your graveyard. Create a token that's a copy of it. Activate only as a sorcery. => {1}, {T}: Exile target nonland permanent card with mana value 3 or less from your graveyard. You may cast a copy of it. Activate only as a sorcery.
+
+Disgorger of Suns
+rules_text: Glimpse {U}{U} [i](You may cast this spell as though it had flash for {U}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever you cast an instant spell, copy it. You may choose new targets for the copy. => Glimpse {U} [i](You may cast this spell as though it had flash for {U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy.
+
+Penitent Poacher
+cost: {1}{B}{B} => {2}{B}
+rules_text: When this creature enters, destroy up to one target creature or enchantment an opponent controls. That permanent's controller creates a 3/3 green Beast creature token with trample. => Deathtouch
+This creature enters with two +1/+1 counters on it if it wasn't cast from your hand.
+Whenever this creature deals combat damage to a player, you may remove a counter from it. If you do, create a 3/3 green Beast creature token with trample.
+pt: 2/3 => 1/3
+
+Intruding Thought
+cost: {1}{B}{B} => {1}{B}
+rules_text: Menace
+[i]Paradox[/i] — At the beginning of your end step, mill a card. You lose life equal to its mana value. If you cast a spell from anywhere other than your hand this turn, return that card to your hand. => At the beginning of your end step, if you scried or surveiled this turn, reveal the top card of your library and put it into your hand. You gain life equal to its mana value, then lose 3 life.
+pt: 4/4 => 3/1
+
+Culvert Babbler
+rules_text: When this creature enters, exile the top card of each player's library.
+Players may play cards they own exiled with this creature.
+Whenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them. => When this creature enters, exile the top card of each player's library. Until the end of your next turn, players may play those cards.
+Whenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them.
+pt: 2/2 => 2/1
+
+The Scarlet Lady
+rules_text: When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled. Create a tapped Treasure token.
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady is a 5/4 Horror with menace. => When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled.
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady is a 5/4 Horror with menace.
+
+Ringmaster's Refrain
+cost: {2}{R} => {R}
+rules_text: Create a 3/3 green Beast creature token with trample and a Treasure token. If this spell was cast from your graveyard, create two of each of those tokens instead.
+Flashback—{4}{R}{G}, Discard a green card. => Exile the top card of your library. You may play it this turn. If this spell was cast from a graveyard, instead exile the top three cards of your library, and you may play them until the end of your next turn.
+Flashback—{2}{U}{R}, Discard a blue card.
+
+Vesperine Abductor
+cost: {1}{G} => {3}{G}
+rules_text: When this creature enters, return a creature you control to its owner's hand.
+When this creature dies, if it wasn't blocking or sacrificed, you may put a creature card with mana value 3 or less from your hand onto the battlefield. => Reach, trample
+When this creature enters, you may return a creature you control to its owner's hand. If you do, scry 1.
+pt: 3/3 => 4/4
+
+Sensible Summoning
+
+Stage of Endless Possibilities
+rules_text: When this land enters, scry 2.
+{T}: Add one mana of any color. Activate only if your starting deck contained at least thirty cards more than the minimum deck size. => {T}: Add {C}.
+{T}: Add one mana of any color. You can't spend this mana to cast spells from your hand.
+{5}, {T}: Exile the top card of your library. You may play that card until your next end step.
+
+colorless Toy 11BLV
+
+white Spirit 11BLV
+
+black Horror 32BLV
+
+green Beast 33BLV
+
+TreasureBLV
+
+The Winslip Special BLV
+
+Verse BLV
+
+Veiled Creature
+
+Glimpsed
+
+All-Consuming Project
+type: Artifact => Artifact — Clue
+rules_text: During your turn, you can't cast spells from your hand.
+{U}, {T}: Draw a card. => During your turn, you can't cast spells from your hand.
+{U}, {T}: Draw a card.
+{2}, Sacrifice this artifact: Draw a card.
+
+The Second Fiddle BLV
+
+Generous Reveler
+rules_text: At the beginning of your end step, target opponent may gain control of target nonland permanent you control. Draw a card. => At the beginning of your end step, target opponent gains control of target nonland permanent you control. If they do, draw a card.
+
+Revisionist Historian
+cost: {1}{G}{U} => {1}{G}{G}
+rules_text: Creature cards in your hand have glimpse {W}{U}{B}{R}{G}. [i](You may cast them as though they had flash for {W}{U}{B}{R}{G}. Exile them when they enter. You may cast them from exile on a later turn.)[/i] => The first creature spell you cast each turn has glimpse. Its glimpse cost is equal to its mana cost reduced by {2}. [i](You may cast it as though they had flash for its glimpse cost. Exile it when it enters. You may cast it without glimpse later.)[/i]
+pt: 4/4 => 3/3
+
+Can Be Played From Exile
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Temperance Exemplar added.
