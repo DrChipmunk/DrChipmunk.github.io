@@ -1,4 +1,79 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+Fly By Midnight added.
+Scintillating Draught added.
+
+
+Fly By Midnight removed.
+
+Scintillating Draught removed.
+
+Velvet Glove Assassin
+
+Novice Bloodsucker
+
+Masquerade Marquessa
+
+Gelatinous Trendsetter
+
+Riverside View
+
+Dubious Path
+
+Decadent Hall
+
+Secluded Farmland
+
+Thriving Tower
+
+Downtown Theater
+
+Reliable Market
+
+Disturbing Locale
+
+Impressive Skyline
+
+Beloved Chapel
+
+Perplexing Plinth
+
+Preserved Gentleman
+
+Couture Campaign
+
+Servant of Ravens
+
+Smolder
+
+Ancient-Fire Caller
+pt: 3/3 => 4/3
+
+Searing Spear
+
+Select Society
+
+Carize, Editor of Lineages
+
+Brimtouched Celebrant
+
+Pearl Lapidary
+
+Sapphire Lapidary
+
+Mortician's Refrain
+
+Jet Lapidary
+
+Ruby Lapidary
+
+Moment of Melancholy
+
+Celebrated Violist
+
+
+VERSION 12 CHANGELOG
 ====================
 
 Love at First Sight added.

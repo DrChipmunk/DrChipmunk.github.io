@@ -305,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "103",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/103_Rite of the Rose.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/102_Rite of the Rose.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact Creature — Toy",
-			"collector_number": "87",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/87_Discarded Mannequin.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/85_Discarded Mannequin.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Horror Bard",
-			"collector_number": "81",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/81_Beckoning Bard.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/79_Beckoning Bard.png"
 			}
 		},
 		{
@@ -355,21 +355,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Vampire Citizen",
-			"collector_number": "97",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/97_Morbid Literati.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/96_Morbid Literati.png"
 			}
 		},
 		{
-			"name": "
-Fly By Midnight",
+			"name": "Fly By Midnight",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "79",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/79_
-Fly By Midnight.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/91_Fly By Midnight.png"
 			}
 		},
 		{
@@ -397,9 +395,9 @@ Fly By Midnight.png"
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "88",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/88_Duress.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/86_Duress.png"
 			}
 		},
 		{
@@ -407,9 +405,9 @@ Fly By Midnight.png"
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Instant",
-			"collector_number": "90",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/90_Expire.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/88_Expire.png"
 			}
 		},
 		{
@@ -417,9 +415,9 @@ Fly By Midnight.png"
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/105_Scathing Critique.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/104_Scathing Critique.png"
 			}
 		},
 		{
@@ -427,21 +425,19 @@ Fly By Midnight.png"
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "86",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/86_Dance with Death.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Dance with Death.png"
 			}
 		},
 		{
-			"name": "
-Scintillating Draught",
+			"name": "Scintillating Draught",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "80",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/80_
-Scintillating Draught.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/106_Scintillating Draught.png"
 			}
 		},
 		{
@@ -449,9 +445,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/102_Read the Bones.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/101_Read the Bones.png"
 			}
 		},
 		{
@@ -646,7 +642,7 @@ Scintillating Draught.png"
 		},
 		{
 			"name": "Gelatinous Trendsetter",
-			"rarity": "rare",
+			"rarity": "mythic",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Ooze",
 			"collector_number": "172",
@@ -1209,9 +1205,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Horror Cleric",
-			"collector_number": "94",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/94_Kindly Rewinder.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/93_Kindly Rewinder.png"
 			}
 		},
 		{
@@ -1399,9 +1395,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "83",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/83_Black Iris Visitation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/81_Black Iris Visitation.png"
 			}
 		},
 		{
@@ -1409,9 +1405,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "85",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/85_Convulse.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/83_Convulse.png"
 			}
 		},
 		{
@@ -1439,9 +1435,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "106",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/106_Scholar of Dualities.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/105_Scholar of Dualities.png"
 			}
 		},
 		{
@@ -1449,9 +1445,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "100",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/100_One Terrible Night.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/99_One Terrible Night.png"
 			}
 		},
 		{
@@ -1459,9 +1455,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "96",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/96_Mire Maiden's Request.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/95_Mire Maiden's Request.png"
 			}
 		},
 		{
@@ -1479,9 +1475,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "95",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/95_Maverick Medicalist.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/94_Maverick Medicalist.png"
 			}
 		},
 		{
@@ -1499,9 +1495,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "89",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/89_Exchange of Vitality.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/87_Exchange of Vitality.png"
 			}
 		},
 		{
@@ -1509,9 +1505,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Horror Noble",
-			"collector_number": "91",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/91_Father of Ransoms.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/89_Father of Ransoms.png"
 			}
 		},
 		{
@@ -1529,9 +1525,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "92",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/92_Fearful Initiate.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/90_Fearful Initiate.png"
 			}
 		},
 		{
@@ -2189,9 +2185,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Nightmare Demon",
-			"collector_number": "99",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/99_Nightmarish Judge.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/98_Nightmarish Judge.png"
 			}
 		},
 		{
@@ -2199,9 +2195,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "104",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/104_Sapphire Lapidary.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/103_Sapphire Lapidary.png"
 			}
 		},
 		{
@@ -2209,9 +2205,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "98",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/98_Mortician's Refrain.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/97_Mortician's Refrain.png"
 			}
 		},
 		{
@@ -2219,9 +2215,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Mercenary",
-			"collector_number": "101",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/101_Penitent Poacher.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/100_Penitent Poacher.png"
 			}
 		},
 		{
@@ -2229,9 +2225,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "82",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/82_Bianco, Midnight's Host.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/80_Bianco, Midnight's Host.png"
 			}
 		},
 		{
@@ -2239,9 +2235,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Horror",
-			"collector_number": "93",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/93_Intruding Thought.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/92_Intruding Thought.png"
 			}
 		},
 		{
@@ -2249,9 +2245,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "84",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Conquest of Void.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/82_Conquest of Void.png"
 			}
 		},
 		{
@@ -2736,7 +2732,7 @@ Scintillating Draught.png"
 		},
 		{
 			"name": "Celebrated Violist",
-			"rarity": "mythic",
+			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Human Bard",
 			"collector_number": "161",
@@ -3121,15 +3117,13 @@ Scintillating Draught.png"
 	5 Discarded Mannequin
 	5 Beckoning Bard
 	5 Morbid Literati
-	5 
-Fly By Midnight
+	5 Fly By Midnight
 	5 Undertaker's Experiment
 	5 Duress
 	5 Expire
 	5 Scathing Critique
 	5 Dance with Death
-	5 
-Scintillating Draught
+	5 Scintillating Draught
 	5 Read the Bones
 	5 Dashing Ringmaster
 	5 Novice Bloodsucker

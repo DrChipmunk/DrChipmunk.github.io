@@ -32,8 +32,8 @@
         "position": ""
     },
     {
-        "card_name": "Celebrated Violist",
-        "number": 161,
+        "card_name": "Ejo, the Ripening Word",
+        "number": 168,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -72,8 +72,8 @@
         "position": ""
     },
     {
-        "card_name": "Ejo, the Ripening Word",
-        "number": 168,
+        "card_name": "Gelatinous Trendsetter",
+        "number": 172,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "Bianco, Midnight's Host",
-        "number": 82,
+        "number": 80,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -112,8 +112,8 @@
         "position": ""
     },
     {
-        "card_name": "Couturist's Refrain",
-        "number": 163,
+        "card_name": "Celebrated Violist",
+        "number": 161,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "Conquest of Void",
-        "number": 84,
+        "number": 82,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -152,8 +152,8 @@
         "position": ""
     },
     {
-        "card_name": "Gelatinous Trendsetter",
-        "number": 172,
+        "card_name": "Couturist's Refrain",
+        "number": 163,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -177,7 +177,7 @@
     },
     {
         "card_name": "Intruding Thought",
-        "number": 93,
+        "number": 92,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -217,7 +217,7 @@
     },
     {
         "card_name": "Mortician's Refrain",
-        "number": 98,
+        "number": 97,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -257,7 +257,7 @@
     },
     {
         "card_name": "Nightmarish Judge",
-        "number": 99,
+        "number": 98,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -297,7 +297,7 @@
     },
     {
         "card_name": "Penitent Poacher",
-        "number": 101,
+        "number": 100,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -337,7 +337,7 @@
     },
     {
         "card_name": "Sapphire Lapidary",
-        "number": 104,
+        "number": 103,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -417,7 +417,7 @@
     },
     {
         "card_name": "Black Iris Visitation",
-        "number": 83,
+        "number": 81,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -457,7 +457,7 @@
     },
     {
         "card_name": "Convulse",
-        "number": 85,
+        "number": 83,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -497,7 +497,7 @@
     },
     {
         "card_name": "Exchange of Vitality",
-        "number": 89,
+        "number": 87,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -537,7 +537,7 @@
     },
     {
         "card_name": "Father of Ransoms",
-        "number": 91,
+        "number": 89,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -577,7 +577,7 @@
     },
     {
         "card_name": "Fearful Initiate",
-        "number": 92,
+        "number": 90,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -617,7 +617,7 @@
     },
     {
         "card_name": "Kindly Rewinder",
-        "number": 94,
+        "number": 93,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -657,7 +657,7 @@
     },
     {
         "card_name": "Maverick Medicalist",
-        "number": 95,
+        "number": 94,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -697,7 +697,7 @@
     },
     {
         "card_name": "Mire Maiden's Request",
-        "number": 96,
+        "number": 95,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -737,7 +737,7 @@
     },
     {
         "card_name": "One Terrible Night",
-        "number": 100,
+        "number": 99,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -777,7 +777,7 @@
     },
     {
         "card_name": "Scholar of Dualities",
-        "number": 106,
+        "number": 105,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -976,7 +976,7 @@
         "position": ""
     },
     {
-        "card_name": "\nFly By Midnight",
+        "card_name": "Beckoning Bard",
         "number": 79,
         "shape": "normal",
         "set": "BLV",
@@ -1016,8 +1016,8 @@
         "position": ""
     },
     {
-        "card_name": "\nScintillating Draught",
-        "number": 80,
+        "card_name": "Dance with Death",
+        "number": 84,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1056,8 +1056,8 @@
         "position": ""
     },
     {
-        "card_name": "Beckoning Bard",
-        "number": 81,
+        "card_name": "Discarded Mannequin",
+        "number": 85,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1096,7 +1096,7 @@
         "position": ""
     },
     {
-        "card_name": "Dance with Death",
+        "card_name": "Duress",
         "number": 86,
         "shape": "normal",
         "set": "BLV",
@@ -1136,8 +1136,8 @@
         "position": ""
     },
     {
-        "card_name": "Discarded Mannequin",
-        "number": 87,
+        "card_name": "Expire",
+        "number": 88,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1176,8 +1176,8 @@
         "position": ""
     },
     {
-        "card_name": "Duress",
-        "number": 88,
+        "card_name": "Fly By Midnight",
+        "number": 91,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1216,8 +1216,8 @@
         "position": ""
     },
     {
-        "card_name": "Expire",
-        "number": 90,
+        "card_name": "Morbid Literati",
+        "number": 96,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1256,8 +1256,8 @@
         "position": ""
     },
     {
-        "card_name": "Morbid Literati",
-        "number": 97,
+        "card_name": "Read the Bones",
+        "number": 101,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1296,7 +1296,7 @@
         "position": ""
     },
     {
-        "card_name": "Read the Bones",
+        "card_name": "Rite of the Rose",
         "number": 102,
         "shape": "normal",
         "set": "BLV",
@@ -1336,8 +1336,8 @@
         "position": ""
     },
     {
-        "card_name": "Rite of the Rose",
-        "number": 103,
+        "card_name": "Scathing Critique",
+        "number": 104,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1376,8 +1376,8 @@
         "position": ""
     },
     {
-        "card_name": "Scathing Critique",
-        "number": 105,
+        "card_name": "Scintillating Draught",
+        "number": 106,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
