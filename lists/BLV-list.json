@@ -33,7 +33,7 @@
     },
     {
         "card_name": "Celebrated Violist",
-        "number": 160,
+        "number": 161,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -73,7 +73,7 @@
     },
     {
         "card_name": "Ejo, the Ripening Word",
-        "number": 167,
+        "number": 168,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -113,7 +113,7 @@
     },
     {
         "card_name": "Couturist's Refrain",
-        "number": 162,
+        "number": 163,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -136,7 +136,7 @@
         "position": ""
     },
     {
-        "card_name": "Conquest of Nightmares",
+        "card_name": "Conquest of Void",
         "number": 84,
         "shape": "normal",
         "set": "BLV",
@@ -153,7 +153,7 @@
     },
     {
         "card_name": "Gelatinous Trendsetter",
-        "number": 171,
+        "number": 172,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -193,7 +193,7 @@
     },
     {
         "card_name": "Kaxyl, the Last Faun",
-        "number": 174,
+        "number": 175,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -233,7 +233,7 @@
     },
     {
         "card_name": "Picky Horticulturalist",
-        "number": 180,
+        "number": 181,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -273,7 +273,7 @@
     },
     {
         "card_name": "Revisionist Historian",
-        "number": 182,
+        "number": 183,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -313,7 +313,7 @@
     },
     {
         "card_name": "Ruby Lapidary",
-        "number": 184,
+        "number": 185,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -353,7 +353,7 @@
     },
     {
         "card_name": "Sensible Summoning",
-        "number": 186,
+        "number": 187,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -393,7 +393,7 @@
     },
     {
         "card_name": "Silk-String Marionette",
-        "number": 187,
+        "number": 188,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -433,7 +433,7 @@
     },
     {
         "card_name": "Canal Conglomeration",
-        "number": 159,
+        "number": 160,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -473,7 +473,7 @@
     },
     {
         "card_name": "Crystal Spires Huntress",
-        "number": 164,
+        "number": 165,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -513,7 +513,7 @@
     },
     {
         "card_name": "Disgraced Chemist",
-        "number": 165,
+        "number": 166,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -553,7 +553,7 @@
     },
     {
         "card_name": "Forlorn Reflection",
-        "number": 170,
+        "number": 171,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -593,7 +593,7 @@
     },
     {
         "card_name": "Ghoul of Whit Street",
-        "number": 172,
+        "number": 173,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -624,8 +624,8 @@
         "position": ""
     },
     {
-        "card_name": "Moment of Connection",
-        "number": 138,
+        "card_name": "Love at First Sight",
+        "number": 135,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -633,7 +633,7 @@
     },
     {
         "card_name": "Hit the Archives",
-        "number": 173,
+        "number": 174,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -673,7 +673,7 @@
     },
     {
         "card_name": "Masksmith",
-        "number": 176,
+        "number": 177,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -713,7 +713,7 @@
     },
     {
         "card_name": "Memento of Paradise",
-        "number": 177,
+        "number": 178,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -753,7 +753,7 @@
     },
     {
         "card_name": "Mistress of the Menagerie",
-        "number": 178,
+        "number": 179,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -793,7 +793,7 @@
     },
     {
         "card_name": "Open Invitation",
-        "number": 179,
+        "number": 180,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -833,7 +833,7 @@
     },
     {
         "card_name": "Second Chair Drowned",
-        "number": 185,
+        "number": 186,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -873,7 +873,7 @@
     },
     {
         "card_name": "Taxidermical Effort",
-        "number": 191,
+        "number": 192,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -913,7 +913,7 @@
     },
     {
         "card_name": "Unkillable Profusion",
-        "number": 193,
+        "number": 194,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -953,7 +953,7 @@
     },
     {
         "card_name": "Vengeant Hand",
-        "number": 194,
+        "number": 195,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1032,7 +1032,7 @@
         "position": ""
     },
     {
-        "card_name": "Brotherhood Fiddler",
+        "card_name": "Belfry Abductor",
         "number": 158,
         "shape": "normal",
         "set": "BLV",
@@ -1072,8 +1072,8 @@
         "position": ""
     },
     {
-        "card_name": "Clever Pygmalion",
-        "number": 161,
+        "card_name": "Brotherhood Fiddler",
+        "number": 159,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1112,8 +1112,8 @@
         "position": ""
     },
     {
-        "card_name": "Cryptobotanist",
-        "number": 163,
+        "card_name": "Clever Pygmalion",
+        "number": 162,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1152,8 +1152,8 @@
         "position": ""
     },
     {
-        "card_name": "Dress to the Nines",
-        "number": 166,
+        "card_name": "Cryptobotanist",
+        "number": 164,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1192,8 +1192,8 @@
         "position": ""
     },
     {
-        "card_name": "Elvish Mystic",
-        "number": 168,
+        "card_name": "Dress to the Nines",
+        "number": 167,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1232,7 +1232,7 @@
         "position": ""
     },
     {
-        "card_name": "Fidgety Physician",
+        "card_name": "Elvish Mystic",
         "number": 169,
         "shape": "normal",
         "set": "BLV",
@@ -1265,15 +1265,15 @@
     },
     {
         "card_name": "Manic Scrivener",
-        "number": 135,
+        "number": 136,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Lavish Host",
-        "number": 175,
+        "card_name": "Fidgety Physician",
+        "number": 170,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1305,15 +1305,15 @@
     },
     {
         "card_name": "Masquerade Marquessa",
-        "number": 136,
+        "number": 137,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Quiet Memoriam",
-        "number": 181,
+        "card_name": "Lavish Host",
+        "number": 176,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1345,15 +1345,15 @@
     },
     {
         "card_name": "Messy Altercation",
-        "number": 137,
+        "number": 138,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Rooted Rapture",
-        "number": 183,
+        "card_name": "Quiet Memoriam",
+        "number": 182,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1392,8 +1392,8 @@
         "position": ""
     },
     {
-        "card_name": "Snakeskin Veil",
-        "number": 188,
+        "card_name": "Rooted Rapture",
+        "number": 184,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1432,7 +1432,7 @@
         "position": ""
     },
     {
-        "card_name": "Sonorous Terror",
+        "card_name": "Snakeskin Veil",
         "number": 189,
         "shape": "normal",
         "set": "BLV",
@@ -1472,7 +1472,7 @@
         "position": ""
     },
     {
-        "card_name": "Take the Shot",
+        "card_name": "Sonorous Terror",
         "number": 190,
         "shape": "normal",
         "set": "BLV",
@@ -1512,8 +1512,8 @@
         "position": ""
     },
     {
-        "card_name": "Torchlit Confrontation",
-        "number": 192,
+        "card_name": "Take the Shot",
+        "number": 191,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1552,8 +1552,8 @@
         "position": ""
     },
     {
-        "card_name": "Vesperine Abductor",
-        "number": 195,
+        "card_name": "Torchlit Confrontation",
+        "number": 193,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,

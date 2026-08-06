@@ -479,9 +479,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/135_Manic Scrivener.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/136_Manic Scrivener.png"
 			}
 		},
 		{
@@ -579,9 +579,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "137",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/137_Messy Altercation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/138_Messy Altercation.png"
 			}
 		},
 		{
@@ -599,9 +599,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Scion",
-			"collector_number": "136",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/136_Masquerade Marquessa.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/137_Masquerade Marquessa.png"
 			}
 		},
 		{
@@ -609,9 +609,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/163_Cryptobotanist.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/164_Cryptobotanist.png"
 			}
 		},
 		{
@@ -619,9 +619,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Elf Druid",
-			"collector_number": "168",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/168_Elvish Mystic.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/169_Elvish Mystic.png"
 			}
 		},
 		{
@@ -629,9 +629,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Goblin Cleric",
-			"collector_number": "169",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/169_Fidgety Physician.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/170_Fidgety Physician.png"
 			}
 		},
 		{
@@ -639,9 +639,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Noble",
-			"collector_number": "175",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/175_Lavish Host.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/176_Lavish Host.png"
 			}
 		},
 		{
@@ -649,9 +649,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Ooze",
-			"collector_number": "171",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/171_Gelatinous Trendsetter.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/172_Gelatinous Trendsetter.png"
 			}
 		},
 		{
@@ -659,9 +659,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Bard",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/158_Brotherhood Fiddler.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/159_Brotherhood Fiddler.png"
 			}
 		},
 		{
@@ -669,9 +669,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{X}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/166_Dress to the Nines.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/167_Dress to the Nines.png"
 			}
 		},
 		{
@@ -679,9 +679,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Horror",
-			"collector_number": "189",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/189_Sonorous Terror.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/190_Sonorous Terror.png"
 			}
 		},
 		{
@@ -699,9 +699,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/161_Clever Pygmalion.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/162_Clever Pygmalion.png"
 			}
 		},
 		{
@@ -709,9 +709,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "190",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/190_Take the Shot.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/191_Take the Shot.png"
 			}
 		},
 		{
@@ -719,9 +719,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "192",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/192_Torchlit Confrontation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/193_Torchlit Confrontation.png"
 			}
 		},
 		{
@@ -729,9 +729,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "188",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/188_Snakeskin Veil.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/189_Snakeskin Veil.png"
 			}
 		},
 		{
@@ -739,9 +739,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "183",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/183_Rooted Rapture.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/184_Rooted Rapture.png"
 			}
 		},
 		{
@@ -749,9 +749,9 @@ Scintillating Draught.png"
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "181",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/181_Quiet Memoriam.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/182_Quiet Memoriam.png"
 			}
 		},
 		{
@@ -1575,13 +1575,13 @@ Scintillating Draught.png"
 			}
 		},
 		{
-			"name": "Moment of Connection",
+			"name": "Love at First Sight",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "138",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/138_Moment of Connection.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/135_Love at First Sight.png"
 			}
 		},
 		{
@@ -1629,9 +1629,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "194",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/194_Vengeant Hand.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/195_Vengeant Hand.png"
 			}
 		},
 		{
@@ -1679,9 +1679,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Druid",
-			"collector_number": "165",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/165_Disgraced Chemist.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/166_Disgraced Chemist.png"
 			}
 		},
 		{
@@ -1689,9 +1689,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "173",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/173_Hit the Archives.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/174_Hit the Archives.png"
 			}
 		},
 		{
@@ -1699,9 +1699,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Zombie Horror",
-			"collector_number": "172",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/172_Ghoul of Whit Street.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/173_Ghoul of Whit Street.png"
 			}
 		},
 		{
@@ -1709,9 +1709,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Skeleton Bard",
-			"collector_number": "185",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/185_Second Chair Drowned.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/186_Second Chair Drowned.png"
 			}
 		},
 		{
@@ -1729,9 +1729,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{6}{G}{G}",
 			"type": "Creature — Ooze",
-			"collector_number": "193",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/193_Unkillable Profusion.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/194_Unkillable Profusion.png"
 			}
 		},
 		{
@@ -1739,9 +1739,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Human Ranger",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/164_Crystal Spires Huntress.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/165_Crystal Spires Huntress.png"
 			}
 		},
 		{
@@ -1749,9 +1749,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Elf Druid",
-			"collector_number": "176",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/176_Masksmith.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/177_Masksmith.png"
 			}
 		},
 		{
@@ -1759,9 +1759,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Human Noble",
-			"collector_number": "178",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/178_Mistress of the Menagerie.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/179_Mistress of the Menagerie.png"
 			}
 		},
 		{
@@ -1769,9 +1769,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{X}{G}{G}",
 			"type": "Creature — Ooze",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/159_Canal Conglomeration.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/160_Canal Conglomeration.png"
 			}
 		},
 		{
@@ -1789,9 +1789,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
-			"collector_number": "179",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/179_Open Invitation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/180_Open Invitation.png"
 			}
 		},
 		{
@@ -1799,9 +1799,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "191",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/191_Taxidermical Effort.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/192_Taxidermical Effort.png"
 			}
 		},
 		{
@@ -1809,9 +1809,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Artifact",
-			"collector_number": "177",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/177_Memento of Paradise.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/178_Memento of Paradise.png"
 			}
 		},
 		{
@@ -2245,13 +2245,13 @@ Scintillating Draught.png"
 			}
 		},
 		{
-			"name": "Conquest of Nightmares",
+			"name": "Conquest of Void",
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Conquest of Nightmares.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/84_Conquest of Void.png"
 			}
 		},
 		{
@@ -2339,19 +2339,19 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Artifact Creature — Spider Toy",
-			"collector_number": "187",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/187_Silk-String Marionette.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/188_Silk-String Marionette.png"
 			}
 		},
 		{
-			"name": "Vesperine Abductor",
+			"name": "Belfry Abductor",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "195",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/195_Vesperine Abductor.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/158_Belfry Abductor.png"
 			}
 		},
 		{
@@ -2359,9 +2359,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{X}{G}",
 			"type": "Sorcery",
-			"collector_number": "186",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/186_Sensible Summoning.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/187_Sensible Summoning.png"
 			}
 		},
 		{
@@ -2369,9 +2369,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Citizen",
-			"collector_number": "184",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/184_Ruby Lapidary.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/185_Ruby Lapidary.png"
 			}
 		},
 		{
@@ -2379,9 +2379,9 @@ Scintillating Draught.png"
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Reflection",
-			"collector_number": "170",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/170_Forlorn Reflection.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/171_Forlorn Reflection.png"
 			}
 		},
 		{
@@ -2389,9 +2389,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/162_Couturist's Refrain.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/163_Couturist's Refrain.png"
 			}
 		},
 		{
@@ -2399,9 +2399,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}{G}",
 			"type": "Legendary Creature — Satyr Bard",
-			"collector_number": "174",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/174_Kaxyl, the Last Faun.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/175_Kaxyl, the Last Faun.png"
 			}
 		},
 		{
@@ -2409,9 +2409,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Noble",
-			"collector_number": "180",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/180_Picky Horticulturalist.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/181_Picky Horticulturalist.png"
 			}
 		},
 		{
@@ -2689,9 +2689,9 @@ Scintillating Draught.png"
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Legendary Enchantment",
-			"collector_number": "167",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/167_Ejo, the Ripening Word.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/168_Ejo, the Ripening Word.png"
 			}
 		},
 		{
@@ -2739,9 +2739,9 @@ Scintillating Draught.png"
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Human Bard",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/160_Celebrated Violist.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/161_Celebrated Violist.png"
 			}
 		},
 		{
@@ -2849,9 +2849,9 @@ Scintillating Draught.png"
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "182",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/182_Revisionist Historian.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/183_Revisionist Historian.png"
 			}
 		},
 		{
@@ -2945,7 +2945,7 @@ Scintillating Draught.png"
 	5 Penitent Poacher
 	5 Bianco, Midnight's Host
 	5 Intruding Thought
-	5 Conquest of Nightmares
+	5 Conquest of Void
 	5 Highborn Dragoness
 	5 Upending of Order
 	5 Culvert Babbler
@@ -3055,7 +3055,7 @@ Scintillating Draught.png"
 	5 Unfortunate In-Law
 	5 Thoughtroil Savior
 	5 Smolder
-	5 Moment of Connection
+	5 Love at First Sight
 	5 Acclaimed Daredevil
 	5 Wall of Ravings
 	5 Blood Moon Killer
@@ -3180,5 +3180,5 @@ Scintillating Draught
 	5 Ambergris Selection
 	5 Searing Spear
 	5 Brimtouched Celebrant
-	5 Vesperine Abductor
+	5 Belfry Abductor
 	5 Moment of Melancholy
