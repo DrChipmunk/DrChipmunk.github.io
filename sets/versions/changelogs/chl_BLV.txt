@@ -1,4 +1,89 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Undying Mouser added.
+Disgraceful Blemish added.
+Herald of the Chimes added.
+Ensconce added.
+Soaring Soprano added.
+Bedeviled Trumpet added.
+Determined Widower added.
+Attitude of Discretion added.
+Glimmering Dose added.
+Yesterday's Judgment added.
+Snapfinger Dealer added.
+Precocious Snitch added.
+Overcast Plaza added.
+Celebrated Prodigy added.
+
+Loose Balloonist removed.
+Disgraceful Failure removed.
+Undertaker's Experiment removed.
+Snakeskin Veil removed.
+Soaring Soloist removed.
+Undertaker's Cudgel removed.
+Spirit's Advocate removed.
+Open Invitation removed.
+Candid Camera removed.
+Shutter and Bury removed.
+Snapfinger Rogue removed.
+Culvert Babbler removed.
+Smoky Parlor removed.
+Celebrated Violist removed.
+
+Proper Presentation
+rules_text: Veil the top card of your library with a lifelink counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Veil the top card of your library with a vigilance counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Collector of Invitations
+
+Full-Service Staff
+
+Liminal Visitor
+
+Affordable Astrologer
+rules_text: Glimpse {2}{U} [i](You may cast this spell as though it had flash for {2}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, draw a card. => Glimpse {3}{U} [i](You may cast this spell as though it had flash for {3}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, draw a card.
+
+Scintillating Draught
+
+Dashing Ringmaster
+rules_text: {T}: Add {R}.
+{3}{R}, {T}: Exile the top card of your library. You may play it during your next turn. => {T}: Add {R}. You can't spend this mana to cast spells from your hand.
+{3}{R}, {T}: Exile the top card of your library. You may play it during your next turn.
+
+Flaming Reverie
+rules_text: When this enchantment enters, it deals 6 damage to target creature.
+[i]Paradox[/i] — {R}, Sacrifice this enchantment: Scry 2. Activate only if you cast a spell from anywhere other than your hand this turn. => When this enchantment enters, it deals 6 damage to target creature an opponent controls.
+[i]Paradox[/i] — {R}, Sacrifice this enchantment: Each opponent loses 2 life. Activate only if you cast a spell from anywhere other than your hand this turn.
+
+Dress to the Nines
+rules_text: Veil the top card of your library, then put X +1/+1 counters on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Veil the top card of your library tapped with X +1/+1 counters on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Sonorous Terror
+
+Thriving Tower
+
+Downtown Theater
+
+Maverick Medicalist
+rules_text: When this creature enters, target opponent reveals their hand. You may exile a nonland card from it. If you do, exile this creature. => When this creature enters, target opponent reveals their hand. You may exile this creature. If you do, exile a nonland card revealed this way.
+
+Servant of Ravens
+
+Jet Lapidary
+rules_text: Menace
+At the beginning of your second main phase, if an opponent lost life outside of combat this turn, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {B}.”)[/i]
+{2}{B}: Each player who lost life this turn loses 2 life. Activate only as a sorcery. => Menace
+At the beginning of your second main phase, if an opponent lost life not due to combat damage this turn, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {B}.”)[/i]
+{2}{B}: Each player who lost life this turn loses 2 life. Activate only on your turn.
+
+Ruby Lapidary
+
+Moment of Melancholy
+
+
+VERSION 13 CHANGELOG
 ====================
 
 Fly By Midnight added.
