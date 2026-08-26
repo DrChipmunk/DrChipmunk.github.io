@@ -915,9 +915,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "203",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/203_Enraptured Medium.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/204_Enraptured Medium.png"
 			}
 		},
 		{
@@ -955,9 +955,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Horror",
-			"collector_number": "227",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/227_Thoughtstab Wretch.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/228_Thoughtstab Wretch.png"
 			}
 		},
 		{
@@ -1025,9 +1025,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Creature — Horror Cleric",
-			"collector_number": "228",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/228_Transformed Deacon.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/229_Transformed Deacon.png"
 			}
 		},
 		{
@@ -1035,9 +1035,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Horror Mercenary",
-			"collector_number": "202",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/202_Duke of Crowns.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/203_Duke of Crowns.png"
 			}
 		},
 		{
@@ -1105,9 +1105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Artifact Creature — Toy",
-			"collector_number": "229",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/229_Twitchy Housekeeper.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/230_Twitchy Housekeeper.png"
 			}
 		},
 		{
@@ -1925,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Legendary Creature — Nightmare",
-			"collector_number": "205",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/205_The Fleeting Madness.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/206_The Fleeting Madness.png"
 			}
 		},
 		{
@@ -1955,9 +1955,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{W}",
 			"type": "Legendary Creature — Human Noble",
-			"collector_number": "204",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/204_Faith Winslip, Riflehearted.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/205_Faith Winslip, Riflehearted.png"
 			}
 		},
 		{
@@ -2111,13 +2111,13 @@
 			}
 		},
 		{
-			"name": "Snapfinger Dealer",
+			"name": "Snapfinger Rogue",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Rogue",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/73_Snapfinger Dealer.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/73_Snapfinger Rogue.png"
 			}
 		},
 		{
@@ -2743,7 +2743,7 @@
 		{
 			"name": "Nia, Yesterday's Beloved",
 			"rarity": "mythic",
-			"mana_cost": "{2}{U}{B}{R}",
+			"mana_cost": "{1}{U}{B}{R}",
 			"type": "Legendary Creature — Human Noble",
 			"collector_number": "214",
 			"image_uris": {
@@ -2811,19 +2811,19 @@
 			}
 		},
 		{
-			"name": "Generous Reveler",
+			"name": "Suriana, Generous Reveler.",
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}{R}",
-			"type": "Creature — Human Rogue",
-			"collector_number": "206",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/206_Generous Reveler.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/227_Suriana, Generous Reveler..png"
 			}
 		},
 		{
 			"name": "Physician of Abominations",
 			"rarity": "mythic",
-			"mana_cost": "{B}{R}",
+			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Human Warlock",
 			"collector_number": "218",
 			"image_uris": {
@@ -2851,13 +2851,13 @@
 			}
 		},
 		{
-			"name": "Unspoken Rule",
+			"name": "Dreila, the Dealer",
 			"rarity": "mythic",
-			"mana_cost": "{W}{U}",
-			"type": "Enchantment",
-			"collector_number": "230",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Human Advisor",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/230_Unspoken Rule.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/202_Dreila, the Dealer.png"
 			}
 		},
 		{
@@ -2928,7 +2928,7 @@
 	5 Chimeborn Heiress
 	5 Mr. Hours, Pseudarchivist
 	5 Disgorger of Suns
-	5 Snapfinger Dealer
+	5 Snapfinger Rogue
 	5 Mariner's Refrain
 	5 Uninvited Guests
 	5 Perfected Soloist
@@ -2978,11 +2978,11 @@
 	5 Nia, Yesterday's Beloved
 	5 Cursed Portrait
 	5 The Sound of Chimes
-	5 Generous Reveler
+	5 Suriana, Generous Reveler.
 	5 Physician of Abominations
 	5 Patron of the Nameless
 	5 Revisionist Historian
-	5 Unspoken Rule
+	5 Dreila, the Dealer
 [uncommon(3)]
 	5 Ephebic Phantom
 	5 Dusky Procession

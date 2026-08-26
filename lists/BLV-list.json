@@ -328,7 +328,7 @@
         "position": ""
     },
     {
-        "card_name": "Snapfinger Dealer",
+        "card_name": "Snapfinger Rogue",
         "number": 73,
         "shape": "normal",
         "set": "BLV",
@@ -1573,8 +1573,8 @@
     },
     "a->gold",
     {
-        "card_name": "Unspoken Rule",
-        "number": 230,
+        "card_name": "The Ivory Dollmaker",
+        "number": 211,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1582,7 +1582,7 @@
     },
     {
         "card_name": "The Fleeting Madness",
-        "number": 205,
+        "number": 206,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1613,8 +1613,8 @@
         "position": ""
     },
     {
-        "card_name": "The Ivory Dollmaker",
-        "number": 211,
+        "card_name": "Enraptured Medium",
+        "number": 204,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1646,15 +1646,15 @@
     },
     {
         "card_name": "Faith Winslip, Riflehearted",
-        "number": 204,
+        "number": 205,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Enraptured Medium",
-        "number": 203,
+        "card_name": "Rewrite",
+        "number": 221,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1693,19 +1693,14 @@
         "position": ""
     },
     {
-        "card_name": "Rewrite",
-        "number": 221,
-        "shape": "normal",
-        "set": "BLV",
-        "rotated": false,
-        "position": ""
+        "card_name": "e"
     },
     {
         "card_name": "e"
     },
     {
         "card_name": "Thoughtstab Wretch",
-        "number": 227,
+        "number": 228,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1738,16 +1733,16 @@
         "card_name": "er"
     },
     {
-        "card_name": "Carize, Editor of Lineages",
-        "number": 199,
+        "card_name": "Dreila, the Dealer",
+        "number": 202,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Generous Reveler",
-        "number": 206,
+        "card_name": "Suriana, Generous Reveler.",
+        "number": 227,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1778,8 +1773,8 @@
         "position": ""
     },
     {
-        "card_name": "Couture Campaign",
-        "number": 200,
+        "card_name": "Carize, Editor of Lineages",
+        "number": 199,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1795,7 +1790,7 @@
     },
     {
         "card_name": "Duke of Crowns",
-        "number": 202,
+        "number": 203,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1818,8 +1813,8 @@
         "position": ""
     },
     {
-        "card_name": "Transformed Deacon",
-        "number": 228,
+        "card_name": "Couture Campaign",
+        "number": 200,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1843,7 +1838,7 @@
     },
     {
         "card_name": "Twitchy Housekeeper",
-        "number": 229,
+        "number": 230,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1858,7 +1853,12 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Transformed Deacon",
+        "number": 229,
+        "shape": "normal",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "Precocious Playmate",

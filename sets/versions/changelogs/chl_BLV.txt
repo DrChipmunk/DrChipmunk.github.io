@@ -1,4 +1,30 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+Snapfinger Rogue added.
+Suriana, Generous Reveler. added.
+Dreila, the Dealer added.
+
+Snapfinger Dealer removed.
+Generous Reveler removed.
+Unspoken Rule removed.
+
+Disgraceful Blemish
+
+Stage of Endless Possibilities
+
+Nia, Yesterday's Beloved
+cost: {2}{U}{B}{R} => {1}{U}{B}{R}
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, exile the top card of each player's library. You may cast a nonland card from among them without paying its mana cost. This ability triggers only once each turn. => [i]Paradox[/i] — The first spell you cast each turn from anywhere other than your hand has cascade. [i](When you cast that spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)[/i]
+
+Physician of Abominations
+cost: {B}{R} => {1}{B}{R}
+rules_text: Whenever a Horror you control dies, create a token that's a copy of it, except it's not a Horror.
+{T}, Sacrifice another creature: Draw a card. Activate only as a sorcery. => Whenever a Horror you control dies, create a token that's a copy of it, except it's not a Horror.
+{T}, Sacrifice another creature: Draw a card.
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Undying Mouser added.

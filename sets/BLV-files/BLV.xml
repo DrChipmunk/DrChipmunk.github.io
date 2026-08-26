@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-16</releasedate>
+			<releasedate>2026-08-25</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1563,7 +1563,7 @@ Paradox — {T}, Sacrifice this land: Draw a card. Activate only if you cast a s
 		<card>
 			<name>Enraptured Medium</name>
 			<text>Whenever you cast a spell during an opponent&apos;s turn, create a 1/1 white Spirit creature token with flying. You gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/203_Enraptured Medium.png" num="203">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/204_Enraptured Medium.png" num="204">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1632,7 +1632,7 @@ Whenever you scry or surveil, veil the top card of your library. This ability tr
 		<card>
 			<name>Thoughtstab Wretch</name>
 			<text>Paradox — Whenever you cast a spell from anywhere other than your hand, this creature deals 1 damage to any target. If a creature is dealt damage this way, it can&apos;t block this turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/227_Thoughtstab Wretch.png" num="227">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/228_Thoughtstab Wretch.png" num="228">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1752,7 +1752,7 @@ When you cast your second spell each turn, if this enchantment didn&apos;t enter
 		<card>
 			<name>Transformed Deacon</name>
 			<text>Whenever you cast your second spell in a turn, create a 1/1 white Spirit creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/228_Transformed Deacon.png" num="228">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/229_Transformed Deacon.png" num="229">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1770,7 +1770,7 @@ When you cast your second spell each turn, if this enchantment didn&apos;t enter
 			<name>Duke of Crowns</name>
 			<text>Flying
 At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/202_Duke of Crowns.png" num="202">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/203_Duke of Crowns.png" num="203">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1891,7 +1891,7 @@ Whenever you attack with exactly two creatures, target creature can&apos;t block
 			<name>Twitchy Housekeeper</name>
 			<text>Haste
 Whenever you attack with exactly two creatures, you may discard a card. If you do, draw two cards.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/229_Twitchy Housekeeper.png" num="229">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/230_Twitchy Housekeeper.png" num="230">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3309,7 +3309,7 @@ Whenever another nontoken creature you control enters during an opponent&apos;s 
 			<name>The Fleeting Madness</name>
 			<text>As long as you&apos;ve scried or surveilled this turn, The Fleeting Madness has hexproof, lifelink, and &quot;Whenever this creature deals combat damage to a player, draw a card.&quot;
 {2}{UB}: Scry 1.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/205_The Fleeting Madness.png" num="205">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/206_The Fleeting Madness.png" num="206">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3363,7 +3363,7 @@ Whenever The Attended One enters or attacks, veil the top two cards of your libr
 			<name>Faith Winslip, Riflehearted</name>
 			<text>Haste
 When Faith enters, create The Winslip Special, a legendary colorless Equipment artifact token with &quot;Equipped creature has double strike,&quot; equip creature with base power 2 {1}, and equip {4}. Attach it to Faith.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/204_Faith Winslip, Riflehearted.png" num="204">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/205_Faith Winslip, Riflehearted.png" num="205">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3645,10 +3645,10 @@ Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Snapfinger Dealer</name>
+			<name>Snapfinger Rogue</name>
 			<text>Flash
-When this creature enters, you may pay {X}. When you do, exile target instant or sorcery card with mana value X from a graveyard. You may cast it until your next end step without paying its mana cost. If that spell would be put into a graveyard, exile it instead.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/73_Snapfinger Dealer.png" num="73">BLV</set>
+When this creature enters, you may pay {X}. When you do, exile target noncreature card with mana value X from a graveyard. You may cast it until your next end step without paying its mana cost. If an instant or sorcery spell cast this way would be put into your graveyard, exile it instead.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/73_Snapfinger Rogue.png" num="73">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4743,15 +4743,15 @@ Creatures you control with counters on them have trample.</text>
 		</card>
 		<card>
 			<name>Nia, Yesterday&apos;s Beloved</name>
-			<text>Paradox — Whenever you cast a spell from anywhere other than your hand, exile the top card of each player&apos;s library. You may cast a nonland card from among them without paying its mana cost. This ability triggers only once each turn.</text>
+			<text>Paradox — The first spell you cast each turn from anywhere other than your hand has cascade. (When you cast that spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/214_Nia, Yesterday&apos;s Beloved.png" num="214">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Legendary Creature — Human Noble</type>
 				<maintype>Creature</maintype>
-				<manacost>2UBR</manacost>
-				<cmc>5</cmc>
+				<manacost>1UBR</manacost>
+				<cmc>4</cmc>
 				<colors>UBR</colors>
 				<coloridentity>UBR</coloridentity>
 				<pt>3/4</pt>
@@ -4853,13 +4853,13 @@ At the beginning of your upkeep, you may cast an exiled nonland card an opponent
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>Generous Reveler</name>
-			<text>At the beginning of your end step, target opponent gains control of target nonland permanent you control. If they do, draw a card.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/206_Generous Reveler.png" num="206">BLV</set>
+			<name>Suriana, Generous Reveler.</name>
+			<text>At the beginning of your end step, target opponent gains control of target nonland permanent you control. If they do, draw a card. They may sacrifice that permanent.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/227_Suriana, Generous Reveler..png" num="227">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Rogue</type>
+				<type>Legendary Creature — Human Rogue</type>
 				<maintype>Creature</maintype>
 				<manacost>1UR</manacost>
 				<cmc>3</cmc>
@@ -4872,15 +4872,15 @@ At the beginning of your upkeep, you may cast an exiled nonland card an opponent
 		<card>
 			<name>Physician of Abominations</name>
 			<text>Whenever a Horror you control dies, create a token that&apos;s a copy of it, except it&apos;s not a Horror.
-{T}, Sacrifice another creature: Draw a card. Activate only as a sorcery.</text>
+{T}, Sacrifice another creature: Draw a card.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/218_Physician of Abominations.png" num="218">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Warlock</type>
 				<maintype>Creature</maintype>
-				<manacost>BR</manacost>
-				<cmc>2</cmc>
+				<manacost>1BR</manacost>
+				<cmc>3</cmc>
 				<colors>BR</colors>
 				<coloridentity>BR</coloridentity>
 				<pt>3/1</pt>
@@ -4923,21 +4923,22 @@ Whenever this creature or another creature you control with no name enters, draw
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Unspoken Rule</name>
-			<text>When this enchantment enters, draw a card, then look at the top seven cards of target opponent&apos;s library. Exile one of them face down. Put the rest on the bottom in a random order.
-{1}, Sacrifice this enchantment, Reveal the exiled card: Counter target spell with the same name as the exiled card.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/230_Unspoken Rule.png" num="230">BLV</set>
+			<name>Dreila, the Dealer</name>
+			<text>At the beginning of your upkeep, if the sum of all players&apos; life totals is exactly 21, you win the game.
+At the beginning of combat on your turn, reveal the top card of your library and put it into your hand. You may have an opponent gain life equal to its mana value. If you don&apos;t, you lose life equal to its mana value.</text>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/202_Dreila, the Dealer.png" num="202">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Enchantment</type>
-				<maintype>Enchantment</maintype>
-				<manacost>WU</manacost>
-				<cmc>2</cmc>
-				<colors>WU</colors>
-				<coloridentity>WU</coloridentity>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2WB</manacost>
+				<cmc>4</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/3</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Can Be Played From Exile BLV</name>

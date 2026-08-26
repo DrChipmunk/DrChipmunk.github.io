@@ -201,3 +201,16 @@ Elo Update
 8 (-1): provocative | 1585 (+1)
 9 (-1): allwhowander | 1573 (=)
 10 (-1): 7nix | 1559 (-10)
+
+<b>GP Klemnae</b>
+Revolution's 16th season was capped off by its second ever pauper GP. It had been years since the last pauper GP, and the format had in that time expanded by 50%, so no one knew what was going to be good. In particular, the KUT shocklands, completed and reprinted at common in ERR, and the DOV checklands, reprinted at common in VLR, gave the format mana fixing far surpassing canon pauper for the first time.
+
+The winning deck of last pauper GP was mono red aggro and this archetype remained a force in the new field. Relevant cards included a new combat trick in Face of Animosity, the humble Disgruntled Crook, and another excellent burn spell in Magma Flow. Players who didn't pack the necessary life gain and small removal could fall behind fast to REV's long history of pushed common 1-drops and lightning strikes. Kumrac and yours truly took very different lists into top cut, where we both fell at fifth.
+
+The hottest deck in league leading up to the GP was blue-white blink. Centred around the self-bounce engine of Cliffwalker, new removal spell Sanctum of Repression, and card draw engine Mnemologist, many variations of this deck were tried and tested. Some versions had token synergies, others enchantment synergies, and others included the scam package of Brief Stop and the TRX blessing creatures. Deathmage13 made top cut with a lean version forsaking these longer-game plans for a lower curve and anti-aggro tools, making it to third.
+
+The breakout deck of the GP was concocted by a cabal of players including breakout REV star tremor. Blue-black sacrifice took advantage of the known excellent quantities of Fashion Temples From Flesh, Deadly Dispute, and Concjure Forth, and added on the card advantage of Hushed Briefing, excellent fodder generation of Pathetic Cocoon, and board presence of Give Gifts // Sieze Souls to create what was clearly the best deck in the room. The cabal put three players into top cut, including datrobino at fifth and tremor themself at third place.
+
+But if UB sac has one weakness, it isn't that fast. Monument to the Thirty is a greedy ramp deck that floundered in league due to its poor aggro matchup. But it can go over the top of any other deck in the format, and HSquid, the only player to bring it, managed to dodge all aggro matchups on their way to finals, where they faced borfotron on UB sac.
+
+Elo Update
