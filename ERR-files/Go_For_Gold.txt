@@ -209,8 +209,20 @@ The winning deck of last pauper GP was mono red aggro and this archetype remaine
 
 The hottest deck in league leading up to the GP was blue-white blink. Centred around the self-bounce engine of Cliffwalker, new removal spell Sanctum of Repression, and card draw engine Mnemologist, many variations of this deck were tried and tested. Some versions had token synergies, others enchantment synergies, and others included the scam package of Brief Stop and the TRX blessing creatures. Deathmage13 made top cut with a lean version forsaking these longer-game plans for a lower curve and anti-aggro tools, making it to third.
 
-The breakout deck of the GP was concocted by a cabal of players including breakout REV star tremor. Blue-black sacrifice took advantage of the known excellent quantities of Fashion Temples From Flesh, Deadly Dispute, and Concjure Forth, and added on the card advantage of Hushed Briefing, excellent fodder generation of Pathetic Cocoon, and board presence of Give Gifts // Sieze Souls to create what was clearly the best deck in the room. The cabal put three players into top cut, including datrobino at fifth and tremor themself at third place.
+The breakout deck of the GP was concocted by a cabal of players including breakout REV star tremor. Blue-black sacrifice took advantage of the known excellent quantities of Fashion Temples From Flesh, Deadly Dispute, and Conjure Forth, and added on the card advantage of Hushed Briefing, excellent fodder generation of Pathetic Cocoon, and board presence of Give Gifts // Seize Souls to create what was clearly the best deck in the room. The cabal put three players into top cut, including datrobino at fifth and tremor themself at third place.
 
-But if UB sac has one weakness, it isn't that fast. Monument to the Thirty is a greedy ramp deck that floundered in league due to its poor aggro matchup. But it can go over the top of any other deck in the format, and HSquid, the only player to bring it, managed to dodge all aggro matchups on their way to finals, where they faced borfotron on UB sac.
+But if UB sac has one weakness, it isn't that fast. Monument to the Thirty is a greedy ramp deck that floundered in league due to its poor aggro matchup. But it can go over the top of any other deck in the format, and HSquid, the only player to bring it, managed to dodge all aggro matchups on their way to finals, where they faced borfotron on UB sac. 
+
+In game 1, HSquid was unable to find a second Monument before being forced onto the back foot by 5/5 tokens. Game 2, borfotron went for an aggressive line sacrificing a 5/5 token to a Skophos Conqueror to set up next turn lethal, but HSQuid had life gain with the Aureth Cross Crusader. Game 3 borfotron mulliganed into an awkward hand and got their only threat countered. Congratulations to HSquid on the win and the worlds invite.
 
 Elo Update
+1 (=): cftsoc3 | 1643 (-7)
+2 (+1): drchipmunk | 1628 (-6)
+3 (+2): rickyrister | 1621 (=)
+4 (=): kayiu102 | 1621 (-6)
+5 (-3): covetedpeacock | 1619 (-31)
+6 (=): lihlosaur | 1600 (=)
+7 (+1): provocative | 1585 (=)
+8 (-1): philippe saner | 1581 (-4)
+9 (+17): hsquid | 1564 (+49)
+10 (+2): kumrac | 1560 (+8)

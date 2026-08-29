@@ -2964,9 +2964,9 @@
             "number": 120,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.",
+            "rules_text": "Haste\n[i]Paradox[/i] \u2014 Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.",
             "flavor_text": "[i][/i]",
-            "pt": "4/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
@@ -3954,7 +3954,7 @@
             "number": 106,
             "color_identity": "UB",
             "cost": "{2}{B}",
-            "rules_text": "Ward\u2014Discard a card.\nAt the beginning of your second main phase, if three or more cards entered your hand this turn, create a Mox Sapphire token. This ability triggers only once. [i](It's a {0} artifact with \u201c{T}: Add {U}.\u201d)[/i]\n{3}{U}: Scry 1, then draw a card.",
+            "rules_text": "Ward\u2014Discard a card.\nWhen you draw your third card each turn, create a Mox Sapphire token. This ability triggers only once. [i](It's a {0} artifact with \u201c{T}: Add {U}.\u201d)[/i]\n{3}{U}: Scry 1, then draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -4010,7 +4010,7 @@
             "cost": "{2}{B}{B}",
             "rules_text": "[i]Paradox[/i] \u2014 When this creature enters and whenever you cast a spell from anywhere other than your hand, veil the top card of target opponent's library. It gains \u201cYou may spend mana of any color to cast this card.\u201d [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
@@ -4152,7 +4152,7 @@
             "number": 132,
             "color_identity": "BR",
             "cost": "{2}{R}",
-            "rules_text": "Menace\nAt the beginning of your second main phase, if an opponent lost life not due to combat damage this turn, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with \u201c{T}: Add {B}.\u201d)[/i]\n{2}{B}: Each player who lost life this turn loses 2 life. Activate only on your turn.",
+            "rules_text": "Menace\nWhen one or more opponents are dealt noncombat damage, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with \u201c{T}: Add {B}.\u201d)[/i]\n{2}{B}: This creature deals 2 damage to each player who lost life this turn. Activate only on your turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5144,7 +5144,7 @@
             "cost": "{2}{W}{B}",
             "rules_text": "At the beginning of your upkeep, if the sum of all players' life totals is exactly 21, you win the game.\nAt the beginning of combat on your turn, reveal the top card of your library and put it into your hand. You may have an opponent gain life equal to its mana value. If you don't, you lose life equal to its mana value.",
             "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
@@ -5225,5 +5225,5 @@
             "notes": "!exportname green Beast 33BLV\nnewart2"
         }
     ],
-    "version": 15
+    "version": 16
 }

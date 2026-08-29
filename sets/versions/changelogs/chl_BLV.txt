@@ -1,4 +1,35 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+
+
+Ancient-Fire Caller
+rules_text: [i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step. => Haste
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.
+pt: 4/3 => 3/2
+
+Sapphire Lapidary
+rules_text: Ward—Discard a card.
+At the beginning of your second main phase, if three or more cards entered your hand this turn, create a Mox Sapphire token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {U}.”)[/i]
+{3}{U}: Scry 1, then draw a card. => Ward—Discard a card.
+When you draw your third card each turn, create a Mox Sapphire token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {U}.”)[/i]
+{3}{U}: Scry 1, then draw a card.
+
+Bianco, Midnight's Host
+pt: 3/3 => 3/2
+
+Jet Lapidary
+rules_text: Menace
+At the beginning of your second main phase, if an opponent lost life not due to combat damage this turn, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {B}.”)[/i]
+{2}{B}: Each player who lost life this turn loses 2 life. Activate only on your turn. => Menace
+When one or more opponents are dealt noncombat damage, create a Mox Jet token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {B}.”)[/i]
+{2}{B}: This creature deals 2 damage to each player who lost life this turn. Activate only on your turn.
+
+Dreila, the Dealer
+pt: 3/3 => 4/4
+
+
+VERSION 15 CHANGELOG
 ====================
 
 Snapfinger Rogue added.

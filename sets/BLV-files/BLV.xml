@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-08-25</releasedate>
+			<releasedate>2026-08-29</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -2829,7 +2829,8 @@ Flashback—{1}{G}, Discard a green card. (You may cast this card from your grav
 		</card>
 		<card>
 			<name>Ancient-Fire Caller</name>
-			<text>Paradox — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.</text>
+			<text>Haste
+Paradox — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/120_Ancient-Fire Caller.png" num="120">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2840,7 +2841,7 @@ Flashback—{1}{G}, Discard a green card. (You may cast this card from your grav
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>4/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3789,7 +3790,7 @@ Flying
 		<card>
 			<name>Sapphire Lapidary</name>
 			<text>Ward—Discard a card.
-At the beginning of your second main phase, if three or more cards entered your hand this turn, create a Mox Sapphire token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {U}.&quot;)
+When you draw your third card each turn, create a Mox Sapphire token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {U}.&quot;)
 {3}{U}: Scry 1, then draw a card.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/106_Sapphire Lapidary.png" num="106">BLV</set>
 			<prop>
@@ -3854,7 +3855,7 @@ Whenever this creature deals combat damage to a player, you may remove a counter
 				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>3/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3982,8 +3983,8 @@ As long as you own no cards in exile with dream counters on them, The Scarlet La
 		<card>
 			<name>Jet Lapidary</name>
 			<text>Menace
-At the beginning of your second main phase, if an opponent lost life not due to combat damage this turn, create a Mox Jet token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {B}.&quot;)
-{2}{B}: Each player who lost life this turn loses 2 life. Activate only on your turn.</text>
+When one or more opponents are dealt noncombat damage, create a Mox Jet token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {B}.&quot;)
+{2}{B}: This creature deals 2 damage to each player who lost life this turn. Activate only on your turn.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/132_Jet Lapidary.png" num="132">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4936,7 +4937,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 				<cmc>4</cmc>
 				<colors>WB</colors>
 				<coloridentity>WB</coloridentity>
-				<pt>3/3</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
