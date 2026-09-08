@@ -35,7 +35,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Nen Chang",
-            "notes": "art3",
+            "notes": "art3\n!tag aggro-threat",
             "image_type": "png"
         },
         {
@@ -138,7 +138,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact Creature \u2013 Toy",
-            "number": 9,
+            "number": 10,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Glimpse {1}{W} [i](You may cast this spell as though it had flash for {1}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]\nWhen this creature enters, create a 1/1 colorless Toy artifact creature token.",
@@ -195,7 +195,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Mercenary",
-            "number": 13,
+            "number": 14,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Glimpse {1}{W} [i](You may cast this spell as though it had flash for {1}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]\nWhen this creature enters, target creature gets +2/+2 until end of turn.",
@@ -229,11 +229,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "Icy Reception",
+            "card_name": "Frosty Reception",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 15,
+            "number": 9,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield. Scry 1.",
@@ -404,7 +404,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 51,
+            "number": 52,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Look at the top two cards of your library. Put one of them into your hand and veil the other. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -461,7 +461,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 53,
+            "number": 54,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Scry 2, then draw two cards.",
@@ -537,7 +537,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 54,
+            "number": 55,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Choose one \u2013 \n\u2022 Counter target spell.\n\u2022 Exile target creature. Its owner may cast it without paying its mana cost.",
@@ -814,7 +814,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andy Aslamov",
-            "notes": "art3\n\nremoval (mana value 2 or similar) x1\n4, 5, 6, and 1/two noncreatures\nscry x1.5/1-2\nflying x2/2-3\nglimpse x1/1-2\nscry payoff x1/1\nflurry payoff x1/1\nveil x1/1",
+            "notes": "art3\n!tag removal\n\nremoval (mana value 2 or similar) x1\n4, 5, 6, and 1/two noncreatures\nscry x1.5/1-2\nflying x2/2-3\nglimpse x1/1-2\nscry payoff x1/1\nflurry payoff x1/1\nveil x1/1",
             "image_type": "png"
         },
         {
@@ -1080,7 +1080,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Goodname Stufio",
-            "notes": "art4\n!tag reprint\nreplace with Mugging?\n\n\u201cIf the spirit of Lady Thursday is present, could she make herself known? Oh dear. Oh dear. Well, if that's what the lady wanted us to know.\u201d",
+            "notes": "art4\n!tag removal\nreplace with Mugging?\n\n\u201cIf the spirit of Lady Thursday is present, could she make herself known? Oh dear. Oh dear. Well, if that's what the lady wanted us to know.\u201d",
             "image_type": "png"
         },
         {
@@ -1175,7 +1175,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ina Wong",
-            "notes": "Preview\nDay4\nart4\n!tag reprint",
+            "notes": "Preview\nDay4\nart4\n!tag reprint\n!tag ramp",
             "image_type": "png"
         },
         {
@@ -1232,7 +1232,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniele DAF Afferni",
-            "notes": "art3\nHe charges no rent and asks no favors, except that you look away.\n\nFor discretion and speed, no courier can compete with a falcon.",
+            "notes": "art3\n!tag value-threat\nHe charges no rent and asks no favors, except that you look away.\n\nFor discretion and speed, no courier can compete with a falcon.",
             "image_type": "png"
         },
         {
@@ -1555,7 +1555,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "\nlandslot\nart4\n!tag reprint",
+            "notes": "\nlandslot\nart4\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1574,7 +1574,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Andy Walsh",
-            "notes": "\nlandslot\nart3\n!tag reprint",
+            "notes": "\nlandslot\nart3\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1593,7 +1593,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Cliff Schonewill",
-            "notes": "newart3\nlandslot\n!tag reprint",
+            "notes": "newart3\nlandslot\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1612,7 +1612,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Grady Frederick",
-            "notes": "\nlandslot\nart3\n!tag reprint",
+            "notes": "\nlandslot\nart3\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1631,7 +1631,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ceclia Lapeze",
-            "notes": "\nlandslot\nart3\n!tag reprint",
+            "notes": "\nlandslot\nart3\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1650,7 +1650,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Josepg Diaz",
-            "notes": "\nlandslot\nart2\n!tag reprint",
+            "notes": "\nlandslot\nart2\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1669,7 +1669,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "\nlandslot\nart2\n!tag reprint",
+            "notes": "\nlandslot\nart2\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1688,7 +1688,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Pete Amachree",
-            "notes": "\nlandslot\nart4\n!tag reprint",
+            "notes": "\nlandslot\nart4\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1707,7 +1707,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mel Mo",
-            "notes": "\nlandslot\nart2\n!tag reprint",
+            "notes": "\nlandslot\nart2\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -1726,7 +1726,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Paulo Loveranes",
-            "notes": "\nlandslot\nnewart2\n!tag reprint",
+            "notes": "\nlandslot\nnewart2\n!tag reprint\n!tag fixing-land",
             "image_type": "png"
         },
         {
@@ -2125,7 +2125,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Travis Anderson",
-            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3\n\nShe'll serve drinks. She'll peek at cards. But don't ask her to come out from behind the table.",
+            "notes": "Type A 0/4\nType B 0/4\nType C 0/4\nPreview\nDay2\nart3\n!tag removal\n\nShe'll serve drinks. She'll peek at cards. But don't ask her to come out from behind the table.",
             "image_type": "png"
         },
         {
@@ -2133,7 +2133,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 10,
+            "number": 11,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When this artifact enters, exile target tapped creature until this artifact leaves the battlefield.",
@@ -2361,7 +2361,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 11,
+            "number": 12,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Return up to one target permanent card that was put into your graveyard this turn from anywhere to your hand.\nVeil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
@@ -2380,7 +2380,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Faerie Scion",
-            "number": 55,
+            "number": 56,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying\nYou may look at an additional card each time you scry or surveil.",
@@ -2429,7 +2429,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Alex Heath Zander",
-            "notes": "Preview\nDay6\nart4\n!addtoken Veil;1",
+            "notes": "Preview\nDay6\nart4\n!tag wishlist\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -2456,7 +2456,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 50,
+            "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Look at the top five cards of your library. Separate them into a face-up and face-down pile. An opponent chooses one of the piles to put into your hand. Put the other on the bottom of your library in a random order.",
@@ -2467,7 +2467,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Dan Watson",
-            "notes": "Preview\nDay2\nart3",
+            "notes": "Preview\nDay2\nart3\n!tag draw",
             "image_type": "png"
         },
         {
@@ -2513,7 +2513,7 @@
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 56,
+            "number": 57,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "[i]Paradox[/i] \u2013 Whenever you cast a spell from anywhere other than your hand, each opponent mills two cards.\n{1}{U}, {T}: Exile the top card of target opponent's library face down. For as long as it remains exiled, you may look at it and play it, and may spend mana of any color to cast it.",
@@ -2528,22 +2528,22 @@
             "image_type": "png"
         },
         {
-            "card_name": "Let Them Down Easy",
+            "card_name": "Distracting Apparitions",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 57,
+            "number": 50,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Gift a card [i](You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)[/i]\nCounter target spell unless its controller pays {2}. If the gift was promised, draw a card.",
-            "flavor_text": "[i]\u201cSorry, my creation. I do love you. But my parents won't accept someone without pedigree.\u201d[/i]",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
-            "artist": "KirinKarwai",
-            "notes": "art2",
+            "artist": "Alex Watson",
+            "notes": "art2\n!tag counterspell\n\u201cSorry, my creation. I do love you. But my parents won't accept someone without pedigree.\u201d",
             "image_type": "png"
         },
         {
@@ -2589,7 +2589,7 @@
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Wizard",
-            "number": 52,
+            "number": 53,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Spells you cast during an opponent's turn cost {1} less to cast.",
@@ -2703,7 +2703,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Spirit",
-            "number": 12,
+            "number": 13,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever you cast your second spell each turn, tap target creature an opponent controls.",
@@ -2809,7 +2809,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hassan H",
-            "notes": "art3",
+            "notes": "art3\n!tag discard",
             "image_type": "png"
         },
         {
@@ -3322,7 +3322,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lap",
-            "notes": "Preview\nDay7\nart4\n!tag reprint",
+            "notes": "Preview\nDay7\nart4\n!tag reprint\n!tag interactive-threat",
             "image_type": "png"
         },
         {
@@ -3455,7 +3455,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Joseph Nickson",
-            "notes": "Preview\nDay4\nart3\nA light to dispel Yesterday's past.",
+            "notes": "Preview\nDay4\nart3\nA light to dispel Yesterday's past.\n!tag sideboard",
             "image_type": "png"
         },
         {
@@ -3702,7 +3702,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Kyle Pearson",
-            "notes": "Day7\nart3\n!addtoken Veil;1",
+            "notes": "Day7\nart3\n!tag topend-threat \n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -3721,7 +3721,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Hoang Lip",
-            "notes": "Day3\nart4",
+            "notes": "Day3\nart4\n!tag aggro-threat",
             "image_type": "png"
         },
         {
@@ -3740,7 +3740,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Artur Mosca",
-            "notes": "Day8\nart4\n!tag wishlist\n!addtoken Veil;1\n\nMenace\nWhenever Carize enters or attacks, exile up to one target card from a graveyard.\nXWB, Exile Carize: For each creature card you own exiled with it with mana value X or less, create a token that's a copy of that card. Activate only as a sorcery.",
+            "notes": "Day8\nart4\n\n!addtoken Veil;1\n\nMenace\nWhenever Carize enters or attacks, exile up to one target card from a graveyard.\nXWB, Exile Carize: For each creature card you own exiled with it with mana value X or less, create a token that's a copy of that card. Activate only as a sorcery.",
             "image_type": "png"
         },
         {
@@ -3778,7 +3778,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Michele Esposito",
-            "notes": "Day7\nart2",
+            "notes": "Day7\nart2\n!tag value-threat",
             "image_type": "png"
         },
         {
@@ -3873,7 +3873,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gilles Beloeil",
-            "notes": "Day2\nart3",
+            "notes": "Day2\nart3\ncard-engine",
             "image_type": "png"
         },
         {
@@ -4025,7 +4025,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Fajareka Setiawan",
-            "notes": "Day9\nart3\nRepalce with snapcaster?",
+            "notes": "Day9\nart3\nRepalce with snapcaster?\n!tag value-threat",
             "image_type": "png"
         },
         {
@@ -4139,7 +4139,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Ian Llanas",
-            "notes": "Day5\nart4",
+            "notes": "Day5\nart4\n!tag value-threat",
             "image_type": "png"
         },
         {
@@ -4228,13 +4228,13 @@
             "cost": "{2}{B}{B}",
             "rules_text": "[i]Paradox[/i] \u2013 When this creature enters and whenever you cast a spell from anywhere other than your hand, veil the top card of target opponent's library. It gains \u201cYou may spend mana of any color to cast this card.\u201d [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "BLV",
             "loyalty": "",
             "artist": "Jakub Bazyluk",
-            "notes": "Day9\nart2\nart-overlap\n!tag wishlist\n!addtoken Veil;1",
+            "notes": "Day9\nart2\nart-overlap\n\n!addtoken Veil;1",
             "image_type": "png"
         },
         {
@@ -4253,7 +4253,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Lei Min",
-            "notes": "Day10\nart3\nMenace\nParadox \u2014 At the beginning of your end step, mill a card. You lose life equal to its mana value. If you cast a spell from anywhere other than your hand this turn, return that card to your hand.",
+            "notes": "Day10\nart3\n!tag wishlist\nMenace\nParadox \u2014 At the beginning of your end step, mill a card. You lose life equal to its mana value. If you cast a spell from anywhere other than your hand this turn, return that card to your hand.",
             "image_type": "png"
         },
         {
@@ -4291,7 +4291,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Billy Christian",
-            "notes": "Day2\nart4\n!addtoken Vision;1",
+            "notes": "Day2\nart4\n!addtoken Vision;1\n!tag interactive-threat",
             "image_type": "png"
         },
         {
@@ -4329,7 +4329,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Mateusz Lenart",
-            "notes": "Day9\nart4\n!tag wishlist",
+            "notes": "Day9\nart4",
             "image_type": "png"
         },
         {
@@ -4348,7 +4348,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Gwen Bassett",
-            "notes": "Day7\nart4\n\nParadox \u2014 Whenever you cast a spell from anywhere other than your hand, you may sacrifice The Scarlet Lady. If you do, create a 3/2 black Horror creature token with menace.",
+            "notes": "Day7\n!tag wishlist\nart4\n\nParadox \u2014 Whenever you cast a spell from anywhere other than your hand, you may sacrifice The Scarlet Lady. If you do, create a 3/2 black Horror creature token with menace.",
             "image_type": "png"
         },
         {
@@ -4424,7 +4424,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Daniela Ivanova",
-            "notes": "Day3\nart4\n!addtoken Veil;1",
+            "notes": "Day3\nart4\n!addtoken Veil;1\n!tag aggro-threat",
             "image_type": "png"
         },
         {
@@ -5013,7 +5013,7 @@
             "set": "BLV",
             "loyalty": "3",
             "artist": "St Luthien",
-            "notes": "Day1\n\nart3\n!tag wishlist",
+            "notes": "Day1\n\nart3",
             "image_type": "png"
         },
         {
@@ -5021,7 +5021,7 @@
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Enchantment",
-            "number": 14,
+            "number": 15,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "When Hyev enters, veil the top card of your library with a hope counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]\nCreatures you control with hope counters on them get +4/+4 and have flying and \u201cOther creatures have base power and toughness 1/1.\u201d",
@@ -5146,7 +5146,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Connor Sheehan",
-            "notes": "art2\n!tag wishlist",
+            "notes": "art2",
             "image_type": "png"
         },
         {
@@ -5404,7 +5404,7 @@
             "number": 184,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "The first creature spell you cast each turn has glimpse. Its glimpse cost is equal to its mana cost reduced by {2}. [i](You may cast it as though they had flash for its glimpse cost. Exile it when it enters. You may cast it without glimpse later.)[/i]",
+            "rules_text": "The first creature spell you cast each turn has glimpse. Its glimpse cost is equal to its mana cost reduced by {2}. [i](You may cast it as though it had flash for its glimpse cost. Exile it when it enters. You may cast it without glimpse later.)[/i]",
             "flavor_text": "[i]Recall the future; predict the past.[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5412,7 +5412,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Denis Kornev",
-            "notes": "art3\n!addtoken Vision;1",
+            "notes": "art3\n!addtoken Vision;1\n!tag wishlist",
             "image_type": "png"
         },
         {
@@ -5431,7 +5431,7 @@
             "set": "BLV",
             "loyalty": "",
             "artist": "Miqdam Ul Ghani",
-            "notes": "art3",
+            "notes": "art3\n!tag wishlist",
             "image_type": "png"
         },
         {

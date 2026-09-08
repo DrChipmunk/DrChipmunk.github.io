@@ -75,9 +75,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{W}",
 			"type": "Artifact Creature — Toy",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9_Full-Service Staff.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10_Full-Service Staff.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Human Mercenary",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/13_Hummingbird Leaguer.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/14_Hummingbird Leaguer.png"
 			}
 		},
 		{
@@ -121,13 +121,13 @@
 			}
 		},
 		{
-			"name": "Icy Reception",
+			"name": "Frosty Reception",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "15",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/15_Icy Reception.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9_Frosty Reception.png"
 			}
 		},
 		{
@@ -215,9 +215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "51",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/51_Dusky Procession.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/52_Dusky Procession.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "53",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/53_Envision.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/54_Envision.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "54",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/54_Fickle Fortune.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/55_Fickle Fortune.png"
 			}
 		},
 		{
@@ -1125,9 +1125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Artifact",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10_Gilded Cage.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11_Gilded Cage.png"
 			}
 		},
 		{
@@ -1245,9 +1245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11_Hear the Chimes.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12_Hear the Chimes.png"
 			}
 		},
 		{
@@ -1255,9 +1255,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Faerie Scion",
-			"collector_number": "55",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/55_Half-Fae Scion.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/56_Half-Fae Scion.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "50",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/50_Duplicitous Conversation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/51_Duplicitous Conversation.png"
 			}
 		},
 		{
@@ -1325,19 +1325,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact",
-			"collector_number": "56",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/56_Impossible Apparatus.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/57_Impossible Apparatus.png"
 			}
 		},
 		{
-			"name": "Let Them Down Easy",
+			"name": "Distracting Apparitions",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "57",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/57_Let Them Down Easy.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/50_Distracting Apparitions.png"
 			}
 		},
 		{
@@ -1365,9 +1365,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "52",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/52_Entrancing Madman.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/53_Entrancing Madman.png"
 			}
 		},
 		{
@@ -1425,9 +1425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Spirit",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12_Heartbroken Hollow.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/13_Heartbroken Hollow.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Legendary Enchantment",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/14_Hyev, the Resplendent Word.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/15_Hyev, the Resplendent Word.png"
 			}
 		},
 		{
@@ -3030,7 +3030,7 @@
 	5 Duplicitous Conversation
 	5 Triplicate Trance
 	5 Impossible Apparatus
-	5 Let Them Down Easy
+	5 Distracting Apparitions
 	5 Brimtouched Burglar
 	5 Nearly-Forgotten Memory
 	5 College of Symmetries Tutor
@@ -3095,7 +3095,7 @@
 	5 Fogtide Redeemer
 	5 Hummingbird Leaguer
 	5 Slapdash Banishing
-	5 Icy Reception
+	5 Frosty Reception
 	5 Recurring Apparition
 	5 Siezed From Slumber
 	5 Liminal Visitor

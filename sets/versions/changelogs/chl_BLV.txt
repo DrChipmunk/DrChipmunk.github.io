@@ -1,4 +1,92 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+Frosty Reception added.
+Distracting Apparitions added.
+
+Icy Reception removed.
+Let Them Down Easy removed.
+
+Ephebic Phantom
+
+Dance with Death
+
+Mug
+
+Elvish Mystic
+
+Gelatinous Trendsetter
+
+Riverside View
+
+Dubious Path
+
+Decadent Hall
+
+Secluded Farmland
+
+Thriving Tower
+
+Downtown Theater
+
+Reliable Market
+
+Disturbing Locale
+
+Impressive Skyline
+
+Beloved Chapel
+
+Wick-Masked Warden
+
+Disappearing Actor
+
+Duplicitous Conversation
+
+Maverick Medicalist
+
+Masksmith
+
+Pocket Armillary
+
+The Attended One
+
+Faith Winslip, Riflehearted
+
+Carize, Editor of Lineages
+
+Your Enthusiastic Employer
+
+Vault of Forgeries
+
+Snapfinger Rogue
+
+Shade of Impending Doom
+
+Bianco, Midnight's Host
+pt: 3/2 => 3/3
+
+Intruding Thought
+
+Highborn Dragoness
+
+Precocious Snitch
+
+The Scarlet Lady
+
+Girl in the Phoenix Dress
+
+Girl with Carnations
+
+All-Consuming Project
+
+Revisionist Historian
+rules_text: The first creature spell you cast each turn has glimpse. Its glimpse cost is equal to its mana cost reduced by {2}. [i](You may cast it as though they had flash for its glimpse cost. Exile it when it enters. You may cast it without glimpse later.)[/i] => The first creature spell you cast each turn has glimpse. Its glimpse cost is equal to its mana cost reduced by {2}. [i](You may cast it as though it had flash for its glimpse cost. Exile it when it enters. You may cast it without glimpse later.)[/i]
+
+Dreila, the Dealer
+
+
+VERSION 16 CHANGELOG
 ====================
 
 

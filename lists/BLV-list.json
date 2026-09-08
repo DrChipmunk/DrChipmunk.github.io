@@ -1,7 +1,7 @@
 ﻿[
     {
         "card_name": "Hyev, the Resplendent Word",
-        "number": 14,
+        "number": 15,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -481,7 +481,7 @@
     },
     {
         "card_name": "Gilded Cage",
-        "number": 10,
+        "number": 11,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -521,7 +521,7 @@
     },
     {
         "card_name": "Hear the Chimes",
-        "number": 11,
+        "number": 12,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -561,7 +561,7 @@
     },
     {
         "card_name": "Heartbroken Hollow",
-        "number": 12,
+        "number": 13,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -648,7 +648,7 @@
         "position": ""
     },
     {
-        "card_name": "Duplicitous Conversation",
+        "card_name": "Distracting Apparitions",
         "number": 50,
         "shape": "normal",
         "set": "BLV",
@@ -688,7 +688,7 @@
         "position": ""
     },
     {
-        "card_name": "Dusky Procession",
+        "card_name": "Duplicitous Conversation",
         "number": 51,
         "shape": "normal",
         "set": "BLV",
@@ -728,8 +728,8 @@
         "position": ""
     },
     {
-        "card_name": "Half-Fae Scion",
-        "number": 55,
+        "card_name": "Dusky Procession",
+        "number": 52,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -768,7 +768,7 @@
         "position": ""
     },
     {
-        "card_name": "Impossible Apparatus",
+        "card_name": "Half-Fae Scion",
         "number": 56,
         "shape": "normal",
         "set": "BLV",
@@ -808,7 +808,7 @@
         "position": ""
     },
     {
-        "card_name": "Let Them Down Easy",
+        "card_name": "Impossible Apparatus",
         "number": 57,
         "shape": "normal",
         "set": "BLV",
@@ -1049,7 +1049,7 @@
     },
     {
         "card_name": "Entrancing Madman",
-        "number": 52,
+        "number": 53,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1080,7 +1080,7 @@
         "position": ""
     },
     {
-        "card_name": "Full-Service Staff",
+        "card_name": "Frosty Reception",
         "number": 9,
         "shape": "normal",
         "set": "BLV",
@@ -1089,7 +1089,7 @@
     },
     {
         "card_name": "Envision",
-        "number": 53,
+        "number": 54,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1120,8 +1120,8 @@
         "position": ""
     },
     {
-        "card_name": "Hummingbird Leaguer",
-        "number": 13,
+        "card_name": "Full-Service Staff",
+        "number": 10,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1129,7 +1129,7 @@
     },
     {
         "card_name": "Fickle Fortune",
-        "number": 54,
+        "number": 55,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1160,8 +1160,8 @@
         "position": ""
     },
     {
-        "card_name": "Icy Reception",
-        "number": 15,
+        "card_name": "Hummingbird Leaguer",
+        "number": 14,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
