@@ -215,9 +215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/52_Dusky Procession.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/51_Dusky Procession.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "54",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/54_Envision.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/53_Envision.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "55",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/55_Fickle Fortune.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/54_Fickle Fortune.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "51",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/51_Duplicitous Conversation.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/50_Duplicitous Conversation.png"
 			}
 		},
 		{
@@ -1331,13 +1331,13 @@
 			}
 		},
 		{
-			"name": "Distracting Apparitions",
+			"name": "Frank Appraisal",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "50",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/50_Distracting Apparitions.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/55_Frank Appraisal.png"
 			}
 		},
 		{
@@ -1365,9 +1365,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "53",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/53_Entrancing Madman.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/52_Entrancing Madman.png"
 			}
 		},
 		{
@@ -2525,9 +2525,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Toy",
-			"collector_number": "10",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10t_colorless Toy 11BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/15t_colorless Toy 11BLV.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "11",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11t_TreasureBLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/16t_TreasureBLV.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact — Equipment",
-			"collector_number": "12",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12t_The Winslip Special BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/17t_The Winslip Special BLV.png"
 			}
 		},
 		{
@@ -2775,9 +2775,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact",
-			"collector_number": "9",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9t_The Second Fiddle BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/14t_The Second Fiddle BLV.png"
 			}
 		},
 		{
@@ -2898,6 +2898,56 @@
 			"collector_number": "7",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/7t_green Beast 33BLV.png"
+			}
+		},
+		{
+			"name": "Mox Pearl",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11t_Mox Pearl.png"
+			}
+		},
+		{
+			"name": "Mox Emerald",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9t_Mox Emerald.png"
+			}
+		},
+		{
+			"name": "Mox Jet",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10t_Mox Jet.png"
+			}
+		},
+		{
+			"name": "Mox Ruby",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12t_Mox Ruby.png"
+			}
+		},
+		{
+			"name": "Mox Sapphire",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Sapphire.png"
 			}
 		}
 	]
@@ -3030,7 +3080,7 @@
 	5 Duplicitous Conversation
 	5 Triplicate Trance
 	5 Impossible Apparatus
-	5 Distracting Apparitions
+	5 Frank Appraisal
 	5 Brimtouched Burglar
 	5 Nearly-Forgotten Memory
 	5 College of Symmetries Tutor

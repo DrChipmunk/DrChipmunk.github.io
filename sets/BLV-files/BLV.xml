@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-08</releasedate>
+			<releasedate>2026-09-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -381,7 +381,7 @@ Whenever you scry or surveil, this creature gets +1/+0 until end of turn and can
 		<card>
 			<name>Dusky Procession</name>
 			<text>Look at the top two cards of your library. Put one of them into your hand and veil the other. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/52_Dusky Procession.png" num="52">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/51_Dusky Procession.png" num="51">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -434,7 +434,7 @@ When this creature enters, scry 2, then veil the top card of your library. (Put 
 		<card>
 			<name>Envision</name>
 			<text>Scry 2, then draw two cards.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/54_Envision.png" num="54">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/53_Envision.png" num="53">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -501,7 +501,7 @@ Flashback—{1}{U}, Discard an Island card. (You may cast this card from your gr
 			<text>Choose one — 
 • Counter target spell.
 • Exile target creature. Its owner may cast it without paying its mana cost.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/55_Fickle Fortune.png" num="55">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/54_Fickle Fortune.png" num="54">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2225,7 +2225,7 @@ You may cast noncreature spells from the top of your library.</text>
 		<card>
 			<name>Duplicitous Conversation</name>
 			<text>Look at the top five cards of your library. Separate them into a face-up and face-down pile. An opponent chooses one of the piles to put into your hand. Put the other on the bottom of your library in a random order.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/51_Duplicitous Conversation.png" num="51">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/50_Duplicitous Conversation.png" num="50">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2290,10 +2290,10 @@ Flashback—{2}{U}{U}, Discard a blue card. (You may cast this card from your gr
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Distracting Apparitions</name>
+			<name>Frank Appraisal</name>
 			<text>Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)
 Counter target spell unless its controller pays {2}. If the gift was promised, draw a card.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/50_Distracting Apparitions.png" num="50">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/55_Frank Appraisal.png" num="55">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2345,7 +2345,7 @@ When this Memory enters, scry 2, then exile the top card of your library face do
 		<card>
 			<name>Entrancing Madman</name>
 			<text>Spells you cast during an opponent&apos;s turn cost {1} less to cast.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/53_Entrancing Madman.png" num="53">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/52_Entrancing Madman.png" num="52">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3629,7 +3629,7 @@ Whenever you attack with exactly two creatures, they each get +0/+2 until end of
 		</card>
 		<card>
 			<name>Disgorger of Suns</name>
-			<text>Glimpse {U} (You may cast this spell as though it had flash for {U}. When it enters, exile it. You may cast it without glimpse later.)
+			<text>Glimpse {1}{U} (You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without glimpse later.)
 Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/48_Disgorger of Suns.png" num="48">BLV</set>
 			<prop>
@@ -3641,7 +3641,7 @@ Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may
 				<cmc>6</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>5/3</pt>
+				<pt>5/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3949,7 +3949,7 @@ Whenever a player casts a spell from anywhere other than their hand, this creatu
 		<card>
 			<name>The Scarlet Lady</name>
 			<text>When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled.
-As long as you own no cards in exile with dream counters on them, The Scarlet Lady is a 5/4 Horror with menace.</text>
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady gets +3/+3 and has menace.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/144_The Scarlet Lady.png" num="144">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4376,7 +4376,7 @@ This land enters tapped.
 		<card>
 			<name>colorless Toy 11BLV BLV</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/10t_colorless Toy 11BLV.png" num="10">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/15t_colorless Toy 11BLV.png" num="15">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4446,7 +4446,7 @@ This land enters tapped.
 		<card>
 			<name>TreasureBLV BLV</name>
 			<text>{T}, Sacrifice this token: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/11t_TreasureBLV.png" num="11">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/16t_TreasureBLV.png" num="16">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4463,7 +4463,7 @@ This land enters tapped.
 			<text>Equipped creature has double strike.
 Equip creature with base power 2 {1}
 Equip {4}</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/12t_The Winslip Special BLV.png" num="12">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/17t_The Winslip Special BLV.png" num="17">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4796,7 +4796,7 @@ At the beginning of your upkeep, you may cast an exiled nonland card an opponent
 		<card>
 			<name>The Second Fiddle BLV BLV</name>
 			<text>{1}, {T},: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/9t_The Second Fiddle BLV.png" num="9">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/14t_The Second Fiddle BLV.png" num="14">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5004,6 +5004,91 @@ At the beginning of combat on your turn, reveal the top card of your library and
 				<pt>X/X</pt>
 			</prop>
 			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mox Pearl BLV</name>
+			<text>(This token&apos;s mana cost is {0})
+{T}: Add {W}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/11t_Mox Pearl.png" num="11">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mox Emerald BLV</name>
+			<text>(This token&apos;s mana cost is {0})
+{T}: Add {G}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/9t_Mox Emerald.png" num="9">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mox Jet BLV</name>
+			<text>(This token&apos;s mana cost is {0})
+{T}: Add {B}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/10t_Mox Jet.png" num="10">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mox Ruby BLV</name>
+			<text>(This token&apos;s mana cost is {0})
+{T}: Add {R}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/12t_Mox Ruby.png" num="12">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Mox Sapphire BLV</name>
+			<text>(This token&apos;s mana cost is {0})
+{T}: Add {U}.</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Sapphire.png" num="13">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
 			<token>1</token>
 		</card>
 	</cards>

@@ -648,7 +648,7 @@
         "position": ""
     },
     {
-        "card_name": "Distracting Apparitions",
+        "card_name": "Duplicitous Conversation",
         "number": 50,
         "shape": "normal",
         "set": "BLV",
@@ -688,7 +688,7 @@
         "position": ""
     },
     {
-        "card_name": "Duplicitous Conversation",
+        "card_name": "Dusky Procession",
         "number": 51,
         "shape": "normal",
         "set": "BLV",
@@ -728,8 +728,8 @@
         "position": ""
     },
     {
-        "card_name": "Dusky Procession",
-        "number": 52,
+        "card_name": "Frank Appraisal",
+        "number": 55,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1049,7 +1049,7 @@
     },
     {
         "card_name": "Entrancing Madman",
-        "number": 53,
+        "number": 52,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1089,7 +1089,7 @@
     },
     {
         "card_name": "Envision",
-        "number": 54,
+        "number": 53,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1129,7 +1129,7 @@
     },
     {
         "card_name": "Fickle Fortune",
-        "number": 55,
+        "number": 54,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -2433,7 +2433,7 @@
         "position": ""
     },
     {
-        "card_name": "The Second Fiddle BLV",
+        "card_name": "Mox Emerald",
         "number": 9,
         "shape": "token",
         "set": "BLV",
@@ -2441,7 +2441,7 @@
         "position": ""
     },
     {
-        "card_name": "colorless Toy 11BLV",
+        "card_name": "Mox Jet",
         "number": 10,
         "shape": "token",
         "set": "BLV",
@@ -2449,7 +2449,7 @@
         "position": ""
     },
     {
-        "card_name": "TreasureBLV",
+        "card_name": "Mox Pearl",
         "number": 11,
         "shape": "token",
         "set": "BLV",
@@ -2457,8 +2457,48 @@
         "position": ""
     },
     {
-        "card_name": "The Winslip Special BLV",
+        "card_name": "Mox Ruby",
         "number": 12,
+        "shape": "token",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mox Sapphire",
+        "number": 13,
+        "shape": "token",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Second Fiddle BLV",
+        "number": 14,
+        "shape": "token",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "colorless Toy 11BLV",
+        "number": 15,
+        "shape": "token",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "TreasureBLV",
+        "number": 16,
+        "shape": "token",
+        "set": "BLV",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Winslip Special BLV",
+        "number": 17,
         "shape": "token",
         "set": "BLV",
         "rotated": false,

@@ -1,4 +1,30 @@
-﻿VERSION 17 CHANGELOG
+﻿VERSION 18 CHANGELOG
+====================
+
+Frank Appraisal added.
+Mox Pearl added.
+Mox Emerald added.
+Mox Jet added.
+Mox Ruby added.
+Mox Sapphire added.
+
+Distracting Apparitions removed.
+
+Determined Widower
+
+Disgorger of Suns
+rules_text: Glimpse {U} [i](You may cast this spell as though it had flash for {U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy. => Glimpse {1}{U} [i](You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy.
+pt: 5/3 => 5/4
+
+The Scarlet Lady
+rules_text: When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled.
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady is a 5/4 Horror with menace. => When The Scarlet Lady enters, exile each card from your hand face down with a dream counter on it. You may play those cards for as long as they remain exiled.
+As long as you own no cards in exile with dream counters on them, The Scarlet Lady gets +3/+3 and has menace.
+
+
+VERSION 17 CHANGELOG
 ====================
 
 Frosty Reception added.
