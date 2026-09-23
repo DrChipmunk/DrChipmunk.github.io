@@ -34,7 +34,7 @@
 			"name": "Emerald Lapidary",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
-			"type": "Creature — Human Scion",
+			"type": "Artifact Creature — Toy",
 			"collector_number": "6",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/6_Emerald Lapidary.png"
@@ -184,7 +184,7 @@
 			"name": "Cellar Oracle",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Goblin Wizard",
+			"type": "Creature — Human Wizard",
 			"collector_number": "45",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/45_Cellar Oracle.png"
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "85",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/85_Dance with Death.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/86_Dance with Death.png"
 			}
 		},
 		{
@@ -624,7 +624,7 @@
 			"name": "Fidgety Physician",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
-			"type": "Creature — Goblin Cleric",
+			"type": "Creature — Human Cleric",
 			"collector_number": "172",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/172_Fidgety Physician.png"
@@ -1461,13 +1461,13 @@
 			}
 		},
 		{
-			"name": "Determined Widower",
+			"name": "Cultivator of Souls",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Noble",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/86_Determined Widower.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/85_Cultivator of Souls.png"
 			}
 		},
 		{
@@ -1493,7 +1493,7 @@
 		{
 			"name": "Exchange of Vitality",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{4}{B}",
 			"type": "Sorcery",
 			"collector_number": "89",
 			"image_uris": {
@@ -2525,9 +2525,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Toy",
-			"collector_number": "15",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/15t_colorless Toy 11BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/19t_colorless Toy 11BLV.png"
 			}
 		},
 		{
@@ -2545,9 +2545,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Horror",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/4t_black Horror 32BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/5t_black Horror 32BLV.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Beast",
-			"collector_number": "6",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/6t_green Beast 33BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9t_green Beast 33BLV.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "16",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/16t_TreasureBLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/20t_TreasureBLV.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact — Equipment",
-			"collector_number": "17",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/17t_The Winslip Special BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/21t_The Winslip Special BLV.png"
 			}
 		},
 		{
@@ -2585,9 +2585,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment",
-			"collector_number": "8",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/8t_Verse BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12t_Verse BLV.png"
 			}
 		},
 		{
@@ -2704,7 +2704,7 @@
 			"name": "All-Consuming Project",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Artifact — Clue",
+			"type": "Artifact",
 			"collector_number": "41",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/41_All-Consuming Project.png"
@@ -2775,9 +2775,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact",
-			"collector_number": "14",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/14t_The Second Fiddle BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/18t_The Second Fiddle BLV.png"
 			}
 		},
 		{
@@ -2865,9 +2865,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "5",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/5t_Can Be Played From Exile.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/7t_Can Be Played From Exile.png"
 			}
 		},
 		{
@@ -2895,9 +2895,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Dragon Spirit",
-			"collector_number": "7",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/7t_green Beast 33BLV.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10t_green Beast 33BLV.png"
 			}
 		},
 		{
@@ -2905,9 +2905,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "11",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11t_Mox Pearl.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/15t_Mox Pearl.png"
 			}
 		},
 		{
@@ -2915,9 +2915,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "9",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/9t_Mox Emerald.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Emerald.png"
 			}
 		},
 		{
@@ -2925,9 +2925,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "10",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/10t_Mox Jet.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/14t_Mox Jet.png"
 			}
 		},
 		{
@@ -2935,9 +2935,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "12",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/12t_Mox Ruby.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/16t_Mox Ruby.png"
 			}
 		},
 		{
@@ -2945,9 +2945,49 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "13",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Sapphire.png"
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/17t_Mox Sapphire.png"
+			}
+		},
+		{
+			"name": "Stolen",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/6t_Stolen.png"
+			}
+		},
+		{
+			"name": "The Scarlet Dream",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/8t_The Scarlet Dream.png"
+			}
+		},
+		{
+			"name": "Red Hot",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/11t_Red Hot.png"
+			}
+		},
+		{
+			"name": "Temperance",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Reminder",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/4t_Temperance.png"
 			}
 		}
 	]
@@ -3092,7 +3132,7 @@
 	5 Scholar of Dualities
 	5 One Terrible Night
 	5 Mire Maiden's Request
-	5 Determined Widower
+	5 Cultivator of Souls
 	5 Maverick Medicalist
 	5 Exchange of Vitality
 	5 Father of Ransoms

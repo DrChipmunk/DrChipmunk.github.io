@@ -1,4 +1,90 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+Cultivator of Souls added.
+Stolen added.
+The Scarlet Dream added.
+Red Hot added.
+Temperance added.
+
+Determined Widower removed.
+
+Emerald Lapidary
+type: Creature — Human Scion => Artifact Creature — Toy
+
+Cellar Oracle
+type: Creature — Goblin Wizard => Creature — Human Wizard
+
+Novice Bloodsucker
+
+Fidgety Physician
+type: Creature — Goblin Cleric => Creature — Human Cleric
+
+Sonorous Terror
+rules_text: When this creature enters, veil the top card of your library, then put a +1/+1 counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => When this creature enters, veil the top card of your library, then put a +1/+1 counter on that creature. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Peel Back the Mind
+
+Transformed Deacon
+rules_text: Whenever you cast your second spell in a turn, create a 1/1 white Spirit creature token with flying. => Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.
+
+Temperance Deaconess
+
+Hear the Chimes
+rules_text: Return up to one target permanent card that was put into your graveyard this turn from anywhere to your hand.
+Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Return up to one target creature card that was put into your graveyard this turn from anywhere to your hand.
+Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Impossible Apparatus
+
+Bedeviled Trumpet
+rules_text: Equipped creature gets +3/+2 and has menace.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, attach this Equipment to target creature you control.
+Equip {4} => Equipped creature gets +2/+2 and has menace.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, attach this Equipment to target creature you control.
+Equip {4}
+
+Exchange of Vitality
+cost: {2}{B} => {4}{B}
+rules_text: As an additional cost to cast this spell, remove a counter from a creature you control or pay {2}.
+Return target creature card from your graveyard to the battlefield. => Return target creature card from your graveyard to the battlefield. For each type of counter among creatures you control, you may put a counter of that type on that creature.
+
+Break the Mirror
+rules_text: Choose one — 
+• Destroy any number of target artifacts with total mana value X or less.
+• Exile the top X cards of your library. Choose two of them. You may play those cards until the end of your next turn. => Choose one — 
+• Destroy up to X target artifacts with total mana value X or less.
+• Exile the top X cards of your library. Choose two of them. You may play those cards until the end of your next turn.
+
+Unkillable Profusion
+
+Xolier of the Stylish Entrance
+
+Arden, Thief of Futures
+
+Mr. Hours, Pseudarchivist
+rules_text: When this creature enters, scry 2.
+{X}{U}: Exile the bottom card of your library. If it's a nonland card with mana value X or less, you may cast it without paying its mana cost. Activate only as a sorcery. => When Mr. Hours enters, scry 2.
+{X}{U}: Exile the bottom card of your library. If it's a nonland card with mana value X or less, you may cast it without paying its mana cost. Activate only as a sorcery.
+
+Precocious Snitch
+
+The Scarlet Lady
+
+Ringmaster's Refrain
+
+Stage of Endless Possibilities
+
+All-Consuming Project
+type: Artifact — Clue => Artifact
+rules_text: During your turn, you can't cast spells from your hand.
+{U}, {T}: Draw a card.
+{2}, Sacrifice this artifact: Draw a card. => During your turn, you can't cast spells from your hand.
+{U}, {T}: Draw a card.
+{4}, Sacrifice this artifact: Draw a card.
+
+
+VERSION 18 CHANGELOG
 ====================
 
 Frank Appraisal added.

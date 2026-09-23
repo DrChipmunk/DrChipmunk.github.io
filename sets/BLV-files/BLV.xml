@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-13</releasedate>
+			<releasedate>2026-09-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -69,7 +69,7 @@ At the beginning of your second main phase, if two or more nontoken creatures en
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Human Scion</type>
+				<type>Artifact Creature — Toy</type>
 				<maintype>Creature</maintype>
 				<manacost>2W</manacost>
 				<cmc>3</cmc>
@@ -333,7 +333,7 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, this c
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Goblin Wizard</type>
+				<type>Creature — Human Wizard</type>
 				<maintype>Creature</maintype>
 				<manacost>1U</manacost>
 				<cmc>2</cmc>
@@ -740,7 +740,7 @@ Destroy target creature.</text>
 		<card>
 			<name>Dance with Death</name>
 			<text>Target creature gets -2/-2 until end of turn. If you&apos;ve cast another spell this turn, it gets -3/-3 until end of turn instead.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/85_Dance with Death.png" num="85">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/86_Dance with Death.png" num="86">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1091,7 +1091,7 @@ When this creature enters, target creature you control with base power 2 gets +2
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Goblin Cleric</type>
+				<type>Creature — Human Cleric</type>
 				<maintype>Creature</maintype>
 				<manacost>2G</manacost>
 				<cmc>3</cmc>
@@ -1172,7 +1172,7 @@ Creatures you control with counters on them have ward {1}. (Whenever this creatu
 		</card>
 		<card>
 			<name>Sonorous Terror</name>
-			<text>When this creature enters, veil the top card of your library, then put a +1/+1 counter on it. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
+			<text>When this creature enters, veil the top card of your library, then put a +1/+1 counter on that creature. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/190_Sonorous Terror.png" num="190">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1751,7 +1751,7 @@ When you cast your second spell each turn, if this enchantment didn&apos;t enter
 		</card>
 		<card>
 			<name>Transformed Deacon</name>
-			<text>Whenever you cast your second spell in a turn, create a 1/1 white Spirit creature token with flying.</text>
+			<text>Whenever you cast your second spell each turn, create a 1/1 white Spirit creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/229_Transformed Deacon.png" num="229">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2134,7 +2134,7 @@ Flashback—{2}{W}, Discard a white card. (You may cast this card from your grav
 		</card>
 		<card>
 			<name>Hear the Chimes</name>
-			<text>Return up to one target permanent card that was put into your graveyard this turn from anywhere to your hand.
+			<text>Return up to one target creature card that was put into your graveyard this turn from anywhere to your hand.
 Veil the top card of your library. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/12_Hear the Chimes.png" num="12">BLV</set>
 			<prop>
@@ -2431,7 +2431,7 @@ Target creature gets -X/-X until end of turn, where X is the total number of car
 		</card>
 		<card>
 			<name>Bedeviled Trumpet</name>
-			<text>Equipped creature gets +3/+2 and has menace.
+			<text>Equipped creature gets +2/+2 and has menace.
 Paradox — Whenever you cast a spell from anywhere other than your hand, attach this Equipment to target creature you control.
 Equip {4}</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/80_Bedeviled Trumpet.png" num="80">BLV</set>
@@ -2516,9 +2516,9 @@ Flashback—{1}{B}, Discard a black card. (You may cast this card from your grav
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Determined Widower</name>
+			<name>Cultivator of Souls</name>
 			<text>Paradox — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on a Spirit you control. If you can&apos;t, create a 1/1 white Spirit creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/86_Determined Widower.png" num="86">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/85_Cultivator of Souls.png" num="85">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2570,16 +2570,15 @@ When this creature enters, scry 1.</text>
 		</card>
 		<card>
 			<name>Exchange of Vitality</name>
-			<text>As an additional cost to cast this spell, remove a counter from a creature you control or pay {2}.
-Return target creature card from your graveyard to the battlefield.</text>
+			<text>Return target creature card from your graveyard to the battlefield. For each type of counter among creatures you control, you may put a counter of that type on that creature.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/89_Exchange of Vitality.png" num="89">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -2866,7 +2865,7 @@ Whenever you attack with exactly two creatures, veil the top card of your librar
 		<card>
 			<name>Break the Mirror</name>
 			<text>Choose one — 
-• Destroy any number of target artifacts with total mana value X or less.
+• Destroy up to X target artifacts with total mana value X or less.
 • Exile the top X cards of your library. Choose two of them. You may play those cards until the end of your next turn.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/123_Break the Mirror.png" num="123">BLV</set>
 			<prop>
@@ -3611,7 +3610,7 @@ Whenever you attack with exactly two creatures, they each get +0/+2 until end of
 		</card>
 		<card>
 			<name>Mr. Hours, Pseudarchivist</name>
-			<text>When this creature enters, scry 2.
+			<text>When Mr. Hours enters, scry 2.
 {X}{U}: Exile the bottom card of your library. If it&apos;s a nonland card with mana value X or less, you may cast it without paying its mana cost. Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/62_Mr. Hours, Pseudarchivist.png" num="62">BLV</set>
 			<prop>
@@ -4376,7 +4375,7 @@ This land enters tapped.
 		<card>
 			<name>colorless Toy 11BLV BLV</name>
 			<text></text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/15t_colorless Toy 11BLV.png" num="15">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/19t_colorless Toy 11BLV.png" num="19">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4410,7 +4409,7 @@ This land enters tapped.
 		<card>
 			<name>black Horror 32BLV BLV</name>
 			<text>Menace</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/4t_black Horror 32BLV.png" num="4">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/5t_black Horror 32BLV.png" num="5">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4428,7 +4427,7 @@ This land enters tapped.
 		<card>
 			<name>green Beast 33BLV BLV</name>
 			<text>Trample</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/6t_green Beast 33BLV.png" num="6">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/9t_green Beast 33BLV.png" num="9">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4446,7 +4445,7 @@ This land enters tapped.
 		<card>
 			<name>TreasureBLV BLV</name>
 			<text>{T}, Sacrifice this token: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/16t_TreasureBLV.png" num="16">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/20t_TreasureBLV.png" num="20">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4463,7 +4462,7 @@ This land enters tapped.
 			<text>Equipped creature has double strike.
 Equip creature with base power 2 {1}
 Equip {4}</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/17t_The Winslip Special BLV.png" num="17">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/21t_The Winslip Special BLV.png" num="21">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4478,7 +4477,7 @@ Equip {4}</text>
 		<card>
 			<name>Verse BLV BLV</name>
 			<text>Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/8t_Verse BLV.png" num="8">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/12t_Verse BLV.png" num="12">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4675,12 +4674,12 @@ As you draft a card, you may draft an additional card from that booster pack. If
 			<name>All-Consuming Project</name>
 			<text>During your turn, you can&apos;t cast spells from your hand.
 {U}, {T}: Draw a card.
-{2}, Sacrifice this artifact: Draw a card.</text>
+{4}, Sacrifice this artifact: Draw a card.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/41_All-Consuming Project.png" num="41">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact — Clue</type>
+				<type>Artifact</type>
 				<maintype>Artifact</maintype>
 				<manacost>1U</manacost>
 				<cmc>2</cmc>
@@ -4796,7 +4795,7 @@ At the beginning of your upkeep, you may cast an exiled nonland card an opponent
 		<card>
 			<name>The Second Fiddle BLV BLV</name>
 			<text>{1}, {T},: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/14t_The Second Fiddle BLV.png" num="14">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/18t_The Second Fiddle BLV.png" num="18">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4944,7 +4943,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 		<card>
 			<name>Can Be Played From Exile BLV</name>
 			<text>(These cards can be played from exile.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/5t_Can Be Played From Exile.png" num="5">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/7t_Can Be Played From Exile.png" num="7">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4991,7 +4990,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 		<card>
 			<name>green Beast 33BLV BLV</name>
 			<text>Flying, haste</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/7t_green Beast 33BLV.png" num="7">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/10t_green Beast 33BLV.png" num="10">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5010,7 +5009,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 			<name>Mox Pearl BLV</name>
 			<text>(This token&apos;s mana cost is {0})
 {T}: Add {W}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/11t_Mox Pearl.png" num="11">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/15t_Mox Pearl.png" num="15">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5027,7 +5026,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 			<name>Mox Emerald BLV</name>
 			<text>(This token&apos;s mana cost is {0})
 {T}: Add {G}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/9t_Mox Emerald.png" num="9">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Emerald.png" num="13">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5044,7 +5043,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 			<name>Mox Jet BLV</name>
 			<text>(This token&apos;s mana cost is {0})
 {T}: Add {B}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/10t_Mox Jet.png" num="10">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/14t_Mox Jet.png" num="14">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5061,7 +5060,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 			<name>Mox Ruby BLV</name>
 			<text>(This token&apos;s mana cost is {0})
 {T}: Add {R}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/12t_Mox Ruby.png" num="12">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/16t_Mox Ruby.png" num="16">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5078,7 +5077,7 @@ At the beginning of combat on your turn, reveal the top card of your library and
 			<name>Mox Sapphire BLV</name>
 			<text>(This token&apos;s mana cost is {0})
 {T}: Add {U}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/13t_Mox Sapphire.png" num="13">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/17t_Mox Sapphire.png" num="17">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -5087,6 +5086,74 @@ At the beginning of combat on your turn, reveal the top card of your library and
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Stolen BLV</name>
+			<text>(You may look at these exiled cards any time, may play them, and may spend mana of any color to cast them.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/6t_Stolen.png" num="6">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>The Scarlet Dream BLV</name>
+			<text>(These cards are exiled face down with dream counters on them. You may look at and play them.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/8t_The Scarlet Dream.png" num="8">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Red Hot BLV</name>
+			<text>(You may play these exiled cards on any turn a creature you controlled dealt damage to a player.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/11t_Red Hot.png" num="11">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Temperance BLV</name>
+			<text>(You may play these cards. They cost {1} more to cast.)</text>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/4t_Temperance.png" num="4">BLV</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Reminder</type>
+				<maintype>Reminder</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 			<token>1</token>
