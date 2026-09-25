@@ -1,4 +1,605 @@
-﻿VERSION 19 CHANGELOG
+﻿VERSION 20 CHANGELOG
+====================
+
+Seized from Slumber added.
+Extravagant Host added.
+
+Siezed From Slumber removed.
+Lavish Host removed.
+
+Street Eulogist
+
+Ephebic Phantom
+
+Proper Presentation
+
+Emerald Lapidary
+
+Retired Dowager
+
+Spry Matron
+
+Collector of Invitations
+
+Full-Service Staff
+
+Temperance Exemplar
+
+Fogtide Redeemer
+
+Hummingbird Leaguer
+
+Slapdash Banishing
+
+Frosty Reception
+
+Recurring Apparition
+
+Liminal Visitor
+
+Undying Mouser
+
+Affordable Astrologer
+
+Cellar Oracle
+
+Occult Investigator
+
+Mirror-Marcher
+
+Dusky Procession
+
+Serpentine Deacon
+
+Possessed Ingenue
+rules_text: Flash
+Flying
+When this creature enters, scry 2, then veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Flash
+Flying
+When this creature enters, scry 1, then veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Envision
+
+Search the Stacks
+
+The Past Beckons
+
+Unlikely Fling
+
+Fickle Fortune
+
+Disgraceful Blemish
+
+Rite of the Rose
+
+Undying Beggar
+
+Uncanny Chef
+
+Discarded Mannequin
+
+Beckoning Bard
+
+Morbid Literati
+
+Fly By Midnight
+
+Velvet Glove Assassin
+
+Herald of the Chimes
+
+Duress
+
+Expire
+
+Scathing Critique
+
+Dance with Death
+
+Scintillating Draught
+
+Read the Bones
+
+Dashing Ringmaster
+
+Novice Bloodsucker
+
+Manic Scrivener
+
+Clockwork Concertists
+
+Unwoven Seamstress
+
+Impudent Scion
+
+Crystal Spires Cardsharp
+
+Crazed Arsonist
+
+Star-Touched Ripper
+
+Scarlet Reminiscence
+
+Asphyxiation
+
+Mug
+
+Messy Altercation
+
+Flaming Reverie
+
+Masquerade Marquessa
+
+Cryptobotanist
+
+Elvish Mystic
+
+Fidgety Physician
+
+Gelatinous Trendsetter
+
+Brotherhood Fiddler
+
+Dress to the Nines
+
+Sonorous Terror
+
+Absinthe Automaton
+
+Clever Pygmalion
+
+Take the Shot
+
+Torchlit Confrontation
+
+Ensconce
+
+Rooted Rapture
+
+Quiet Memoriam
+
+Garden Doll
+
+Dressup Helper
+
+Concealed Dagger
+
+Scion's Substitute
+
+Grisly Font
+
+Esoteric Institute
+
+Riverside View
+
+Dubious Path
+
+Decadent Hall
+
+Secluded Farmland
+
+Thriving Tower
+
+Downtown Theater
+
+Reliable Market
+
+Disturbing Locale
+
+Impressive Skyline
+
+Beloved Chapel
+
+Enraptured Medium
+
+Rewrite
+
+Perplexing Plinth
+
+Preserved Gentleman
+
+Thoughtstab Wretch
+
+Peel Back the Mind
+
+Sunset Dancer
+
+Staff of Beast's Blood
+
+Gracious Moonchosen
+
+Shackled Song
+
+Couture Campaign
+
+Transformed Deacon
+
+Duke of Crowns
+
+Skeletal Effigy
+
+Hermit of Curatives
+
+Dreams of Eternity
+
+Precocious Playmate
+
+Lovely Nightmares
+
+Haunting Procession
+
+Twitchy Housekeeper
+
+Wick-Masked Warden
+
+Gilded Cage
+
+Temperance Deaconess
+
+Spectral Nanny
+
+Become Forgotten
+
+Soaring Soprano
+
+Illuminated Gramophone
+
+Paranoid Heiress
+
+Silent Speaker
+
+Kindly Rewinder
+
+Imperturbable Matron
+
+Make Presentable
+
+Stained Reminiscence
+
+Hear the Chimes
+
+Half-Fae Scion
+
+Automated Confessor
+
+Disappearing Actor
+
+Bluebottle Sleuths
+
+Duplicitous Conversation
+
+Stay Smiling
+
+Triplicate Trance
+
+Impossible Apparatus
+
+Frank Appraisal
+
+Brimtouched Burglar
+
+Nearly-Forgotten Memory
+
+Entrancing Madman
+
+College of Symmetries Tutor
+
+Reflection's Replacement
+
+Black Iris Visitation
+
+Convulse
+
+Bedeviled Trumpet
+
+Heartbroken Hollow
+
+Scholar of Dualities
+
+One Terrible Night
+
+Mire Maiden's Request
+
+Cultivator of Souls
+
+Maverick Medicalist
+
+Servant of Ravens
+
+Exchange of Vitality
+
+Father of Ransoms
+
+Sweet Sorrow
+
+Fearful Initiate
+
+Ambergris Selection
+
+Unfortunate In-Law
+
+Thoughtroil Savior
+
+Smolder
+
+Love at First Sight
+
+Acclaimed Daredevil
+
+Wall of Ravings
+
+Blood Moon Killer
+
+Lacquer School Memento
+
+Vengeant Hand
+
+Sanguine Effusion
+
+Ancient-Fire Caller
+
+Star-Crossed Pair
+
+Break the Mirror
+
+Disgraced Chemist
+
+Hit the Archives
+
+Ghoul of Whit Street
+
+Second Chair Drowned
+
+Searing Spear
+
+Unkillable Profusion
+
+Crystal Spires Huntress
+
+Masksmith
+
+Mistress of the Menagerie
+
+Canal Conglomeration
+
+Select Society
+rules_text: Whenever you cast a creature spell with even mana value, draw cards equal to half its mana value. => Whenever you pay an even amount of mana to cast a creature spell, draw half that many cards.
+
+Attitude of Discretion
+
+Taxidermical Effort
+
+Memento of Paradise
+
+Pocket Armillary
+
+Glimmering Dose
+
+Porcelain Outcast
+
+Sackcloth Companion
+
+Gambler's Glove
+
+Cordial Hall
+
+Discreet Hall
+
+Ambitious Hall
+
+Breathtaking Hall
+
+Echoing Hall
+
+Sovereign of the Meek
+
+Dollmaker's Refrain
+
+Vault of Forgeries
+
+Slate Mask
+
+Yesterday's Judgment
+
+Chimeborn Heiress
+
+Brimtouched Celebrant
+
+Disgorger of Suns
+
+Snapfinger Rogue
+
+Mariner's Refrain
+
+Uninvited Guests
+
+Perfected Soloist
+
+Pearl Lapidary
+
+Lucid Drifter
+
+Shade of Impending Doom
+
+Nightmarish Judge
+
+Sapphire Lapidary
+
+Mortician's Refrain
+
+Penitent Poacher
+
+Intruding Thought
+
+Conquest of Void
+
+Highborn Dragoness
+
+Upending of Order
+
+Precocious Snitch
+
+Silver Shackle Initiation
+
+Jet Lapidary
+
+Ringmaster's Refrain
+
+Girl in the Phoenix Dress
+
+Silk-String Marionette
+
+Belfry Abductor
+
+Sensible Summoning
+
+Ruby Lapidary
+
+Forlorn Reflection
+
+Couturist's Refrain
+
+Picky Horticulturalist
+
+Spectral Address
+
+Submerged Laboratory
+
+Cosmic Observatory
+
+Opulent Chamber
+
+Liberating Vista
+
+Unsettling Abbey
+
+Rotting Dreamscape
+
+Backstreet Apothecary
+
+Twisted Sewer
+
+Overcast Plaza
+
+Stage of Endless Possibilities
+
+Hyev, the Resplendent Word
+
+Nue, the Artful Word
+
+Xaw, the Covetous Word
+
+Ralk, the Avid Word
+
+Ejo, the Ripening Word
+
+Cogwork Librarian
+
+All-Consuming Project
+
+Moment of Melancholy
+
+Witch of the Marl
+
+Celebrated Prodigy
+
+Cursed Portrait
+
+The Sound of Chimes
+
+Suriana, Generous Reveler.
+
+Physician of Abominations
+
+Patron of the Nameless
+
+Revisionist Historian
+
+The Ivory Dollmaker
+
+The Fleeting Madness
+cost: {2}{U}{B} => {1}{U}{B}{B}
+
+Xolier of the Stylish Entrance
+
+The Attended One
+cost: {4}{R}{G} => {3}{R}{R}{G}
+
+Faith Winslip, Riflehearted
+
+Carize, Editor of Lineages
+
+Limor, Etiquette Enforcer
+
+Your Enthusiastic Employer
+
+Arden, Thief of Futures
+
+The Ambergris Chorus
+
+Selthriel, Chained Seraph
+
+Mr. Hours, Pseudarchivist
+
+Bianco, Midnight's Host
+
+The Scarlet Lady
+
+Kaxyl, the Last Faun
+
+colorless Toy 11BLV
+
+white Spirit 11BLV
+
+black Horror 32BLV
+
+green Beast 33BLV
+
+TreasureBLV
+
+The Winslip Special BLV
+
+Verse BLV
+
+Veiled Creature
+
+Glimpsed
+
+Girl with Carnations
+rules_text: Whenever you activate a loyalty ability of Girl with Carnations or whenever she takes damage, target opponent gains control of her. => Whenever you activate a loyalty ability of Girl with Carnations or whenever she is dealt damage, target opponent gains control of her.
+[+1]: Create a tapped 1/1 white Spirit creature token with flying. 
+[-3]: Mill three cards. Return a permanent card milled this way to your hand.
+
+Nia, Yesterday's Beloved
+
+The Second Fiddle BLV
+
+Dreila, the Dealer
+
+Can Be Played From Exile
+
+green Beast 33BLV
+
+Mox Pearl
+
+Mox Emerald
+
+Mox Jet
+
+Mox Ruby
+
+Mox Sapphire
+
+Stolen
+
+The Scarlet Dream
+
+Red Hot
+
+Temperance
+
+
+VERSION 19 CHANGELOG
 ====================
 
 Cultivator of Souls added.

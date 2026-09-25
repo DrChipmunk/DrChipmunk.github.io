@@ -5,7 +5,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "239"
     },
     {
         "card_name": "Lucid Drifter",
@@ -13,7 +13,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "204"
     },
     {
         "card_name": "The Sound of Chimes",
@@ -21,7 +21,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "250"
     },
     {
         "card_name": "Ralk, the Avid Word",
@@ -29,7 +29,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "242"
     },
     {
         "card_name": "Ejo, the Ripening Word",
@@ -37,7 +37,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "243"
     },
     {
         "card_name": "Vault of Forgeries",
@@ -45,7 +45,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "193"
     },
     {
         "card_name": "Nue, the Artful Word",
@@ -53,7 +53,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "240"
     },
     {
         "card_name": "Xaw, the Covetous Word",
@@ -61,7 +61,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "241"
     },
     {
         "card_name": "Upending of Order",
@@ -69,15 +69,15 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "213"
     },
     {
         "card_name": "Gelatinous Trendsetter",
-        "number": 174,
+        "number": 175,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "64"
     },
     {
         "card_name": "Chimeborn Heiress",
@@ -85,7 +85,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "196"
     },
     {
         "card_name": "All-Consuming Project",
@@ -93,7 +93,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "245"
     },
     {
         "card_name": "Bianco, Midnight's Host",
@@ -101,7 +101,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "272"
     },
     {
         "card_name": "Ancient-Fire Caller",
@@ -109,7 +109,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "164"
     },
     {
         "card_name": "Celebrated Prodigy",
@@ -117,7 +117,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "248"
     },
     {
         "card_name": "Dollmaker's Refrain",
@@ -125,7 +125,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "192"
     },
     {
         "card_name": "Disgorger of Suns",
@@ -133,7 +133,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "198"
     },
     {
         "card_name": "Conquest of Void",
@@ -141,7 +141,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "211"
     },
     {
         "card_name": "Girl in the Phoenix Dress",
@@ -149,7 +149,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "218"
     },
     {
         "card_name": "Couturist's Refrain",
@@ -157,7 +157,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "224"
     },
     {
         "card_name": "Emerald Lapidary",
@@ -165,7 +165,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "3"
     },
     {
         "card_name": "Mariner's Refrain",
@@ -173,7 +173,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "200"
     },
     {
         "card_name": "Intruding Thought",
@@ -181,7 +181,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "210"
     },
     {
         "card_name": "Highborn Dragoness",
@@ -189,23 +189,23 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "212"
     },
     {
         "card_name": "Kaxyl, the Last Faun",
-        "number": 177,
+        "number": 178,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "274"
     },
     {
         "card_name": "Selthriel, Chained Seraph",
-        "number": 24,
+        "number": 25,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "270"
     },
     {
         "card_name": "Mr. Hours, Pseudarchivist",
@@ -213,7 +213,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "271"
     },
     {
         "card_name": "Mortician's Refrain",
@@ -221,7 +221,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "208"
     },
     {
         "card_name": "Jet Lapidary",
@@ -229,7 +229,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "216"
     },
     {
         "card_name": "Picky Horticulturalist",
@@ -237,7 +237,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "225"
     },
     {
         "card_name": "Slate Mask",
@@ -245,7 +245,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "194"
     },
     {
         "card_name": "Pearl Lapidary",
@@ -253,7 +253,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "203"
     },
     {
         "card_name": "Nightmarish Judge",
@@ -261,7 +261,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "206"
     },
     {
         "card_name": "Precocious Snitch",
@@ -269,7 +269,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "214"
     },
     {
         "card_name": "Revisionist Historian",
@@ -277,7 +277,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "257"
     },
     {
         "card_name": "Sovereign of the Meek",
@@ -285,7 +285,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "191"
     },
     {
         "card_name": "Perfected Soloist",
@@ -293,7 +293,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "202"
     },
     {
         "card_name": "Penitent Poacher",
@@ -301,7 +301,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "209"
     },
     {
         "card_name": "Ringmaster's Refrain",
@@ -309,7 +309,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "217"
     },
     {
         "card_name": "Ruby Lapidary",
@@ -317,7 +317,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "222"
     },
     {
         "card_name": "Temperance Deaconess",
@@ -325,7 +325,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "113"
     },
     {
         "card_name": "Snapfinger Rogue",
@@ -333,7 +333,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "199"
     },
     {
         "card_name": "Sapphire Lapidary",
@@ -341,7 +341,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "207"
     },
     {
         "card_name": "The Scarlet Lady",
@@ -349,7 +349,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "273"
     },
     {
         "card_name": "Sensible Summoning",
@@ -357,7 +357,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "221"
     },
     {
         "card_name": "Yesterday's Judgment",
@@ -365,7 +365,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "195"
     },
     {
         "card_name": "Uninvited Guests",
@@ -373,7 +373,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "201"
     },
     {
         "card_name": "Shade of Impending Doom",
@@ -381,7 +381,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "205"
     },
     {
         "card_name": "Silver Shackle Initiation",
@@ -389,7 +389,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "215"
     },
     {
         "card_name": "Silk-String Marionette",
@@ -397,7 +397,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "219"
     },
     {
         "card_name": "Become Forgotten",
@@ -405,7 +405,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "115"
     },
     {
         "card_name": "Automated Confessor",
@@ -413,7 +413,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "126"
     },
     {
         "card_name": "Bedeviled Trumpet",
@@ -421,7 +421,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "141"
     },
     {
         "card_name": "Acclaimed Daredevil",
@@ -429,7 +429,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "158"
     },
     {
         "card_name": "Attitude of Discretion",
@@ -437,7 +437,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "178"
     },
     {
         "card_name": "Ephebic Phantom",
@@ -445,7 +445,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "1"
     },
     {
         "card_name": "Bluebottle Sleuths",
@@ -453,7 +453,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "128"
     },
     {
         "card_name": "Black Iris Visitation",
@@ -461,7 +461,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "139"
     },
     {
         "card_name": "Asphyxiation",
@@ -469,7 +469,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "55"
     },
     {
         "card_name": "Canal Conglomeration",
@@ -477,7 +477,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "176"
     },
     {
         "card_name": "Gilded Cage",
@@ -485,7 +485,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "112"
     },
     {
         "card_name": "Brimtouched Burglar",
@@ -493,7 +493,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "134"
     },
     {
         "card_name": "Convulse",
@@ -501,7 +501,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "140"
     },
     {
         "card_name": "Blood Moon Killer",
@@ -509,7 +509,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "160"
     },
     {
         "card_name": "Crystal Spires Huntress",
@@ -517,7 +517,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "173"
     },
     {
         "card_name": "Hear the Chimes",
@@ -525,7 +525,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "124"
     },
     {
         "card_name": "College of Symmetries Tutor",
@@ -533,7 +533,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "137"
     },
     {
         "card_name": "Cultivator of Souls",
@@ -541,7 +541,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "146"
     },
     {
         "card_name": "Break the Mirror",
@@ -549,7 +549,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "166"
     },
     {
         "card_name": "Disgraced Chemist",
@@ -557,7 +557,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "167"
     },
     {
         "card_name": "Heartbroken Hollow",
@@ -565,7 +565,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "142"
     },
     {
         "card_name": "Disappearing Actor",
@@ -573,7 +573,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "127"
     },
     {
         "card_name": "Exchange of Vitality",
@@ -581,7 +581,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "149"
     },
     {
         "card_name": "Lacquer School Memento",
@@ -589,15 +589,15 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "161"
     },
     {
         "card_name": "Forlorn Reflection",
-        "number": 173,
+        "number": 174,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "223"
     },
     {
         "card_name": "Illuminated Gramophone",
@@ -605,7 +605,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "117"
     },
     {
         "card_name": "Disgraceful Blemish",
@@ -613,7 +613,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "29"
     },
     {
         "card_name": "Father of Ransoms",
@@ -621,7 +621,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "150"
     },
     {
         "card_name": "Love at First Sight",
@@ -629,15 +629,15 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "157"
     },
     {
         "card_name": "Ghoul of Whit Street",
-        "number": 175,
+        "number": 176,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "169"
     },
     {
         "card_name": "Imperturbable Matron",
@@ -645,7 +645,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "121"
     },
     {
         "card_name": "Duplicitous Conversation",
@@ -653,7 +653,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "129"
     },
     {
         "card_name": "Fearful Initiate",
@@ -661,7 +661,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "152"
     },
     {
         "card_name": "Mug",
@@ -669,15 +669,15 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "56"
     },
     {
         "card_name": "Hit the Archives",
-        "number": 176,
+        "number": 177,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "168"
     },
     {
         "card_name": "Make Presentable",
@@ -685,7 +685,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "122"
     },
     {
         "card_name": "Dusky Procession",
@@ -693,7 +693,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "21"
     },
     {
         "card_name": "Kindly Rewinder",
@@ -701,7 +701,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "120"
     },
     {
         "card_name": "Sanguine Effusion",
@@ -709,7 +709,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "163"
     },
     {
         "card_name": "Masksmith",
@@ -717,7 +717,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "174"
     },
     {
         "card_name": "Paranoid Heiress",
@@ -725,7 +725,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "118"
     },
     {
         "card_name": "Frank Appraisal",
@@ -733,7 +733,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "133"
     },
     {
         "card_name": "Maverick Medicalist",
@@ -741,7 +741,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "147"
     },
     {
         "card_name": "Smolder",
@@ -749,7 +749,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "156"
     },
     {
         "card_name": "Memento of Paradise",
@@ -757,7 +757,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "180"
     },
     {
         "card_name": "Silent Speaker",
@@ -765,7 +765,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "119"
     },
     {
         "card_name": "Half-Fae Scion",
@@ -773,7 +773,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "125"
     },
     {
         "card_name": "Mire Maiden's Request",
@@ -781,7 +781,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "145"
     },
     {
         "card_name": "Star-Crossed Pair",
@@ -789,7 +789,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "165"
     },
     {
         "card_name": "Mistress of the Menagerie",
@@ -797,7 +797,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "175"
     },
     {
         "card_name": "Soaring Soprano",
@@ -805,7 +805,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "116"
     },
     {
         "card_name": "Impossible Apparatus",
@@ -813,7 +813,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "132"
     },
     {
         "card_name": "One Terrible Night",
@@ -821,7 +821,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "144"
     },
     {
         "card_name": "Thoughtroil Savior",
@@ -829,7 +829,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "155"
     },
     {
         "card_name": "Second Chair Drowned",
@@ -837,7 +837,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "170"
     },
     {
         "card_name": "Spectral Nanny",
@@ -845,7 +845,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "114"
     },
     {
         "card_name": "Nearly-Forgotten Memory",
@@ -853,7 +853,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "135"
     },
     {
         "card_name": "Scholar of Dualities",
@@ -861,7 +861,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "143"
     },
     {
         "card_name": "Unfortunate In-Law",
@@ -869,7 +869,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "154"
     },
     {
         "card_name": "Taxidermical Effort",
@@ -877,7 +877,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "179"
     },
     {
         "card_name": "Stained Reminiscence",
@@ -885,7 +885,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "123"
     },
     {
         "card_name": "Reflection's Replacement",
@@ -893,7 +893,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "138"
     },
     {
         "card_name": "Sweet Sorrow",
@@ -901,7 +901,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "151"
     },
     {
         "card_name": "Wall of Ravings",
@@ -909,7 +909,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "159"
     },
     {
         "card_name": "Unkillable Profusion",
@@ -917,7 +917,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "172"
     },
     {
         "card_name": "Wick-Masked Warden",
@@ -925,7 +925,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "111"
     },
     {
         "card_name": "Triplicate Trance",
@@ -933,7 +933,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "131"
     },
     {
         "card_name": "Velvet Glove Assassin",
@@ -941,7 +941,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "37"
     },
     {
         "card_name": "Witch of the Marl",
@@ -949,7 +949,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "247"
     },
     {
         "card_name": "Vengeant Hand",
@@ -957,7 +957,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "162"
     },
     {
         "card_name": "Brimtouched Celebrant",
@@ -965,7 +965,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "197"
     },
     {
         "card_name": "Affordable Astrologer",
@@ -973,7 +973,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "17"
     },
     {
         "card_name": "Beckoning Bard",
@@ -981,7 +981,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "34"
     },
     {
         "card_name": "Ambergris Selection",
@@ -989,7 +989,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "153"
     },
     {
         "card_name": "Absinthe Automaton",
@@ -997,7 +997,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "68"
     },
     {
         "card_name": "Collector of Invitations",
@@ -1005,7 +1005,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "6"
     },
     {
         "card_name": "Cellar Oracle",
@@ -1013,7 +1013,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "18"
     },
     {
         "card_name": "Dance with Death",
@@ -1021,7 +1021,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "42"
     },
     {
         "card_name": "Clockwork Concertists",
@@ -1029,7 +1029,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "48"
     },
     {
         "card_name": "Belfry Abductor",
@@ -1037,7 +1037,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "220"
     },
     {
         "card_name": "Fogtide Redeemer",
@@ -1045,7 +1045,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "9"
     },
     {
         "card_name": "Entrancing Madman",
@@ -1053,7 +1053,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "136"
     },
     {
         "card_name": "Discarded Mannequin",
@@ -1061,7 +1061,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "33"
     },
     {
         "card_name": "Crazed Arsonist",
@@ -1069,7 +1069,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "52"
     },
     {
         "card_name": "Brotherhood Fiddler",
@@ -1077,7 +1077,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "65"
     },
     {
         "card_name": "Frosty Reception",
@@ -1085,7 +1085,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "12"
     },
     {
         "card_name": "Envision",
@@ -1093,7 +1093,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "24"
     },
     {
         "card_name": "Duress",
@@ -1101,7 +1101,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "39"
     },
     {
         "card_name": "Crystal Spires Cardsharp",
@@ -1109,7 +1109,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "51"
     },
     {
         "card_name": "Clever Pygmalion",
@@ -1117,7 +1117,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "69"
     },
     {
         "card_name": "Full-Service Staff",
@@ -1125,7 +1125,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "7"
     },
     {
         "card_name": "Fickle Fortune",
@@ -1133,7 +1133,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "28"
     },
     {
         "card_name": "Expire",
@@ -1141,7 +1141,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "40"
     },
     {
         "card_name": "Dashing Ringmaster",
@@ -1149,7 +1149,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "45"
     },
     {
         "card_name": "Cryptobotanist",
@@ -1157,7 +1157,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "60"
     },
     {
         "card_name": "Hummingbird Leaguer",
@@ -1165,7 +1165,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "10"
     },
     {
         "card_name": "Liminal Visitor",
@@ -1173,7 +1173,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "15"
     },
     {
         "card_name": "Fly By Midnight",
@@ -1181,7 +1181,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "36"
     },
     {
         "card_name": "Flaming Reverie",
@@ -1189,7 +1189,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "58"
     },
     {
         "card_name": "Dress to the Nines",
@@ -1197,7 +1197,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "66"
     },
     {
         "card_name": "Moment of Melancholy",
@@ -1205,7 +1205,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "246"
     },
     {
         "card_name": "Mirror-Marcher",
@@ -1213,7 +1213,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "20"
     },
     {
         "card_name": "Herald of the Chimes",
@@ -1221,7 +1221,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "38"
     },
     {
         "card_name": "Impudent Scion",
@@ -1229,7 +1229,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "50"
     },
     {
         "card_name": "Elvish Mystic",
@@ -1237,7 +1237,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "61"
     },
     {
         "card_name": "Proper Presentation",
@@ -1245,7 +1245,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "2"
     },
     {
         "card_name": "Occult Investigator",
@@ -1253,7 +1253,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "19"
     },
     {
         "card_name": "Morbid Literati",
@@ -1261,7 +1261,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "35"
     },
     {
         "card_name": "Manic Scrivener",
@@ -1269,7 +1269,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "47"
     },
     {
         "card_name": "Ensconce",
@@ -1277,7 +1277,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "72"
     },
     {
         "card_name": "Recurring Apparition",
@@ -1285,7 +1285,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "13"
     },
     {
         "card_name": "The Past Beckons",
@@ -1293,7 +1293,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "26"
     },
     {
         "card_name": "Read the Bones",
@@ -1301,7 +1301,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "44"
     },
     {
         "card_name": "Masquerade Marquessa",
@@ -1309,15 +1309,15 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "59"
     },
     {
-        "card_name": "Fidgety Physician",
+        "card_name": "Extravagant Host",
         "number": 172,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "63"
     },
     {
         "card_name": "Retired Dowager",
@@ -1325,7 +1325,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "4"
     },
     {
         "card_name": "Possessed Ingenue",
@@ -1333,7 +1333,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "23"
     },
     {
         "card_name": "Rite of the Rose",
@@ -1341,7 +1341,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "30"
     },
     {
         "card_name": "Messy Altercation",
@@ -1349,23 +1349,23 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "57"
     },
     {
-        "card_name": "Lavish Host",
-        "number": 178,
+        "card_name": "Fidgety Physician",
+        "number": 173,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "62"
     },
     {
-        "card_name": "Siezed From Slumber",
-        "number": 25,
+        "card_name": "Seized from Slumber",
+        "number": 24,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "14"
     },
     {
         "card_name": "Search the Stacks",
@@ -1373,7 +1373,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "25"
     },
     {
         "card_name": "Scathing Critique",
@@ -1381,7 +1381,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "41"
     },
     {
         "card_name": "Novice Bloodsucker",
@@ -1389,7 +1389,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "46"
     },
     {
         "card_name": "Quiet Memoriam",
@@ -1397,7 +1397,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "74"
     },
     {
         "card_name": "Slapdash Banishing",
@@ -1405,7 +1405,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "11"
     },
     {
         "card_name": "Serpentine Deacon",
@@ -1413,7 +1413,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "22"
     },
     {
         "card_name": "Scintillating Draught",
@@ -1421,7 +1421,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "43"
     },
     {
         "card_name": "Scarlet Reminiscence",
@@ -1429,7 +1429,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "54"
     },
     {
         "card_name": "Rooted Rapture",
@@ -1437,7 +1437,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "73"
     },
     {
         "card_name": "Spry Matron",
@@ -1445,7 +1445,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "5"
     },
     {
         "card_name": "Stay Smiling",
@@ -1453,7 +1453,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "130"
     },
     {
         "card_name": "Servant of Ravens",
@@ -1461,7 +1461,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "148"
     },
     {
         "card_name": "Searing Spear",
@@ -1469,7 +1469,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "171"
     },
     {
         "card_name": "Sonorous Terror",
@@ -1477,7 +1477,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "67"
     },
     {
         "card_name": "Street Eulogist",
@@ -1485,7 +1485,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "0"
     },
     {
         "card_name": "Undying Mouser",
@@ -1493,7 +1493,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "16"
     },
     {
         "card_name": "Uncanny Chef",
@@ -1501,7 +1501,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "32"
     },
     {
         "card_name": "Star-Touched Ripper",
@@ -1509,7 +1509,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "53"
     },
     {
         "card_name": "Take the Shot",
@@ -1517,7 +1517,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "70"
     },
     {
         "card_name": "Temperance Exemplar",
@@ -1525,7 +1525,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "8"
     },
     {
         "card_name": "Unlikely Fling",
@@ -1533,7 +1533,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "27"
     },
     {
         "card_name": "Undying Beggar",
@@ -1541,7 +1541,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "31"
     },
     {
         "card_name": "Unwoven Seamstress",
@@ -1549,7 +1549,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "49"
     },
     {
         "card_name": "Torchlit Confrontation",
@@ -1557,7 +1557,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "71"
     },
     {
         "card_name": "er"
@@ -1578,7 +1578,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "260"
     },
     {
         "card_name": "The Fleeting Madness",
@@ -1586,7 +1586,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "261"
     },
     {
         "card_name": "Physician of Abominations",
@@ -1594,7 +1594,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "255"
     },
     {
         "card_name": "The Attended One",
@@ -1602,7 +1602,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "263"
     },
     {
         "card_name": "Girl with Carnations",
@@ -1610,7 +1610,7 @@
         "shape": "planeswalker",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "284"
     },
     {
         "card_name": "Enraptured Medium",
@@ -1618,7 +1618,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "91"
     },
     {
         "card_name": "Perplexing Plinth",
@@ -1626,7 +1626,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "93"
     },
     {
         "card_name": "Xolier of the Stylish Entrance",
@@ -1634,7 +1634,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "262"
     },
     {
         "card_name": "Staff of Beast's Blood",
@@ -1642,7 +1642,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "98"
     },
     {
         "card_name": "Faith Winslip, Riflehearted",
@@ -1650,7 +1650,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "264"
     },
     {
         "card_name": "Rewrite",
@@ -1658,7 +1658,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "92"
     },
     {
         "card_name": "Preserved Gentleman",
@@ -1666,7 +1666,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "94"
     },
     {
         "card_name": "Peel Back the Mind",
@@ -1674,7 +1674,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "96"
     },
     {
         "card_name": "Sunset Dancer",
@@ -1682,7 +1682,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "97"
     },
     {
         "card_name": "Gracious Moonchosen",
@@ -1690,7 +1690,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "99"
     },
     {
         "card_name": "e"
@@ -1704,7 +1704,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "95"
     },
     {
         "card_name": "e"
@@ -1715,7 +1715,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "100"
     },
     {
         "card_name": "er"
@@ -1738,7 +1738,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "287"
     },
     {
         "card_name": "Suriana, Generous Reveler.",
@@ -1746,7 +1746,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "254"
     },
     {
         "card_name": "Limor, Etiquette Enforcer",
@@ -1754,7 +1754,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "266"
     },
     {
         "card_name": "The Ambergris Chorus",
@@ -1762,7 +1762,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "269"
     },
     {
         "card_name": "Select Society",
@@ -1770,7 +1770,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "177"
     },
     {
         "card_name": "Carize, Editor of Lineages",
@@ -1778,7 +1778,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "265"
     },
     {
         "card_name": "Arden, Thief of Futures",
@@ -1786,7 +1786,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "268"
     },
     {
         "card_name": "Duke of Crowns",
@@ -1794,7 +1794,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "103"
     },
     {
         "card_name": "Haunting Procession",
@@ -1802,7 +1802,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "109"
     },
     {
         "card_name": "Your Enthusiastic Employer",
@@ -1810,7 +1810,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "267"
     },
     {
         "card_name": "Couture Campaign",
@@ -1818,7 +1818,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "101"
     },
     {
         "card_name": "Lovely Nightmares",
@@ -1826,7 +1826,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "108"
     },
     {
         "card_name": "Skeletal Effigy",
@@ -1834,7 +1834,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "104"
     },
     {
         "card_name": "Twitchy Housekeeper",
@@ -1842,7 +1842,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "110"
     },
     {
         "card_name": "Dreams of Eternity",
@@ -1850,7 +1850,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "106"
     },
     {
         "card_name": "Transformed Deacon",
@@ -1858,7 +1858,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "102"
     },
     {
         "card_name": "Precocious Playmate",
@@ -1866,7 +1866,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "107"
     },
     {
         "card_name": "e"
@@ -1880,7 +1880,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "105"
     },
     {
         "card_name": "er"
@@ -1903,7 +1903,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "285"
     },
     {
         "card_name": "Patron of the Nameless",
@@ -1911,7 +1911,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "256"
     },
     {
         "card_name": "e"
@@ -1941,7 +1941,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "244"
     },
     {
         "card_name": "Cursed Portrait",
@@ -1949,7 +1949,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "249"
     },
     {
         "card_name": "Gambler's Glove",
@@ -1957,7 +1957,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "185"
     },
     {
         "card_name": "Glimmering Dose",
@@ -1965,7 +1965,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "182"
     },
     {
         "card_name": "Pocket Armillary",
@@ -1973,7 +1973,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "181"
     },
     {
         "card_name": "Porcelain Outcast",
@@ -1981,7 +1981,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "183"
     },
     {
         "card_name": "Sackcloth Companion",
@@ -1989,7 +1989,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "184"
     },
     {
         "card_name": "Concealed Dagger",
@@ -1997,7 +1997,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "77"
     },
     {
         "card_name": "Dressup Helper",
@@ -2005,7 +2005,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "76"
     },
     {
         "card_name": "Garden Doll",
@@ -2013,7 +2013,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "75"
     },
     {
         "card_name": "Grisly Font",
@@ -2021,7 +2021,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "79"
     },
     {
         "card_name": "Scion's Substitute",
@@ -2029,7 +2029,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "78"
     },
     {
         "card_name": "e"
@@ -2059,7 +2059,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "186"
     },
     {
         "card_name": "Discreet Hall",
@@ -2067,7 +2067,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "187"
     },
     {
         "card_name": "Ambitious Hall",
@@ -2075,7 +2075,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "188"
     },
     {
         "card_name": "Breathtaking Hall",
@@ -2083,7 +2083,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "189"
     },
     {
         "card_name": "Echoing Hall",
@@ -2091,7 +2091,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "190"
     },
     {
         "card_name": "er"
@@ -2114,7 +2114,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "226"
     },
     {
         "card_name": "Submerged Laboratory",
@@ -2122,7 +2122,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "227"
     },
     {
         "card_name": "Cosmic Observatory",
@@ -2130,7 +2130,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "228"
     },
     {
         "card_name": "Opulent Chamber",
@@ -2138,7 +2138,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "229"
     },
     {
         "card_name": "Liberating Vista",
@@ -2146,7 +2146,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "230"
     },
     {
         "card_name": "Riverside View",
@@ -2154,7 +2154,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "81"
     },
     {
         "card_name": "Dubious Path",
@@ -2162,7 +2162,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "82"
     },
     {
         "card_name": "Decadent Hall",
@@ -2170,7 +2170,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "83"
     },
     {
         "card_name": "Secluded Farmland",
@@ -2178,7 +2178,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "84"
     },
     {
         "card_name": "Thriving Tower",
@@ -2186,7 +2186,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "85"
     },
     {
         "card_name": "er"
@@ -2209,7 +2209,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "231"
     },
     {
         "card_name": "Twisted Sewer",
@@ -2217,7 +2217,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "234"
     },
     {
         "card_name": "Rotting Dreamscape",
@@ -2225,7 +2225,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "232"
     },
     {
         "card_name": "Overcast Plaza",
@@ -2233,7 +2233,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "235"
     },
     {
         "card_name": "Backstreet Apothecary",
@@ -2241,7 +2241,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "233"
     },
     {
         "card_name": "Downtown Theater",
@@ -2249,7 +2249,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "86"
     },
     {
         "card_name": "Impressive Skyline",
@@ -2257,7 +2257,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "89"
     },
     {
         "card_name": "Reliable Market",
@@ -2265,7 +2265,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "87"
     },
     {
         "card_name": "Beloved Chapel",
@@ -2273,7 +2273,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "90"
     },
     {
         "card_name": "Disturbing Locale",
@@ -2281,7 +2281,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "88"
     },
     {
         "card_name": "er"
@@ -2304,7 +2304,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "236"
     },
     {
         "card_name": "Esoteric Institute",
@@ -2312,7 +2312,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "80"
     },
     {
         "card_name": "e"
@@ -2344,7 +2344,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "237"
     },
     {
         "card_name": "Mountain",
@@ -2352,7 +2352,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "238"
     },
     {
         "card_name": "Plains",
@@ -2360,7 +2360,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "251"
     },
     {
         "card_name": "Swamp",
@@ -2368,7 +2368,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "252"
     },
     {
         "card_name": "Forest",
@@ -2376,7 +2376,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "253"
     },
     {
         "card_name": "Plains (gemstone)",
@@ -2384,7 +2384,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "258"
     },
     {
         "card_name": "Island (gemstone)",
@@ -2392,7 +2392,7 @@
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "259"
     },
     {
         "card_name": "e"
@@ -2422,7 +2422,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "283"
     },
     {
         "card_name": "Veiled Creature",
@@ -2430,7 +2430,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "282"
     },
     {
         "card_name": "Mox Emerald",
@@ -2438,7 +2438,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "291"
     },
     {
         "card_name": "Mox Jet",
@@ -2446,7 +2446,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "292"
     },
     {
         "card_name": "Mox Pearl",
@@ -2454,7 +2454,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "290"
     },
     {
         "card_name": "Mox Ruby",
@@ -2462,7 +2462,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "293"
     },
     {
         "card_name": "Mox Sapphire",
@@ -2470,7 +2470,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "294"
     },
     {
         "card_name": "The Second Fiddle BLV",
@@ -2478,7 +2478,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "286"
     },
     {
         "card_name": "colorless Toy 11BLV",
@@ -2486,7 +2486,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "275"
     },
     {
         "card_name": "TreasureBLV",
@@ -2494,7 +2494,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "279"
     },
     {
         "card_name": "The Winslip Special BLV",
@@ -2502,7 +2502,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "280"
     },
     {
         "card_name": "white Spirit 11BLV",
@@ -2510,7 +2510,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "276"
     },
     {
         "card_name": "Temperance",
@@ -2518,7 +2518,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "298"
     },
     {
         "card_name": "black Horror 32BLV",
@@ -2526,7 +2526,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "277"
     },
     {
         "card_name": "Stolen",
@@ -2534,7 +2534,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "295"
     },
     {
         "card_name": "Can Be Played From Exile",
@@ -2542,7 +2542,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "288"
     },
     {
         "card_name": "The Scarlet Dream",
@@ -2550,7 +2550,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "296"
     },
     {
         "card_name": "green Beast 33BLV",
@@ -2558,7 +2558,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "278"
     },
     {
         "card_name": "green Beast 33BLV",
@@ -2566,7 +2566,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "289"
     },
     {
         "card_name": "Red Hot",
@@ -2574,7 +2574,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "297"
     },
     {
         "card_name": "Verse BLV",
@@ -2582,7 +2582,7 @@
         "shape": "token",
         "set": "BLV",
         "rotated": false,
-        "position": ""
+        "position": "281"
     },
     {
         "card_name": "e"
