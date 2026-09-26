@@ -834,7 +834,7 @@ When this creature dies, exile the top card of your library. You may play it unt
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/1</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
