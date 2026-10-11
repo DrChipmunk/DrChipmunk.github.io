@@ -1,4 +1,134 @@
-﻿VERSION 21 CHANGELOG
+﻿VERSION 22 CHANGELOG
+====================
+
+Green Skies Mystic added.
+Favored of Doves added.
+Paranoid Naif added.
+Determined Widow added.
+Overstuffed Baroness added.
+
+Elvish Mystic removed.
+Become Forgotten removed.
+Paranoid Heiress removed.
+Cultivator of Souls removed.
+Break the Mirror removed.
+
+Emerald Lapidary
+rules_text: Lifelink
+At the beginning of your second main phase, if two or more nontoken creatures entered under your control this turn, create a Mox Emerald token. This ability triggers only once. [i](It's a 0 artifact with “{T}: Add {G}.”)[/i] 
+{4}{G}: Put a +1/+1 counter on each creature you control. => Vigilance
+At the beginning of your second main phase, if two or more nontoken creatures entered under your control this turn, create a Mox Emerald token. This ability triggers only once. [i](It's a 0 artifact with “{T}: Add {G}.”)[/i] 
+{4}{G}: Put a +1/+1 counter on each creature you control.
+pt: 2/3 => 3/4
+
+Uncanny Chef
+cost: {2}{B} => {3}{B}
+pt: 2/2 => 3/2
+
+Discarded Mannequin
+pt: 3/1 => 2/1
+
+Morbid Literati
+rules_text: Menace
+Whenever you scry or surveil, put a +1/+1 counter on this creature. => Whenever you scry or surveil, put a +1/+1 counter on this creature.
+pt: 2/1 => 1/3
+
+Fly By Midnight
+cost: {3}{B} => {2}{B}
+rules_text: Scry 2.
+Veil the top card of your library, then put a +1/+1 counter and a flying counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Scry 1.
+Veil the top card of your library, then put a flying counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Herald of the Chimes
+rules_text: Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put a deathtouch counter on target creature. => Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put a menace counter on target creature.
+
+Manic Scrivener
+cost: {1}{R} => {2}{R}
+pt: 2/1 => 3/2
+
+Unwoven Seamstress
+cost: {2}{R} => {1}{R}
+pt: 4/2 => 3/1
+
+Dreams of Eternity
+rules_text: This spell can't be countered.
+Draw four cards, then discard a card. You may put a land card form your hand onto the battlefield. => This spell can't be countered.
+Draw four cards, then discard a card. You may put a land card from your hand onto the battlefield.
+
+Black Iris Visitation
+rules_text: Veil the top card of your library tapped. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 2 life. => Veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+You lose 2 life.
+
+Ancient-Fire Caller
+rules_text: Haste
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step. => Ward—Pay 3 life.
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.
+
+Memento of Paradise
+rules_text: This artifact enters tapped.
+When this artifact enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}, Tap an untapped creature you control: Add one mana of any color. => This artifact enters tapped.
+When this artifact enters, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+{T}: Add one mana of any color. You can't spend this mana to cast spells from your hand.
+
+Porcelain Outcast
+rules_text: Glimpse {7} [i](You may cast this spell as though it had flash for {7}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, if it was cast for its vision cost, destroy target nonland permanent. => Glimpse {7} [i](You may cast this spell as though it had flash for {7}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, if it was cast for its glimpse cost, destroy target nonland permanent.
+
+Disgorger of Suns
+rules_text: Glimpse {1}{U} [i](You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy. => Glimpse {1}{U} [i](You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Whenever this creature or another creature you control enters, look at the top X cards of your library, where X is the amount of mana spent to cast it. Put one of those cards into your hand and the rest on the bottom in a random order.
+pt: 5/4 => 3/3
+
+Pearl Lapidary
+type: Creature — Elf Wizard => Creature — Human Angel Scion
+cost: {3}{U} => {2}{U}{U}
+rules_text: Flash
+At the beginning of your end step, if you didn't cast any spells from your hand this turn, create a Mox Pearl token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {W}.”)[/i]
+{2}{W}: Create a tapped 1/1 colorless Toy artifact creature token. => Flash
+Flying
+At the beginning of your end step, if you didn't cast any spells from your hand this turn, create a Mox Pearl token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {W}.”)[/i]
+{2}{W}: Create a tapped 1/1 colorless Toy artifact creature token.
+pt: 3/4 => 4/3
+
+Highborn Dragoness
+rules_text: Glimpse {R} [i](You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Flying
+{1}{R}: This creature deals 2 damage to target creature. Activate only if this creature entered or attacked this turn. => Glimpse {R} [i](You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Flying
+When this creature enters and at the beginning of your end step, if an opponent was dealt damage this turn, exile the top card of your library. You may play it until the end of your next turn.
+
+Jet Lapidary
+cost: {2}{R} => {1}{R}
+pt: 3/3 => 2/3
+
+Ruby Lapidary
+rules_text: Vigilance
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a Mox Ruby token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {R}.”)[/i]
+{3}{R}: Exile the top card of your library. You may play it until your next end step. => Trample
+[i]Paradox[/i] — Whenever you cast a spell from anywhere other than your hand, create a Mox Ruby token. This ability triggers only once. [i](It's a {0} artifact with “{T}: Add {R}.”)[/i]
+{3}{R}: Exile the top card of your library. You may play it until your next end step.
+
+Moment of Melancholy
+
+Physician of Abominations
+rules_text: Whenever a Horror you control dies, create a token that's a copy of it, except it's not a Horror.
+{T}, Sacrifice another creature: Draw a card. => Whenever a Horror you control dies, create a token that's a copy of it, except it's not a Horror.
+{1}, {T}, Sacrifice another creature: Draw a card.
+
+Carize, Editor of Lineages
+pt: 2/3 => 2/4
+
+The Second Fiddle BLV
+rules_text: {1}, {T},: Put a +1/+1 counter on target creature. Activate only as a sorcery. => {1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.
+
+
+VERSION 21 CHANGELOG
 ====================
 
 

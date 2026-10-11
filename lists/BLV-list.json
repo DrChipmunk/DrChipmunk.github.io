@@ -73,7 +73,7 @@
     },
     {
         "card_name": "Gelatinous Trendsetter",
-        "number": 175,
+        "number": 174,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -81,7 +81,7 @@
     },
     {
         "card_name": "Chimeborn Heiress",
-        "number": 3,
+        "number": 2,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -121,7 +121,7 @@
     },
     {
         "card_name": "Dollmaker's Refrain",
-        "number": 5,
+        "number": 4,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "Girl in the Phoenix Dress",
-        "number": 129,
+        "number": 128,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -161,7 +161,7 @@
     },
     {
         "card_name": "Emerald Lapidary",
-        "number": 6,
+        "number": 5,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -185,7 +185,7 @@
     },
     {
         "card_name": "Highborn Dragoness",
-        "number": 130,
+        "number": 129,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -225,7 +225,7 @@
     },
     {
         "card_name": "Jet Lapidary",
-        "number": 132,
+        "number": 131,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -400,12 +400,12 @@
         "position": "219"
     },
     {
-        "card_name": "Become Forgotten",
-        "number": 1,
+        "card_name": "Ephebic Phantom",
+        "number": 6,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "115"
+        "position": "1"
     },
     {
         "card_name": "Automated Confessor",
@@ -440,12 +440,12 @@
         "position": "178"
     },
     {
-        "card_name": "Ephebic Phantom",
+        "card_name": "Favored of Doves",
         "number": 7,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "1"
+        "position": "115"
     },
     {
         "card_name": "Bluebottle Sleuths",
@@ -536,20 +536,20 @@
         "position": "137"
     },
     {
-        "card_name": "Cultivator of Souls",
-        "number": 85,
+        "card_name": "Determined Widow",
+        "number": 86,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": "146"
     },
     {
-        "card_name": "Break the Mirror",
-        "number": 123,
+        "card_name": "Lacquer School Memento",
+        "number": 132,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "166"
+        "position": "161"
     },
     {
         "card_name": "Disgraced Chemist",
@@ -584,16 +584,16 @@
         "position": "149"
     },
     {
-        "card_name": "Lacquer School Memento",
+        "card_name": "Love at First Sight",
         "number": 133,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "161"
+        "position": "157"
     },
     {
         "card_name": "Forlorn Reflection",
-        "number": 174,
+        "number": 173,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -624,16 +624,16 @@
         "position": "150"
     },
     {
-        "card_name": "Love at First Sight",
-        "number": 134,
+        "card_name": "Mug",
+        "number": 137,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "157"
+        "position": "56"
     },
     {
         "card_name": "Ghoul of Whit Street",
-        "number": 176,
+        "number": 175,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -664,12 +664,12 @@
         "position": "152"
     },
     {
-        "card_name": "Mug",
-        "number": 138,
+        "card_name": "Overstuffed Baroness",
+        "number": 139,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "56"
+        "position": "166"
     },
     {
         "card_name": "Hit the Archives",
@@ -720,7 +720,7 @@
         "position": "174"
     },
     {
-        "card_name": "Paranoid Heiress",
+        "card_name": "Paranoid Naif",
         "number": 20,
         "shape": "normal",
         "set": "BLV",
@@ -961,7 +961,7 @@
     },
     {
         "card_name": "Brimtouched Celebrant",
-        "number": 2,
+        "number": 1,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1001,7 +1001,7 @@
     },
     {
         "card_name": "Collector of Invitations",
-        "number": 4,
+        "number": 3,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1017,7 +1017,7 @@
     },
     {
         "card_name": "Dance with Death",
-        "number": 86,
+        "number": 85,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1025,7 +1025,7 @@
     },
     {
         "card_name": "Clockwork Concertists",
-        "number": 124,
+        "number": 123,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1065,7 +1065,7 @@
     },
     {
         "card_name": "Crazed Arsonist",
-        "number": 125,
+        "number": 124,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1105,7 +1105,7 @@
     },
     {
         "card_name": "Crystal Spires Cardsharp",
-        "number": 126,
+        "number": 125,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1145,7 +1145,7 @@
     },
     {
         "card_name": "Dashing Ringmaster",
-        "number": 127,
+        "number": 126,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1185,7 +1185,7 @@
     },
     {
         "card_name": "Flaming Reverie",
-        "number": 128,
+        "number": 127,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
@@ -1225,19 +1225,19 @@
     },
     {
         "card_name": "Impudent Scion",
-        "number": 131,
+        "number": 130,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": "50"
     },
     {
-        "card_name": "Elvish Mystic",
+        "card_name": "Ensconce",
         "number": 170,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "61"
+        "position": "72"
     },
     {
         "card_name": "Proper Presentation",
@@ -1265,19 +1265,19 @@
     },
     {
         "card_name": "Manic Scrivener",
-        "number": 135,
+        "number": 134,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": "47"
     },
     {
-        "card_name": "Ensconce",
+        "card_name": "Extravagant Host",
         "number": 171,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "72"
+        "position": "63"
     },
     {
         "card_name": "Recurring Apparition",
@@ -1305,19 +1305,19 @@
     },
     {
         "card_name": "Masquerade Marquessa",
-        "number": 136,
+        "number": 135,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": "59"
     },
     {
-        "card_name": "Extravagant Host",
+        "card_name": "Fidgety Physician",
         "number": 172,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "63"
+        "position": "62"
     },
     {
         "card_name": "Retired Dowager",
@@ -1345,19 +1345,19 @@
     },
     {
         "card_name": "Messy Altercation",
-        "number": 137,
+        "number": 136,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
         "position": "57"
     },
     {
-        "card_name": "Fidgety Physician",
-        "number": 173,
+        "card_name": "Green Skies Mystic",
+        "number": 176,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,
-        "position": "62"
+        "position": "61"
     },
     {
         "card_name": "Seized from Slumber",
@@ -1385,7 +1385,7 @@
     },
     {
         "card_name": "Novice Bloodsucker",
-        "number": 139,
+        "number": 138,
         "shape": "normal",
         "set": "BLV",
         "rotated": false,

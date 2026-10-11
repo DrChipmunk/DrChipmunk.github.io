@@ -5,7 +5,7 @@
 			<name>BLV</name>
 			<longname>Blood and Velvet</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-09-25</releasedate>
+			<releasedate>2026-10-11</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -30,7 +30,7 @@
 			<name>Ephebic Phantom</name>
 			<text>Flying
 Whenever you attack with exactly two creatures, they each get +1/+1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/1.png" num="7">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/1.png" num="6">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -62,10 +62,10 @@ Whenever you attack with exactly two creatures, they each get +1/+1 until end of
 		</card>
 		<card>
 			<name>Emerald Lapidary</name>
-			<text>Lifelink
+			<text>Vigilance
 At the beginning of your second main phase, if two or more nontoken creatures entered under your control this turn, create a Mox Emerald token. This ability triggers only once. (It&apos;s a 0 artifact with &quot;{T}: Add {G}.&quot;) 
 {4}{G}: Put a +1/+1 counter on each creature you control.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/3.png" num="6">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/3.png" num="5">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -75,7 +75,7 @@ At the beginning of your second main phase, if two or more nontoken creatures en
 				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>WG</coloridentity>
-				<pt>2/3</pt>
+				<pt>3/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -116,7 +116,7 @@ At the beginning of your second main phase, if two or more nontoken creatures en
 		<card>
 			<name>Collector of Invitations</name>
 			<text>When this creature enters, veil the top card of your library. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/6.png" num="4">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/6.png" num="3">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -574,11 +574,11 @@ Paradox — When you cast a spell from anywhere other than your hand, put a +1/+
 				<side>front</side>
 				<type>Creature — Human Citizen</type>
 				<maintype>Creature</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/2</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -595,7 +595,7 @@ Paradox — When you cast a spell from anywhere other than your hand, put a +1/+
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>3/1</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -618,8 +618,7 @@ Paradox — When you cast a spell from anywhere other than your hand, put a +1/+
 		</card>
 		<card>
 			<name>Morbid Literati</name>
-			<text>Menace
-Whenever you scry or surveil, put a +1/+1 counter on this creature.</text>
+			<text>Whenever you scry or surveil, put a +1/+1 counter on this creature.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/35.png" num="99">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -630,22 +629,22 @@ Whenever you scry or surveil, put a +1/+1 counter on this creature.</text>
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/1</pt>
+				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Fly By Midnight</name>
-			<text>Scry 2.
-Veil the top card of your library, then put a +1/+1 counter and a flying counter on it. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
+			<text>Scry 1.
+Veil the top card of your library, then put a flying counter on it. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/36.png" num="93">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3B</manacost>
-				<cmc>4</cmc>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -673,7 +672,7 @@ When this creature enters, if the gift was promised, target opponent sacrifices 
 		<card>
 			<name>Herald of the Chimes</name>
 			<text>Glimpse {1}{B} (You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)
-When this creature enters, put a deathtouch counter on target creature.</text>
+When this creature enters, put a menace counter on target creature.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/38.png" num="94">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -740,7 +739,7 @@ Destroy target creature.</text>
 		<card>
 			<name>Dance with Death</name>
 			<text>Target creature gets -2/-2 until end of turn. If you&apos;ve cast another spell this turn, it gets -3/-3 until end of turn instead.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/42.png" num="86">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/42.png" num="85">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -789,7 +788,7 @@ Destroy target creature.</text>
 			<name>Dashing Ringmaster</name>
 			<text>{T}: Add {R}. You can&apos;t spend this mana to cast spells from your hand.
 {3}{R}, {T}: Exile the top card of your library. You may play it during your next turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/45.png" num="127">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/45.png" num="126">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -807,7 +806,7 @@ Destroy target creature.</text>
 			<name>Novice Bloodsucker</name>
 			<text>Haste
 When this creature dies, exile the top card of your library. You may play it until the end of your next turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/46.png" num="139">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/46.png" num="138">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -824,17 +823,17 @@ When this creature dies, exile the top card of your library. You may play it unt
 		<card>
 			<name>Manic Scrivener</name>
 			<text>Paradox — When you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature. It deals 2 damage to each opponent. This ability triggers only once.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/47.png" num="135">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/47.png" num="134">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>1R</manacost>
-				<cmc>2</cmc>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>2/1</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -842,7 +841,7 @@ When this creature dies, exile the top card of your library. You may play it unt
 			<name>Clockwork Concertists</name>
 			<text>When this creature enters, create a Treasure token.
 At the beginning of your end step, if you spent five or more mana to cast spells this turn, create a 1/1 colorless Toy artifact creature token.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/48.png" num="124">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/48.png" num="123">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -866,18 +865,18 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, you ma
 				<side>front</side>
 				<type>Creature — Human Citizen</type>
 				<maintype>Creature</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>4/2</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Impudent Scion</name>
 			<text>Whenever you attack with exactly two creatures, they each get +1/+0 and gain trample until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/50.png" num="131">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/50.png" num="130">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -894,7 +893,7 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, you ma
 		<card>
 			<name>Crystal Spires Cardsharp</name>
 			<text>{1}{R}, Discard a land card: This creature gets +2/+0 and gains first strike until end of turn. Draw a card.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/51.png" num="126">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/51.png" num="125">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -913,7 +912,7 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, you ma
 			<text>Glimpse {R} (You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without glimpse later.)
 Trample
 When this creature enters, target creature can&apos;t block this turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/52.png" num="125">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/52.png" num="124">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -982,7 +981,7 @@ Flashback—{2}{R}, Discard a Mountain card. (You may cast this card from your g
 			<name>Mug</name>
 			<text>Gift a card. (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)
 Mug deals 4 damage to target creature or planeswalker. If the gift was promised, Mug deals 2 damage to each opponent.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/56.png" num="138">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/56.png" num="137">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1000,7 +999,7 @@ Mug deals 4 damage to target creature or planeswalker. If the gift was promised,
 			<text>Choose one — 
 • Target creature gets +3/+2 until end of turn.
 • Destroy target artifact.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/57.png" num="137">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/57.png" num="136">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1017,7 +1016,7 @@ Mug deals 4 damage to target creature or planeswalker. If the gift was promised,
 			<name>Flaming Reverie</name>
 			<text>When this enchantment enters, it deals 6 damage to target creature an opponent controls.
 Paradox — {R}, Sacrifice this enchantment: Each opponent loses 2 life. Activate only if you cast a spell from anywhere other than your hand this turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/58.png" num="128">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/58.png" num="127">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1034,7 +1033,7 @@ Paradox — {R}, Sacrifice this enchantment: Each opponent loses 2 life. Activat
 			<name>Masquerade Marquessa</name>
 			<text>Kicker {3} (You may pay an additional {3} as you cast this spell.)
 When this creature enters, if it was kicked, veil the top card of your library with a menace counter on it. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/59.png" num="136">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/59.png" num="135">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1067,19 +1066,19 @@ As long as you have spent five or more mana to cast spells this turn, this creat
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Elvish Mystic</name>
+			<name>Green Skies Mystic</name>
 			<text>{T}: Add {G}.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/61.png" num="170">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/61.png" num="176">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Elf Druid</type>
 				<maintype>Creature</maintype>
-				<manacost>G</manacost>
-				<cmc>1</cmc>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1087,7 +1086,7 @@ As long as you have spent five or more mana to cast spells this turn, this creat
 			<name>Fidgety Physician</name>
 			<text>Deathtouch
 When this creature enters, target creature you control with base power 2 gets +2/+2 until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/62.png" num="173">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/62.png" num="172">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1105,7 +1104,7 @@ When this creature enters, target creature you control with base power 2 gets +2
 			<name>Extravagant Host</name>
 			<text>Glimpse {1}{G} (You may cast this spell as though it had flash for {1}{G}. When it enters, exile it. You may cast it without glimpse later.)
 When this creature enters, put a +1/+1 counter on target creature.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/63.png" num="172">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/63.png" num="171">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1122,7 +1121,7 @@ When this creature enters, put a +1/+1 counter on target creature.</text>
 		<card>
 			<name>Gelatinous Trendsetter</name>
 			<text>At the beginning of your end step, sacrifice another creature. If you sacrificed a nontoken creature this way, create a token that&apos;s a copy of it, except it&apos;s a 2/3 Ooze, then put a +1/+1 counter on each Ooze you control.</text>
-			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/64.png" num="175">BLV</set>
+			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/64.png" num="174">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1261,7 +1260,7 @@ Put two +1/+1 counters on target creature you control if this spell was kicked. 
 		<card>
 			<name>Ensconce</name>
 			<text>Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/72.png" num="171">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/72.png" num="170">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1822,7 +1821,7 @@ When this creature enters, you may return another creature you control to its ow
 		<card>
 			<name>Dreams of Eternity</name>
 			<text>This spell can&apos;t be countered.
-Draw four cards, then discard a card. You may put a land card form your hand onto the battlefield.</text>
+Draw four cards, then discard a card. You may put a land card from your hand onto the battlefield.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/106.png" num="201">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -1976,20 +1975,23 @@ Creatures you control with base power 2 get +1/+1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Become Forgotten</name>
-			<text>Exile target nonland permanent with mana value X or less, where X is 2 plus the number of creatures you control with base power 2.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/115.png" num="1">BLV</set>
+			<name>Favored of Doves</name>
+			<text>Glimpse {2}{W} (You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)
+Flying
+When this creature enters, creatures you control get +1/+2 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/115.png" num="7">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>1W</manacost>
-				<cmc>2</cmc>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Soaring Soprano</name>
@@ -2027,9 +2029,8 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, target
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>Paranoid Heiress</name>
-			<text>Glimpse {2}{W} (You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)
-When this creature enters, if you cast it, prevent all damage that would be dealt this turn by sources your opponents control.</text>
+			<name>Paranoid Naif</name>
+			<text>When this creature dies, you may pay 2 life. If you do, veil the top card of your library. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/118.png" num="20">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -2040,7 +2041,7 @@ When this creature enters, if you cast it, prevent all damage that would be deal
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/3</pt>
+				<pt>3/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2397,7 +2398,7 @@ Enchanted creature loses all abilities and can&apos;t block.</text>
 		</card>
 		<card>
 			<name>Black Iris Visitation</name>
-			<text>Veil the top card of your library tapped. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)
+			<text>Veil the top card of your library. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)
 You lose 2 life.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/139.png" num="82">BLV</set>
 			<prop>
@@ -2516,9 +2517,9 @@ Flashback—{1}{B}, Discard a black card. (You may cast this card from your grav
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Cultivator of Souls</name>
+			<name>Determined Widow</name>
 			<text>Paradox — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on a Spirit you control. If you can&apos;t, create a 1/1 white Spirit creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/146.png" num="85">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/146.png" num="86">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2708,7 +2709,7 @@ Flashback—{2}{R}, Discard a red card. (You may cast this card from your gravey
 		<card>
 			<name>Love at First Sight</name>
 			<text>Put a +1/+1 counter and a trample counter on each of up to two target creatures.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/157.png" num="134">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/157.png" num="133">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2780,7 +2781,7 @@ At the beginning of your end step, exile this creature. You may cast it during y
 			<name>Lacquer School Memento</name>
 			<text>When this artifact enters, create a 3/2 black Horror creature token with menace.
 As long as you&apos;ve spent five or more mana to cast spells this turn, creatures you control get +1/+0 and have haste.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/161.png" num="133">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/161.png" num="132">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2828,7 +2829,7 @@ Flashback—{1}{G}, Discard a green card. (You may cast this card from your grav
 		</card>
 		<card>
 			<name>Ancient-Fire Caller</name>
-			<text>Haste
+			<text>Ward—Pay 3 life.
 Paradox — Whenever you cast a spell from anywhere other than your hand, create an X/X Dragon Spirit creature token with flying and haste, where X is the amount of mana spent to cast that spell. Sacrifice it at the beginning of the next end step.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/164.png" num="120">BLV</set>
 			<prop>
@@ -2863,22 +2864,22 @@ Whenever you attack with exactly two creatures, veil the top card of your librar
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>Break the Mirror</name>
-			<text>Choose one — 
-• Destroy up to X target artifacts with total mana value X or less.
-• Exile the top X cards of your library. Choose two of them. You may play those cards until the end of your next turn.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/166.png" num="123">BLV</set>
+			<name>Overstuffed Baroness</name>
+			<text>Glimpse {1}{R} (You may cast this spell as though it had flash for {1}{R}. When it enters, exile it. You may cast it without glimpse later.)
+When this creature leaves the battlefield, it deals 2 damage to any target.</text>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/166.png" num="139">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
-				<manacost>XR</manacost>
-				<cmc>1</cmc>
+				<type>Artifact Creature — Toy</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>3</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>Disgraced Chemist</name>
@@ -2917,7 +2918,7 @@ This turn, you may look at the top card of your library any time and you may pla
 		<card>
 			<name>Ghoul of Whit Street</name>
 			<text>As an additional cost to cast this spell, return a creature you control to its owner&apos;s hand or pay {3}.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/169.png" num="176">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/169.png" num="175">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3112,7 +3113,7 @@ When this creature enters, put X +1/+1 counters on target untapped creature.</te
 			<name>Memento of Paradise</name>
 			<text>This artifact enters tapped.
 When this artifact enters, veil the top card of your library. (Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)
-{T}, Tap an untapped creature you control: Add one mana of any color.</text>
+{T}: Add one mana of any color. You can&apos;t spend this mana to cast spells from your hand.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/180.png" num="180">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3159,7 +3160,7 @@ When this artifact enters, veil the top card of your library. (Put it onto the b
 		<card>
 			<name>Porcelain Outcast</name>
 			<text>Glimpse {7} (You may cast this spell as though it had flash for {7}. When it enters, exile it. You may cast it without glimpse later.)
-When this creature enters, if it was cast for its vision cost, destroy target nonland permanent.</text>
+When this creature enters, if it was cast for its glimpse cost, destroy target nonland permanent.</text>
 			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/183.png" num="242">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3310,7 +3311,7 @@ If an ability of a creature you control with base power 2 would trigger, it trig
 			<text>Scry 2.
 Create a 1/1 colorless Toy artifact creature token. If this spell was cast from a graveyard, instead create two of those tokens, then creatures you control gain haste until end of turn.
 Flashback—{1}{R}{W}, Discard a red card.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/192.png" num="5">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/192.png" num="4">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3378,7 +3379,7 @@ Destroy all creatures.</text>
 			<text>Whenever you cast your second spell each turn, put a +1/+1 counter on this creature.
 As long as this creature has three or more counters on it, it has flying and vigilance.
 As long as this creature has nine or more counters on it, it has indestructible.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/196.png" num="3">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/196.png" num="2">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3396,7 +3397,7 @@ As long as this creature has nine or more counters on it, it has indestructible.
 			<name>Brimtouched Celebrant</name>
 			<text>Vigilance
 Whenever you attack with exactly two creatures, they each get +0/+2 until end of turn.</text>
-			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/197.png" num="2">BLV</set>
+			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/197.png" num="1">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3413,7 +3414,7 @@ Whenever you attack with exactly two creatures, they each get +0/+2 until end of
 		<card>
 			<name>Disgorger of Suns</name>
 			<text>Glimpse {1}{U} (You may cast this spell as though it had flash for {1}{U}. When it enters, exile it. You may cast it without glimpse later.)
-Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may choose new targets for the copy.</text>
+Whenever this creature or another creature you control enters, look at the top X cards of your library, where X is the amount of mana spent to cast it. Put one of those cards into your hand and the rest on the bottom in a random order.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/198.png" num="48">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -3424,7 +3425,7 @@ Whenever you cast an instant spell, you may pay {U}. If you do, copy it. You may
 				<cmc>6</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>5/4</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3499,19 +3500,20 @@ Flashback—{2}{G}{U}, Discard a green card.</text>
 		<card>
 			<name>Pearl Lapidary</name>
 			<text>Flash
+Flying
 At the beginning of your end step, if you didn&apos;t cast any spells from your hand this turn, create a Mox Pearl token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {W}.&quot;)
 {2}{W}: Create a tapped 1/1 colorless Toy artifact creature token.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/203.png" num="67">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Elf Wizard</type>
+				<type>Creature — Human Angel Scion</type>
 				<maintype>Creature</maintype>
-				<manacost>3U</manacost>
+				<manacost>2UU</manacost>
 				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>WU</coloridentity>
-				<pt>3/4</pt>
+				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3662,8 +3664,8 @@ Whenever this creature deals combat damage to a player, you may remove a counter
 			<name>Highborn Dragoness</name>
 			<text>Glimpse {R} (You may cast this spell as though it had flash for {R}. When it enters, exile it. You may cast it without glimpse later.)
 Flying
-{1}{R}: This creature deals 2 damage to target creature. Activate only if this creature entered or attacked this turn.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/212.png" num="130">BLV</set>
+When this creature enters and at the beginning of your end step, if an opponent was dealt damage this turn, exile the top card of your library. You may play it until the end of your next turn.</text>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/212.png" num="129">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3733,17 +3735,17 @@ Whenever a player casts a spell from anywhere other than their hand, this creatu
 			<text>Menace
 When one or more opponents are dealt noncombat damage, create a Mox Jet token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {B}.&quot;)
 {2}{B}: This creature deals 2 damage to each player who lost life this turn. Activate only on your turn.</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/216.png" num="132">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/216.png" num="131">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Horror Rebel</type>
 				<maintype>Creature</maintype>
-				<manacost>2R</manacost>
-				<cmc>3</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>BR</coloridentity>
-				<pt>3/3</pt>
+				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3768,7 +3770,7 @@ Flashback—{2}{U}{R}, Discard a blue card.</text>
 			<name>Girl in the Phoenix Dress</name>
 			<text>Flying
 When this creature dies, if it wasn&apos;t blocking, return it to its owner&apos;s hand, then that player veils a card from their hand. (They put it onto the battlefield face-down as a 2/2 creature. They may cast it while it&apos;s attacking. If it&apos;s a creature, it enters tapped and attacking and keeps counters and blockers.)</text>
-			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/218.png" num="129">BLV</set>
+			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/218.png" num="128">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3837,7 +3839,7 @@ When this creature enters, you may return a creature you control to its owner&ap
 		</card>
 		<card>
 			<name>Ruby Lapidary</name>
-			<text>Vigilance
+			<text>Trample
 Paradox — Whenever you cast a spell from anywhere other than your hand, create a Mox Ruby token. This ability triggers only once. (It&apos;s a {0} artifact with &quot;{T}: Add {R}.&quot;)
 {3}{R}: Exile the top card of your library. You may play it until your next end step.</text>
 			<set rarity="rare" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/222.png" num="186">BLV</set>
@@ -3858,7 +3860,7 @@ Paradox — Whenever you cast a spell from anywhere other than your hand, create
 			<name>Forlorn Reflection</name>
 			<text>This creature can&apos;t attack unless there are three or more counters on it.
 Paradox — Whenever you cast a spell from anywhere other than your hand, put a +1/+1 counter on this creature.</text>
-			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/223.png" num="174">BLV</set>
+			<set rarity="uncommon" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/223.png" num="173">BLV</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4404,7 +4406,7 @@ At the beginning of your upkeep, you may cast an exiled nonland card an opponent
 		<card>
 			<name>Physician of Abominations</name>
 			<text>Whenever a Horror you control dies, create a token that&apos;s a copy of it, except it&apos;s not a Horror.
-{T}, Sacrifice another creature: Draw a card.</text>
+{1}, {T}, Sacrifice another creature: Draw a card.</text>
 			<set rarity="mythic" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/255.png" num="218">BLV</set>
 			<prop>
 				<layout>normal</layout>
@@ -4587,7 +4589,7 @@ When Faith enters, create The Winslip Special, a legendary colorless Equipment a
 				<cmc>3</cmc>
 				<colors>WB</colors>
 				<coloridentity>WB</coloridentity>
-				<pt>2/3</pt>
+				<pt>2/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -4941,7 +4943,7 @@ You may cast this from the battlefield as though it had flash as long as it&apos
 		</card>
 		<card>
 			<name>The Second Fiddle BLV BLV</name>
-			<text>{1}, {T},: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
+			<text>{1}, {T}: Put a +1/+1 counter on target creature. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://DrChipmunk.github.io/sets/BLV-files/img/286.png" num="18">BLV</set>
 			<prop>
 				<layout>normal</layout>
