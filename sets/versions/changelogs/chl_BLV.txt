@@ -1,4 +1,69 @@
-﻿VERSION 22 CHANGELOG
+﻿VERSION 24 CHANGELOG
+====================
+
+No changes.
+
+VERSION 23 CHANGELOG
+====================
+
+Enfante Terrible added.
+Field Test added.
+black Horror XXBLV added.
+
+Exchange of Vitality removed.
+Penitent Poacher removed.
+
+Proper Presentation
+rules_text: Veil the top card of your library with a vigilance counter on it. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => Veil the top card of your library. You gain 2 life. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Mirror-Marcher
+pt: 3/2 => 2/3
+
+Undying Beggar
+pt: 2/2 => 2/1
+
+Discarded Mannequin
+pt: 2/1 => 2/2
+
+Morbid Literati
+cost: {1}{B} => {B}
+
+Fly By Midnight
+type: Sorcery => Instant
+
+Herald of the Chimes
+rules_text: Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put a menace counter on target creature. => Glimpse {1}{B} [i](You may cast this spell as though it had flash for {1}{B}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+When this creature enters, put a deathtouch counter on target creature.
+
+Clockwork Concertists
+pt: 2/2 => 2/1
+
+Cryptobotanist
+rules_text: When this creature enters, mill four cards. You may return a land card milled this way to your hand.
+As long as you have spent five or more mana to cast spells this turn, this creature gets +2/+2. => When this creature enters, mill four cards. You may return a land card milled this way to your hand.
+As long as you have spent five or more mana to cast spells this turn, this creature gets +2/+0.
+
+Brotherhood Fiddler
+rules_text: When this creature enters, put a vigilance counter on target creature.
+Creatures you control with counters on them have ward {1}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i] => When this creature enters, put a trample counter on target creature.
+Creatures you control with counters on them have ward {1}. [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+
+Paranoid Naif
+rules_text: When this creature dies, you may pay 2 life. If you do, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i] => When this creature dies, you may pay 3 life. If you do, veil the top card of your library. [i](Put it onto the battlefield face-down as a 2/2 creature. You may cast it while it's attacking. If it's a creature, it enters tapped and attacking and keeps counters and blockers.)[/i]
+
+Entrancing Madman
+pt: 2/1 => 2/2
+
+Precocious Snitch
+type: Creature — Human Rogue => Creature — Human Scout
+rules_text: When this creature enters, exile the top card of each player's library. Until the end of your next turn, those cards' owners may play them.
+Whenever a player casts a spell from anywhere other than their hand, this creature deals 2 damage to them. => {1}{R}, Discard a noncreature, nonland card: This creature becomes a 3/2 Human Rogue. Draw a card. Activate only if this creature is a Scout.
+{2}{R}, Discard a creature card: This creature becomes a 4/4 Horror. Draw a card. Activate only if this creature is a Rogue.
+{3}{R}, Discard a land card: Draw two cards. Activate only if this creature is a Horror.
+
+
+VERSION 22 CHANGELOG
 ====================
 
 Green Skies Mystic added.

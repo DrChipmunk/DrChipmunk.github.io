@@ -353,9 +353,9 @@
 		{
 			"name": "Morbid Literati",
 			"rarity": "common",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{B}",
 			"type": "Creature — Vampire Citizen",
-			"collector_number": "99",
+			"collector_number": "100",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/35.png"
 			}
@@ -364,8 +364,8 @@
 			"name": "Fly By Midnight",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
-			"type": "Sorcery",
-			"collector_number": "93",
+			"type": "Instant",
+			"collector_number": "94",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/36.png"
 			}
@@ -385,7 +385,7 @@
 			"rarity": "common",
 			"mana_cost": "{5}{B}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "94",
+			"collector_number": "95",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/38.png"
 			}
@@ -1205,7 +1205,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Horror Cleric",
-			"collector_number": "96",
+			"collector_number": "97",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/120.png"
 			}
@@ -1445,7 +1445,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "103",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/144.png"
 			}
@@ -1455,7 +1455,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "98",
+			"collector_number": "99",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/145.png"
 			}
@@ -1475,7 +1475,7 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "97",
+			"collector_number": "98",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/147.png"
 			}
@@ -1491,10 +1491,10 @@
 			}
 		},
 		{
-			"name": "Exchange of Vitality",
+			"name": "Enfante Terrible",
 			"rarity": "uncommon",
-			"mana_cost": "{4}{B}",
-			"type": "Sorcery",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Zombie Scion",
 			"collector_number": "89",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/149.png"
@@ -2065,7 +2065,7 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Nightmare Demon",
-			"collector_number": "101",
+			"collector_number": "102",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/206.png"
 			}
@@ -2085,17 +2085,17 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "100",
+			"collector_number": "101",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/208.png"
 			}
 		},
 		{
-			"name": "Penitent Poacher",
+			"name": "Field Test",
 			"rarity": "rare",
-			"mana_cost": "{2}{B}",
-			"type": "Creature — Human Mercenary",
-			"collector_number": "103",
+			"mana_cost": "{X}{X}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/209.png"
 			}
@@ -2105,7 +2105,7 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Horror",
-			"collector_number": "95",
+			"collector_number": "96",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/210.png"
 			}
@@ -2144,7 +2144,7 @@
 			"name": "Precocious Snitch",
 			"rarity": "rare",
 			"mana_cost": "{R}",
-			"type": "Creature — Human Rogue",
+			"type": "Creature — Human Scout",
 			"collector_number": "140",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/214.png"
@@ -2755,7 +2755,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Toy",
-			"collector_number": "19",
+			"collector_number": "20",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/275.png"
 			}
@@ -2785,7 +2785,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Beast",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/278.png"
 			}
@@ -2795,7 +2795,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "20",
+			"collector_number": "21",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/279.png"
 			}
@@ -2805,7 +2805,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact — Equipment",
-			"collector_number": "21",
+			"collector_number": "22",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/280.png"
 			}
@@ -2815,7 +2815,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/281.png"
 			}
@@ -2865,7 +2865,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Legendary Artifact",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/286.png"
 			}
@@ -2885,7 +2885,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/288.png"
 			}
@@ -2895,7 +2895,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Dragon Spirit",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/289.png"
 			}
@@ -2905,7 +2905,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/290.png"
 			}
@@ -2915,7 +2915,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/291.png"
 			}
@@ -2925,7 +2925,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/292.png"
 			}
@@ -2935,7 +2935,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/293.png"
 			}
@@ -2945,7 +2945,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/294.png"
 			}
@@ -2965,7 +2965,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/296.png"
 			}
@@ -2975,7 +2975,7 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Reminder",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/297.png"
 			}
@@ -2988,6 +2988,16 @@
 			"collector_number": "4",
 			"image_uris": {
 				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/298.png"
+			}
+		},
+		{
+			"name": "black Horror XXBLV",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie Horror",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://DrChipmunk.github.io/sets/BLV-files/img/299.png"
 			}
 		}
 	]
@@ -3016,7 +3026,7 @@
 	2 Nightmarish Judge
 	2 Sapphire Lapidary
 	2 Mortician's Refrain
-	2 Penitent Poacher
+	2 Field Test
 	2 Intruding Thought
 	2 Conquest of Void
 	2 Highborn Dragoness
@@ -3134,7 +3144,7 @@
 	4 Mire Maiden's Request
 	4 Determined Widow
 	4 Maverick Medicalist
-	4 Exchange of Vitality
+	4 Enfante Terrible
 	4 Father of Ransoms
 	4 Sweet Sorrow
 	4 Fearful Initiate
@@ -3508,7 +3518,7 @@
 	6 Determined Widow
 	6 Maverick Medicalist
 	12 Servant of Ravens
-	6 Exchange of Vitality
+	6 Enfante Terrible
 	6 Father of Ransoms
 	6 Sweet Sorrow
 	6 Fearful Initiate
@@ -3568,7 +3578,7 @@
 	2 Nightmarish Judge
 	2 Sapphire Lapidary
 	2 Mortician's Refrain
-	2 Penitent Poacher
+	2 Field Test
 	2 Intruding Thought
 	2 Conquest of Void
 	2 Highborn Dragoness
@@ -3780,7 +3790,7 @@
 	15 Determined Widow
 	15 Maverick Medicalist
 	6 Servant of Ravens
-	15 Exchange of Vitality
+	15 Enfante Terrible
 	15 Father of Ransoms
 	15 Sweet Sorrow
 	15 Fearful Initiate
@@ -3840,7 +3850,7 @@
 	7 Nightmarish Judge
 	7 Sapphire Lapidary
 	7 Mortician's Refrain
-	7 Penitent Poacher
+	7 Field Test
 	7 Intruding Thought
 	7 Conquest of Void
 	7 Highborn Dragoness
