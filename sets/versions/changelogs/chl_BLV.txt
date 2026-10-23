@@ -1,4 +1,33 @@
-﻿VERSION 24 CHANGELOG
+﻿VERSION 25 CHANGELOG
+====================
+
+Bluebottle Muckrakers added.
+
+Bluebottle Sleuths removed.
+
+Morbid Literati
+cost: {B} => {1}{B}
+
+Grisly Font
+rules_text: When this artifact enters, scry 2.
+{3}, {T}, Sacrifice this artifact, Discard a creature card: Exile target nonland permanent. Activate only as a sorcery. => When this artifact enters, scry 2.
+{5}, {T}, Sacrifice this artifact, Discard a creature card: Exile target nonland permanent. Activate only as a sorcery.
+
+Favored of Doves
+rules_text: Glimpse {2}{W} [i](You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Flying
+When this creature enters, creatures you control get +1/+2 until end of turn. => Glimpse {2}{W} [i](You may cast this spell as though it had flash for {2}{W}. When it enters, exile it. You may cast it without glimpse later.)[/i]
+Vigilance, flying
+When this creature enters, creatures you control get +1/+2 until end of turn.
+pt: 4/4 => 3/5
+
+Shade of Impending Doom
+rules_text: When this creature enters, you may search your library for a card. If you do, shuffle, then put that card into your library third from the top.
+{B}: This creature gets +1/+1 until end of turn. => When this creature enters, search your library for a card. Shuffle, then put that card just beneath the top two cards of your library.
+{B}: This creature gets +1/+1 until end of turn.
+
+
+VERSION 24 CHANGELOG
 ====================
 
 No changes.

@@ -353,7 +353,7 @@
 		{
 			"name": "Morbid Literati",
 			"rarity": "common",
-			"mana_cost": "{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Creature — Vampire Citizen",
 			"collector_number": "100",
 			"image_uris": {
@@ -1281,7 +1281,7 @@
 			}
 		},
 		{
-			"name": "Bluebottle Sleuths",
+			"name": "Bluebottle Muckrakers",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Human Advisor",
@@ -3126,7 +3126,7 @@
 	4 Half-Fae Scion
 	4 Automated Confessor
 	4 Disappearing Actor
-	4 Bluebottle Sleuths
+	4 Bluebottle Muckrakers
 	4 Duplicitous Conversation
 	4 Triplicate Trance
 	4 Impossible Apparatus
@@ -3497,7 +3497,7 @@
 	6 Half-Fae Scion
 	6 Automated Confessor
 	6 Disappearing Actor
-	6 Bluebottle Sleuths
+	6 Bluebottle Muckrakers
 	6 Duplicitous Conversation
 	12 Stay Smiling
 	6 Triplicate Trance
@@ -3769,7 +3769,7 @@
 	15 Half-Fae Scion
 	15 Automated Confessor
 	15 Disappearing Actor
-	15 Bluebottle Sleuths
+	15 Bluebottle Muckrakers
 	15 Duplicitous Conversation
 	6 Stay Smiling
 	15 Triplicate Trance
