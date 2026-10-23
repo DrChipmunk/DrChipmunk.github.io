@@ -8,7 +8,7 @@ A typical draft archetype has a pretty small footprint. Taking FRA's WU surveil 
 
 <b>Why use Draft Archetypes</b>
 
-Daft archetypes have become enough pat of Magic's identity that they can easy to take for granted, but to use them well it's impotant to undestand why they exist.
+Daft archetypes have become enough pat of Magic's identity that they can easy to take for granted, but to use them well it's important to understand why they exist.
 
 The most important job of a draft archetype is to guide new players (new to draft or just new to your set) through the draft. Since your custom set is going to be drafted a lot less than a canon set, making those first few drafts good is even more important. Suppose Timmy sits down for his first draft of your set. Timmy isn't very good at card evaluation, but he sees a red-white gold uncommon with the phrase "attack with exactly two creatures" on it. He decides to pick it, and from this point forward picks every card he can find with those words on it, picking whatever red or white card seems most appealing when no such option is present. At the end of the draft, Timmy has a functional deck with a real game plan and some synergy. He goes 1-2, but one game he manages to attack with two creatures to trigger three different cards and hit his opponent for 12 in one turn, and that feels pretty good. 
 
@@ -16,7 +16,7 @@ Did Timmy draft optimally? Of course not, the optimal drafting strategy was to s
 
 Draft archetypes add value to the set even for stronger drafters, most notably by making decks feel distinct from each other. Having these synergy packages can make the experience of drafting and playing WU blink feel different than that of drafting UB threshold (or even a WU deck that didn't get a strong blink theme). This gives a set more variety and replayability on repeat drafts. Draft archetypes also improve signaling by making cards have different values to different decks, allowing skilled drafters to identify and be rewarded for identifying not only open colors but open pairs.
 
-Draft archetypes can also impact how your set feels for constructed and at rare and mythic. Every set you have to make new cards. Some of those are going to be cards that could have been in any set but you came up with them for this one. Many of them are using new mechanics, which makes them automatically something novel. But a good chunk of them are cards that contain text for an archetype. Before EOE there weren't many cards that said "if you control two or more tapped creatures", but it was the RW theme so they got to make some and have it feel natural. Sometimes these archetypes can even be pushed as a constructed thing.
+Draft archetypes can also impact how your set feels for constructed and at rare and mythic. Every set you have to make new cards. Some of those are going to be cards that could have been in any set but you came up with them for this one. Many of them are using new mechanics, which makes them automatically something novel. But a good chunk of them are cards that contain text for an archetype. Before EOE there weren't many cards that said "if you control two or more tapped creatures", but it was the RW theme so they got to make some and have it feel natural. Sometimes these archetypes can even be pushed for constructed.
 
 <b>Criteria of a Good Draft Archetype</b>
 
