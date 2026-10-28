@@ -1,0 +1,209 @@
+Common Set Sudoku - Worked Example
+
+This article is a deep dive into the process of designing commons.
+
+We will be discussing the white commons for the hypothetical set Rivers of Blood (RBL). Before any work can happen on commons, the following things have already been decided on.
+
+<b>Set Pitch, Mechanics, and Archetypes</b>
+
+Type of project: Play booster set, designed for draft and standard-like constructed
+
+Flavour pitch: The decline and fall of the Qing dynasty
+Mechanical pitch: Cruelty. The set should feel mean while staying within the bounds of good gameplay
+
+Mechanics:
+WUBRG - Incident (Battle subtype. An opponent defends this. After your draw step, remove a defence counter unless they pay 1 life.)
+WUB - Develop <cost> (While paying a develop cost, you may sacrifice a creature or artifact to reduce the cost by its mana value.)
+UBR - Carnage <cost> (You may cast this card from your graveyard for its carnage cost if a player lost life this turn. Then exile it.)
+BRG - Zeal <cost> (You may cast this for its zeal cost. It gains haste. At the beginning of your end step, exile it. You may cast it later without zeal.)
+RGW - Worker tokens (It's a green 2/1 Soldier that can't attack alone and can't block.)
+GWU - Mandate (Ability word. ...where X is the number of mana values among nonland permanents you control.)
+
+Archetypes:
+WU - Artifacts (Mid-Slow)
+UB - Self-Mill (Slow)
+BR - Paradox (unkeyworded) (Mid-Slow)
+RG - "Attack with total power 4 or greater" (Fast)
+GW - Tokens (Mid-Fast)
+WB - Sacrifice (Mid-Slow)
+BG - "Three creatures with different powers" (Mid-Fast)
+GU - Big Mandate (Slow)
+UR - Noncreature spells (Mid-Fast)
+RW - Soldier typal (Fast)
+
+<b>Making Requirements</b>
+
+For the sake of this exercise, this set has no gold or hybrid commons. If your set does have gold or hybrid commons, you should make those before the mono-color commons because hybrid design space is highly limited. Gold and hybrid commons can count towards the quotas or all color pairs and combinations they can be played in.
+
+81 total commons, minus 6 lands / colorless cards, leaves 15 cards per color.
+
+I'll be doing white commons in this article, partially because it's first in WUBRG order but also because white is often a tough color to manage, especially because of the crunch on noncreature cards. 
+
+Maro's skeleton, which is a good start, says
+1x 1-drop, 3x 2-drop, 3x 3-drop, 2x 4-drop, 1x 5-drop, 1x 6-drop, 3x removal, 1x combat trick
+(These skeletons have remained pretty accurate. although they contain more expensive creatures than most sets want. If you need room, those are usually the slots to go.)
+And 3x flying, 2x vigilance, 1x lifelink
+(Getting enough common fliers if often an arting challenge)
+
+Next, mechanics. Battles are a mechanic that you could easily keep at uncommon and above because you don't want them in high density, but I'd like five at common, one for each color. So
+1x Incident
+
+For the mechanics that exist in three colors, I'm expecting about 4 or 5 commons for each of them. Search scryfall to get a sense of what kind of density your mechanics need. A small factiony mechanic that only appears in two or three colors is usually 4 or 5 commons, while something more core the set identity might go up to 10 or 15. So penciling in
+1-2x Mandate
+1-2x Develop
+1-2x Worker Tokens
+
+The big requirements often come from archetypes. 
+WU is artifacts. As an additional complication, this art file doesn't have a lot for artifact creatures, so I'll need to reach artifact count through some creative means.
+1x Artifact payoff
+4x Artifacts
+
+Similar deal for tokens. My default layout for a two color archetype is one payoff in each color and four enablers in each color. Sometimes an archetype will end up with one or three total common payoffs, if so compensate at uncommon.
+1x Token payoff
+4x Token maker
+
+Soldiers, same deal
+1x Soldier payoff
+4x Soldiers
+
+But some archetypes don't easily split into enablers and payoffs. A BW sacrifice deck needs a good amount of both sacrifice fodder and sacrifice outlets. Call it 8 fodder, 4 outlets. So
+2x Sac outlet (repeatable counts as 1, one-off counts as 0.5)
+4x Sac fodder
+
+Note that all of these are minimums - I'm not going to complain about an archetype being over-supported
+
+<b>Getting Underway - Battles and Artifacts</b>
+
+The place to start is with the most constricted slot. For this set that's definitely the Incident. There is a very small list of effects that can go at common, happen either first main or during combat, and happen repeatably on the same card. Red and black are the usual problems for effects like this. White almost always gets token making, and for good reason; there really isn't any room in the white skeleton for anything else.
+
+Let's talk token layouts. There's the worker tokens, of course. If there's this widely played 2/1 token, I don't want 1/1 vanilla tokens because they block workers so well. But there is a token deck, so I need some variety of tokens. Let's go with a 1/1 flying artifact token. Maybe a Thopter, maybe something a bit more mean like a Drone (we're about a century too early for the era of drone combat, but the mechanization of warfare is a big factor in this time period, and air forces are becoming prominent). This will help get a high density of artifacts without needing too many artifact creature arts, and will also be good at pecking down battles. There will also probably be a larger token to fill out the token deck, maybe 3/3 Beast with trample or something, but white doesn't need to make it.
+
+So our Incident has enter and defeat: make a 1/1 flier. I could cost that at 1W, but 2 mana for two flier is a bit more than I want to push a common, so I'll go with 3 mana with upside, let's say surveil 1.
+
+White common 1: Seven Eyes Seven Truths Campaign - 2W - Battle - Incident - 3 Defence - When this battle enters or is defeated, create a 1/1 colorless Drone artifact creature token with flying and surveil 1.
+Slots filled: 1x artifact, 1x incident, 1x flying, 1x token, 1x 3-drop, 0.5x sac fodder (I'm counting weak but not fully disposable tokens as half a sac fodder)
+
+I think fitting all these artifacts into the set is going to be a problem with the restricted supply of artifact creature arts. Let's go there next. An Equipment makes sense, and because we have no slots for noncreatures that aren't removal or combat tricks it's got to make a token and auto-equip. I could have it make a worker, but the artifact deck is on the slower end so it wants its creatures to block. Let's do the Drone token again. I want the cards for the artifact deck to be spread out on the curve, and we just made a 3 drop for that deck, so let's try to fit this in at 2. We have just begun to see 2 mana 2-power fliers at common (Piranha Fly, DSK) so I think that's doable in an aggressive-leaning set. Comparing Barbed Spike and Dragoon's Lance, this probably wants to play safe with the rest of the design.
+
+White common 2: Leaflet Launcher - 1W - Artifact - Equipment - When this Equipment enters, create a 1/1 colorless Drone artifact creature token with flying, then attach this Equipment to it. - Equipped creature gets +1/+0. - Equip {3}
+Slots filled: 1x artifact, 1x flying, 1x token, 1x 2-drop, 0.5x sac fodder
+
+This is very much the era of Vehicles, so it would feel weird not to include them at all. A Vehicle that brings with it a token capable of crewing it about counts as a creature. I'll pencil it in at 4 mana with a note that it can get shuffled around.
+
+White common 3: Salvaged Landship - 3W - Artifact - Vehicle - 3/3 - When this Vehicle enters, create a worker token. - Crew 2
+Slots filled: 1x artifact, 1x token, 1x worker, 1x soldier, 1x 4-drop, 0.5x sac fodder
+
+And the last artifact can fill the removal slot.
+
+White common 4: Imperial Cell - 2W - Artifact - When this artifact enters, exile up to one target nonland permanent until this artifact leaves the battlefield.
+Slots filled: 1x artifact, 1x removal
+
+Looking at our layout of artifacts, they're looking like a fliers archetype - flying creatures, defensive ground creatures, removal. That gives the sense that the artifact payoff should be some defensive ground creature.
+
+White common 5: Manic Industrialist - 2W - Creature - Whenever an artifact you control enters, put a +1/+1 counter on this creature.
+Slots filled: 1x artifact payoff, 1x 3-drop
+
+<b>The Low Drops</b>
+
+That's the difficult card types out of the way. There's always lots of contention for the cheap creatures since lots of strategies rely on having good cheap creatures to function (relatively few strategies rely on good expensive creatures). One 2-drop is already spoken for by a card that the artifact and token decks will want. 
+
+The soldier deck is meant to be the most aggressive, so it really needs a good 2-drop to function. Let's do a classic shape. 
+
+White common 6: Jadeheart Vanguard - 1W - Creature - Soldier - 3/1 - Whenever another Soldier you control enters, this creature gains first strike until end of turn.
+Slots filled: 1x 2-drop, 1x soldier payoff
+
+And there's a sac deck, so we need some cheap sac fodder. It's always hard to find good roles for the common 1-drops; sac fodder is one of the classic roles they play. So I think we can get away with the push of
+
+White common 7: Village Martyr - W - Creature - 1/1 - When this creature dies, create a worker token.
+Slots filled: 1x 1-drop, 1x worker, 1x token, 1x soldier, 1x sac fodder
+
+As I'm doing this, I have a running total of all these slots in my notes.
+
+<b>Fitting the mechanics</b>
+We have both of our cards that make worker tokens, but we still need the other two mechanics. I want one one-off develop cost and one repeatable develop cost. For the one-off, something that has a develop cost to cast makes sense. Develop being card disadvantage when you sac things to it means I like the idea of this being a cantrip creature. We're still missing a flier. Maro's common skeleton has more expensive creatures than decks actually want, so it's good practice to give the most expensive slots cheaper modes (often landcycling fills this role).
+
+White common 8: Sower of Poppies - WW - Creature - 3/3 - As an additional cost to cast this creature, develop {4}. - Flying - When this creature enters, draw a card. 
+Slots filled: 1x 6-drop, 1x develop, 1x flying, 0.5x sac outlet
+
+Maybe this will do something in constructed with unearths or something.
+
+For the repeatable develop, putting it on an attack trigger makes sense. Let's use out other 2-drop slot. We already have a 1/1, a 2/1 flier, and a 3/1 in our low drops, so this can be a 2/2 to vary up the statlines.
+
+White common 9: Medical Innovator - 1W - Creature - 2/2 - Whenever this creature attacks, you may develop {3}. If you do, put a +1/+1 counter on it.
+Slots filled: 1x 2-drop, 1x sac outlet, 1x develop
+
+Onto Mandate. There's a limited number of scaling effects that work at common. There's expensive card that costs X less (probably green). Give creature +X/+X until end of turn (green also). Blue can do put X stun counters, and maybe look at top X put one in hand. Since this mechanic isn't in black or red, white's the only color that can do scaling removal, and the other one will have to be gain X life.
+
+White common 10: Judge Uncouth - W - Instant - Judge Uncouth deals X damage to target attacking or blocking creature, where X is the number of mana values among nonland permanents you control.
+Slots filled: 1x mandate, 1x removal
+
+White common 11: Court Philosophers - 3W - Creature - 2/4 - When this creature enters, you gain X life, where X is the number of mana values among nonland permanents you control.
+Slots filled: 1x mandate, 1x 4-drop
+
+<b>Final Slots</b>
+Let's look at what we still need
+
+1x 3-drop, 1x 5-drop, 1x combat trick, 1 removal, 2x vigilance, 1x lifelink, 1x token payoff, 0.5x sac outlet, 0.5x sac fodder, 1x soldier
+
+Hmm. This 5-drop is a bit of a problem. I don't want it to be the token payoff (that deck is meant to be fast) or the sac outlet (that's a little too pricy, plus that deck currently has no 3-drop). Also, I've somehow not put any vigilance in the set yet. I can solve both of these problems with some shuffling.
+
+White common 3 (revised): Salvaged Landship - 4W - Artifact - Vehicle - 4/4 - Vigilance - When this Vehicle enters, create a worker token. - Crew 2
+Slots filled: 1x artifact, 1x token, 1x worker, 1x soldier, 1x 4-drop, 0.5x sac fodder
+Slots un-filled: 1x 4-drop
+Additional slots filled: 1x vigilance, 1x 5-drop
+
+I don't want too much repeatable life-gain in this set (I want the Incidents to really put the squeeze on people). So let's make the lifelink temporary - probably on the combat trick. That can also be a source of sac fodder since the sac outlets can sac artifacts.
+
+White common 12: Banner of Heroism - 1W - Artifact - Flash - When this artifact enters, target creature you control gets +2/+2 and gains lifelink until end of turn. - 2W, Sacrifice this artifact: Surveil 2.
+Slots filled: 1x artifact (which puts us over, that's just fine), 1x combat trick, 1x sac fodder, 1x lifelink
+
+The last removal spell can't be a bone shards (that's gotta go in black), and we've already done damage-based, punishes-attackers, and o-ring, so the last genre of white removal is hitting big creatures. I like to seed enchantment removal into white commons somewhere, and in this set it should also hit battles.
+
+White common 13: Tactical Disengagement - 1W - Sorcery - Exile target creature with toughness 4 or greater, enchantment, or battle.
+Slots filled: 1x removal
+
+That leaves
+1x 3-drop, 1x 4-drop, 1x vigilance, 1x token payoff, 0.5x sac outlet, 1x soldier
+
+And it's just a matter of finding two designs that check these boxes. At this point I am also going through the creature sizing and realizing I want at least one of these to have toughness 2 since that's the number we're short on.
+
+White common 14: Starvation Specialist - 2W - Creature - 3/2 - When this creature enters, you may sacrifice a creature or artifact. When you do, put two +1/+1 counters on target creature.
+Slots filled: 1x 3-drop, 1x sac outlet
+
+White common 15: Peasant Commander - 3W - Creature - Soldier - 3/3 - Vigilance - When this creature enters, creatures you control get +1/+1 until end of turn. Tokens you control gain indestructible until end of turn.
+1x 4-drop, 1x vigilance, 1x token payoff, 1x soldier
+
+<b>The Final Layout</b>
+In skeleton order
+
+Village Martyr - W - Creature - 1/1 - When this creature dies, create a worker token.
+
+Medical Innovator - 1W - Creature - 2/2 - Whenever this creature attacks, you may develop {3}. If you do, put a +1/+1 counter on it.
+
+Jadeheart Vanguard - 1W - Creature - Soldier - 3/1 - Whenever another Soldier you control enters, this creature gains first strike until end of turn.
+
+Leaflet Launcher - 1W - Artifact - Equipment - When this Equipment enters, create a 1/1 colorless Drone artifact creature token with flying, then attach this Equipment to it. - Equipped creature gets +1/+0. - Equip {3}
+
+Starvation Specialist - 2W - Creature - 3/2 - When this creature enters, you may sacrifice a creature or artifact. When you do, put two +1/+1 counters on target creature.
+
+Manic Industrialist - 2W - Creature - Whenever an artifact you control enters, put a +1/+1 counter on this creature.
+
+Seven Eyes Seven Truths Campaign - 2W - Battle - Incident - 3 Defence - When this battle enters or is defeated, create a 1/1 colorless Drone artifact creature token with flying and surveil 1.
+
+Peasant Commander - 3W - Creature - Soldier - 3/3 - Vigilance - When this creature enters, creatures you control get +1/+1 until end of turn. Tokens you control gain indestructible until end of turn.
+
+Court Philosophers - 3W - Creature - 2/4 - When this creature enters, you gain X life, where X is the number of mana values among nonland permanents you control.
+
+Salvaged Landship - 4W - Artifact - Vehicle - 4/4 - Vigilance - When this Vehicle enters, create a worker token. - Crew 2
+
+Sower of Poppies - WW - Creature - 3/3 - As an additional cost to cast this creature, develop {4}. - Flying - When this creature enters, draw a card. 
+
+Judge Uncouth - W - Instant - Judge Uncouth deals X damage to target attacking or blocking creature, where X is the number of mana values among nonland permanents you control.
+
+Tactical Disengagement - 1W - Sorcery - Exile target creature with toughness 4 or greater, enchantment, or battle.
+
+Imperial Cell - 2W - Artifact - When this artifact enters, exile up to one target nonland permanent until this artifact leaves the battlefield.
+
+Banner of Heroism - 1W - Artifact - Flash - When this artifact enters, target creature you control gets +2/+2 and gains lifelink until end of turn. - 2W, Sacrifice this artifact: Surveil 2.
+
+This is by no means final. In the process of an actual set, I would repeat this process for every color, and then start tweaking and shuffling, taking care to keep the necessary slots full. Arting can force some cards to change, cards that prove too strong in early drafts and feedback will need to be toned down or replaced, constructed plants can force other cards to move around, etc.

@@ -8,7 +8,7 @@ A typical draft archetype has a pretty small footprint. Taking FRA's WU surveil 
 
 <b>Why use Draft Archetypes</b>
 
-Daft archetypes have become enough pat of Magic's identity that they can easy to take for granted, but to use them well it's important to understand why they exist.
+Draft archetypes have become enough pat of Magic's identity that they can easy to take for granted, but to use them well it's important to understand why they exist.
 
 The most important job of a draft archetype is to guide new players (new to draft or just new to your set) through the draft. Since your custom set is going to be drafted a lot less than a canon set, making those first few drafts good is even more important. Suppose Timmy sits down for his first draft of your set. Timmy isn't very good at card evaluation, but he sees a red-white gold uncommon with the phrase "attack with exactly two creatures" on it. He decides to pick it, and from this point forward picks every card he can find with those words on it, picking whatever red or white card seems most appealing when no such option is present. At the end of the draft, Timmy has a functional deck with a real game plan and some synergy. He goes 1-2, but one game he manages to attack with two creatures to trigger three different cards and hit his opponent for 12 in one turn, and that feels pretty good. 
 
