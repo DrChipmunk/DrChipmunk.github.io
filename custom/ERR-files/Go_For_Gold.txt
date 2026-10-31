@@ -226,3 +226,45 @@ Elo Update
 8 (-1): philippe saner | 1581 (-4)
 9 (+17): hsquid | 1564 (+49)
 10 (+2): kumrac | 1560 (+8)
+
+<b>Grand Prix Goldport</b>
+
+The first month of SGP's season brought a wide variety of decks to bear. Although SGP was at first glance a less powerful set than Revolution's last few, it provided a few key pieces that put some decks over the top.
+
+(Note that I was at a silent meditation retrest for the last week of the month and so didn't see most of this GP live.)
+
+The scariest deck of SGP season was undoubtedly Something in the Soil combo. The interaction with Caphella meant that the third Soil could reliably win the game on the spot, and for a 3 mana sorcery that you could play any number of, this could happen fast. Only two players brought the card, and the field was well-prepared, so neither made top cut.
+
+Two players managed to make top cut with refined lists from last season that featured no SGP cards at all. Scribbl with Simic Flash and RickyRister with Izzet terrors used the three extra months of refinement to bring polished and practiced lists of two decks that did well in IWH and VLR season and survived mostly unnerfed.
+
+Two aggressive packages from SGP showed some promise. On one side was the void calls package, enabled mostly by discard outlets Gilded Noon Entertainer and Calamity Cat and sel-mill from Mercenary of Dusk to grow Ashen Ravager and bring back Insatiate Slasher. Itaiuukl brought the most aggressive variant of this archetype to a respectable 5th. The other was the artifact aggro package, headlined by The West District Hangar easily giving all creatures and burn spells +2 damage. RW versions did well in league but Lih found a more midrangey Naya build that got all the way to finals.
+
+Lih was also playing one of SGP's most straightforwardly powerful cards in Gloamveil Trackers. Green aggro getting the pushed 4-drop it had been looking for enabled a number of variants, including an upgrade to the old reliable golgari midrange, piloted by tyabely, and a GW build piloted by AllWhoWander that also featured the Architect of Resolve - Crucible of the Burning Sun interaction. With both of those cards in play, any creature dying is replaced by two tokens, including the tokens themselves.
+
+The breakout card of the tournament was Zaila's Arbiter. Despite making tricky demands of the manabase, this Eldrazi Angel is even stronger in REV as its inspiration Aang is in canon standard. Epid and Styles both made top cut with WUC tempo decks that could ramp out the angel with Radiant Devotee, and SilverParabellum fit it into a GWUC control deck that made it to finals and took down Lih for Silver's first GP win and worlds invite.
+
+Elo Update
+1 (=): cftsoc3 | 1636 (-7)
+2 (+4): lihlosaur | 1625 (+25)
+3 (+2): covetedpeacock | 1619 (=)
+4 (-1): rickyrister | 1619 (-2)
+5 (-1): kayiu102 | 1615 (-6)
+6 (-4): drchipmunk | 1611 (-17)
+7 (=): provocative | 1581 (-4)
+8 (=): philippe saner | 1577 (-4)
+9 (+1): allwhowander | 1571 (+13)
+10 (-1): kumrac | 1560 (=)
+
+<b>Grand Prix Aureth Cross</b>
+
+After a light nerf match at the start of October and with many designers occupied with Field Test, tried and tested strategies rose to the top in SGP's second GP. 
+
+A couple players tried to make aggro work into a midrange- and control-heavy field, with red-black, mono-black, and red-white strategies all showing promise, but none made top cut. Artifact aggro, last month's surprise standout, got hit hard by nerfs; discard and activated-ability packages were not sufficient to replace it.
+
+There was good representation for UR spells decks, which settled on a slower build focused on terrors instead of the prowess-focused build of cftsoc's reign. Rickyrister, the player most experienced with the archetype, got a version with Leiowen as its third creature to a third place finish.
+
+Gloamveil trackers continued to impress, making its name as the format's premier 4-drop. Fair midrange decks proved to be its most usccessful home. Borfotron brought a jund deck that played the format's best 1-, 2-, 3-, and 4-drops (Huskforger, Exorcist, Anomaly, and Gloamveil) to an undefeated performance in the swiss. Tyabely also made top 8 with a black-green midrange deck playing card advantage engines Soya and Vardo as it's 3-drops.
+
+Silverparabellum won last month's GP on a GWUC control deck leveraging, ramp spells, powerful board wipes like Ayeshi Breaks the Loop, and the tempo play of Zaila's Arbiter to hold down the early game. He ran it back, making it all the way to finals, where he met Epid on the same archetype. Styles leveraged Zaila's Arbiter and Subsume Reality in a more aggressive WUC angels shell, also making top 8.
+
+Silver was unable to make the repeat happen and Epid overcame the deck's designer for the GP win and worlds invite.

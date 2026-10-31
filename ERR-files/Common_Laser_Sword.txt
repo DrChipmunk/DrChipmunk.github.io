@@ -33,7 +33,7 @@ RW - Soldier typal (Fast)
 
 <b>Making Requirements</b>
 
-For the sake of this exercise, this set has no gold or hybrid commons. If your set does have gold or hybrid commons, you should make those before the mono-color commons because hybrid design space is highly limited. Gold and hybrid commons can count towards the quotas or all color pairs and combinations they can be played in.
+For the sake of this exercise, this set has no gold or hybrid commons. If your set does have gold or hybrid commons, you should make those before the mono-color commons because hybrid design space is highly limited. Gold and hybrid commons can count towards the quotas of all color pairs and combinations they can be played in.
 
 81 total commons, minus 6 lands / colorless cards, leaves 15 cards per color.
 
@@ -43,7 +43,7 @@ Maro's skeleton, which is a good start, says
 1x 1-drop, 3x 2-drop, 3x 3-drop, 2x 4-drop, 1x 5-drop, 1x 6-drop, 3x removal, 1x combat trick
 (These skeletons have remained pretty accurate. although they contain more expensive creatures than most sets want. If you need room, those are usually the slots to go.)
 And 3x flying, 2x vigilance, 1x lifelink
-(Getting enough common fliers if often an arting challenge)
+(Getting enough common fliers is often an arting challenge)
 
 Next, mechanics. Battles are a mechanic that you could easily keep at uncommon and above because you don't want them in high density, but I'd like five at common, one for each color. So
 1x Incident

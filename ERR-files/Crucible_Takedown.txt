@@ -1,0 +1,348 @@
+Survivor 7 - Tales from the Judge Chat
+
+<i>I was a judge for MSE Survivor season 7. It was a lot of fun. Going to share some artifacts of that experience here. Italicized text is Chip writing now. You can find all the survivor reviews at https://docs.google.com/spreadsheets/d/1j100WUfPUdOWecOUxKsC78l0FeWa3An9z7tn4aiOsb0/edit?usp=sharing</i>
+
+<b>Round 1</b>
+By now this challenge has become something of a mainstay so who are we to deny you your fun?. Your very first challenge as newly inducted Survivor Season 7 contestants is to design three cards, each part of the same limited archetype.
+
+We’re keeping things simple for S7’s start so we are only looking for:
+One (1) two or three colored uncommon card.
+Two (2) monocolored (color, not color identity) common cards, each of a different color matching your uncommon.
+
+As usual, we want your three cards to feel as if they are from the same set so we’re equally looking for aesthetic/thematic cohesion.
+
+<i>I was really trying to overachieve so i actually wrote my own rubric for this one</i>
+
+Balance
+Are the commons at an acceptable power level for common? Would you actually want them in this deck? Are they an effect a deck might want multiple of?
+Is the uncommon at an acceptable power level for uncommon? Does it pull you into its deck? Does it encourage the synergy it's meant to encourage?
+Is anything going to break constructed?
+Prompt 
+Are there two commons and one uncommon of the colors requested? Is the artist credit, mechanic credit, numbering, etc. correct?
+Could this archetype work? Has the designer shown an understanding of this deck's strengths, weaknesses, and desires?
+Is the archetype novel? Does it contain something that will play in a new way?
+Gameplay
+Would these cards lead to fun games of limited? Do they avoid common gameplay issues? 
+Would this deck be fun to play? Would it be fun to draft? Would it be fun to play against?
+Do the cards have a clear purpose and role in their deck?
+Flavour
+Do these three cards look like they came from the same set? Do I get a sense of what the set is like tonally?
+Is the flavour text concise, clear, polished, and evocative? Do the names match the art and flavour text?
+Does the art look good? Does it match the mechanics?
+Elegance
+Are the cards at an appropriate level of comprehension and boardstate complexity for their rarity?
+Are the cards as simple as they could possibly be? Have they done what they do in a clear manner?
+Are there clear synergies between the cards that emerge from their mechanics in a not-heavy-handed way?
+Syntax
+Are the rules and syntax fully correct and standard?
+Have any potential rules corner cases and odd play patterns been addressed?
+Is reminder text for any new mechanics concise and clear?
+
+<i>Excerpts from the judge chat. All text here is me writing. I'm not including discussion of specific entries, which was a lot of it, especially in later rounds</i>
+
+I'm letting people do their simple commons but everything on that card better be perfect
+If it's a mana overcosted or is a 1/3 when a 3/1 would fit the archetype better or has boring flavour text, that's counting for a lot.
+
+Looking at the designs where Piguy and I both reviewed the same submission. Broadly agree; I think you're dinging people for having a second mechanic in their submission, which I'm counting as a neutral or even positive thing.
+Often a MN <mechanic> deck will have a card that's important to it that has <other mechanic>
+
+<i>I sent a message in the public chat after most rounds explaining my general thoughts</i>
+
+General Comments:
+- I'm glad to see that most of you took the repeated warnings bout complexity to heart and submitted cards without extraneous elements or excessive lines of text. Good job.
+- There were a lot of commons that missed the mark on power level. The band of acceptable power level for commons is not that wide; vanilla 2 mana 2/2 is too weak, vanilla 2 mana 3/3 is too much. This will keep being a key marking criterion on commons intended for draftable formats.
+- I see a lot of talk about people "playing it safe" and I'm not sure what that means. Entries with new mechanics or without, in well-trodden or novel space, on canon planes or new ones, with very simple cards or slightly less simple ones, all got high grades or low grades depending on their quality. I don't think there's a safe approach; if you think there's an easy and risk-free way to get a good grade, you may be underestimatng our standards.
+- There are some great flavour-text writers in here and it bumped a few entries up a grade that they managed to be evocative in the space available.
+
+<b>Round 2</b>
+Each contestant will need to choose a mana cost (e.g. U, 2:, 2RG, etc.). Then, each contestant will need to design three cards; 
+- each card must have exactly the mana cost you chose
+- each card must be rare or mythic rare
+- each card must be of a different card type with no overlaps. (You may not choose land as a type.)
+- Your three cards do not need to be from the same set aesthetically but they do need to fit a standard power level.
+
+<i>From the judge chat</i>
+
+I keep thinking of myself as the nice judge but I'm realizing I have some pet peeves that can get me ranting
+
+The BBB and 1{W/B}U entries were both surprisingly good
+And XBB as well
+
+But then both w/b hybrid entries really disappointed, rare hybrid is real tough
+
+Unsure how to count "this card is underpowered but it's okay since it's for casual players"
+
+Man do I dislike cards that make me care about the difference between "destroyed" and "died"
+
+<b>Round 3</b>
+For this next challenge, you will select an existing canon plane that has already had a set and design cards for a return set to that plane.
+
+To do so, you will: 
+- Design 3 cards; one common, one uncommon, and one rare/mythic rare.
+- One or more of those cards must showcase a new mechanic that you design. You may use existing mechanics on your cards so long as you include that new mechanic.
+- Your chosen plane cannot be a plane that was only partially visited. It must have been the focal point of the set. (Vryn in Origins, Muraganda in Aetherdrift, etc.)
+- None of the cards can share a color (Color is not the same as color identity.)
+- At most, you may have one of those cards be colorless.
+
+<i>From the judge chat</i>
+
+Maybe we should be more specific with the pet peeves next time
+"Please don't strictly better Reckless Impulse"
+
+I think I'm giving people credit for trying to make the different themes of the set work together with each other
+Shows some set construction prowess
+I'm less annoyed by retreading Living Weapon than most other mechanics because it's a good mechanic you can't bring back most places because Germ is a weird type
+
+"If you're going to make boring cards, at least balance them correctly"
+
+<b>Round 4</b>
+Each participant will be designing 4 cards; one uncommon, one rare, one mythic rare and finally one wildcard of any rarity. Each of these cards must be of a standard power level and all must be from the same hypothetical standard constructed deck.
+- Cards don't need to be from the same hypothetical set, just the same hypothetical standard.
+- We aren't assigning any restrictions on color, card type, etc. It is up to you to best determine how best to use your four card slots.
+- For this challenge, you must include your deck's name on your cards. (Where the Story Spotlight normally goes for instance.) We ask that you keep the name to just a few words; the deck's color (eg. UR or Izzet are fine), one word that references a key aspect of the deck such as the theme or a key card (eg. Lessons, Landfall, Excruciator, etc), and finally the macro-archetypes (Aggro, Midrange, Control, Combo, etc.)
+
+<i>From the judge chat</i>
+
+Can't help but notice some of these entries don't have an uncommon, a rare, and a mythic
+
+My initial impression is that a lot of these entries have cards that could theoretically synergize but don't form a natural curve
+
+Is "Exile this card and another creature card from your yard as a sorcery to put a +1/+1 counter on a creature" a Narcomoeba?
+...Pip responds...
+So you're saying kill them only a little
+
+I am realizing constructed grinder Chipmunk is way pickier than designer Chipmunk
+I don't got time to play a four drop that makes me jump through two hoops to get a medium thing
+
+So many people are labelling their deck "aggro" and then giving me a slow, value-generating 4-drop or similar
+"midrange" is not a dirty word
+
+Even for WU Planeswalker control I'd love to see a card below MV3
+The average MV of a control deck is still usually like 2.5
+
+Okay.
+I'm allowing that this can exist but am still allowed to say it's a bad idea
+
+Prime example of a thing that happened a lot this round - these cards all have the same word on them but they're not actually a strong curveout
+
+Control is when a mana cost of 8?
+If I drafted all these cards I'd call it a great control deck in draft
+
+Man do we have to stop at just 7 [eliminations]?
+
+<i>I resumed the public post-results spiel this round</i>
+
+This round
+- Constructed decks are not just about explicit synergy but implicit synergy. 2 mana ramp goes with 4 drops, instants go with other instants, aggressive creatures go with burn that hits face, that sort of thing
+- Some of you don't know what "Aggro" and "Tempo" and "Control" mean. Aggro decks don't want slow 4 drops and card advantage enchantments. Control decks don't want card disadvantage interaction. Tempo decks don't want to tap out on turn 3 for a card that generates incremental value
+- Standard decks of all eras need to do something powerful by turn 4. A lot of entries had cards that theoretically synergize but not in a way where you can curve out and achieve that synergy in a reasonable timeframe
+
+<b>Round 5</b>
+You will each be designing the partial contents of a commander precon consisting of 4 cards in total:
+- One mythic rare three color legendary creature as the face commander for your Commander Precon.
+- Three monocolor cards of any rarity(?), one for each of the commander's colors. Each must be of a different card type from every other monocolor card with no overlaps.
+- At least one of your three monocolor cards must be designed specifically for multiplayer.
+- None of your cards can be double-faced cards in keeping with the Commander precon theme.
+
+<i>From the judge chat</i>
+
+Some questions - as background, I've watched many Gavin Verhey videos and a few commander actual play videos, but never played or seen this format played in person.
+Why do people play Commander? How do they decide what cards to put in their decks? How do they decide what game actions to take?
+People play some weak cards in Commander. What makes a weak card appealing to Commander players? What are some examples of such cards, and also of weak cards that aren't appealing to Commander players.
+Commander has some crazy strong cards, but they aren't the ones Commander players complain about. What makes a strong card a problem in Commander? What are some examples of strong cards that are fine - and less strong cards that aren't.
+What are some negative gameplay patterns unique to Commander (example cards would help)?
+What makes a complex card a complexity problem in commander? What complex cards are fine? (examples, etc.)
+What makes a good (or bad) face commander? (examples, etc.)
+What makes a good (or bad) card "designed for multiplayer"? (examples, etc.) 
+
+<i>...2000 word response from Piguy...</i>
+
+This is super helpful, thanks 
+Tom Brewster once described the joy of Root of "being part of the ecosystem" - just playing your part in Root's intricate network of systems, however it treats you. 
+That might be the closest analogy I'm familiar with
+
+So many "this is my multiplayer design because it has Myriad"
+
+Just got to the submission with a 10liner and a 9liner
+To be fair, we've let a number of them get away with it
+This seems like a fine time to stop. If there's going to be 40 permanents on the table, I'd prefer if none of them were cards that would be staples in Judge's Tower 
+
+Kind of feels like a general commander design idea of "design the appealing things so they actually will lead to fun games"
+As in kind of trick players into having a curve, interaction, ways to win the game
+
+I was worried about not having much to say but the weak entries are weak in sufficiently obvious ways that I think I've been able to identify them
+Still open to being corrected though
+
+<i>...Piguy Asks me about 2 of my grades...</i>
+10 - my thoughts on it basically came down to the Abraham Lincoln quote in my review - but if commander players aren't that sort of people, then I have no problem going down to a 3 or even 2
+17 - I saw the rules issues, don't know why I gave it a 3. I guess I was giving credit for the commander concept. Definitely at most 2, maybe 1
+Whoops, not Abe Lincoln - I'd always thought this was him but that's a common misattribution
+Artemus Ward
+
+I'm not disputing any grades here (not my review, also these grades aren't going to matter) but both the power level and gameplay concerns are something that depends on what you want out of commander design, and I'm curious
+Dumping out 2.5 artifacts a turn on a 3 drop and high output complexity with no way to control it are things I would be hugely against in any other round
+But are they okay in this round? I don't have the expertise to say
+
+<i>Public post-results spiel</i>
+
+This round
+- In the previous rounds, we've let nine-liners and generally overcomplicated cards survive because of other entries with more egregious errors. That's going to stop around now.
+- When designing for an eternal format, novelty is even more important. There were lots of cards submitted that were only a tiny bit different from an existing card, or the only thing interesting about them was a returning mechanic.
+- If you're going to play in the deep end of the rules pool, you better know your stuff. Surprising number of entries this week with massive, functionality-breaking rules issues
+
+<b>Round 6</b>
+It's time for Round 6: Bingo Night! here in Survivor Season 7 and our Top 24 participants are invited! So grab your Bingo Sheet and fill out a column and a row (no diagonals) to obtain your seven squares. You must use all the conditions in those squares to design four cards for the usual standard level power. Fair warning, DFCs are BANNED this round. You get four cards, that's it!
+
+<i>From the judge chat</i>
+
+That's why I'm proposing 
+An instant or sorcery with the subtype "Trap"
+Because then if anyone asks "What's the trap option" - we can say it's that one
+
+Like there was a card that made a 4/4 Octopus token. And it clearly had power budget for that token to be an 8/8. And I know it's a 4/4 because of the 4 4s prompt. But if I saw that card on its own I'd be surprised.
+I liked the ones that felt like they were designing a card to fill a set slot and ended up fulfilling the prompt just incidentally while making a good design
+
+This round felt like there was a notable gap between the haves and have-nots
+Including a lot of crazy power level mistakes
+
+Every designer has to learn "Making your reanimator / elvish piper / tooth and nail effect not let you keep / attack with / untap the creature is not a meaningful power level downgrade" once
+
+If there's a next time I'm being way more specific in my pet peeves [In the "Meet the Judges" section]
+Going to put "Edit a pineapple into the art of one of your round 1 cards if you read this" next time
+
+By the way, even though the "Trap" square was the least picked square, I do like how it defused discussion of which squares are traps. I was inspired by something a Blaseball mod said about how when someone was being a nuisance, they would time them out for 69 seconds. This gave all the people who were uncomfortable with the discussion but didn't have a way to stop it something to say to retake the conversation - they could say "Nice".
+
+So many people are omitting reminder text on such intuitive mechanics as Suspend and Hideaway
+
+I just am personally offended by F-level commons
+
+<i>Public post-results spiel</i>
+
+Chipmunk's Comments:
+- This challenge put a lot of weird constraints on your design. The best entries were the ones that made those constraints seem easy, making cards that, if I didn't know about the prompts, I could easily imagine appearing as-is in a set and would enjoy playing with.
+- Balance was a real struggle this time. There were commons that were maybe 2 mana overcosted, rares that would break upon contact with any decently creative combo player, and 5+ mana value bombs that exceed the payoff level that midrange decks should get for casting a 5- or 6-drop.
+- I really like entries that include a new mechanic. It's a great way to show off more of the set that this card is hypothetically from. That said, if I see a mechanic, I'm imagining that this is a major mechanic of the set that shapes its limited environment and will have to play with other sets in constructed; make sure you're considering those additional implications.
+
+<b>Round 7</b>
+For this round, we're increasing the amount of cards that must be designed to five cards.
+Each of these cards must be of the same rarity and must come from the same hypothetical set on top of:
+- All having a triggered ability with the same trigger.
+- All having the same card type.
+- All having a different color; you can do monocolored or multicolored cycles.
+
+<i>From the judge chat</i>
+
+Going to need an Australian to evaluate entry 13
+And give their professional Australian opinion
+
+This challenge seems pretty easy so I feel my standards are raised
+Somewhat hard to compare the entries with really tight cycles to those with more varied cycles
+There's a sense in which a tight cycle is doing less design total? Which means each decision has to count for more
+
+I do think some of the tight cycles fell into "this card completes the cycle but it's not a reasonable card on its own"
+Usually the green one for some reason
+
+<i>Public post-results spiel</i>
+
+Chipmunk's Comments
+- You know what I said about using a UB being risky, because the judge might not know about the thing you're referencing and be confused, or might just not like the thing you're referencing, or might like it but see it differently from you? Well that also goes for using a format other than limited or standard, and for the same reason.
+- Some judges care about an entry holistically; how coherent it is, how it excites as a whole. Other judges are more focused on how each individual card will play. Good entries this week manaaged to satisfy both.
+- There are certain effects that set off alarm bells in people experienced with constructed. Certains kinds of tutors. Certain kinds of mana cheating. Blinkable and recurrable things that should not be blinkable or recurrable. Between the judges, we've been burned by this stuff enough times to not want to play with fire again.
+
+<b>Round 8:</b>
+- For this challenge you will design five cards for a set pitch on an entirely new plane (and therefore new set). Here's a quick rundown of the criteria you'll need to fulfill when submitting this time around:
+- Your five cards must be showcasing a new plane.
+- You must include at least one new mechanic in your entry.
+- You must represent each color at least once in your entry.
+- You must represent at least two different rarities. You can obviously do more but two is the minimum; no submitting all rares.
+- You must include the name of your set on your cards; we recommend the usual area where Story Spotlight usually goes.
+
+<i>From the judge chat</i>
+
+I do feel like one of the TAs for MSE101 sometimes
+Professor Times comes up with the assignments, I just grade them
+
+Agreed on what Scribbl is saying
+I was on team "you can have less innovative cards if they're well-designed" before but this is a set pitch. Pitch me the dang set
+
+<i>Public post-results spiel</i>
+
+Chipmunk's Comments
+- I have to have your submission and my grading document open at the same time, so could you put your cards in two rows for the sake of my eye strain? Thanks.
+- Scribbl's usually the one beating this drum, and this week I join him. On a challenge like a set pitch where you're trying to say something about the environment outside your cards, every piece of card real estate is scarce and needs to be usesd to say as much as possible.
+- We've reached the point in the competition where no one's submitting entries that just straight don't work. The next-most common way people get got at this point are balance level errors and play pattern errors. To Beens' adage - "We want players to attack, and we want them to cast spells - preferably different spells" - I'd add "And we want every powerful card to have clear counterplay".
+
+<b>Round 9:</b>
+For this round, we're going back to where it all began--the Planeswalker Challenge. You'll design one planeswalker, one creature whose name references that planeswalker, and one instant or sorcery spell representing an impactful moment in that planeswalker's story.
+
+Then, to celebrate the upcoming release of Reality Fracture, you'll do it again! For the same character, you'll design the same trio of cards from a different timeline. The second trio must share no colors with the first, and must be from a different set. The creatures must also represent different characters.
+
+That is, in total, six cards:
+Two planeswalkers representing the same character, in different colors across different timelines;
+Two creatures with names that reference your planeswalker, representing different characters, also in different colors across different timelines;
+and two instants/sorceries that represent flavorful moments from your planeswalker's story arc. It should go without saying, but also in different colors across different timelines.
+And as a reminder, your two trios must be from different sets.
+
+<i>Public post-results spiel</i>
+
+Chipmunk's Comments:
+- This round was very very close. I think every single one of these entries could have earned a 4 from me in any previous round. Really well done to all of you.
+- That meant this came down to a lot of minor gripes and tiebreakers. One of the gripes that came up a lot was cards with very high Lion's Eye Quotient (Pip's term). I am not a fan of cards that have only one, unfair, use case that overshadows any other way you could use them.
+- When comparing entries that made similar numbers of mistakes, what counted was the ability to impress someone, even if it wasn't me. The best entries made every card something that could impress someone, and the weaker entries had cards that didn't say anything new.
+
+<b>Round 10:</b>
+Everyone is so excited for the Promised Year finale, so why wait? We're getting a head-start with the Promised Beginnings challenge. For this challenge, you'll pitch three sets, each of which must get a title and a blurb (maximum of 100 words) describing the flavor and the world. Then, for each set pitch, you'll design two cards: One creature, and one noncreature artifact/enchantment/instant/sorcery.
+
+The constraints:
+- At least one of your sets must be a return set, and at least one of your sets must be a new plane.
+- Each color must be represented at least once across your six cards.
+
+<i>From the judge chat</i>
+
+<i>...to scribbl...</i>
+Agreed on not liking one-liners that feel like they aren't present in the world
+So far I agree with all your takes and we have given the exact same grades
+Proving we have only correct opinions
+
+I am pretty disappointed by the two entries whose flavour pitches are more about what a specific character is doing than what the world is
+
+<i>We weren't allowed to see the public chat after this round so no spiel</i>
+
+<b>Round 11:</b>
+Congratulations on advancing to the season finale of MSE Survivor! Your finals entry will be building directly off of your semifinals submission--it's time to complete the Promised Year. For the finals challenge, you'll pitch three more sets, each of which should get a title and a blurb describing the flavor and the world. Then, for each set, you'll design two cards: One creature, and one noncreature artifact/enchantment/instant/sorcery.
+
+Sound familiar? Good. It should. The constraints on these three new sets are almost identical to the previous challenge: At least one must be a new plane, and each color must be represented once across these six new cards. You don't have to add another return set this time, but you can if you choose.
+
+Then, for all six of your Promised Year sets, you'll design twelve more cards, matching the following constraints:
+- two new cards for each of the six sets.
+- three of the cards will have new expert-level mechanics that weren't part of your semifinals submission
+- three of the cards will be Story Spotlight cards
+- three of the cards will be rares or mythics designed for Standard play
+- three of the cards will be uncommon multicolor signposts for a limited archetype
+- and finally, you can't design two cards from the same bucket for a single set; so if your first card for a set is a Story Spotlight, the second can't also be a Story Spotlight.
+
+That will be 18 new cards total.
+
+<i>From the judge chat</i>
+
+Named character on a common nonlegendary card: Genius or Goof?
+If they stuck to the bit and didn't use legendary for the rest of the submission I'd respect it
+
+Sudo remains a wild name for your main character 
+Sudo and their companions vim, grep, and mkdir
+
+Congratulations Splashcat for making me realize there's a maximum cell height on google sheets
+I have made your column wider so it actually fits
+
+One thing I am willing to be forgiving on is verbose reminder text
+I think a lot of these mechanics with very long reminder text could be made much more concise
+But that's hard to do on your own and I understand trying to be maximally clear
+
+For how much we argued last few rounds this one feels very uncontentious
+
+<i>Public post-results spiel</i>
+
+Chipmunk's Comments
+- All three of these entries had some great ideas in them. You should all be really proud of getting this far
+- A lot of this round came down to mechanic design. Big things we're looking for included "can this function in limited?" and "is there a way of doing this that is functionally the same but less complicated?". There were quite a few mechanics that had splash factor but looked like they would be problems in the development of a full set.
+- I'd like to shout out the other judges; we had a lot of fun behind the scenes. Especially Splashcat, who I haven't worked with before, impressed me with their insight and lucidity.
